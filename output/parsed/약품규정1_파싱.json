@@ -1,0 +1,16 @@
+{
+  "source_file": "약품규정1.pdf",
+  "title": "약품규정1.pdf 파싱 결과",
+  "extraction_method": "image PDF; Korean OCR; visually corrected against rendered pages",
+  "preamble_markdown": "- 문서 제목: 화학약품 안전관리 매뉴얼(중등)\n- PDF 페이지 수: 1쪽(인쇄면 6-7쪽의 펼침면)\n- 추출 방식: 이미지형 PDF 한국어 OCR 후 육안 교정",
+  "sections": [
+    {
+      "heading": "인쇄면 6쪽 - 학교 화학 약품의 보관장 관리",
+      "content_markdown": "### 밀폐형 환기식(필터식) 약품장\n\n| 분류 | 해당 물질 |\n| --- | --- |\n| 산 | 염산(HCl), 인산(H3PO4), 질산(HNO3), 황산(H2SO4) |\n| 염기 | 수산화 나트륨(NaOH), 수산화 칼륨(KOH), 수산화 바륨(Ba(OH)2), 수산화 칼슘 또는 석회수(Ca(OH)2) |\n| 위험이 높은 무기 화합물 | 과망가니즈산 칼륨(KMnO4), 과산화 수소(H2O2), 아이오딘(I2), 아이오딘산 칼륨(KIO3), 아이오딘화 칼륨(KI), 질산 은(AgNO3), 질산 칼륨(KNO3), 크로뮴산 칼륨(K2CrO4), 다이크로뮴산 칼륨(K2Cr2O7) |\n| 금속 | 나트륨(소듐)(Na), 리튬(Li), 마그네슘(Mg), 칼륨(포타슘)(K) |"
+    },
+    {
+      "heading": "인쇄면 7쪽 - 학교 화학 약품의 보관장 관리",
+      "content_markdown": "### 일반 약품 보관장\n\n위험성이 낮은 고체 약품:\n\n- 산화 칼슘(CaO), 아황산수소 나트륨(NaHSO3), 염화 구리(II)(CuCl2)\n- 염화 암모늄(NH4Cl), 염화 칼슘(CaCl2), 염화 코발트(II)(CoCl2)\n- 이산화 망가니스(MnO2), 질산 암모늄(NH4NO3)\n- 질산 구리(II)(Cu(NO3)2), 질산 나트륨(NaNO3)\n- 질산 납(II)(Pb(NO3)2), 질산 아연(Zn(NO3)2), 탄산 칼슘(CaCO3)\n- 황산 아연(ZnSO4), 황산 구리(II)(CuSO4)\n- 탄산수소 나트륨(NaHCO3), 백반(KAl(SO4)2)\n- 시트르산(C6H8O7), 페놀프탈레인 용액(C20H14O4)\n\n### 가연성 물질 전용 보관장\n\n인화성·휘발성 물질 및 혼합 금지 물질:\n\n- 나프탈렌(C10H8), 메탄올(CH3OH), 아세톤(CH3COCH3), 아세트산(CH3COOH)\n- 암모니아수(NH4OH), 에탄올(C2H5OH), 프로판올(C3H7OH), 헥세인(C6H14)\n\n> 주: 가연성 물질 전용 보관장이 없는 경우 밀폐형 약품장에 보관할 수 있으나, 장기적으로 가연성 물질 전용 보관장을 구비하기 위한 노력이 필요하다."
+    }
+  ]
+}

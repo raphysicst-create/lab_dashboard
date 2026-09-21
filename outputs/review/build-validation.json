@@ -1,0 +1,25 @@
+{
+  "output": "C:\\Users\\22\\Desktop\\lab_dashboard\\outputs\\review\\science_experiment_review.xlsx",
+  "sourceJsonSha256": "22748932ad38860145bdd1c47eb6cd437bfc965e90cbdbff303477133e9336ff",
+  "records": 454,
+  "preservedColumns": [
+    "id",
+    "source_row",
+    "단원명",
+    "성취기준",
+    "출판사",
+    "쪽",
+    "탐구활동",
+    "교구"
+  ],
+  "sourceCellsCompared": 3632,
+  "missingSuppliesPreserved": 25,
+  "unverifiedReviewRows": 454,
+  "inputFieldsUnfilled": true,
+  "sourceUnchanged": true,
+  "worksheetNames": [
+    "탐구활동 검토",
+    "검토 방법"
+  ],
+  "note": "Rendered ranges and internal values checked. Saved XLSX is independently verified by verify-review.py."
+}

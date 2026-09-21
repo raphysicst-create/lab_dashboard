@@ -1,0 +1,22 @@
+{
+  "workbook": "C:\\Users\\22\\Desktop\\lab_dashboard\\outputs\\review\\science_experiment_review.xlsx",
+  "records": 454,
+  "source_cells_exactly_equal": 3632,
+  "missing_supplies_cells_preserved": 25,
+  "unknown_review_rows": 454,
+  "official_mapping_fields_unknown": 1816,
+  "native_filter": "A5:W459",
+  "native_frozen_rows": 5,
+  "native_frozen_columns": 2,
+  "native_validation_ranges": [
+    "M6:M459",
+    "J6:J459"
+  ],
+  "formula_cells": 0,
+  "worksheets": [
+    "탐구활동 검토",
+    "검토 방법"
+  ],
+  "source_json_sha256": "22748932ad38860145bdd1c47eb6cd437bfc965e90cbdbff303477133e9336ff",
+  "result": "passed"
+}

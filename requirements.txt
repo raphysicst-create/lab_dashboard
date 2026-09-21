@@ -1,0 +1,4 @@
+# Optional: only scripts/review/render-review.py needs these packages.
+# Data conversion, data checks, packaging and XLSX XML checks use Python's standard library.
+openpyxl==3.1.5
+Pillow==12.3.0

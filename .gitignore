@@ -1,4 +1,14 @@
-.sites-runtime/
+# Machine-local state and reproducible caches
 node_modules/
-.env*
-*.tar.gz
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.openai/
+.sites-runtime/
+.DS_Store
+Thumbs.db
+/tmp/
+/scratchpad/

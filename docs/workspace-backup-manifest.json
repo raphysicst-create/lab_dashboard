@@ -1,0 +1,662 @@
+{
+  "created_at_utc": "2026-09-21T15:52:14.178344+00:00",
+  "repository": "https://github.com/raphysicst-create/lab_dashboard",
+  "purpose": "Continue the complete project from another computer, including original source and review files.",
+  "website_directory": "site/dist",
+  "file_count_excluding_this_manifest": 128,
+  "bytes_excluding_this_manifest": 7585579,
+  "manifest_excludes_itself": true,
+  "excluded_existing_paths": [
+    "design-mockups-site/.git/",
+    "design-mockups-site/.openai/",
+    "scratchpad/",
+    "scripts/__pycache__/",
+    "scripts/review/node_modules/",
+    "site/.git/",
+    "site/.openai/",
+    "tmp/"
+  ],
+  "excluded_reason": "Git metadata, old hosting bindings, installed dependencies, machine-local state, and temporary duplicate workspaces.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 144,
+      "sha256": "1c30c693bc1882ae138b6c677d83e226074990f85b6d9d6c1830b3a42bcf19fd"
+    },
+    {
+      "path": ".github/workflows/deploy-pages.yml",
+      "bytes": 993,
+      "sha256": "86bdf92d9c35f9aba2a7c27b2c2664bfc637937c8ab3d950a7e2d60757161581"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 186,
+      "sha256": "8346facb9f2a3a91525c75882525b47cf24845fd36ca4bcd7888d5e8e7bfaab8"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1527,
+      "sha256": "e9efa76c8aa8fdff0421725145809e1a9d203226296795a7110538eae159d4fa"
+    },
+    {
+      "path": "DESIGN-airtable.md",
+      "bytes": 35266,
+      "sha256": "1d225e511213044d3c705bde50265ad010932bfd8a15740a144dd4f480128889"
+    },
+    {
+      "path": "DESIGN-cal.md",
+      "bytes": 31176,
+      "sha256": "8cd21b7d67e94c899843d517f4b426e4fee33d47354a433d6a63ebcf79d5a654"
+    },
+    {
+      "path": "DESIGN-ibm.md",
+      "bytes": 26481,
+      "sha256": "46f6fd65b5e7524fed1133b9b3c0dd619f9a0f145fbb2b87f3675c701a88f3bd"
+    },
+    {
+      "path": "DESIGN-starbucks.md",
+      "bytes": 37329,
+      "sha256": "e20338ee10226c63cf2588207288c08e12d60754a53f681657adaf364dfe8fa7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9710,
+      "sha256": "0e1a291f4ce2b8bb061053d1a888a071527742ed85ec77ce7e353039c5c1ab0c"
+    },
+    {
+      "path": "WORKSPACE_STATUS.md",
+      "bytes": 6522,
+      "sha256": "1ca87a5eab396e0b577f9328ab28af87e4cb3e885882b6acf47b36443a5e3d6c"
+    },
+    {
+      "path": "design-mockups-site/.gitignore",
+      "bytes": 36,
+      "sha256": "9a5e8ba5ea5b02ffd16405361303862339ddb3a0b8eb15d916cb1c9a6eb9fc8c"
+    },
+    {
+      "path": "design-mockups-site/dist/airtable.html",
+      "bytes": 3815,
+      "sha256": "a99e8aa18bbe400634eed55033e5c6c601c816677359fd38e7aa20cb5250469c"
+    },
+    {
+      "path": "design-mockups-site/dist/app.js",
+      "bytes": 11987,
+      "sha256": "02d792a85b9eaf61ee0c872ab2e35b8e333889f0ab2daaeabf325d1949643f28"
+    },
+    {
+      "path": "design-mockups-site/dist/cal.html",
+      "bytes": 3822,
+      "sha256": "a31bcc2fc477eabae9a01d54f46850ca6d5ad5bae78df43ee65675bc382a5edc"
+    },
+    {
+      "path": "design-mockups-site/dist/common.css",
+      "bytes": 17760,
+      "sha256": "4eeaa3b901361f8378c58c81704f5a2eb886f866c306eb7366c76e6e9e576b0b"
+    },
+    {
+      "path": "design-mockups-site/dist/data/activities.json",
+      "bytes": 313966,
+      "sha256": "1a78e6b40a01111fea2fb5d312e290e724ec69abc1352d4dbf7b8b70278155e9"
+    },
+    {
+      "path": "design-mockups-site/dist/ibm.html",
+      "bytes": 3819,
+      "sha256": "5825815dccacd2e7cffcf4d2dac982fd2d14f59d3611d4f65e1853bc09266d22"
+    },
+    {
+      "path": "design-mockups-site/dist/index.html",
+      "bytes": 7576,
+      "sha256": "61f3d34e08b6432ae49ae2788bc3f176758267eebe3c254dbaac59cae2c15a6e"
+    },
+    {
+      "path": "design-mockups-site/dist/starbucks.html",
+      "bytes": 3945,
+      "sha256": "1d08c718e4f40aa7d424c971106c605f3868e433fbd871cec21e8af1da1a7535"
+    },
+    {
+      "path": "docs/initial-plan.md",
+      "bytes": 16908,
+      "sha256": "e00e0b77e9c5f0a40fd8b80f06a7fd8dbe25a1e6139e611689b8e01307701b62"
+    },
+    {
+      "path": "output/parsed/약품규정1_파싱.json",
+      "bytes": 2380,
+      "sha256": "93001b6191ad66f54a4afb8a89f98608d45f64a029972ac43d65f2470928f59e"
+    },
+    {
+      "path": "output/parsed/약품규정1_파싱.md",
+      "bytes": 2034,
+      "sha256": "504ff7dab896ac1c54f849c1cfd9fe40d86a0797213bb0dfcd34350eb68f1040"
+    },
+    {
+      "path": "output/parsed/약품규정2_파싱.json",
+      "bytes": 19931,
+      "sha256": "22cdf73ce9c5a03cf912324f3a2d88729729c4b4f63369904a818423dfa2ae1f"
+    },
+    {
+      "path": "output/parsed/약품규정2_파싱.md",
+      "bytes": 18941,
+      "sha256": "1226d2c07b3f68448012a0b2078e9470c50c0c90dadd2ade805a2abc1267359a"
+    },
+    {
+      "path": "output/validation/achievement-comparison.png",
+      "bytes": 37874,
+      "sha256": "f6c83c5f3e88cd5f1bf21393a867be2b71854e399c3da777c49c08a31f9b346d"
+    },
+    {
+      "path": "output/validation/browser-preparation-list.csv",
+      "bytes": 689,
+      "sha256": "ae8647b7b92b5b7b442d2ff21ff1d5ebafb6bdde4a890dc02179c81b3de6a5dd"
+    },
+    {
+      "path": "output/validation/browser-report.json",
+      "bytes": 526,
+      "sha256": "2f16abf260a91202eea1c01e3314630e200cb7d0defbcb6ae0c5ae5c20efe2f2"
+    },
+    {
+      "path": "output/validation/chemicals/browser/catalogue-mobile.png",
+      "bytes": 14037,
+      "sha256": "22872d086e393e2fb897b93fffbeff6a8a562bb9d44c4cef755276d2eb8291a7"
+    },
+    {
+      "path": "output/validation/chemicals/browser/catalogue.png",
+      "bytes": 36516,
+      "sha256": "e4063337e76f9465e69eda06c8fbe0730ec1d9880fbeb04d9f03a8246e0c8dc5"
+    },
+    {
+      "path": "output/validation/chemicals/browser/hydrochloric-acid.png",
+      "bytes": 32326,
+      "sha256": "f12d88ea7540749f8b48acf16a6350a56f0289a28be6f44b8b48616346c66709"
+    },
+    {
+      "path": "output/validation/chemicals/browser/report.json",
+      "bytes": 359,
+      "sha256": "af417468578abd8ce337310b05371dea56ff580ab852a7c98fc059947384d47e"
+    },
+    {
+      "path": "output/validation/chemicals/chemical-catalogue-review.json",
+      "bytes": 282378,
+      "sha256": "3d43d2006634f3fa4e2d7de8aedc03f0d9ed3d07faf12c4a6f0789672acb6c42"
+    },
+    {
+      "path": "output/validation/chemicals/chemical-conversion-report.json",
+      "bytes": 338713,
+      "sha256": "35e4b4d010c05feb7572b98977156cef9376748b90569ec149c3d50f5ff1ce31"
+    },
+    {
+      "path": "output/validation/chemicals/regression/achievement-comparison.png",
+      "bytes": 31065,
+      "sha256": "0312b98890f66361673efab8793f1b243d6f604886cf8c101ae146b22e6f183d"
+    },
+    {
+      "path": "output/validation/chemicals/regression/activity-detail.png",
+      "bytes": 29284,
+      "sha256": "a9e7d9296e8dd1c01696c393bef434730d8d3029607ad92add3634ccce44d581"
+    },
+    {
+      "path": "output/validation/chemicals/regression/browser-report.json",
+      "bytes": 673,
+      "sha256": "9234e41df2e37a049926054f5e08ce02c4fc631788f49aad635643a1f51379fd"
+    },
+    {
+      "path": "output/validation/chemicals/regression/desktop.png",
+      "bytes": 37571,
+      "sha256": "fd2b303a4cad92ea4d3f22955ecdf7c8b99b200576f009ecd75e9d30a0e0cdcd"
+    },
+    {
+      "path": "output/validation/chemicals/regression/mobile.png",
+      "bytes": 14052,
+      "sha256": "784b75e029aa0d6ccab27a3febf8cd22fcf69f6e775235387ebe6adb0c0616e6"
+    },
+    {
+      "path": "output/validation/deployment.json",
+      "bytes": 406,
+      "sha256": "f78ef7df1e76ad023fafb8fa4444e247881d4922fb7fc5b9a2f13b50aa55c358"
+    },
+    {
+      "path": "output/validation/desktop.png",
+      "bytes": 37871,
+      "sha256": "91e42037584d4212ebd6bff737cbd63444d89655e3852170ad8906bb045ca27a"
+    },
+    {
+      "path": "output/validation/github-pages/achievement-comparison.png",
+      "bytes": 37874,
+      "sha256": "f6c83c5f3e88cd5f1bf21393a867be2b71854e399c3da777c49c08a31f9b346d"
+    },
+    {
+      "path": "output/validation/github-pages/browser-preparation-list.csv",
+      "bytes": 689,
+      "sha256": "ae8647b7b92b5b7b442d2ff21ff1d5ebafb6bdde4a890dc02179c81b3de6a5dd"
+    },
+    {
+      "path": "output/validation/github-pages/browser-report.json",
+      "bytes": 526,
+      "sha256": "2f16abf260a91202eea1c01e3314630e200cb7d0defbcb6ae0c5ae5c20efe2f2"
+    },
+    {
+      "path": "output/validation/github-pages/deployment.json",
+      "bytes": 2000,
+      "sha256": "74b81fa2930608af67e5255af9832cd8e8648799a598697ab738a246cfe2cd52"
+    },
+    {
+      "path": "output/validation/github-pages/desktop.png",
+      "bytes": 37871,
+      "sha256": "91e42037584d4212ebd6bff737cbd63444d89655e3852170ad8906bb045ca27a"
+    },
+    {
+      "path": "output/validation/github-pages/mobile.png",
+      "bytes": 13436,
+      "sha256": "038282adaf681711394ca7346f40ba064ff52a0ca7a952d768bb1896817a690b"
+    },
+    {
+      "path": "output/validation/github-pages/preparation-list.png",
+      "bytes": 26006,
+      "sha256": "e7abcd3ccd42f264f5cdb17cde5c282ba29f72e2481d42a300ad9a7d51c606a8"
+    },
+    {
+      "path": "output/validation/grade-unit-mapping/achievement-comparison.png",
+      "bytes": 30865,
+      "sha256": "f6ccde813a667370422b6fd6304ddcaef3dd378e14c37e7ca1453f164f640b48"
+    },
+    {
+      "path": "output/validation/grade-unit-mapping/activity-detail.png",
+      "bytes": 29032,
+      "sha256": "5a27b810024232d4184fdbaa85ecb86efbdd7c9fee7f6dc2e351a347692c4730"
+    },
+    {
+      "path": "output/validation/grade-unit-mapping/browser-report.json",
+      "bytes": 673,
+      "sha256": "9234e41df2e37a049926054f5e08ce02c4fc631788f49aad635643a1f51379fd"
+    },
+    {
+      "path": "output/validation/grade-unit-mapping/desktop.png",
+      "bytes": 37370,
+      "sha256": "76492624a78aadd6fa30744584ae4e540ff54b85ee188ca7726ced24ebdc46cc"
+    },
+    {
+      "path": "output/validation/grade-unit-mapping/mobile.png",
+      "bytes": 13719,
+      "sha256": "10975718f058611c3457f82c84a102b9c873d49dbe746f3bf780139bce9c0a4b"
+    },
+    {
+      "path": "output/validation/mobile.png",
+      "bytes": 13436,
+      "sha256": "038282adaf681711394ca7346f40ba064ff52a0ca7a952d768bb1896817a690b"
+    },
+    {
+      "path": "output/validation/mockups/airtable-desktop.png",
+      "bytes": 44126,
+      "sha256": "fb546b6d5ea5d3f083869db667de1e243bbeaf1a38517393413f33f74451ad0c"
+    },
+    {
+      "path": "output/validation/mockups/airtable-mobile.png",
+      "bytes": 14760,
+      "sha256": "3375f62c0883e92ccd8a72e9265c44d1cade96a663c68f769daa7bc25e072870"
+    },
+    {
+      "path": "output/validation/mockups/cal-desktop.png",
+      "bytes": 46675,
+      "sha256": "25e039f19ee88275df5ebb3c3d53c69a2617196eca88a5813a1b5a03dd2ce3e8"
+    },
+    {
+      "path": "output/validation/mockups/cal-mobile.png",
+      "bytes": 13600,
+      "sha256": "b41515fe78b2303e2901023d21c3221d88b5b77d8549b8e545a066d0004eafa4"
+    },
+    {
+      "path": "output/validation/mockups/ibm-desktop.png",
+      "bytes": 33500,
+      "sha256": "47f1ae5b346dccac3d803e47227118b211d868da0b49a181833f3e740618e384"
+    },
+    {
+      "path": "output/validation/mockups/ibm-mobile.png",
+      "bytes": 10190,
+      "sha256": "22dc14193f4a653da7292eb28ce5c3b8b8c73fc4ed2338c563a3e3f5c048e1cf"
+    },
+    {
+      "path": "output/validation/mockups/index.png",
+      "bytes": 32426,
+      "sha256": "44975d56f9e3a3391b2c25c4765741c9c917b265dda8f4181d4c8218a6591c87"
+    },
+    {
+      "path": "output/validation/mockups/report.json",
+      "bytes": 677,
+      "sha256": "389e9e5d0d7b1de4179a0e6d368d6f1662f08d2303b4070dfec7cf5b32f0a55b"
+    },
+    {
+      "path": "output/validation/mockups/starbucks-desktop.png",
+      "bytes": 58617,
+      "sha256": "cd0aa4029cbc6decc1bdf1e002bdf33de16b0b8a01350d3eaf54edcf14ef8eb8"
+    },
+    {
+      "path": "output/validation/mockups/starbucks-mobile.png",
+      "bytes": 20990,
+      "sha256": "758b0f00759a2e2d94b5f38f58a057231f9befa3a242a95b2a162920cfd0cf15"
+    },
+    {
+      "path": "output/validation/no-preparation-list/achievement-comparison.png",
+      "bytes": 35829,
+      "sha256": "87b698902855cf4682c6806ec90b4608ece8fd22bb34cdcf78e299a6464fea2e"
+    },
+    {
+      "path": "output/validation/no-preparation-list/activity-detail.png",
+      "bytes": 35071,
+      "sha256": "8f2126789fecffd599812e694d883304d4fa858c645be4de0025f7b9f56e316c"
+    },
+    {
+      "path": "output/validation/no-preparation-list/browser-report.json",
+      "bytes": 471,
+      "sha256": "7f29f683fd110cd38bdbd8047f91890cb6c578fbe5c2d5df591149c61b95e936"
+    },
+    {
+      "path": "output/validation/no-preparation-list/desktop.png",
+      "bytes": 36982,
+      "sha256": "5c5713f7a5a7e16cdab48acdd92bc22b2fbc1733bf8e6a174bd41d8f0c5ff064"
+    },
+    {
+      "path": "output/validation/no-preparation-list/mobile.png",
+      "bytes": 13719,
+      "sha256": "10975718f058611c3457f82c84a102b9c873d49dbe746f3bf780139bce9c0a4b"
+    },
+    {
+      "path": "output/validation/preparation-list.png",
+      "bytes": 26006,
+      "sha256": "e7abcd3ccd42f264f5cdb17cde5c282ba29f72e2481d42a300ad9a7d51c606a8"
+    },
+    {
+      "path": "output/validation/verification.json",
+      "bytes": 205990,
+      "sha256": "b30599bdfad84a3d74b93e4f641a827656ff71d2a77ce720614a106c5c8396d0"
+    },
+    {
+      "path": "outputs/github-pages/package-manifest.json",
+      "bytes": 737,
+      "sha256": "904c6dfc502c52ad45975272b386d36fac5782ae8ff296ebbfa9810b96d2481c"
+    },
+    {
+      "path": "outputs/github-pages/science-classroom-prep-github-pages.zip",
+      "bytes": 81322,
+      "sha256": "f1ef5a16a68f701f8cedcab10b2c280d8fbf01133396bb3b37dd6452afcca41a"
+    },
+    {
+      "path": "outputs/review/build-validation.json",
+      "bytes": 711,
+      "sha256": "99f236b34fb22915b3714ad5beb1de1140350e5a97e47d130fcac45a85cdea4d"
+    },
+    {
+      "path": "outputs/review/formula-scan.ndjson",
+      "bytes": 60,
+      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146"
+    },
+    {
+      "path": "outputs/review/inspection.ndjson",
+      "bytes": 7428,
+      "sha256": "bcbce7513fd755b31adaa83ad5cd680e7c96c55794443325454773375880227f"
+    },
+    {
+      "path": "outputs/review/render-validation.json",
+      "bytes": 231,
+      "sha256": "1069c4618a632391bfc5042914bc95548153e6444dc20df5ea9288958ad4b339"
+    },
+    {
+      "path": "outputs/review/review-corrections.png",
+      "bytes": 7357,
+      "sha256": "b0b45cd3b269c39083d32daed241b237a4dd8b92b434e2e913e78031c033ce97"
+    },
+    {
+      "path": "outputs/review/review-guide-continuation.png",
+      "bytes": 66829,
+      "sha256": "f8ca429ec0d5b8ea1bc848b9e2434515763780b3b640dc73e64ab2c44af77c02"
+    },
+    {
+      "path": "outputs/review/review-guide.png",
+      "bytes": 87641,
+      "sha256": "50380d03d961142cda44121fc7024f76f9331cf7aaf0de4b8575ef65e3186946"
+    },
+    {
+      "path": "outputs/review/review-inputs.png",
+      "bytes": 12054,
+      "sha256": "e8313e3771d2b88570213db080a5251586493e155d0c3544a42c341d7eead064"
+    },
+    {
+      "path": "outputs/review/review-original.png",
+      "bytes": 72736,
+      "sha256": "c3c52fd5c03023ac69bc097ee6e76544e5333c4e90bb503679f85d3e2968ffd5"
+    },
+    {
+      "path": "outputs/review/science_experiment_review.xlsx",
+      "bytes": 82459,
+      "sha256": "9c4269b5dba45cd3512dcdfa46a52022b3c230258aabdf422b1151b9e8a745e7"
+    },
+    {
+      "path": "outputs/review/science_experiment_review.xlsx.inspect.ndjson",
+      "bytes": 2649233,
+      "sha256": "73cd566743e735d48bcf3555f429189a7908c727e4deff778f41ffd0c78e8ae6"
+    },
+    {
+      "path": "outputs/review/xlsx-validation.json",
+      "bytes": 657,
+      "sha256": "339bc727a0ddc08b0a394d54fd35c65f215709a0920c56f55a9fa95dc46d3379"
+    },
+    {
+      "path": "package.json",
+      "bytes": 475,
+      "sha256": "99547947aad5e158efa34025989f1eb6f5d385f617ae942c2472cd6b04e96fe9"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 195,
+      "sha256": "24d31224641cff94dc29d1c86dfcf75e1343fa9f865a03c782b563d158bf2b32"
+    },
+    {
+      "path": "schemas/activity.schema.json",
+      "bytes": 1201,
+      "sha256": "8976498897ef6a6f1ce6a128e2cebc54d79819e5be0d22ca25f2c4d807e4833d"
+    },
+    {
+      "path": "schemas/quantity.schema.json",
+      "bytes": 652,
+      "sha256": "65db58ed5e462b839b6384fbf9a1890e23c8994a4a24d9ba2962de9df9137cda"
+    },
+    {
+      "path": "science_experiment_supplies.json",
+      "bytes": 269184,
+      "sha256": "22748932ad38860145bdd1c47eb6cd437bfc965e90cbdbff303477133e9336ff"
+    },
+    {
+      "path": "scripts/README.md",
+      "bytes": 4687,
+      "sha256": "209fc06041463944801b97bd72d33128542d17a3ab901fcca07dba8c0d65a1c5"
+    },
+    {
+      "path": "scripts/build_chemicals.py",
+      "bytes": 19865,
+      "sha256": "db39b2314f75588cd7752c4b072b92a2c0fb1873d675309f08f0ada60721087c"
+    },
+    {
+      "path": "scripts/build_data.py",
+      "bytes": 4662,
+      "sha256": "61d2bffbb7600bd584174a54c369ad48a3399bfbe529d22322d1db3135120b7b"
+    },
+    {
+      "path": "scripts/package_github_pages.py",
+      "bytes": 1875,
+      "sha256": "847229ae3b812d4f2692f1f0ba858f3ee75a98e21482c53ab0f4b4cd2a714c38"
+    },
+    {
+      "path": "scripts/review/README.md",
+      "bytes": 2926,
+      "sha256": "42d58fd56f37c96726b1a27878dfe59eb92dfae63862ea8be5991235747ab319"
+    },
+    {
+      "path": "scripts/review/build-review.mjs",
+      "bytes": 14813,
+      "sha256": "63c666d8a8aa58fc03b0c8c1bf709298c9f7641e2c029ee46123fd01d58197ad"
+    },
+    {
+      "path": "scripts/review/render-review.py",
+      "bytes": 6940,
+      "sha256": "3c08e9dac79ef6e857bb778266cc7e03690d1551038f7aa403afa607e3ded666"
+    },
+    {
+      "path": "scripts/review/verify-review.py",
+      "bytes": 4635,
+      "sha256": "47aa843daad168de927a1385f6d7794ec9d308af799e7b2ac2c0b95a06a20b46"
+    },
+    {
+      "path": "scripts/verify_browser.cjs",
+      "bytes": 9998,
+      "sha256": "95323a68aafff20348fbac0963c260d5320ccc393e29f5215e4cd5ee386bb1af"
+    },
+    {
+      "path": "scripts/verify_chemicals.cjs",
+      "bytes": 5892,
+      "sha256": "a77e67ed640ee09500e28ac7c5747bd7162c71a964f3a6a5c096775ddfa2f168"
+    },
+    {
+      "path": "scripts/verify_chemicals.py",
+      "bytes": 3819,
+      "sha256": "5e17abf5fe4b00c6262f019457070ebf4ec208b60d31bf50946a504518e999e9"
+    },
+    {
+      "path": "scripts/verify_core.mjs",
+      "bytes": 5712,
+      "sha256": "e99c3532e94fae6cd5f04bc1d1f35ecbae988a04b70f45f768e57d0b619032a5"
+    },
+    {
+      "path": "site/.github/workflows/deploy-pages.yml",
+      "bytes": 938,
+      "sha256": "e64bb77e26316d147f050e79e3a5b080e5360293daf080520f74e521be66eb7e"
+    },
+    {
+      "path": "site/.gitignore",
+      "bytes": 45,
+      "sha256": "ae7d3e4fa948045a2cd454da65f2782cd6cf3539bcf7da5dd3d19c3408bb9262"
+    },
+    {
+      "path": "site/README.md",
+      "bytes": 4429,
+      "sha256": "7525057ede686f0f743567f860a6baeecb50e8c937ee8561b4ebfe95f2967d4d"
+    },
+    {
+      "path": "site/dist/app.js",
+      "bytes": 15848,
+      "sha256": "d4456ddb6cf0d28c4a6312e4224b5a5175523224d305c09b3f2d4ad8c68397b0"
+    },
+    {
+      "path": "site/dist/chemical-ui.js",
+      "bytes": 8671,
+      "sha256": "7eb1ee8e968e1e2fc95763ff507655507083d1a20b40e33ff1d9158d711320d3"
+    },
+    {
+      "path": "site/dist/core.js",
+      "bytes": 3520,
+      "sha256": "0dec6008f07fb22ce5e78a1839824d41ddf7364dcd57e8ac0b62feb6913e76f1"
+    },
+    {
+      "path": "site/dist/data/achievements.json",
+      "bytes": 17878,
+      "sha256": "227d62e45611f3f8fcda86e5dec77efe6d96232507226c9d3378a2bde4082fee"
+    },
+    {
+      "path": "site/dist/data/activities.json",
+      "bytes": 313966,
+      "sha256": "1a78e6b40a01111fea2fb5d312e290e724ec69abc1352d4dbf7b8b70278155e9"
+    },
+    {
+      "path": "site/dist/data/chemical_guidelines.json",
+      "bytes": 10819,
+      "sha256": "d81734f8436833af822c1a2d62cd4711fdd00cce41b0cba8645ff533b1ffcd8d"
+    },
+    {
+      "path": "site/dist/data/chemicals.json",
+      "bytes": 282378,
+      "sha256": "3d43d2006634f3fa4e2d7de8aedc03f0d9ed3d07faf12c4a6f0789672acb6c42"
+    },
+    {
+      "path": "site/dist/data/materials.json",
+      "bytes": 22542,
+      "sha256": "222f6ac7ca2de91e1b791489dc0fb3f8d515bc9982b5b7c44cf496eb36943434"
+    },
+    {
+      "path": "site/dist/data/quantities.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "site/dist/data/sources.json",
+      "bytes": 282,
+      "sha256": "9de2377ef334c0d1db02408d501cbab62823249e943ef3f11a372423e297c54e"
+    },
+    {
+      "path": "site/dist/data/textbooks.json",
+      "bytes": 725,
+      "sha256": "659d19a19b982f2a33a7e3cfe1651c635a64a9f3765cadd622fa3779582591aa"
+    },
+    {
+      "path": "site/dist/index.html",
+      "bytes": 4378,
+      "sha256": "ea16b75d59043938828b7a819b02a6b929ba9872758bd4d838633fec6786d966"
+    },
+    {
+      "path": "site/dist/style.css",
+      "bytes": 7651,
+      "sha256": "4e9e09ae22b52451c9fdf612c5483d5b593fefa17dae07e8e0e2b5dabd62f8ed"
+    },
+    {
+      "path": "site/mockups/README.md",
+      "bytes": 662,
+      "sha256": "0376911c02aabe94eb62e048c460f468d4b90592159aa985337a91e7e0586d61"
+    },
+    {
+      "path": "site/mockups/airtable.html",
+      "bytes": 3815,
+      "sha256": "a99e8aa18bbe400634eed55033e5c6c601c816677359fd38e7aa20cb5250469c"
+    },
+    {
+      "path": "site/mockups/app.js",
+      "bytes": 11987,
+      "sha256": "02d792a85b9eaf61ee0c872ab2e35b8e333889f0ab2daaeabf325d1949643f28"
+    },
+    {
+      "path": "site/mockups/cal.html",
+      "bytes": 3822,
+      "sha256": "a31bcc2fc477eabae9a01d54f46850ca6d5ad5bae78df43ee65675bc382a5edc"
+    },
+    {
+      "path": "site/mockups/common.css",
+      "bytes": 17760,
+      "sha256": "4eeaa3b901361f8378c58c81704f5a2eb886f866c306eb7366c76e6e9e576b0b"
+    },
+    {
+      "path": "site/mockups/ibm.html",
+      "bytes": 3819,
+      "sha256": "5825815dccacd2e7cffcf4d2dac982fd2d14f59d3611d4f65e1853bc09266d22"
+    },
+    {
+      "path": "site/mockups/index.html",
+      "bytes": 7576,
+      "sha256": "61f3d34e08b6432ae49ae2788bc3f176758267eebe3c254dbaac59cae2c15a6e"
+    },
+    {
+      "path": "site/mockups/starbucks.html",
+      "bytes": 3945,
+      "sha256": "1d08c718e4f40aa7d424c971106c605f3868e433fbd871cec21e8af1da1a7535"
+    },
+    {
+      "path": "스크린샷.png",
+      "bytes": 51101,
+      "sha256": "dbb8f2d43b96a06890ac6aedbdf982e35472773ace7cc64a17d0b82fa09bd968"
+    },
+    {
+      "path": "약품규정1.pdf",
+      "bytes": 72243,
+      "sha256": "a508849adfa2d1dcd095e557c0417a7d1fd524d469a259c29255442c0d3b6857"
+    },
+    {
+      "path": "약품규정2.pdf",
+      "bytes": 944069,
+      "sha256": "61c9fffa91837ade26ab76f168d5dc5dcaf07210ade1351a20169742ecaa49f7"
+    }
+  ]
+}

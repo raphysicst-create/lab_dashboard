@@ -1,0 +1,38 @@
+[
+  {
+    "design": "cal",
+    "ssotRows": 454,
+    "firstRender": 30,
+    "loadMore": "pass",
+    "desktop": "pass",
+    "mobile": "pass",
+    "consoleErrors": 0
+  },
+  {
+    "design": "ibm",
+    "ssotRows": 454,
+    "firstRender": 30,
+    "loadMore": "pass",
+    "desktop": "pass",
+    "mobile": "pass",
+    "consoleErrors": 0
+  },
+  {
+    "design": "airtable",
+    "ssotRows": 454,
+    "firstRender": 30,
+    "loadMore": "pass",
+    "desktop": "pass",
+    "mobile": "pass",
+    "consoleErrors": 0
+  },
+  {
+    "design": "starbucks",
+    "ssotRows": 454,
+    "firstRender": 30,
+    "loadMore": "pass",
+    "desktop": "pass",
+    "mobile": "pass",
+    "consoleErrors": 0
+  }
+]

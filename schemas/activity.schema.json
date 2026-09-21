@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source-preserving textbook activity",
+  "type": "object",
+  "required": ["id", "source_row", "achievement_id", "textbook_id", "grade", "unit", "achievement_raw", "publisher_raw", "page", "title", "materials_raw", "material_ids"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "source_row": {"type": "integer", "minimum": 1},
+    "achievement_id": {"type": "string", "minLength": 1},
+    "textbook_id": {"type": "string", "minLength": 1},
+    "grade": {"type": ["integer", "null"], "enum": [1, 2, 3, null]},
+    "unit": {"type": ["string", "null"]},
+    "unit_number": {"type": ["integer", "null"]},
+    "chemical_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "achievement_raw": {"type": ["string", "null"]},
+    "publisher_raw": {"type": ["string", "null"]},
+    "page": {"type": ["integer", "string", "null"]},
+    "title": {"type": "string", "minLength": 1},
+    "materials_raw": {"type": ["string", "null"]},
+    "material_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+  }
+}

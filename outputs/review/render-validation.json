@@ -1,0 +1,9 @@
+{
+  "renderer": "Pillow CPU from saved XLSX through read-only openpyxl",
+  "sheets_previewed": [
+    "탐구활동 검토",
+    "검토 방법"
+  ],
+  "dimension_issues": [],
+  "native_excel_visual_check": "not performed"
+}

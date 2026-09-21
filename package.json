@@ -1,0 +1,18 @@
+{
+  "name": "lab-dashboard-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Science preparation dashboard source, data conversion and local verification tools",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node scripts/verify_core.mjs",
+    "test:browser": "node scripts/verify_browser.cjs",
+    "test:chemicals": "node scripts/verify_chemicals.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

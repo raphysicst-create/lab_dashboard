@@ -1,0 +1,81 @@
+# 다른 컴퓨터에서 실행하기
+
+아래 명령은 저장소 최상위 폴더에서 실행합니다. 원자료와 작업용 파일은 최상위 폴더에 있고, 실제 웹사이트는 `site/dist/`입니다. 사이트 자체는 HTML·CSS·JavaScript·JSON만 사용하며 설치나 빌드가 필요하지 않습니다.
+
+Python 3.10 이상과 Node.js 22 이상을 사용합니다. 이번 작업에서 사용한 버전은 Python 3.12.14, Node.js 24.19.0입니다. Windows에서 `python` 대신 `py -3`를 사용할 수도 있습니다.
+
+## 사이트 열기
+
+```sh
+python -m http.server 4173 --directory site/dist
+```
+
+브라우저에서 `http://127.0.0.1:4173/`를 엽니다. JSON을 불러오므로 HTML 파일을 직접 더블클릭하는 방식은 사용하지 않습니다. 교과서 출판사와 학급 설정은 브라우저의 localStorage에 저장되므로 GitHub 커밋에 포함되지 않습니다. 다른 컴퓨터에서는 해당 설정을 다시 입력합니다.
+
+## 원자료에서 데이터 재생성·검증
+
+추가 Python 패키지 없이 실행할 수 있습니다.
+
+```sh
+python scripts/build_data.py
+python scripts/verify_chemicals.py
+node scripts/verify_core.mjs
+```
+
+`build_data.py`는 `science_experiment_supplies.json`과 `output/parsed/`의 약품 MD·JSON을 읽어 `site/dist/data/`의 데이터를 다시 만듭니다. 원자료를 수정하지 않으며, 검토 상태와 변환 보고서는 `output/validation/`에 기록합니다. 수동으로 수정한 생성 데이터는 재생성하면 덮어써지므로 원자료·변환 규칙 변경을 먼저 검토합니다. 원문에 없는 실험·약품 정보는 추가하지 않습니다.
+
+`build_chemicals.py`를 단독 실행하면 약품 변환 보고서를 재작성합니다. 전체 사이트 데이터를 함께 갱신할 때는 `build_data.py`를 사용합니다.
+
+## 브라우저 기능 검증
+
+처음 한 번 테스트 도구와 Chromium을 설치합니다. 런타임 의존성은 웹사이트에 포함되지 않습니다.
+
+```sh
+npm install
+npx playwright install chromium
+```
+
+Linux에서 브라우저 운영체제 라이브러리가 부족하면 Playwright의 운영체제 의존성도 설치해야 합니다. 사이트 서버가 실행된 상태에서 다른 터미널로 다음을 실행합니다.
+
+```sh
+npm test
+npm run test:browser
+npm run test:chemicals
+```
+
+기본 주소는 `http://127.0.0.1:4173/`입니다. 필요하면 `LAB_DASHBOARD_TEST_BASE_URL` 환경변수로 바꿉니다. 기본 Chromium 대신 설치된 Edge를 사용하려면 `LAB_DASHBOARD_BROWSER_CHANNEL=msedge`로 설정합니다. `LAB_DASHBOARD_TEST_OUTPUT`은 화면 캡처·보고서 출력 폴더를 바꿉니다. PowerShell 예시는 다음과 같습니다.
+
+```powershell
+$env:LAB_DASHBOARD_BROWSER_CHANNEL = 'msedge'
+npm run test:browser
+Remove-Item Env:LAB_DASHBOARD_BROWSER_CHANNEL
+```
+
+기본 출력 위치는 일반 검증 `output/validation/`, 약품 검증 `output/validation/chemicals/browser/`입니다. 기존 보고서를 보존하려면 별도 출력 폴더를 지정합니다.
+
+## 배포 파일 묶기
+
+```sh
+python scripts/package_github_pages.py
+```
+
+`outputs/github-pages/science-classroom-prep-github-pages.zip`은 웹사이트만 포함하는 배포 묶음입니다. 원자료·검토표를 포함한 전체 작업 백업은 GitHub 저장소 전체를 사용합니다. 이 명령 자체는 GitHub로 전송하거나 배포하지 않습니다.
+
+## 엑셀 검토표
+
+기존 파일은 `outputs/review/science_experiment_review.xlsx`이며 Excel에서 바로 열 수 있습니다. 추가 패키지 없이 원문 보존 상태를 확인할 수 있습니다.
+
+```sh
+python scripts/review/verify-review.py
+```
+
+기존 XLSX의 이미지 미리보기를 만들 때만 다음 선택 의존성이 필요합니다.
+
+```sh
+python -m pip install -r requirements.txt
+python scripts/review/render-review.py
+```
+
+미리보기에는 한글 글꼴이 필요합니다. Windows 맑은 고딕, macOS Apple SD Gothic Neo, Linux Noto Sans CJK 또는 나눔고딕의 알려진 경로를 탐색합니다. 찾지 못하면 `LAB_DASHBOARD_FONT`에 설치된 한글 글꼴 파일 경로를 지정하고, 필요하면 `LAB_DASHBOARD_FONT_BOLD`도 지정합니다. 미리보기는 기존 XLSX를 수정하지 않습니다.
+
+**검토표 최초 생성기 `build-review.mjs`만 Codex 제공 `@oai/artifact-tool`에 의존합니다.** 이 패키지는 일반 `npm install`에 포함하지 않았습니다. 패키지가 제공된 Codex 환경에서만 재생성할 수 있으며, 일반 컴퓨터에서는 커밋된 XLSX를 그대로 사용합니다. 자세한 내용은 [검토표 안내](review/README.md)를 참고하세요.

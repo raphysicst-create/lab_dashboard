@@ -1,82 +1,98 @@
 # 중학교 과학 수업 준비
 
-HTML, CSS, JavaScript와 JSON으로 동작하는 정적 사이트입니다. 별도 서버, 데이터베이스, 빌드 도구를 설치하지 않고 GitHub Pages로 배포할 수 있습니다.
+HTML, CSS, JavaScript와 JSON으로 구성한 정적 웹사이트입니다. 실행 시 서버 데이터베이스, 사용자 로그인, 별도 API를 사용하지 않습니다.
 
-## 약품 관리
+새 컴퓨터에서는 아래의 복제·실행 절차를 사용하세요. 현재 결정 사항과 미완료 작업은 [WORKSPACE_STATUS.md](WORKSPACE_STATUS.md), 최초 계획서는 [docs/initial-plan.md](docs/initial-plan.md)에 보존했습니다. 최초 계획서보다 이후 사용자 결정 사항을 우선합니다.
 
-- 상단 **약품 관리**에서 약품명·화학식으로 분류, 보관장, 보관 방법, 분리 보관 대상을 찾습니다.
-- 활동 상세의 약품 버튼이나 검색 결과의 약품 관리 정보에서도 열 수 있습니다.
-- 약품별 관리 정보와 공통 관리 안내를 제공합니다.
-- 원문 명칭이 연결되는 활동만 약품과 연결합니다. 농도·혼합물·제형을 추정하지 않으며, 개별 GHS 그림문자와 폐기 방법 등 자료에 없는 정보는 **미확인**으로 표시합니다.
+## 구성
 
-## GitHub Pages에 배포하기
+- `site/dist/index.html`: 화면 구조
+- `site/dist/style.css`: 디자인과 반응형 레이아웃
+- `site/dist/app.js`: 검색, 화면 표시, 브라우저 설정 저장
+- `site/dist/core.js`: 검색·입력 검증·수량 계산·설정 처리
+- `site/dist/data/`: 공개할 데이터만 저장
+- `scripts/build_data.py`: 원본 JSON에서 공개 데이터와 비공개 검증 기록 생성
+- `outputs/review/science_experiment_review.xlsx`: 원문 대조와 수정을 위한 엑셀 검토표
+- `output/validation/`: 내부 검증 기록, 테스트 결과, 화면 캡처
 
-1. GitHub에서 저장소를 만들고 기본 브랜치를 `main`으로 사용합니다.
-2. 배포용 ZIP의 압축을 풀어 **내부 파일과 폴더를 저장소 최상위**에 올립니다. ZIP 파일 자체나 `site` 폴더 한 겹을 추가해서 올리지 않습니다.
-3. `.github/workflows/deploy-pages.yml`이 포함되었는지 확인합니다. 점으로 시작하는 폴더가 파일 선택 화면에서 숨겨질 수 있습니다.
-4. 저장소의 **Settings → Pages → Build and deployment → Source**에서 **GitHub Actions**를 선택합니다.
-5. **Actions → Deploy to GitHub Pages → Run workflow → main → Run workflow**로 최초 배포를 실행합니다. Pages 설정 전에 시작된 실행이 실패했다면 설정 후 다시 실행하면 됩니다.
-6. 실행이 성공하면 배포 결과 또는 **Settings → Pages**에 표시된 주소로 접속합니다. 일반적인 프로젝트 주소 형식은 `https://계정명.github.io/저장소이름/`입니다.
+## 현재 구현
 
-이후 `dist`의 HTML·CSS·JavaScript·JSON 파일을 수정하여 `main`에 올리면 자동으로 다시 배포합니다. `main` 이외의 기본 브랜치를 사용하는 경우 배포 설정의 `branches`도 해당 브랜치로 변경합니다.
+454개 활동의 단원·성취기준 원문·출판사 필터, 활동명과 준비물·약품명 검색, 활동 상세를 제공합니다. 출판사·학급 수·학급당 학생 수·조당 학생 수는 같은 사이트 주소의 같은 브라우저에 저장됩니다. 사이트 데이터 삭제, 브라우저 변경, PC 변경 시 공유·복원되지 않습니다. 설정은 서버로 전송하지 않습니다.
 
-GitHub Free에서는 공개 저장소에 Pages를 사용할 수 있습니다. 비공개 저장소 사용 가능 여부는 GitHub 요금제에 따라 다릅니다. 별도의 개인 액세스 토큰을 저장할 필요는 없습니다.
+학교별 계정·재고관리·서버 저장은 없습니다. 로컬 미리보기와 공개 사이트는 주소가 다르므로 설정을 공유하지 않습니다.
 
-### 저장소 구조
+## 데이터 원칙
 
-```text
-.github/
-  workflows/
-    deploy-pages.yml
-.gitignore
-README.md
-dist/
-  index.html
-  style.css
-  app.js
-  core.js
-  chemical-ui.js
-  data/
-    achievements.json
-    activities.json
-    textbooks.json
-    materials.json
-    quantities.json
-    chemicals.json
-    chemical_guidelines.json
-    sources.json
+1. `science_experiment_supplies.json` 원본은 변경하지 않습니다. 원본 454행의 8개 열(추적용 2열 포함)을 공개 데이터와 전수 대조했습니다.
+2. 원자료 변환만 완료된 상태입니다. 교과서 대조 상태는 작업용 엑셀과 `output/validation/verification.json`에만 기록합니다. 전체 작업을 옮기기 위해 해당 파일들도 이 GitHub 저장소에 보존하지만, 사이트 배포 대상인 `site/dist`에는 넣지 않습니다.
+3. 미확인 값은 `null`로 보존하고 화면에서는 ‘미확인’으로 표시합니다. 자료 없음과 준비물이 필요 없다는 의미를 혼동하지 않습니다.
+4. 학년은 사용자가 지정한 기준(1~8단원=1학년, 9~15단원=2학년)을 적용합니다. 단원 번호와 성취기준의 1-1, 1-2 등의 순서는 원문에서 읽어 연결하며 필터를 숫자순으로 표시합니다. 공식 성취기준 코드·교과서명·판본은 확인되지 않았으므로 연결하지 않았습니다. `ACH-*`, `TXT-*`는 현재 원자료의 표현을 연결하기 위한 내부 ID이며 공식 코드나 확인된 판본 ID가 아닙니다.
+5. 준비물 원문을 그대로 보존합니다. 약품 연결은 괄호 밖 쉼표로 나눈 전체 항목이 제공 자료의 명칭 또는 명시된 다른 이름과 일치할 때만 수행합니다. 공백 및 Unicode 표기만 정규화하며 농도·용액·혼합물·기구의 일부 문자열로 동일 물질을 추정하지 않습니다. 미연결 항목은 약품이 없다는 뜻이 아닙니다.
+6. `chemicals.json`은 제공된 약품 규정 MD/JSON의 분류·보관장·보관 방법·분리 보관 대상을 문서와 인쇄면 근거와 함께 저장합니다. `materials.json`은 명칭이 확인된 약품의 활동 연결 및 원문을 보존합니다. `chemical_guidelines.json`에는 공통 관리 안내 6개를 별도로 둡니다. 개별 GHS 그림문자와 폐기 방법은 자료에 직접 지정되지 않아 `null`입니다. 분류는 제공 문서의 표현이며 현행 법정 분류로 재해석하지 않습니다. 페놀프탈레인 용액의 상충된 보관장 기재는 미확인으로 두고 내부 검토 기록에 남깁니다. `quantities.json`은 빈 배열이며 규격·농도·온도를 수량으로 해석하지 않습니다.
+7. 수량 계산 함수는 출처·수량·단위·기준이 모두 명시된 항목에만 적용합니다. 학급마다 조 수를 올림한 후 학급 수를 곱합니다. `activity` 기준은 반복 횟수가 확정되지 않아 자동 확대하지 않습니다. 현재 실제 수량 레코드가 없으므로 준비 수량은 ‘미확인’입니다.
+
+## 실행과 업데이트
+
+프로젝트 루트에서 Python으로 정적 파일 서버를 실행할 수 있습니다.
+
+```powershell
+python -m http.server 4173 --bind 127.0.0.1 --directory site/dist
 ```
 
-웹사이트로 배포되는 것은 `dist` 폴더의 내용입니다. 워크플로와 README는 웹 화면에 포함되지 않습니다.
+브라우저에서 `http://127.0.0.1:4173/`에 접속합니다. `index.html`을 파일로 직접 여는 방식은 JSON 요청 때문에 지원하지 않습니다.
 
-## 설정 저장
+```powershell
+python scripts/build_data.py
+node scripts/verify_core.mjs
+node scripts/verify_browser.cjs
+python scripts/verify_chemicals.py
+node scripts/verify_chemicals.cjs
+```
 
-출판사, 학급 수, 학급당 학생 수, 조당 학생 수는 브라우저에 자동 저장됩니다. 같은 브라우저에서 같은 사이트 주소로 다시 접속하면 유지됩니다.
+검증 도구 설치와 실행 방법은 [scripts/README.md](scripts/README.md)에 있습니다. 브라우저 검증 전에 정적 서버가 켜져 있어야 합니다. 사이트 자체에는 Node나 Python 설치가 필요하지 않습니다.
 
-기존 사이트와 GitHub Pages는 도메인이 다르므로 기존 브라우저 설정이 자동으로 옮겨지지 않습니다. GitHub Pages에서 처음 한 번 설정하면 이후 유지됩니다. 브라우저의 사이트 데이터를 지우면 설정이 초기화됩니다.
+엑셀 수정은 사이트에 자동 반영되지 않습니다. 검토표의 원문 열을 보존한 상태에서 수정 제안·근거·검토 결과를 기록하고, 반영할 항목을 결정한 다음 데이터 갱신 및 배포를 수행합니다. 자세한 엑셀 재생성 방법은 `scripts/review/README.md`를 참고하세요. 기존 검토표는 기본적으로 덮어쓰지 않습니다.
 
-## 로컬 실행
+`build_data.py`는 최초 원자료 기준으로 공개 JSON을 재생성하므로, 이후 검토로 추가한 데이터가 있으면 기존 파일을 백업하고 변환기를 먼저 갱신해야 합니다.
 
-Python이 설치되어 있다면 저장소 최상위에서 다음 명령으로 확인할 수 있습니다.
+`scripts/build_chemicals.py`가 약품 자료를 변환합니다. 전체 준비물 항목과 명칭이 일치하지 않은 항목, 원문 내부 충돌 등은 `output/validation/chemicals/chemical-conversion-report.json`에서 검토합니다. 실험 준비물 원문, 수량, 교과서 대조 상태를 약품 자료로 추정·변경하지 않습니다.
+
+## 공개 범위
+
+배포되는 웹 파일은 `site/dist`뿐입니다. 원자료 JSON, 약품 규정 PDF, 파싱 자료, 검토용 엑셀, 검증 기록, 테스트와 화면 캡처는 저장소에 보존하고 Pages 웹사이트에는 배포하지 않습니다. 현재 저장소는 공개 상태이므로 이 자료들은 GitHub에서 열람할 수 있습니다. 화면과 CSS는 분리되어 있어 데이터·기능을 유지하면서 디자인을 바꿀 수 있습니다.
+
+## 새 컴퓨터에서 이어서 작업하기
 
 ```sh
-python -m http.server 4173 --bind 127.0.0.1 --directory dist
+git clone https://github.com/raphysicst-create/lab_dashboard.git
+cd lab_dashboard
+python -m http.server 4173 --bind 127.0.0.1 --directory site/dist
 ```
 
-브라우저에서 `http://127.0.0.1:4173/`을 엽니다. `index.html`을 파일로 직접 열면 JSON을 읽지 못할 수 있으므로 HTTP 서버를 사용합니다.
+브라우저에서 `http://127.0.0.1:4173/`을 엽니다. Python 명령이 `python3`인 환경에서는 위 명령의 `python`을 `python3`으로 바꿉니다. 미리보기에는 Python만 필요하고 사이트는 브라우저에서 실행됩니다. 검증·재생성용 의존성은 [scripts/README.md](scripts/README.md)를 따릅니다.
 
-## 수정할 파일
+GitHub의 **Code → Download ZIP**으로 받아도 같은 파일을 복원할 수 있습니다. 변경을 계속 커밋하려면 `git clone` 방식이 편리합니다. Codex 등 편집기에서 복제한 저장소 루트를 열고 `WORKSPACE_STATUS.md`를 먼저 읽으면 됩니다. 브라우저에만 저장된 출판사·학급 설정과 Codex 대화 이력 자체는 Git 저장소에 포함되지 않습니다.
 
-- 화면 구성: `dist/index.html`
-- 디자인: `dist/style.css`
-- 화면 동작: `dist/app.js`
-- 검색·계산·설정 처리: `dist/core.js`
-- 공개 데이터: `dist/data/*.json`
+## GitHub Pages 배포
 
-이미 배포된 기존 사이트의 주소나 접근 설정은 이 GitHub 설정만으로 바뀌지 않습니다.
+전체 작업 저장소의 배포 설정은 루트 `.github/workflows/deploy-pages.yml`입니다. `main`의 `site/dist/**` 또는 해당 워크플로를 변경하면 **`site/dist`만** 게시합니다. 저장소 Settings → Pages의 Source는 GitHub Actions입니다.
 
-## 공식 참고 문서
+- 저장소: https://github.com/raphysicst-create/lab_dashboard
+- 공개 사이트: https://raphysicst-create.github.io/lab_dashboard/
+- 현재 배포 장애 및 마지막 확인 상태: [WORKSPACE_STATUS.md](WORKSPACE_STATUS.md)
 
-- [GitHub Pages 배포 소스 설정](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-- [GitHub Actions로 Pages 배포](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
-- [GitHub Pages 주소와 사용 조건](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
+`site/.github/workflows/deploy-pages.yml`과 `site/README.md`는 공개 파일만 담는 별도 배포용 ZIP의 템플릿입니다. 전체 저장소의 실제 워크플로는 루트 `.github`에 있는 파일입니다.
+
+```sh
+python scripts/package_github_pages.py
+```
+
+이 명령은 `outputs/github-pages/science-classroom-prep-github-pages.zip`을 만듭니다. 이 ZIP은 원자료가 없는 **사이트 전용 배포본**이므로 작업 전체 백업용으로 쓰지 마세요. 전체 작업은 이 저장소를 clone하거나 GitHub의 Download ZIP으로 받습니다.
+
+프로젝트 하위 주소에서 브라우저 검증을 실행하려면 `LAB_DASHBOARD_TEST_BASE_URL` 환경변수를 지정합니다. 일반 브라우저 검증 결과 폴더는 `LAB_DASHBOARD_TEST_OUTPUT`으로 바꿀 수 있습니다.
+
+## 백업 범위
+
+원자료 JSON과 약품 PDF 2개, 약품 파싱 MD·JSON, 최초 계획서, 공개 사이트 코드·데이터, 변환·검증·패키징 스크립트, 스키마, 검토 엑셀과 미리보기, 검증 기록, 디자인 문서와 비교 시안을 보존합니다.
+
+`tmp/`, `scratchpad/`, 런타임·패키지 캐시, 기존 중첩 `.git` 이력, 과거 Sites의 `.openai` 연결 설정은 제외합니다. 이전 로컬 `site/.git`은 별도 Sites 이력이므로 새 PC에서는 GitHub clone으로 시작합니다. 파일 목록과 무결성 검증은 `docs/workspace-backup-manifest.json`을 참고하세요.

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checked": [
+    "source data load",
+    "publisher filter",
+    "classroom rounding",
+    "localStorage reload and new tab",
+    "preparation list controls removed",
+    "material and chemical query",
+    "no results",
+    "achievement comparison",
+    "detail modal and Escape",
+    "empty publisher selection persistence",
+    "desktop and mobile layout",
+    "storage denied graceful failure",
+    "data-load error"
+  ],
+  "pageErrors": []
+}

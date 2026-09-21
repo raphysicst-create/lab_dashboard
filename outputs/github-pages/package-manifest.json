@@ -1,0 +1,24 @@
+{
+  "archive": "C:\\Users\\22\\Desktop\\lab_dashboard\\outputs\\github-pages\\science-classroom-prep-github-pages.zip",
+  "files": [
+    ".github/workflows/deploy-pages.yml",
+    ".gitignore",
+    "README.md",
+    "dist/index.html",
+    "dist/style.css",
+    "dist/app.js",
+    "dist/core.js",
+    "dist/chemical-ui.js",
+    "dist/data/achievements.json",
+    "dist/data/activities.json",
+    "dist/data/textbooks.json",
+    "dist/data/materials.json",
+    "dist/data/quantities.json",
+    "dist/data/chemicals.json",
+    "dist/data/chemical_guidelines.json",
+    "dist/data/sources.json"
+  ],
+  "file_count": 16,
+  "bytes": 81322,
+  "sha256": "f1ef5a16a68f701f8cedcab10b2c280d8fbf01133396bb3b37dd6452afcca41a"
+}
