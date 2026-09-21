@@ -4,7 +4,7 @@ import { STORAGE_KEY, filterActivities, classroomTotals, positiveInteger,
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 30;
 const state = {
-  activities: [], achievements: [], textbooks: [], quantities: [], sources: {},
+  activities: [], achievements: [], textbooks: [], quantities: [],
   publishers: [], preferences: {}, filtered: [], limit: PAGE_SIZE,
 };
 
@@ -204,7 +204,6 @@ function showActivity(id) {
   detailPair(list, '성취기준', activity.achievement_raw);
   detailPair(list, '공식 코드', achievement?.code);
   detailPair(list, '교과서명', textbook?.title);
-  detailPair(list, '판본', textbook?.edition);
   const materials = element('section', null, 'dialog-section');
   materials.append(element('h3', '준비물 원문'), element('p', display(activity.materials_raw), 'raw-materials'));
   const quantity = element('section', null, 'dialog-section');
@@ -213,9 +212,7 @@ function showActivity(id) {
   detailPair(quantityList, '교과서 수량', quantityText(activity));
   detailPair(quantityList, '설정에 따른 수량', quantityText(activity, true));
   quantity.append(quantityList);
-  const source = element('section', null, 'dialog-section');
-  source.append(element('h3', '출처'), element('p', state.sources.source_name, 'raw-materials'), element('p', `기본자료 시트 ${activity.source_row}행`, 'help'));
-  $('dialog-content').replaceChildren(list, materials, quantity, source);
+  $('dialog-content').replaceChildren(list, materials, quantity);
   if (!$('activity-dialog').open) $('activity-dialog').showModal();
 }
 
@@ -257,7 +254,7 @@ function bindEvents() {
 
 async function start() {
   try {
-    const names = ['activities', 'achievements', 'textbooks', 'quantities', 'sources'];
+    const names = ['activities', 'achievements', 'textbooks', 'quantities'];
     const results = await Promise.all(names.map(async name => {
       const response = await fetch(new URL(`./data/${name}.json`, import.meta.url));
       if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
