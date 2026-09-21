@@ -4,7 +4,7 @@ import { STORAGE_KEY, filterActivities, classroomTotals, positiveInteger,
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 30;
 const state = {
-  activities: [], achievements: [], textbooks: [], quantities: [],
+  activities: [], achievements: [], quantities: [],
   publishers: [], preferences: {}, filtered: [], limit: PAGE_SIZE,
 };
 
@@ -194,16 +194,12 @@ function showActivity(id) {
   const activity = state.activities.find(a => a.id === id);
   if (!activity) return;
   $('dialog-title').textContent = activity.title;
-  const achievement = state.achievements.find(a => a.id === activity.achievement_id);
-  const textbook = state.textbooks.find(t => t.id === activity.textbook_id);
   const list = element('dl');
   detailPair(list, '출판사·저자', activity.publisher_raw);
   detailPair(list, '교과서 쪽수', activity.page == null ? null : `${activity.page}쪽`);
   detailPair(list, '학년', activity.grade == null ? null : `${activity.grade}학년`);
   detailPair(list, '단원', activity.unit);
   detailPair(list, '성취기준', activity.achievement_raw);
-  detailPair(list, '공식 코드', achievement?.code);
-  detailPair(list, '교과서명', textbook?.title);
   const materials = element('section', null, 'dialog-section');
   materials.append(element('h3', '준비물 원문'), element('p', display(activity.materials_raw), 'raw-materials'));
   const quantity = element('section', null, 'dialog-section');
@@ -254,7 +250,7 @@ function bindEvents() {
 
 async function start() {
   try {
-    const names = ['activities', 'achievements', 'textbooks', 'quantities'];
+    const names = ['activities', 'achievements', 'quantities'];
     const results = await Promise.all(names.map(async name => {
       const response = await fetch(new URL(`./data/${name}.json`, import.meta.url));
       if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
