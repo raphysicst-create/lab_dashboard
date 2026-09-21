@@ -82,8 +82,6 @@ function populateSelect(select, choices, firstLabel) {
 }
 
 function populateFilters() {
-  const units = [...new Set(state.activities.map(a => a.unit))];
-  populateSelect($('unit-filter'), units.map(unit => [unit, display(unit)]), '전체 단원');
   const grades = [...new Set(state.activities.map(a => a.grade).filter(g => g != null))].sort();
   populateSelect($('grade-filter'), grades.map(grade => [String(grade), `${grade}학년`]), '전체 학년');
   if (state.activities.some(a => a.grade == null)) $('grade-filter').add(new Option('미확인', 'unknown'));
@@ -100,16 +98,42 @@ function populateFilters() {
     return label;
   });
   $('publisher-options').replaceChildren(...options);
+  updateUnitOptions();
   updateAchievementOptions();
+}
+
+function matchesGrade(item) {
+  const grade = $('grade-filter').value;
+  return grade === 'all' || (grade === 'unknown' ? item.grade == null : String(item.grade) === grade);
+}
+
+function updateUnitOptions() {
+  const current = $('unit-filter').value;
+  const activities = state.activities.filter(matchesGrade)
+    .sort((a, b) => (a.unit_number ?? Infinity) - (b.unit_number ?? Infinity));
+  const units = [...new Set(activities.map(a => a.unit))];
+  populateSelect($('unit-filter'), units.map(unit => [unit, display(unit)]), '전체 단원');
+  if (units.includes(current)) $('unit-filter').value = current;
 }
 
 function updateAchievementOptions() {
   const current = $('achievement-filter').value;
   const unit = $('unit-filter').value;
-  const grade = $('grade-filter').value;
   const standards = state.achievements.filter(a => (unit === 'all' || a.unit === unit)
-    && (grade === 'all' || (grade === 'unknown' ? a.grade == null : String(a.grade) === grade)));
-  populateSelect($('achievement-filter'), standards.map(a => [a.id, display(a.raw_text)]), '전체 성취기준');
+    && matchesGrade(a)).sort((a, b) => (a.unit_number ?? Infinity) - (b.unit_number ?? Infinity)
+      || (a.sequence ?? Infinity) - (b.sequence ?? Infinity));
+  const select = $('achievement-filter');
+  select.replaceChildren(new Option('전체 성취기준', 'all'));
+  const groups = new Map();
+  for (const standard of standards) {
+    if (!groups.has(standard.unit)) {
+      const group = document.createElement('optgroup');
+      group.label = `${display(standard.unit)} · ${standard.grade == null ? '학년 미확인' : `${standard.grade}학년`}`;
+      groups.set(standard.unit, group);
+      select.append(group);
+    }
+    groups.get(standard.unit).append(new Option(display(standard.raw_text), standard.id));
+  }
   if (standards.some(a => a.id === current)) $('achievement-filter').value = current;
 }
 
@@ -142,7 +166,8 @@ function createActivityCard(activity) {
   title.append(action(activity.title, () => showActivity(activity.id)));
   const actions = element('div', null, 'card-actions');
   actions.append(action('상세 보기', () => showActivity(activity.id)));
-  card.append(top, title, element('p', activity.unit, 'unit-line'), element('p', '준비물', 'material-label'),
+  const grade = activity.grade == null ? '학년 미확인' : `${activity.grade}학년`;
+  card.append(top, title, element('p', `${grade} · ${display(activity.unit)}`, 'unit-line'), element('p', '준비물', 'material-label'),
     element('p', display(activity.materials_raw), 'raw-materials'), actions);
   return card;
 }
@@ -167,7 +192,7 @@ function resetFilters() {
   $('grade-filter').value = 'all'; $('unit-filter').value = 'all';
   $('achievement-filter').value = 'all'; $('sort-order').value = 'source';
   state.preferences.publishers = [...state.publishers];
-  applyPreferences(); updateAchievementOptions(); savePreferences(); updateResults();
+  applyPreferences(); updateUnitOptions(); updateAchievementOptions(); savePreferences(); updateResults();
 }
 
 function quantityRows(activity) {
@@ -230,7 +255,8 @@ function bindEvents() {
   }
   $('search').addEventListener('input', updateResults);
   ['achievement-filter', 'sort-order'].forEach(id => $(id).addEventListener('change', updateResults));
-  ['grade-filter', 'unit-filter'].forEach(id => $(id).addEventListener('change', () => { updateAchievementOptions(); updateResults(); }));
+  $('grade-filter').addEventListener('change', () => { updateUnitOptions(); updateAchievementOptions(); updateResults(); });
+  $('unit-filter').addEventListener('change', () => { updateAchievementOptions(); updateResults(); });
   $('reset-filters').addEventListener('click', resetFilters);
   $('load-more').addEventListener('click', () => { state.limit += PAGE_SIZE; renderResults(); });
   $('close-dialog').addEventListener('click', () => $('activity-dialog').close());
@@ -252,7 +278,9 @@ async function start() {
   try {
     const names = ['activities', 'achievements', 'quantities'];
     const results = await Promise.all(names.map(async name => {
-      const response = await fetch(new URL(`./data/${name}.json`, import.meta.url));
+      const url = new URL(`./data/${name}.json`, import.meta.url);
+      url.search = new URL(import.meta.url).search;
+      const response = await fetch(url);
       if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
       return response.json();
     }));
