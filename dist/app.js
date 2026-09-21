@@ -1,14 +1,12 @@
 import { STORAGE_KEY, filterActivities, classroomTotals, positiveInteger,
-  sanitizePreferences, calculateQuantity, toCsv } from './core.js';
+  sanitizePreferences, calculateQuantity } from './core.js';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 30;
 const state = {
   activities: [], achievements: [], textbooks: [], quantities: [], sources: {},
-  publishers: [], selected: new Set(), preferences: {}, filtered: [], limit: PAGE_SIZE,
-  view: 'activities', dialogActivity: null,
+  publishers: [], preferences: {}, filtered: [], limit: PAGE_SIZE,
 };
-let toastTimer;
 
 function element(tag, text, className) {
   const node = document.createElement(tag);
@@ -32,13 +30,6 @@ function pageLabel(activity) {
   return activity.page == null ? '쪽수 미확인' : `${activity.page}쪽`;
 }
 
-function announce(message) {
-  clearTimeout(toastTimer);
-  $('toast').textContent = message;
-  $('toast').hidden = false;
-  toastTimer = setTimeout(() => { $('toast').hidden = true; }, 2500);
-}
-
 function storageWarning(message) {
   $('storage-warning').textContent = message;
   $('storage-warning').hidden = !message;
@@ -52,13 +43,12 @@ function readPreferences() {
   } catch {
     storageWarning('저장된 설정을 읽을 수 없습니다. 현재 화면의 설정으로 사용할 수 있습니다.');
   }
-  return sanitizePreferences(value, state.publishers, new Set(state.activities.map(a => a.id)));
+  return sanitizePreferences(value, state.publishers);
 }
 
 function savePreferences() {
-  const value = { ...state.preferences, selected: [...state.selected] };
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(value));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state.preferences));
     $('save-status').textContent = '이 브라우저에 저장됨';
     storageWarning('');
   } catch {
@@ -150,15 +140,8 @@ function createActivityCard(activity) {
   top.append(element('span', activity.publisher_raw, 'publisher-tag'), element('span', pageLabel(activity), 'page'));
   const title = element('h3');
   title.append(action(activity.title, () => showActivity(activity.id)));
-  const select = element('label', null, 'select-activity');
-  const input = document.createElement('input');
-  input.type = 'checkbox'; input.dataset.selectActivity = activity.id;
-  input.checked = state.selected.has(activity.id);
-  input.setAttribute('aria-label', `${activity.publisher_raw} ${activity.title} 준비 목록에 담기`);
-  input.addEventListener('change', () => setSelected(activity.id, input.checked));
-  select.append(input, element('span', '준비 목록에 담기'));
   const actions = element('div', null, 'card-actions');
-  actions.append(select, action('상세 보기', () => showActivity(activity.id)));
+  actions.append(action('상세 보기', () => showActivity(activity.id)));
   card.append(top, title, element('p', activity.unit, 'unit-line'), element('p', '준비물', 'material-label'),
     element('p', display(activity.materials_raw), 'raw-materials'), actions);
   return card;
@@ -166,7 +149,6 @@ function createActivityCard(activity) {
 
 function renderResults() {
   $('result-count').textContent = `탐구활동 ${state.filtered.length.toLocaleString('ko')}건`;
-  $('select-results').disabled = !state.filtered.length;
   if (!state.filtered.length) {
     const empty = element('div', null, 'empty-state');
     empty.append(element('h3', '검색 결과가 없습니다.'),
@@ -188,34 +170,6 @@ function resetFilters() {
   applyPreferences(); updateAchievementOptions(); savePreferences(); updateResults();
 }
 
-function setSelected(id, selected) {
-  if (selected) state.selected.add(id); else state.selected.delete(id);
-  savePreferences(); updateSelectionUI();
-}
-
-function updateSelectionUI() {
-  $('selection-count').textContent = state.selected.size;
-  document.querySelectorAll('[data-select-activity]').forEach(input => { input.checked = state.selected.has(input.dataset.selectActivity); });
-  $('clear-selection').disabled = !state.selected.size;
-  $('export-list').disabled = !state.selected.size;
-  const dialogButton = $('dialog-select');
-  if (dialogButton) dialogButton.textContent = state.selected.has(state.dialogActivity) ? '준비 목록에서 빼기' : '준비 목록에 담기';
-  if (state.view === 'materials') renderMaterials();
-}
-
-function switchView(view) {
-  state.view = view;
-  $('activities-view').hidden = view !== 'activities';
-  $('materials-view').hidden = view !== 'materials';
-  $('activities-tab').setAttribute('aria-pressed', String(view === 'activities'));
-  $('materials-tab').setAttribute('aria-pressed', String(view === 'materials'));
-  if (view === 'materials') renderMaterials();
-}
-
-function selectedActivities() {
-  return state.activities.filter(a => state.selected.has(a.id));
-}
-
 function quantityRows(activity) {
   return state.quantities.filter(q => q.activity_id === activity.id);
 }
@@ -232,43 +186,6 @@ function quantityText(activity, calculated = false) {
   }).join('\n');
 }
 
-function renderMaterials() {
-  const activities = selectedActivities();
-  if (!activities.length) {
-    const empty = element('div', null, 'empty-state');
-    empty.append(element('h3', '담은 활동이 없습니다.'), element('p', '탐구활동에서 준비할 활동을 선택하세요.'), action('탐구활동 보기', () => switchView('activities')));
-    $('selected-activities').replaceChildren(empty);
-    $('aggregate-materials').replaceChildren(); $('materials-summary').textContent = '';
-    return;
-  }
-  $('selected-activities').replaceChildren(...activities.map(activity => {
-    const row = element('div', null, 'selected-row');
-    const text = element('div');
-    text.append(element('strong', activity.title), element('p', `${activity.publisher_raw} · ${pageLabel(activity)}`));
-    row.append(text, action('빼기', () => setSelected(activity.id, false)));
-    return row;
-  }));
-  const missing = activities.filter(a => !a.materials_raw).length;
-  $('materials-summary').textContent = `활동 ${activities.length}건${missing ? ` · 준비물 미확인 ${missing}건` : ''}. 준비물은 활동별 원문으로 표시합니다. 수량과 기준이 확인된 항목만 학급 설정에 따라 계산합니다.`;
-  const table = element('table');
-  const head = element('thead'), heading = element('tr');
-  for (const title of ['교과서 활동', '준비물 원문', '교과서 수량', '설정에 따른 수량']) {
-    const th = element('th', title); th.scope = 'col'; heading.append(th);
-  }
-  head.append(heading);
-  const body = element('tbody');
-  for (const activity of activities) {
-    const row = element('tr');
-    const name = element('td', activity.title); name.append(element('small', `${activity.publisher_raw} · ${pageLabel(activity)}`));
-    row.append(name, element('td', display(activity.materials_raw), 'raw-materials'),
-      element('td', quantityText(activity), 'raw-materials quantity'), element('td', quantityText(activity, true), 'raw-materials quantity'));
-    body.append(row);
-  }
-  table.append(head, body);
-  const wrap = element('div', null, 'table-wrap'); wrap.append(table);
-  $('aggregate-materials').replaceChildren(wrap);
-}
-
 function detailPair(list, label, value) {
   list.append(element('dt', label), element('dd', display(value)));
 }
@@ -276,7 +193,6 @@ function detailPair(list, label, value) {
 function showActivity(id) {
   const activity = state.activities.find(a => a.id === id);
   if (!activity) return;
-  state.dialogActivity = id;
   $('dialog-title').textContent = activity.title;
   const achievement = state.achievements.find(a => a.id === activity.achievement_id);
   const textbook = state.textbooks.find(t => t.id === activity.textbook_id);
@@ -299,24 +215,8 @@ function showActivity(id) {
   quantity.append(quantityList);
   const source = element('section', null, 'dialog-section');
   source.append(element('h3', '출처'), element('p', state.sources.source_name, 'raw-materials'), element('p', `기본자료 시트 ${activity.source_row}행`, 'help'));
-  const button = action(state.selected.has(id) ? '준비 목록에서 빼기' : '준비 목록에 담기', () => setSelected(id, !state.selected.has(id)));
-  button.id = 'dialog-select';
-  $('dialog-content').replaceChildren(button, list, materials, quantity, source);
+  $('dialog-content').replaceChildren(list, materials, quantity, source);
   if (!$('activity-dialog').open) $('activity-dialog').showModal();
-}
-
-function exportList() {
-  const rows = [['활동 ID', '출판사·저자', '단원', '성취기준 원문', '쪽수', '활동명', '준비물 원문', '교과서 수량', '설정에 따른 수량', '학급 수', '학급당 학생 수', '조당 학생 수']];
-  for (const activity of selectedActivities()) {
-    rows.push([activity.id, activity.publisher_raw, activity.unit, activity.achievement_raw, activity.page,
-      activity.title, activity.materials_raw, quantityText(activity), quantityText(activity, true),
-      state.preferences.classes, state.preferences.students, state.preferences.groupSize]);
-  }
-  const url = URL.createObjectURL(new Blob([toCsv(rows)], { type: 'text/csv;charset=utf-8' }));
-  const anchor = document.createElement('a'); anchor.href = url; anchor.download = '과학_수업_준비목록.csv';
-  document.body.append(anchor); anchor.click(); anchor.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 30000);
-  announce('준비 목록을 다운로드했습니다.');
 }
 
 function bindEvents() {
@@ -333,22 +233,13 @@ function bindEvents() {
       state.preferences[property] = value;
       renderClassSummary(); savePreferences();
       if (value == null && $(id).value !== '') $('class-summary').textContent = '학급 설정에는 1부터 100까지의 정수를 입력하세요.';
-      if (state.view === 'materials') renderMaterials();
     });
   }
   $('search').addEventListener('input', updateResults);
   ['achievement-filter', 'sort-order'].forEach(id => $(id).addEventListener('change', updateResults));
   ['grade-filter', 'unit-filter'].forEach(id => $(id).addEventListener('change', () => { updateAchievementOptions(); updateResults(); }));
   $('reset-filters').addEventListener('click', resetFilters);
-  $('activities-tab').addEventListener('click', () => switchView('activities'));
-  $('materials-tab').addEventListener('click', () => switchView('materials'));
   $('load-more').addEventListener('click', () => { state.limit += PAGE_SIZE; renderResults(); });
-  $('select-results').addEventListener('click', () => {
-    for (const activity of state.filtered) state.selected.add(activity.id);
-    savePreferences(); updateSelectionUI(); announce(`검색 결과 ${state.filtered.length}건을 준비 목록에 담았습니다.`);
-  });
-  $('clear-selection').addEventListener('click', () => { state.selected.clear(); savePreferences(); updateSelectionUI(); });
-  $('export-list').addEventListener('click', exportList);
   $('close-dialog').addEventListener('click', () => $('activity-dialog').close());
   $('activity-dialog').addEventListener('click', event => {
     if (event.target === $('activity-dialog')) {
@@ -358,8 +249,8 @@ function bindEvents() {
   });
   window.addEventListener('storage', event => {
     if (event.key === STORAGE_KEY || event.key === null) {
-      state.preferences = readPreferences(); state.selected = new Set(state.preferences.selected);
-      applyPreferences(); updateResults(); updateSelectionUI();
+      state.preferences = readPreferences();
+      applyPreferences(); updateResults();
     }
   });
 }
@@ -376,8 +267,8 @@ async function start() {
     if (!Array.isArray(state.activities) || !state.activities.every(a => typeof a.id === 'string')
       || new Set(state.activities.map(a => a.id)).size !== state.activities.length) throw new Error('Invalid activity data');
     state.publishers = [...new Set(state.activities.map(a => a.publisher_raw))].sort((a, b) => a.localeCompare(b, 'ko'));
-    state.preferences = readPreferences(); state.selected = new Set(state.preferences.selected);
-    populateFilters(); applyPreferences(); bindEvents(); updateResults(); updateSelectionUI();
+    state.preferences = readPreferences();
+    populateFilters(); applyPreferences(); bindEvents(); updateResults();
     $('load-status').hidden = true;
   } catch (error) {
     console.error(error);

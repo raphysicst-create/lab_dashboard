@@ -52,23 +52,12 @@ export function calculateQuantity(record, settings) {
   return Number.isFinite(total) ? Number(total.toPrecision(12)) : null;
 }
 
-export function sanitizePreferences(input, publishers, activityIds) {
+export function sanitizePreferences(input, publishers) {
   const value = input && typeof input === 'object' && !Array.isArray(input) ? input : {};
   return {
     publishers: Array.isArray(value.publishers)
       ? [...new Set(value.publishers.filter(p => publishers.includes(p)))] : [...publishers],
     classes: positiveInteger(value.classes), students: positiveInteger(value.students),
     groupSize: positiveInteger(value.groupSize),
-    selected: Array.isArray(value.selected)
-      ? [...new Set(value.selected.filter(id => activityIds.has(id)))] : [],
   };
-}
-
-export function toCsv(rows) {
-  const escape = value => {
-    let text = String(value ?? '미확인');
-    if (/^[\s\u0000-\u001f]*[=+@-]/.test(text)) text = "'" + text;
-    return '"' + text.replace(/"/g, '""') + '"';
-  };
-  return '\uFEFF' + rows.map(row => row.map(escape).join(',')).join('\r\n');
 }
