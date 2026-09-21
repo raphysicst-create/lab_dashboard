@@ -1,6 +1,6 @@
 import { STORAGE_KEY, filterActivities, classroomTotals, positiveInteger,
   sanitizePreferences, calculateQuantity } from './core.js?v=chemicals-1';
-import { createChemicalUI } from './chemical-ui.js?v=chemicals-1';
+import { createChemicalUI } from './chemical-ui.js?v=chemicals-2';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 30;

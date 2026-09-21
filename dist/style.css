@@ -77,9 +77,6 @@ dt { color:var(--muted); } dd { margin:0; white-space:pre-wrap; overflow-wrap:an
 .chemical-name { font-weight:700; color:var(--blue); text-align:left; }
 .chemical-facts { padding-left:22px; margin:0; }
 .chemical-facts > li { margin:0 0 16px; }
-.chemical-evidence { font-size:.85rem; color:var(--muted); margin-top:5px; }
-.chemical-evidence summary { cursor:pointer; }
-.chemical-evidence p { padding:8px; background:var(--canvas); margin-top:6px; }
 #chemical-content > label { display:block; margin-bottom:6px; }
 .guide-button { margin-bottom:18px; }
 .guide-paragraph { margin:10px 0; }
