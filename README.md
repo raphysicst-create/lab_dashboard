@@ -71,4 +71,3 @@ python -m http.server 4173 --bind 127.0.0.1 --directory dist
 - [GitHub Pages 배포 소스 설정](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 - [GitHub Actions로 Pages 배포](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
 - [GitHub Pages 주소와 사용 조건](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)
-
