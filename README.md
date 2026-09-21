@@ -2,6 +2,13 @@
 
 HTML, CSS, JavaScript와 JSON으로 동작하는 정적 사이트입니다. 별도 서버, 데이터베이스, 빌드 도구를 설치하지 않고 GitHub Pages로 배포할 수 있습니다.
 
+## 약품 관리
+
+- 상단 **약품 관리**에서 약품명·화학식으로 분류, 보관장, 보관 방법, 분리 보관 대상을 찾습니다.
+- 활동 상세의 약품 버튼이나 검색 결과의 약품 관리 정보에서도 열 수 있습니다.
+- 각 안내의 근거 문서와 인쇄면을 펼쳐 볼 수 있으며 공통 관리 안내도 제공합니다.
+- 원문 명칭이 연결되는 활동만 약품과 연결합니다. 농도·혼합물·제형을 추정하지 않으며, 개별 GHS 그림문자와 폐기 방법 등 자료에 없는 정보는 **미확인**으로 표시합니다.
+
 ## GitHub Pages에 배포하기
 
 1. GitHub에서 저장소를 만들고 기본 브랜치를 `main`으로 사용합니다.
@@ -28,6 +35,7 @@ dist/
   style.css
   app.js
   core.js
+  chemical-ui.js
   data/
     achievements.json
     activities.json
@@ -35,6 +43,7 @@ dist/
     materials.json
     quantities.json
     chemicals.json
+    chemical_guidelines.json
     sources.json
 ```
 

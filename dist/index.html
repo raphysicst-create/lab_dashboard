@@ -6,14 +6,14 @@
   <meta name="description" content="중학교 과학 교과서의 탐구활동과 준비물을 찾아보세요.">
   <meta name="theme-color" content="#174a75">
   <title>중학교 과학 수업 준비</title>
-  <link rel="stylesheet" href="./style.css">
-  <script type="module" src="./app.js?v=grade-units-1"></script>
+  <link rel="stylesheet" href="./style.css?v=chemicals-1">
+  <script type="module" src="./app.js?v=chemicals-1"></script>
 </head>
 <body>
   <a class="skip-link" href="#results">활동 목록으로 건너뛰기</a>
   <header class="topbar">
     <div><h1>중학교 과학 수업 준비</h1><p>교과서 탐구활동 · 준비물</p></div>
-    <button id="settings-toggle" type="button" aria-expanded="false" aria-controls="settings-panel">학급 설정</button>
+    <div class="header-actions"><button id="open-chemicals" type="button" disabled>약품 관리</button><button id="settings-toggle" type="button" aria-expanded="false" aria-controls="settings-panel">학급 설정</button></div>
   </header>
   <section id="settings-panel" class="settings-panel" aria-label="학급 설정" hidden>
     <div class="settings-heading"><h2>학급 설정</h2><span id="save-status" role="status"></span></div>
@@ -41,11 +41,14 @@
       <section id="activities-view">
         <div class="results-toolbar"><h2 id="result-count" aria-live="polite">탐구활동</h2><div><label class="inline-label" for="sort-order">정렬<select id="sort-order"><option value="source">원자료 순서</option><option value="publisher">출판사순</option><option value="title">활동명순</option></select></label></div></div>
         <div id="active-achievement" class="achievement-context" hidden></div>
+        <div id="active-chemical" class="chemical-filter" hidden></div>
+        <div id="chemical-search-results" class="chemical-search-results" hidden></div>
         <div id="results" tabindex="-1"></div>
         <button type="button" id="load-more" class="load-more" hidden>활동 더 보기</button>
       </section>
     </section>
   </main>
   <dialog id="activity-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" type="button">닫기</button></div><div id="dialog-content"></div></dialog>
+  <dialog id="chemical-dialog" aria-labelledby="chemical-title"><div class="dialog-heading"><h2 id="chemical-title">약품 관리</h2><div class="header-actions"><button id="chemical-back" type="button" hidden>약품 목록</button><button id="chemical-close" type="button">닫기</button></div></div><div id="chemical-content"></div></dialog>
 </body>
 </html>
