@@ -12,9 +12,7 @@ export function filterActivities(activities, filters) {
     if (filters.unit !== 'all' && activity.unit !== filters.unit) return false;
     if (filters.achievement !== 'all' && activity.achievement_id !== filters.achievement) return false;
     if (!filters.publishers.includes(activity.publisher_raw)) return false;
-    if (filters.chemicalId && !(activity.chemical_ids ?? []).includes(filters.chemicalId)) return false;
-    const fields = [activity.title, activity.materials_raw, activity.achievement_raw, activity.unit, activity.publisher_raw,
-      ...(activity.chemical_search_terms ?? [])];
+    const fields = [activity.title, activity.materials_raw, activity.achievement_raw, activity.unit, activity.publisher_raw];
     const haystack = fields.map(normalizeSearch).join('\n');
     return terms.every(term => haystack.includes(term));
   });

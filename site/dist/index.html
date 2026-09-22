@@ -6,8 +6,8 @@
   <meta name="description" content="중학교 과학 교과서의 탐구활동과 준비물을 찾아보세요.">
   <meta name="theme-color" content="#174a75">
   <title>중학교 과학 수업 준비</title>
-  <link rel="stylesheet" href="./style.css?v=chemicals-2">
-  <script type="module" src="./app.js?v=chemicals-2"></script>
+  <link rel="stylesheet" href="./style.css?v=chemicals-3">
+  <script type="module" src="./app.js?v=chemicals-3"></script>
 </head>
 <body>
   <a class="skip-link" href="#results">활동 목록으로 건너뛰기</a>
@@ -30,7 +30,7 @@
     <aside class="filters" aria-label="활동 필터">
       <div class="section-title"><h2>활동 찾기</h2><button id="reset-filters" type="button" class="text-button">필터 초기화</button></div>
       <label for="search">검색</label>
-      <input id="search" type="search" placeholder="활동명, 준비물, 약품명" autocomplete="off">
+      <input id="search" type="search" placeholder="활동명, 준비물" autocomplete="off">
       <label for="grade-filter">학년</label><select id="grade-filter"><option value="all">전체 학년</option></select>
       <label for="unit-filter">단원</label><select id="unit-filter"><option value="all">전체 단원</option></select>
       <label for="achievement-filter">성취기준</label><select id="achievement-filter"><option value="all">전체 성취기준</option></select>
@@ -41,8 +41,6 @@
       <section id="activities-view">
         <div class="results-toolbar"><h2 id="result-count" aria-live="polite">탐구활동</h2><div><label class="inline-label" for="sort-order">정렬<select id="sort-order"><option value="source">원자료 순서</option><option value="publisher">출판사순</option><option value="title">활동명순</option></select></label></div></div>
         <div id="active-achievement" class="achievement-context" hidden></div>
-        <div id="active-chemical" class="chemical-filter" hidden></div>
-        <div id="chemical-search-results" class="chemical-search-results" hidden></div>
         <div id="results" tabindex="-1"></div>
         <button type="button" id="load-more" class="load-more" hidden>활동 더 보기</button>
       </section>

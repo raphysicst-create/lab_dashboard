@@ -1,13 +1,12 @@
 import { STORAGE_KEY, filterActivities, classroomTotals, positiveInteger,
-  sanitizePreferences, calculateQuantity } from './core.js?v=chemicals-1';
-import { createChemicalUI } from './chemical-ui.js?v=chemicals-2';
+  sanitizePreferences, calculateQuantity } from './core.js?v=chemicals-3';
+import { createChemicalUI } from './chemical-ui.js?v=chemicals-3';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 30;
 const state = {
   activities: [], achievements: [], quantities: [], chemicals: [], materials: [], chemical_guidelines: [],
   publishers: [], preferences: {}, filtered: [], limit: PAGE_SIZE,
-  chemicalId: null,
 };
 let chemicalUI;
 
@@ -143,8 +142,7 @@ function updateAchievementOptions() {
 function getFilters() {
   return { query: $('search').value,
     grade: $('grade-filter').value, unit: $('unit-filter').value,
-    achievement: $('achievement-filter').value, publishers: state.preferences.publishers,
-    chemicalId: state.chemicalId };
+    achievement: $('achievement-filter').value, publishers: state.preferences.publishers };
 }
 
 function updateResults() {
@@ -158,12 +156,6 @@ function updateResults() {
   if (achievement) {
     $('active-achievement').replaceChildren(element('h3', '성취기준별 교과서 활동'), element('p', achievement.raw_text));
   }
-  chemicalUI.renderSearch($('search').value, $('chemical-search-results'));
-  const chemical = chemicalUI.byId.get(state.chemicalId);
-  $('active-chemical').hidden = !chemical;
-  if (chemical) $('active-chemical').replaceChildren(element('strong', `약품: ${chemical.name}`),
-    action('관리 방법', () => chemicalUI.showChemical(chemical.id)),
-    action('약품 선택 해제', () => { state.chemicalId = null; updateResults(); }));
   renderResults();
 }
 
@@ -198,7 +190,6 @@ function renderResults() {
 }
 
 function resetFilters() {
-  state.chemicalId = null;
   $('search').value = '';
   $('grade-filter').value = 'all'; $('unit-filter').value = 'all';
   $('achievement-filter').value = 'all'; $('sort-order').value = 'source';
@@ -299,18 +290,7 @@ async function start() {
     if (!Array.isArray(state.activities) || !state.activities.every(a => typeof a.id === 'string')
       || new Set(state.activities.map(a => a.id)).size !== state.activities.length) throw new Error('Invalid activity data');
     if (!Array.isArray(state.chemicals) || !Array.isArray(state.materials)) throw new Error('Invalid chemical data');
-    chemicalUI = createChemicalUI({ chemicals: state.chemicals, activities: state.activities,
-      guidelines: state.chemical_guidelines, onFilter: id => {
-      state.chemicalId = id; $('search').value = ''; updateResults(); $('results').focus();
-    }, onSearch: name => {
-      state.chemicalId = null; $('search').value = name; updateResults(); $('results').focus();
-    } });
-    for (const activity of state.activities) {
-      activity.chemical_search_terms = (activity.chemical_ids ?? []).flatMap(id => {
-        const chemical = chemicalUI.byId.get(id);
-        return chemical ? [chemical.name, ...(chemical.aliases ?? []), chemical.formula] : [];
-      });
-    }
+    chemicalUI = createChemicalUI({ chemicals: state.chemicals, guidelines: state.chemical_guidelines });
     state.publishers = [...new Set(state.activities.map(a => a.publisher_raw))].sort((a, b) => a.localeCompare(b, 'ko'));
     state.preferences = readPreferences();
     populateFilters(); applyPreferences(); bindEvents(); updateResults();

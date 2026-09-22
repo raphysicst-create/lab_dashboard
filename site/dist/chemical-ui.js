@@ -1,4 +1,4 @@
-import { normalizeSearch } from './core.js?v=chemicals-1';
+import { normalizeSearch } from './core.js?v=chemicals-3';
 
 function node(tag, text, className) {
   const result = document.createElement(tag);
@@ -31,7 +31,7 @@ function factSection(title, records, describe) {
   return section;
 }
 
-export function createChemicalUI({ chemicals, activities, guidelines, onFilter, onSearch }) {
+export function createChemicalUI({ chemicals, guidelines }) {
   const dialog = document.getElementById('chemical-dialog');
   const title = document.getElementById('chemical-title');
   const content = document.getElementById('chemical-content');
@@ -50,12 +50,6 @@ export function createChemicalUI({ chemicals, activities, guidelines, onFilter, 
 
   function open() {
     if (!dialog.open) dialog.showModal();
-  }
-
-  function closeDetails() {
-    dialog.close();
-    const activityDialog = document.getElementById('activity-dialog');
-    if (activityDialog.open) activityDialog.close();
   }
 
   function showGuidelines() {
@@ -114,20 +108,11 @@ export function createChemicalUI({ chemicals, activities, guidelines, onFilter, 
     if (!chemical) return;
     title.textContent = chemical.name;
     back.hidden = false;
-    const related = activities.filter(activity => (activity.chemical_ids ?? []).includes(id));
     const intro = node('div', null, 'chemical-intro');
     const names = node('dl');
     names.append(node('dt', '화학식'), node('dd', chemical.formula || '미확인'));
     if (chemical.aliases?.length) names.append(node('dt', '다른 이름'), node('dd', chemical.aliases.join(', ')));
     intro.append(names);
-    const filter = button(`사용 활동 보기 (연결 ${related.length}건)`, () => {
-      closeDetails();
-      onFilter(id);
-    });
-    const findActivities = node('div', null, 'chemical-links');
-    findActivities.append(button('약품명으로 활동 검색', () => { closeDetails(); onSearch(chemical.name); }));
-    if (related.length) findActivities.append(filter);
-    intro.append(findActivities);
     content.replaceChildren(intro,
       factSection('분류', chemical.classifications, item => [item.group, item.label].filter(Boolean).join(' · ')),
       factSection('보관장 분류', chemical.cabinets, item => [item.name, item.category, item.qualifier].filter(Boolean).join(' · ')),
@@ -147,9 +132,6 @@ export function createChemicalUI({ chemicals, activities, guidelines, onFilter, 
   });
 
   return {
-    byId,
-    showCatalog,
-    showChemical,
     activitySection(activity) {
       const section = node('section', null, 'dialog-section');
       section.append(node('h3', '약품 관리'));
@@ -162,15 +144,6 @@ export function createChemicalUI({ chemicals, activities, guidelines, onFilter, 
         section.append(links);
       }
       return section;
-    },
-    renderSearch(query, container) {
-      const found = query.trim() ? matches(query) : [];
-      container.hidden = !found.length;
-      if (!found.length) { container.replaceChildren(); return; }
-      const links = node('div', null, 'chemical-links');
-      links.append(...found.slice(0, 6).map(chemical => button(chemical.name, () => showChemical(chemical.id))));
-      if (found.length > 6) links.append(button(`약품 ${found.length}건 모두 보기`, () => showCatalog(query)));
-      container.replaceChildren(node('h3', '약품 관리 정보'), links);
     },
   };
 }
