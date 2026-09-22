@@ -1,4 +1,5 @@
-import { normalizeSearch } from './core.js?v=chemicals-3';
+import { normalizeSearch } from './core.js?v=chemicals-4';
+import { cabinetMap, cabinetCategories, wasteFlow } from './chemical-diagrams.js?v=chemicals-4';
 
 function node(tag, text, className) {
   const result = document.createElement(tag);
@@ -56,10 +57,19 @@ export function createChemicalUI({ chemicals, guidelines }) {
     title.textContent = '약품 공통 관리 안내';
     back.hidden = false;
     content.replaceChildren(node('p', '폐수는 성분과 혼합 상태를 기준으로 확인하며, 약품명만으로 개별 폐기 방법을 지정하지 않습니다.', 'help'));
+    const overview = node('section', null, 'dialog-section');
+    overview.append(node('h3', '학교 화학 약품의 보관장 관리'),
+      cabinetMap([], { all: true }),
+      node('p', '가연성 물질 전용 보관장이 없는 경우 밀폐형 약품장에 보관할 수 있으나, 장기적으로 가연성 물질 전용 보관장을 구비하기 위한 노력이 필요합니다.', 'map-caption'));
+    content.append(overview);
     for (const guide of guidelines) {
       const section = node('section', null, 'dialog-section');
       section.append(node('h3', guide.title));
       for (const block of guide.content_markdown.split(/\n\n+/)) {
+        if (block === '### 폐수 분류 흐름') {
+          section.append(node('h4', '폐수 분류'), wasteFlow());
+          break;
+        }
         if (/^#{2,4} /.test(block)) section.append(node('h4', block.replace(/^#{2,4} /, '')));
         else section.append(node('p', block.replace(/^> /gm, '').replace(/^- /gm, '• '), 'raw-materials guide-paragraph'));
       }
@@ -113,9 +123,13 @@ export function createChemicalUI({ chemicals, guidelines }) {
     names.append(node('dt', '화학식'), node('dd', chemical.formula || '미확인'));
     if (chemical.aliases?.length) names.append(node('dt', '다른 이름'), node('dd', chemical.aliases.join(', ')));
     intro.append(names);
+    const storage = factSection('보관장 분류', chemical.cabinets, item => [item.name, item.category, item.qualifier].filter(Boolean).join(' · '));
+    storage.append(cabinetMap(chemical.cabinets), node('p', cabinetCategories(chemical.cabinets).length
+      ? '해당 약품의 보관 분류만 색으로 표시합니다.'
+      : '보관장 분류가 미확인되어 모든 칸을 회색으로 표시합니다.', 'map-caption'));
     content.replaceChildren(intro,
+      storage,
       factSection('분류', chemical.classifications, item => [item.group, item.label].filter(Boolean).join(' · ')),
-      factSection('보관장 분류', chemical.cabinets, item => [item.name, item.category, item.qualifier].filter(Boolean).join(' · ')),
       factSection('보관·관리 방법', chemical.storage, item => `${item.property}\n${item.instruction}`),
       factSection('분리 보관 대상', chemical.incompatibilities, item => item.materials_raw));
     content.scrollTop = 0; dialog.scrollTop = 0; open();

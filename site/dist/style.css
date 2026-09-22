@@ -83,3 +83,60 @@ dt { color:var(--muted); } dd { margin:0; white-space:pre-wrap; overflow-wrap:an
 @media (max-width:1100px) { #results { grid-template-columns:1fr; } .workspace { grid-template-columns:255px minmax(0,1fr); padding:20px; gap:20px; } }
 @media (max-width:700px) { .topbar { padding:16px; } h1 { font-size:1.15rem; } .workspace { display:block; padding:16px; } .filters { position:static; max-height:none; margin-bottom:20px; } .settings-panel { padding:16px; } .results-toolbar { align-items:start; } .settings-fields label { flex:1 1 100px; } dl { grid-template-columns:100px 1fr; } }
 @media print { .topbar button,.filters,.settings-panel,.results-toolbar button,.card-actions { display:none !important; } .workspace { display:block; padding:0; } body { background:white; } .activity-card { break-inside:avoid; } }
+
+/* Chemical cabinet and shared wastewater diagrams. */
+#chemical-content .cabinet-map { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:18px; }
+#chemical-content .cabinet-group { min-width:0; display:flex; flex-direction:column; }
+#chemical-content .cabinet-title { font-size:.85rem; font-weight:700; text-align:center; min-height:49px; display:flex; align-items:center; justify-content:center; margin-bottom:8px; }
+#chemical-content .cabinet-title small { font-size:.75rem; font-weight:400; }
+#chemical-content .sealed { background:#e7ebee; border:1px solid #cbd3d9; border-radius:12px 12px 5px 5px; padding:12px; display:grid; gap:10px; flex:1; position:relative; }
+#chemical-content .sealed::before { content:""; width:48px; height:5px; border-top:2px solid #a4afb8; border-bottom:2px solid #a4afb8; margin:0 auto 2px; }
+#chemical-content .other-cabinets { display:grid; grid-template-rows:1fr 1fr; gap:18px; }
+#chemical-content .compartment { --accent:#667c93; --wash:#eef2f7; --text:#364c64; position:relative; background:var(--wash); border:1px solid var(--accent); border-left:5px solid var(--accent); border-radius:4px; padding:12px 9px; min-height:76px; display:flex; flex-direction:column; justify-content:center; }
+#chemical-content .compartment strong { font-size:.9rem; color:var(--text); }
+#chemical-content .compartment .subtitle { font-size:.75rem; margin-top:4px; color:var(--text); }
+#chemical-content .acid { --accent:#efa31c; --wash:#fff3d7; --text:#775009; }
+#chemical-content .base { --accent:#238fae; --wash:#e4f4fa; --text:#155b73; }
+#chemical-content .inorganic { --accent:#eb6132; --wash:#fff0e9; --text:#a03a15; }
+#chemical-content .metal { --accent:#677b95; --wash:#ecf0f7; --text:#3e526b; }
+#chemical-content .solid { --accent:#26a7a9; --wash:#e3f5f3; --text:#176466; }
+#chemical-content .flammable { --accent:#e3494c; --wash:#fff0f0; --text:#a22a2e; }
+#chemical-content .general-shell,#chemical-content .flammable-shell { background:#e7ebee; border:1px solid #cbd3d9; padding:12px; border-radius:6px; flex:1; display:flex; }
+#chemical-content .general-shell .compartment { width:100%; padding:17px 17px 36px; text-align:center; border-left-width:1px; }
+#chemical-content .general-shell .compartment::before { content:""; position:absolute; top:0; bottom:0; left:50%; border-left:1px solid var(--accent); opacity:.22; }
+#chemical-content .general-shell .compartment::after { content:""; position:absolute; bottom:13px; left:calc(50% - 7px); width:10px; height:19px; border-left:3px solid var(--accent); border-right:3px solid var(--accent); border-radius:2px; }
+#chemical-content .flammable-shell .compartment { width:100%; text-align:center; border-left-width:1px; border-top-width:5px; border-bottom-width:5px; }
+#chemical-content .inactive { --accent:#b9c1c8; --wash:#edf0f2; --text:#69747e; }
+#chemical-content .current { display:inline-block; align-self:flex-start; font-size:.7rem; font-weight:700; line-height:1.5; color:#775009; background:#fff; border:1px solid #d7a33a; border-radius:3px; padding:1px 5px; margin-bottom:5px; }
+#chemical-content .map-caption { font-size:.85rem; color:var(--muted); margin-top:14px; }
+#chemical-content .storage-location { margin:12px 0 0; font-size:.9rem; color:var(--blue); font-weight:700; }
+#chemical-content .waste-flow { margin:22px 0 0; word-break:keep-all; }
+#chemical-content .waste-step { display:grid; grid-template-columns:1fr .8fr 1.4fr; min-height:124px; position:relative; }
+#chemical-content .waste-start { min-height:80px; }
+#chemical-content .waste-box { min-height:52px; padding:8px 6px; border-radius:4px; display:flex; align-items:center; justify-content:center; text-align:center; font-size:.8rem; line-height:1.5; }
+#chemical-content .waste-question { height:52px; background:#e3dace; color:#514638; position:relative; }
+#chemical-content .waste-source { background:#b6a384; color:#fff; }
+#chemical-content .waste-question::after { content:""; position:absolute; top:56px; left:50%; height:64px; border-left:1px solid #526271; }
+#chemical-content .waste-question::before { content:""; position:absolute; top:114px; left:calc(50% - 3px); width:6px; height:6px; border-right:1px solid #526271; border-bottom:1px solid #526271; transform:rotate(45deg); }
+#chemical-content .waste-start .waste-question::after { height:20px; }
+#chemical-content .waste-start .waste-question::before { top:70px; }
+#chemical-content .waste-no { position:absolute; top:58px; left:calc(50% - 22px); font-size:.65rem; color:var(--muted); }
+#chemical-content .waste-branch { padding:0 8px; position:relative; }
+#chemical-content .waste-yes { display:block; height:26px; border-bottom:1px solid #526271; position:relative; color:var(--muted); font-size:.65rem; padding-top:5px; }
+#chemical-content .waste-yes::after,#chemical-content .waste-turn::after { content:""; position:absolute; right:1px; bottom:-3px; width:6px; height:6px; border-top:1px solid #526271; border-right:1px solid #526271; transform:rotate(45deg); }
+#chemical-content .waste-branch-note { color:var(--muted); font-size:.7rem; line-height:1.5; margin-top:5px; overflow-wrap:anywhere; }
+#chemical-content .waste-result .waste-box { background:#24b7ba; color:#073f41; font-weight:700; }
+#chemical-content .waste-result p { color:var(--muted); font-size:.7rem; line-height:1.6; margin-top:7px; }
+#chemical-content .waste-result strong { color:var(--ink); }
+#chemical-content .waste-last-question::after { height:68px; }
+#chemical-content .waste-last-question::before { display:none; }
+#chemical-content .waste-final { min-height:95px; }
+#chemical-content .waste-turn { grid-column:1 / 3; position:relative; height:26px; margin-left:27.7778%; margin-right:8px; border-left:1px solid #526271; border-bottom:1px solid #526271; border-bottom-left-radius:4px; }
+
+@media (max-width:480px) {
+  #chemical-content .cabinet-map { gap:9px; }
+  #chemical-content .sealed, #chemical-content .general-shell, #chemical-content .flammable-shell { padding:8px; }
+  #chemical-content .compartment { padding:10px 7px; }
+  #chemical-content .cabinet-title { font-size:.78rem; }
+  #chemical-content .general-shell .compartment { padding:12px 7px 36px; }
+}

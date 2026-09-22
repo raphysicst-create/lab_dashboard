@@ -48,7 +48,9 @@ const base = process.env.LAB_DASHBOARD_TEST_BASE_URL || 'http://127.0.0.1:4173/'
   await page.locator('#chemical-search').fill('페놀프탈레인 용액');
   await page.locator('#chemical-results').getByRole('button',{name:'페놀프탈레인 용액',exact:true}).click();
   const cabinets=page.locator('#chemical-content section').filter({has:page.getByRole('heading',{name:'보관장 분류',exact:true})});
-  assert.match(await cabinets.innerText(),/^보관장 분류\s+미확인$/);
+  assert.match(await cabinets.innerText(),/^보관장 분류\s+미확인/);
+  assert.equal(await cabinets.locator('.compartment.inactive').count(),6);
+  assert.equal(await cabinets.locator('.current').count(),0);
   await page.locator('#chemical-back').click();
   await page.locator('#chemical-search').fill('에탄올');
   await page.locator('#chemical-results').getByRole('button',{name:'에탄올',exact:true}).click();
@@ -60,6 +62,9 @@ const base = process.env.LAB_DASHBOARD_TEST_BASE_URL || 'http://127.0.0.1:4173/'
   await page.getByRole('button',{name:'공통 관리 안내',exact:true}).click();
   assert.equal(await page.locator('#chemical-title').innerText(),'약품 공통 관리 안내');
   assert.ok((await page.locator('#chemical-content').innerText()).includes('폐수'));
+  assert.equal(await page.locator('.cabinet-map .compartment:not(.inactive)').count(),6);
+  assert.equal(await page.locator('.waste-flow .waste-result').count(),4);
+  assert.match(await page.locator('.waste-flow').innerText(), /암모니아 함유폐수/);
   await page.locator('#chemical-back').click();
   await page.locator('#chemical-search').fill('확인되지않은약품000');
   assert.equal(await page.locator('#chemical-count').innerText(),'약품 0건');

@@ -41,6 +41,7 @@ Linux에서 브라우저 운영체제 라이브러리가 부족하면 Playwright
 npm test
 npm run test:browser
 npm run test:chemicals
+node scripts/verify_cabinets.cjs
 ```
 
 기본 주소는 `http://127.0.0.1:4173/`입니다. 필요하면 `LAB_DASHBOARD_TEST_BASE_URL` 환경변수로 바꿉니다. 기본 Chromium 대신 설치된 Edge를 사용하려면 `LAB_DASHBOARD_BROWSER_CHANNEL=msedge`로 설정합니다. `LAB_DASHBOARD_TEST_OUTPUT`은 화면 캡처·보고서 출력 폴더를 바꿉니다. PowerShell 예시는 다음과 같습니다.
