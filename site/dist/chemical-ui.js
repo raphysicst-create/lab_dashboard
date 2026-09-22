@@ -1,5 +1,5 @@
-import { normalizeSearch } from './core.js?v=chemicals-4';
-import { cabinetMap, cabinetCategories, wasteFlow } from './chemical-diagrams.js?v=chemicals-4';
+import { normalizeSearch } from './core.js?v=chemicals-5';
+import { cabinetMap, cabinetCategories, wasteFlow } from './chemical-diagrams.js?v=chemicals-5';
 
 function node(tag, text, className) {
   const result = document.createElement(tag);

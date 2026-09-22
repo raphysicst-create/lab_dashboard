@@ -6,25 +6,15 @@
   <meta name="description" content="중학교 과학 교과서의 탐구활동과 준비물을 찾아보세요.">
   <meta name="theme-color" content="#174a75">
   <title>중학교 과학 수업 준비</title>
-  <link rel="stylesheet" href="./style.css?v=chemicals-4">
-  <script type="module" src="./app.js?v=chemicals-4"></script>
+  <link rel="stylesheet" href="./style.css?v=chemicals-5">
+  <script type="module" src="./app.js?v=chemicals-5"></script>
 </head>
 <body>
   <a class="skip-link" href="#results">활동 목록으로 건너뛰기</a>
   <header class="topbar">
     <div><h1>중학교 과학 수업 준비</h1><p>교과서 탐구활동 · 준비물</p></div>
-    <div class="header-actions"><button id="open-chemicals" type="button" disabled>약품 관리</button><button id="settings-toggle" type="button" aria-expanded="false" aria-controls="settings-panel">학급 설정</button></div>
+    <div class="header-actions"><button id="open-chemicals" type="button" disabled>약품 관리</button></div>
   </header>
-  <section id="settings-panel" class="settings-panel" aria-label="학급 설정" hidden>
-    <div class="settings-heading"><h2>학급 설정</h2><span id="save-status" role="status"></span></div>
-    <div class="settings-fields">
-      <label>학급 수<input id="class-count" type="number" min="1" max="100" step="1" placeholder="입력" inputmode="numeric"></label>
-      <label>학급당 학생 수<input id="students-per-class" type="number" min="1" max="100" step="1" placeholder="입력" inputmode="numeric"></label>
-      <label>조당 학생 수<input id="students-per-group" type="number" min="1" max="100" step="1" placeholder="입력" inputmode="numeric"></label>
-      <p id="class-summary">학급 정보를 입력하세요.</p>
-    </div>
-    <p class="help">출판사 선택과 학급 설정은 이 브라우저에 자동 저장됩니다. 브라우저의 사이트 데이터를 삭제하면 초기화됩니다.</p>
-  </section>
   <div id="storage-warning" class="notice" role="status" hidden></div>
   <main class="workspace">
     <aside class="filters" aria-label="활동 필터">

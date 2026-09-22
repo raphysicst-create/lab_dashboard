@@ -1,11 +1,10 @@
-import { STORAGE_KEY, filterActivities, classroomTotals, positiveInteger,
-  sanitizePreferences, calculateQuantity } from './core.js?v=chemicals-4';
-import { createChemicalUI } from './chemical-ui.js?v=chemicals-4';
+import { STORAGE_KEY, filterActivities, sanitizePreferences } from './core.js?v=chemicals-5';
+import { createChemicalUI } from './chemical-ui.js?v=chemicals-5';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 30;
 const state = {
-  activities: [], achievements: [], quantities: [], chemicals: [], materials: [], chemical_guidelines: [],
+  activities: [], achievements: [], chemicals: [], materials: [], chemical_guidelines: [],
   publishers: [], preferences: {}, filtered: [], limit: PAGE_SIZE,
 };
 let chemicalUI;
@@ -51,31 +50,16 @@ function readPreferences() {
 function savePreferences() {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state.preferences));
-    $('save-status').textContent = '이 브라우저에 저장됨';
     storageWarning('');
   } catch {
-    $('save-status').textContent = '저장되지 않음';
     storageWarning('이 브라우저에서 설정을 저장할 수 없습니다. 사이트 데이터 저장 권한을 확인하세요.');
   }
 }
 
 function applyPreferences() {
-  $('class-count').value = state.preferences.classes ?? '';
-  $('students-per-class').value = state.preferences.students ?? '';
-  $('students-per-group').value = state.preferences.groupSize ?? '';
   document.querySelectorAll('[data-publisher]').forEach(input => {
     input.checked = state.preferences.publishers.includes(input.dataset.publisher);
   });
-  renderClassSummary();
-}
-
-function renderClassSummary() {
-  const totals = classroomTotals(state.preferences);
-  const students = state.preferences.students;
-  $('settings-toggle').textContent = students ? `학급 설정 · ${students}명/반` : '학급 설정';
-  $('class-summary').textContent = totals
-    ? `학급당 ${totals.groupsPerClass}조 · 전체 ${totals.totalGroups}조 / ${totals.totalStudents}명 (남는 학생은 한 조로 계산)`
-    : '학급 수, 학생 수, 조당 학생 수를 입력하면 조 수를 계산합니다.';
 }
 
 function populateSelect(select, choices, firstLabel) {
@@ -197,22 +181,6 @@ function resetFilters() {
   applyPreferences(); updateUnitOptions(); updateAchievementOptions(); savePreferences(); updateResults();
 }
 
-function quantityRows(activity) {
-  return state.quantities.filter(q => q.activity_id === activity.id);
-}
-
-const basisLabels = { student: '1인당', group: '1조당', class: '1학급당', activity: '실험 전체' };
-
-function quantityText(activity, calculated = false) {
-  const rows = quantityRows(activity);
-  if (!rows.length) return '미확인';
-  return rows.map(row => {
-    const value = calculated ? calculateQuantity(row, state.preferences) : row.quantity;
-    if (value == null || !row.unit || !row.source_ref) return `${display(row.material_name)}: 미확인`;
-    return `${display(row.material_name)}: ${value} ${row.unit}${calculated ? '' : ` / ${basisLabels[row.basis] ?? '기준 미확인'}`}`;
-  }).join('\n');
-}
-
 function detailPair(list, label, value) {
   list.append(element('dt', label), element('dd', display(value)));
 }
@@ -229,32 +197,11 @@ function showActivity(id) {
   detailPair(list, '성취기준', activity.achievement_raw);
   const materials = element('section', null, 'dialog-section');
   materials.append(element('h3', '준비물 원문'), element('p', display(activity.materials_raw), 'raw-materials'));
-  const quantity = element('section', null, 'dialog-section');
-  quantity.append(element('h3', '준비 수량'));
-  const quantityList = element('dl');
-  detailPair(quantityList, '교과서 수량', quantityText(activity));
-  detailPair(quantityList, '설정에 따른 수량', quantityText(activity, true));
-  quantity.append(quantityList);
-  $('dialog-content').replaceChildren(list, materials, quantity, chemicalUI.activitySection(activity));
+  $('dialog-content').replaceChildren(list, materials, chemicalUI.activitySection(activity));
   if (!$('activity-dialog').open) $('activity-dialog').showModal();
 }
 
 function bindEvents() {
-  $('settings-toggle').addEventListener('click', () => {
-    const expanded = $('settings-toggle').getAttribute('aria-expanded') === 'true';
-    $('settings-toggle').setAttribute('aria-expanded', String(!expanded));
-    $('settings-panel').hidden = expanded;
-  });
-  for (const [id, property] of [['class-count', 'classes'], ['students-per-class', 'students'], ['students-per-group', 'groupSize']]) {
-    $(id).addEventListener('input', () => {
-      const value = positiveInteger($(id).value);
-      $(id).setCustomValidity($(id).value !== '' && value == null ? '1부터 100까지의 정수를 입력하세요.' : '');
-      $(id).setAttribute('aria-invalid', String(!$(id).validity.valid));
-      state.preferences[property] = value;
-      renderClassSummary(); savePreferences();
-      if (value == null && $(id).value !== '') $('class-summary').textContent = '학급 설정에는 1부터 100까지의 정수를 입력하세요.';
-    });
-  }
   $('search').addEventListener('input', updateResults);
   ['achievement-filter', 'sort-order'].forEach(id => $(id).addEventListener('change', updateResults));
   $('grade-filter').addEventListener('change', () => { updateUnitOptions(); updateAchievementOptions(); updateResults(); });
@@ -278,7 +225,7 @@ function bindEvents() {
 
 async function start() {
   try {
-    const names = ['activities', 'achievements', 'quantities', 'chemicals', 'materials', 'chemical_guidelines'];
+    const names = ['activities', 'achievements', 'chemicals', 'materials', 'chemical_guidelines'];
     const results = await Promise.all(names.map(async name => {
       const url = new URL(`./data/${name}.json`, import.meta.url);
       url.search = new URL(import.meta.url).search;

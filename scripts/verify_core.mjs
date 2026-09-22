@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { filterActivities, classroomTotals, calculateQuantity, sanitizePreferences } from '../site/dist/core.js';
+import { filterActivities, sanitizePreferences } from '../site/dist/core.js';
 const root = new URL('../', import.meta.url);
 const read = name => JSON.parse(readFileSync(new URL(name, root), 'utf8').replace(/^\uFEFF/, ''));
 const source = read('science_experiment_supplies.json');
@@ -58,19 +58,10 @@ const chemicalResults = filterActivities(activities, {...defaults,query:'염산'
 assert.ok(chemicalResults.length > 0);
 assert.ok(chemicalResults.every(a => a.materials_raw.includes('염산')));
 assert.deepEqual(filterActivities(activities, {...defaults,query:'전자저울'}),filterActivities(activities, {...defaults,query:'전자 저울'}));
-assert.deepEqual(classroomTotals({classes:3,students:10,groupSize:4}),{classes:3,students:10,groupSize:4,groupsPerClass:3,totalGroups:9,totalStudents:30});
-for (const students of [null, '', 0, -1, 1.5, 'bad', 101]) assert.equal(classroomTotals({classes:3,students,groupSize:4}),null);
-assert.equal(calculateQuantity(null,{classes:3,students:10,groupSize:4}),null);
-// Synthetic mathematical fixture only; never included in public activity data.
-const quantity = {quantity:2,unit:'개',basis:'group',source_ref:'test-only'};
-assert.equal(calculateQuantity(quantity,{classes:3,students:10,groupSize:4}),18);
-assert.equal(calculateQuantity({...quantity,source_ref:null},{classes:3,students:10,groupSize:4}),null);
-assert.equal(calculateQuantity({...quantity,basis:null},{classes:3,students:10,groupSize:4}),null);
-assert.equal(calculateQuantity({...quantity,basis:'activity'},{classes:3,students:10,groupSize:4}),null);
 const sanitized=sanitizePreferences({publishers:['비상','unknown','비상'],selected:['activity_0001','absent','activity_0001'],students:10,classes:2,groupSize:4},publishers);
-assert.deepEqual(sanitized.publishers,['비상']);
+assert.deepEqual(sanitized, {publishers:['비상']});
 assert.equal(Object.hasOwn(sanitized,'selected'),false);
-assert.equal(sanitized.classes,2);
-assert.equal(sanitized.groupSize,4);
-assert.equal(sanitized.students,10);
+
+
+
 console.log(JSON.stringify({status:'passed',activityRows:activities.length,sourceCellsCompared:activities.length*8,publishers:publishers.length,chemicalSearchResults:chemicalResults.length,source:fileURLToPath(root)},null,2));
