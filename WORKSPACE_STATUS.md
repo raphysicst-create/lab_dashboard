@@ -43,16 +43,17 @@
 
 `build_data.py`는 최초 자료를 기준으로 공개 JSON을 다시 만듭니다. 검토 결과를 추가한 뒤에는 변환기를 함께 갱신하지 않고 재생성하면 안 됩니다. 기존 엑셀 검토표는 열어서 이어서 검토할 수 있으며, 엑셀 재생성에 필요한 선택 의존성은 `scripts/review/README.md`에 있습니다.
 
-## GitHub와 배포 미완료 사항
+## GitHub와 배포 상태
 
 - 저장소: https://github.com/raphysicst-create/lab_dashboard
 - 사이트: https://raphysicst-create.github.io/lab_dashboard/
 - 전체 작업을 보존하기 위해 저장소 구조를 로컬 프로젝트와 동일하게 `site/dist` 중심으로 정리했습니다. 루트 `.github/workflows/deploy-pages.yml`은 `site/dist`만 배포합니다. 루트의 이전 `dist` 사본은 중복을 없애기 위해 정리했습니다.
 - 전체 원자료·검토 기록은 사용자의 요청으로 공개 GitHub 저장소에 포함됩니다. 해당 자료를 웹 제품에 표시하거나 `site/dist`에 복사하지 않습니다.
-- 마지막 공개 화면 확인 성공 커밋: `7b931d6bf23b3f986c5c2cc94b8dd402ecbbb453` (약품 기능 추가).
+- 최신 배포 성공 커밋: `b21b5b49edc0f811805a4f2a9367fe6ae9f649e1` (약품 상세의 안전표지·폐기 방법 제거). 2026-09-22에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35673785032 의 deploy 작업 성공과 공개 사이트의 염산 상세에서 해당 영역 제거를 확인했습니다. 아래 장애 기록은 과거 이력이며, 전체 작업 백업 커밋 `f76072e`의 배포도 이후 성공했습니다.
+- 이전 공개 화면 확인 성공 커밋: `7b931d6bf23b3f986c5c2cc94b8dd402ecbbb453` (약품 기능 추가).
 - 약품 카드 문구·근거 표시 삭제 커밋: `3d82cecc7a63d362a3805998b573740061a94219`. 로컬 기능 검증은 통과했지만 게시 과정이 `updating_pages`에서 약 10분 후 시간 초과됐습니다.
 - 이어진 재시도 중 배포 파일 이름 중복을 발견해 `github.run_attempt`를 이름에 넣도록 수정했습니다. 해당 문제는 해소됐습니다.
-- 마지막 재배포 기록: https://github.com/raphysicst-create/lab_dashboard/actions/runs/35618935366 . GitHub가 위 `3d82...` 배포를 여전히 진행 중으로 인식하여 HTTP 400으로 새 배포를 거부했습니다. 취소 API 요청은 404였습니다. 최초 정체 원인은 미확인입니다.
+- 과거 재배포 실패 기록: https://github.com/raphysicst-create/lab_dashboard/actions/runs/35618935366 . GitHub가 위 `3d82...` 배포를 여전히 진행 중으로 인식하여 HTTP 400으로 새 배포를 거부했습니다. 취소 API 요청은 404였습니다. 최초 정체 원인은 미확인입니다.
 - 일회성 복구 워크플로는 삭제했습니다. 관련 배포 기록은 `output/validation/github-pages/deployment.json`에 있습니다. 기록은 마지막 확인 시점의 상태이며, 이어서 작업할 때 Actions와 실제 공개 화면을 다시 확인하세요.
 
 새 컴퓨터에서는 이 저장소를 clone하고 README의 로컬 서버를 실행하면 수정된 화면과 원자료를 확인할 수 있습니다. GitHub Pages 게시 성공과 Git 저장소 백업 완료는 별개입니다.
