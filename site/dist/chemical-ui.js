@@ -128,16 +128,11 @@ export function createChemicalUI({ chemicals, activities, guidelines, onFilter, 
     findActivities.append(button('약품명으로 활동 검색', () => { closeDetails(); onSearch(chemical.name); }));
     if (related.length) findActivities.append(filter);
     intro.append(findActivities);
-    const unknown = node('section', null, 'dialog-section');
-    unknown.append(node('h3', '안전표지·폐기 방법'));
-    const unknownList = node('dl');
-    unknownList.append(node('dt', 'GHS 그림문자'), node('dd', '미확인'), node('dt', '개별 약품 폐기 방법'), node('dd', '미확인'));
-    unknown.append(unknownList, button('공통 관리 안내', showGuidelines));
     content.replaceChildren(intro,
       factSection('분류', chemical.classifications, item => [item.group, item.label].filter(Boolean).join(' · ')),
       factSection('보관장 분류', chemical.cabinets, item => [item.name, item.category, item.qualifier].filter(Boolean).join(' · ')),
       factSection('보관·관리 방법', chemical.storage, item => `${item.property}\n${item.instruction}`),
-      factSection('분리 보관 대상', chemical.incompatibilities, item => item.materials_raw), unknown);
+      factSection('분리 보관 대상', chemical.incompatibilities, item => item.materials_raw));
     content.scrollTop = 0; dialog.scrollTop = 0; open();
   }
 

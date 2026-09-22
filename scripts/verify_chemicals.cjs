@@ -21,7 +21,7 @@ const base = process.env.LAB_DASHBOARD_TEST_BASE_URL || 'http://127.0.0.1:4173/'
   assert.equal(await page.locator('#chemical-title').innerText(),'염산');
   const acid=await page.locator('#chemical-content').innerText();
   assert.ok(acid.includes('유리마개 사용') && acid.includes('이중 잠금'));
-  assert.ok(acid.includes('GHS 그림문자') && acid.includes('미확인'));
+  assert.doesNotMatch(acid, /안전표지|GHS 그림문자|폐기 방법/);
   await page.screenshot({path:path.join(output,'hydrochloric-acid.png')});
   await page.getByRole('button',{name:'약품명으로 활동 검색',exact:true}).click();
   assert.equal(await page.locator('#chemical-dialog').isVisible(),false);
