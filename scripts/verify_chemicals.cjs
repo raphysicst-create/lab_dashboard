@@ -32,13 +32,15 @@ const base = process.env.LAB_DASHBOARD_TEST_BASE_URL || 'http://127.0.0.1:4173/'
   assert.equal(await page.locator('#search').inputValue(),'염산');
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 9건');
   await page.locator('#reset-filters').click();
-  await page.locator('.card-actions button').first().click();
+  await page.locator('#search').fill('양이 달라져도 변하지 않는 값 찾기');
+  await page.locator('[data-activity-id="activity_0001"] .card-actions button').click();
   await page.locator('#activity-dialog').getByRole('button',{name:'에탄올',exact:true}).click();
   assert.equal(await page.locator('#chemical-title').innerText(),'에탄올');
   assert.ok((await page.locator('#chemical-content').innerText()).includes('고무마개를 사용하여 밀봉'));
   await page.keyboard.press('Escape');
   assert.equal(await page.locator('#activity-dialog').isVisible(),true);
   await page.locator('#close-dialog').click();
+  await page.locator('#reset-filters').click();
   await page.locator('#open-chemicals').click();
   assert.equal(await page.locator('#chemical-count').innerText(),'약품 177건');
   await page.locator('#chemical-search').fill('황산 구리(Ⅱ)');

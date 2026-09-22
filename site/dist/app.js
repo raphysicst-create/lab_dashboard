@@ -1,5 +1,5 @@
-import { STORAGE_KEY, filterActivities, sanitizePreferences } from './core.js?v=chemicals-7';
-import { createChemicalUI } from './chemical-ui.js?v=chemicals-7';
+import { STORAGE_KEY, filterActivities, sanitizePreferences } from './core.js?v=chemicals-8';
+import { createChemicalUI } from './chemical-ui.js?v=chemicals-8';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 30;
@@ -133,6 +133,17 @@ function updateResults() {
   state.limit = PAGE_SIZE;
   state.filtered = filterActivities(state.activities, getFilters());
   const sort = $('sort-order').value;
+  if (sort === 'achievement') {
+    const achievements = new Map(state.achievements.map(item => [item.id, item]));
+    state.filtered.sort((a, b) => {
+      const left = achievements.get(a.achievement_id);
+      const right = achievements.get(b.achievement_id);
+      return (left?.unit_number ?? Infinity) - (right?.unit_number ?? Infinity)
+        || (left?.sequence ?? Infinity) - (right?.sequence ?? Infinity)
+        || a.publisher_raw.localeCompare(b.publisher_raw, 'ko')
+        || a.source_row - b.source_row;
+    });
+  }
   if (sort === 'publisher') state.filtered.sort((a, b) => a.publisher_raw.localeCompare(b.publisher_raw, 'ko') || a.source_row - b.source_row);
   if (sort === 'title') state.filtered.sort((a, b) => a.title.localeCompare(b.title, 'ko') || a.source_row - b.source_row);
   const achievement = state.achievements.find(a => a.id === $('achievement-filter').value);
@@ -176,7 +187,7 @@ function renderResults() {
 function resetFilters() {
   $('search').value = '';
   $('grade-filter').value = 'all'; $('unit-filter').value = 'all';
-  $('achievement-filter').value = 'all'; $('sort-order').value = 'source';
+  $('achievement-filter').value = 'all'; $('sort-order').value = 'achievement';
   state.preferences.publishers = [...state.publishers];
   applyPreferences(); updateUnitOptions(); updateAchievementOptions(); savePreferences(); updateResults();
 }

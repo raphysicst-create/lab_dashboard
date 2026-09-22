@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#174a75">
   <title>과학 실험 준비물 검색기</title>
   <link rel="stylesheet" href="./style.css?v=header-1">
-  <script type="module" src="./app.js?v=chemicals-7"></script>
+  <script type="module" src="./app.js?v=chemicals-8"></script>
 </head>
 <body>
   <a class="skip-link" href="#results">활동 목록으로 건너뛰기</a>
@@ -29,7 +29,7 @@
     <section class="content" aria-label="탐구활동">
       <div id="load-status" role="status" class="loading">활동을 불러오는 중입니다.</div>
       <section id="activities-view">
-        <div class="results-toolbar"><h2 id="result-count" aria-live="polite">탐구활동</h2><div><label class="inline-label" for="sort-order">정렬<select id="sort-order"><option value="source">원자료 순서</option><option value="publisher">출판사순</option><option value="title">활동명순</option></select></label></div></div>
+        <div class="results-toolbar"><h2 id="result-count" aria-live="polite">탐구활동</h2><div><label class="inline-label" for="sort-order">정렬<select id="sort-order"><option value="achievement">성취기준순 · 출판사순</option><option value="publisher">출판사순</option><option value="title">활동명순</option></select></label></div></div>
         <div id="active-achievement" class="achievement-context" hidden></div>
         <div id="results" tabindex="-1"></div>
         <button type="button" id="load-more" class="load-more" hidden>활동 더 보기</button>
