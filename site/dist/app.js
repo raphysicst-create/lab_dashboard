@@ -207,8 +207,10 @@ function showActivity(id) {
   detailPair(list, '단원', activity.unit);
   detailPair(list, '성취기준', activity.achievement_raw);
   const materials = element('section', null, 'dialog-section');
-  materials.append(element('h3', '준비물 원문'), element('p', display(activity.materials_raw), 'raw-materials'));
-  $('dialog-content').replaceChildren(list, materials, chemicalUI.activitySection(activity));
+  materials.append(element('h3', '실험 기자재'), element('p', display(activity.materials_raw), 'raw-materials'));
+  const supplies = element('section', null, 'dialog-section');
+  supplies.append(element('h3', '실험 준비물'), element('p', display(null), 'raw-materials'));
+  $('dialog-content').replaceChildren(list, materials, supplies, chemicalUI.activitySection(activity));
   if (!$('activity-dialog').open) $('activity-dialog').showModal();
 }
 
