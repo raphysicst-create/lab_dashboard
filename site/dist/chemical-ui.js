@@ -1,5 +1,5 @@
-import { normalizeSearch } from './core.js?v=chemicals-6';
-import { cabinetMap, cabinetCategories, wasteFlow } from './chemical-diagrams.js?v=chemicals-6';
+import { normalizeSearch } from './core.js?v=chemicals-7';
+import { cabinetMap, cabinetCategories, wasteFlow } from './chemical-diagrams.js?v=chemicals-7';
 
 function node(tag, text, className) {
   const result = document.createElement(tag);
@@ -123,19 +123,9 @@ export function createChemicalUI({ chemicals, guidelines }) {
     names.append(node('dt', '화학식'), node('dd', chemical.formula || '미확인'));
     if (chemical.aliases?.length) names.append(node('dt', '다른 이름'), node('dd', chemical.aliases.join(', ')));
     intro.append(names);
-    const cabinetNotes = (chemical.cabinets ?? []).filter(item => item.name !== '가연성 물질 전용 보관장');
     const storage = node('section', null, 'dialog-section');
     storage.append(node('h3', '보관장 분류'));
     if (!chemical.cabinets?.length) storage.append(node('p', '미확인'));
-    if (cabinetNotes.length) {
-      const list = node('ul', null, 'chemical-facts');
-      for (const item of cabinetNotes) {
-        const row = node('li');
-        row.append(node('p', [item.name, item.category, item.qualifier].filter(Boolean).join(' · '), 'raw-materials'));
-        list.append(row);
-      }
-      storage.append(list);
-    }
     storage.append(cabinetMap(chemical.cabinets), node('p', cabinetCategories(chemical.cabinets).length
       ? '해당 약품의 보관 분류만 색으로 표시합니다.'
       : '보관장 분류가 미확인되어 모든 칸을 회색으로 표시합니다.', 'map-caption'));

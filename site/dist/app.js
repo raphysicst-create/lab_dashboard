@@ -1,5 +1,5 @@
-import { STORAGE_KEY, filterActivities, sanitizePreferences } from './core.js?v=chemicals-6';
-import { createChemicalUI } from './chemical-ui.js?v=chemicals-6';
+import { STORAGE_KEY, filterActivities, sanitizePreferences } from './core.js?v=chemicals-7';
+import { createChemicalUI } from './chemical-ui.js?v=chemicals-7';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 30;

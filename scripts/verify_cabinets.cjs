@@ -30,8 +30,14 @@ const output = process.env.LAB_DASHBOARD_TEST_OUTPUT || 'scratch/cabinets-verifi
       const actual = await map.locator('.compartment:not(.inactive)').evaluateAll(nodes => nodes.map(node => node.dataset.category).sort());
       assert.deepEqual(actual, expected, chemical.name);
       assert.equal(await map.locator('.current').count(), expected.length, chemical.name);
-      if (expected.length) known++;
-      else assert.match(await page.locator('#chemical-content').innerText(), /보관장 분류\s+미확인/, chemical.name);
+      if (expected.length) {
+        known++;
+        assert.equal(await map.evaluate(node => node.previousElementSibling?.tagName), 'H3', chemical.name);
+        assert.equal(await map.evaluate(node => node.previousElementSibling?.textContent), '보관장 분류', chemical.name);
+      } else {
+        assert.match(await page.locator('#chemical-content').innerText(), /보관장 분류\s+미확인/, chemical.name);
+        assert.equal(await map.evaluate(node => node.previousElementSibling?.textContent), '미확인', chemical.name);
+      }
       await page.locator('#chemical-back').click();
     }
     assert.equal(chemicals.length, 177);
