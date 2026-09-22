@@ -13,6 +13,8 @@ h1,h2,h3,p { margin:0; }
 h1 { font-size:1.4rem; } h2 { font-size:1.1rem; } h3 { font-size:1.05rem; }
 .topbar { padding:20px 32px; background:var(--blue); color:white; display:flex; justify-content:space-between; gap:20px; align-items:center; }
 .topbar p { font-size:.9rem; color:#d4e7f5; margin-top:3px; }
+.topbar p a { color:inherit; text-underline-offset:3px; }
+.topbar p a:hover { color:white; }
 .topbar button { flex-shrink:0; }
 .header-actions { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
 .help { color:var(--muted); font-size:.9rem; margin:14px 0; }
