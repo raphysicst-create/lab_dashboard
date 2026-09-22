@@ -55,7 +55,8 @@
 - 사이트: https://raphysicst-create.github.io/lab_dashboard/
 - 전체 작업을 보존하기 위해 저장소 구조를 로컬 프로젝트와 동일하게 `site/dist` 중심으로 정리했습니다. 루트 `.github/workflows/deploy-pages.yml`은 `site/dist`만 배포합니다. 루트의 이전 `dist` 사본은 중복을 없애기 위해 정리했습니다.
 - 전체 원자료·검토 기록은 사용자의 요청으로 공개 GitHub 저장소에 포함됩니다. 해당 자료를 웹 제품에 표시하거나 `site/dist`에 복사하지 않습니다.
-- 최신 배포 성공 커밋: `14cace3b1b1ad2acb9d6fb84cfdb5ea62151621e` (제목 변경·소제목 블로그 링크). 2026-09-22에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35694602979 의 deploy 성공과 공개 사이트 제목·링크·활동 로딩 및 1440/390/320px 화면 검증 통과를 확인했습니다. 페이지 오류는 없었습니다.
+- 최신 배포 성공 커밋: `e0117df00846fa65fdd792a6d81b49306b4a7daa` (기본 정렬을 성취기준 번호순·동일 기준 내 출판사 가나다순으로 변경). 2026-09-22에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35695036989 의 deploy 성공과 공개 사이트 전체 454개 정렬, 필터 초기화·출판사 필터·모바일 브라우저 검증 통과를 확인했습니다. 페이지 오류는 없었습니다.
+- 이전 배포 성공 커밋: `14cace3b1b1ad2acb9d6fb84cfdb5ea62151621e` (제목 변경·소제목 블로그 링크). 2026-09-22에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35694602979 의 deploy 성공과 공개 사이트 제목·링크·활동 로딩 및 1440/390/320px 화면 검증 통과를 확인했습니다. 페이지 오류는 없었습니다.
 - 이전 배포 성공 커밋: `1bbbcf14bda09e11159a0c21928d7bd77c2a6b48` (보관장 제목 바로 아래 그림 표시, 미확인 유지). 2026-09-22에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35692316408 의 deploy 성공과 공개 사이트 177개 전수 검증 통과를 확인했습니다. 확인된 48개는 제목 다음 그림, 미확인 129개는 미확인 다음 그림이며 1440/390/320px 화면 및 페이지 오류 없음도 확인했습니다.
 - 이전 배포 성공 커밋: `eb44232e5ddffa0f7dcfb4e3882c8b5358b9906c` (개별 약품의 가연성 보관장 중복 설명 제거). 2026-09-22에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35691906554 의 deploy 성공과 공개 사이트 해당 약품 8개 검증 통과를 확인했습니다. 요청 문구 제거, 보관장 강조 및 공통 안내 유지를 확인했으며 페이지 오류는 없었습니다.
 - 이전 배포 성공 커밋: `58877d51248c01d9e7b5d1c3b2494922bf3262d0` (수량 표시·학급 설정 및 계산 기능 제거). 2026-09-22에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35691591110 의 deploy 성공과 공개 사이트 브라우저 검증 통과를 확인했습니다. 수량·학급 설정 제거, 출판사 선택 저장, 검색·필터·활동 상세, 모바일 화면이 정상이며 페이지 오류는 없었습니다.
