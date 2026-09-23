@@ -62,7 +62,8 @@
 - 사이트: https://raphysicst-create.github.io/lab_dashboard/
 - 전체 작업을 보존하기 위해 저장소 구조를 로컬 프로젝트와 동일하게 `site/dist` 중심으로 정리했습니다. 루트 `.github/workflows/deploy-pages.yml`은 `site/dist`만 배포합니다. 루트의 이전 `dist` 사본은 중복을 없애기 위해 정리했습니다.
 - 전체 원자료·검토 기록은 사용자의 요청으로 공개 GitHub 저장소에 포함됩니다. 해당 자료를 웹 제품에 표시하거나 `site/dist`에 복사하지 않습니다.
-- 최신 배포 성공 커밋: `ab78623bfd528624c2ec2cc3201c3d776ee2c2a0` (모바일 상세 필터 접기). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35827250208 배포 성공. 공개 HTML·JS·CSS가 로컬과 일치하며 320/390/700/701/1440px에서 초기 접힘·검색·필터 펼치기/접기·선택값 유지·초기화·PC 표시·가로 넘침 없음 확인, 페이지 오류 0건. 기록: `output/validation/mobile-filters-20260923/public/`.
+- 최신 배포 성공 커밋: `67ae45409665649f2ea4e5277796f8e2043c502b` (고1 준비물 기자재·준비물 분류). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35829199537 배포 성공. 공개 파일 12개가 로컬과 일치하며 고1 두 분류 영역·미확인·빈 분류·검색/필터·PC/모바일 검증 통과, 페이지 오류 0건. 기록: `output/validation/high-classification-20260923/public/`.
+- 이전 배포 성공 커밋: `ab78623bfd528624c2ec2cc3201c3d776ee2c2a0` (모바일 상세 필터 접기). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35827250208 배포 성공. 공개 HTML·JS·CSS가 로컬과 일치하며 320/390/700/701/1440px에서 초기 접힘·검색·필터 펼치기/접기·선택값 유지·초기화·PC 표시·가로 넘침 없음 확인, 페이지 오류 0건. 기록: `output/validation/mobile-filters-20260923/public/`.
 - 이전 배포 성공 커밋: `bdbe15b5b0461bb8891797b6ce13e29cbffdaec3` (통합과학2 부록 1건 제외). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35825704408 배포 성공, 공개 JSON 일치 및 부록 단원·활동 미노출 검증 완료. 현재 전체 1,276개·고1 414개·29단원. 기록: `output/validation/remove-appendix-20260923/public/`.
 - 이전 배포 성공 커밋: `d9322d47a1f548aded6e37d89cb155805ce4e684` (단원명 통일, 86개 표기를 대단원 29개+부록 1개로 정리). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35825015778 의 deploy 성공과 공개 JSON·웹 파일 일치, 단원 필터·출판사 통합·학년 구분·PC/모바일 검증 통과를 확인했습니다. 기록: `output/validation/unit-normalization-20260923/public/`.
 - 이전 배포 성공 커밋: `87f94abb24bdc470f7be0b3dc230500eb017a712` (고1 415개 추가, 총 1,277개·기준 118개). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35823842396 의 deploy 성공과 공개 사이트의 전체 JSON·변경 웹 파일 일치, 고1/중1 분리·복수 성취기준·준비물 원문·PC/모바일 브라우저 검증 통과를 확인했습니다. 페이지 오류 없음. 기록: `output/validation/integrated-site-20260923/public/`.
@@ -150,4 +151,4 @@
 - 중학교 862개 분류·원문은 그대로입니다. 고1도 교구 원문·개행·규격·수량과 단원·학년·성취기준을 보존했습니다. 안내 문장 1개는 실제 물품에서 제외하되 원문과 비항목 범위를 내부 기록에 보존했습니다.
 - 기존 동일 품목 결정과 사용자 그룹을 우선 적용했습니다. 대체 선택지·구성 미정 재료 9개는 유사 품목·활동 용도에 따른 편집 분류이며, 구성품이나 재사용 가능 여부를 새로 단정하지 않았습니다. 근거는 내부 manifest에만 보존합니다.
 - 적용 전 사본: `outputs/extraction/combined-20260922/decision_history/20260923-high-classification/`. 분류 근거: `outputs/extraction/integrated-science-20260923/preparation_classification/`. 검증·게시 기록은 `output/validation/high-classification-20260923/`에 기록합니다.
-- 독립 데이터 검증 51개, 검색/필터 검증, 원본 PDF·JSON·검토 엑셀 보존 검증과 로컬 PC/모바일 브라우저 검증 통과. 페이지 오류 0건. 공개 배포는 후속 확인 기록을 따릅니다.
+- 독립 데이터 검증 51개, 검색/필터 검증, 원본 PDF·JSON·검토 엑셀 보존 검증과 로컬 PC/모바일 브라우저 검증 통과. 페이지 오류 0건. 변경 커밋 `67ae454`의 공개 배포·파일 대조·브라우저 검증도 통과했습니다.

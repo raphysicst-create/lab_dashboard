@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "checked_at": "2026-09-23T06:58:51.849047+00:00",
+  "commit": "67ae45409665649f2ea4e5277796f8e2043c502b",
+  "workflow_url": "https://github.com/raphysicst-create/lab_dashboard/actions/runs/35829199537",
+  "conclusion": "success",
+  "activities": 1276,
+  "high_school": 414,
+  "equipment_occurrences": 724,
+  "supply_occurrences": 230,
+  "null_high": 176,
+  "checks": [
+    {
+      "file": "index.html",
+      "sha256": "52a163d99279612d637cb842c57d94f13cdc66573f104f603ad198e354abbbe9",
+      "matched": true
+    },
+    {
+      "file": "app.js",
+      "sha256": "379ccf0845ccc45cb81023a295aee10e51e0a8e5fe2e986ca8b41c2c81ec99ea",
+      "matched": true
+    },
+    {
+      "file": "core.js",
+      "sha256": "61e0f2a4e500b6d42331ba06e47d0d2f069a8e6abc1b480711d51adbd584d2a2",
+      "matched": true
+    },
+    {
+      "file": "style.css",
+      "sha256": "e03b5b6538db292b4fe70f6606e63c1c86ea8c254506050a9b373d5cbc07b239",
+      "matched": true
+    },
+    {
+      "file": "data/achievements.json",
+      "sha256": "ad071713c5ccff2f810c6bacd7b3d975f4a9de1dcb8acf5fd7b68b99d6785dbe",
+      "matched": true
+    },
+    {
+      "file": "data/activities.json",
+      "sha256": "ad02bdd360fbf62985bb5129f2ccb477fbb2337779b0e9a52a10af45bc8a3021",
+      "matched": true
+    },
+    {
+      "file": "data/chemical_guidelines.json",
+      "sha256": "d81734f8436833af822c1a2d62cd4711fdd00cce41b0cba8645ff533b1ffcd8d",
+      "matched": true
+    },
+    {
+      "file": "data/chemicals.json",
+      "sha256": "3d43d2006634f3fa4e2d7de8aedc03f0d9ed3d07faf12c4a6f0789672acb6c42",
+      "matched": true
+    },
+    {
+      "file": "data/materials.json",
+      "sha256": "843eafc77f89847d66ff541c507c7c2da7f2327af9273873b25f0969caac19ae",
+      "matched": true
+    },
+    {
+      "file": "data/quantities.json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "matched": true
+    },
+    {
+      "file": "data/sources.json",
+      "sha256": "a67fa20c8912d69cc10c95902990b515fd4a5bc2a4b7f29fa298506698e0d339",
+      "matched": true
+    },
+    {
+      "file": "data/textbooks.json",
+      "sha256": "3d843dd7d0255e373e4e71d3e33f0f5d82f3068e11be69dacbb4db6ba1b0726f",
+      "matched": true
+    }
+  ]
+}
