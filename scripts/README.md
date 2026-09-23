@@ -85,10 +85,14 @@ python scripts/review/render-review.py
 
 ## 고1 통합과학 통합 (2026-09-23)
 
-현재 입력은 같은 경로의 1,277행 통합 JSON입니다. `extraction/apply_integrated_science.py`는 중학교 사본을 보존하고 검증된 고1 415개를 추가합니다. 후속 편집이 있으면 재적용을 중단합니다. `build_data.py`는 복수 성취기준과 중1/고1 구분을 공개 데이터에 반영합니다. 고1 준비물은 원문으로 표시하며 분류하지 않습니다.
+현재 입력은 같은 경로의 1,276행 통합 JSON입니다(후속 부록 제외 적용). `extraction/apply_integrated_science.py`는 중학교 사본을 보존하고 검증된 고1 415개를 추가합니다. 후속 편집이 있으면 재적용을 중단합니다. `build_data.py`는 복수 성취기준과 중1/고1 구분을 공개 데이터에 반영합니다. 고1 준비물도 후속 분류 적용으로 기자재·준비물 두 영역에 표시합니다.
 
 현재 전체 검증: `python scripts/verify_integrated_application.py`, `node scripts/verify_core.mjs`, `node scripts/verify_browser.cjs`, `python scripts/verify_chemicals.py`. 기존 `verify_achievement_application.py`는 중학교 862행 적용 시점 전용 검증이며, 후속 추가 자료가 있는 현재 입력에는 사용하지 않습니다.
 
 ## 단원명 정규화
 
 `scripts/extraction/normalize_units.py`는 적용 전 1,277행을 보존하고 교과서의 실제 대단원명·학교급·권수를 기준으로 번호와 단원명을 맞춥니다. 학년이나 성취기준 연결로 소속을 재분배하지 않습니다. 원문 단원명과 소단원 정보는 `단원명 원문`에 그대로 있습니다. 적용 후 `build_data.py`를 실행하며 `verify_integrated_application.py`와 기존 통합/브라우저 검증으로 대조합니다.
+
+## 고1 준비물 분류
+
+`python scripts/extraction/classify_integrated_supplies.py`는 검토한 3개 manifest의 원문 범위와 기존 동일 품목 결정을 검사한 후 고1 분류만 적용합니다. 변경 전 사본을 보존하며 후속 편집이 있으면 덮어쓰기를 중단합니다. 기존 중학교 분류 카탈로그와 원본 추출본은 갱신하지 않습니다. 이어서 `build_data.py`를 실행합니다. 전체 적용 검증은 `verify_integrated_application.py`, 검색 검증은 `verify_core.mjs`, 화면 검증은 `verify_browser.cjs`입니다.

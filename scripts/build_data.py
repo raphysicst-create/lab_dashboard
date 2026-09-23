@@ -81,7 +81,7 @@ def main():
                          'achievement_ids':[a['id'] for a in linked]})
         if high:
             activity.update({'volume':book['volume'],
-                             'material_classification_pending':True})
+                             'material_classification_pending':row.get('준비물 표시 방식')=='원문'})
         review.append({'activity_id': row['id'], 'source_row': row['source_row'],
                        'activity': 'textbook_not_checked', 'materials': 'textbook_not_checked',
                        'quantity': 'not_checked',

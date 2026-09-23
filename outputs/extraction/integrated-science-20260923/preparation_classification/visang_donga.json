@@ -1,0 +1,4217 @@
+{
+  "records": [
+    {
+      "record_id": "visang_IS1_001",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_002",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_003",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_004",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_005",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_006",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_007",
+      "items": [
+        {
+          "raw": "물",
+          "span": [
+            0,
+            1
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 물·얼음·혼합물",
+          "decision_source": "preparation_item_catalogue.json:ITEM-2e7edc957ce601f5 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "전자저울",
+          "span": [
+            3,
+            7
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-51970c18e17d8d19 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "컵",
+          "span": [
+            9,
+            10
+          ],
+          "category": "실험 준비물",
+          "reason": "2026-09-23 사용자 결정: 사용자가 지정한 검토 그룹: 컵·병·통·용기류",
+          "decision_source": "classification_decisions.json:ITEM-7aa3ba6000fb7769 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_008",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_009",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_010",
+      "items": [
+        {
+          "raw": "온도 센서",
+          "span": [
+            0,
+            5
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-cc1a901302cbe334 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스마트 기기",
+          "span": [
+            7,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_011",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_012",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_013",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_014",
+      "items": [
+        {
+          "raw": "간이 분광기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 분광 관찰 기구·방전관",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "수소 방전관",
+          "span": [
+            8,
+            14
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 분광 관찰 기구·방전관",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "헬륨 방\n전관",
+          "span": [
+            16,
+            23
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 분광 관찰 기구·방전관",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "고전압 발생 장치",
+          "span": [
+            25,
+            34
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "스마트폰",
+          "span": [
+            36,
+            40
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-217aae320db5dd84 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "내열 장갑",
+          "span": [
+            42,
+            47
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-2afbfaf06473b589 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_015",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_016",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_017",
+      "items": [
+        {
+          "raw": "부록 157 쪽 활동 카드",
+          "span": [
+            0,
+            14
+          ],
+          "category": "실험 기자재",
+          "reason": "원문에 부록으로 명시된 학습 교구는 기자재라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 부록 표기 전수"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_018",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_019",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_020",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_021",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_022",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_023",
+      "items": [
+        {
+          "raw": "증류수",
+          "span": [
+            0,
+            3
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 물·얼음·혼합물",
+          "decision_source": "preparation_item_catalogue.json:ITEM-bde5fc630468bee1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "염화 나트륨",
+          "span": [
+            5,
+            11
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 명시된 화학 물질",
+          "decision_source": "preparation_item_catalogue.json:ITEM-72be2cc06e0a5f83 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "염화 칼슘",
+          "span": [
+            13,
+            18
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "설\n탕",
+          "span": [
+            20,
+            23
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 식품·식재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-7921a3bb40fa91bb (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "포도당",
+          "span": [
+            25,
+            28
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "유리 막대",
+          "span": [
+            30,
+            35
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-01e79421b60abc30 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스포이트",
+          "span": [
+            37,
+            41
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-906dce4c68790182 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "전\n기 전도성 측정기",
+          "span": [
+            43,
+            54
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "6 홈판",
+          "span": [
+            56,
+            60
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-438b1b1fd2b694a1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "약숟가락",
+          "span": [
+            62,
+            66
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-15b7e88d6b317791 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보안경",
+          "span": [
+            68,
+            71
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            73,
+            79
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            81,
+            84
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_024",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_025",
+      "items": [
+        {
+          "raw": "쇠구슬",
+          "span": [
+            0,
+            3
+          ],
+          "category": "실험 기자재",
+          "reason": "형태를 유지하며 반복 사용하는 실험 도구·교구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-159ac3b61b13906d (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "자석으로 된 막대",
+          "span": [
+            5,
+            14
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_026",
+      "items": [
+        {
+          "raw": "부록 161 쪽 뉴클레오타이드 모\n형",
+          "span": [
+            0,
+            20
+          ],
+          "category": "실험 기자재",
+          "reason": "원문에 부록으로 명시된 학습 교구는 기자재라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 부록 표기 전수"
+        },
+        {
+          "raw": "가위",
+          "span": [
+            22,
+            24
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 작업 도구·보호 도구·악기",
+          "decision_source": "preparation_item_catalogue.json:ITEM-13bc3a4ef5d8535e (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "풀",
+          "span": [
+            26,
+            27
+          ],
+          "category": "실험 준비물",
+          "reason": "접착·흡수·연소 과정에 사용하는 소모 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-9f4ab3b56eddc42c (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_027",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_028",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_029",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_030",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_031",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_032",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_033",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_034",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_035",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_036",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_037",
+      "items": [
+        {
+          "raw": "30 cm 자",
+          "span": [
+            0,
+            7
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-2d0d792cb75e1f00 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "원형 나무 도막",
+          "span": [
+            9,
+            17
+          ],
+          "category": "실험 준비물",
+          "reason": "나무 도막은 기존 사용자 제작 재료 그룹 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 제작 재료·막대·빨대·필름"
+        },
+        {
+          "raw": "모눈종\n이",
+          "span": [
+            19,
+            24
+          ],
+          "category": "실험 준비물",
+          "reason": "2026-09-23 사용자 결정: 사용자가 지정한 검토 그룹: 일반 종이·문구 재료",
+          "decision_source": "classification_decisions.json:ITEM-0fc2187a81a7a8f8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "우드록",
+          "span": [
+            26,
+            29
+          ],
+          "category": "실험 준비물",
+          "reason": "2026-09-23 사용자 결정: 사용자가 지정한 검토 그룹: 제작 재료·막대·빨대·필름",
+          "decision_source": "classification_decisions.json:ITEM-482bfa83793e04f2 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스마트 기기",
+          "span": [
+            31,
+            37
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "삼각대",
+          "span": [
+            39,
+            42
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-4d448390155d725e (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_038",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_039",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_040",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_041",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_042",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_043",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_044",
+      "items": [
+        {
+          "raw": "적양파",
+          "span": [
+            0,
+            3
+          ],
+          "category": "실험 기자재",
+          "reason": "양파의 색상 변형으로, 기존 양파와 생물 시료 기자재 결정을 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 생물·암석·광물 시료; classification_decisions.json: 양파"
+        },
+        {
+          "raw": "0.9 % 소금물",
+          "span": [
+            5,
+            14
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 식품·식재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "10 % 소금\n물",
+          "span": [
+            16,
+            25
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 식품·식재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "증류수",
+          "span": [
+            27,
+            30
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 물·얼음·혼합물",
+          "decision_source": "preparation_item_catalogue.json:ITEM-bde5fc630468bee1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "받침 유리",
+          "span": [
+            32,
+            37
+          ],
+          "category": "실험 기자재",
+          "reason": "2026-09-23 사용자 결정: 사용자가 지정한 검토 그룹: 보호용품·현미경 소모품",
+          "decision_source": "classification_decisions.json:ITEM-c564859e664c9368 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "덮개 유리",
+          "span": [
+            39,
+            44
+          ],
+          "category": "실험 기자재",
+          "reason": "2026-09-23 사용자 결정: 사용자가 지정한 검토 그룹: 보호용품·현미경 소모품",
+          "decision_source": "classification_decisions.json:ITEM-278ac3b77c5964c1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스포이트",
+          "span": [
+            46,
+            50
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-906dce4c68790182 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "핀셋",
+          "span": [
+            52,
+            54
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-39af694bc69d1ade (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "칼",
+          "span": [
+            56,
+            57
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 작업 도구·보호 도구·악기",
+          "decision_source": "preparation_item_catalogue.json:ITEM-4eaedee29619f832 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "거름종이",
+          "span": [
+            59,
+            63
+          ],
+          "category": "실험 준비물",
+          "reason": "부착·여과·검출·도포 등에 쓰는 소모 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1ec1afbf79ef79b0 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "현미\n경",
+          "span": [
+            65,
+            69
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b14ab406e0368166 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스마트폰",
+          "span": [
+            71,
+            75
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-217aae320db5dd84 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "현미경 스마트폰 촬\n영 거치대",
+          "span": [
+            77,
+            93
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            95,
+            101
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            103,
+            106
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_045",
+      "items": [
+        {
+          "raw": "생간 조각",
+          "span": [
+            0,
+            5
+          ],
+          "category": "실험 준비물",
+          "reason": "과산화 수소수에 투입하는 잘라진 생체 조직 시료로, 학생 과정에서 투입 및 실험 후 남은 물질 처리를 확인",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS1 PDF132, donga_IS1 PDF141 학생 과정"
+        },
+        {
+          "raw": "감자 조각",
+          "span": [
+            7,
+            12
+          ],
+          "category": "실험 준비물",
+          "reason": "과산화 수소수에 투입하는 잘라진 생체 조직 시료로, 학생 과정에서 투입 및 실험 후 남은 물질 처리를 확인",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS1 PDF132, donga_IS1 PDF141 학생 과정"
+        },
+        {
+          "raw": "3 % 과산화\n수소수",
+          "span": [
+            14,
+            25
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "시험관",
+          "span": [
+            27,
+            30
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-f757d3e41ef3804b (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "시험관대",
+          "span": [
+            32,
+            36
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-283b8f3fa1d3111e (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "페트리\n접시",
+          "span": [
+            38,
+            44
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-419a838a61801ed3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스포이트",
+          "span": [
+            46,
+            50
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-906dce4c68790182 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "향",
+          "span": [
+            52,
+            53
+          ],
+          "category": "실험 준비물",
+          "reason": "접착·흡수·연소 과정에 사용하는 소모 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1f1c8336cec9a392 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "핀셋",
+          "span": [
+            55,
+            57
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-39af694bc69d1ade (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "점화기",
+          "span": [
+            59,
+            62
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 작업 도구·보호 도구·악기",
+          "decision_source": "preparation_item_catalogue.json:ITEM-227fd460d00d7928 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보안경",
+          "span": [
+            64,
+            67
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            69,
+            75
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            77,
+            80
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_046",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS1_047",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_048",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_049",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_050",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS1_051",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_001",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_002",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_003",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_004",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_005",
+      "items": [
+        {
+          "raw": "네 가지 색 뻥튀기 과자(빨간색, 주\n황색, 노란색, 초록색)",
+          "span": [
+            0,
+            34
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 식품·식재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "두 가지 색\n도화지(빨간색, 초록색)",
+          "span": [
+            36,
+            56
+          ],
+          "category": "실험 준비물",
+          "reason": "부록 표기가 없는 일반 종이·문구 재료라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 일반 종이·문구 재료"
+        },
+        {
+          "raw": "젓가락",
+          "span": [
+            58,
+            61
+          ],
+          "category": "실험 기자재",
+          "reason": "활동에서 조작에 쓰는 젓가락을 도구로 분류. 재질과 일회용 여부는 명시되지 않아 추가하지 않으며 나무젓가락으로 바꾸지 않음.",
+          "decision_source": "고1 후속 검토: 기존 중학교의 유사 품목·활동 용도 기준을 적용한 편집 분류 (신규 사용자 직접 지정 아님)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_006",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_007",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_008",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_009",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_010",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_011",
+      "items": [
+        {
+          "raw": "묽은 염산",
+          "span": [
+            0,
+            5
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 명시된 화학 물질",
+          "decision_source": "preparation_item_catalogue.json:ITEM-0e1bc83b9f207d84 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "레몬즙",
+          "span": [
+            7,
+            10
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "식초",
+          "span": [
+            12,
+            14
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 식품·식재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-c74ebaef4a5f2177 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "수산화 나\n트륨 수용액",
+          "span": [
+            16,
+            28
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 액체·시약·혼합물 재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "제빵 소다 수용액",
+          "span": [
+            30,
+            39
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 액체·시약·혼합물 재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "하\n수구 세정제",
+          "span": [
+            41,
+            49
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "BTB 용액",
+          "span": [
+            51,
+            57
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 액체·시약·혼합물 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-14352781312cf64c (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "증류수",
+          "span": [
+            59,
+            62
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 물·얼음·혼합물",
+          "decision_source": "preparation_item_catalogue.json:ITEM-bde5fc630468bee1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스포이트",
+          "span": [
+            64,
+            68
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-906dce4c68790182 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "전기 전도성 측정기",
+          "span": [
+            70,
+            80
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "푸\n른색 리트머스 종이",
+          "span": [
+            82,
+            94
+          ],
+          "category": "실험 준비물",
+          "reason": "부착·여과·검출·도포 등에 쓰는 소모 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-4901e15a7f151e46 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "붉은색 리트머\n스 종이",
+          "span": [
+            96,
+            108
+          ],
+          "category": "실험 준비물",
+          "reason": "부착·여과·검출·도포 등에 쓰는 소모 재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "마그네슘 리본",
+          "span": [
+            110,
+            117
+          ],
+          "category": "실험 준비물",
+          "reason": "금속선·리본 제작 재료라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 금속·금속선·포일"
+        },
+        {
+          "raw": "24 홈판",
+          "span": [
+            119,
+            124
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-2cce2d7cf19fe28e (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "핀셋",
+          "span": [
+            126,
+            128
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-39af694bc69d1ade (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보안경",
+          "span": [
+            130,
+            133
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            135,
+            141
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            143,
+            146
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_012",
+      "items": [
+        {
+          "raw": "묽은 염산",
+          "span": [
+            0,
+            5
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 명시된 화학 물질",
+          "decision_source": "preparation_item_catalogue.json:ITEM-0e1bc83b9f207d84 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "수산화 나트륨 수용액",
+          "span": [
+            7,
+            18
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 액체·시약·혼합물 재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "증류수",
+          "span": [
+            20,
+            23
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 물·얼음·혼합물",
+          "decision_source": "preparation_item_catalogue.json:ITEM-bde5fc630468bee1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "BTB 용액",
+          "span": [
+            25,
+            31
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 액체·시약·혼합물 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-14352781312cf64c (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "유리 막대",
+          "span": [
+            33,
+            38
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-01e79421b60abc30 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스\n포이트",
+          "span": [
+            40,
+            45
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-906dce4c68790182 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "눈금실린더",
+          "span": [
+            47,
+            52
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-f7ee3431b024dab2 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "블루투스 온\n도계",
+          "span": [
+            54,
+            63
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "6 홈판",
+          "span": [
+            65,
+            69
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-438b1b1fd2b694a1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스마트 기기",
+          "span": [
+            71,
+            77
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보안경",
+          "span": [
+            79,
+            82
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            84,
+            90
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            92,
+            95
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_013",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_014",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_015",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_016",
+      "items": [
+        {
+          "raw": "물",
+          "span": [
+            0,
+            1
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 물·얼음·혼합물",
+          "decision_source": "preparation_item_catalogue.json:ITEM-2e7edc957ce601f5 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "산화 칼슘",
+          "span": [
+            3,
+            8
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "온도계",
+          "span": [
+            10,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-2c4f2b1864540f30 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "모둠별 준비\n물",
+          "span": [
+            15,
+            23
+          ],
+          "category": "실험 준비물",
+          "reason": "2026-09-23 사용자 지시: 남은 62개 항목을 일단 실험 준비물로 분류. 추후 변경 가능한 임시 지정.",
+          "decision_source": "classification_decisions.json:ITEM-2401936ee0182053 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보안경",
+          "span": [
+            25,
+            28
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            30,
+            36
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "면장갑",
+          "span": [
+            38,
+            41
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-46a8c8f2bcc164ec (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실\n험복",
+          "span": [
+            43,
+            47
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_017",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_018",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_019",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_020",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_021",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_022",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_023",
+      "items": [
+        {
+          "raw": "발포 바이타민",
+          "span": [
+            0,
+            7
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "물",
+          "span": [
+            9,
+            10
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 물·얼음·혼합물",
+          "decision_source": "preparation_item_catalogue.json:ITEM-2e7edc957ce601f5 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "투명 페트병",
+          "span": [
+            12,
+            18
+          ],
+          "category": "실험 준비물",
+          "reason": "컵·병·통·용기류에 대한 기존 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 컵·병·통·용기류"
+        },
+        {
+          "raw": "구\n멍 뚫린 고무마개",
+          "span": [
+            20,
+            31
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-5311d0a96a0835a1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "전등(150 W 열\n전구)",
+          "span": [
+            33,
+            47
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "블루투스 온도계",
+          "span": [
+            49,
+            57
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "스마트 기\n기",
+          "span": [
+            59,
+            66
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "파라 필름",
+          "span": [
+            68,
+            73
+          ],
+          "category": "실험 준비물",
+          "reason": "실·천 또는 필름·빨대의 소모 제작 재료라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 실·끈·천·그물 / 제작 재료·막대·빨대·필름"
+        },
+        {
+          "raw": "자",
+          "span": [
+            75,
+            76
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-34f404d9d0a79aa5 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_024",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_025",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_026",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_027",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_028",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_029",
+      "items": [
+        {
+          "raw": "막대자석",
+          "span": [
+            0,
+            4
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-a020e989316f8947 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "코일",
+          "span": [
+            6,
+            8
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-72773791172029f2 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "검류계",
+          "span": [
+            10,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전기 측정기·회로 부품·연결 기구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "집게 달린\n전선",
+          "span": [
+            15,
+            23
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-72a0f5456fa6ddd2 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_030",
+      "items": [
+        {
+          "raw": "네오디뮴 자석",
+          "span": [
+            0,
+            7
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-0cd624da94bc2cc1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "발광 다이오드",
+          "span": [
+            9,
+            16
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전기 측정기·회로 부품·연결 기구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "에\n나멜선",
+          "span": [
+            18,
+            23
+          ],
+          "category": "실험 준비물",
+          "reason": "2026-09-23 사용자 결정: 사용자가 지정한 검토 그룹: 금속·금속선·포일",
+          "decision_source": "classification_decisions.json:ITEM-70f88d5a02fee0a6 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "ㄱ자 막대",
+          "span": [
+            25,
+            30
+          ],
+          "category": "실험 기자재",
+          "reason": "회전축으로 사용하며, 교사 주석에서 ㄱ자 육각렌치 이용을 명시한 반복 사용 도구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS2 PDF92 학생 과정 2·4 및 교사 준비물 설명"
+        },
+        {
+          "raw": "하드보드지",
+          "span": [
+            32,
+            37
+          ],
+          "category": "실험 준비물",
+          "reason": "부록 표기가 없는 일반 종이·문구 재료라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 일반 종이·문구 재료"
+        },
+        {
+          "raw": "사\n포",
+          "span": [
+            39,
+            42
+          ],
+          "category": "실험 준비물",
+          "reason": "2026-09-23 사용자 결정: 사용자가 물품명을 직접 지정(막대는 긴 막대 포함)",
+          "decision_source": "classification_decisions.json:ITEM-c1dc564bd46758af (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "누름 못",
+          "span": [
+            44,
+            48
+          ],
+          "category": "실험 기자재",
+          "reason": "틀 중앙에 구멍을 뚫는 반복 사용 작업 도구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS2 PDF92 학생 과정 1"
+        },
+        {
+          "raw": "면장갑",
+          "span": [
+            50,
+            53
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-46a8c8f2bcc164ec (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_031",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_032",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_033",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_034",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_035",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_036",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_037",
+      "items": [
+        {
+          "raw": "포획 항체",
+          "span": [
+            0,
+            5
+          ],
+          "category": "실험 준비물",
+          "reason": "홈판에 방울 단위로 떨어뜨려 반응시키는 진단 실험의 시약·시료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS2 PDF116 학생 과정 2~5, donga_IS2 PDF131 학생 과정 1"
+        },
+        {
+          "raw": "표준 시료 1(음성 표준\n시료)",
+          "span": [
+            7,
+            24
+          ],
+          "category": "실험 준비물",
+          "reason": "홈판에 방울 단위로 떨어뜨려 반응시키는 진단 실험의 시약·시료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS2 PDF116 학생 과정 2~5, donga_IS2 PDF131 학생 과정 1"
+        },
+        {
+          "raw": "표준 시료 2(양성 표준 시\n료)",
+          "span": [
+            26,
+            44
+          ],
+          "category": "실험 준비물",
+          "reason": "홈판에 방울 단위로 떨어뜨려 반응시키는 진단 실험의 시약·시료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS2 PDF116 학생 과정 2~5, donga_IS2 PDF131 학생 과정 1"
+        },
+        {
+          "raw": "사람 1의 검체",
+          "span": [
+            46,
+            54
+          ],
+          "category": "실험 준비물",
+          "reason": "홈판에 방울 단위로 떨어뜨려 반응시키는 진단 실험의 시약·시료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS2 PDF116 학생 과정 2~5, donga_IS2 PDF131 학생 과정 1"
+        },
+        {
+          "raw": "사람 2의 검체",
+          "span": [
+            56,
+            64
+          ],
+          "category": "실험 준비물",
+          "reason": "홈판에 방울 단위로 떨어뜨려 반응시키는 진단 실험의 시약·시료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS2 PDF116 학생 과정 2~5, donga_IS2 PDF131 학생 과정 1"
+        },
+        {
+          "raw": "검출 시약",
+          "span": [
+            66,
+            71
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 액체·시약·혼합물 재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "진단 반응 시약",
+          "span": [
+            73,
+            81
+          ],
+          "category": "실험 준비물",
+          "reason": "홈판에 방울 단위로 떨어뜨려 반응시키는 진단 실험의 시약·시료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS2 PDF116 학생 과정 2~5, donga_IS2 PDF131 학생 과정 1"
+        },
+        {
+          "raw": "스포이\n트",
+          "span": [
+            83,
+            88
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-906dce4c68790182 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "4 홈판",
+          "span": [
+            90,
+            94
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "초시계",
+          "span": [
+            96,
+            99
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-c0e26239dd574d2f (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스마트 기기",
+          "span": [
+            101,
+            107
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보\n안경",
+          "span": [
+            109,
+            113
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            115,
+            121
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            123,
+            126
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_038",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_039",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_040",
+      "items": [
+        {
+          "raw": "미세 먼지 농도 측정 도구",
+          "span": [
+            0,
+            14
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·체험 전자 기기",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "스마트\n기기",
+          "span": [
+            16,
+            22
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_041",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_042",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_043",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_044",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_045",
+      "items": null
+    },
+    {
+      "record_id": "visang_IS2_046",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "visang_IS2_047",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_001",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_002",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_003",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_004",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "레이저 거리 측정기",
+          "span": [
+            8,
+            18
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_005",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_006",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_007",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_008",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_009",
+      "items": [
+        {
+          "raw": "간이 분광기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 분광 관찰 기구·방전관",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "여러 기체의 방전관",
+          "span": [
+            8,
+            18
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 분광 관찰 기구·방전관",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "고전\n압 발생 장치",
+          "span": [
+            20,
+            30
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "스마트 기기",
+          "span": [
+            32,
+            38
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스탠드",
+          "span": [
+            40,
+            43
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-0a566bb67800ff69 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실\n험복",
+          "span": [
+            45,
+            49
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "절연 장갑",
+          "span": [
+            51,
+            56
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-caa144a1473db1bf (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_010",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_011",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_012",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_013",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_014",
+      "items": [
+        {
+          "raw": "6 홈판",
+          "span": [
+            0,
+            4
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-438b1b1fd2b694a1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "증류수",
+          "span": [
+            6,
+            9
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 물·얼음·혼합물",
+          "decision_source": "preparation_item_catalogue.json:ITEM-bde5fc630468bee1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "염화 나트륨",
+          "span": [
+            11,
+            17
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 명시된 화학 물질",
+          "decision_source": "preparation_item_catalogue.json:ITEM-72be2cc06e0a5f83 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "설탕",
+          "span": [
+            19,
+            21
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 식품·식재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-7921a3bb40fa91bb (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "전\n기 전도성 측정기",
+          "span": [
+            23,
+            34
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "유리 막대",
+          "span": [
+            36,
+            41
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-01e79421b60abc30 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "약숟가\n락",
+          "span": [
+            43,
+            48
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-15b7e88d6b317791 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            50,
+            53
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            55,
+            61
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보안경",
+          "span": [
+            63,
+            66
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_015",
+      "items": [
+        {
+          "raw": "가위",
+          "span": [
+            0,
+            2
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 작업 도구·보호 도구·악기",
+          "decision_source": "preparation_item_catalogue.json:ITEM-13bc3a4ef5d8535e (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "테이프",
+          "span": [
+            4,
+            7
+          ],
+          "category": "실험 준비물",
+          "reason": "부착·여과·검출·도포 등에 쓰는 소모 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-85da20bab5d5dcc8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "빵 끈",
+          "span": [
+            9,
+            12
+          ],
+          "category": "실험 준비물",
+          "reason": "2026-09-23 사용자 결정: 사용자가 지정한 검토 그룹: 실·끈·천·그물",
+          "decision_source": "classification_decisions.json:ITEM-99f88f0aac7c04e3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "Si-O 사면체 전개도(부록 163 쪽)",
+          "span": [
+            14,
+            36
+          ],
+          "category": "실험 기자재",
+          "reason": "원문에 부록으로 명시된 학습 교구는 기자재라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 부록 표기 전수"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_016",
+      "items": [
+        {
+          "raw": "DNA 모형 도안(부록 165 쪽)",
+          "span": [
+            0,
+            19
+          ],
+          "category": "실험 기자재",
+          "reason": "원문에 부록으로 명시된 학습 교구는 기자재라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 부록 표기 전수"
+        },
+        {
+          "raw": "가위",
+          "span": [
+            21,
+            23
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 작업 도구·보호 도구·악기",
+          "decision_source": "preparation_item_catalogue.json:ITEM-13bc3a4ef5d8535e (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "풀",
+          "span": [
+            25,
+            26
+          ],
+          "category": "실험 준비물",
+          "reason": "접착·흡수·연소 과정에 사용하는 소모 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-9f4ab3b56eddc42c (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "장갑",
+          "span": [
+            28,
+            30
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-bb003394f5f694de (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_017",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_018",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_019",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_020",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "붙임쪽지",
+          "span": [
+            8,
+            12
+          ],
+          "category": "실험 준비물",
+          "reason": "부착·여과·검출·도포 등에 쓰는 소모 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-ea3363d373804b6c (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_021",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_022",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_023",
+      "items": [
+        {
+          "raw": "가상 현실 기기",
+          "span": [
+            0,
+            8
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·체험 전자 기기",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_024",
+      "items": [
+        {
+          "raw": "검은색 배경의 모눈종이",
+          "span": [
+            0,
+            12
+          ],
+          "category": "실험 준비물",
+          "reason": "부록 표기가 없는 일반 종이·문구 재료라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 일반 종이·문구 재료"
+        },
+        {
+          "raw": "쇠구슬 발사\n장치",
+          "span": [
+            14,
+            23
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "스탠드",
+          "span": [
+            25,
+            28
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-0a566bb67800ff69 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "집게",
+          "span": [
+            30,
+            32
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-e3d5c7271507bd55 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스펀지",
+          "span": [
+            34,
+            37
+          ],
+          "category": "실험 기자재",
+          "reason": "바닥에 놓아 낙하하는 쇠구슬의 충격을 받는 반복 사용 받침이며, 절단·소모 절차 없음",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; donga_IS1 PDF116 학생 과정 1~4"
+        },
+        {
+          "raw": "쇠구슬 2\n개",
+          "span": [
+            39,
+            46
+          ],
+          "category": "실험 기자재",
+          "reason": "형태를 유지하며 반복 사용하는 실험 도구·교구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "다중 섬광 사진 앱이 있거나 다중\n노출 촬영이 가능한 스마트 기기",
+          "span": [
+            48,
+            84
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "삼각대",
+          "span": [
+            86,
+            89
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-4d448390155d725e (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_025",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "카드",
+          "span": [
+            8,
+            10
+          ],
+          "category": "실험 준비물",
+          "reason": "활동용 카드를 기존 중학교의 부록 표기 없는 사건·사례 카드와 동일한 준비물 범주로 분류. 재질과 부록 여부를 추가하지 않음.",
+          "decision_source": "고1 후속 검토: 기존 중학교의 유사 품목·활동 용도 기준을 적용한 편집 분류 (신규 사용자 직접 지정 아님)"
+        },
+        {
+          "raw": "동전",
+          "span": [
+            12,
+            14
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·부품·교구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-cde4842b8ab41342 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "굵은 철사",
+          "span": [
+            16,
+            21
+          ],
+          "category": "실험 준비물",
+          "reason": "금속선·리본 제작 재료라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 금속·금속선·포일"
+        },
+        {
+          "raw": "공\n2 개",
+          "span": [
+            23,
+            28
+          ],
+          "category": "실험 기자재",
+          "reason": "철사에 매달아 관성을 관찰하는 반복 사용 운동 교구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; donga_IS1 PDF121 도전 과제 2"
+        },
+        {
+          "raw": "식탁보",
+          "span": [
+            30,
+            33
+          ],
+          "category": "실험 준비물",
+          "reason": "실·천 또는 필름·빨대의 소모 제작 재료라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 실·끈·천·그물 / 제작 재료·막대·빨대·필름"
+        },
+        {
+          "raw": "무거운 컵과 접시 여러 개",
+          "span": [
+            35,
+            49
+          ],
+          "category": "실험 준비물",
+          "reason": "컵·병·통·용기류에 대한 기존 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 컵·병·통·용기류"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_026",
+      "items": [
+        {
+          "raw": "면봉",
+          "span": [
+            0,
+            2
+          ],
+          "category": "실험 준비물",
+          "reason": "부착·여과·검출·도포 등에 쓰는 소모 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-f0b2cee445f79e33 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "주름이 있는 빨대",
+          "span": [
+            4,
+            13
+          ],
+          "category": "실험 준비물",
+          "reason": "실·천 또는 필름·빨대의 소모 제작 재료라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 실·끈·천·그물 / 제작 재료·막대·빨대·필름"
+        },
+        {
+          "raw": "가위",
+          "span": [
+            15,
+            17
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 작업 도구·보호 도구·악기",
+          "decision_source": "preparation_item_catalogue.json:ITEM-13bc3a4ef5d8535e (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_027",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_028",
+      "items": [
+        {
+          "raw": "붉은 양파",
+          "span": [
+            0,
+            5
+          ],
+          "category": "실험 기자재",
+          "reason": "양파의 색상 변형으로, 기존 양파와 생물 시료 기자재 결정을 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 생물·암석·광물 시료; classification_decisions.json: 양파"
+        },
+        {
+          "raw": "안전 면도날",
+          "span": [
+            7,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "2026-09-23 사용자 결정: 사용자가 지정한 검토 그룹: 보호용품·현미경 소모품",
+          "decision_source": "classification_decisions.json:ITEM-255ec0fd2c4a281d (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "핀셋",
+          "span": [
+            15,
+            17
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-39af694bc69d1ade (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "받침 유\n리",
+          "span": [
+            19,
+            25
+          ],
+          "category": "실험 기자재",
+          "reason": "2026-09-23 사용자 결정: 사용자가 지정한 검토 그룹: 보호용품·현미경 소모품",
+          "decision_source": "classification_decisions.json:ITEM-c564859e664c9368 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "덮개 유리",
+          "span": [
+            27,
+            32
+          ],
+          "category": "실험 기자재",
+          "reason": "2026-09-23 사용자 결정: 사용자가 지정한 검토 그룹: 보호용품·현미경 소모품",
+          "decision_source": "classification_decisions.json:ITEM-278ac3b77c5964c1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스포이트",
+          "span": [
+            34,
+            38
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-906dce4c68790182 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "증류수",
+          "span": [
+            40,
+            43
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 물·얼음·혼합물",
+          "decision_source": "preparation_item_catalogue.json:ITEM-bde5fc630468bee1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "20 %\n설탕물",
+          "span": [
+            45,
+            53
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 식품·식재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "거름종이",
+          "span": [
+            55,
+            59
+          ],
+          "category": "실험 준비물",
+          "reason": "부착·여과·검출·도포 등에 쓰는 소모 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1ec1afbf79ef79b0 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "광학 현미경",
+          "span": [
+            61,
+            67
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-207541763be799cf (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험\n복",
+          "span": [
+            69,
+            73
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            75,
+            81
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_029",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_030",
+      "items": [
+        {
+          "raw": "시험관",
+          "span": [
+            0,
+            3
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-f757d3e41ef3804b (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "시험관대",
+          "span": [
+            5,
+            9
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-283b8f3fa1d3111e (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스포이트",
+          "span": [
+            11,
+            15
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-906dce4c68790182 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "3 % 과산\n화 수소수",
+          "span": [
+            17,
+            29
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "날감자",
+          "span": [
+            31,
+            34
+          ],
+          "category": "실험 준비물",
+          "reason": "과산화 수소수에 투입하는 잘라진 생체 조직 시료로, 학생 과정에서 투입 및 실험 후 남은 물질 처리를 확인",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS1 PDF132, donga_IS1 PDF141 학생 과정"
+        },
+        {
+          "raw": "삶은 감자",
+          "span": [
+            36,
+            41
+          ],
+          "category": "실험 준비물",
+          "reason": "과산화 수소수에 투입하는 잘라진 생체 조직 시료로, 학생 과정에서 투입 및 실험 후 남은 물질 처리를 확인",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS1 PDF132, donga_IS1 PDF141 학생 과정"
+        },
+        {
+          "raw": "도마",
+          "span": [
+            43,
+            45
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 작업 도구·실험 용기",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "칼",
+          "span": [
+            47,
+            48
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 작업 도구·보호 도구·악기",
+          "decision_source": "preparation_item_catalogue.json:ITEM-4eaedee29619f832 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "페트리 접시",
+          "span": [
+            50,
+            56
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-419a838a61801ed3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "핀셋",
+          "span": [
+            58,
+            60
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-39af694bc69d1ade (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "향",
+          "span": [
+            62,
+            63
+          ],
+          "category": "실험 준비물",
+          "reason": "접착·흡수·연소 과정에 사용하는 소모 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1f1c8336cec9a392 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "점화기",
+          "span": [
+            65,
+            68
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 작업 도구·보호 도구·악기",
+          "decision_source": "preparation_item_catalogue.json:ITEM-227fd460d00d7928 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            70,
+            73
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            75,
+            81
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "면장갑",
+          "span": [
+            83,
+            86
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-46a8c8f2bcc164ec (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보안경",
+          "span": [
+            88,
+            91
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_031",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS1_032",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_033",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_034",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_035",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS1_036",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_001",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_002",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_003",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_004",
+      "items": [
+        {
+          "raw": "흰색 도화지",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 준비물",
+          "reason": "부록 표기가 없는 일반 종이·문구 재료라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 일반 종이·문구 재료"
+        },
+        {
+          "raw": "네 가지 색(빨간색, 파란\n색, 노란색, 흰색)의 털실 구슬 여러 개",
+          "span": [
+            8,
+            46
+          ],
+          "category": "실험 준비물",
+          "reason": "실·천 또는 필름·빨대의 소모 제작 재료라는 사용자 결정 적용",
+          "decision_source": "decision_history/20260923/applied_decisions.json: 실·끈·천·그물 / 제작 재료·막대·빨대·필름"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_005",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_006",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_007",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_008",
+      "items": [
+        {
+          "raw": "산화 구리(Ⅱ)",
+          "span": [
+            0,
+            8
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "탄소 가루",
+          "span": [
+            10,
+            15
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "석회수",
+          "span": [
+            17,
+            20
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "시험\n관",
+          "span": [
+            22,
+            26
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-f757d3e41ef3804b (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "비커",
+          "span": [
+            28,
+            30
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-eed59048fe59ffa1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "유리관",
+          "span": [
+            32,
+            35
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-eb29fac245a0766b (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "고무관",
+          "span": [
+            37,
+            40
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·부품·교구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-5e69d6c3650ed92b (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "구멍 뚫린 고\n무마개",
+          "span": [
+            42,
+            53
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-5311d0a96a0835a1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스탠드",
+          "span": [
+            55,
+            58
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-0a566bb67800ff69 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "집게",
+          "span": [
+            60,
+            62
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-e3d5c7271507bd55 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "가열 장치",
+          "span": [
+            64,
+            69
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-db723823dcecc673 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "전자\n저울",
+          "span": [
+            71,
+            76
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-51970c18e17d8d19 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "약숟가락",
+          "span": [
+            78,
+            82
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-15b7e88d6b317791 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "시약포지",
+          "span": [
+            84,
+            88
+          ],
+          "category": "실험 준비물",
+          "reason": "부착·여과·검출·도포 등에 쓰는 소모 재료",
+          "decision_source": "preparation_item_catalogue.json:ITEM-eb42fe1a6db15328 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            90,
+            93
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실\n험용 장갑",
+          "span": [
+            95,
+            102
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보안경",
+          "span": [
+            104,
+            107
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_009",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_010",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_011",
+      "items": [
+        {
+          "raw": "같은 농도의 염산과 수산화 나트륨 수\n용액",
+          "span": [
+            0,
+            23
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 액체·시약·혼합물 재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "페놀프탈레인 용액",
+          "span": [
+            25,
+            34
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 액체·시약·혼합물 재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "자석 젓개 막\n대",
+          "span": [
+            36,
+            45
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-217f4996f517b194 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "비커",
+          "span": [
+            47,
+            49
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-eed59048fe59ffa1 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스탠드",
+          "span": [
+            51,
+            54
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-0a566bb67800ff69 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "집게",
+          "span": [
+            56,
+            58
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-e3d5c7271507bd55 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "뷰렛 집게",
+          "span": [
+            60,
+            65
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-8ca967789342f944 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "뷰\n렛",
+          "span": [
+            67,
+            70
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 작업 도구·실험 용기",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "깔때기",
+          "span": [
+            72,
+            75
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-27d1af10cb90ffc8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "교반기",
+          "span": [
+            77,
+            80
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "무선 온도 센서",
+          "span": [
+            82,
+            90
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-dbc10f6fce369491 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스\n마트 기기",
+          "span": [
+            92,
+            99
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            101,
+            104
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            106,
+            112
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보안경",
+          "span": [
+            114,
+            117
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_012",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_013",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_014",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "물",
+          "span": [
+            8,
+            9
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 물·얼음·혼합물",
+          "decision_source": "preparation_item_catalogue.json:ITEM-2e7edc957ce601f5 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "산화 칼슘",
+          "span": [
+            11,
+            16
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 화학 물질·수용액·반응 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "조리할\n음식",
+          "span": [
+            18,
+            24
+          ],
+          "category": "실험 준비물",
+          "reason": "조리에 투입하는 식품 재료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            26,
+            29
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "면장갑",
+          "span": [
+            31,
+            34
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-46a8c8f2bcc164ec (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            36,
+            42
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보\n안경",
+          "span": [
+            44,
+            48
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_015",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_016",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_017",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_018",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_019",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_020",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_021",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_022",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_023",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_024",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_025",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_026",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_027",
+      "items": [
+        {
+          "raw": "코일",
+          "span": [
+            0,
+            2
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-72773791172029f2 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "네오디뮴 자석 여러 개",
+          "span": [
+            4,
+            16
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "발광 다\n이오드 2 개",
+          "span": [
+            18,
+            30
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전기 측정기·회로 부품·연결 기구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "연결 단자 2 개",
+          "span": [
+            32,
+            41
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전기 측정기·회로 부품·연결 기구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "면장갑",
+          "span": [
+            43,
+            46
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-46a8c8f2bcc164ec (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_028",
+      "items": [
+        {
+          "raw": "전동기",
+          "span": [
+            0,
+            3
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 장치·전기 부품·고정 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "발광 다이오드",
+          "span": [
+            5,
+            12
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전기 측정기·회로 부품·연결 기구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "나만의 간이 발\n전기 만들기 재료",
+          "span": [
+            14,
+            32
+          ],
+          "category": "실험 준비물",
+          "reason": "간이 발전기 제작에 모둠이 선택하는 재료 묶음으로, 기존 중학교 모둠별 제작 물품과 같은 활동별 준비물 범주. 실제 구성품은 추정·추가하지 않음.",
+          "decision_source": "고1 후속 검토: 기존 중학교의 유사 품목·활동 용도 기준을 적용한 편집 분류 (신규 사용자 직접 지정 아님)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_029",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_030",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_031",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_032",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_033",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_034",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_035",
+      "items": [
+        {
+          "raw": "8 홈판",
+          "span": [
+            0,
+            4
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "유성펜",
+          "span": [
+            6,
+            9
+          ],
+          "category": "실험 기자재",
+          "reason": "실험 후에도 남아 반복 사용하는 필기 도구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-5620aeea40163f9c (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "모의 항체 용액",
+          "span": [
+            11,
+            19
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 액체·시약·혼합물 재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "스포이\n트",
+          "span": [
+            21,
+            26
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 실험 용기·기구",
+          "decision_source": "preparation_item_catalogue.json:ITEM-906dce4c68790182 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "감염병 모의 시료(대조군, 모의 환\n자 ①, ②)",
+          "span": [
+            28,
+            55
+          ],
+          "category": "실험 준비물",
+          "reason": "홈판에 방울 단위로 떨어뜨려 반응시키는 진단 실험의 시약·시료",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단; visang_IS2 PDF116 학생 과정 2~5, donga_IS2 PDF131 학생 과정 1"
+        },
+        {
+          "raw": "검출 시약(①, ②)",
+          "span": [
+            57,
+            68
+          ],
+          "category": "실험 준비물",
+          "reason": "실험에 투입하는 액체·시약·혼합물 재료",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "실험복",
+          "span": [
+            70,
+            73
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-32ddbefe075322a8 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "보안경",
+          "span": [
+            75,
+            78
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-96860a8ed0b18012 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "실험용 장갑",
+          "span": [
+            80,
+            86
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1d8632b8ef18f7c9 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "스마트 기기",
+          "span": [
+            88,
+            94
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_036",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_037",
+      "items": [
+        {
+          "raw": "미세먼지 센서",
+          "span": [
+            0,
+            7
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "마이크로컨트롤러가\n포함된 센서 보드",
+          "span": [
+            9,
+            28
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 측정·관찰 기구",
+          "decision_source": "scripts/extraction/classify_supplies.py: 사용자 예시 및 명확 품목 규칙"
+        },
+        {
+          "raw": "스마트 기기",
+          "span": [
+            30,
+            36
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "확장\n기판",
+          "span": [
+            38,
+            43
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전기 측정기·회로 부품·연결 기구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "삼색 연결선",
+          "span": [
+            45,
+            51
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전기 측정기·회로 부품·연결 기구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "USB 연결선",
+          "span": [
+            53,
+            60
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전기 측정기·회로 부품·연결 기구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        },
+        {
+          "raw": "전지",
+          "span": [
+            62,
+            64
+          ],
+          "category": "실험 준비물",
+          "reason": "2026-09-23 사용자 결정: 사용자가 지정한 검토 그룹: 건전지·전지",
+          "decision_source": "classification_decisions.json:ITEM-1c04da4f21beac27 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "전지 상자",
+          "span": [
+            66,
+            71
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전기 측정기·회로 부품·연결 기구",
+          "decision_source": "사용자 분류 기준에 따른 신규 명확 품목 판단"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_038",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_039",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_040",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_041",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            8,
+            13
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_042",
+      "items": [
+        {
+          "raw": "스마트 기기",
+          "span": [
+            0,
+            6
+          ],
+          "category": "실험 기자재",
+          "reason": "사용자가 지정한 기자재 또는 그 규격·형태 변형",
+          "decision_source": "preparation_item_catalogue.json:ITEM-b114748e2692bd29 (공백·Unicode 정규화 후 기존 품목 일치)"
+        },
+        {
+          "raw": "참고 도서",
+          "span": [
+            9,
+            14
+          ],
+          "category": "실험 기자재",
+          "reason": "반복 사용하는 전자 기기·비품·도서",
+          "decision_source": "preparation_item_catalogue.json:ITEM-1a84a479a9a5cdc3 (공백·Unicode 정규화 후 기존 품목 일치)"
+        }
+      ]
+    },
+    {
+      "record_id": "donga_IS2_043",
+      "items": null
+    },
+    {
+      "record_id": "donga_IS2_044",
+      "items": null
+    }
+  ]
+}

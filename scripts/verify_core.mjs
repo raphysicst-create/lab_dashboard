@@ -36,6 +36,7 @@ const officialByCode = new Map(research.official_standards.map(standard => [stan
 const researchByActivity = new Map(research.activity_mappings.map(mapping => [mapping.activity_id, mapping]));
 const textbookIds = new Set(textbooks.map(a => a.id));
 const normalizedById = new Map(normalizedSource.data.map(row => [row.id,row]));
+const highClassificationFields = new Set(['실험 기자재','실험 준비물','분류 보류','준비물 분류','준비물 표시 방식']);
 const canonicalUnitKey = text => text.split(/[>/]/)[0].replace(/^통합과학\s*[12]\s*·\s*/, '').replace(/^[\dⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]+\.\s*/, '').replace(/[\s·⋅]/g,'');
 assert.equal(beforeUnits.data.length,1277);
 assert.deepEqual(normalizedSource.achievement_standards,beforeUnits.achievement_standards);
@@ -50,7 +51,8 @@ for (const row of beforeUnits.data) {
   const activity = activityById.get(row.id);
   assert.ok(normalized && activity,row.id);
   for (const [field,value] of Object.entries(row)) {
-    if (field !== '단원명') assert.deepEqual(normalized[field],value,`${row.id}: preserved ${field}`);
+    const classificationChanged = row['학교급'] === '고등학교' && highClassificationFields.has(field);
+    if (field !== '단원명' && !classificationChanged) assert.deepEqual(normalized[field],value,`${row.id}: preserved ${field}`);
   }
   assert.equal(normalized['단원명 원문'],row['단원명']);
   assert.equal(activity.unit_raw,row['단원명']);
@@ -154,9 +156,22 @@ for (const row of retainedHighRows) {
   assert.equal(activity.grade_key, 'high-1');
   assert.equal(activity.grade_label, '고1');
   assert.equal(activity.volume, Number(row.source.book_id.match(/IS([12])$/)[1]));
-  assert.equal(activity.equipment, null);
-  assert.equal(activity.supplies, null);
-  assert.equal(activity.material_classification_pending, true);
+  const classified = normalizedById.get(row.id);
+  assert.deepEqual(activity.equipment, classified['실험 기자재'],`${row.id}: equipment`);
+  assert.deepEqual(activity.supplies, classified['실험 준비물'],`${row.id}: supplies`);
+  if (row['교구'] == null) {
+    assert.equal(activity.equipment,null);
+    assert.equal(activity.supplies,null);
+  } else {
+    assert.ok(Array.isArray(activity.equipment),`${row.id}: equipment array`);
+    assert.ok(Array.isArray(activity.supplies),`${row.id}: supplies array`);
+    for (const item of [...activity.equipment,...activity.supplies]) {
+      assert.ok(typeof item === 'string' && item.trim().length > 0);
+      assert.ok(row['교구'].includes(item),`${row.id}: category item preserves source text`);
+    }
+    assert.deepEqual(classified['분류 보류'],[],`${row.id}: no pending category`);
+  }
+  assert.equal(activity.material_classification_pending, false);
   assert.deepEqual(activity.achievement_ids.map(id => achievementById.get(id)?.code), row['성취기준코드']);
   assert.equal(activity.achievement_id, activity.achievement_ids[0] ?? null);
   assert.equal(activity.achievement_raw, activity.achievement_ids.map(id => achievementById.get(id).raw_text).join('\n') || null);
@@ -209,8 +224,10 @@ for (const [grade,unitCount] of [['1',8],['2',8],['3',8],['high-1',6]]) {
   }
   assert.equal(filteredCount,gradeActivities.length);
 }
-assert.equal(activities.reduce((n,a)=>n+(a.equipment?.length??0),0),2924);
-assert.equal(activities.reduce((n,a)=>n+(a.supplies?.length??0),0),1095);
+assert.equal(middleActivities.reduce((n,a)=>n+(a.equipment?.length??0),0),2924);
+assert.equal(middleActivities.reduce((n,a)=>n+(a.supplies?.length??0),0),1095);
+assert.ok(highActivities.some(a => a.equipment?.length && a.supplies?.length));
+assert.ok(highActivities.some(a => a.materials_raw != null && a.supplies?.length === 0));
 const unitEight = activities.find(a => a.unit_number === 8).unit;
 const unitNine = activities.find(a => a.unit_number === 9).unit;
 assert.equal(filterActivities(activities, {...defaults,grade:'1',unit:unitEight}).length, 45);

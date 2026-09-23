@@ -26876,10 +26876,8 @@
     "page": 15,
     "title": "시간과 길이의 측정 사례 조사하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -26888,7 +26886,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -26905,11 +26903,8 @@
     "page": 17,
     "title": "미시 세계와 거시 세계의 물체의 크기에 따른 차이점 분석하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -26918,7 +26913,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -26945,7 +26940,7 @@
       "ACH-72c73d7591596117"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -26972,7 +26967,7 @@
       "ACH-72c73d7591596117"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -26989,10 +26984,8 @@
     "page": 29,
     "title": "길이 측정을 위한 노력 알아보기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27001,7 +26994,7 @@
       "ACH-e887f643bbb29295"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27018,11 +27011,8 @@
     "page": 30,
     "title": "일상생활에서 측정 표준이 활용되는 사례 탐색하기",
     "materials_raw": "스마트 기기\n측정 표준 관련 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "측정 표준 관련 참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27031,7 +27021,7 @@
       "ACH-e887f643bbb29295"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27048,10 +27038,8 @@
     "page": 35,
     "title": "스마트 기기를 활용해 기본량을 측정하고 분석하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27060,7 +27048,7 @@
       "ACH-7243cd0b0795363d"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27077,10 +27065,8 @@
     "page": 39,
     "title": "질량으로 시간을 측정하는 액체 타이머 만들기",
     "materials_raw": "전자저울,",
-    "equipment": [
-      "전자저울"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27089,7 +27075,7 @@
       "ACH-72c73d7591596117"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27116,7 +27102,7 @@
       "ACH-7243cd0b0795363d"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27133,15 +27119,8 @@
     "page": 50,
     "title": "분광기를 활용하여 다양한 물질이 방출하는 스펙트럼 관찰ㆍ비교하기",
     "materials_raw": "간이 분광기\n백열등\n기체 방전관(수소, 헬륨)\n스마트 기기\n실험복\n내열 장갑",
-    "equipment": [
-      "간이 분광기",
-      "백열등",
-      "기체 방전관(수소, 헬륨)",
-      "스마트 기기",
-      "실험복",
-      "내열 장갑"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27150,7 +27129,7 @@
       "ACH-7ac967785f9c4f11"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27167,11 +27146,8 @@
     "page": 59,
     "title": "지구와 생명체의 구성 성분을 비교하고 성분의 유래 탐구하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27180,7 +27156,7 @@
       "ACH-4b8aac45fbb5dcb1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27197,23 +27173,8 @@
     "page": 63,
     "title": "같은 족 원소들의 유사성을 탐구하는 실험 설계하기",
     "materials_raw": "스마트 기기\n주기율표 관련 참고 도서\n\n모둠별로 다음 준비물을 이용해 알칼리 금속의 유사한 성질을 탐구하는 실험을\n설계해 보자.\n수조\n알칼리 금속\n칼\n면장갑\n실험복\n페트리접시\n핀셋\n보안경\n페놀프탈레인 용액\n물\n실험용 고무장갑",
-    "equipment": [
-      "스마트 기기",
-      "주기율표 관련 참고 도서",
-      "수조",
-      "칼",
-      "면장갑",
-      "실험복",
-      "페트리접시",
-      "핀셋",
-      "보안경",
-      "실험용 고무장갑"
-    ],
-    "supplies": [
-      "알칼리 금속",
-      "페놀프탈레인 용액",
-      "물"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27222,7 +27183,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27239,12 +27200,8 @@
     "page": 64,
     "title": "원자의 전자 배치를 모형으로 나타내기",
     "materials_raw": "투명 전자 껍질(부록 175 쪽)\n유성펜\n파란색 붙임딱지(부록 177 쪽)",
-    "equipment": [
-      "투명 전자 껍질(부록 175 쪽)",
-      "유성펜",
-      "파란색 붙임딱지(부록 177 쪽)"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27253,7 +27210,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27280,7 +27237,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27297,11 +27254,8 @@
     "page": 71,
     "title": "공유 결합을 모형으로 나타내기",
     "materials_raw": "64 쪽에서 만든 수소, 탄소,\n질소, 플루오린의 원자 모형\n스마트 기기",
-    "equipment": [
-      "64 쪽에서 만든 수소, 탄소,\n질소, 플루오린의 원자 모형",
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27310,7 +27264,7 @@
       "ACH-e612d38b9255d760"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27327,23 +27281,8 @@
     "page": 72,
     "title": "이온 결합 물질과 공유 결합 물질의 성질 비교하기",
     "materials_raw": "증류수\n설탕\n황산 구리(Ⅱ)\n염화 나트륨\n6 홈판\n간이 전기 전도성 측정기\n비커\n유리 막대\n스포이트\n약숟가락\n실험복\n보안경\n실험용 고무장갑",
-    "equipment": [
-      "6 홈판",
-      "간이 전기 전도성 측정기",
-      "비커",
-      "유리 막대",
-      "스포이트",
-      "약숟가락",
-      "실험복",
-      "보안경",
-      "실험용 고무장갑"
-    ],
-    "supplies": [
-      "증류수",
-      "설탕",
-      "황산 구리(Ⅱ)",
-      "염화 나트륨"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27352,7 +27291,7 @@
       "ACH-e612d38b9255d760"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27379,7 +27318,7 @@
       "ACH-4b8aac45fbb5dcb1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27396,12 +27335,8 @@
     "page": 80,
     "title": "규산염 사면체의 결합 구조 모형 만들기",
     "materials_raw": "산소 원자 모형\n규소 원자 모형\n연결 막대",
-    "equipment": [
-      "산소 원자 모형",
-      "규소 원자 모형",
-      "연결 막대"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27410,7 +27345,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27437,7 +27372,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27454,12 +27389,8 @@
     "page": 85,
     "title": "핵산의 특성 표현하기",
     "materials_raw": "스마트 기기\n참고 도서\n그림 도구",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서",
-      "그림 도구"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27468,7 +27399,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27485,12 +27416,8 @@
     "page": 86,
     "title": "DNA 모형을 제작하고 DNA의 구조적 특징과 규칙성 탐구하기",
     "materials_raw": "뉴클레오타이드 모형\n(부록 179 쪽)\n투명 테이프",
-    "equipment": [
-      "뉴클레오타이드 모형\n(부록 179 쪽)"
-    ],
-    "supplies": [
-      "투명 테이프"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27499,7 +27426,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27516,17 +27443,8 @@
     "page": 88,
     "title": "여러 가지 물체의 전기적 성질 비교하기",
     "materials_raw": "여러 가지 물체(클립, 연필심,\n지우개, 나무 막대, 발광 다이\n오드)\n디지털 전류계\n전지(1.5 V)\n전지 끼우개\n집게 달린 전선\n스위치\n면장갑",
-    "equipment": [
-      "디지털 전류계",
-      "전지 끼우개",
-      "집게 달린 전선",
-      "스위치",
-      "면장갑"
-    ],
-    "supplies": [
-      "여러 가지 물체(클립, 연필심,\n지우개, 나무 막대, 발광 다이\n오드)",
-      "전지(1.5 V)"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27535,7 +27453,7 @@
       "ACH-d285a75e9d995c05"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27552,11 +27470,8 @@
     "page": 90,
     "title": "도체, 부도체, 반도체의 활용 살펴보기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27565,7 +27480,7 @@
       "ACH-d285a75e9d995c05"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27590,7 +27505,7 @@
     "grade_label": "고1",
     "achievement_ids": [],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27617,7 +27532,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27644,7 +27559,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27661,10 +27576,8 @@
     "page": 111,
     "title": "지구시스템의 균형이 깨짐으로써 인간 생활에 주는 영향 알아보기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27673,7 +27586,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27690,11 +27603,8 @@
     "page": 116,
     "title": "지권의 변화가 지구시스템에 미치는 영향 알아보기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27703,7 +27613,7 @@
       "ACH-7654f57e205a9f79"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27720,11 +27630,8 @@
     "page": 118,
     "title": "화산 분출로 인한 피해의 종류를 조사하고 피해 대책 수립하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27733,7 +27640,7 @@
       "ACH-7654f57e205a9f79"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27750,19 +27657,8 @@
     "page": 121,
     "title": "투명 용기 안에 작은 지구 만들기",
     "materials_raw": "투명 용기, 덮개, 자갈, 모래, 흙, 핀셋, 물, 분무기, 식물(다육식물, 이끼)",
-    "equipment": [
-      "자갈",
-      "핀셋",
-      "분무기",
-      "식물(다육식물, 이끼)"
-    ],
-    "supplies": [
-      "투명 용기",
-      "덮개",
-      "모래",
-      "흙",
-      "물"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27771,7 +27667,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27788,11 +27684,8 @@
     "page": 125,
     "title": "자유 낙하 하는 물체의 가속도 분석하기",
     "materials_raw": "스마트 기기\n자",
-    "equipment": [
-      "스마트 기기",
-      "자"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27801,7 +27694,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27818,17 +27711,8 @@
     "page": 126,
     "title": "자유 낙하와 수평으로 던진 물체의 운동을 시각화하여 비교하기",
     "materials_raw": "동시 낙하 장치\n작은 공 2 개\n눈금판(또는 모눈종이)\n스마트 기기\n삼각대\n실험복\n면장갑",
-    "equipment": [
-      "동시 낙하 장치",
-      "작은 공 2 개",
-      "스마트 기기",
-      "삼각대",
-      "실험복",
-      "면장갑"
-    ],
-    "supplies": [
-      "눈금판(또는 모눈종이)"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27837,7 +27721,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27854,10 +27738,8 @@
     "page": 129,
     "title": "수평 방향으로 물체를 던진 속력이 다를 때 운동 비교하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27866,7 +27748,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27883,11 +27765,8 @@
     "page": 131,
     "title": "가상 현실로 달에서의 중력 체험하기",
     "materials_raw": "스마트 기기\n가상 현실 카드보드",
-    "equipment": [
-      "스마트 기기",
-      "가상 현실 카드보드"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27896,7 +27775,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27913,12 +27792,8 @@
     "page": 136,
     "title": "교통수단과 스포츠 등에서 충격을 줄이는 방법 탐색하기",
     "materials_raw": "스마트 기기\n참고 도서\n그림 도구",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서",
-      "그림 도구"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27927,7 +27802,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27954,7 +27829,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -27971,22 +27846,8 @@
     "page": 147,
     "title": "효소 작용의 원리에 관한 실험하기",
     "materials_raw": "생감자, 강판, 거즈, 6 홈판, 스포이트, 3 % 과산화 수소수, 3 % 에탄올, 증류수, 유성펜,\n실험복, 보안경, 실험용 고무장갑",
-    "equipment": [
-      "강판",
-      "6 홈판",
-      "스포이트",
-      "유성펜",
-      "실험복",
-      "보안경",
-      "실험용 고무장갑"
-    ],
-    "supplies": [
-      "생감자",
-      "거즈",
-      "3 % 과산화 수소수",
-      "3 % 에탄올",
-      "증류수"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -27995,7 +27856,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28012,11 +27873,8 @@
     "page": 148,
     "title": "일상생활에서 효소를 활용하는 사례 조사하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28025,7 +27883,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28042,24 +27900,8 @@
     "page": 152,
     "title": "막을 통한 물질의 이동을 실험하고 세포막의 역할 탐구하기",
     "materials_raw": "적양파\n면도칼\n핀셋\n증류수\n10 % 소금물\n페트리접시\n받침 유리\n덮개 유리\n현미경\n현미경용 스마트 기기 거치대\n스마트 기기\n실험복\n보안경\n실험용 고무장갑",
-    "equipment": [
-      "적양파",
-      "면도칼",
-      "핀셋",
-      "페트리접시",
-      "받침 유리",
-      "덮개 유리",
-      "현미경",
-      "현미경용 스마트 기기 거치대",
-      "스마트 기기",
-      "실험복",
-      "보안경",
-      "실험용 고무장갑"
-    ],
-    "supplies": [
-      "증류수",
-      "10 % 소금물"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28068,7 +27910,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28095,7 +27937,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28122,7 +27964,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28139,10 +27981,8 @@
     "page": 158,
     "title": "세포 내 유전정보의 흐름 확인하기",
     "materials_raw": "주사위",
-    "equipment": [
-      "주사위"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28151,7 +27991,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28179,7 +28019,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28206,7 +28046,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28223,11 +28063,8 @@
     "page": 15,
     "title": "지질 시대의 환경 추론하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28236,7 +28073,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28253,11 +28090,8 @@
     "page": 18,
     "title": "생물 대멸종의 원인과 그 이후의 변화를 설명하는 여러 가설의 타당성 평가하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28266,7 +28100,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28293,7 +28127,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28310,13 +28144,8 @@
     "page": 22,
     "title": "자연선택 과정에 대한 모의실험하기",
     "materials_raw": "노란색 도화지\n4 가지 색 초콜릿(빨간색, 노란\n색, 초록색, 파란색)\n실험용 고무장갑",
-    "equipment": [
-      "실험용 고무장갑"
-    ],
-    "supplies": [
-      "노란색 도화지",
-      "4 가지 색 초콜릿(빨간색, 노란\n색, 초록색, 파란색)"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28325,7 +28154,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28342,11 +28171,8 @@
     "page": 30,
     "title": "생물다양성보전 사례와 실천 방안 탐색하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28355,7 +28181,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28382,7 +28208,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28399,10 +28225,8 @@
     "page": 40,
     "title": "구리판의 변화 해석하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28411,7 +28235,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28428,19 +28252,8 @@
     "page": 43,
     "title": "구리와 질산 은 수용액의 반응을 전자의 이동으로 설명하기",
     "materials_raw": "구리 테이프, 질산 은 수용액, 페트리접시, 비커, 스포이트, 가위, 실험복, 보안경, 실험용 고무장갑",
-    "equipment": [
-      "페트리접시",
-      "비커",
-      "스포이트",
-      "가위",
-      "실험복",
-      "보안경",
-      "실험용 고무장갑"
-    ],
-    "supplies": [
-      "구리 테이프",
-      "질산 은 수용액"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28449,7 +28262,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28466,11 +28279,8 @@
     "page": 45,
     "title": "다양한 변화를 산화 · 환원 반응의 규칙성으로 분석하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28479,7 +28289,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28496,11 +28306,8 @@
     "page": 46,
     "title": "산성과 염기성 탐색하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28509,7 +28316,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28526,21 +28333,8 @@
     "page": 50,
     "title": "산과 염기를 혼합할 때 용액의 온도를 측정해 그래프로 나타내기",
     "materials_raw": "농도가 같은 염산과 수산화\n나트륨 수용액\nBTB 용액\n6 홈판\n디지털 온도계\n비커\n피펫\n피펫 필러\n유리 막대\n실험복\n보안경\n실험용 고무장갑",
-    "equipment": [
-      "6 홈판",
-      "디지털 온도계",
-      "비커",
-      "피펫",
-      "피펫 필러",
-      "유리 막대",
-      "실험복",
-      "보안경",
-      "실험용 고무장갑"
-    ],
-    "supplies": [
-      "농도가 같은 염산과 수산화\n나트륨 수용액",
-      "BTB 용액"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28549,7 +28343,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28576,7 +28370,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28593,11 +28387,8 @@
     "page": 56,
     "title": "에너지의 흡수와 방출을 이용하는 사례 토의하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28606,7 +28397,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28623,24 +28414,8 @@
     "page": 58,
     "title": "물과 산화 칼슘을 이용한 음식 조리 방법 설계하고 실험하기",
     "materials_raw": "물\n산화 칼슘 10 g이 들어 있는\n부직포 주머니\n반응 용기\n조리 용기\n온도 센서\n스마트 기기\n비커\n스탠드\n집게\n클램프\n실험복\n보안경\n면장갑\n실험용 고무장갑",
-    "equipment": [
-      "온도 센서",
-      "스마트 기기",
-      "비커",
-      "스탠드",
-      "집게",
-      "클램프",
-      "실험복",
-      "보안경",
-      "면장갑",
-      "실험용 고무장갑"
-    ],
-    "supplies": [
-      "물",
-      "산화 칼슘 10 g이 들어 있는\n부직포 주머니",
-      "반응 용기",
-      "조리 용기"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28649,7 +28424,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28676,7 +28451,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28704,7 +28479,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28731,7 +28506,7 @@
       "ACH-b7b8d098fd921a89"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28758,7 +28533,7 @@
       "ACH-b7b8d098fd921a89"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28785,7 +28560,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28802,14 +28577,8 @@
     "page": 79,
     "title": "개체군 변동 모의실험하기",
     "materials_raw": "초록색 클립 50 개\n투명 플라스틱 컵 뚜껑 10 개\n생태계 판(부록 175 쪽)\n개체군 변동 규칙 및 기록 양식\n(부록 177 쪽)",
-    "equipment": [
-      "초록색 클립 50 개",
-      "생태계 판(부록 175 쪽)",
-      "개체군 변동 규칙 및 기록 양식\n(부록 177 쪽)"
-    ],
-    "supplies": [
-      "투명 플라스틱 컵 뚜껑 10 개"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28818,7 +28587,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28845,7 +28614,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28872,7 +28641,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28889,11 +28658,8 @@
     "page": 84,
     "title": "지구 온난화로 인한 지구 열수지 변동 탐구하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28902,7 +28668,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28919,10 +28685,8 @@
     "page": 89,
     "title": "지구 환경 변화가 인간 생활에 미치는 영향과 대처 방안 분석하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28931,7 +28695,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28948,11 +28712,8 @@
     "page": 90,
     "title": "기후 변화로 인한 생태계와 지구계의 미래 시나리오 구상하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -28961,7 +28722,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -28988,7 +28749,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29015,7 +28776,7 @@
       "ACH-60ba45415e8bd898"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29032,15 +28793,8 @@
     "page": 102,
     "title": "자석과 코일의 상대 운동에 의해 운동 에너지가 전기 에너지로 전환되는 과정 탐구하기",
     "materials_raw": "코일\n막대자석\n검류계\n집게 달린 전선 2 개\n실험복\n면장갑",
-    "equipment": [
-      "코일",
-      "막대자석",
-      "검류계",
-      "집게 달린 전선 2 개",
-      "실험복",
-      "면장갑"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29049,7 +28803,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29066,22 +28820,8 @@
     "page": 106,
     "title": "간이 발전기 만들기",
     "materials_raw": "코일\n철판\n네오디뮴 자석\n발광 다이오드 기판\n날개\n회전축\n헤드\n기둥\n받침대\n전선\n선풍기\n면장갑",
-    "equipment": [
-      "코일",
-      "네오디뮴 자석",
-      "발광 다이오드 기판",
-      "날개",
-      "회전축",
-      "헤드",
-      "기둥",
-      "받침대",
-      "전선",
-      "선풍기",
-      "면장갑"
-    ],
-    "supplies": [
-      "철판"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29090,7 +28830,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29107,10 +28847,8 @@
     "page": 109,
     "title": "발전소가 인간 생활에 미치는 영향 조사하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29119,7 +28857,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29146,7 +28884,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29163,12 +28901,8 @@
     "page": 113,
     "title": "자동차의 에너지 효율 알아보기",
     "materials_raw": "스마트 기기\n참고 도서\n그림 도구",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서",
-      "그림 도구"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29177,7 +28911,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29194,12 +28928,8 @@
     "page": 116,
     "title": "신재생 에너지 기술 탐색으로 자가발전 학교 설계하기",
     "materials_raw": "스마트 기기\n참고 도서\n그림 도구",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서",
-      "그림 도구"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29208,7 +28938,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29235,7 +28965,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29263,7 +28993,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29280,11 +29010,8 @@
     "page": 131,
     "title": "미래 사회 문제 해결에서 과학의 필요성 논증하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29293,7 +29020,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29310,24 +29037,8 @@
     "page": 132,
     "title": "단백질과 핵산을 이용한 감염병 진단 기술 체험하기",
     "materials_raw": "포획 항체\n감염병 음성 표준 시료\n감염병 양성 표준 시료\n사람 1의 시료\n사람 2의 시료\n검출 시약\n진단 반응물\n4 홈판\n스포이트\n유성펜\n초시계\n실험복\n보안경\n실험용 고무장갑",
-    "equipment": [
-      "4 홈판",
-      "스포이트",
-      "유성펜",
-      "초시계",
-      "실험복",
-      "보안경",
-      "실험용 고무장갑"
-    ],
-    "supplies": [
-      "포획 항체",
-      "감염병 음성 표준 시료",
-      "감염병 양성 표준 시료",
-      "사람 1의 시료",
-      "사람 2의 시료",
-      "검출 시약",
-      "진단 반응물"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29336,7 +29047,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29353,11 +29064,8 @@
     "page": 135,
     "title": "빅데이터의 활용 사례 조사 및 장점과 문제점 추론하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29366,7 +29074,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29383,12 +29091,8 @@
     "page": 136,
     "title": "디지털 탐구 도구를 활용한 실시간 생활 데이터 측정하기",
     "materials_raw": "스마트 기기\n마이크로프로세서를 탑재한\n피지컬 컴퓨팅 기기\nUSB 연결선",
-    "equipment": [
-      "스마트 기기",
-      "마이크로프로세서를 탑재한\n피지컬 컴퓨팅 기기",
-      "USB 연결선"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29397,7 +29101,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29424,7 +29128,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29441,12 +29145,8 @@
     "page": 146,
     "title": "일상생활에 활용되는 로봇의 특징을 분석하고 개선 방안 고안하기",
     "materials_raw": "스마트 기기\n참고 도서\n그림 도구",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서",
-      "그림 도구"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29455,7 +29155,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29472,11 +29172,8 @@
     "page": 148,
     "title": "과학기술의 발전이 미래 사회에 미치는 영향 탐색하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29485,7 +29182,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29502,11 +29199,8 @@
     "page": 151,
     "title": "과학 관련 사회적 쟁점에 대한 합리적 의사 결정 하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29515,7 +29209,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29532,11 +29226,8 @@
     "page": 152,
     "title": "과학 윤리의 중요성 논증하기",
     "materials_raw": "스마트 기기\n참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29545,7 +29236,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29572,7 +29263,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29600,7 +29291,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29617,11 +29308,8 @@
     "page": 17,
     "title": "시간과 공간의 범위 알아보기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29630,7 +29318,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29647,11 +29335,8 @@
     "page": 18,
     "title": "길이와 시간 측정의 현대적 방법 조사하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29660,7 +29345,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29677,11 +29362,8 @@
     "page": 21,
     "title": "미시세계와 거시세계의 물체의 크기에 따른 차이점 분석하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29690,7 +29372,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29717,7 +29399,7 @@
       "ACH-72c73d7591596117"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29734,11 +29416,8 @@
     "page": 25,
     "title": "단위를 사용하여 자연 현상 나타내기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29747,7 +29426,7 @@
       "ACH-72c73d7591596117"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29764,11 +29443,8 @@
     "page": 30,
     "title": "일상생활에서 측정 표준이 활용되는 사례 탐색하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29777,7 +29453,7 @@
       "ACH-e887f643bbb29295"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29794,11 +29470,8 @@
     "page": 33,
     "title": "우리 주변의 신호를 측정 · 분석하여 만든 정보 조사하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29807,7 +29480,7 @@
       "ACH-7243cd0b0795363d"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29824,10 +29497,8 @@
     "page": 35,
     "title": "스마트 기기를 활용하여 여러 가지 기본량을 측정하고 분석하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29837,7 +29508,7 @@
       "ACH-7243cd0b0795363d"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29854,11 +29525,8 @@
     "page": 36,
     "title": "일상생활에서 미시세계의 현상을 어떻게 이용할까?",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29867,7 +29535,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29892,7 +29560,7 @@
     "grade_label": "고1",
     "achievement_ids": [],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29909,15 +29577,8 @@
     "page": 50,
     "title": "분광기를 활용하여 다양한 물질의 스펙트럼을 관찰 · 비교하기",
     "materials_raw": "백열등\n수소 방전관\n분광기\n흰 종이\n색연필",
-    "equipment": [
-      "백열등",
-      "수소 방전관",
-      "분광기",
-      "색연필"
-    ],
-    "supplies": [
-      "흰 종이"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29926,7 +29587,7 @@
       "ACH-7ac967785f9c4f11"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29953,7 +29614,7 @@
       "ACH-7ac967785f9c4f11"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -29970,11 +29631,8 @@
     "page": 58,
     "title": "지구와 생명체를 구성하는 원소의 유래 탐구하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -29983,7 +29641,7 @@
       "ACH-4b8aac45fbb5dcb1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30010,7 +29668,7 @@
       "ACH-4b8aac45fbb5dcb1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30027,11 +29685,8 @@
     "page": 70,
     "title": "같은 족 원소들의 유사성을 확인하는 실험 설계하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30040,7 +29695,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30067,7 +29722,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30084,21 +29739,8 @@
     "page": 78,
     "title": "이온 결합 화합물과 공유 결합 화합물의 성질 비교하기",
     "materials_raw": "소금\n설탕\n황산 구리(II)\n포도당\n증류수 120 mL\n50 mL 비커 8개\n약숟가락\n간이 전기 전도계\n실험복\n보안경\n실험용 장갑",
-    "equipment": [
-      "50 mL 비커 8개",
-      "약숟가락",
-      "간이 전기 전도계",
-      "실험복",
-      "보안경",
-      "실험용 장갑"
-    ],
-    "supplies": [
-      "소금",
-      "설탕",
-      "황산 구리(II)",
-      "포도당",
-      "증류수 120 mL"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30107,7 +29749,7 @@
       "ACH-e612d38b9255d760"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30124,10 +29766,8 @@
     "page": 81,
     "title": "단위체를 이용하여 다양한 구조 만들기",
     "materials_raw": "단위체 모형(부록 167쪽)",
-    "equipment": [
-      "단위체 모형(부록 167쪽)"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30136,7 +29776,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30153,11 +29793,8 @@
     "page": 83,
     "title": "규산염 광물의 구조 만들기",
     "materials_raw": "스타이로폼 공 2종\n이쑤시개",
-    "equipment": [],
-    "supplies": [
-      "스타이로폼 공 2종",
-      "이쑤시개"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30166,7 +29803,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30183,13 +29820,8 @@
     "page": 86,
     "title": "DNA 모형을 제작하고 구조적 특징과 규칙성 탐구하기",
     "materials_raw": "DNA 모형(부록 169쪽)\n가위\n풀",
-    "equipment": [
-      "DNA 모형(부록 169쪽)",
-      "가위"
-    ],
-    "supplies": [
-      "풀"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30198,7 +29830,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30225,7 +29857,7 @@
       "ACH-d285a75e9d995c05"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30242,11 +29874,8 @@
     "page": 92,
     "title": "화학 결합을 쉽게 표현할 수 있을까?",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30256,7 +29885,7 @@
       "ACH-e612d38b9255d760"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30283,7 +29912,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30310,7 +29939,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30327,11 +29956,8 @@
     "page": 113,
     "title": "빅데이터 자료를 이용하여 지진대와 화산대 찾아보기",
     "materials_raw": "스마트 기기\n세계 지도(부록 171쪽)",
-    "equipment": [
-      "스마트 기기",
-      "세계 지도(부록 171쪽)"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30340,7 +29966,7 @@
       "ACH-7654f57e205a9f79"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30357,11 +29983,8 @@
     "page": 116,
     "title": "화산 분출에 따른 피해 조사 및 대책 마련하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30370,7 +29993,7 @@
       "ACH-7654f57e205a9f79"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30387,11 +30010,8 @@
     "page": 118,
     "title": "지구시스템의 균형이 깨지면 인간에게 어떤 영향을 줄까?",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30400,7 +30020,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30417,15 +30037,8 @@
     "page": 126,
     "title": "자유 낙하 운동과 수평으로 던진 물체의 운동을 시각화하여 비교하기",
     "materials_raw": "동시 낙하 실험 장치\n쇠구슬 2개(지름 약 1.5 cm)\n스마트 기기\n우드락\n검은색 배경의 모눈종이(간격 2 cm)",
-    "equipment": [
-      "동시 낙하 실험 장치",
-      "쇠구슬 2개(지름 약 1.5 cm)",
-      "스마트 기기"
-    ],
-    "supplies": [
-      "우드락",
-      "검은색 배경의 모눈종이(간격 2 cm)"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30434,7 +30047,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30451,11 +30064,8 @@
     "page": 133,
     "title": "충돌이 일어날 때 가장 큰 힘을 받는 순간 알아보기",
     "materials_raw": "스마트 기기\n푹신한 방석",
-    "equipment": [
-      "스마트 기기",
-      "푹신한 방석"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30464,7 +30074,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30481,11 +30091,8 @@
     "page": 134,
     "title": "교통수단과 스포츠에서 충격을 줄이는 방법 탐색하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30494,7 +30101,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30511,10 +30118,8 @@
     "page": 136,
     "title": "스마트 기기를 충격으로부터 어떻게 보호할 수 있을까?",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30523,7 +30128,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30540,19 +30145,8 @@
     "page": 146,
     "title": "막을 통해 이동하는 물질 확인하고 세포막의 역할 탐구하기",
     "materials_raw": "달걀 노른자 3개\n증류수\n10 % 설탕 수용액\n20 % 설탕 수용액\n페트리 접시 6개\n버니어 캘리퍼스\n당도계\n실험복\n실험용 장갑",
-    "equipment": [
-      "페트리 접시 6개",
-      "버니어 캘리퍼스",
-      "당도계",
-      "실험복",
-      "실험용 장갑"
-    ],
-    "supplies": [
-      "달걀 노른자 3개",
-      "증류수",
-      "10 % 설탕 수용액",
-      "20 % 설탕 수용액"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30561,7 +30155,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30578,19 +30172,8 @@
     "page": 149,
     "title": "과산화 수소의 분해를 돕는 식물 내 효소 확인하기",
     "materials_raw": "3.5 % 과산화 수소수\n한천 조각 10개\n감자 조각 10개\n시험관 2개\n시험관대\n스포이트\n핀셋\n실험복\n실험용 장갑",
-    "equipment": [
-      "시험관 2개",
-      "시험관대",
-      "스포이트",
-      "핀셋",
-      "실험복",
-      "실험용 장갑"
-    ],
-    "supplies": [
-      "3.5 % 과산화 수소수",
-      "한천 조각 10개",
-      "감자 조각 10개"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30599,7 +30182,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30616,10 +30199,8 @@
     "page": 150,
     "title": "일상생활에서 활용되는 화학 반응 사례 조사하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30628,7 +30209,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30655,7 +30236,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30682,7 +30263,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30709,7 +30290,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30726,11 +30307,8 @@
     "page": 22,
     "title": "지질시대 대멸종 원인의 가설 타당성 평가하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30739,7 +30317,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30766,7 +30344,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30783,14 +30361,8 @@
     "page": 26,
     "title": "자연선택 과정에 대한 모의실험하기",
     "materials_raw": "노란색과 검은색 구슬\n노란색과 검은색 도화지\n핀셋과 굵은 집게\n스톱워치",
-    "equipment": [
-      "노란색과 검은색 구슬",
-      "핀셋과 굵은 집게",
-      "스톱워치"
-    ],
-    "supplies": [
-      "노란색과 검은색 도화지"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30799,7 +30371,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30816,11 +30388,8 @@
     "page": 31,
     "title": "생물 복원 스토리북 만들기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30829,7 +30398,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30846,11 +30415,8 @@
     "page": 32,
     "title": "최근 생물의 멸종에 큰 영향을 주는 환경 변화는 무엇일까?",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30859,7 +30425,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30886,7 +30452,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30903,18 +30469,8 @@
     "page": 42,
     "title": "에칭 판화 원리 탐구하기",
     "materials_raw": "알루미늄(Al) 판\n염화 구리(II)(CuCl₂) 수용액\n접착용 필름\n페트리 접시\n가위\n실험복\n보안경\n실험용 장갑",
-    "equipment": [
-      "페트리 접시",
-      "가위",
-      "실험복",
-      "보안경",
-      "실험용 장갑"
-    ],
-    "supplies": [
-      "알루미늄(Al) 판",
-      "염화 구리(II)(CuCl₂) 수용액",
-      "접착용 필름"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30923,7 +30479,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30940,10 +30496,8 @@
     "page": 45,
     "title": "우리 주변에서 일어나는 산화 ・ 환원 반응 분석하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30952,7 +30506,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30969,11 +30523,8 @@
     "page": 48,
     "title": "우리 주변에서 이용하는 산과 염기의 특징 조사하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -30982,7 +30533,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -30999,20 +30550,8 @@
     "page": 50,
     "title": "산과 염기를 혼합할 때 용액의 온도를 측정하여 그래프로 나타내기",
     "materials_raw": "묽은 염산\n수산화 나트륨(NaOH) 수용액\nBTB 용액\n15 mL 눈금 시험관 7개\n시험관대\n디지털 온도계\n스포이트\n실험복\n보안경\n실험용 장갑",
-    "equipment": [
-      "15 mL 눈금 시험관 7개",
-      "시험관대",
-      "디지털 온도계",
-      "스포이트",
-      "실험복",
-      "보안경",
-      "실험용 장갑"
-    ],
-    "supplies": [
-      "묽은 염산",
-      "수산화 나트륨(NaOH) 수용액",
-      "BTB 용액"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31021,7 +30560,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31038,11 +30577,8 @@
     "page": 53,
     "title": "생활 속에서 중화 반응을 이용하는 사례 조사하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31051,7 +30587,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31078,7 +30614,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31095,18 +30631,8 @@
     "page": 58,
     "title": "가열장치 없이 음식을 조리하는 방법 설계하고 실험하기",
     "materials_raw": "산화 칼슘 발열 팩 50 g\n물\n메추리알\n모둠별로 결정한 재료\n스마트 기기\n실험복\n보안경\n면장갑",
-    "equipment": [
-      "스마트 기기",
-      "실험복",
-      "보안경",
-      "면장갑"
-    ],
-    "supplies": [
-      "산화 칼슘 발열 팩 50 g",
-      "물",
-      "메추리알",
-      "모둠별로 결정한 재료"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31115,7 +30641,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31132,20 +30658,8 @@
     "page": 60,
     "title": "화학 반응을 이용해 예술 작품을 만들 수 있을까?",
     "materials_raw": "구리 테이프\n질산 은 수용액\n검은색 도화지\n50 mL 비커 1개\n면봉\n가위\n필기구\n실험복\n실험용 장갑\n보안경",
-    "equipment": [
-      "50 mL 비커 1개",
-      "가위",
-      "필기구",
-      "실험복",
-      "실험용 장갑",
-      "보안경"
-    ],
-    "supplies": [
-      "구리 테이프",
-      "질산 은 수용액",
-      "검은색 도화지",
-      "면봉"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31154,7 +30668,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31181,7 +30695,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31198,10 +30712,8 @@
     "page": 74,
     "title": "내가 가 보고 싶은 곳의 생태계 조사하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31210,7 +30722,7 @@
       "ACH-b7b8d098fd921a89"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31237,7 +30749,7 @@
       "ACH-b7b8d098fd921a89"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31254,10 +30766,8 @@
     "page": 81,
     "title": "환경 변화가 생태계에 미치는 영향 토의하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31266,7 +30776,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31283,10 +30793,8 @@
     "page": 82,
     "title": "개체군 변동 모의실험하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31295,7 +30803,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31312,15 +30820,8 @@
     "page": 86,
     "title": "지구온난화에 따른 지구 열수지 변동 탐구하기",
     "materials_raw": "500 mL 플라스틱 페트병 2개\n이산화 탄소 발포정\n디지털 온도계 2개\n고무찰흙\n적외선 조명 2개",
-    "equipment": [
-      "디지털 온도계 2개",
-      "적외선 조명 2개"
-    ],
-    "supplies": [
-      "500 mL 플라스틱 페트병 2개",
-      "이산화 탄소 발포정",
-      "고무찰흙"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31329,7 +30830,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31356,7 +30857,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31373,11 +30874,8 @@
     "page": 92,
     "title": "기후변화로 인한 생태계와 지구계의 미래 시나리오 구상하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31387,7 +30885,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31404,10 +30902,8 @@
     "page": 94,
     "title": "생태계는 우리 생활에 어떤 영향을 줄까?",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31416,7 +30912,7 @@
       "ACH-b7b8d098fd921a89"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31443,7 +30939,7 @@
       "ACH-60ba45415e8bd898"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31460,14 +30956,8 @@
     "page": 105,
     "title": "운동 에너지가 전기 에너지로 전환되는 과정 알아보기",
     "materials_raw": "코일\n막대자석 2개\n검류계\n면장갑\n집게 달린 전선 2개",
-    "equipment": [
-      "코일",
-      "막대자석 2개",
-      "검류계",
-      "면장갑",
-      "집게 달린 전선 2개"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31476,7 +30966,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31493,20 +30983,8 @@
     "page": 107,
     "title": "간이 발전기를 만들어 에너지가 전환되는 과정 탐구하기",
     "materials_raw": "에나멜선(지름 0.2 mm)\n원통형 네오디뮴 자석\n4개(지름 15 mm,\n높이 5 mm)\n나무 막대\n빨간색 발광 다이오드\n페트병 (지름 3 cm)\n빨대\n집게 달린 전선 2개\n글루건\n칼이나 사포\n면장갑",
-    "equipment": [
-      "원통형 네오디뮴 자석\n4개(지름 15 mm,\n높이 5 mm)",
-      "빨간색 발광 다이오드",
-      "집게 달린 전선 2개",
-      "글루건",
-      "면장갑"
-    ],
-    "supplies": [
-      "에나멜선(지름 0.2 mm)",
-      "나무 막대",
-      "페트병 (지름 3 cm)",
-      "빨대",
-      "칼이나 사포"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31515,7 +30993,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31532,11 +31010,8 @@
     "page": 110,
     "title": "화력 발전소와 핵발전소가 인간 생활에 미치는 영향 알아보기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31545,7 +31020,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31562,11 +31037,8 @@
     "page": 116,
     "title": "우리 주위에서 지속가능한 발전을 위한 기술 찾기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31575,7 +31047,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31592,11 +31064,8 @@
     "page": 118,
     "title": "건축물의 단열 효율을 높이는 방법은 무엇일까?",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31605,7 +31074,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31632,7 +31101,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31659,7 +31128,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31676,11 +31145,8 @@
     "page": 132,
     "title": "미래 사회에 예상되는 문제와 해결 방안 탐색하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31689,7 +31155,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31706,17 +31172,8 @@
     "page": 134,
     "title": "단백질과 핵산을 이용한 감염병 진단 기술 체험하기",
     "materials_raw": "감염병 진단 모의실험 키트\n마이크로 피펫\n마이크로 피펫 팁\n네임펜\n번호를 쓴 종이\n실험복\n실험용 장갑",
-    "equipment": [
-      "마이크로 피펫",
-      "네임펜",
-      "실험복",
-      "실험용 장갑"
-    ],
-    "supplies": [
-      "감염병 진단 모의실험 키트",
-      "마이크로 피펫 팁",
-      "번호를 쓴 종이"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31725,7 +31182,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31752,7 +31209,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31769,11 +31226,8 @@
     "page": 139,
     "title": "빅데이터의 장점과 문제점 조사하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31782,7 +31236,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31799,11 +31253,8 @@
     "page": 140,
     "title": "디지털 탐구 도구를 활용한 실시간 생활 데이터 측정하기",
     "materials_raw": "이산화 탄소 측정 센서\n분석용 스마트 기기",
-    "equipment": [
-      "이산화 탄소 측정 센서",
-      "분석용 스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31812,7 +31263,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31829,10 +31280,8 @@
     "page": 143,
     "title": "과학기술의 발전을 인간 삶과 환경 개선에 활용하는 사례 조사하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31841,7 +31290,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31858,11 +31307,8 @@
     "page": 145,
     "title": "일상생활에 활용되는 로봇의 특징을 분석하고 개선 방안 고안하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31871,7 +31317,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31898,7 +31344,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31915,10 +31361,8 @@
     "page": 149,
     "title": "크리스퍼 유전자 가위 논증하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31927,7 +31371,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31944,11 +31388,8 @@
     "page": 150,
     "title": "인공지능 활용 과학 연구 비판하기",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31957,7 +31398,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -31974,11 +31415,8 @@
     "page": 152,
     "title": "누구나 쉽게 사용할 수 있는 키오스크를 만들어 볼까?",
     "materials_raw": "스마트 기기\n참고 자료",
-    "equipment": [
-      "스마트 기기",
-      "참고 자료"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -31987,7 +31425,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32012,7 +31450,7 @@
     "grade_label": "고1",
     "achievement_ids": [],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32039,7 +31477,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32066,7 +31504,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32083,10 +31521,8 @@
     "page": 18,
     "title": "미시 세계와 거시 세계의 물체 크기에 따른 차이점 분석하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32095,7 +31531,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32122,7 +31558,7 @@
       "ACH-72c73d7591596117"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32139,10 +31575,8 @@
     "page": 24,
     "title": "일상생활에서 측정 표준이 활용되는 사례 탐색하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32151,7 +31585,7 @@
       "ACH-e887f643bbb29295"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32168,13 +31602,8 @@
     "page": 29,
     "title": "스마트 기기로 여러 가지 기본량을 측정하고 분석하기",
     "materials_raw": "길이 측정 앱이 설치\n된 스마트 기기, 전자저울, 디\n지털 온도계, 적외선 온도계",
-    "equipment": [
-      "길이 측정 앱이 설치\n된 스마트 기기",
-      "전자저울",
-      "디\n지털 온도계",
-      "적외선 온도계"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32183,7 +31612,7 @@
       "ACH-7243cd0b0795363d"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32210,7 +31639,7 @@
       "ACH-7243cd0b0795363d"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32227,14 +31656,8 @@
     "page": 41,
     "title": "분광기로 다양한 물질이 방출하는 스펙트럼 관찰하기",
     "materials_raw": "기체 방전관 (수소, 헬\n륨, 아르곤), 고전압 발생 장치,\n분광기, 내열 장갑, 색연필",
-    "equipment": [
-      "기체 방전관 (수소, 헬\n륨, 아르곤)",
-      "고전압 발생 장치",
-      "분광기",
-      "내열 장갑",
-      "색연필"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32243,7 +31666,7 @@
       "ACH-7ac967785f9c4f11"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32270,7 +31693,7 @@
       "ACH-7ac967785f9c4f11"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32297,7 +31720,7 @@
       "ACH-4b8aac45fbb5dcb1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32314,11 +31737,8 @@
     "page": 58,
     "title": "같은 족 원소의 유사성을 탐구하는 실험 설계하기",
     "materials_raw": "스마트 기기, 실험 도\n구 붙임딱지 (부록 176쪽)",
-    "equipment": [
-      "스마트 기기",
-      "실험 도\n구 붙임딱지 (부록 176쪽)"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32327,7 +31747,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32354,7 +31774,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32381,7 +31801,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32398,13 +31818,8 @@
     "page": 68,
     "title": "화학 결합을 모형으로 나타내기",
     "materials_raw": "원자 모형이 그려진\n투명 필름과 전자 붙임딱지 (부\n록 176~178쪽), 네임펜, 셀\n로판테이프",
-    "equipment": [
-      "원자 모형이 그려진\n투명 필름과 전자 붙임딱지 (부\n록 176~178쪽)",
-      "네임펜"
-    ],
-    "supplies": [
-      "셀\n로판테이프"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32414,7 +31829,7 @@
       "ACH-e612d38b9255d760"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32431,25 +31846,8 @@
     "page": 70,
     "title": "이온 결합 물질과 공유 결합 물질의 성질 비교하기",
     "materials_raw": "설탕, 염화 나트륨, 포\n도당, 염화 칼슘, 증류수, 6홈판,\n비커, 유리 막대, 약숟가락, 스\n포이트, 간이 전기 전도계, 휴지,\n보안경, 실험용 장갑, 실험복",
-    "equipment": [
-      "6홈판",
-      "비커",
-      "유리 막대",
-      "약숟가락",
-      "스\n포이트",
-      "간이 전기 전도계",
-      "보안경",
-      "실험용 장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "설탕",
-      "염화 나트륨",
-      "포\n도당",
-      "염화 칼슘",
-      "증류수",
-      "휴지"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [
       "MAT-7921a3bb40fa91bb",
       "MAT-72be2cc06e0a5f83",
@@ -32463,7 +31861,7 @@
       "ACH-e612d38b9255d760"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": [
       "CHEM-7921a3bb40fa91bb",
       "CHEM-72be2cc06e0a5f83",
@@ -32485,11 +31883,8 @@
     "page": 79,
     "title": "규산염 광물의 결합 모형 만들기",
     "materials_raw": "컴퓨터, 입체 그림을\n그릴 수 있는 프로그램",
-    "equipment": [
-      "컴퓨터",
-      "입체 그림을\n그릴 수 있는 프로그램"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32498,7 +31893,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32525,7 +31920,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32542,17 +31937,8 @@
     "page": 85,
     "title": "DNA 모형 만들고 구조적 특징과 규칙성 탐구하기",
     "materials_raw": "뉴클레오타이드 모형\n(부록 179쪽), 빨대, 가위, 자,\n풀, 철끈, 송곳",
-    "equipment": [
-      "뉴클레오타이드 모형\n(부록 179쪽)",
-      "가위",
-      "자",
-      "송곳"
-    ],
-    "supplies": [
-      "빨대",
-      "풀",
-      "철끈"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32561,7 +31947,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32578,13 +31964,8 @@
     "page": 86,
     "title": "도체와 부도체 구분하기",
     "materials_raw": "간이 전기 전도계, 여러 가지 물체, 보호 장갑",
-    "equipment": [
-      "간이 전기 전도계",
-      "보호 장갑"
-    ],
-    "supplies": [
-      "여러 가지 물체"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32593,7 +31974,7 @@
       "ACH-d285a75e9d995c05"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32620,7 +32001,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32647,7 +32028,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32664,10 +32045,8 @@
     "page": 107,
     "title": "지권의 변화가 지구시스템에 미치는 영향 추론하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32676,7 +32055,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32703,7 +32082,7 @@
       "ACH-7654f57e205a9f79"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32720,10 +32099,8 @@
     "page": 115,
     "title": "화산 분출 피해 조사와 대책 수립하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32732,7 +32109,7 @@
       "ACH-7654f57e205a9f79"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32749,16 +32126,8 @@
     "page": 122,
     "title": "자유 낙하와 수평으로 던진 물체의 운동 비교하기",
     "materials_raw": "쇠구슬, 모눈종이, 우\n드록, 스프레이 접착제, 스마트\n기기, 삼각대",
-    "equipment": [
-      "쇠구슬",
-      "스마트\n기기",
-      "삼각대"
-    ],
-    "supplies": [
-      "모눈종이",
-      "우\n드록",
-      "스프레이 접착제"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32767,7 +32136,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32784,11 +32153,8 @@
     "page": 125,
     "title": "디지털 도구로 달에서의 중력 체험하기",
     "materials_raw": "스마트 기기, 종이로 된 가상 현실(VR) 안경",
-    "equipment": [
-      "스마트 기기",
-      "종이로 된 가상 현실(VR) 안경"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32797,7 +32163,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32814,15 +32180,8 @@
     "page": 130,
     "title": "운동량의 변화 알아보기",
     "materials_raw": "빨대, 면봉, 가위, 주사기, 셀로판테이프",
-    "equipment": [
-      "가위",
-      "주사기"
-    ],
-    "supplies": [
-      "빨대",
-      "면봉",
-      "셀로판테이프"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32831,7 +32190,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32848,10 +32207,8 @@
     "page": 133,
     "title": "교통수단과 스포츠에서 안전장치 고안하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32860,7 +32217,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32877,24 +32234,8 @@
     "page": 143,
     "title": "세포막을 통한 물질의 이동과 세포막의 역할 탐구하기",
     "materials_raw": "붉은 양파, 칼, 핀셋,\n스포이트, 증류수, 20 % 설탕\n물, 거름종이, 받침 유리, 덮개\n유리, 현미경, 스마트폰, 스마\n트폰 촬영 거치대, 실험용 장\n갑, 실험복",
-    "equipment": [
-      "붉은 양파",
-      "칼",
-      "핀셋",
-      "스포이트",
-      "받침 유리",
-      "덮개\n유리",
-      "현미경",
-      "스마트폰",
-      "스마\n트폰 촬영 거치대",
-      "실험용 장\n갑",
-      "실험복"
-    ],
-    "supplies": [
-      "증류수",
-      "20 % 설탕\n물",
-      "거름종이"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32903,7 +32244,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32930,7 +32271,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32947,23 +32288,8 @@
     "page": 148,
     "title": "효소의 작용 확인하기",
     "materials_raw": "시험관 세 개, 시험관\n대, 3 % 과산화 수소수, 스포\n이트, 핀셋, 생간 조각, 감자 조\n각, 페트리 접시, 향, 점화기,\n보안경, 실험용 장갑, 실험복",
-    "equipment": [
-      "시험관 세 개",
-      "시험관\n대",
-      "스포\n이트",
-      "핀셋",
-      "페트리 접시",
-      "점화기",
-      "보안경",
-      "실험용 장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "3 % 과산화 수소수",
-      "생간 조각",
-      "감자 조\n각",
-      "향"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -32972,7 +32298,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -32989,10 +32315,8 @@
     "page": 151,
     "title": "일상생활의 효소 활용 사례 카드 뉴스 만들기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33001,7 +32325,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33028,7 +32352,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33045,13 +32369,8 @@
     "page": 155,
     "title": "놀이로 익히는 세포 내 정보의 흐름",
     "materials_raw": "주사위 세 개, 유전 암\n호 표(부록 175쪽), 아미노산\n붙임딱지(부록 176쪽), 유전정\n보 카드(부록 180쪽)",
-    "equipment": [
-      "주사위 세 개",
-      "유전 암\n호 표(부록 175쪽)",
-      "아미노산\n붙임딱지(부록 176쪽)",
-      "유전정\n보 카드(부록 180쪽)"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33060,7 +32379,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33088,7 +32407,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33115,7 +32434,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33132,10 +32451,8 @@
     "page": 21,
     "title": "대멸종 원인에 대한 가설을 조사하고 타당성 평가하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33144,7 +32461,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33161,17 +32478,8 @@
     "page": 23,
     "title": "자연선택 모의실험하기",
     "materials_raw": "나무 이쑤시개, 녹말\n이쑤시개, 황갈색 종이 한 장,\n녹색 종이 한 장, 포장용 에어\n캡, 보안경, 핀셋",
-    "equipment": [
-      "보안경",
-      "핀셋"
-    ],
-    "supplies": [
-      "나무 이쑤시개",
-      "녹말\n이쑤시개",
-      "황갈색 종이 한 장",
-      "녹색 종이 한 장",
-      "포장용 에어\n캡"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33180,7 +32488,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33207,7 +32515,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33224,10 +32532,8 @@
     "page": 30,
     "title": "생물다양성보전 실천 방안 알아보기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33236,7 +32542,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33263,7 +32569,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33280,19 +32586,8 @@
     "page": 42,
     "title": "구리와 질산 은 수용액의 산화·환원 반응 관찰하기",
     "materials_raw": "질산 은 수용액, 구리\n줄, 페트리 접시, 사포, 핀셋,\n보안경, 실험용 장갑, 보호 장갑,\n실험복",
-    "equipment": [
-      "페트리 접시",
-      "핀셋",
-      "보안경",
-      "실험용 장갑",
-      "보호 장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "질산 은 수용액",
-      "구리\n줄",
-      "사포"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33301,7 +32596,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33318,27 +32613,8 @@
     "page": 48,
     "title": "산과 염기의 성질",
     "materials_raw": "묽은 염산, 아세트산\n수용액, 수산화 나트륨 수용액,\n수산화 칼륨 수용액, 탄산 칼\n슘, 마그네슘 조각, 두부, 12홈\n판, 실험판(부록 173쪽), 간이\n전기 전도계, 휴지, 스포이트,\n핀셋, 약숟가락, 보안경, 실험용\n장갑, 실험복",
-    "equipment": [
-      "12홈\n판",
-      "실험판(부록 173쪽)",
-      "간이\n전기 전도계",
-      "스포이트",
-      "핀셋",
-      "약숟가락",
-      "보안경",
-      "실험용\n장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "묽은 염산",
-      "아세트산\n수용액",
-      "수산화 나트륨 수용액",
-      "수산화 칼륨 수용액",
-      "탄산 칼\n슘",
-      "마그네슘 조각",
-      "두부",
-      "휴지"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [
       "MAT-fe7c9961c118f5bb"
     ],
@@ -33349,7 +32625,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": [
       "CHEM-fe7c9961c118f5bb"
     ]
@@ -33368,22 +32644,8 @@
     "page": 54,
     "title": "산과 염기를 혼합했을 때의 변화 관찰하기",
     "materials_raw": "농도와 온도가 같은\n묽은 염산과 수산화 나트륨 수\n용액, BTB 용액, 6홈판, 스포\n이트, 눈금실린더, 유리 막대,\n디지털 온도계, 실험판(부록\n174쪽), 디지털 기기, 보안경,\n실험용 장갑, 실험복",
-    "equipment": [
-      "6홈판",
-      "스포\n이트",
-      "눈금실린더",
-      "유리 막대",
-      "디지털 온도계",
-      "실험판(부록\n174쪽)",
-      "디지털 기기",
-      "보안경",
-      "실험용 장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "농도와 온도가 같은\n묽은 염산과 수산화 나트륨 수\n용액",
-      "BTB 용액"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33392,7 +32654,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33420,7 +32682,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33437,24 +32699,8 @@
     "page": 60,
     "title": "물과 산화 칼슘을 이용하여 음식 조리 방법 설계하기",
     "materials_raw": "물, 산화 칼슘, 비커,\n페트리 접시, 약숟가락, 유리\n막대, 온도계, 음식 조리 도구,\n조리에 사용할 음식, 마스크,\n보안경, 실험용 장갑, 보호 장갑,\n실험복",
-    "equipment": [
-      "비커",
-      "페트리 접시",
-      "약숟가락",
-      "유리\n막대",
-      "온도계",
-      "음식 조리 도구",
-      "마스크",
-      "보안경",
-      "실험용 장갑",
-      "보호 장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "물",
-      "산화 칼슘",
-      "조리에 사용할 음식"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [
       "MAT-f9fd5879e0df785f"
     ],
@@ -33465,7 +32711,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": [
       "CHEM-f9fd5879e0df785f"
     ]
@@ -33494,7 +32740,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33511,13 +32757,8 @@
     "page": 76,
     "title": "우리 주변 생태계 조사하기",
     "materials_raw": "스마트 기기, 온도계,\n줄자, 생물 도감",
-    "equipment": [
-      "스마트 기기",
-      "온도계",
-      "줄자",
-      "생물 도감"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33526,7 +32767,7 @@
       "ACH-b7b8d098fd921a89"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33543,10 +32784,8 @@
     "page": 82,
     "title": "개체군 변동 모의실험하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33555,7 +32794,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33572,10 +32811,8 @@
     "page": 84,
     "title": "환경 변화가 생태계에 미치는 영향 알아보기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33584,7 +32821,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33611,7 +32848,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33628,10 +32865,8 @@
     "page": 94,
     "title": "기후 변화로 인한 미래 시나리오 구상하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33640,7 +32875,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33657,13 +32892,8 @@
     "page": 104,
     "title": "전기 에너지 만들어 보기",
     "materials_raw": "코일, 막대자석, 검류\n계, 집게 달린 전선 두 개",
-    "equipment": [
-      "코일",
-      "막대자석",
-      "검류\n계",
-      "집게 달린 전선 두 개"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33672,7 +32902,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33689,20 +32919,8 @@
     "page": 106,
     "title": "운동 에너지가 전기 에너지로 전환되는 과정 탐구하기",
     "materials_raw": "빈 테이프 통, 에나멜\n선, 네오디뮴 자석, 발광 다이\n오드(LED), 나무젓가락, 글루\n건, 클립, 사포, 셀로판테이프,\n면장갑",
-    "equipment": [
-      "네오디뮴 자석",
-      "발광 다이\n오드(LED)",
-      "글루\n건",
-      "클립",
-      "면장갑"
-    ],
-    "supplies": [
-      "빈 테이프 통",
-      "에나멜\n선",
-      "나무젓가락",
-      "사포",
-      "셀로판테이프"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33711,7 +32929,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33728,10 +32946,8 @@
     "page": 108,
     "title": "화력 발전과 핵발전이 인간 생활에 미치는 영향 알아보기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33740,7 +32956,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33767,7 +32983,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33784,10 +33000,8 @@
     "page": 117,
     "title": "에너지 효율을 높이는 사례 조사하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33796,7 +33010,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33813,10 +33027,8 @@
     "page": 120,
     "title": "신재생 에너지 활용 방안 제안서 만들기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33825,7 +33037,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33852,7 +33064,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33869,19 +33081,8 @@
     "page": 132,
     "title": "감염병 진단 기술 체험하기",
     "materials_raw": "스포이트, 12홈판, 모의\n항체, 모의 대조군(양성, 음성)\n검체, 모의 환자 검체 두 개,\n검출 시약, 실험복, 실험용 장\n갑, 보안경",
-    "equipment": [
-      "스포이트",
-      "12홈판",
-      "실험복",
-      "실험용 장\n갑",
-      "보안경"
-    ],
-    "supplies": [
-      "모의\n항체",
-      "모의 대조군(양성, 음성)\n검체",
-      "모의 환자 검체 두 개",
-      "검출 시약"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33890,7 +33091,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33907,10 +33108,8 @@
     "page": 137,
     "title": "미래 사회 문제 해결에서 과학의 필요성 논증하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33919,7 +33118,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33936,14 +33135,8 @@
     "page": 138,
     "title": "디지털 탐구 도구를 활용하여 실시간 생활 데이터 측정하기",
     "materials_raw": "노트북, 마이크로컨트\n롤러, 브레드보드, 점퍼 케이블,\n이산화 탄소 센서",
-    "equipment": [
-      "노트북",
-      "마이크로컨트\n롤러",
-      "브레드보드",
-      "점퍼 케이블",
-      "이산화 탄소 센서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33952,7 +33145,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33969,10 +33162,8 @@
     "page": 142,
     "title": "빅데이터 활용의 장점과 문제점 추론하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -33981,7 +33172,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -33998,10 +33189,8 @@
     "page": 146,
     "title": "일상생활 속 로봇의 특징 분석 및 개선 방안 고안하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34010,7 +33199,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34027,10 +33216,8 @@
     "page": 150,
     "title": "과학 관련 사회적 쟁점 토론하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34039,7 +33226,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34066,7 +33253,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34093,7 +33280,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34120,7 +33307,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34147,7 +33334,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34174,7 +33361,7 @@
       "ACH-72c73d7591596117"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34201,7 +33388,7 @@
       "ACH-72c73d7591596117"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34228,7 +33415,7 @@
       "ACH-e887f643bbb29295"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34245,13 +33432,8 @@
     "page": 27,
     "title": "물의 질량 어림하기",
     "materials_raw": "물, 전자저울, 컵",
-    "equipment": [
-      "전자저울"
-    ],
-    "supplies": [
-      "물",
-      "컵"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34260,7 +33442,7 @@
       "ACH-e887f643bbb29295"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34277,10 +33459,8 @@
     "page": 28,
     "title": "일상생활에서 측정 표준이 활용되는 사례 탐색",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34289,7 +33469,7 @@
       "ACH-e887f643bbb29295"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34316,7 +33496,7 @@
       "ACH-7243cd0b0795363d"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34333,11 +33513,8 @@
     "page": 31,
     "title": "스마트 기기를 활용한 기본량 측정과 분석",
     "materials_raw": "온도 센서, 스마트 기기",
-    "equipment": [
-      "온도 센서",
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34347,7 +33524,7 @@
       "ACH-7243cd0b0795363d"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34374,7 +33551,7 @@
       "ACH-7243cd0b0795363d"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34401,7 +33578,7 @@
       "ACH-e887f643bbb29295"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34428,7 +33605,7 @@
       "ACH-7ac967785f9c4f11"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34445,15 +33622,8 @@
     "page": 46,
     "title": "분광기를 활용한 물질의 스펙트럼 관찰·비교",
     "materials_raw": "간이 분광기, 수소 방전관, 헬륨 방\n전관, 고전압 발생 장치, 스마트폰,\n내열 장갑",
-    "equipment": [
-      "간이 분광기",
-      "수소 방전관",
-      "헬륨 방\n전관",
-      "고전압 발생 장치",
-      "스마트폰",
-      "내열 장갑"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34462,7 +33632,7 @@
       "ACH-7ac967785f9c4f11"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34489,7 +33659,7 @@
       "ACH-4b8aac45fbb5dcb1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34516,7 +33686,7 @@
       "ACH-4b8aac45fbb5dcb1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34533,10 +33703,8 @@
     "page": 53,
     "title": "우주와 지구 역사를 통한 지구와 생명체 구성 성분의 유래 탐구",
     "materials_raw": "부록 157 쪽 활동 카드",
-    "equipment": [
-      "부록 157 쪽 활동 카드"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34545,7 +33713,7 @@
       "ACH-4b8aac45fbb5dcb1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34572,7 +33740,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34589,10 +33757,8 @@
     "page": 62,
     "title": "같은 족 원소들의 유사성을 탐구하는 실험 설계",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34601,7 +33767,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34628,7 +33794,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34655,7 +33821,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34682,7 +33848,7 @@
       "ACH-e612d38b9255d760"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34699,23 +33865,8 @@
     "page": 70,
     "title": "이온 결합 물질과 공유 결합 물질의 성질 비교",
     "materials_raw": "증류수, 염화 나트륨, 염화 칼슘, 설\n탕, 포도당, 유리 막대, 스포이트, 전\n기 전도성 측정기, 6 홈판, 약숟가락,\n보안경, 실험용 장갑, 실험복",
-    "equipment": [
-      "유리 막대",
-      "스포이트",
-      "전\n기 전도성 측정기",
-      "6 홈판",
-      "약숟가락",
-      "보안경",
-      "실험용 장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "증류수",
-      "염화 나트륨",
-      "염화 칼슘",
-      "설\n탕",
-      "포도당"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [
       "MAT-72be2cc06e0a5f83",
       "MAT-cdbeaa3c7764a63a",
@@ -34729,7 +33880,7 @@
       "ACH-e612d38b9255d760"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": [
       "CHEM-72be2cc06e0a5f83",
       "CHEM-cdbeaa3c7764a63a",
@@ -34761,7 +33912,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34778,11 +33929,8 @@
     "page": 74,
     "title": "규산염 광물의 결합 구조 모형 만들기",
     "materials_raw": "쇠구슬, 자석으로 된 막대",
-    "equipment": [
-      "쇠구슬",
-      "자석으로 된 막대"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34791,7 +33939,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34808,13 +33956,8 @@
     "page": 78,
     "title": "DNA의 구조적 특징과 규칙성 탐구",
     "materials_raw": "부록 161 쪽 뉴클레오타이드 모\n형, 가위, 풀",
-    "equipment": [
-      "부록 161 쪽 뉴클레오타이드 모\n형",
-      "가위"
-    ],
-    "supplies": [
-      "풀"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34823,7 +33966,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34850,7 +33993,7 @@
       "ACH-d285a75e9d995c05"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34867,10 +34010,8 @@
     "page": 84,
     "title": "물질의 전기적 성질을 활용한 소재 조사",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34879,7 +34020,7 @@
       "ACH-d285a75e9d995c05"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34906,7 +34047,7 @@
       "ACH-d285a75e9d995c05"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34933,7 +34074,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34960,7 +34101,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -34977,10 +34118,8 @@
     "page": 100,
     "title": "지구시스템 권역 간의 물질 순환과 에너지 흐름 논증",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -34989,7 +34128,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35016,7 +34155,7 @@
       "ACH-7654f57e205a9f79"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35043,7 +34182,7 @@
       "ACH-7654f57e205a9f79"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35060,10 +34199,8 @@
     "page": 106,
     "title": "지진과 화산 분출로 나타나는 피해 조사와 대책 수립",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -35072,7 +34209,7 @@
       "ACH-7654f57e205a9f79"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35099,7 +34236,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35116,16 +34253,8 @@
     "page": 114,
     "title": "자유 낙하와 수평 방향으로 던진 물체의 운동 비교",
     "materials_raw": "30 cm 자, 원형 나무 도막, 모눈종\n이, 우드록, 스마트 기기, 삼각대",
-    "equipment": [
-      "30 cm 자",
-      "스마트 기기",
-      "삼각대"
-    ],
-    "supplies": [
-      "원형 나무 도막",
-      "모눈종\n이",
-      "우드록"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -35134,7 +34263,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35161,7 +34290,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35188,7 +34317,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35215,7 +34344,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35242,7 +34371,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35259,10 +34388,8 @@
     "page": 122,
     "title": "교통수단과 스포츠에서 충격을 줄이는 방법 탐색",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -35271,7 +34398,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35298,7 +34425,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35315,25 +34442,8 @@
     "page": 130,
     "title": "막을 통한 물질의 이동과 세포막의 역할 탐구",
     "materials_raw": "적양파, 0.9 % 소금물, 10 % 소금\n물, 증류수, 받침 유리, 덮개 유리,\n스포이트, 핀셋, 칼, 거름종이, 현미\n경, 스마트폰, 현미경 스마트폰 촬\n영 거치대, 실험용 장갑, 실험복",
-    "equipment": [
-      "적양파",
-      "받침 유리",
-      "덮개 유리",
-      "스포이트",
-      "핀셋",
-      "칼",
-      "현미\n경",
-      "스마트폰",
-      "현미경 스마트폰 촬\n영 거치대",
-      "실험용 장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "0.9 % 소금물",
-      "10 % 소금\n물",
-      "증류수",
-      "거름종이"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -35342,7 +34452,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35359,23 +34469,8 @@
     "page": 132,
     "title": "효소의 작용 원리에 관한 실험",
     "materials_raw": "생간 조각, 감자 조각, 3 % 과산화\n수소수, 시험관, 시험관대, 페트리\n접시, 스포이트, 향, 핀셋, 점화기,\n보안경, 실험용 장갑, 실험복",
-    "equipment": [
-      "시험관",
-      "시험관대",
-      "페트리\n접시",
-      "스포이트",
-      "핀셋",
-      "점화기",
-      "보안경",
-      "실험용 장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "생간 조각",
-      "감자 조각",
-      "3 % 과산화\n수소수",
-      "향"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -35384,7 +34479,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35401,10 +34496,8 @@
     "page": 134,
     "title": "일상생활에서 효소가 활용되는 사례 탐색",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -35413,7 +34506,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35440,7 +34533,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35467,7 +34560,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35494,7 +34587,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35521,7 +34614,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35550,7 +34643,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35577,7 +34670,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35604,7 +34697,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35621,10 +34714,8 @@
     "page": 20,
     "title": "생물 대멸종의 원인을 설명하는 가설의 타당성 평가",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -35633,7 +34724,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35660,7 +34751,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35677,13 +34768,8 @@
     "page": 24,
     "title": "자연선택 과정에 대한 모의실험",
     "materials_raw": "네 가지 색 뻥튀기 과자(빨간색, 주\n황색, 노란색, 초록색), 두 가지 색\n도화지(빨간색, 초록색), 젓가락",
-    "equipment": [
-      "젓가락"
-    ],
-    "supplies": [
-      "네 가지 색 뻥튀기 과자(빨간색, 주\n황색, 노란색, 초록색)",
-      "두 가지 색\n도화지(빨간색, 초록색)"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -35692,7 +34778,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35719,7 +34805,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35746,7 +34832,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35773,7 +34859,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35800,7 +34886,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35827,7 +34913,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35844,28 +34930,8 @@
     "page": 39,
     "title": "산과 염기의 성질 관찰",
     "materials_raw": "묽은 염산, 레몬즙, 식초, 수산화 나\n트륨 수용액, 제빵 소다 수용액, 하\n수구 세정제, BTB 용액, 증류수,\n스포이트, 전기 전도성 측정기, 푸\n른색 리트머스 종이, 붉은색 리트머\n스 종이, 마그네슘 리본, 24 홈판,\n핀셋, 보안경, 실험용 장갑, 실험복",
-    "equipment": [
-      "스포이트",
-      "전기 전도성 측정기",
-      "24 홈판",
-      "핀셋",
-      "보안경",
-      "실험용 장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "묽은 염산",
-      "레몬즙",
-      "식초",
-      "수산화 나\n트륨 수용액",
-      "제빵 소다 수용액",
-      "하\n수구 세정제",
-      "BTB 용액",
-      "증류수",
-      "푸\n른색 리트머스 종이",
-      "붉은색 리트머\n스 종이",
-      "마그네슘 리본"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [
       "MAT-38ba1a4eb2ebd7e1"
     ],
@@ -35876,7 +34942,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": [
       "CHEM-38ba1a4eb2ebd7e1"
     ]
@@ -35895,23 +34961,8 @@
     "page": 42,
     "title": "산과 염기를 혼합할 때 나타나는 온도와 액성 변화 관찰",
     "materials_raw": "묽은 염산, 수산화 나트륨 수용액,\n증류수, BTB 용액, 유리 막대, 스\n포이트, 눈금실린더, 블루투스 온\n도계, 6 홈판, 스마트 기기, 보안경,\n실험용 장갑, 실험복",
-    "equipment": [
-      "유리 막대",
-      "스\n포이트",
-      "눈금실린더",
-      "블루투스 온\n도계",
-      "6 홈판",
-      "스마트 기기",
-      "보안경",
-      "실험용 장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "묽은 염산",
-      "수산화 나트륨 수용액",
-      "증류수",
-      "BTB 용액"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -35920,7 +34971,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35947,7 +34998,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35974,7 +35025,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -35991,10 +35042,8 @@
     "page": 48,
     "title": "에너지가 출입하는 현상을 이용한 사례 탐색",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36003,7 +35052,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36020,18 +35069,8 @@
     "page": 50,
     "title": "물과 산화 칼슘을 이용한 음식 조리 방법 설계 및 실험",
     "materials_raw": "물, 산화 칼슘, 온도계, 모둠별 준비\n물, 보안경, 실험용 장갑, 면장갑, 실\n험복",
-    "equipment": [
-      "온도계",
-      "보안경",
-      "실험용 장갑",
-      "면장갑",
-      "실\n험복"
-    ],
-    "supplies": [
-      "물",
-      "산화 칼슘",
-      "모둠별 준비\n물"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [
       "MAT-f9fd5879e0df785f"
     ],
@@ -36042,7 +35081,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": [
       "CHEM-f9fd5879e0df785f"
     ]
@@ -36072,7 +35111,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36099,7 +35138,7 @@
       "ACH-b7b8d098fd921a89"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36126,7 +35165,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36143,10 +35182,8 @@
     "page": 68,
     "title": "개체군 변동 모의실험",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36155,7 +35192,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36172,10 +35209,8 @@
     "page": 70,
     "title": "환경 변화가 생태계에 미치는 영향 탐구",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36184,7 +35219,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36211,7 +35246,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36228,19 +35263,8 @@
     "page": 74,
     "title": "지구 온난화에 따른 지구 열수지 변동 탐구",
     "materials_raw": "발포 바이타민, 물, 투명 페트병, 구\n멍 뚫린 고무마개, 전등(150 W 열\n전구), 블루투스 온도계, 스마트 기\n기, 파라 필름, 자",
-    "equipment": [
-      "구\n멍 뚫린 고무마개",
-      "전등(150 W 열\n전구)",
-      "블루투스 온도계",
-      "스마트 기\n기",
-      "자"
-    ],
-    "supplies": [
-      "발포 바이타민",
-      "물",
-      "투명 페트병",
-      "파라 필름"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36249,7 +35273,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36276,7 +35300,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36303,7 +35327,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36330,7 +35354,7 @@
       "ACH-60ba45415e8bd898"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36357,7 +35381,7 @@
       "ACH-60ba45415e8bd898"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36384,7 +35408,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36401,13 +35425,8 @@
     "page": 89,
     "title": "자석과 코일을 이용하여 유도되는 전류 관찰",
     "materials_raw": "막대자석, 코일, 검류계, 집게 달린\n전선",
-    "equipment": [
-      "막대자석",
-      "코일",
-      "검류계",
-      "집게 달린\n전선"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36416,7 +35435,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36433,18 +35452,8 @@
     "page": 92,
     "title": "발전기에서 운동 에너지가 전기 에너지로 전환되는 과정 탐구",
     "materials_raw": "네오디뮴 자석, 발광 다이오드, 에\n나멜선, ㄱ자 막대, 하드보드지, 사\n포, 누름 못, 면장갑",
-    "equipment": [
-      "네오디뮴 자석",
-      "발광 다이오드",
-      "ㄱ자 막대",
-      "누름 못",
-      "면장갑"
-    ],
-    "supplies": [
-      "에\n나멜선",
-      "하드보드지",
-      "사\n포"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36453,7 +35462,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36470,10 +35479,8 @@
     "page": 94,
     "title": "발전소가 인간 생활에 미치는 영향 탐구",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36482,7 +35489,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36509,7 +35516,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36536,7 +35543,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36553,10 +35560,8 @@
     "page": 102,
     "title": "신재생 에너지 기술을 활용하는 방안 탐색",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36565,7 +35570,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36592,7 +35597,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36619,7 +35624,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36636,24 +35641,8 @@
     "page": 116,
     "title": "단백질과 핵산을 이용한 감염병 진단 기술 체험",
     "materials_raw": "포획 항체, 표준 시료 1(음성 표준\n시료), 표준 시료 2(양성 표준 시\n료), 사람 1의 검체, 사람 2의 검체,\n검출 시약, 진단 반응 시약, 스포이\n트, 4 홈판, 초시계, 스마트 기기, 보\n안경, 실험용 장갑, 실험복",
-    "equipment": [
-      "스포이\n트",
-      "4 홈판",
-      "초시계",
-      "스마트 기기",
-      "보\n안경",
-      "실험용 장갑",
-      "실험복"
-    ],
-    "supplies": [
-      "포획 항체",
-      "표준 시료 1(음성 표준\n시료)",
-      "표준 시료 2(양성 표준 시\n료)",
-      "사람 1의 검체",
-      "사람 2의 검체",
-      "검출 시약",
-      "진단 반응 시약"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36662,7 +35651,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36679,10 +35668,8 @@
     "page": 118,
     "title": "미래 사회 문제 해결을 위한 과학의 역할 논증",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36691,7 +35678,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36718,7 +35705,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36735,11 +35722,8 @@
     "page": 121,
     "title": "디지털 탐구 도구를 활용한 실시간 생활 데이터 측정",
     "materials_raw": "미세 먼지 농도 측정 도구, 스마트\n기기",
-    "equipment": [
-      "미세 먼지 농도 측정 도구",
-      "스마트\n기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36748,7 +35732,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36765,10 +35749,8 @@
     "page": 122,
     "title": "과학 기술 사회에서 빅데이터 활용의 장점과 문제점 추론",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36777,7 +35759,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36804,7 +35786,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36821,10 +35803,8 @@
     "page": 128,
     "title": "일상생활에 활용되는 로봇의 특징 분석 및 개선 방안 고안",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36833,7 +35813,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36860,7 +35840,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36887,7 +35867,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36904,10 +35884,8 @@
     "page": 134,
     "title": "과학 관련 사회적 쟁점과 과학 기술 이용에서 과학 윤리의 중요성 논증",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -36916,7 +35894,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36944,7 +35922,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36971,7 +35949,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -36988,11 +35966,8 @@
     "page": 16,
     "title": "길이와 시간 측정의 현대적 방법과 다양한 규모의 측정 사례 조사하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37001,7 +35976,7 @@
       "ACH-8c7b1fa4f2e9b5c1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37018,11 +35993,8 @@
     "page": 20,
     "title": "단위의 의미와 적용 사례 설명하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37031,7 +36003,7 @@
       "ACH-72c73d7591596117"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37048,11 +36020,8 @@
     "page": 23,
     "title": "스마트 기기로 기본량 측정하고 분석하기",
     "materials_raw": "스마트 기기, 레이저 거리 측정기",
-    "equipment": [
-      "스마트 기기",
-      "레이저 거리 측정기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37061,7 +36030,7 @@
       "ACH-e887f643bbb29295"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37078,11 +36047,8 @@
     "page": 24,
     "title": "일상생활에서 측정 표준이 활용되는 사례 탐색하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37091,7 +36057,7 @@
       "ACH-e887f643bbb29295"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37118,7 +36084,7 @@
       "ACH-7243cd0b0795363d"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37145,7 +36111,7 @@
       "ACH-7243cd0b0795363d"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37172,7 +36138,7 @@
       "ACH-e887f643bbb29295"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37189,16 +36155,8 @@
     "page": 41,
     "title": "다양한 물질이 방출하는 스펙트럼 관찰 · 비교하기",
     "materials_raw": "간이 분광기, 여러 기체의 방전관, 고전\n압 발생 장치, 스마트 기기, 스탠드, 실\n험복, 절연 장갑",
-    "equipment": [
-      "간이 분광기",
-      "여러 기체의 방전관",
-      "고전\n압 발생 장치",
-      "스마트 기기",
-      "스탠드",
-      "실\n험복",
-      "절연 장갑"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37207,7 +36165,7 @@
       "ACH-7ac967785f9c4f11"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37224,11 +36182,8 @@
     "page": 50,
     "title": "지구와 생명체를 구성하는 성분의 유래 탐구하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37237,7 +36192,7 @@
       "ACH-4b8aac45fbb5dcb1"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37254,10 +36209,8 @@
     "page": 59,
     "title": "알칼리 금속의 유사성을 탐구하는 실험 설계하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37266,7 +36219,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37293,7 +36246,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37320,7 +36273,7 @@
       "ACH-f322b03b1a45a8eb"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37337,20 +36290,8 @@
     "page": 68,
     "title": "이온 결합 화합물과 공유 결합 화합물의 전기 전도성 비교하기",
     "materials_raw": "6 홈판, 증류수, 염화 나트륨, 설탕, 전\n기 전도성 측정기, 유리 막대, 약숟가\n락, 실험복, 실험용 장갑, 보안경",
-    "equipment": [
-      "6 홈판",
-      "전\n기 전도성 측정기",
-      "유리 막대",
-      "약숟가\n락",
-      "실험복",
-      "실험용 장갑",
-      "보안경"
-    ],
-    "supplies": [
-      "증류수",
-      "염화 나트륨",
-      "설탕"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [
       "MAT-72be2cc06e0a5f83",
       "MAT-7921a3bb40fa91bb"
@@ -37362,7 +36303,7 @@
       "ACH-e612d38b9255d760"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": [
       "CHEM-72be2cc06e0a5f83",
       "CHEM-7921a3bb40fa91bb"
@@ -37382,14 +36323,8 @@
     "page": 71,
     "title": "모형을 만들어 규산염 광물 구조의 규칙성 알아보기",
     "materials_raw": "가위, 테이프, 빵 끈, Si-O 사면체 전개도(부록 163 쪽)",
-    "equipment": [
-      "가위",
-      "Si-O 사면체 전개도(부록 163 쪽)"
-    ],
-    "supplies": [
-      "테이프",
-      "빵 끈"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37398,7 +36333,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37415,14 +36350,8 @@
     "page": 74,
     "title": "DNA 모형 만들고 관찰하기",
     "materials_raw": "DNA 모형 도안(부록 165 쪽), 가위, 풀,\n장갑",
-    "equipment": [
-      "DNA 모형 도안(부록 165 쪽)",
-      "가위",
-      "장갑"
-    ],
-    "supplies": [
-      "풀"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37431,7 +36360,7 @@
       "ACH-18b36d35c3519676"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37448,10 +36377,8 @@
     "page": 79,
     "title": "첨단기술에 반도체가 활용되는 예 조사하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37460,7 +36387,7 @@
       "ACH-d285a75e9d995c05"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37487,7 +36414,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37514,7 +36441,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37531,12 +36458,8 @@
     "page": 96,
     "title": "자연 현상을 일으키는 지구시스템의 에너지원 알아보기",
     "materials_raw": "스마트 기기, 붙임쪽지",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [
-      "붙임쪽지"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37545,7 +36468,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37572,7 +36495,7 @@
       "ACH-c723659b7282931b"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37589,10 +36512,8 @@
     "page": 106,
     "title": "화산 분출이 지구시스템에 미치는 영향 알아보기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37601,7 +36522,7 @@
       "ACH-7654f57e205a9f79"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37618,10 +36539,8 @@
     "page": 115,
     "title": "달에서의 중력 체험하기",
     "materials_raw": "가상 현실 기기",
-    "equipment": [
-      "가상 현실 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37630,7 +36549,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37647,18 +36566,8 @@
     "page": 116,
     "title": "자유 낙하와 수평으로 던진 물체의 운동 비교하기",
     "materials_raw": "검은색 배경의 모눈종이, 쇠구슬 발사\n장치, 스탠드, 집게, 스펀지, 쇠구슬 2\n개, 다중 섬광 사진 앱이 있거나 다중\n노출 촬영이 가능한 스마트 기기, 삼각대",
-    "equipment": [
-      "쇠구슬 발사\n장치",
-      "스탠드",
-      "집게",
-      "스펀지",
-      "쇠구슬 2\n개",
-      "다중 섬광 사진 앱이 있거나 다중\n노출 촬영이 가능한 스마트 기기",
-      "삼각대"
-    ],
-    "supplies": [
-      "검은색 배경의 모눈종이"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37667,7 +36576,7 @@
       "ACH-81da5404c37382ff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37684,17 +36593,8 @@
     "page": 121,
     "title": "관성 체험하기",
     "materials_raw": "스마트 기기, 카드, 동전, 굵은 철사, 공\n2 개, 식탁보, 무거운 컵과 접시 여러 개",
-    "equipment": [
-      "스마트 기기",
-      "동전",
-      "공\n2 개"
-    ],
-    "supplies": [
-      "카드",
-      "굵은 철사",
-      "식탁보",
-      "무거운 컵과 접시 여러 개"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37703,7 +36603,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37720,13 +36620,8 @@
     "page": 122,
     "title": "빨대로 면봉 멀리 날리기",
     "materials_raw": "면봉, 주름이 있는 빨대, 가위",
-    "equipment": [
-      "가위"
-    ],
-    "supplies": [
-      "면봉",
-      "주름이 있는 빨대"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37735,7 +36630,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37752,10 +36647,8 @@
     "page": 126,
     "title": "교통수단과 운동 경기 등에서 충격을 줄이는 방법 탐색하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37764,7 +36657,7 @@
       "ACH-6fc5b62c958abcf8"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37781,22 +36674,8 @@
     "page": 137,
     "title": "막을 통한 물질의 이동 실험하기",
     "materials_raw": "붉은 양파, 안전 면도날, 핀셋, 받침 유\n리, 덮개 유리, 스포이트, 증류수, 20 %\n설탕물, 거름종이, 광학 현미경, 실험\n복, 실험용 장갑",
-    "equipment": [
-      "붉은 양파",
-      "안전 면도날",
-      "핀셋",
-      "받침 유\n리",
-      "덮개 유리",
-      "스포이트",
-      "광학 현미경",
-      "실험\n복",
-      "실험용 장갑"
-    ],
-    "supplies": [
-      "증류수",
-      "20 %\n설탕물",
-      "거름종이"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37805,7 +36684,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37832,7 +36711,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37849,26 +36728,8 @@
     "page": 141,
     "title": "카탈레이스의 작용 원리 탐구하기",
     "materials_raw": "시험관, 시험관대, 스포이트, 3 % 과산\n화 수소수, 날감자, 삶은 감자, 도마, 칼,\n페트리 접시, 핀셋, 향, 점화기, 실험복,\n실험용 장갑, 면장갑, 보안경",
-    "equipment": [
-      "시험관",
-      "시험관대",
-      "스포이트",
-      "도마",
-      "칼",
-      "페트리 접시",
-      "핀셋",
-      "점화기",
-      "실험복",
-      "실험용 장갑",
-      "면장갑",
-      "보안경"
-    ],
-    "supplies": [
-      "3 % 과산\n화 수소수",
-      "날감자",
-      "삶은 감자",
-      "향"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37877,7 +36738,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37894,10 +36755,8 @@
     "page": 144,
     "title": "효소를 이용한 화학 반응의 활용 사례 조사하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -37906,7 +36765,7 @@
       "ACH-5ad03f440d48ef82"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37933,7 +36792,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37960,7 +36819,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -37987,7 +36846,7 @@
       "ACH-b0ebd866ec61f3b4"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38014,7 +36873,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38041,7 +36900,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 1,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38058,10 +36917,8 @@
     "page": 14,
     "title": "화석을 이용하여 지질시대의 환경 알아보기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38070,7 +36927,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38087,11 +36944,8 @@
     "page": 18,
     "title": "생물 대멸종의 원인과 그 이후의 변화에 대한 가설의 타당성 평가하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38100,7 +36954,7 @@
       "ACH-bb955f794417afbd"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38127,7 +36981,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38144,11 +36998,8 @@
     "page": 22,
     "title": "자연선택 모의실험하기",
     "materials_raw": "흰색 도화지, 네 가지 색(빨간색, 파란\n색, 노란색, 흰색)의 털실 구슬 여러 개",
-    "equipment": [],
-    "supplies": [
-      "흰색 도화지",
-      "네 가지 색(빨간색, 파란\n색, 노란색, 흰색)의 털실 구슬 여러 개"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38157,7 +37008,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38184,7 +37035,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38201,10 +37052,8 @@
     "page": 27,
     "title": "생물다양성을 보전하기 위한 실천 방안 탐색하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38213,7 +37062,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38230,10 +37079,8 @@
     "page": 34,
     "title": "자연과 인류의 역사에 큰 변화를 가져온 화학 반응의 공통점 조사하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38242,7 +37089,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38259,27 +37106,8 @@
     "page": 36,
     "title": "산화 구리(Ⅱ)와 탄소의 반응 알아보기",
     "materials_raw": "산화 구리(Ⅱ), 탄소 가루, 석회수, 시험\n관, 비커, 유리관, 고무관, 구멍 뚫린 고\n무마개, 스탠드, 집게, 가열 장치, 전자\n저울, 약숟가락, 시약포지, 실험복, 실\n험용 장갑, 보안경",
-    "equipment": [
-      "시험\n관",
-      "비커",
-      "유리관",
-      "고무관",
-      "구멍 뚫린 고\n무마개",
-      "스탠드",
-      "집게",
-      "가열 장치",
-      "전자\n저울",
-      "약숟가락",
-      "실험복",
-      "실\n험용 장갑",
-      "보안경"
-    ],
-    "supplies": [
-      "산화 구리(Ⅱ)",
-      "탄소 가루",
-      "석회수",
-      "시약포지"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [
       "MAT-31ebefafa3cbd4a6",
       "MAT-9b931d55037f91d4"
@@ -38291,7 +37119,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": [
       "CHEM-31ebefafa3cbd4a6",
       "CHEM-9b931d55037f91d4"
@@ -38321,7 +37149,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38348,7 +37176,7 @@
       "ACH-4b5e5e606292b338"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38365,25 +37193,8 @@
     "page": 44,
     "title": "산과 염기를 혼합할 때 용액의 변화 알아보기",
     "materials_raw": "같은 농도의 염산과 수산화 나트륨 수\n용액, 페놀프탈레인 용액, 자석 젓개 막\n대, 비커, 스탠드, 집게, 뷰렛 집게, 뷰\n렛, 깔때기, 교반기, 무선 온도 센서, 스\n마트 기기, 실험복, 실험용 장갑, 보안경",
-    "equipment": [
-      "자석 젓개 막\n대",
-      "비커",
-      "스탠드",
-      "집게",
-      "뷰렛 집게",
-      "뷰\n렛",
-      "깔때기",
-      "교반기",
-      "무선 온도 센서",
-      "스\n마트 기기",
-      "실험복",
-      "실험용 장갑",
-      "보안경"
-    ],
-    "supplies": [
-      "같은 농도의 염산과 수산화 나트륨 수\n용액",
-      "페놀프탈레인 용액"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [
       "MAT-dd49f835c02c1ab4"
     ],
@@ -38394,7 +37205,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": [
       "CHEM-dd49f835c02c1ab4"
     ]
@@ -38413,11 +37224,8 @@
     "page": 49,
     "title": "중화 반응을 이용한 생활 속 문제 해결 방법 카드 뉴스 만들기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38426,7 +37234,7 @@
       "ACH-df2965ab807acfd2"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38453,7 +37261,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38470,18 +37278,8 @@
     "page": 52,
     "title": "가열 장치 없이 물과 산화 칼슘을 이용하여 음식 조리하기",
     "materials_raw": "스마트 기기, 물, 산화 칼슘, 조리할\n음식, 실험복, 면장갑, 실험용 장갑, 보\n안경",
-    "equipment": [
-      "스마트 기기",
-      "실험복",
-      "면장갑",
-      "실험용 장갑",
-      "보\n안경"
-    ],
-    "supplies": [
-      "물",
-      "산화 칼슘",
-      "조리할\n음식"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [
       "MAT-f9fd5879e0df785f"
     ],
@@ -38492,7 +37290,7 @@
       "ACH-dd847aab1611d9f6"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": [
       "CHEM-f9fd5879e0df785f"
     ]
@@ -38521,7 +37319,7 @@
       "ACH-cdaa0df1c9067c91"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38549,7 +37347,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38576,7 +37374,7 @@
       "ACH-b7b8d098fd921a89"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38603,7 +37401,7 @@
       "ACH-b7b8d098fd921a89"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38630,7 +37428,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38647,11 +37445,8 @@
     "page": 72,
     "title": "개체군 변동 모의실험하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38660,7 +37455,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38677,11 +37472,8 @@
     "page": 74,
     "title": "환경 변화가 생태계에 미치는 영향 조사하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38690,7 +37482,7 @@
       "ACH-d3d2a378c1148fc0"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38717,7 +37509,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38744,7 +37536,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38761,10 +37553,8 @@
     "page": 91,
     "title": "기후 변화로 인한 생태계와 지구계의 미래 시나리오 구상하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38773,7 +37563,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38800,7 +37590,7 @@
       "ACH-60ba45415e8bd898"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38827,7 +37617,7 @@
       "ACH-60ba45415e8bd898"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38844,14 +37634,8 @@
     "page": 104,
     "title": "운동 에너지가 전기 에너지로 전환되는 과정 탐구하기",
     "materials_raw": "코일, 네오디뮴 자석 여러 개, 발광 다\n이오드 2 개, 연결 단자 2 개, 면장갑",
-    "equipment": [
-      "코일",
-      "네오디뮴 자석 여러 개",
-      "발광 다\n이오드 2 개",
-      "연결 단자 2 개",
-      "면장갑"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38860,7 +37644,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38877,13 +37661,8 @@
     "page": 106,
     "title": "간이 발전기 만들기",
     "materials_raw": "전동기, 발광 다이오드, 나만의 간이 발\n전기 만들기 재료",
-    "equipment": [
-      "전동기",
-      "발광 다이오드"
-    ],
-    "supplies": [
-      "나만의 간이 발\n전기 만들기 재료"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38892,7 +37671,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38909,11 +37688,8 @@
     "page": 109,
     "title": "화력 발전과 핵발전이 인간 생활에 미치는 영향 조사하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -38922,7 +37698,7 @@
       "ACH-5bff21e731057f05"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38949,7 +37725,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38976,7 +37752,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -38993,10 +37769,8 @@
     "page": 116,
     "title": "친환경 에너지 도시 설계하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -39005,7 +37779,7 @@
       "ACH-f03d1d1ae8f4dbc9"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39032,7 +37806,7 @@
       "ACH-e4b5f174cd1880bf"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39060,7 +37834,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39077,20 +37851,8 @@
     "page": 131,
     "title": "핵산과 단백질을 이용한 감염병 진단 기술 체험하기",
     "materials_raw": "8 홈판, 유성펜, 모의 항체 용액, 스포이\n트, 감염병 모의 시료(대조군, 모의 환\n자 ①, ②), 검출 시약(①, ②), 실험복,\n보안경, 실험용 장갑, 스마트 기기",
-    "equipment": [
-      "8 홈판",
-      "유성펜",
-      "스포이\n트",
-      "실험복",
-      "보안경",
-      "실험용 장갑",
-      "스마트 기기"
-    ],
-    "supplies": [
-      "모의 항체 용액",
-      "감염병 모의 시료(대조군, 모의 환\n자 ①, ②)",
-      "검출 시약(①, ②)"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -39099,7 +37861,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39116,10 +37878,8 @@
     "page": 132,
     "title": "미래 사회의 문제 해결에서 과학의 필요성 논증하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -39128,7 +37888,7 @@
       "ACH-8a2f9e88c545f024"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39145,18 +37905,8 @@
     "page": 135,
     "title": "디지털 탐구 도구를 활용한 실시간 생활 데이터 측정하기",
     "materials_raw": "미세먼지 센서, 마이크로컨트롤러가\n포함된 센서 보드, 스마트 기기, 확장\n기판, 삼색 연결선, USB 연결선, 전지,\n전지 상자",
-    "equipment": [
-      "미세먼지 센서",
-      "마이크로컨트롤러가\n포함된 센서 보드",
-      "스마트 기기",
-      "확장\n기판",
-      "삼색 연결선",
-      "USB 연결선",
-      "전지 상자"
-    ],
-    "supplies": [
-      "전지"
-    ],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -39165,7 +37915,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39182,10 +37932,8 @@
     "page": 136,
     "title": "과학 기술 사회에서 빅데이터의 활용 사례 조사하기",
     "materials_raw": "스마트 기기",
-    "equipment": [
-      "스마트 기기"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -39194,7 +37942,7 @@
       "ACH-1952703206bceeff"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39211,11 +37959,8 @@
     "page": 138,
     "title": "일상생활에서 활용되는 로봇의 특징 분석과 개선 방안 고안하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -39224,7 +37969,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39241,11 +37986,8 @@
     "page": 140,
     "title": "인공지능 로봇과 사물 인터넷이 바꾸는 미래 사회 예측하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -39254,7 +37996,7 @@
       "ACH-8d93af6580fbd46d"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39271,11 +38013,8 @@
     "page": 143,
     "title": "과학 관련 사회적 쟁점 논증하기",
     "materials_raw": "스마트 기기, 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -39284,7 +38023,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39301,11 +38040,8 @@
     "page": 144,
     "title": "과학 기술의 이용에 필요한 과학 윤리 제안하기",
     "materials_raw": "스마트 기기 , 참고 도서",
-    "equipment": [
-      "스마트 기기",
-      "참고 도서"
-    ],
-    "supplies": [],
+    "equipment": null,
+    "supplies": null,
     "material_ids": [],
     "school_level": "고등학교",
     "grade_key": "high-1",
@@ -39314,7 +38050,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39342,7 +38078,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   },
   {
@@ -39369,7 +38105,7 @@
       "ACH-0b46a4c29020e654"
     ],
     "volume": 2,
-    "material_classification_pending": false,
+    "material_classification_pending": true,
     "chemical_ids": []
   }
 ]

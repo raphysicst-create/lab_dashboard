@@ -207,7 +207,7 @@ const key = 'science-classroom-prep.preferences.v1';
     assert.doesNotMatch(await page.locator('#dialog-content').innerText(), /9과\d{2}-\d{2}|scope_based|candidate|교과서 대조/);
     await page.locator('#close-dialog').click();
   }
-  // High-school scope, volume-aware units, secondary standard matching, and raw lists.
+  // High-school scope, volume-aware units, secondary standards, and classified lists.
   await page.locator('#reset-filters').click();
   await page.locator('#grade-filter').selectOption('high-1');
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 414건');
@@ -239,12 +239,15 @@ const key = 'science-classroom-prep.preferences.v1';
     await page.locator('#search').fill(activity.title);
     const card = page.locator(`[data-activity-id="${activity.id}"]`);
     assert.ok((await card.innerText()).includes('고1'));
-    assert.ok((await card.innerText()).includes('실험 준비물 원문'));
-    assert.deepEqual(await card.locator('.raw-materials').allTextContents(),[activity.materials_raw ?? '미확인']);
+    assert.equal(activity.material_classification_pending,false);
+    const expectedMaterials = [displayItems(activity.equipment),displayItems(activity.supplies)];
+    assert.deepEqual(await card.locator('.material-label').allTextContents(),['실험 기자재','실험 준비물']);
+    assert.deepEqual(await card.locator('.raw-materials').allTextContents(),expectedMaterials);
+    assert.ok(!(await card.innerText()).includes('실험 준비물 원문'));
     await card.locator('.card-actions button').click();
     const dialog = page.locator('#dialog-content');
-    assert.ok((await dialog.locator('.dialog-section h3').allTextContents()).includes('실험 준비물 원문'));
-    assert.deepEqual(await dialog.locator('.raw-materials').allTextContents(),[activity.materials_raw ?? '미확인']);
+    assert.deepEqual(await dialog.locator('.dialog-section h3').allTextContents(),['실험 기자재','실험 준비물','약품 관리']);
+    assert.deepEqual(await dialog.locator('.raw-materials').allTextContents(),expectedMaterials);
     const standardText = await dialog.locator('dt').filter({hasText:/^성취기준$/}).locator('xpath=following-sibling::dd[1]').innerText();
     assert.equal(normalizeText(standardText),normalizeText(activity.achievement_raw ?? '미확인'));
     for (const id of activity.achievement_ids) assert.ok(normalizeText(standardText).includes(normalizeText(standardById.get(id).raw_text)));
@@ -255,8 +258,20 @@ const key = 'science-classroom-prep.preferences.v1';
   await page.locator('#close-dialog').click();
   const missingHighMaterials = highActivities.find(activity => activity.materials_raw == null);
   assert.ok(missingHighMaterials);
+  assert.equal(missingHighMaterials.equipment,null);
+  assert.equal(missingHighMaterials.supplies,null);
   await checkHighDetail(missingHighMaterials);
+  assert.deepEqual(await page.locator('#dialog-content .raw-materials').allTextContents(),['미확인','미확인']);
   await page.keyboard.press('Escape');
+  const highCategoryExamples = [
+    highActivities.find(activity => activity.equipment?.length && activity.supplies?.length),
+    highActivities.find(activity => activity.materials_raw != null && activity.supplies?.length === 0),
+  ];
+  for (const activity of highCategoryExamples) {
+    assert.ok(activity);
+    await checkHighDetail(activity);
+    await page.locator('#close-dialog').click();
+  }
   await page.locator('#reset-filters').click();
   for(const publisher of [...new Set(activities.map(a=>a.publisher_raw))]) await page.locator(`input[data-publisher="${publisher}"]`).uncheck();
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 0건');
@@ -288,7 +303,7 @@ const key = 'science-classroom-prep.preferences.v1';
   await failedPage.getByRole('button',{name:'다시 불러오기'}).waitFor();
   assert.equal(errors.length,0,errors.join('\n'));
   await browser.close();
-  const report={status:'passed',activityRows:activities.length,highRows:highActivities.length,standards:achievements.length,checked:['removed appendix activity and unit absent','source data load','publisher filter','classroom controls and quantity displays removed','localStorage reload and new tab','preparation list controls removed','grade mapping and unit boundary','linked grade, unit and achievement filters','numeric unit and achievement ordering','incompatible filter reset and compatible selection retention','material and chemical query','no results','achievement comparison','linked and unconfirmed detail text','detail modal and Escape','high-school grade isolation and volume-aware units','secondary achievement matching','high-school raw and missing materials','high-school multiple standards detail','empty publisher selection persistence','desktop and mobile layout including high-school dialog','storage denied graceful failure','data-load error'],pageErrors:errors};
+  const report={status:'passed',activityRows:activities.length,highRows:highActivities.length,standards:achievements.length,checked:['removed appendix activity and unit absent','source data load','publisher filter','classroom controls and quantity displays removed','localStorage reload and new tab','preparation list controls removed','grade mapping and unit boundary','linked grade, unit and achievement filters','numeric unit and achievement ordering','incompatible filter reset and compatible selection retention','material and chemical query','no results','achievement comparison','linked and unconfirmed detail text','detail modal and Escape','high-school grade isolation and volume-aware units','secondary achievement matching','high-school equipment and supplies in cards and details','high-school null lists and empty category displays','high-school multiple standards detail','empty publisher selection persistence','desktop and mobile layout including high-school dialog','storage denied graceful failure','data-load error'],pageErrors:errors};
   await fs.writeFile(path.join(output,'browser-report.json'),JSON.stringify(report,null,2));
   console.log(JSON.stringify(report,null,2));
 })().catch(e=>{console.error(e);process.exit(1)});

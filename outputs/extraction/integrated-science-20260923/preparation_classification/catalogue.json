@@ -1,0 +1,10168 @@
+[
+  {
+    "item_id": "ITEM-b114748e2692bd29",
+    "representative_text": "스마트 기기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_001",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_002",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_005",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_006",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_007",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_010",
+        "span": [
+          26,
+          32
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_011",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_015",
+        "span": [
+          34,
+          40
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_020",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_023",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_027",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_028",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_029",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_031",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_032",
+        "span": [
+          31,
+          37
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_033",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_034",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_035",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_038",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          62,
+          68
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_001",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_002",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_005",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_007",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_009",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_010",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_013",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          46,
+          52
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_023",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_024",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_025",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_030",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_032",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_033",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_036",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_038",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_039",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_041",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_042",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_043",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "miraen_IS2_044",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0001",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0002",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0003",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0005",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0006",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0007",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0008",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0009",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0013",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0015",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0022",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0025",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0026",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0027",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0028",
+        "span": [
+          32,
+          38
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0029",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0030",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0031",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is1_0034",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0002",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0005",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0006",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0009",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0010",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0012",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0014",
+        "span": [
+          35,
+          41
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0017",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0019",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0020",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0023",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0024",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0028",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0029",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0030",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0033",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0036",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0038",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0039",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0041",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0042",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "jihaksa_is2_0043",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS1_002",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS1_004",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS1_010",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS1_021",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS1_023",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS1_024",
+        "span": [
+          27,
+          33
+        ],
+        "raw": "스마트\n기기"
+      },
+      {
+        "record_id": "chunjae_IS1_025",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS1_027",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS1_031",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_002",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_005",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_013",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_014",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_015",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_017",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_020",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_022",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_023",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_026",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_028",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_029",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "chunjae_IS2_030",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS1_008",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS1_010",
+        "span": [
+          7,
+          13
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS1_019",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS1_028",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS1_032",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS1_035",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS1_037",
+        "span": [
+          31,
+          37
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS1_042",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS1_046",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_003",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          71,
+          77
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_015",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_020",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_021",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_023",
+        "span": [
+          59,
+          66
+        ],
+        "raw": "스마트 기\n기"
+      },
+      {
+        "record_id": "visang_IS2_031",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_034",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          101,
+          107
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_038",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_040",
+        "span": [
+          16,
+          22
+        ],
+        "raw": "스마트\n기기"
+      },
+      {
+        "record_id": "visang_IS2_041",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_043",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "visang_IS2_046",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_002",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_003",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_004",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_005",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_009",
+        "span": [
+          32,
+          38
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_010",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_011",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_017",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_020",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_022",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_025",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_027",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS1_031",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_001",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_002",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_006",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_007",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          92,
+          99
+        ],
+        "raw": "스\n마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_012",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_014",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_020",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_021",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_024",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_029",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_032",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_035",
+        "span": [
+          88,
+          94
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_036",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_037",
+        "span": [
+          30,
+          36
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_038",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_039",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_040",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_041",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      },
+      {
+        "record_id": "donga_IS2_042",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "스마트 기기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1a84a479a9a5cdc3",
+    "representative_text": "참고 도서",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_002",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS1_011",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS1_020",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS1_023",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS1_028",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS1_029",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS1_035",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_001",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_002",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_005",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_009",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_010",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_013",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_023",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_025",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_032",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_033",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_036",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_038",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_041",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_042",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_043",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "miraen_IS2_044",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS1_002",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS1_003",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS1_005",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS1_010",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS2_002",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS2_012",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS2_020",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS2_021",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS2_029",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS2_039",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS2_040",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS2_041",
+        "span": [
+          8,
+          13
+        ],
+        "raw": "참고 도서"
+      },
+      {
+        "record_id": "donga_IS2_042",
+        "span": [
+          9,
+          14
+        ],
+        "raw": "참고 도서"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-224d12f72d2eb28d",
+    "representative_text": "측정 표준 관련 참고 도서",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_006",
+        "span": [
+          7,
+          21
+        ],
+        "raw": "측정 표준 관련 참고 도서"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-51970c18e17d8d19",
+    "representative_text": "전자저울",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_008",
+        "span": [
+          0,
+          4
+        ],
+        "raw": "전자저울"
+      },
+      {
+        "record_id": "chunjae_IS1_005",
+        "span": [
+          22,
+          26
+        ],
+        "raw": "전자저울"
+      },
+      {
+        "record_id": "visang_IS1_007",
+        "span": [
+          3,
+          7
+        ],
+        "raw": "전자저울"
+      },
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          71,
+          76
+        ],
+        "raw": "전자\n저울"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f3c872a0957e15c6",
+    "representative_text": "간이 분광기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_010",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "간이 분광기"
+      },
+      {
+        "record_id": "visang_IS1_014",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "간이 분광기"
+      },
+      {
+        "record_id": "donga_IS1_009",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "간이 분광기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f280eccbdb62eedd",
+    "representative_text": "백열등",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_010",
+        "span": [
+          7,
+          10
+        ],
+        "raw": "백열등"
+      },
+      {
+        "record_id": "jihaksa_is1_0011",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "백열등"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-4c164c882e34b077",
+    "representative_text": "기체 방전관(수소, 헬륨)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_010",
+        "span": [
+          11,
+          25
+        ],
+        "raw": "기체 방전관(수소, 헬륨)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-32ddbefe075322a8",
+    "representative_text": "실험복",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_010",
+        "span": [
+          33,
+          36
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          88,
+          91
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          61,
+          64
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "miraen_IS1_032",
+        "span": [
+          42,
+          45
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          57,
+          60
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          69,
+          72
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "miraen_IS2_008",
+        "span": [
+          39,
+          42
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "miraen_IS2_011",
+        "span": [
+          61,
+          64
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          67,
+          70
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "miraen_IS2_028",
+        "span": [
+          25,
+          28
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          81,
+          84
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "jihaksa_is1_0017",
+        "span": [
+          58,
+          61
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "jihaksa_is1_0032",
+        "span": [
+          61,
+          64
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "jihaksa_is1_0033",
+        "span": [
+          54,
+          57
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "jihaksa_is2_0008",
+        "span": [
+          49,
+          52
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "jihaksa_is2_0011",
+        "span": [
+          65,
+          68
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "jihaksa_is2_0014",
+        "span": [
+          42,
+          45
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "jihaksa_is2_0015",
+        "span": [
+          46,
+          49
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "jihaksa_is2_0034",
+        "span": [
+          46,
+          49
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          87,
+          90
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          90,
+          93
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          84,
+          87
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "chunjae_IS2_007",
+        "span": [
+          52,
+          55
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          128,
+          131
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          110,
+          113
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          87,
+          90
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "chunjae_IS2_025",
+        "span": [
+          59,
+          62
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          81,
+          84
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          103,
+          106
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          77,
+          80
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          143,
+          146
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          92,
+          95
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "visang_IS2_016",
+        "span": [
+          43,
+          47
+        ],
+        "raw": "실\n험복"
+      },
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          123,
+          126
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "donga_IS1_009",
+        "span": [
+          45,
+          49
+        ],
+        "raw": "실\n험복"
+      },
+      {
+        "record_id": "donga_IS1_014",
+        "span": [
+          50,
+          53
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          69,
+          73
+        ],
+        "raw": "실험\n복"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          70,
+          73
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          90,
+          93
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          101,
+          104
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "donga_IS2_014",
+        "span": [
+          26,
+          29
+        ],
+        "raw": "실험복"
+      },
+      {
+        "record_id": "donga_IS2_035",
+        "span": [
+          70,
+          73
+        ],
+        "raw": "실험복"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2afbfaf06473b589",
+    "representative_text": "내열 장갑",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_010",
+        "span": [
+          37,
+          42
+        ],
+        "raw": "내열 장갑"
+      },
+      {
+        "record_id": "chunjae_IS1_007",
+        "span": [
+          39,
+          44
+        ],
+        "raw": "내열 장갑"
+      },
+      {
+        "record_id": "visang_IS1_014",
+        "span": [
+          42,
+          47
+        ],
+        "raw": "내열 장갑"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e502387b0f286a71",
+    "representative_text": "주기율표 관련 참고 도서",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          7,
+          20
+        ],
+        "raw": "주기율표 관련 참고 도서"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-20f3660ffb23b8c9",
+    "representative_text": "수조",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          72,
+          74
+        ],
+        "raw": "수조"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-bf40fe3b100e9296",
+    "representative_text": "알칼리 금속",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          75,
+          81
+        ],
+        "raw": "알칼리 금속"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-4eaedee29619f832",
+    "representative_text": "칼",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          82,
+          83
+        ],
+        "raw": "칼"
+      },
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          7,
+          8
+        ],
+        "raw": "칼"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          56,
+          57
+        ],
+        "raw": "칼"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          47,
+          48
+        ],
+        "raw": "칼"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-46a8c8f2bcc164ec",
+    "representative_text": "면장갑",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          84,
+          87
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "miraen_IS1_022",
+        "span": [
+          78,
+          81
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "miraen_IS1_032",
+        "span": [
+          46,
+          49
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          75,
+          78
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "miraen_IS2_028",
+        "span": [
+          29,
+          32
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          49,
+          52
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "jihaksa_is2_0014",
+        "span": [
+          50,
+          53
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "jihaksa_is2_0026",
+        "span": [
+          15,
+          18
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "jihaksa_is2_0027",
+        "span": [
+          108,
+          111
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "chunjae_IS2_019",
+        "span": [
+          69,
+          72
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "visang_IS2_016",
+        "span": [
+          38,
+          41
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "visang_IS2_030",
+        "span": [
+          50,
+          53
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          83,
+          86
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "donga_IS2_014",
+        "span": [
+          31,
+          34
+        ],
+        "raw": "면장갑"
+      },
+      {
+        "record_id": "donga_IS2_027",
+        "span": [
+          43,
+          46
+        ],
+        "raw": "면장갑"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-419a838a61801ed3",
+    "representative_text": "페트리접시",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          92,
+          97
+        ],
+        "raw": "페트리접시"
+      },
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          24,
+          29
+        ],
+        "raw": "페트리접시"
+      },
+      {
+        "record_id": "miraen_IS2_008",
+        "span": [
+          18,
+          23
+        ],
+        "raw": "페트리접시"
+      },
+      {
+        "record_id": "jihaksa_is2_0008",
+        "span": [
+          39,
+          45
+        ],
+        "raw": "페트리 접시"
+      },
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          55,
+          61
+        ],
+        "raw": "페트리 접시"
+      },
+      {
+        "record_id": "chunjae_IS2_007",
+        "span": [
+          16,
+          22
+        ],
+        "raw": "페트리 접시"
+      },
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          14,
+          20
+        ],
+        "raw": "페트리 접시"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          38,
+          44
+        ],
+        "raw": "페트리\n접시"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          50,
+          56
+        ],
+        "raw": "페트리 접시"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-39af694bc69d1ade",
+    "representative_text": "핀셋",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          98,
+          100
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "miraen_IS1_030",
+        "span": [
+          22,
+          24
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          8,
+          10
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "jihaksa_is1_0033",
+        "span": [
+          51,
+          53
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          10,
+          12
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          36,
+          38
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "chunjae_IS2_003",
+        "span": [
+          56,
+          58
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "chunjae_IS2_007",
+        "span": [
+          28,
+          30
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          105,
+          107
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          52,
+          54
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          55,
+          57
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          126,
+          128
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          15,
+          17
+        ],
+        "raw": "핀셋"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          58,
+          60
+        ],
+        "raw": "핀셋"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-96860a8ed0b18012",
+    "representative_text": "보안경",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          101,
+          104
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          65,
+          68
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          62,
+          65
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          73,
+          76
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "miraen_IS2_008",
+        "span": [
+          44,
+          47
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "miraen_IS2_011",
+        "span": [
+          65,
+          68
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          71,
+          74
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          85,
+          88
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "jihaksa_is1_0017",
+        "span": [
+          62,
+          65
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "jihaksa_is2_0008",
+        "span": [
+          53,
+          56
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "jihaksa_is2_0011",
+        "span": [
+          69,
+          72
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "jihaksa_is2_0014",
+        "span": [
+          46,
+          49
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "jihaksa_is2_0015",
+        "span": [
+          57,
+          60
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          74,
+          77
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          71,
+          74
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "chunjae_IS2_003",
+        "span": [
+          51,
+          54
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "chunjae_IS2_007",
+        "span": [
+          32,
+          35
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          115,
+          118
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          97,
+          100
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          67,
+          70
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "chunjae_IS2_025",
+        "span": [
+          73,
+          76
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          68,
+          71
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          64,
+          67
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          130,
+          133
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          79,
+          82
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "visang_IS2_016",
+        "span": [
+          25,
+          28
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          109,
+          113
+        ],
+        "raw": "보\n안경"
+      },
+      {
+        "record_id": "donga_IS1_014",
+        "span": [
+          63,
+          66
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          88,
+          91
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          104,
+          107
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          114,
+          117
+        ],
+        "raw": "보안경"
+      },
+      {
+        "record_id": "donga_IS2_014",
+        "span": [
+          44,
+          48
+        ],
+        "raw": "보\n안경"
+      },
+      {
+        "record_id": "donga_IS2_035",
+        "span": [
+          75,
+          78
+        ],
+        "raw": "보안경"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-dd49f835c02c1ab4",
+    "representative_text": "페놀프탈레인 용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          105,
+          114
+        ],
+        "raw": "페놀프탈레인 용액"
+      },
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          25,
+          34
+        ],
+        "raw": "페놀프탈레인 용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2e7edc957ce601f5",
+    "representative_text": "물",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          115,
+          116
+        ],
+        "raw": "물"
+      },
+      {
+        "record_id": "miraen_IS1_030",
+        "span": [
+          26,
+          27
+        ],
+        "raw": "물"
+      },
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          0,
+          1
+        ],
+        "raw": "물"
+      },
+      {
+        "record_id": "jihaksa_is2_0014",
+        "span": [
+          16,
+          17
+        ],
+        "raw": "물"
+      },
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          0,
+          1
+        ],
+        "raw": "물"
+      },
+      {
+        "record_id": "visang_IS1_007",
+        "span": [
+          0,
+          1
+        ],
+        "raw": "물"
+      },
+      {
+        "record_id": "visang_IS2_016",
+        "span": [
+          0,
+          1
+        ],
+        "raw": "물"
+      },
+      {
+        "record_id": "visang_IS2_023",
+        "span": [
+          9,
+          10
+        ],
+        "raw": "물"
+      },
+      {
+        "record_id": "donga_IS2_014",
+        "span": [
+          8,
+          9
+        ],
+        "raw": "물"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-be4c774fd8f861ee",
+    "representative_text": "실험용 고무장갑",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_012",
+        "span": [
+          117,
+          125
+        ],
+        "raw": "실험용 고무장갑"
+      },
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          69,
+          77
+        ],
+        "raw": "실험용 고무장갑"
+      },
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          67,
+          75
+        ],
+        "raw": "실험용 고무장갑"
+      },
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          77,
+          85
+        ],
+        "raw": "실험용 고무장갑"
+      },
+      {
+        "record_id": "miraen_IS2_004",
+        "span": [
+          40,
+          48
+        ],
+        "raw": "실험용 고무장갑"
+      },
+      {
+        "record_id": "miraen_IS2_008",
+        "span": [
+          49,
+          57
+        ],
+        "raw": "실험용 고무장갑"
+      },
+      {
+        "record_id": "miraen_IS2_011",
+        "span": [
+          69,
+          77
+        ],
+        "raw": "실험용 고무장갑"
+      },
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          79,
+          87
+        ],
+        "raw": "실험용 고무장갑"
+      },
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          89,
+          97
+        ],
+        "raw": "실험용 고무장갑"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-6df56be9b015d9e8",
+    "representative_text": "투명 전자 껍질(부록 175 쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_013",
+        "span": [
+          0,
+          18
+        ],
+        "raw": "투명 전자 껍질(부록 175 쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5620aeea40163f9c",
+    "representative_text": "유성펜",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_013",
+        "span": [
+          19,
+          22
+        ],
+        "raw": "유성펜"
+      },
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          52,
+          55
+        ],
+        "raw": "유성펜"
+      },
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          73,
+          76
+        ],
+        "raw": "유성펜"
+      },
+      {
+        "record_id": "donga_IS2_035",
+        "span": [
+          6,
+          9
+        ],
+        "raw": "유성펜"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a9ada6bdd2aeab18",
+    "representative_text": "파란색 붙임딱지(부록 177 쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_013",
+        "span": [
+          23,
+          41
+        ],
+        "raw": "파란색 붙임딱지(부록 177 쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-075143b3678b9679",
+    "representative_text": "64 쪽에서 만든 수소, 탄소,\n질소, 플루오린의 원자 모형",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_015",
+        "span": [
+          0,
+          33
+        ],
+        "raw": "64 쪽에서 만든 수소, 탄소,\n질소, 플루오린의 원자 모형"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-bde5fc630468bee1",
+    "representative_text": "증류수",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "증류수"
+      },
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          47,
+          50
+        ],
+        "raw": "증류수"
+      },
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          11,
+          14
+        ],
+        "raw": "증류수"
+      },
+      {
+        "record_id": "jihaksa_is1_0032",
+        "span": [
+          10,
+          13
+        ],
+        "raw": "증류수"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          25,
+          28
+        ],
+        "raw": "증류수"
+      },
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          20,
+          23
+        ],
+        "raw": "증류수"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "증류수"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          27,
+          30
+        ],
+        "raw": "증류수"
+      },
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          59,
+          62
+        ],
+        "raw": "증류수"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          20,
+          23
+        ],
+        "raw": "증류수"
+      },
+      {
+        "record_id": "donga_IS1_014",
+        "span": [
+          6,
+          9
+        ],
+        "raw": "증류수"
+      },
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          40,
+          43
+        ],
+        "raw": "증류수"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7921a3bb40fa91bb",
+    "representative_text": "설탕",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          4,
+          6
+        ],
+        "raw": "설탕"
+      },
+      {
+        "record_id": "jihaksa_is1_0017",
+        "span": [
+          3,
+          5
+        ],
+        "raw": "설탕"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          0,
+          2
+        ],
+        "raw": "설탕"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          20,
+          23
+        ],
+        "raw": "설\n탕"
+      },
+      {
+        "record_id": "donga_IS1_014",
+        "span": [
+          19,
+          21
+        ],
+        "raw": "설탕"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e07e706e52afe799",
+    "representative_text": "황산 구리(Ⅱ)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          7,
+          15
+        ],
+        "raw": "황산 구리(Ⅱ)"
+      },
+      {
+        "record_id": "jihaksa_is1_0017",
+        "span": [
+          6,
+          15
+        ],
+        "raw": "황산 구리(II)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-72be2cc06e0a5f83",
+    "representative_text": "염화 나트륨",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          16,
+          22
+        ],
+        "raw": "염화 나트륨"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          4,
+          10
+        ],
+        "raw": "염화 나트륨"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          5,
+          11
+        ],
+        "raw": "염화 나트륨"
+      },
+      {
+        "record_id": "donga_IS1_014",
+        "span": [
+          11,
+          17
+        ],
+        "raw": "염화 나트륨"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-438b1b1fd2b694a1",
+    "representative_text": "6 홈판",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          23,
+          27
+        ],
+        "raw": "6 홈판"
+      },
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          13,
+          17
+        ],
+        "raw": "6 홈판"
+      },
+      {
+        "record_id": "miraen_IS2_011",
+        "span": [
+          30,
+          34
+        ],
+        "raw": "6 홈판"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          30,
+          33
+        ],
+        "raw": "6홈판"
+      },
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          40,
+          43
+        ],
+        "raw": "6홈판"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          56,
+          60
+        ],
+        "raw": "6 홈판"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          65,
+          69
+        ],
+        "raw": "6 홈판"
+      },
+      {
+        "record_id": "donga_IS1_014",
+        "span": [
+          0,
+          4
+        ],
+        "raw": "6 홈판"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-27386821e0eb0f5b",
+    "representative_text": "간이 전기 전도성 측정기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          28,
+          41
+        ],
+        "raw": "간이 전기 전도성 측정기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-eed59048fe59ffa1",
+    "representative_text": "비커",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          42,
+          44
+        ],
+        "raw": "비커"
+      },
+      {
+        "record_id": "miraen_IS2_008",
+        "span": [
+          25,
+          27
+        ],
+        "raw": "비커"
+      },
+      {
+        "record_id": "miraen_IS2_011",
+        "span": [
+          43,
+          45
+        ],
+        "raw": "비커"
+      },
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          53,
+          55
+        ],
+        "raw": "비커"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          35,
+          37
+        ],
+        "raw": "비커"
+      },
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          10,
+          12
+        ],
+        "raw": "비커"
+      },
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          28,
+          30
+        ],
+        "raw": "비커"
+      },
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          47,
+          49
+        ],
+        "raw": "비커"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-01e79421b60abc30",
+    "representative_text": "유리 막대",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          45,
+          50
+        ],
+        "raw": "유리 막대"
+      },
+      {
+        "record_id": "miraen_IS2_011",
+        "span": [
+          55,
+          60
+        ],
+        "raw": "유리 막대"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          39,
+          44
+        ],
+        "raw": "유리 막대"
+      },
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          59,
+          64
+        ],
+        "raw": "유리 막대"
+      },
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          28,
+          33
+        ],
+        "raw": "유리\n막대"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          30,
+          35
+        ],
+        "raw": "유리 막대"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          33,
+          38
+        ],
+        "raw": "유리 막대"
+      },
+      {
+        "record_id": "donga_IS1_014",
+        "span": [
+          36,
+          41
+        ],
+        "raw": "유리 막대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-906dce4c68790182",
+    "representative_text": "스포이트",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          51,
+          55
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          19,
+          23
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "miraen_IS2_008",
+        "span": [
+          29,
+          33
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          68,
+          72
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "jihaksa_is1_0033",
+        "span": [
+          46,
+          50
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "jihaksa_is2_0011",
+        "span": [
+          60,
+          64
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          52,
+          57
+        ],
+        "raw": "스\n포이트"
+      },
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          14,
+          18
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          29,
+          34
+        ],
+        "raw": "스포\n이트"
+      },
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          99,
+          103
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          45,
+          50
+        ],
+        "raw": "스포\n이트"
+      },
+      {
+        "record_id": "chunjae_IS2_025",
+        "span": [
+          0,
+          4
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          37,
+          41
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          46,
+          50
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          46,
+          50
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          64,
+          68
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          40,
+          45
+        ],
+        "raw": "스\n포이트"
+      },
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          83,
+          88
+        ],
+        "raw": "스포이\n트"
+      },
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          34,
+          38
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          11,
+          15
+        ],
+        "raw": "스포이트"
+      },
+      {
+        "record_id": "donga_IS2_035",
+        "span": [
+          21,
+          26
+        ],
+        "raw": "스포이\n트"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-15b7e88d6b317791",
+    "representative_text": "약숟가락",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_016",
+        "span": [
+          56,
+          60
+        ],
+        "raw": "약숟가락"
+      },
+      {
+        "record_id": "jihaksa_is1_0017",
+        "span": [
+          43,
+          47
+        ],
+        "raw": "약숟가락"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          46,
+          50
+        ],
+        "raw": "약숟가락"
+      },
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          109,
+          113
+        ],
+        "raw": "약숟가락"
+      },
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          22,
+          26
+        ],
+        "raw": "약숟가락"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          62,
+          66
+        ],
+        "raw": "약숟가락"
+      },
+      {
+        "record_id": "donga_IS1_014",
+        "span": [
+          43,
+          48
+        ],
+        "raw": "약숟가\n락"
+      },
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          78,
+          82
+        ],
+        "raw": "약숟가락"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2368797e91f27195",
+    "representative_text": "산소 원자 모형",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_018",
+        "span": [
+          0,
+          8
+        ],
+        "raw": "산소 원자 모형"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2fc7f501b8a2809b",
+    "representative_text": "규소 원자 모형",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_018",
+        "span": [
+          9,
+          17
+        ],
+        "raw": "규소 원자 모형"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-d53240e5b2546d07",
+    "representative_text": "연결 막대",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_018",
+        "span": [
+          18,
+          23
+        ],
+        "raw": "연결 막대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1789628a04b9a80f",
+    "representative_text": "그림 도구",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_020",
+        "span": [
+          13,
+          18
+        ],
+        "raw": "그림 도구"
+      },
+      {
+        "record_id": "miraen_IS1_035",
+        "span": [
+          13,
+          18
+        ],
+        "raw": "그림 도구"
+      },
+      {
+        "record_id": "miraen_IS2_032",
+        "span": [
+          13,
+          18
+        ],
+        "raw": "그림 도구"
+      },
+      {
+        "record_id": "miraen_IS2_033",
+        "span": [
+          13,
+          18
+        ],
+        "raw": "그림 도구"
+      },
+      {
+        "record_id": "miraen_IS2_041",
+        "span": [
+          13,
+          18
+        ],
+        "raw": "그림 도구"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e3507544761b46bc",
+    "representative_text": "뉴클레오타이드 모형\n(부록 179 쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_021",
+        "span": [
+          0,
+          21
+        ],
+        "raw": "뉴클레오타이드 모형\n(부록 179 쪽)"
+      },
+      {
+        "record_id": "chunjae_IS1_017",
+        "span": [
+          0,
+          20
+        ],
+        "raw": "뉴클레오타이드 모형\n(부록 179쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1a3cc1798c74c7dd",
+    "representative_text": "투명 테이프",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_021",
+        "span": [
+          22,
+          28
+        ],
+        "raw": "투명 테이프"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-361f1aeeaefebfb1",
+    "representative_text": "여러 가지 물체(클립, 연필심,\n지우개, 나무 막대, 발광 다이\n오드)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_022",
+        "span": [
+          0,
+          39
+        ],
+        "raw": "여러 가지 물체(클립, 연필심,\n지우개, 나무 막대, 발광 다이\n오드)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-fc00baabd79ed2a6",
+    "representative_text": "디지털 전류계",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_022",
+        "span": [
+          40,
+          47
+        ],
+        "raw": "디지털 전류계"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a8e29963ef74f2a0",
+    "representative_text": "전지(1.5 V)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_022",
+        "span": [
+          48,
+          57
+        ],
+        "raw": "전지(1.5 V)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b0354d7dfb5a3ed9",
+    "representative_text": "전지 끼우개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_022",
+        "span": [
+          58,
+          64
+        ],
+        "raw": "전지 끼우개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-72a0f5456fa6ddd2",
+    "representative_text": "집게 달린 전선",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_022",
+        "span": [
+          65,
+          73
+        ],
+        "raw": "집게 달린 전선"
+      },
+      {
+        "record_id": "visang_IS2_029",
+        "span": [
+          15,
+          23
+        ],
+        "raw": "집게 달린\n전선"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2740997398337036",
+    "representative_text": "스위치",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_022",
+        "span": [
+          74,
+          77
+        ],
+        "raw": "스위치"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-cbe732ac654855d5",
+    "representative_text": "투명 용기",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_030",
+        "span": [
+          0,
+          5
+        ],
+        "raw": "투명 용기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c8ce8ea6618cce4a",
+    "representative_text": "덮개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_030",
+        "span": [
+          7,
+          9
+        ],
+        "raw": "덮개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-64c2fccf2b32a6d2",
+    "representative_text": "자갈",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_030",
+        "span": [
+          11,
+          13
+        ],
+        "raw": "자갈"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2459c2d569bf4f72",
+    "representative_text": "모래",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_030",
+        "span": [
+          15,
+          17
+        ],
+        "raw": "모래"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-fe84d047fd559320",
+    "representative_text": "흙",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_030",
+        "span": [
+          19,
+          20
+        ],
+        "raw": "흙"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b795662527162a90",
+    "representative_text": "분무기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_030",
+        "span": [
+          29,
+          32
+        ],
+        "raw": "분무기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-4ec8a85e292cc362",
+    "representative_text": "식물(다육식물, 이끼)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_030",
+        "span": [
+          34,
+          46
+        ],
+        "raw": "식물(다육식물, 이끼)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-34f404d9d0a79aa5",
+    "representative_text": "자",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_031",
+        "span": [
+          7,
+          8
+        ],
+        "raw": "자"
+      },
+      {
+        "record_id": "chunjae_IS1_017",
+        "span": [
+          30,
+          31
+        ],
+        "raw": "자"
+      },
+      {
+        "record_id": "visang_IS2_023",
+        "span": [
+          75,
+          76
+        ],
+        "raw": "자"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7334850bccb1b25c",
+    "representative_text": "동시 낙하 장치",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_032",
+        "span": [
+          0,
+          8
+        ],
+        "raw": "동시 낙하 장치"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a70fbedef35cdd24",
+    "representative_text": "작은 공 2 개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_032",
+        "span": [
+          9,
+          17
+        ],
+        "raw": "작은 공 2 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-eb3f9c1cf48e7fbc",
+    "representative_text": "눈금판(또는 모눈종이)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_032",
+        "span": [
+          18,
+          30
+        ],
+        "raw": "눈금판(또는 모눈종이)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-4d448390155d725e",
+    "representative_text": "삼각대",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_032",
+        "span": [
+          38,
+          41
+        ],
+        "raw": "삼각대"
+      },
+      {
+        "record_id": "chunjae_IS1_024",
+        "span": [
+          35,
+          38
+        ],
+        "raw": "삼각대"
+      },
+      {
+        "record_id": "visang_IS1_037",
+        "span": [
+          39,
+          42
+        ],
+        "raw": "삼각대"
+      },
+      {
+        "record_id": "donga_IS1_024",
+        "span": [
+          86,
+          89
+        ],
+        "raw": "삼각대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-48eee7107fc84308",
+    "representative_text": "가상 현실 카드보드",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_034",
+        "span": [
+          7,
+          17
+        ],
+        "raw": "가상 현실 카드보드"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f03cddb9a77131c8",
+    "representative_text": "생감자",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "생감자"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0f187384a3411d91",
+    "representative_text": "강판",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          5,
+          7
+        ],
+        "raw": "강판"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-aca3fff7ddae3150",
+    "representative_text": "거즈",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          9,
+          11
+        ],
+        "raw": "거즈"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-59721d8831d82ee3",
+    "representative_text": "3 % 과산화 수소수",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          25,
+          36
+        ],
+        "raw": "3 % 과산화 수소수"
+      },
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          16,
+          27
+        ],
+        "raw": "3 % 과산화 수소수"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          14,
+          25
+        ],
+        "raw": "3 % 과산화\n수소수"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          17,
+          29
+        ],
+        "raw": "3 % 과산\n화 수소수"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-9af77de970cad9d9",
+    "representative_text": "3 % 에탄올",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_037",
+        "span": [
+          38,
+          45
+        ],
+        "raw": "3 % 에탄올"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f3f6b77022c79377",
+    "representative_text": "참고 자료",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_038",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0001",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0002",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0003",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0005",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0006",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0007",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0009",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0013",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0015",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0022",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0026",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0027",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is1_0030",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0002",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0005",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0006",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0010",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0012",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0023",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0028",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0029",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0030",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0033",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0036",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0039",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0042",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      },
+      {
+        "record_id": "jihaksa_is2_0043",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "참고 자료"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-3546983d8378f17a",
+    "representative_text": "적양파",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "적양파"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "적양파"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-bac1425575023d07",
+    "representative_text": "면도칼",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          4,
+          7
+        ],
+        "raw": "면도칼"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-fabcad4202c25cb6",
+    "representative_text": "10 % 소금물",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          15,
+          23
+        ],
+        "raw": "10 % 소금물"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          16,
+          25
+        ],
+        "raw": "10 % 소금\n물"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c564859e664c9368",
+    "representative_text": "받침 유리",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          30,
+          35
+        ],
+        "raw": "받침 유리"
+      },
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          42,
+          47
+        ],
+        "raw": "받침 유리"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          32,
+          37
+        ],
+        "raw": "받침 유리"
+      },
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          19,
+          25
+        ],
+        "raw": "받침 유\n리"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-278ac3b77c5964c1",
+    "representative_text": "덮개 유리",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          36,
+          41
+        ],
+        "raw": "덮개 유리"
+      },
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          49,
+          54
+        ],
+        "raw": "덮개\n유리"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          39,
+          44
+        ],
+        "raw": "덮개 유리"
+      },
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          27,
+          32
+        ],
+        "raw": "덮개 유리"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b14ab406e0368166",
+    "representative_text": "현미경",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          42,
+          45
+        ],
+        "raw": "현미경"
+      },
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          56,
+          59
+        ],
+        "raw": "현미경"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          65,
+          69
+        ],
+        "raw": "현미\n경"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-660ba9eb1e58f44d",
+    "representative_text": "현미경용 스마트 기기 거치대",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_039",
+        "span": [
+          46,
+          61
+        ],
+        "raw": "현미경용 스마트 기기 거치대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1418a82811fe7958",
+    "representative_text": "주사위",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS1_042",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "주사위"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-61d90f725707200e",
+    "representative_text": "노란색 도화지",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_004",
+        "span": [
+          0,
+          7
+        ],
+        "raw": "노란색 도화지"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-51ca917c5900c62a",
+    "representative_text": "4 가지 색 초콜릿(빨간색, 노란\n색, 초록색, 파란색)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_004",
+        "span": [
+          8,
+          39
+        ],
+        "raw": "4 가지 색 초콜릿(빨간색, 노란\n색, 초록색, 파란색)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f9fba4500d1fdf17",
+    "representative_text": "구리 테이프",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_008",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "구리 테이프"
+      },
+      {
+        "record_id": "jihaksa_is2_0015",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "구리 테이프"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7b628dca265d442b",
+    "representative_text": "질산 은 수용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_008",
+        "span": [
+          8,
+          16
+        ],
+        "raw": "질산 은 수용액"
+      },
+      {
+        "record_id": "jihaksa_is2_0015",
+        "span": [
+          7,
+          15
+        ],
+        "raw": "질산 은 수용액"
+      },
+      {
+        "record_id": "chunjae_IS2_007",
+        "span": [
+          0,
+          8
+        ],
+        "raw": "질산 은 수용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-13bc3a4ef5d8535e",
+    "representative_text": "가위",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_008",
+        "span": [
+          35,
+          37
+        ],
+        "raw": "가위"
+      },
+      {
+        "record_id": "jihaksa_is1_0020",
+        "span": [
+          16,
+          18
+        ],
+        "raw": "가위"
+      },
+      {
+        "record_id": "jihaksa_is2_0008",
+        "span": [
+          46,
+          48
+        ],
+        "raw": "가위"
+      },
+      {
+        "record_id": "jihaksa_is2_0015",
+        "span": [
+          39,
+          41
+        ],
+        "raw": "가위"
+      },
+      {
+        "record_id": "chunjae_IS1_017",
+        "span": [
+          26,
+          28
+        ],
+        "raw": "가위"
+      },
+      {
+        "record_id": "chunjae_IS1_026",
+        "span": [
+          8,
+          10
+        ],
+        "raw": "가위"
+      },
+      {
+        "record_id": "visang_IS1_026",
+        "span": [
+          22,
+          24
+        ],
+        "raw": "가위"
+      },
+      {
+        "record_id": "donga_IS1_015",
+        "span": [
+          0,
+          2
+        ],
+        "raw": "가위"
+      },
+      {
+        "record_id": "donga_IS1_016",
+        "span": [
+          21,
+          23
+        ],
+        "raw": "가위"
+      },
+      {
+        "record_id": "donga_IS1_026",
+        "span": [
+          15,
+          17
+        ],
+        "raw": "가위"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-3c5743ee2b40b398",
+    "representative_text": "농도가 같은 염산과 수산화\n나트륨 수용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_011",
+        "span": [
+          0,
+          22
+        ],
+        "raw": "농도가 같은 염산과 수산화\n나트륨 수용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-14352781312cf64c",
+    "representative_text": "BTB 용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_011",
+        "span": [
+          23,
+          29
+        ],
+        "raw": "BTB 용액"
+      },
+      {
+        "record_id": "jihaksa_is2_0011",
+        "span": [
+          24,
+          30
+        ],
+        "raw": "BTB 용액"
+      },
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          32,
+          38
+        ],
+        "raw": "BTB 용액"
+      },
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          51,
+          57
+        ],
+        "raw": "BTB 용액"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          25,
+          31
+        ],
+        "raw": "BTB 용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-be75420cee107fdf",
+    "representative_text": "디지털 온도계",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_011",
+        "span": [
+          35,
+          42
+        ],
+        "raw": "디지털 온도계"
+      },
+      {
+        "record_id": "jihaksa_is2_0011",
+        "span": [
+          52,
+          59
+        ],
+        "raw": "디지털 온도계"
+      },
+      {
+        "record_id": "chunjae_IS1_005",
+        "span": [
+          28,
+          36
+        ],
+        "raw": "디\n지털 온도계"
+      },
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          66,
+          73
+        ],
+        "raw": "디지털 온도계"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b919d94e3e102dee",
+    "representative_text": "피펫",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_011",
+        "span": [
+          46,
+          48
+        ],
+        "raw": "피펫"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b7bc19f5c401e444",
+    "representative_text": "피펫 필러",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_011",
+        "span": [
+          49,
+          54
+        ],
+        "raw": "피펫 필러"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-9bb3db2039171aae",
+    "representative_text": "산화 칼슘 10 g이 들어 있는\n부직포 주머니",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          2,
+          27
+        ],
+        "raw": "산화 칼슘 10 g이 들어 있는\n부직포 주머니"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-521e0ae957570455",
+    "representative_text": "반응 용기",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          28,
+          33
+        ],
+        "raw": "반응 용기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0c575b7376830877",
+    "representative_text": "조리 용기",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          34,
+          39
+        ],
+        "raw": "조리 용기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-cc1a901302cbe334",
+    "representative_text": "온도 센서",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          40,
+          45
+        ],
+        "raw": "온도 센서"
+      },
+      {
+        "record_id": "visang_IS1_010",
+        "span": [
+          0,
+          5
+        ],
+        "raw": "온도 센서"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0a566bb67800ff69",
+    "representative_text": "스탠드",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          56,
+          59
+        ],
+        "raw": "스탠드"
+      },
+      {
+        "record_id": "donga_IS1_009",
+        "span": [
+          40,
+          43
+        ],
+        "raw": "스탠드"
+      },
+      {
+        "record_id": "donga_IS1_024",
+        "span": [
+          25,
+          28
+        ],
+        "raw": "스탠드"
+      },
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          55,
+          58
+        ],
+        "raw": "스탠드"
+      },
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          51,
+          54
+        ],
+        "raw": "스탠드"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e3d5c7271507bd55",
+    "representative_text": "집게",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          60,
+          62
+        ],
+        "raw": "집게"
+      },
+      {
+        "record_id": "donga_IS1_024",
+        "span": [
+          30,
+          32
+        ],
+        "raw": "집게"
+      },
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          60,
+          62
+        ],
+        "raw": "집게"
+      },
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          56,
+          58
+        ],
+        "raw": "집게"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7bd82f68ce9dfbab",
+    "representative_text": "클램프",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_014",
+        "span": [
+          63,
+          66
+        ],
+        "raw": "클램프"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-ed3a63fcbef3dbca",
+    "representative_text": "초록색 클립 50 개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_020",
+        "span": [
+          0,
+          11
+        ],
+        "raw": "초록색 클립 50 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-091b993d34d8c6f0",
+    "representative_text": "투명 플라스틱 컵 뚜껑 10 개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_020",
+        "span": [
+          12,
+          29
+        ],
+        "raw": "투명 플라스틱 컵 뚜껑 10 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-bfc5031525abc24c",
+    "representative_text": "생태계 판(부록 175 쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_020",
+        "span": [
+          30,
+          45
+        ],
+        "raw": "생태계 판(부록 175 쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e9ef615eddcb2ef4",
+    "representative_text": "개체군 변동 규칙 및 기록 양식\n(부록 177 쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_020",
+        "span": [
+          46,
+          74
+        ],
+        "raw": "개체군 변동 규칙 및 기록 양식\n(부록 177 쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-72773791172029f2",
+    "representative_text": "코일",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_028",
+        "span": [
+          0,
+          2
+        ],
+        "raw": "코일"
+      },
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          0,
+          2
+        ],
+        "raw": "코일"
+      },
+      {
+        "record_id": "jihaksa_is2_0026",
+        "span": [
+          0,
+          2
+        ],
+        "raw": "코일"
+      },
+      {
+        "record_id": "chunjae_IS2_018",
+        "span": [
+          0,
+          2
+        ],
+        "raw": "코일"
+      },
+      {
+        "record_id": "visang_IS2_029",
+        "span": [
+          6,
+          8
+        ],
+        "raw": "코일"
+      },
+      {
+        "record_id": "donga_IS2_027",
+        "span": [
+          0,
+          2
+        ],
+        "raw": "코일"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a020e989316f8947",
+    "representative_text": "막대자석",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_028",
+        "span": [
+          3,
+          7
+        ],
+        "raw": "막대자석"
+      },
+      {
+        "record_id": "chunjae_IS2_018",
+        "span": [
+          4,
+          8
+        ],
+        "raw": "막대자석"
+      },
+      {
+        "record_id": "visang_IS2_029",
+        "span": [
+          0,
+          4
+        ],
+        "raw": "막대자석"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f28b13bb81f20beb",
+    "representative_text": "검류계",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_028",
+        "span": [
+          8,
+          11
+        ],
+        "raw": "검류계"
+      },
+      {
+        "record_id": "jihaksa_is2_0026",
+        "span": [
+          11,
+          14
+        ],
+        "raw": "검류계"
+      },
+      {
+        "record_id": "chunjae_IS2_018",
+        "span": [
+          10,
+          14
+        ],
+        "raw": "검류\n계"
+      },
+      {
+        "record_id": "visang_IS2_029",
+        "span": [
+          10,
+          13
+        ],
+        "raw": "검류계"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5708c41c0d0ae536",
+    "representative_text": "집게 달린 전선 2 개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_028",
+        "span": [
+          12,
+          24
+        ],
+        "raw": "집게 달린 전선 2 개"
+      },
+      {
+        "record_id": "jihaksa_is2_0026",
+        "span": [
+          19,
+          30
+        ],
+        "raw": "집게 달린 전선 2개"
+      },
+      {
+        "record_id": "jihaksa_is2_0027",
+        "span": [
+          85,
+          96
+        ],
+        "raw": "집게 달린 전선 2개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-102aaec35637da00",
+    "representative_text": "철판",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          3,
+          5
+        ],
+        "raw": "철판"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0cd624da94bc2cc1",
+    "representative_text": "네오디뮴 자석",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          6,
+          13
+        ],
+        "raw": "네오디뮴 자석"
+      },
+      {
+        "record_id": "chunjae_IS2_019",
+        "span": [
+          16,
+          23
+        ],
+        "raw": "네오디뮴 자석"
+      },
+      {
+        "record_id": "visang_IS2_030",
+        "span": [
+          0,
+          7
+        ],
+        "raw": "네오디뮴 자석"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e97830beba783d1e",
+    "representative_text": "발광 다이오드 기판",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          14,
+          24
+        ],
+        "raw": "발광 다이오드 기판"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c000ef4cba7a6b58",
+    "representative_text": "날개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          25,
+          27
+        ],
+        "raw": "날개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-8ee613656d4f81d3",
+    "representative_text": "회전축",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          28,
+          31
+        ],
+        "raw": "회전축"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-95aa4e6d71de807a",
+    "representative_text": "헤드",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          32,
+          34
+        ],
+        "raw": "헤드"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-41876a9dc87dc7f9",
+    "representative_text": "기둥",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          35,
+          37
+        ],
+        "raw": "기둥"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f66a448edf1477a8",
+    "representative_text": "받침대",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          38,
+          41
+        ],
+        "raw": "받침대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b87728c10f66de7a",
+    "representative_text": "전선",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          42,
+          44
+        ],
+        "raw": "전선"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0d0fc3fd9a43d2e1",
+    "representative_text": "선풍기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_029",
+        "span": [
+          45,
+          48
+        ],
+        "raw": "선풍기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5ce7093a87c479ee",
+    "representative_text": "포획 항체",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          0,
+          5
+        ],
+        "raw": "포획 항체"
+      },
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          0,
+          5
+        ],
+        "raw": "포획 항체"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b7fc525dec380f70",
+    "representative_text": "감염병 음성 표준 시료",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          6,
+          18
+        ],
+        "raw": "감염병 음성 표준 시료"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a7c7db6a9c57559b",
+    "representative_text": "감염병 양성 표준 시료",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          19,
+          31
+        ],
+        "raw": "감염병 양성 표준 시료"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-79a421a73d90671d",
+    "representative_text": "사람 1의 시료",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          32,
+          40
+        ],
+        "raw": "사람 1의 시료"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-96c27f5f5eeb83c6",
+    "representative_text": "사람 2의 시료",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          41,
+          49
+        ],
+        "raw": "사람 2의 시료"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f36f01e46b44231b",
+    "representative_text": "검출 시약",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          50,
+          55
+        ],
+        "raw": "검출 시약"
+      },
+      {
+        "record_id": "chunjae_IS2_025",
+        "span": [
+          52,
+          57
+        ],
+        "raw": "검출 시약"
+      },
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          66,
+          71
+        ],
+        "raw": "검출 시약"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-defb0c398cf84a8f",
+    "representative_text": "진단 반응물",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          56,
+          62
+        ],
+        "raw": "진단 반응물"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5c22ed66dee75019",
+    "representative_text": "4 홈판",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          63,
+          67
+        ],
+        "raw": "4 홈판"
+      },
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          90,
+          94
+        ],
+        "raw": "4 홈판"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c0e26239dd574d2f",
+    "representative_text": "초시계",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_037",
+        "span": [
+          77,
+          80
+        ],
+        "raw": "초시계"
+      },
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          96,
+          99
+        ],
+        "raw": "초시계"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b66c64d61d309780",
+    "representative_text": "마이크로프로세서를 탑재한\n피지컬 컴퓨팅 기기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_039",
+        "span": [
+          7,
+          31
+        ],
+        "raw": "마이크로프로세서를 탑재한\n피지컬 컴퓨팅 기기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-77a245e7468b8d56",
+    "representative_text": "USB 연결선",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "miraen_IS2_039",
+        "span": [
+          32,
+          39
+        ],
+        "raw": "USB 연결선"
+      },
+      {
+        "record_id": "donga_IS2_037",
+        "span": [
+          53,
+          60
+        ],
+        "raw": "USB 연결선"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7d8023372f355a91",
+    "representative_text": "수소 방전관",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0011",
+        "span": [
+          4,
+          10
+        ],
+        "raw": "수소 방전관"
+      },
+      {
+        "record_id": "visang_IS1_014",
+        "span": [
+          8,
+          14
+        ],
+        "raw": "수소 방전관"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b2c5aa5ecbb5f1e6",
+    "representative_text": "분광기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0011",
+        "span": [
+          11,
+          14
+        ],
+        "raw": "분광기"
+      },
+      {
+        "record_id": "chunjae_IS1_007",
+        "span": [
+          34,
+          37
+        ],
+        "raw": "분광기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-634ccb77c827d238",
+    "representative_text": "흰 종이",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0011",
+        "span": [
+          15,
+          19
+        ],
+        "raw": "흰 종이"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5ef36c6777db6df4",
+    "representative_text": "색연필",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0011",
+        "span": [
+          20,
+          23
+        ],
+        "raw": "색연필"
+      },
+      {
+        "record_id": "chunjae_IS1_007",
+        "span": [
+          46,
+          49
+        ],
+        "raw": "색연필"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-3d09660e62955de5",
+    "representative_text": "소금",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0017",
+        "span": [
+          0,
+          2
+        ],
+        "raw": "소금"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-ae0d8878a1203828",
+    "representative_text": "포도당",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0017",
+        "span": [
+          16,
+          19
+        ],
+        "raw": "포도당"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          12,
+          16
+        ],
+        "raw": "포\n도당"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          25,
+          28
+        ],
+        "raw": "포도당"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f106512283b84d09",
+    "representative_text": "증류수 120 mL",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0017",
+        "span": [
+          20,
+          30
+        ],
+        "raw": "증류수 120 mL"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0328e291fa6ca732",
+    "representative_text": "50 mL 비커 8개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0017",
+        "span": [
+          31,
+          42
+        ],
+        "raw": "50 mL 비커 8개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-57d9bdff4cf3bc7b",
+    "representative_text": "간이 전기 전도계",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0017",
+        "span": [
+          48,
+          57
+        ],
+        "raw": "간이 전기 전도계"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          59,
+          68
+        ],
+        "raw": "간이 전기 전도계"
+      },
+      {
+        "record_id": "chunjae_IS1_018",
+        "span": [
+          0,
+          9
+        ],
+        "raw": "간이 전기 전도계"
+      },
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          84,
+          93
+        ],
+        "raw": "간이\n전기 전도계"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1d8632b8ef18f7c9",
+    "representative_text": "실험용 장갑",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0017",
+        "span": [
+          66,
+          72
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "jihaksa_is1_0032",
+        "span": [
+          65,
+          71
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "jihaksa_is1_0033",
+        "span": [
+          58,
+          64
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "jihaksa_is2_0008",
+        "span": [
+          57,
+          63
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "jihaksa_is2_0011",
+        "span": [
+          73,
+          79
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "jihaksa_is2_0015",
+        "span": [
+          50,
+          56
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "jihaksa_is2_0034",
+        "span": [
+          50,
+          56
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          79,
+          85
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          81,
+          88
+        ],
+        "raw": "실험용 장\n갑"
+      },
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          76,
+          82
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "chunjae_IS2_007",
+        "span": [
+          37,
+          43
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          120,
+          126
+        ],
+        "raw": "실험용\n장갑"
+      },
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          102,
+          108
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          72,
+          78
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "chunjae_IS2_025",
+        "span": [
+          64,
+          71
+        ],
+        "raw": "실험용 장\n갑"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          73,
+          79
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          95,
+          101
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          69,
+          75
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          135,
+          141
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          84,
+          90
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "visang_IS2_016",
+        "span": [
+          30,
+          36
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          115,
+          121
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "donga_IS1_014",
+        "span": [
+          55,
+          61
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          75,
+          81
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          75,
+          81
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          95,
+          102
+        ],
+        "raw": "실\n험용 장갑"
+      },
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          106,
+          112
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "donga_IS2_014",
+        "span": [
+          36,
+          42
+        ],
+        "raw": "실험용 장갑"
+      },
+      {
+        "record_id": "donga_IS2_035",
+        "span": [
+          80,
+          86
+        ],
+        "raw": "실험용 장갑"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-acbacad84eef2210",
+    "representative_text": "단위체 모형(부록 167쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0018",
+        "span": [
+          0,
+          15
+        ],
+        "raw": "단위체 모형(부록 167쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-fc110273e4e849a4",
+    "representative_text": "스타이로폼 공 2종",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0019",
+        "span": [
+          0,
+          10
+        ],
+        "raw": "스타이로폼 공 2종"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0f463b8c5b63823d",
+    "representative_text": "이쑤시개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0019",
+        "span": [
+          11,
+          15
+        ],
+        "raw": "이쑤시개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1b99272a93e25fe3",
+    "representative_text": "DNA 모형(부록 169쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0020",
+        "span": [
+          0,
+          15
+        ],
+        "raw": "DNA 모형(부록 169쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-9f4ab3b56eddc42c",
+    "representative_text": "풀",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0020",
+        "span": [
+          19,
+          20
+        ],
+        "raw": "풀"
+      },
+      {
+        "record_id": "chunjae_IS1_017",
+        "span": [
+          33,
+          34
+        ],
+        "raw": "풀"
+      },
+      {
+        "record_id": "visang_IS1_026",
+        "span": [
+          26,
+          27
+        ],
+        "raw": "풀"
+      },
+      {
+        "record_id": "donga_IS1_016",
+        "span": [
+          25,
+          26
+        ],
+        "raw": "풀"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-929c56899aec0cc0",
+    "representative_text": "세계 지도(부록 171쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0025",
+        "span": [
+          7,
+          21
+        ],
+        "raw": "세계 지도(부록 171쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-27e2a4fca6a4e4f6",
+    "representative_text": "동시 낙하 실험 장치",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0028",
+        "span": [
+          0,
+          11
+        ],
+        "raw": "동시 낙하 실험 장치"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-58d1678e80e18a11",
+    "representative_text": "쇠구슬 2개(지름 약 1.5 cm)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0028",
+        "span": [
+          12,
+          31
+        ],
+        "raw": "쇠구슬 2개(지름 약 1.5 cm)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5c5805a985180deb",
+    "representative_text": "우드락",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0028",
+        "span": [
+          39,
+          42
+        ],
+        "raw": "우드락"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e196f3a8314edd69",
+    "representative_text": "검은색 배경의 모눈종이(간격 2 cm)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0028",
+        "span": [
+          43,
+          64
+        ],
+        "raw": "검은색 배경의 모눈종이(간격 2 cm)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-3904d1c63455c29e",
+    "representative_text": "푹신한 방석",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0029",
+        "span": [
+          7,
+          13
+        ],
+        "raw": "푹신한 방석"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-fad824d77af8922f",
+    "representative_text": "달걀 노른자 3개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0032",
+        "span": [
+          0,
+          9
+        ],
+        "raw": "달걀 노른자 3개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f33d3bd02e54aecc",
+    "representative_text": "10 % 설탕 수용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0032",
+        "span": [
+          14,
+          25
+        ],
+        "raw": "10 % 설탕 수용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-fd4e518c8be67fb0",
+    "representative_text": "20 % 설탕 수용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0032",
+        "span": [
+          26,
+          37
+        ],
+        "raw": "20 % 설탕 수용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-cc212ddde692660c",
+    "representative_text": "페트리 접시 6개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0032",
+        "span": [
+          38,
+          47
+        ],
+        "raw": "페트리 접시 6개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7bebd03096ad1b2d",
+    "representative_text": "버니어 캘리퍼스",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0032",
+        "span": [
+          48,
+          56
+        ],
+        "raw": "버니어 캘리퍼스"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-45f42de83bb0236b",
+    "representative_text": "당도계",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0032",
+        "span": [
+          57,
+          60
+        ],
+        "raw": "당도계"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-6e9b0d21bcf90e22",
+    "representative_text": "3.5 % 과산화 수소수",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0033",
+        "span": [
+          0,
+          13
+        ],
+        "raw": "3.5 % 과산화 수소수"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-9ca9fd9ab9138300",
+    "representative_text": "한천 조각 10개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0033",
+        "span": [
+          14,
+          23
+        ],
+        "raw": "한천 조각 10개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-896ac7501e745b87",
+    "representative_text": "감자 조각 10개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0033",
+        "span": [
+          24,
+          33
+        ],
+        "raw": "감자 조각 10개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-78f85c35a9ece559",
+    "representative_text": "시험관 2개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0033",
+        "span": [
+          34,
+          40
+        ],
+        "raw": "시험관 2개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-283b8f3fa1d3111e",
+    "representative_text": "시험관대",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is1_0033",
+        "span": [
+          41,
+          45
+        ],
+        "raw": "시험관대"
+      },
+      {
+        "record_id": "jihaksa_is2_0011",
+        "span": [
+          47,
+          51
+        ],
+        "raw": "시험관대"
+      },
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          9,
+          14
+        ],
+        "raw": "시험관\n대"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          32,
+          36
+        ],
+        "raw": "시험관대"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          5,
+          9
+        ],
+        "raw": "시험관대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-d417d4d9e4750a73",
+    "representative_text": "노란색과 검은색 구슬",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0004",
+        "span": [
+          0,
+          11
+        ],
+        "raw": "노란색과 검은색 구슬"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a07b6ed6e9d658a3",
+    "representative_text": "노란색과 검은색 도화지",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0004",
+        "span": [
+          12,
+          24
+        ],
+        "raw": "노란색과 검은색 도화지"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-55272d157fa019c1",
+    "representative_text": "핀셋과 굵은 집게",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0004",
+        "span": [
+          25,
+          34
+        ],
+        "raw": "핀셋과 굵은 집게"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-037a867a02d49731",
+    "representative_text": "스톱워치",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0004",
+        "span": [
+          35,
+          39
+        ],
+        "raw": "스톱워치"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-79f2fa73e008a4c8",
+    "representative_text": "알루미늄(Al) 판",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0008",
+        "span": [
+          0,
+          10
+        ],
+        "raw": "알루미늄(Al) 판"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-60baa46f33b68816",
+    "representative_text": "염화 구리(II)(CuCl₂) 수용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0008",
+        "span": [
+          11,
+          31
+        ],
+        "raw": "염화 구리(II)(CuCl₂) 수용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-4f479374dba8329b",
+    "representative_text": "접착용 필름",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0008",
+        "span": [
+          32,
+          38
+        ],
+        "raw": "접착용 필름"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0e1bc83b9f207d84",
+    "representative_text": "묽은 염산",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0011",
+        "span": [
+          0,
+          5
+        ],
+        "raw": "묽은 염산"
+      },
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          0,
+          5
+        ],
+        "raw": "묽은 염산"
+      },
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          0,
+          5
+        ],
+        "raw": "묽은 염산"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          0,
+          5
+        ],
+        "raw": "묽은 염산"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1f1418ff0dd2e2a6",
+    "representative_text": "수산화 나트륨(NaOH) 수용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0011",
+        "span": [
+          6,
+          23
+        ],
+        "raw": "수산화 나트륨(NaOH) 수용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e0862c76c7434ae7",
+    "representative_text": "15 mL 눈금 시험관 7개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0011",
+        "span": [
+          31,
+          46
+        ],
+        "raw": "15 mL 눈금 시험관 7개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5f89cb95c8363041",
+    "representative_text": "산화 칼슘 발열 팩 50 g",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0014",
+        "span": [
+          0,
+          15
+        ],
+        "raw": "산화 칼슘 발열 팩 50 g"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c07a24dc24336182",
+    "representative_text": "메추리알",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0014",
+        "span": [
+          18,
+          22
+        ],
+        "raw": "메추리알"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-70e667e667da4d94",
+    "representative_text": "모둠별로 결정한 재료",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0014",
+        "span": [
+          23,
+          34
+        ],
+        "raw": "모둠별로 결정한 재료"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a7760e838c022845",
+    "representative_text": "검은색 도화지",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0015",
+        "span": [
+          16,
+          23
+        ],
+        "raw": "검은색 도화지"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e6805912a58869a1",
+    "representative_text": "50 mL 비커 1개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0015",
+        "span": [
+          24,
+          35
+        ],
+        "raw": "50 mL 비커 1개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f0b2cee445f79e33",
+    "representative_text": "면봉",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0015",
+        "span": [
+          36,
+          38
+        ],
+        "raw": "면봉"
+      },
+      {
+        "record_id": "chunjae_IS1_026",
+        "span": [
+          4,
+          6
+        ],
+        "raw": "면봉"
+      },
+      {
+        "record_id": "donga_IS1_026",
+        "span": [
+          0,
+          2
+        ],
+        "raw": "면봉"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7d0f199c16a28826",
+    "representative_text": "필기구",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0015",
+        "span": [
+          42,
+          45
+        ],
+        "raw": "필기구"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0f4651239179e3f0",
+    "representative_text": "500 mL 플라스틱 페트병 2개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0021",
+        "span": [
+          0,
+          18
+        ],
+        "raw": "500 mL 플라스틱 페트병 2개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e8fe544c5945da6d",
+    "representative_text": "이산화 탄소 발포정",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0021",
+        "span": [
+          19,
+          29
+        ],
+        "raw": "이산화 탄소 발포정"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-090b3c827db1ca57",
+    "representative_text": "디지털 온도계 2개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0021",
+        "span": [
+          30,
+          40
+        ],
+        "raw": "디지털 온도계 2개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-fee0f2b618f31947",
+    "representative_text": "고무찰흙",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0021",
+        "span": [
+          41,
+          45
+        ],
+        "raw": "고무찰흙"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1eddb8c8d2623266",
+    "representative_text": "적외선 조명 2개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0021",
+        "span": [
+          46,
+          55
+        ],
+        "raw": "적외선 조명 2개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-8ad9f25defc0ade3",
+    "representative_text": "막대자석 2개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0026",
+        "span": [
+          3,
+          10
+        ],
+        "raw": "막대자석 2개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-eaae366b7632650c",
+    "representative_text": "에나멜선(지름 0.2 mm)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0027",
+        "span": [
+          0,
+          15
+        ],
+        "raw": "에나멜선(지름 0.2 mm)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-8a7c7d3d90b75d8d",
+    "representative_text": "원통형 네오디뮴 자석\n4개(지름 15 mm,\n높이 5 mm)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0027",
+        "span": [
+          16,
+          49
+        ],
+        "raw": "원통형 네오디뮴 자석\n4개(지름 15 mm,\n높이 5 mm)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c34b923cbe5f6ee6",
+    "representative_text": "나무 막대",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0027",
+        "span": [
+          50,
+          55
+        ],
+        "raw": "나무 막대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-712436c975ba18c8",
+    "representative_text": "빨간색 발광 다이오드",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0027",
+        "span": [
+          56,
+          67
+        ],
+        "raw": "빨간색 발광 다이오드"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f8657eaa1f74ee78",
+    "representative_text": "페트병 (지름 3 cm)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0027",
+        "span": [
+          68,
+          81
+        ],
+        "raw": "페트병 (지름 3 cm)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-24bb1a9878fd5f41",
+    "representative_text": "빨대",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0027",
+        "span": [
+          82,
+          84
+        ],
+        "raw": "빨대"
+      },
+      {
+        "record_id": "chunjae_IS1_017",
+        "span": [
+          22,
+          24
+        ],
+        "raw": "빨대"
+      },
+      {
+        "record_id": "chunjae_IS1_026",
+        "span": [
+          0,
+          2
+        ],
+        "raw": "빨대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b7ccc8c91d04a482",
+    "representative_text": "글루건",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0027",
+        "span": [
+          97,
+          100
+        ],
+        "raw": "글루건"
+      },
+      {
+        "record_id": "chunjae_IS2_019",
+        "span": [
+          47,
+          51
+        ],
+        "raw": "글루\n건"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-131dcc34af19d66a",
+    "representative_text": "칼이나 사포",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0027",
+        "span": [
+          101,
+          107
+        ],
+        "raw": "칼이나 사포"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-8e226b844a835c2e",
+    "representative_text": "감염병 진단 모의실험 키트",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0034",
+        "span": [
+          0,
+          14
+        ],
+        "raw": "감염병 진단 모의실험 키트"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f5ea6f3bc171e5a9",
+    "representative_text": "마이크로 피펫",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0034",
+        "span": [
+          15,
+          22
+        ],
+        "raw": "마이크로 피펫"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-04af1569fd4b1a9a",
+    "representative_text": "마이크로 피펫 팁",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0034",
+        "span": [
+          23,
+          32
+        ],
+        "raw": "마이크로 피펫 팁"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-6d30ba9cbfdbf81f",
+    "representative_text": "네임펜",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0034",
+        "span": [
+          33,
+          36
+        ],
+        "raw": "네임펜"
+      },
+      {
+        "record_id": "chunjae_IS1_013",
+        "span": [
+          42,
+          45
+        ],
+        "raw": "네임펜"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c468bc83f10f4481",
+    "representative_text": "번호를 쓴 종이",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0034",
+        "span": [
+          37,
+          45
+        ],
+        "raw": "번호를 쓴 종이"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-284926eed8f9b8d2",
+    "representative_text": "이산화 탄소 측정 센서",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0037",
+        "span": [
+          0,
+          12
+        ],
+        "raw": "이산화 탄소 측정 센서"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-bf8e6ea10841a482",
+    "representative_text": "분석용 스마트 기기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "jihaksa_is2_0037",
+        "span": [
+          13,
+          23
+        ],
+        "raw": "분석용 스마트 기기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-821caa9297bffefd",
+    "representative_text": "길이 측정 앱이 설치\n된 스마트 기기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_005",
+        "span": [
+          0,
+          20
+        ],
+        "raw": "길이 측정 앱이 설치\n된 스마트 기기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-64f531b2969f74a2",
+    "representative_text": "적외선 온도계",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_005",
+        "span": [
+          38,
+          45
+        ],
+        "raw": "적외선 온도계"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-19314902caa882da",
+    "representative_text": "기체 방전관 (수소, 헬\n륨, 아르곤)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_007",
+        "span": [
+          0,
+          21
+        ],
+        "raw": "기체 방전관 (수소, 헬\n륨, 아르곤)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-da75c67a4d56aa6c",
+    "representative_text": "고전압 발생 장치",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_007",
+        "span": [
+          23,
+          32
+        ],
+        "raw": "고전압 발생 장치"
+      },
+      {
+        "record_id": "visang_IS1_014",
+        "span": [
+          25,
+          34
+        ],
+        "raw": "고전압 발생 장치"
+      },
+      {
+        "record_id": "donga_IS1_009",
+        "span": [
+          20,
+          30
+        ],
+        "raw": "고전\n압 발생 장치"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-46ccd0f242437e05",
+    "representative_text": "실험 도\n구 붙임딱지 (부록 176쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_010",
+        "span": [
+          8,
+          29
+        ],
+        "raw": "실험 도\n구 붙임딱지 (부록 176쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-ce420fcc6664651b",
+    "representative_text": "원자 모형이 그려진\n투명 필름과 전자 붙임딱지 (부\n록 176~178쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_013",
+        "span": [
+          0,
+          40
+        ],
+        "raw": "원자 모형이 그려진\n투명 필름과 전자 붙임딱지 (부\n록 176~178쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1ba5b72857135a45",
+    "representative_text": "셀\n로판테이프",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_013",
+        "span": [
+          47,
+          54
+        ],
+        "raw": "셀\n로판테이프"
+      },
+      {
+        "record_id": "chunjae_IS1_026",
+        "span": [
+          17,
+          23
+        ],
+        "raw": "셀로판테이프"
+      },
+      {
+        "record_id": "chunjae_IS2_019",
+        "span": [
+          61,
+          67
+        ],
+        "raw": "셀로판테이프"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-cdbeaa3c7764a63a",
+    "representative_text": "염화 칼슘",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          18,
+          23
+        ],
+        "raw": "염화 칼슘"
+      },
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          13,
+          18
+        ],
+        "raw": "염화 칼슘"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2d0ab2df41b75912",
+    "representative_text": "휴지",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_014",
+        "span": [
+          70,
+          72
+        ],
+        "raw": "휴지"
+      },
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          95,
+          97
+        ],
+        "raw": "휴지"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-cff8b01657dff709",
+    "representative_text": "컴퓨터",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_015",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "컴퓨터"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1d2ea668d3d722b2",
+    "representative_text": "입체 그림을\n그릴 수 있는 프로그램",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_015",
+        "span": [
+          5,
+          24
+        ],
+        "raw": "입체 그림을\n그릴 수 있는 프로그램"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5f6454c860c45134",
+    "representative_text": "철끈",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_017",
+        "span": [
+          36,
+          38
+        ],
+        "raw": "철끈"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a1e85227aa508463",
+    "representative_text": "송곳",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_017",
+        "span": [
+          40,
+          42
+        ],
+        "raw": "송곳"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e0db6f07eb93340b",
+    "representative_text": "여러 가지 물체",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_018",
+        "span": [
+          11,
+          19
+        ],
+        "raw": "여러 가지 물체"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c780d5cab893bb75",
+    "representative_text": "보호 장갑",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_018",
+        "span": [
+          21,
+          26
+        ],
+        "raw": "보호 장갑"
+      },
+      {
+        "record_id": "chunjae_IS2_007",
+        "span": [
+          45,
+          50
+        ],
+        "raw": "보호 장갑"
+      },
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          80,
+          85
+        ],
+        "raw": "보호 장갑"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-159ac3b61b13906d",
+    "representative_text": "쇠구슬",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_024",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "쇠구슬"
+      },
+      {
+        "record_id": "visang_IS1_025",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "쇠구슬"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0fc2187a81a7a8f8",
+    "representative_text": "모눈종이",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_024",
+        "span": [
+          5,
+          9
+        ],
+        "raw": "모눈종이"
+      },
+      {
+        "record_id": "visang_IS1_037",
+        "span": [
+          19,
+          24
+        ],
+        "raw": "모눈종\n이"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-482bfa83793e04f2",
+    "representative_text": "우\n드록",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_024",
+        "span": [
+          11,
+          15
+        ],
+        "raw": "우\n드록"
+      },
+      {
+        "record_id": "visang_IS1_037",
+        "span": [
+          26,
+          29
+        ],
+        "raw": "우드록"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b58db8de65db2c9d",
+    "representative_text": "스프레이 접착제",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_024",
+        "span": [
+          17,
+          25
+        ],
+        "raw": "스프레이 접착제"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-8f69d7b261e49085",
+    "representative_text": "종이로 된 가상 현실(VR) 안경",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_025",
+        "span": [
+          8,
+          26
+        ],
+        "raw": "종이로 된 가상 현실(VR) 안경"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7b5d1fc441c11118",
+    "representative_text": "주사기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_026",
+        "span": [
+          12,
+          15
+        ],
+        "raw": "주사기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-9ab0e5d5dc780105",
+    "representative_text": "붉은 양파",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          0,
+          5
+        ],
+        "raw": "붉은 양파"
+      },
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          0,
+          5
+        ],
+        "raw": "붉은 양파"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-fc73229a39f791ef",
+    "representative_text": "20 % 설탕\n물",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          25,
+          34
+        ],
+        "raw": "20 % 설탕\n물"
+      },
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          45,
+          53
+        ],
+        "raw": "20 %\n설탕물"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1ec1afbf79ef79b0",
+    "representative_text": "거름종이",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          36,
+          40
+        ],
+        "raw": "거름종이"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          59,
+          63
+        ],
+        "raw": "거름종이"
+      },
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          55,
+          59
+        ],
+        "raw": "거름종이"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-217aae320db5dd84",
+    "representative_text": "스마트폰",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          61,
+          65
+        ],
+        "raw": "스마트폰"
+      },
+      {
+        "record_id": "visang_IS1_014",
+        "span": [
+          36,
+          40
+        ],
+        "raw": "스마트폰"
+      },
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          71,
+          75
+        ],
+        "raw": "스마트폰"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-98e06579a50206bb",
+    "representative_text": "스마\n트폰 촬영 거치대",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_028",
+        "span": [
+          67,
+          79
+        ],
+        "raw": "스마\n트폰 촬영 거치대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c7da960ba9f77a5d",
+    "representative_text": "시험관 세 개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          0,
+          7
+        ],
+        "raw": "시험관 세 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-58c953ba7f5c6377",
+    "representative_text": "생간 조각",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          40,
+          45
+        ],
+        "raw": "생간 조각"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          0,
+          5
+        ],
+        "raw": "생간 조각"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e9d5b4a4a6f07a1c",
+    "representative_text": "감자 조\n각",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          47,
+          53
+        ],
+        "raw": "감자 조\n각"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          7,
+          12
+        ],
+        "raw": "감자 조각"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1f1c8336cec9a392",
+    "representative_text": "향",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          63,
+          64
+        ],
+        "raw": "향"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          52,
+          53
+        ],
+        "raw": "향"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          62,
+          63
+        ],
+        "raw": "향"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-227fd460d00d7928",
+    "representative_text": "점화기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_030",
+        "span": [
+          66,
+          69
+        ],
+        "raw": "점화기"
+      },
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          59,
+          62
+        ],
+        "raw": "점화기"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          65,
+          68
+        ],
+        "raw": "점화기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-17d808de616d45e7",
+    "representative_text": "주사위 세 개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_033",
+        "span": [
+          0,
+          7
+        ],
+        "raw": "주사위 세 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-d08fd2569290f779",
+    "representative_text": "유전 암\n호 표(부록 175쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_033",
+        "span": [
+          9,
+          26
+        ],
+        "raw": "유전 암\n호 표(부록 175쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2af5aca5303fe28b",
+    "representative_text": "아미노산\n붙임딱지(부록 176쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_033",
+        "span": [
+          28,
+          46
+        ],
+        "raw": "아미노산\n붙임딱지(부록 176쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-d912062045b309d8",
+    "representative_text": "유전정\n보 카드(부록 180쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS1_033",
+        "span": [
+          48,
+          65
+        ],
+        "raw": "유전정\n보 카드(부록 180쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5e98eaff139aaceb",
+    "representative_text": "나무 이쑤시개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_003",
+        "span": [
+          0,
+          7
+        ],
+        "raw": "나무 이쑤시개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b5fe4a48dd1cf846",
+    "representative_text": "녹말\n이쑤시개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_003",
+        "span": [
+          9,
+          16
+        ],
+        "raw": "녹말\n이쑤시개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-cef8c8acfae6b8cb",
+    "representative_text": "황갈색 종이 한 장",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_003",
+        "span": [
+          18,
+          28
+        ],
+        "raw": "황갈색 종이 한 장"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-6cb786bdf70a206f",
+    "representative_text": "녹색 종이 한 장",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_003",
+        "span": [
+          30,
+          39
+        ],
+        "raw": "녹색 종이 한 장"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b2c07674d8ac314c",
+    "representative_text": "포장용 에어\n캡",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_003",
+        "span": [
+          41,
+          49
+        ],
+        "raw": "포장용 에어\n캡"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-be16643f33e4396c",
+    "representative_text": "구리\n줄",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_007",
+        "span": [
+          10,
+          14
+        ],
+        "raw": "구리\n줄"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c1dc564bd46758af",
+    "representative_text": "사포",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_007",
+        "span": [
+          24,
+          26
+        ],
+        "raw": "사포"
+      },
+      {
+        "record_id": "chunjae_IS2_019",
+        "span": [
+          57,
+          59
+        ],
+        "raw": "사포"
+      },
+      {
+        "record_id": "visang_IS2_030",
+        "span": [
+          39,
+          42
+        ],
+        "raw": "사\n포"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-bd9ac6f8091b80b0",
+    "representative_text": "아세트산\n수용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          7,
+          15
+        ],
+        "raw": "아세트산\n수용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-155f24b30e035d51",
+    "representative_text": "수산화 나트륨 수용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          17,
+          28
+        ],
+        "raw": "수산화 나트륨 수용액"
+      },
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          16,
+          28
+        ],
+        "raw": "수산화 나\n트륨 수용액"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          7,
+          18
+        ],
+        "raw": "수산화 나트륨 수용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-adf06b7f94ec32e3",
+    "representative_text": "수산화 칼륨 수용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          30,
+          40
+        ],
+        "raw": "수산화 칼륨 수용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-fe7c9961c118f5bb",
+    "representative_text": "탄산 칼\n슘",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          42,
+          48
+        ],
+        "raw": "탄산 칼\n슘"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1ef8315aab531e30",
+    "representative_text": "마그네슘 조각",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          50,
+          57
+        ],
+        "raw": "마그네슘 조각"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-3b1eddf75bb863c1",
+    "representative_text": "두부",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          59,
+          61
+        ],
+        "raw": "두부"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-77b99b11566a8606",
+    "representative_text": "12홈\n판",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          63,
+          68
+        ],
+        "raw": "12홈\n판"
+      },
+      {
+        "record_id": "chunjae_IS2_025",
+        "span": [
+          6,
+          10
+        ],
+        "raw": "12홈판"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-9a3cff9756d2dcd3",
+    "representative_text": "실험판(부록 173쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_008",
+        "span": [
+          70,
+          82
+        ],
+        "raw": "실험판(부록 173쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5a1735e750e08af9",
+    "representative_text": "농도와 온도가 같은\n묽은 염산과 수산화 나트륨 수\n용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          0,
+          30
+        ],
+        "raw": "농도와 온도가 같은\n묽은 염산과 수산화 나트륨 수\n용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f7ee3431b024dab2",
+    "representative_text": "눈금실린더",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          52,
+          57
+        ],
+        "raw": "눈금실린더"
+      },
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          47,
+          52
+        ],
+        "raw": "눈금실린더"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a9cc6907a48a9809",
+    "representative_text": "실험판(부록\n174쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          75,
+          87
+        ],
+        "raw": "실험판(부록\n174쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5e17ba6966243fd4",
+    "representative_text": "디지털 기기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_009",
+        "span": [
+          89,
+          95
+        ],
+        "raw": "디지털 기기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f9fd5879e0df785f",
+    "representative_text": "산화 칼슘",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          3,
+          8
+        ],
+        "raw": "산화 칼슘"
+      },
+      {
+        "record_id": "visang_IS2_016",
+        "span": [
+          3,
+          8
+        ],
+        "raw": "산화 칼슘"
+      },
+      {
+        "record_id": "donga_IS2_014",
+        "span": [
+          11,
+          16
+        ],
+        "raw": "산화 칼슘"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2c4f2b1864540f30",
+    "representative_text": "온도계",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          35,
+          38
+        ],
+        "raw": "온도계"
+      },
+      {
+        "record_id": "chunjae_IS2_013",
+        "span": [
+          8,
+          11
+        ],
+        "raw": "온도계"
+      },
+      {
+        "record_id": "visang_IS2_016",
+        "span": [
+          10,
+          13
+        ],
+        "raw": "온도계"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b10a52ae4ef45a98",
+    "representative_text": "음식 조리 도구",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          40,
+          48
+        ],
+        "raw": "음식 조리 도구"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-3c7953a371d752d4",
+    "representative_text": "조리에 사용할 음식",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          50,
+          60
+        ],
+        "raw": "조리에 사용할 음식"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0491a2c2bdff68e3",
+    "representative_text": "마스크",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_011",
+        "span": [
+          62,
+          65
+        ],
+        "raw": "마스크"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0b8d7408d10d3603",
+    "representative_text": "줄자",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_013",
+        "span": [
+          13,
+          15
+        ],
+        "raw": "줄자"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7598b52c8c63171e",
+    "representative_text": "생물 도감",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_013",
+        "span": [
+          17,
+          22
+        ],
+        "raw": "생물 도감"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-d75c0d9a38aa6a15",
+    "representative_text": "집게 달린 전선 두 개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_018",
+        "span": [
+          16,
+          28
+        ],
+        "raw": "집게 달린 전선 두 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f2f86d53f8f4d113",
+    "representative_text": "빈 테이프 통",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_019",
+        "span": [
+          0,
+          7
+        ],
+        "raw": "빈 테이프 통"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-70f88d5a02fee0a6",
+    "representative_text": "에나멜\n선",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_019",
+        "span": [
+          9,
+          14
+        ],
+        "raw": "에나멜\n선"
+      },
+      {
+        "record_id": "visang_IS2_030",
+        "span": [
+          18,
+          23
+        ],
+        "raw": "에\n나멜선"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e19a26a676d4e000",
+    "representative_text": "발광 다이\n오드(LED)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_019",
+        "span": [
+          25,
+          38
+        ],
+        "raw": "발광 다이\n오드(LED)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c21894e33ad2568c",
+    "representative_text": "나무젓가락",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_019",
+        "span": [
+          40,
+          45
+        ],
+        "raw": "나무젓가락"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-fb65d58ad09911d2",
+    "representative_text": "클립",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_019",
+        "span": [
+          53,
+          55
+        ],
+        "raw": "클립"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-865794948e507930",
+    "representative_text": "모의\n항체",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_025",
+        "span": [
+          12,
+          17
+        ],
+        "raw": "모의\n항체"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-3aca1856f86726d2",
+    "representative_text": "모의 대조군(양성, 음성)\n검체",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_025",
+        "span": [
+          19,
+          36
+        ],
+        "raw": "모의 대조군(양성, 음성)\n검체"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-ddbac356ffa3f8e7",
+    "representative_text": "모의 환자 검체 두 개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_025",
+        "span": [
+          38,
+          50
+        ],
+        "raw": "모의 환자 검체 두 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-32c2f2cc0bac4b6a",
+    "representative_text": "노트북",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_027",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "노트북"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-4a6924f795cd51ff",
+    "representative_text": "마이크로컨트\n롤러",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_027",
+        "span": [
+          5,
+          14
+        ],
+        "raw": "마이크로컨트\n롤러"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2d3b8b186d30af63",
+    "representative_text": "브레드보드",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_027",
+        "span": [
+          16,
+          21
+        ],
+        "raw": "브레드보드"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5e3b8a131f7c5e28",
+    "representative_text": "점퍼 케이블",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_027",
+        "span": [
+          23,
+          29
+        ],
+        "raw": "점퍼 케이블"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-542bd42831d471b5",
+    "representative_text": "이산화 탄소 센서",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "chunjae_IS2_027",
+        "span": [
+          31,
+          40
+        ],
+        "raw": "이산화 탄소 센서"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7aa3ba6000fb7769",
+    "representative_text": "컵",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS1_007",
+        "span": [
+          9,
+          10
+        ],
+        "raw": "컵"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-ecae929c83ab556e",
+    "representative_text": "헬륨 방\n전관",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS1_014",
+        "span": [
+          16,
+          23
+        ],
+        "raw": "헬륨 방\n전관"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1b2aea0f40d4c984",
+    "representative_text": "부록 157 쪽 활동 카드",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS1_017",
+        "span": [
+          0,
+          14
+        ],
+        "raw": "부록 157 쪽 활동 카드"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-4b134b9e431490c3",
+    "representative_text": "전\n기 전도성 측정기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS1_023",
+        "span": [
+          43,
+          54
+        ],
+        "raw": "전\n기 전도성 측정기"
+      },
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          70,
+          80
+        ],
+        "raw": "전기 전도성 측정기"
+      },
+      {
+        "record_id": "donga_IS1_014",
+        "span": [
+          23,
+          34
+        ],
+        "raw": "전\n기 전도성 측정기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a29b75a4727e9321",
+    "representative_text": "자석으로 된 막대",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS1_025",
+        "span": [
+          5,
+          14
+        ],
+        "raw": "자석으로 된 막대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-84480807b4750f8a",
+    "representative_text": "부록 161 쪽 뉴클레오타이드 모\n형",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS1_026",
+        "span": [
+          0,
+          20
+        ],
+        "raw": "부록 161 쪽 뉴클레오타이드 모\n형"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2d0d792cb75e1f00",
+    "representative_text": "30 cm 자",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS1_037",
+        "span": [
+          0,
+          7
+        ],
+        "raw": "30 cm 자"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2f16fb31050c3b3b",
+    "representative_text": "원형 나무 도막",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS1_037",
+        "span": [
+          9,
+          17
+        ],
+        "raw": "원형 나무 도막"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c43cad4027c54477",
+    "representative_text": "0.9 % 소금물",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          5,
+          14
+        ],
+        "raw": "0.9 % 소금물"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-9aa4bb1b8860360e",
+    "representative_text": "현미경 스마트폰 촬\n영 거치대",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS1_044",
+        "span": [
+          77,
+          93
+        ],
+        "raw": "현미경 스마트폰 촬\n영 거치대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-f757d3e41ef3804b",
+    "representative_text": "시험관",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS1_045",
+        "span": [
+          27,
+          30
+        ],
+        "raw": "시험관"
+      },
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "시험관"
+      },
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          22,
+          26
+        ],
+        "raw": "시험\n관"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-6ad773b0110d2cd8",
+    "representative_text": "네 가지 색 뻥튀기 과자(빨간색, 주\n황색, 노란색, 초록색)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_005",
+        "span": [
+          0,
+          34
+        ],
+        "raw": "네 가지 색 뻥튀기 과자(빨간색, 주\n황색, 노란색, 초록색)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1b0d718cb83fff19",
+    "representative_text": "두 가지 색\n도화지(빨간색, 초록색)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_005",
+        "span": [
+          36,
+          56
+        ],
+        "raw": "두 가지 색\n도화지(빨간색, 초록색)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1ef1082ff887adb0",
+    "representative_text": "젓가락",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_005",
+        "span": [
+          58,
+          61
+        ],
+        "raw": "젓가락"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c566ca8515a3251c",
+    "representative_text": "레몬즙",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          7,
+          10
+        ],
+        "raw": "레몬즙"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c74ebaef4a5f2177",
+    "representative_text": "식초",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          12,
+          14
+        ],
+        "raw": "식초"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-ff254fa75d57493a",
+    "representative_text": "제빵 소다 수용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          30,
+          39
+        ],
+        "raw": "제빵 소다 수용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-ba332571667e7d97",
+    "representative_text": "하\n수구 세정제",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          41,
+          49
+        ],
+        "raw": "하\n수구 세정제"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-4901e15a7f151e46",
+    "representative_text": "푸\n른색 리트머스 종이",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          82,
+          94
+        ],
+        "raw": "푸\n른색 리트머스 종이"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c122b7d2be6becd7",
+    "representative_text": "붉은색 리트머\n스 종이",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          96,
+          108
+        ],
+        "raw": "붉은색 리트머\n스 종이"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-38ba1a4eb2ebd7e1",
+    "representative_text": "마그네슘 리본",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          110,
+          117
+        ],
+        "raw": "마그네슘 리본"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2cce2d7cf19fe28e",
+    "representative_text": "24 홈판",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_011",
+        "span": [
+          119,
+          124
+        ],
+        "raw": "24 홈판"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-ec42440b8257244e",
+    "representative_text": "블루투스 온\n도계",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_012",
+        "span": [
+          54,
+          63
+        ],
+        "raw": "블루투스 온\n도계"
+      },
+      {
+        "record_id": "visang_IS2_023",
+        "span": [
+          49,
+          57
+        ],
+        "raw": "블루투스 온도계"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2401936ee0182053",
+    "representative_text": "모둠별 준비\n물",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_016",
+        "span": [
+          15,
+          23
+        ],
+        "raw": "모둠별 준비\n물"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-938945315aac0b61",
+    "representative_text": "발포 바이타민",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_023",
+        "span": [
+          0,
+          7
+        ],
+        "raw": "발포 바이타민"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-3a455cc85807da7a",
+    "representative_text": "투명 페트병",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_023",
+        "span": [
+          12,
+          18
+        ],
+        "raw": "투명 페트병"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5311d0a96a0835a1",
+    "representative_text": "구\n멍 뚫린 고무마개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_023",
+        "span": [
+          20,
+          31
+        ],
+        "raw": "구\n멍 뚫린 고무마개"
+      },
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          42,
+          53
+        ],
+        "raw": "구멍 뚫린 고\n무마개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e3617abe8c988fb2",
+    "representative_text": "전등(150 W 열\n전구)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_023",
+        "span": [
+          33,
+          47
+        ],
+        "raw": "전등(150 W 열\n전구)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-bb221698281de52d",
+    "representative_text": "파라 필름",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_023",
+        "span": [
+          68,
+          73
+        ],
+        "raw": "파라 필름"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-58bc2ee0eb7ec627",
+    "representative_text": "발광 다이오드",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_030",
+        "span": [
+          9,
+          16
+        ],
+        "raw": "발광 다이오드"
+      },
+      {
+        "record_id": "donga_IS2_028",
+        "span": [
+          5,
+          12
+        ],
+        "raw": "발광 다이오드"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-48e84cd076d5c07a",
+    "representative_text": "ㄱ자 막대",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_030",
+        "span": [
+          25,
+          30
+        ],
+        "raw": "ㄱ자 막대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-29c461e192e13ec9",
+    "representative_text": "하드보드지",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_030",
+        "span": [
+          32,
+          37
+        ],
+        "raw": "하드보드지"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-20d22265af760255",
+    "representative_text": "누름 못",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_030",
+        "span": [
+          44,
+          48
+        ],
+        "raw": "누름 못"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c2b258841c4014a8",
+    "representative_text": "표준 시료 1(음성 표준\n시료)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          7,
+          24
+        ],
+        "raw": "표준 시료 1(음성 표준\n시료)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-35ad73c9c4a042a1",
+    "representative_text": "표준 시료 2(양성 표준 시\n료)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          26,
+          44
+        ],
+        "raw": "표준 시료 2(양성 표준 시\n료)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-09d5c0558eb41ce6",
+    "representative_text": "사람 1의 검체",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          46,
+          54
+        ],
+        "raw": "사람 1의 검체"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2c49172a8ffbdc8d",
+    "representative_text": "사람 2의 검체",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          56,
+          64
+        ],
+        "raw": "사람 2의 검체"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-d981db5d345f0d57",
+    "representative_text": "진단 반응 시약",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_037",
+        "span": [
+          73,
+          81
+        ],
+        "raw": "진단 반응 시약"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2aff64d9da851b55",
+    "representative_text": "미세 먼지 농도 측정 도구",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "visang_IS2_040",
+        "span": [
+          0,
+          14
+        ],
+        "raw": "미세 먼지 농도 측정 도구"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-3d91b1cd496d478f",
+    "representative_text": "레이저 거리 측정기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_004",
+        "span": [
+          8,
+          18
+        ],
+        "raw": "레이저 거리 측정기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-dbbf5a8fdca3e092",
+    "representative_text": "여러 기체의 방전관",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_009",
+        "span": [
+          8,
+          18
+        ],
+        "raw": "여러 기체의 방전관"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-caa144a1473db1bf",
+    "representative_text": "절연 장갑",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_009",
+        "span": [
+          51,
+          56
+        ],
+        "raw": "절연 장갑"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-85da20bab5d5dcc8",
+    "representative_text": "테이프",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_015",
+        "span": [
+          4,
+          7
+        ],
+        "raw": "테이프"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-99f88f0aac7c04e3",
+    "representative_text": "빵 끈",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_015",
+        "span": [
+          9,
+          12
+        ],
+        "raw": "빵 끈"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-44bb0d3704679823",
+    "representative_text": "Si-O 사면체 전개도(부록 163 쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_015",
+        "span": [
+          14,
+          36
+        ],
+        "raw": "Si-O 사면체 전개도(부록 163 쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-88b719db789a6a81",
+    "representative_text": "DNA 모형 도안(부록 165 쪽)",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_016",
+        "span": [
+          0,
+          19
+        ],
+        "raw": "DNA 모형 도안(부록 165 쪽)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-bb003394f5f694de",
+    "representative_text": "장갑",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_016",
+        "span": [
+          28,
+          30
+        ],
+        "raw": "장갑"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-ea3363d373804b6c",
+    "representative_text": "붙임쪽지",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_020",
+        "span": [
+          8,
+          12
+        ],
+        "raw": "붙임쪽지"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c130b6978602b31b",
+    "representative_text": "가상 현실 기기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_023",
+        "span": [
+          0,
+          8
+        ],
+        "raw": "가상 현실 기기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-81f5686ee2b2c4c3",
+    "representative_text": "검은색 배경의 모눈종이",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_024",
+        "span": [
+          0,
+          12
+        ],
+        "raw": "검은색 배경의 모눈종이"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-58788ed34f4e61ff",
+    "representative_text": "쇠구슬 발사\n장치",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_024",
+        "span": [
+          14,
+          23
+        ],
+        "raw": "쇠구슬 발사\n장치"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-449714ba61ed414c",
+    "representative_text": "스펀지",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_024",
+        "span": [
+          34,
+          37
+        ],
+        "raw": "스펀지"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a55ac1242709850d",
+    "representative_text": "쇠구슬 2\n개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_024",
+        "span": [
+          39,
+          46
+        ],
+        "raw": "쇠구슬 2\n개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-909d1feffa50c351",
+    "representative_text": "다중 섬광 사진 앱이 있거나 다중\n노출 촬영이 가능한 스마트 기기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_024",
+        "span": [
+          48,
+          84
+        ],
+        "raw": "다중 섬광 사진 앱이 있거나 다중\n노출 촬영이 가능한 스마트 기기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-62b41b5aaec6fef4",
+    "representative_text": "카드",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_025",
+        "span": [
+          8,
+          10
+        ],
+        "raw": "카드"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-cde4842b8ab41342",
+    "representative_text": "동전",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_025",
+        "span": [
+          12,
+          14
+        ],
+        "raw": "동전"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-752bd8ef387fd064",
+    "representative_text": "굵은 철사",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_025",
+        "span": [
+          16,
+          21
+        ],
+        "raw": "굵은 철사"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-55d85821eedfe778",
+    "representative_text": "공\n2 개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_025",
+        "span": [
+          23,
+          28
+        ],
+        "raw": "공\n2 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-8ff1e7fb0b8a7fd2",
+    "representative_text": "식탁보",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_025",
+        "span": [
+          30,
+          33
+        ],
+        "raw": "식탁보"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-58aa64f3864baf6c",
+    "representative_text": "무거운 컵과 접시 여러 개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_025",
+        "span": [
+          35,
+          49
+        ],
+        "raw": "무거운 컵과 접시 여러 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a04b3428a5adaa1e",
+    "representative_text": "주름이 있는 빨대",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_026",
+        "span": [
+          4,
+          13
+        ],
+        "raw": "주름이 있는 빨대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-255ec0fd2c4a281d",
+    "representative_text": "안전 면도날",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          7,
+          13
+        ],
+        "raw": "안전 면도날"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-207541763be799cf",
+    "representative_text": "광학 현미경",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_028",
+        "span": [
+          61,
+          67
+        ],
+        "raw": "광학 현미경"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7876342164eeb907",
+    "representative_text": "날감자",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          31,
+          34
+        ],
+        "raw": "날감자"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-31d616083c5502d9",
+    "representative_text": "삶은 감자",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          36,
+          41
+        ],
+        "raw": "삶은 감자"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5f25cdce1eda97f9",
+    "representative_text": "도마",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS1_030",
+        "span": [
+          43,
+          45
+        ],
+        "raw": "도마"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-0f0643d9946b1d57",
+    "representative_text": "흰색 도화지",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_004",
+        "span": [
+          0,
+          6
+        ],
+        "raw": "흰색 도화지"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-6f17aa3609705e16",
+    "representative_text": "네 가지 색(빨간색, 파란\n색, 노란색, 흰색)의 털실 구슬 여러 개",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_004",
+        "span": [
+          8,
+          46
+        ],
+        "raw": "네 가지 색(빨간색, 파란\n색, 노란색, 흰색)의 털실 구슬 여러 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-31ebefafa3cbd4a6",
+    "representative_text": "산화 구리(Ⅱ)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          0,
+          8
+        ],
+        "raw": "산화 구리(Ⅱ)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-657d8a3b0540168e",
+    "representative_text": "탄소 가루",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          10,
+          15
+        ],
+        "raw": "탄소 가루"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-9b931d55037f91d4",
+    "representative_text": "석회수",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          17,
+          20
+        ],
+        "raw": "석회수"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-eb29fac245a0766b",
+    "representative_text": "유리관",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          32,
+          35
+        ],
+        "raw": "유리관"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-5e69d6c3650ed92b",
+    "representative_text": "고무관",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          37,
+          40
+        ],
+        "raw": "고무관"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-db723823dcecc673",
+    "representative_text": "가열 장치",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          64,
+          69
+        ],
+        "raw": "가열 장치"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-eb42fe1a6db15328",
+    "representative_text": "시약포지",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_008",
+        "span": [
+          84,
+          88
+        ],
+        "raw": "시약포지"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1178549d4a71f3f0",
+    "representative_text": "같은 농도의 염산과 수산화 나트륨 수\n용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          0,
+          23
+        ],
+        "raw": "같은 농도의 염산과 수산화 나트륨 수\n용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-217f4996f517b194",
+    "representative_text": "자석 젓개 막\n대",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          36,
+          45
+        ],
+        "raw": "자석 젓개 막\n대"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-8ca967789342f944",
+    "representative_text": "뷰렛 집게",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          60,
+          65
+        ],
+        "raw": "뷰렛 집게"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-d546ee0a14f79f8e",
+    "representative_text": "뷰\n렛",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          67,
+          70
+        ],
+        "raw": "뷰\n렛"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-27d1af10cb90ffc8",
+    "representative_text": "깔때기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          72,
+          75
+        ],
+        "raw": "깔때기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-a88ebe966175280a",
+    "representative_text": "교반기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          77,
+          80
+        ],
+        "raw": "교반기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-dbc10f6fce369491",
+    "representative_text": "무선 온도 센서",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_011",
+        "span": [
+          82,
+          90
+        ],
+        "raw": "무선 온도 센서"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-8ab325419da133fe",
+    "representative_text": "조리할\n음식",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_014",
+        "span": [
+          18,
+          24
+        ],
+        "raw": "조리할\n음식"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-c9491d87b5de936d",
+    "representative_text": "네오디뮴 자석 여러 개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_027",
+        "span": [
+          4,
+          16
+        ],
+        "raw": "네오디뮴 자석 여러 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7ae80544c76979af",
+    "representative_text": "발광 다\n이오드 2 개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_027",
+        "span": [
+          18,
+          30
+        ],
+        "raw": "발광 다\n이오드 2 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-6b8e6d6964d82538",
+    "representative_text": "연결 단자 2 개",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_027",
+        "span": [
+          32,
+          41
+        ],
+        "raw": "연결 단자 2 개"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e7c7e2510c9d3119",
+    "representative_text": "전동기",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_028",
+        "span": [
+          0,
+          3
+        ],
+        "raw": "전동기"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-b37c64cf0960ff6d",
+    "representative_text": "나만의 간이 발\n전기 만들기 재료",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_028",
+        "span": [
+          14,
+          32
+        ],
+        "raw": "나만의 간이 발\n전기 만들기 재료"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-7ce5bb09a4a45a39",
+    "representative_text": "8 홈판",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_035",
+        "span": [
+          0,
+          4
+        ],
+        "raw": "8 홈판"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-6dfc4a7e4483cf10",
+    "representative_text": "모의 항체 용액",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_035",
+        "span": [
+          11,
+          19
+        ],
+        "raw": "모의 항체 용액"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-e9c3e58438e952e2",
+    "representative_text": "감염병 모의 시료(대조군, 모의 환\n자 ①, ②)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_035",
+        "span": [
+          28,
+          55
+        ],
+        "raw": "감염병 모의 시료(대조군, 모의 환\n자 ①, ②)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-d88f9fa6ad325374",
+    "representative_text": "검출 시약(①, ②)",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_035",
+        "span": [
+          57,
+          68
+        ],
+        "raw": "검출 시약(①, ②)"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-2091a50e73840a16",
+    "representative_text": "미세먼지 센서",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_037",
+        "span": [
+          0,
+          7
+        ],
+        "raw": "미세먼지 센서"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-fa843a83b3db460a",
+    "representative_text": "마이크로컨트롤러가\n포함된 센서 보드",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_037",
+        "span": [
+          9,
+          28
+        ],
+        "raw": "마이크로컨트롤러가\n포함된 센서 보드"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-731d8b3a81f660ac",
+    "representative_text": "확장\n기판",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_037",
+        "span": [
+          38,
+          43
+        ],
+        "raw": "확장\n기판"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-09095493431a676a",
+    "representative_text": "삼색 연결선",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_037",
+        "span": [
+          45,
+          51
+        ],
+        "raw": "삼색 연결선"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-1c04da4f21beac27",
+    "representative_text": "전지",
+    "category": "실험 준비물",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_037",
+        "span": [
+          62,
+          64
+        ],
+        "raw": "전지"
+      }
+    ]
+  },
+  {
+    "item_id": "ITEM-3e6a4bbbae4e1c49",
+    "representative_text": "전지 상자",
+    "category": "실험 기자재",
+    "occurrences": [
+      {
+        "record_id": "donga_IS2_037",
+        "span": [
+          66,
+          71
+        ],
+        "raw": "전지 상자"
+      }
+    ]
+  }
+]

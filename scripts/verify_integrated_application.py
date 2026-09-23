@@ -27,6 +27,8 @@ PUBLIC = ROOT / "site/dist/data"
 REPORT = ROOT / "output/validation/integrated-site-20260923/data-validation.json"
 UNIT_HISTORY = COMBINED_DIR / "decision_history/20260923-units"
 UNIT_REPORT = ROOT / "output/validation/unit-normalization-20260923/data-validation.json"
+CLASSIFICATION_HISTORY = COMBINED_DIR / "decision_history/20260923-high-classification"
+CLASSIFICATION_REPORT = ROOT / "output/validation/high-classification-20260923/data-validation.json"
 MIDDLE_ADDITIONS = {"grade_key", "school_level", "grade_label", "achievement_ids"}
 PUBLIC_ACTIVITY_KEYS = {
     "id", "source_row", "achievement_id", "achievement_ids", "textbook_id",
@@ -44,7 +46,7 @@ FORBIDDEN_PUBLIC_KEYS = {
     "standard_mapping", "standard_evidence", "activity_evidence", "title_quote",
     "supplies_quote", "standard_quote", "review_notes", "review_note", "rationale",
     "mapping_method", "candidate_codes", "verification_status", "title_bbox",
-    "supplies_bbox", "evidence", "성취기준 연결", "준비물 분류", "판단출처",
+    "supplies_bbox", "evidence", "성취기준 연결", "준비물 분류", "준비물 분류 비항목", "판단출처",
 }
 
 
@@ -175,6 +177,141 @@ def verify_units(live, activities, check, counts, live_hash=None):
     return prior, prior_public, prior_hash
 
 
+def verify_high_classification(live, activities, check, counts, live_hash):
+    """Validate classification on current rows before unwinding older stages."""
+    history = CLASSIFICATION_HISTORY
+    review = HIGH_DIR / "preparation_classification"
+    manifest_names = ["miraen_jihaksa", "chunjae", "visang_donga"]
+    required = [history / COMBINED.name, history / "public-activities.json",
+                history / "application.json", COMBINED_DIR / "preparation_item_catalogue.json"]
+    required += [review / f"{name}.json" for name in manifest_names]
+    missing = [str(path.relative_to(ROOT)) for path in required if not path.is_file()]
+    check("classification_required_history_and_manifests_exist", not missing, missing)
+    if missing:
+        return None
+    prior = read_json(history / COMBINED.name)
+    prior_public = read_json(history / "public-activities.json")
+    application = read_json(history / "application.json")
+    meta = live["metadata"]["high_preparation_classification"]
+    prior_hash = file_hash(history / COMBINED.name)
+    check("classification_stage_hash_chain", prior_hash == meta.get("snapshot_sha256")
+          == application.get("before_sha256") and live_hash == application.get("output_sha256")
+          and meta.get("snapshot") == (history / COMBINED.name).relative_to(ROOT).as_posix()
+          and application.get("status") == "passed")
+    manifests = [row for name in manifest_names for row in read_json(review / f"{name}.json")["records"]]
+    manifest_by_id = {row["record_id"]: row for row in manifests}
+    check("classification_review_manifest_hashes", application.get("manifest_sha256") == {
+        name: file_hash(review / f"{name}.json") for name in manifest_names})
+    current = {row["id"]: row for row in live["data"]}
+    public = {row["id"]: row for row in activities}
+    old_public = {row["id"]: row for row in prior_public}
+    high_ids = {row["id"] for row in prior["data"] if row.get("학교급") == "고등학교"}
+    check("classification_ids_order_and_exact_414_high_scope", len(prior["data"]) == len(live["data"]) == 1276
+          and len(current) == len(public) == 1276 and len(high_ids) == len(manifests) == len(manifest_by_id) == 414
+          and set(manifest_by_id) == high_ids
+          and [row["id"] for row in prior["data"]] == [row["id"] for row in live["data"]]
+          == [row["id"] for row in activities] == [row["id"] for row in prior_public])
+    categories = ["실험 기자재", "실험 준비물"]
+    allowed_fields = set(categories + ["분류 보류", "준비물 분류", "준비물 표시 방식", "준비물 분류 비항목"])
+    allowed_public = {"equipment", "supplies", "material_classification_pending"}
+    field_errors, span_errors, partition_errors, public_errors, catalogue_errors = [], [], [], [], []
+    totals, unique = Counter(), {}
+    null_count, text_count, nonitem_count = 0, 0, 0
+    old_catalogue = {name_key(text): item for item in read_json(COMBINED_DIR / "preparation_item_catalogue.json")["items"]
+                     for text in item.get("raw_variants", [item["representative_text"]])}
+    for original in prior["data"]:
+        rid = original["id"]
+        row, exposed, old_exposed = current.get(rid, {}), public.get(rid, {}), old_public.get(rid, {})
+        if rid not in high_ids:
+            if row != original or exposed != old_exposed:
+                field_errors.append({"id": rid, "error": "middle_row_changed"})
+            continue
+        if ({key: value for key, value in row.items() if key not in allowed_fields}
+                != {key: value for key, value in original.items() if key not in allowed_fields}
+                or {key: value for key, value in exposed.items() if key not in allowed_public}
+                != {key: value for key, value in old_exposed.items() if key not in allowed_public}):
+            field_errors.append({"id": rid, "error": "nonclassification_field_changed"})
+        if row.get("준비물 표시 방식") != "분류" or exposed.get("material_classification_pending") is not False:
+            public_errors.append({"id": rid, "error": "display_mode_or_pending_flag"})
+        raw = original["교구"]
+        manifest = manifest_by_id.get(rid, {})
+        if raw is None:
+            null_count += 1
+            if (manifest.get("items", "missing") is not None or manifest.get("non_items")
+                    or any(row.get(key, "missing") is not None for key in categories + ["분류 보류", "준비물 분류"])
+                    or row.get("준비물 분류 비항목") or exposed.get("equipment", "missing") is not None
+                    or exposed.get("supplies", "missing") is not None):
+                partition_errors.append({"id": rid, "error": "null_source_was_classified"})
+            continue
+        text_count += 1
+        items = row.get("준비물 분류")
+        nonitems = row.get("준비물 분류 비항목", [])
+        if not isinstance(items, list) or not items or not isinstance(nonitems, list):
+            partition_errors.append({"id": rid, "error": "missing_item_array"})
+            continue
+        used, expected_manifest = set(), []
+        parts = [{"raw": item.get("원문"), "span": item.get("원문_범위")} for item in items] + nonitems
+        for part in parts:
+            span = part.get("span")
+            valid = (isinstance(span, list) and len(span) == 2 and all(type(n) is int for n in span)
+                     and 0 <= span[0] < span[1] <= len(raw))
+            if not valid:
+                span_errors.append({"id": rid, "error": "invalid_span", "span": span})
+                continue
+            start, end = span
+            if part.get("raw") != raw[start:end] or used.intersection(range(start, end)):
+                span_errors.append({"id": rid, "error": "changed_raw_or_overlapping_span", "span": span})
+            used.update(range(start, end))
+        if any(not char.isspace() and char not in ",，□☐•" for index, char in enumerate(raw) if index not in used):
+            span_errors.append({"id": rid, "error": "uncovered_nonseparator_text"})
+        for item in items:
+            category, text = item.get("분류"), item.get("원문")
+            if category not in categories or not isinstance(text, str):
+                partition_errors.append({"id": rid, "error": "invalid_or_pending_category"})
+                continue
+            key = name_key(text)
+            iid = "ITEM-" + hashlib.sha256(key.encode("utf-8")).hexdigest()[:16]
+            if item.get("item_id") != iid or (key in unique and unique[key] != category):
+                catalogue_errors.append({"id": rid, "raw": text, "error": "item_id_or_category_inconsistent"})
+            old_item = old_catalogue.get(key)
+            if old_item and old_item["category"] != category:
+                catalogue_errors.append({"id": rid, "raw": text, "error": "existing_catalogue_decision_changed"})
+            unique[key] = category
+            totals[category] += 1
+            expected_manifest.append({"raw": text, "span": item.get("원문_범위"), "category": category,
+                                      "reason": item.get("근거"), "decision_source": item.get("판단출처")})
+        if (expected_manifest != manifest.get("items") or nonitems != manifest.get("non_items", [])
+                or any(not entry.get("reason") for entry in nonitems)):
+            partition_errors.append({"id": rid, "error": "review_manifest_or_nonitem_evidence_mismatch"})
+        nonitem_count += len(nonitems)
+        if row.get("분류 보류") != [] or any(row.get(category) != [i["원문"] for i in items if i.get("분류") == category] for category in categories):
+            partition_errors.append({"id": rid, "error": "category_partition_mismatch"})
+        if exposed.get("equipment") != row.get("실험 기자재") or exposed.get("supplies") != row.get("실험 준비물"):
+            public_errors.append({"id": rid, "error": "public_classification_not_exact"})
+    check("classification_middle_862_and_all_nonclassification_fields_unchanged", not field_errors, field_errors)
+    check("classification_exact_disjoint_spans_cover_all_nonseparator_text", not span_errors, span_errors)
+    check("classification_partition_nulls_and_review_manifest_match", not partition_errors, partition_errors)
+    check("classification_public_equipment_supplies_and_flags_match", not public_errors, public_errors)
+    check("classification_existing_catalogue_and_item_id_consistency", not catalogue_errors, catalogue_errors)
+    previous_metadata = prior["metadata"]
+    current_metadata = {key: value for key, value in live["metadata"].items() if key != "high_preparation_classification"}
+    current_metadata["preparation_classification"] = dict(current_metadata.get("preparation_classification", {}))
+    current_metadata["preparation_classification"]["scope"] = previous_metadata["preparation_classification"].get("scope")
+    check("classification_only_authorized_metadata_changed", current_metadata == previous_metadata
+          and {key: value for key, value in live.items() if key not in {"data", "metadata"}}
+          == {key: value for key, value in prior.items() if key not in {"data", "metadata"}})
+    check("classification_statistics_match_all_414_records", text_count == 238 and null_count == 176
+          and meta.get("record_count") == application.get("classified_high") == 414
+          and meta.get("with_preparation_text") == application.get("with_preparation_text") == text_count
+          and meta.get("without_preparation_text") == application.get("without_preparation_text") == null_count
+          and meta.get("item_occurrences") == application.get("item_occurrences") == dict(totals)
+          and meta.get("unique_item_count") == application.get("unique_items") == len(unique))
+    counts.update(classified_high_records=414, classified_high_with_text=text_count,
+                  classified_high_without_text=null_count, classified_high_item_occurrences=dict(totals),
+                  classified_high_unique_items=len(unique), classified_high_nonitem_entries=nonitem_count)
+    return prior, prior_public, prior_hash
+
+
 def main():
     checks = []
     counts = {}
@@ -226,9 +363,18 @@ def main():
     live_public = public.copy()
     active_count = len(combined['data'])
     integration_output_hash = file_hash(COMBINED)
+    classified_high = "high_preparation_classification" in combined["metadata"]
+    if classified_high:
+        report_path = CLASSIFICATION_REPORT
+        context = verify_high_classification(combined, public["activities"], check, counts, integration_output_hash)
+        if context is None:
+            return finish()
+        combined, public["activities"], integration_output_hash = context
+        counts["classification_preservation_basis"] = "현재 1,276행을 분류 전 스냅샷과 대조한 뒤 부록 제거·단원 정규화·최초 통합 이력을 역순 검증"
     removed_appendix = 'appendix_removal' in combined['metadata']
     if removed_appendix:
-        report_path = ROOT/'output/validation/remove-appendix-20260923/data-validation.json'
+        if not classified_high:
+            report_path = ROOT/'output/validation/remove-appendix-20260923/data-validation.json'
         history=COMBINED_DIR/'decision_history/20260923-remove-appendix'
         prior=read_json(history/COMBINED.name); prior_public=read_json(history/'public-activities.json')
         decision=read_json(history/'application.json'); excluded={'donga_IS2_045'}
@@ -242,11 +388,11 @@ def main():
         check('appendix_counts_and_preservation_chain',combined['metadata']['record_count']==1276
               and combined['metadata']['integrated_science']['activities']==414
               and file_hash(history/COMBINED.name)==decision['before_sha256']==combined['metadata']['appendix_removal']['snapshot_sha256']
-              and file_hash(COMBINED)==decision['output_sha256'])
+              and integration_output_hash==decision['output_sha256'])
         combined=prior;public['activities']=prior_public;integration_output_hash=file_hash(history/COMBINED.name)
         counts.update(current_active_activities=active_count,removed_appendix_activities=1)
     if "unit_normalization" in combined["metadata"]:
-        if not removed_appendix:report_path = UNIT_REPORT
+        if not removed_appendix and not classified_high:report_path = UNIT_REPORT
         context = verify_units(combined, public["activities"], check, counts, integration_output_hash)
         if context is None:
             return finish()

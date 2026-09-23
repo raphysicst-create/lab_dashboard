@@ -1,4 +1,4 @@
-import { STORAGE_KEY, achievementIds, compareAchievements, filterActivities, gradeKey, sanitizePreferences } from './core.js?v=no-appendix-20260923';
+import { STORAGE_KEY, achievementIds, compareAchievements, filterActivities, gradeKey, sanitizePreferences } from './core.js?v=high-classification-20260923';
 import { createChemicalUI } from './chemical-ui.js?v=guides-2';
 
 const $ = id => document.getElementById(id);
@@ -46,8 +46,7 @@ function gradeOrder(item) {
 }
 
 function materialGroups(activity) {
-  if (activity.material_classification_pending === true
-    || (activity.school_level === '고등학교' && activity.equipment == null && activity.supplies == null)) {
+  if (activity.material_classification_pending === true) {
     return [['실험 준비물 원문', display(activity.materials_raw)]];
   }
   return [['실험 기자재', displayItems(activity.equipment)], ['실험 준비물', displayItems(activity.supplies)]];
@@ -309,7 +308,7 @@ async function start() {
     const names = ['activities', 'achievements', 'chemicals', 'materials'];
     const results = await Promise.all(names.map(async name => {
       const url = new URL(`./data/${name}.json`, import.meta.url);
-      url.search = '?v=no-appendix-20260923';
+      url.search = '?v=high-classification-20260923';
       const response = await fetch(url);
       if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
       return response.json();

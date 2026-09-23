@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-23T06:12:19.796575+00:00",
+  "checked_at": "2026-09-23T06:55:16.839986+00:00",
   "passed": true,
   "errors": [],
   "warnings": [
@@ -186,7 +186,8 @@
       "subsequent_reason": "사용자 후속 요청으로 고1 추출본 415개를 통합 JSON과 사이트에 반영함. 최초 스냅샷과 중학교 862행은 별도 보존.",
       "following_applications": [
         "outputs/extraction/combined-20260922/decision_history/20260923-units/application.json",
-        "outputs/extraction/combined-20260922/decision_history/20260923-remove-appendix/application.json"
+        "outputs/extraction/combined-20260922/decision_history/20260923-remove-appendix/application.json",
+        "outputs/extraction/combined-20260922/decision_history/20260923-high-classification/application.json"
       ]
     }
   },
