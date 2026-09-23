@@ -7,6 +7,8 @@ const root = new URL('../', import.meta.url);
 const read = name => JSON.parse(readFileSync(new URL(name, root), 'utf8').replace(/^\uFEFF/, ''));
 const source = read('outputs/extraction/combined-20260922/decision_history/20260923-integrated-science/science_experiment_supplies_combined.json');
 const highSource = read('outputs/extraction/integrated-science-20260923/science_experiment_supplies_integrated_science.json');
+const removedActivityId = 'donga_IS2_045';
+const retainedHighRows = highSource.data.filter(row => row.id !== removedActivityId);
 const highInventory = read('outputs/extraction/integrated-science-20260923/achievement_mapping/standards_inventory.json');
 const beforeUnits = read('outputs/extraction/combined-20260922/decision_history/20260923-units/science_experiment_supplies_combined.json');
 const normalizedSource = read('outputs/extraction/combined-20260922/science_experiment_supplies_combined.json');
@@ -16,12 +18,17 @@ const textbooks = read('site/dist/data/textbooks.json');
 const research = read('outputs/research/achievement-standards-20260923/achievement_findings.json');
 assert.equal(source.data.length, 862);
 assert.equal(highSource.data.length, 415);
-assert.equal(activities.length, 1277);
+assert.equal(activities.length, 1276);
+assert.equal(normalizedSource.data.length,1276);
+assert.equal(retainedHighRows.length,414);
 const activityById = new Map(activities.map(activity => [activity.id, activity]));
 const middleActivities = activities.filter(activity => activity.school_level === '중학교');
 const highActivities = activities.filter(activity => activity.school_level === '고등학교');
 assert.equal(middleActivities.length, 862);
-assert.equal(highActivities.length, 415);
+assert.equal(highActivities.length, 414);
+assert.equal(activityById.has(removedActivityId),false);
+assert.equal(normalizedSource.data.some(row => row.id === removedActivityId),false);
+assert.equal(activities.some(activity => activity.unit.includes('부록')),false);
 assert.equal(new Set(activities.map(a => a.id)).size, activities.length);
 const achievementIds = new Set(achievements.map(a => a.id));
 const achievementById = new Map(achievements.map(a => [a.id, a]));
@@ -34,6 +41,11 @@ assert.equal(beforeUnits.data.length,1277);
 assert.deepEqual(normalizedSource.achievement_standards,beforeUnits.achievement_standards);
 const unitIds = new Map();
 for (const row of beforeUnits.data) {
+  if (row.id === removedActivityId) {
+    assert.equal(row['단원명'],'부록');
+    assert.equal(normalizedById.has(row.id),false);
+    continue;
+  }
   const normalized = normalizedById.get(row.id);
   const activity = activityById.get(row.id);
   assert.ok(normalized && activity,row.id);
@@ -47,10 +59,8 @@ for (const row of beforeUnits.data) {
   assert.ok(typeof normalized['단원 ID'] === 'string' && normalized['단원 ID'].length > 0);
   const high = activity.school_level === '고등학교';
   const originalMajorUnit = canonicalUnitKey(row['단원명']);
-  if (originalMajorUnit === '부록') {
-    assert.equal(activity.unit,'통합과학 2 · 부록');
-    assert.equal(activity.unit_number,null);
-  } else {
+  assert.notEqual(originalMajorUnit,'부록');
+  {
     const expectedStandard = achievements.find(standard =>
       (standard.school_level === '고등학교') === high && (!high || standard.volume === activity.volume)
       && canonicalUnitKey(standard.unit) === originalMajorUnit);
@@ -61,8 +71,9 @@ for (const row of beforeUnits.data) {
   if (unitIds.has(activity.unit)) assert.equal(normalized['단원 ID'],unitIds.get(activity.unit));
   unitIds.set(activity.unit,normalized['단원 ID']);
 }
-assert.equal(unitIds.size,30); // 23 middle units, six integrated-science units, one appendix.
-assert.equal(new Set(unitIds.values()).size,30);
+assert.equal(unitIds.size,29); // 23 middle units and six integrated-science units.
+assert.equal(new Set(unitIds.values()).size,29);
+assert.equal([...unitIds.values()].includes('high-2-appendix'),false);
 assert.equal(achievements.length, 118);
 assert.equal(achievementIds.size, achievements.length);
 assert.equal(officialByCode.size, 87);
@@ -132,7 +143,7 @@ for (const achievement of achievements) {
   }
   assert.deepEqual(achievement.grades, [...new Set(activities.filter(a => a.achievement_ids.includes(achievement.id)).map(a => a.grade))].sort());
 }
-for (const row of highSource.data) {
+for (const row of retainedHighRows) {
   const activity = activityById.get(row.id);
   assert.ok(activity, row.id);
   for (const [original, output] of [['id','id'],['source_row','source_row'],['단원명','unit_raw'],['출판사','publisher_raw'],['쪽','page'],['탐구활동','title'],['교구','materials_raw']]) {
@@ -158,9 +169,12 @@ assert.deepEqual(read('site/dist/data/quantities.json'), []);
 assert.ok(read('site/dist/data/chemicals.json').length > 0);
 assert.ok(read('site/dist/data/materials.json').length > 0);
 assert.equal(middleActivities.filter(a => a.materials_raw == null).length, 103);
+assert.equal(activities.filter(a => a.materials_raw == null).length,279);
+assert.equal(activities.filter(a => a.achievement_id == null).length,41);
+assert.equal(highActivities.filter(a => a.achievement_id == null).length,3);
 const publishers = [...new Set(activities.map(a => a.publisher_raw))];
 const defaults = {grade:'all',unit:'all',achievement:'all',publishers,query:''};
-assert.equal(filterActivities(activities, defaults).length, 1277);
+assert.equal(filterActivities(activities, defaults).length, 1276);
 assert.equal(filterActivities(activities, {...defaults,publishers:['비상']}).length, 111);
 assert.equal(filterActivities(activities, {...defaults,publishers:[]}).length, 0);
 assert.equal(filterActivities(activities, {...defaults,grade:'1'}).length, 328);
@@ -182,7 +196,7 @@ for (const activity of multiStandardActivities) {
     assert.ok(filterActivities(activities, {...defaults,grade:'high-1',achievement}).includes(activity));
   }
 }
-for (const [grade,unitCount] of [['1',8],['2',8],['3',8],['high-1',7]]) {
+for (const [grade,unitCount] of [['1',8],['2',8],['3',8],['high-1',6]]) {
   const gradeActivities = activities.filter(activity => activity.grade_key === grade);
   const units = new Set(gradeActivities.map(activity => activity.unit));
   assert.equal(units.size,unitCount);
@@ -208,7 +222,7 @@ assert.equal(firstUnitActivities.length,23);
 assert.ok(firstUnitActivities.some(a => a.publisher_raw === '지학사'));
 assert.ok(firstUnitActivities.some(a => a.publisher_raw === 'YBM'));
 assert.ok(new Set(firstUnitActivities.map(a => a.publisher_raw)).size > 2);
-assert.equal(highActivities.filter(a => a.unit_number == null).length,1);
+assert.equal(highActivities.filter(a => a.unit_number == null).length,0);
 const chemicalResults = filterActivities(activities, {...defaults,query:'염산'});
 assert.ok(chemicalResults.length > 0);
 assert.ok(chemicalResults.every(a => [a.title,a.materials_raw,a.unit,a.achievement_raw].some(value => value?.includes('염산'))));
@@ -220,4 +234,4 @@ assert.equal(Object.hasOwn(sanitized,'selected'),false);
 
 
 
-console.log(JSON.stringify({status:'passed',activityRows:activities.length,middleRows:middleActivities.length,highRows:highActivities.length,canonicalUnits:unitIds.size,unitRowsCompared:beforeUnits.data.length,standards:achievements.length,multipleStandardRows:multiStandardActivities.length,sourceCellsCompared:middleActivities.length*8+highActivities.length*7,publishers:publishers.length,chemicalSearchResults:chemicalResults.length,source:fileURLToPath(root)},null,2));
+console.log(JSON.stringify({status:'passed',activityRows:activities.length,middleRows:middleActivities.length,highRows:highActivities.length,canonicalUnits:unitIds.size,unitRowsCompared:beforeUnits.data.length-1,excludedActivityId:removedActivityId,standards:achievements.length,multipleStandardRows:multiStandardActivities.length,sourceCellsCompared:middleActivities.length*8+highActivities.length*7,publishers:publishers.length,chemicalSearchResults:chemicalResults.length,source:fileURLToPath(root)},null,2));

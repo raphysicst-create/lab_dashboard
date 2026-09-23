@@ -38107,5 +38107,30 @@
     "volume": 2,
     "material_classification_pending": true,
     "chemical_ids": []
+  },
+  {
+    "id": "donga_IS2_045",
+    "source_row": null,
+    "achievement_id": null,
+    "textbook_id": "TXT-4ca98ee18bb8a66c",
+    "grade": 1,
+    "unit": "통합과학 2 · 부록",
+    "unit_number": null,
+    "unit_raw": "부록",
+    "achievement_raw": null,
+    "publisher_raw": "동아출판",
+    "page": 156,
+    "title": "직업 탐구 활동",
+    "materials_raw": null,
+    "equipment": null,
+    "supplies": null,
+    "material_ids": [],
+    "school_level": "고등학교",
+    "grade_key": "high-1",
+    "grade_label": "고1",
+    "achievement_ids": [],
+    "volume": 2,
+    "material_classification_pending": true,
+    "chemical_ids": []
   }
 ]

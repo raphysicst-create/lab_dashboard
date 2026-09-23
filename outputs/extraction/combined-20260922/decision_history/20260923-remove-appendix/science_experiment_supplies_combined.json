@@ -1,7 +1,7 @@
 {
   "metadata": {
     "schema_version": "1.0-combined",
-    "record_count": 1276,
+    "record_count": 1277,
     "original_columns": [
       "단원명",
       "성취기준",
@@ -376,10 +376,10 @@
         "label": "고1 통합과학 1·2",
         "input_file": "outputs/extraction/integrated-science-20260923/science_experiment_supplies_integrated_science.json",
         "sha256": "e4ee470c17a9e5d0616c94e0852268c716b0dab8de0998ac6831a829f6ab9979",
-        "record_count": 414,
+        "record_count": 415,
         "record_index_range_zero_based": [
           862,
-          1275
+          1276
         ],
         "view": "통합과학",
         "original_metadata": {
@@ -1070,11 +1070,11 @@
     ],
     "missing_value_counts": {
       "단원명": 0,
-      "성취기준": 41,
+      "성취기준": 42,
       "출판사": 0,
       "쪽": 0,
       "탐구활동": 0,
-      "교구": 279
+      "교구": 280
     },
     "publisher_counts": {
       "천재(정대홍)": 96,
@@ -1087,7 +1087,7 @@
       "미래엔": 90,
       "천재교과서": 65,
       "비상교육": 98,
-      "동아출판": 80
+      "동아출판": 81
     },
     "notes": [
       "원자료 → 지학사 → YBM 순서로 각 입력의 행 순서를 유지하여 통합했다.",
@@ -1163,12 +1163,12 @@
     "integrated_science": {
       "applied_date": "2026-09-23",
       "authorization": "사용자 요청: json이랑 사이트에 반영해줘",
-      "activities": 414,
+      "activities": 415,
       "grade": "고1",
       "mapping_counts": {
         "content_alignment": 381,
         "direct": 30,
-        "unresolved": 3
+        "unresolved": 4
       },
       "pre_application_snapshot": "outputs/extraction/combined-20260922/decision_history/20260923-integrated-science/science_experiment_supplies_combined.json",
       "pre_application_sha256": "c570f3bd85598d6cc486c346ebc033835c1544d9404f29b2356fb4b94087158b",
@@ -1180,17 +1180,7 @@
       "original_field": "단원명 원문",
       "snapshot": "outputs/extraction/combined-20260922/decision_history/20260923-units/science_experiment_supplies_combined.json",
       "snapshot_sha256": "2b504fdc4f33c3d2f35e2b766fce2d3f58961268005a0ce2cbffa62ad2b43274",
-      "unit_count": 29
-    },
-    "appendix_removal": {
-      "date": "2026-09-23",
-      "reason": "사용자 요청: 고1 통합과학2 부록 없애줘",
-      "excluded_ids": [
-        "donga_IS2_045"
-      ],
-      "snapshot": "outputs/extraction/combined-20260922/decision_history/20260923-remove-appendix/science_experiment_supplies_combined.json",
-      "snapshot_sha256": "a56e23e8aa3ce46e7108eb3f127f01fbd11e4d3e1f3b495f86c57fb3e4ebe83f",
-      "original_extraction_preserved": true
+      "unit_count": 30
     }
   },
   "data": [
@@ -146100,11 +146090,102 @@
       "단원명 원문": "Ⅲ. 과학과 미래 사회",
       "단원 번호": 3,
       "단원 ID": "high-2-03"
+    },
+    {
+      "id": "donga_IS2_045",
+      "source_row": null,
+      "단원명": "통합과학 2 · 부록",
+      "성취기준": null,
+      "출판사": "동아출판",
+      "쪽": 156,
+      "탐구활동": "직업 탐구 활동",
+      "교구": null,
+      "교과서": "통합과학2",
+      "대표저자": "김호련",
+      "source": {
+        "book_id": "donga_IS2",
+        "pdf_pages": [
+          156,
+          157
+        ],
+        "printed_pages": [
+          156,
+          157
+        ],
+        "activity_type": "직업 탐구 활동",
+        "title_quote": "직업 탐구 활동",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동의 명시 준비물 목록 없음. 절차·삽화·교사 주석에서 준비물을 추정하지 않음.",
+          "부록의 독립 진로 로드맵 작성 활동. 본문 활동 자료나 정답 재등장이 아니므로 포함함.",
+          "성취기준은 2026-09-23 후속 매핑 반영. 직접/내용 대조/미확인 구분과 근거는 source.standard_mapping 참고."
+        ],
+        "title_bbox": [
+          96.37789916992188,
+          47.26130294799805,
+          182.1779327392578,
+          75.3893051147461
+        ],
+        "supplies_label_bbox": null,
+        "standard_mapping": {
+          "record_id": "donga_IS2_045",
+          "codes": [],
+          "method": "unresolved",
+          "rationale": "과학 직업을 정하고 필요한 교과목과 진로 경로를 작성하는 활동으로, 특정 개념이나 과학 탐구 성취를 요구하지 않아 연결 기준을 확정하지 않았다.",
+          "activity_evidence": {
+            "pdf_pages": [
+              156
+            ],
+            "quote": "과학으로 꿈꾸는 과학과 직업을 참고하여 내가 미래에 갖고 싶은 직업을 정해 보자. 어떤 경로를 따라 꿈을 실현할 것인지 나의 진로 로드맵을 만들어 보자."
+          },
+          "standard_evidence": [],
+          "review_note": "진로·교과 선택 로드맵을 작성하는 활동이다. 특정 통합과학 개념·탐구 수행을 대상으로 하지 않으므로 31개 성취기준 중 하나로 한정하지 않았다."
+        },
+        "original_standard_quote": null,
+        "original_review_notes": [
+          "학생 활동의 명시 준비물 목록 없음. 절차·삽화·교사 주석에서 준비물을 추정하지 않음.",
+          "활동과 직접 연결된 성취기준 코드가 없어 성취기준은 null.",
+          "부록의 독립 진로 로드맵 작성 활동. 본문 활동 자료나 정답 재등장이 아니므로 포함함."
+        ]
+      },
+      "학교급": "고등학교",
+      "학년": 1,
+      "학년표시": "고1",
+      "성취기준코드": [],
+      "성취기준내용": [],
+      "성취기준 원문": null,
+      "성취기준 코드": null,
+      "성취기준 연결": {
+        "status": "unresolved",
+        "evidence": {
+          "record_id": "donga_IS2_045",
+          "codes": [],
+          "method": "unresolved",
+          "rationale": "과학 직업을 정하고 필요한 교과목과 진로 경로를 작성하는 활동으로, 특정 개념이나 과학 탐구 성취를 요구하지 않아 연결 기준을 확정하지 않았다.",
+          "activity_evidence": {
+            "pdf_pages": [
+              156
+            ],
+            "quote": "과학으로 꿈꾸는 과학과 직업을 참고하여 내가 미래에 갖고 싶은 직업을 정해 보자. 어떤 경로를 따라 꿈을 실현할 것인지 나의 진로 로드맵을 만들어 보자."
+          },
+          "standard_evidence": [],
+          "review_note": "진로·교과 선택 로드맵을 작성하는 활동이다. 특정 통합과학 개념·탐구 수행을 대상으로 하지 않으므로 31개 성취기준 중 하나로 한정하지 않았다."
+        }
+      },
+      "실험 기자재": null,
+      "실험 준비물": null,
+      "분류 보류": null,
+      "준비물 분류": null,
+      "준비물 표시 방식": "원문",
+      "단원명 원문": "부록",
+      "단원 번호": null,
+      "단원 ID": "high-2-appendix"
     }
   ],
   "views": {
     "기본자료": {
-      "record_count": 1276,
+      "record_count": 1277,
       "record_ids": [
         "activity_0001",
         "activity_0002",
@@ -147381,7 +147462,8 @@
         "donga_IS2_041",
         "donga_IS2_042",
         "donga_IS2_043",
-        "donga_IS2_044"
+        "donga_IS2_044",
+        "donga_IS2_045"
       ]
     },
     "원자료": {
@@ -150536,7 +150618,7 @@
       ]
     },
     "통합과학": {
-      "record_count": 414,
+      "record_count": 415,
       "record_ids": [
         "miraen_IS1_001",
         "miraen_IS1_002",
@@ -150951,7 +151033,8 @@
         "donga_IS2_041",
         "donga_IS2_042",
         "donga_IS2_043",
-        "donga_IS2_044"
+        "donga_IS2_044",
+        "donga_IS2_045"
       ]
     }
   },
@@ -152501,6 +152584,13 @@
       "volume": 2,
       "number": 3,
       "label": "통합과학 2 · 3. 과학과 미래 사회"
+    },
+    {
+      "id": "high-2-appendix",
+      "school_level": "고등학교",
+      "volume": 2,
+      "number": null,
+      "label": "통합과학 2 · 부록"
     }
   ]
 }

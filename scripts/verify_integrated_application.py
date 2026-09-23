@@ -81,7 +81,7 @@ def comma_items(raw):
     return [part for part in result if part]
 
 
-def verify_units(live, activities, check, counts):
+def verify_units(live, activities, check, counts, live_hash=None):
     """Check the new transformation independently, then return its input views.
 
     No activity achievement link is used to determine its chapter. The old
@@ -102,7 +102,7 @@ def verify_units(live, activities, check, counts):
     prior_hash = file_hash(UNIT_HISTORY / COMBINED.name)
     check("unit_snapshot_and_output_hash_chain", prior_hash == meta.get("snapshot_sha256")
           == application.get("before_sha256")
-          and file_hash(COMBINED) == application.get("output_sha256")
+          and (live_hash or file_hash(COMBINED)) == application.get("output_sha256")
           and meta.get("snapshot") == (UNIT_HISTORY / COMBINED.name).relative_to(ROOT).as_posix())
 
     middle = {}
@@ -224,10 +224,30 @@ def main():
     before = {name: read_json(SNAPSHOT / f"public-{name}.json") for name in
               ["activities", "achievements", "materials", "chemicals", "chemical_guidelines", "textbooks"]}
     live_public = public.copy()
+    active_count = len(combined['data'])
     integration_output_hash = file_hash(COMBINED)
+    removed_appendix = 'appendix_removal' in combined['metadata']
+    if removed_appendix:
+        report_path = ROOT/'output/validation/remove-appendix-20260923/data-validation.json'
+        history=COMBINED_DIR/'decision_history/20260923-remove-appendix'
+        prior=read_json(history/COMBINED.name); prior_public=read_json(history/'public-activities.json')
+        decision=read_json(history/'application.json'); excluded={'donga_IS2_045'}
+        check('appendix_only_one_record_removed', combined['data']==[r for r in prior['data'] if r['id'] not in excluded]
+              and active_count==1276 and combined['metadata']['appendix_removal']['excluded_ids']==list(excluded))
+        check('appendix_remaining_public_rows_exactly_preserved',public['activities']==[r for r in prior_public if r['id'] not in excluded])
+        check('appendix_unit_and_view_references_removed',len(combined['units'])==29
+              and all(u['id']!='high-2-appendix' for u in combined['units'])
+              and all(not (set(v.get('record_ids',[])) & excluded) for v in combined['views'].values())
+              and len({a['unit'] for a in public['activities']})==29)
+        check('appendix_counts_and_preservation_chain',combined['metadata']['record_count']==1276
+              and combined['metadata']['integrated_science']['activities']==414
+              and file_hash(history/COMBINED.name)==decision['before_sha256']==combined['metadata']['appendix_removal']['snapshot_sha256']
+              and file_hash(COMBINED)==decision['output_sha256'])
+        combined=prior;public['activities']=prior_public;integration_output_hash=file_hash(history/COMBINED.name)
+        counts.update(current_active_activities=active_count,removed_appendix_activities=1)
     if "unit_normalization" in combined["metadata"]:
-        report_path = UNIT_REPORT
-        context = verify_units(combined, public["activities"], check, counts)
+        if not removed_appendix:report_path = UNIT_REPORT
+        context = verify_units(combined, public["activities"], check, counts, integration_output_hash)
         if context is None:
             return finish()
         combined, public["activities"], integration_output_hash = context
@@ -461,7 +481,7 @@ def main():
     hashes = {"combined": file_hash(COMBINED), "high_source": file_hash(HIGH),
               "before_combined": file_hash(SNAPSHOT / COMBINED.name)}
     check("combined_application_and_public_source_hashes", integration_output_hash == application.get("output_sha256")
-          and hashes["combined"] == public["sources"].get("source_sha256") and public["sources"].get("record_count") == 1277
+          and hashes["combined"] == public["sources"].get("source_sha256") and public["sources"].get("record_count") == active_count
           and set(public["sources"]) == {"source_name", "source_sha256", "record_count"}, hashes)
     check("high_source_and_before_snapshot_hashes", hashes["high_source"] == application.get("input_sha256")
           and hashes["before_combined"] == application.get("before_sha256") == previous.get("output_sha256"))

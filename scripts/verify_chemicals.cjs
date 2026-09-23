@@ -12,7 +12,8 @@ const base = process.env.LAB_DASHBOARD_TEST_BASE_URL || 'http://127.0.0.1:4173/'
   page.on('pageerror',e=>errors.push(String(e)));
   await page.goto(base);
   const activities=await (await page.request.get(new URL('data/activities.json',base).href)).json();
-  assert.equal(activities.length,1277);
+  assert.equal(activities.length,1276);
+  assert.equal(activities.some(activity => activity.id === 'donga_IS2_045' || activity.unit.includes('부록')),false);
   const countLabel=n=>`탐구활동 ${n.toLocaleString('ko')}건`;
   const acidCount=activities.filter(a=>[a.title,a.materials_raw,a.achievement_raw,a.unit,a.publisher_raw].some(s=>String(s??'').includes('염산'))).length;
   await page.getByRole('heading',{name:countLabel(activities.length),exact:true}).waitFor().catch(async error => {

@@ -41874,34 +41874,5 @@
       }
     },
     "missing_materials": true
-  },
-  {
-    "activity_id": "donga_IS2_045",
-    "source_row": null,
-    "activity": "textbook_not_checked",
-    "materials": "textbook_not_checked",
-    "quantity": "not_checked",
-    "grade_mapping": "source_book",
-    "grade_mapping_basis": "donga_IS2",
-    "achievement_number_mapping": "not_checked",
-    "official_achievement_mapping": "unresolved",
-    "achievement_evidence": {
-      "status": "unresolved",
-      "evidence": {
-        "record_id": "donga_IS2_045",
-        "codes": [],
-        "method": "unresolved",
-        "rationale": "과학 직업을 정하고 필요한 교과목과 진로 경로를 작성하는 활동으로, 특정 개념이나 과학 탐구 성취를 요구하지 않아 연결 기준을 확정하지 않았다.",
-        "activity_evidence": {
-          "pdf_pages": [
-            156
-          ],
-          "quote": "과학으로 꿈꾸는 과학과 직업을 참고하여 내가 미래에 갖고 싶은 직업을 정해 보자. 어떤 경로를 따라 꿈을 실현할 것인지 나의 진로 로드맵을 만들어 보자."
-        },
-        "standard_evidence": [],
-        "review_note": "진로·교과 선택 로드맵을 작성하는 활동이다. 특정 통합과학 개념·탐구 수행을 대상으로 하지 않으므로 31개 성취기준 중 하나로 한정하지 않았다."
-      }
-    },
-    "missing_materials": true
   }
 ]

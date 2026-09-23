@@ -1,0 +1,294 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-23T06:11:02.898559+00:00",
+  "scope": "스냅샷·고등 원자료·공개 JSON의 독립 데이터 검증. 브라우저 동작·실제 배포 및 교과서 의미 재판독은 별도 검증 범위이다.",
+  "check_count": 40,
+  "failed_check_count": 0,
+  "counts": {
+    "current_active_activities": 1276,
+    "removed_appendix_activities": 1,
+    "canonical_main_units": 29,
+    "canonical_total_units": 30,
+    "unit_label_changes": 823,
+    "unit_assignment_basis": "원문 대단원명 및 기존 학교급·권수; 활동 성취기준 미사용",
+    "integration_preservation_basis": "정규화 전 1,277행 스냅샷; 현재 행까지의 보존은 unit_* 검사로 별도 대조",
+    "combined": 1277,
+    "middle": 862,
+    "high": 415,
+    "public_activities": 1277,
+    "public_standards": 118,
+    "high_unresolved": 4,
+    "high_multicode_activities": 17,
+    "high_code_links": 429,
+    "high_materials_null": 177,
+    "high_literal_chemical_mentions": 18
+  },
+  "checks": [
+    {
+      "name": "required_files_exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "appendix_only_one_record_removed",
+      "passed": true
+    },
+    {
+      "name": "appendix_remaining_public_rows_exactly_preserved",
+      "passed": true
+    },
+    {
+      "name": "appendix_unit_and_view_references_removed",
+      "passed": true
+    },
+    {
+      "name": "appendix_counts_and_preservation_chain",
+      "passed": true
+    },
+    {
+      "name": "unit_history_required_files_exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "unit_snapshot_and_output_hash_chain",
+      "passed": true
+    },
+    {
+      "name": "unit_catalog_23_middle_6_high_and_one_appendix",
+      "passed": true
+    },
+    {
+      "name": "unit_all_1277_ids_and_order_preserved",
+      "passed": true
+    },
+    {
+      "name": "unit_all_original_chapter_labels_preserved_verbatim",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "unit_all_nonunit_combined_and_public_fields_exactly_preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "unit_assignments_match_actual_raw_chapter_not_achievement",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "unit_duplicates_collapsed_to_29_main_and_one_appendix",
+      "passed": true
+    },
+    {
+      "name": "unit_nonrow_content_and_prior_metadata_preserved",
+      "passed": true
+    },
+    {
+      "name": "record_counts_862_plus_415_equals_1277",
+      "passed": true
+    },
+    {
+      "name": "all_activity_ids_unique_and_exact_order",
+      "passed": true
+    },
+    {
+      "name": "all_862_middle_combined_rows_exactly_unchanged",
+      "passed": true
+    },
+    {
+      "name": "existing_subviews_preserved_and_overall_view_extended_exactly",
+      "passed": true
+    },
+    {
+      "name": "middle_source_dataset_metadata_unchanged",
+      "passed": true
+    },
+    {
+      "name": "middle_862_public_rows_preserve_every_old_field",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "middle_87_public_standards_keep_ids_and_all_old_fields",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "middle_registry_87_entries_exactly_preserved",
+      "passed": true
+    },
+    {
+      "name": "catalog_31_high_and_public_118_standards_unique",
+      "passed": true
+    },
+    {
+      "name": "all_31_high_catalog_texts_and_identities_match",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "high_415_original_values_grade_mapping_and_all_code_links",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "high_unresolved_4_remain_null_and_empty_references",
+      "passed": true,
+      "detail": [
+        "miraen_IS1_024",
+        "jihaksa_is1_0010",
+        "jihaksa_is2_0044",
+        "donga_IS2_045"
+      ]
+    },
+    {
+      "name": "high_10_book_record_counts_preserved",
+      "passed": true
+    },
+    {
+      "name": "public_no_textbook_review_or_mapping_evidence_metadata",
+      "passed": true,
+      "detail": {
+        "forbidden_keys_or_paths": [],
+        "unexpected_record_keys": []
+      }
+    },
+    {
+      "name": "public_quantities_remain_empty",
+      "passed": true
+    },
+    {
+      "name": "all_middle_material_chemical_links_and_mentions_preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "chemical_and_guideline_data_exactly_unchanged",
+      "passed": true
+    },
+    {
+      "name": "all_public_entity_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "existing_textbooks_unchanged",
+      "passed": true
+    },
+    {
+      "name": "public_material_chemical_textbook_and_achievement_references",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "combined_application_and_public_source_hashes",
+      "passed": true,
+      "detail": {
+        "combined": "3e425bd741ee7584f2327b7ac4583954744fdcf064bf9571c0f068f011f5050c",
+        "high_source": "e4ee470c17a9e5d0616c94e0852268c716b0dab8de0998ac6831a829f6ab9979",
+        "before_combined": "c570f3bd85598d6cc486c346ebc033835c1544d9404f29b2356fb4b94087158b"
+      }
+    },
+    {
+      "name": "high_source_and_before_snapshot_hashes",
+      "passed": true
+    },
+    {
+      "name": "all_four_source_dataset_hashes_match",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "new_dataset_complete_metadata_and_range",
+      "passed": true
+    },
+    {
+      "name": "original_json_and_review_excel_preserved",
+      "passed": true,
+      "detail": [
+        {
+          "file": "science_experiment_supplies.json",
+          "expected_sha256": "22748932ad38860145bdd1c47eb6cd437bfc965e90cbdbff303477133e9336ff",
+          "actual_sha256": "22748932ad38860145bdd1c47eb6cd437bfc965e90cbdbff303477133e9336ff",
+          "unchanged": true
+        },
+        {
+          "file": "outputs/review/science_experiment_review.xlsx",
+          "expected_sha256": "9c4269b5dba45cd3512dcdfa46a52022b3c230258aabdf422b1151b9e8a745e7",
+          "actual_sha256": "9c4269b5dba45cd3512dcdfa46a52022b3c230258aabdf422b1151b9e8a745e7",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "name": "all_10_original_textbook_pdf_hashes_preserved",
+      "passed": true,
+      "detail": [
+        {
+          "book_id": "miraen_IS1",
+          "expected_sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4",
+          "actual_sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4",
+          "unchanged": true
+        },
+        {
+          "book_id": "miraen_IS2",
+          "expected_sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e",
+          "actual_sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e",
+          "unchanged": true
+        },
+        {
+          "book_id": "jihaksa_IS1",
+          "expected_sha256": "e4ca282ff63dc0037fe2c51e53db439ece0e1358cf1251cb8dd1bc8dc71c221e",
+          "actual_sha256": "e4ca282ff63dc0037fe2c51e53db439ece0e1358cf1251cb8dd1bc8dc71c221e",
+          "unchanged": true
+        },
+        {
+          "book_id": "jihaksa_IS2",
+          "expected_sha256": "ff0e6dd1633a5c2c0fe6e8ec05141c084ab86475831c5c94315cb92b624a5453",
+          "actual_sha256": "ff0e6dd1633a5c2c0fe6e8ec05141c084ab86475831c5c94315cb92b624a5453",
+          "unchanged": true
+        },
+        {
+          "book_id": "chunjae_IS1",
+          "expected_sha256": "f8176b4cc4554ed5a0aca6b6d89cd8cc64e02a54a4540253fd1df8ec4417c838",
+          "actual_sha256": "f8176b4cc4554ed5a0aca6b6d89cd8cc64e02a54a4540253fd1df8ec4417c838",
+          "unchanged": true
+        },
+        {
+          "book_id": "chunjae_IS2",
+          "expected_sha256": "b14ec3491bb4f63ef6de0d70995c68ecadae91571c1ff11cf6cfee4869984356",
+          "actual_sha256": "b14ec3491bb4f63ef6de0d70995c68ecadae91571c1ff11cf6cfee4869984356",
+          "unchanged": true
+        },
+        {
+          "book_id": "visang_IS1",
+          "expected_sha256": "288a51d8ed33b9ef206123c1431123193c9d81842faab2e952e55f35173f109c",
+          "actual_sha256": "288a51d8ed33b9ef206123c1431123193c9d81842faab2e952e55f35173f109c",
+          "unchanged": true
+        },
+        {
+          "book_id": "visang_IS2",
+          "expected_sha256": "44b5b69804a9fb7f76aa7bef0800d4e256d21fb565addb1c2d9835e10808d333",
+          "actual_sha256": "44b5b69804a9fb7f76aa7bef0800d4e256d21fb565addb1c2d9835e10808d333",
+          "unchanged": true
+        },
+        {
+          "book_id": "donga_IS1",
+          "expected_sha256": "9923b2593577e7eab0c9ff13e7aadfebf1da0e74f2af231f518faf3fef880dbd",
+          "actual_sha256": "9923b2593577e7eab0c9ff13e7aadfebf1da0e74f2af231f518faf3fef880dbd",
+          "unchanged": true
+        },
+        {
+          "book_id": "donga_IS2",
+          "expected_sha256": "49905fd6c5fa51f08db905b3172be53f453b49c5b70023da9c7635ec76190496",
+          "actual_sha256": "49905fd6c5fa51f08db905b3172be53f453b49c5b70023da9c7635ec76190496",
+          "unchanged": true
+        }
+      ]
+    }
+  ],
+  "written_files": [
+    "output/validation/remove-appendix-20260923/data-validation.json"
+  ]
+}
