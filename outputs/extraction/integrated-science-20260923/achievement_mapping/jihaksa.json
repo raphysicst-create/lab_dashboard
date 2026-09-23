@@ -1,0 +1,1875 @@
+{
+  "publisher": "지학사",
+  "mappings": [
+    {
+      "record_id": "jihaksa_is1_0001",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "시간·거리의 극단적인 사례를 조사하고 규모를 비교하므로 자연을 시간과 공간으로 기술하고 다양한 규모의 사례를 조사하는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          17
+        ],
+        "quote": "스마트 기기와 참고 자료를 이용하여 가장 짧은 시간과 가장 긴 시간, 가장 짧은 거리와 가장 \n긴 거리를 조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-01",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 14,
+          "quote": "[10통과1-01-01] 자연을 시간과 공간에서 기술할 수 있음을 알고, 길이와 시간 측정의 현대적 방법과 다양한 \n규모의 측정 사례를 조사할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0002",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "다양한 규모의 길이·시간을 현대 기술로 측정하는 방법을 조사하는 과제가 기준의 측정 방법 및 사례 조사와 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          18
+        ],
+        "quote": "모둠별로 스마트 기기나 참고 자료를 이용하여 다양한 규모에서의 길이와 시간의 측정 사례\n와 측정 방법을 조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-01",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 14,
+          "quote": "[10통과1-01-01] 자연을 시간과 공간에서 기술할 수 있음을 알고, 길이와 시간 측정의 현대적 방법과 다양한 \n규모의 측정 사례를 조사할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0003",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "스테인드글라스 속 금속의 크기와 성질을 비교하여 미시·거시 공간 규모를 구별하는 활동이므로 시간·공간 규모를 다루는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          21
+        ],
+        "quote": "미시세계와 거시세계의 물체의 크기에 따라 어떤 차이점이 나타나는지 이야기해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-01",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 14,
+          "quote": "[10통과1-01-01] 자연을 시간과 공간에서 기술할 수 있음을 알고, 길이와 시간 측정의 현대적 방법과 다양한 \n규모의 측정 사례를 조사할 수 있다."
+        }
+      ],
+      "review_note": "규모에 따른 물질 특성의 차이를 다루는 확장 활동이다. 길이·시간 측정법을 직접 조사하는 활동은 아니다."
+    },
+    {
+      "record_id": "jihaksa_is1_0004",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "시간·거리·무게를 모호하게 말한 대화를 정확한 양의 표현으로 바꾸므로 기본량과 단위가 자연과 일상 현상을 기술하는 의미에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          23
+        ],
+        "quote": "두 친구가 나눈 대화에서 양을 나타내는 표현을 찾아보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-02",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 14,
+          "quote": "[10통과1-01-02] 과학 탐구에서 중요한 기본량의 의미를 알고, 자연 현상을 기술하는 데 단위가 가지는 의미\n와 적용사례를 설명할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0005",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "기온·강수량·바람 등의 일기 예보 단위를 찾고 다른 적용 사례를 조사하여 기본량과 단위의 의미 및 적용을 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          25
+        ],
+        "quote": "일기 예보에서 사용한 단위를 모두 찾아보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-02",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 14,
+          "quote": "[10통과1-01-02] 과학 탐구에서 중요한 기본량의 의미를 알고, 자연 현상을 기술하는 데 단위가 가지는 의미\n와 적용사례를 설명할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0006",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "측정 표준 사례를 조사하고 표준이 없을 때 생기는 문제를 근거로 유용성과 필요성을 논증하는 목표가 기준과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          30
+        ],
+        "quote": "일상생활에서 측정 표준이 \n활용되는 사례를 찾고, 측정 \n표준의 유용성과 필요성을 \n논증할 수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-03",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 14,
+          "quote": "[10통과1-01-03] 과학 탐구에서 측정과 어림의 의미를 알고, 일상생활의 여러 가지 상황에서 측정 표준의 유용\n성과 필요성을 논증할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0007",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "주변의 신호를 측정·분석하여 정보로 만드는 사례와 영향을 설명하므로 자연 변화에서 정보를 산출하고 활용하는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          33
+        ],
+        "quote": "신호를 측정·분석하여 정보를 산출하는 것이 우리에게 어떤 영향을 미치는지 이야기해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-04",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 14,
+          "quote": "[10통과1-01-04] 자연에서 일어나는 다양한 변화를 측정·분석하여 정보를 산출함을 알고, 이러한 정보를 디지\n털로 변환하는 기술을 정보 통신에 활용하여 현대 문명에 미친 영향을 인식한다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0008",
+      "codes": [
+        "10통과1-01-02",
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "센서로 측정할 기본량과 그 의미를 결정하고 디지털 측정 결과를 분석하여 정보를 얻으므로 기본량의 의미와 디지털 정보 산출 두 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          35
+        ],
+        "quote": "스마트 기기로 측정한 기본량이 나타내는 의미를 설명할 수 있는가?\n[…]\n측정한 결과를 분석하여 원하는 정보를 얻었는지 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-02",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 14,
+          "quote": "[10통과1-01-02] 과학 탐구에서 중요한 기본량의 의미를 알고, 자연 현상을 기술하는 데 단위가 가지는 의미\n와 적용사례를 설명할 수 있다."
+        },
+        {
+          "code": "10통과1-01-04",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 14,
+          "quote": "[10통과1-01-04] 자연에서 일어나는 다양한 변화를 측정·분석하여 정보를 산출함을 알고, 이러한 정보를 디지\n털로 변환하는 기술을 정보 통신에 활용하여 현대 문명에 미친 영향을 인식한다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0009",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "나노 규모와 거시 규모에서 달라지는 현상·이용 사례를 비교하여 공간 규모에 따른 자연 현상을 이해하는 확장 활동으로 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          36
+        ],
+        "quote": "거시세계에서 우리가 알고 있는 현상이 미시세계에서 다르게 나타날 수 있는 사례를 일상생활\n에서 조사하여 모둠원과 이야기해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-01",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 14,
+          "quote": "[10통과1-01-01] 자연을 시간과 공간에서 기술할 수 있음을 알고, 길이와 시간 측정의 현대적 방법과 다양한 \n규모의 측정 사례를 조사할 수 있다."
+        }
+      ],
+      "review_note": "미시·거시 규모의 응용 사례를 다루는 부분 연결이며, 측정 방법 자체의 조사를 평가하지 않는다."
+    },
+    {
+      "record_id": "jihaksa_is1_0010",
+      "codes": [],
+      "method": "unresolved",
+      "rationale": "전류 방향의 관습과 사회적 합의에 관한 논술이다. 같은 권의 기본량·측정 표준 기준은 양의 단위와 측정의 표준화를 대상으로 하므로 방향의 관습에 억지로 연결하지 않았다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          43
+        ],
+        "quote": "전자의 발견 이후에도 전류의 방향을 수정하지 않은 사례로부터 사회와 과학의 관계를 논술해 보자."
+      },
+      "standard_evidence": [],
+      "review_note": "해당 권에 활동의 사회적 합의 논점을 직접 포괄하는 기준을 확인하지 못함. 측정 표준과 전류 방향의 약속을 동일시하지 않음."
+    },
+    {
+      "record_id": "jihaksa_is1_0011",
+      "codes": [
+        "10통과1-02-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "백열등·수소 방전관·태양 빛의 스펙트럼을 관찰하고 비교하여 천체 구성 원소를 스펙트럼으로 추론하는 데 필요한 증거를 다룬다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          50
+        ],
+        "quote": "분광기를 활용하여 다양한 물\n질이 나타내는 스펙트럼을 관\n찰하고, 그 특징을 비교할 수 \n있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-01",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 46,
+          "quote": "[10통과1-02-01] 천체에서 방출되는 빛의 스펙트럼을 분석하여 우주 초기에 형성된 원소와 천체의 구성 물질\n을 추론할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0012",
+      "codes": [
+        "10통과1-02-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "별과 성운의 스펙트럼을 수소 방출선과 대조하여 구성 원소를 추론하므로 기준의 핵심 수행에 해당한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          51
+        ],
+        "quote": "두 천체가 수소를 포함하고 있는지 근거를 들어 추론해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-01",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 46,
+          "quote": "[10통과1-02-01] 천체에서 방출되는 빛의 스펙트럼을 분석하여 우주 초기에 형성된 원소와 천체의 구성 물질\n을 추론할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0013",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "지구·생명체 구성 원소의 유래를 우주 역사에서 추론하는 목표가 초기 우주 원소에서 태양계와 생명체 원소로 이어지는 기준과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          58
+        ],
+        "quote": "지구와 생명체의 구성 성분\n을 비교하고, 우주와 지구의 \n역사에서 그 유래를 추론할 \n수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-02",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 46,
+          "quote": "[10통과1-02-02] 우주 초기의 원소들로부터 태양계의 재료이면서 생명체를 구성하는 원소들이 형성되는 과정\n을 통해 지구와 생명의 역사가 우주 역사의 일부분임을 해석할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0014",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "우주 먼지의 성분과 연구 의의를 조사하고 태양계 형성의 단서를 논의하여 지구·태양계 물질의 우주적 유래를 다루는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          60
+        ],
+        "quote": "과학자들은 우주 먼지 연구 결과를 이용하여 태양계 주변이 어떻게 형성되었는지 알아낼 \n수 있을 것이다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-02",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 46,
+          "quote": "[10통과1-02-02] 우주 초기의 원소들로부터 태양계의 재료이면서 생명체를 구성하는 원소들이 형성되는 과정\n을 통해 지구와 생명의 역사가 우주 역사의 일부분임을 해석할 수 있다."
+        }
+      ],
+      "review_note": "원소 합성 과정을 직접 재구성하는 대신 우주 물질과 태양계 기원의 관계를 다루는 확장 활동이다."
+    },
+    {
+      "record_id": "jihaksa_is1_0015",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "리튬·나트륨·칼륨의 공통 성질을 조사하고 확인 실험을 설계하여 원소의 주기성과 자연의 규칙성을 도출한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          70
+        ],
+        "quote": "같은 족 원소인 알칼리 금속\n의 유사성을 확인하는 실험을 \n설계할 수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-03",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 64,
+          "quote": "[10통과1-02-03] 세상을 구성하는 원소들의 성질이 주기성을 나타내는 현상을 통해 자연의 규칙성을 도출하고, 지구와 생\n명체를 구성하는 주요 원소들이 결합을 형성하는 이유를 해석할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0016",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "전자배치를 주기율표와 대조하여 같은 족·주기의 공통점과 규칙성을 찾으므로 원소의 주기성과 결합 형성 이유를 이해하는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          72
+        ],
+        "quote": "다음 활동에서 각 원소의 전자배치로 주기율표의 규칙성을 알아보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-03",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 64,
+          "quote": "[10통과1-02-03] 세상을 구성하는 원소들의 성질이 주기성을 나타내는 현상을 통해 자연의 규칙성을 도출하고, 지구와 생\n명체를 구성하는 주요 원소들이 결합을 형성하는 이유를 해석할 수 있다."
+        }
+      ],
+      "review_note": "학생 활동·정리가 다음 쪽인 PDF 73쪽에도 이어짐을 확인했다. 기존 활동 파일의 쪽 기록은 이 매핑 작업에서 수정하지 않음."
+    },
+    {
+      "record_id": "jihaksa_is1_0017",
+      "codes": [
+        "10통과1-02-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "소금·설탕 등의 고체와 수용액의 전기 전도성을 비교하여 결합 종류와 물질의 성질을 관련짓는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          78
+        ],
+        "quote": "물질의 전기 전도성을 비교\n하여 이온 결합 화합물과 공\n유 결합 화합물을 구분할 수 \n있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-04",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 64,
+          "quote": "[10통과1-02-04] 인류의 생존에 필수적인 물, 산소, 소금 등이 만들어지는 결합의 차이를 이해하고 각 물질의 성질과 관\n련지어 설명할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0018",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "같은 단위체를 서로 다르게 연결하여 다양한 구조를 만드는 모형 활동으로, 지각·생명체 물질이 기본 단위체의 결합으로 형성됨을 설명하는 기준의 도입에 해당한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          81
+        ],
+        "quote": "모양이 같은 모형으로 다양한 모양을 가진 결과물을 얻을 수 있는 이유를 설명해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-05",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 64,
+          "quote": "[10통과1-02-05] 지각과 생명체를 구성하는 물질들이 기본 단위체의 결합을 통해서 형성된다는 것을 규산염 광물, 단백질\n과 핵산의 예를 통해 설명할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0019",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "규산염 사면체를 이어 사슬·면 구조를 만들고 광물과 대응시키므로 기본 단위체 결합으로 광물 구조가 형성되는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          83
+        ],
+        "quote": "위 ➍~➏ 과정에서 만든 구조는 각각 어떤 광물의 구조를 나타내는지 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-05",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 64,
+          "quote": "[10통과1-02-05] 지각과 생명체를 구성하는 물질들이 기본 단위체의 결합을 통해서 형성된다는 것을 규산염 광물, 단백질\n과 핵산의 예를 통해 설명할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0020",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "뉴클레오타이드 모형을 반복 연결하고 상보적 가닥을 제작하여 핵산이 기본 단위체 결합으로 형성됨을 설명하는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          86
+        ],
+        "quote": "모형 24개를 1줄로 연결하여 폴리뉴클레오타이드 1가닥을 완성한다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-05",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 64,
+          "quote": "[10통과1-02-05] 지각과 생명체를 구성하는 물질들이 기본 단위체의 결합을 통해서 형성된다는 것을 규산염 광물, 단백질\n과 핵산의 예를 통해 설명할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0021",
+      "codes": [
+        "10통과1-02-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "전기 제품·태양 전지·화재 경보기에서 사용하는 반도체의 전기적 성질과 활용을 조사하므로 기준의 생활·첨단 소재 활용에 해당한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          90
+        ],
+        "quote": "(가) ~ (다)는 각각 반도체의 어떤 전기적 성질을 이용하고 있는지 조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-06",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 64,
+          "quote": "[10통과1-02-06] 지구를 구성하는 물질을 전기적 성질에 따라 구분할 수 있고, 물질의 전기적 성질을 응용하여 일상생활\n과 첨단기술에서 다양한 소재로 활용됨을 인식한다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0022",
+      "codes": [
+        "10통과1-02-03",
+        "10통과1-02-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "원자의 전자배치에 따른 결합 형성을 바탕으로 이온·공유 결합 원리를 비교하고 사회적 관계에 비유하므로 결합 형성 이유와 결합 종류의 차이 두 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          92
+        ],
+        "quote": "이온 결합과 공유 결합의 원리를 비교해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-03",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 64,
+          "quote": "[10통과1-02-03] 세상을 구성하는 원소들의 성질이 주기성을 나타내는 현상을 통해 자연의 규칙성을 도출하고, 지구와 생\n명체를 구성하는 주요 원소들이 결합을 형성하는 이유를 해석할 수 있다."
+        },
+        {
+          "code": "10통과1-02-04",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 64,
+          "quote": "[10통과1-02-04] 인류의 생존에 필수적인 물, 산소, 소금 등이 만들어지는 결합의 차이를 이해하고 각 물질의 성질과 관\n련지어 설명할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0023",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "반도체의 전기적 성질 분류가 아니라 개발에 따른 사회·경제·환경 문제를 조사하고 문제 해결 방안 및 찬반 입장을 논술하는 과학 관련 사회적 쟁점 활동이다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          99
+        ],
+        "quote": "스마트 기기로 반도체 개발로 나타나는 사회, 경제, 환경 문제를 조사해 보자.\n[…]\n토의한 결과를 바탕으로 반도체 개발에 대한 자신의 입장을 정하여 논술해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에\n서 과학 윤리의 중요성에 대해 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": "책의 권과 다른 통합과학2의 기준에 내용 대조로 연결. 주 에이전트가 학생 수행과 본문을 독립 재검토하여 소재의 기초 개념보다 실제 논증 과제를 우선했다."
+    },
+    {
+      "record_id": "jihaksa_is1_0024",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "지구 권역의 상호작용으로 생기는 자연 현상에서 에너지 흐름과 물질 이동을 설명하므로 지구시스템의 물질 순환·에너지 흐름 기준과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          109
+        ],
+        "quote": "선택한 자연 현상이 발생할 때 에너지가 흐르면서 물질은 어떻게 이동하는지 설명해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-01",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 102,
+          "quote": "[10통과1-03-01] 지구시스템은 태양계라는 시스템의 구성요소임을 알고, 지구시스템을 구성하는 권역들 간의 \n물질 순환과 에너지 흐름의 결과로 나타나는 현상을 논증할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0025",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "지진·화산 위치를 지도에 표시하고 분포를 비교하여 판 경계와 지권 변화 해석에 필요한 분포 증거를 탐구한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          113
+        ],
+        "quote": "지진이 발생하는 지역과 화산 활동이 발생하는 지역의 공통점과 차이점을 이야기해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-02",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 102,
+          "quote": "[10통과1-03-02] 지권의 변화를 판 구조론 관점에서 해석하고, 에너지 흐름의 결과로 발생하는 지권의 변화가 \n지구시스템에 미치는 영향을 추론할 수 있다."
+        }
+      ],
+      "review_note": "활동 자체는 분포 비교 단계이며 판 구조론 해석은 연결된 본문 학습으로 확장된다."
+    },
+    {
+      "record_id": "jihaksa_is1_0026",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "화산 분출이라는 지권 변화가 지구·생명 시스템에 주는 영향을 조사하고 대책을 세우므로 지권 변화의 지구시스템 영향 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          116
+        ],
+        "quote": "화산 분출에 따른 환경 및 사\n회·경제적 피해의 종류를 조\n사하고, 지구와 생명 시스템 \n측면에서 피해를 줄이는 대\n책을 수립할 수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-02",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 102,
+          "quote": "[10통과1-03-02] 지권의 변화를 판 구조론 관점에서 해석하고, 에너지 흐름의 결과로 발생하는 지권의 변화가 \n지구시스템에 미치는 영향을 추론할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0027",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "동토층 융해·가뭄 사례로 지구시스템의 균형과 권역 상호작용을 분석하여 물질 순환과 에너지 흐름으로 나타나는 현상을 논증하는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          118
+        ],
+        "quote": "어떻게 지구시스템의 균형이 깨지고, \n이러한 현상이 발생하는 원인은 무엇인지 이야기해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-01",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 102,
+          "quote": "[10통과1-03-01] 지구시스템은 태양계라는 시스템의 구성요소임을 알고, 지구시스템을 구성하는 권역들 간의 \n물질 순환과 에너지 흐름의 결과로 나타나는 현상을 논증할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0028",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "동시에 낙하하는 두 쇠구슬을 촬영하여 수평·연직 운동을 비교함으로써 중력이 지표 부근 물체 운동에 미치는 영향을 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          126
+        ],
+        "quote": "자유 낙하 운동과 수평으로 \n던진 물체의 운동을 비교할 \n수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-03",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 122,
+          "quote": "[10통과1-03-03] 중력의 작용으로 인한 지구 표면과 지구 주위의 다양한 운동을 설명할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0029",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "충돌 동안의 가속도 그래프로 힘의 크기와 작용 시간을 분석하므로 충격량·운동량 관계를 안전 문제에 적용하는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          133
+        ],
+        "quote": "애플리케이션에 기록된 그래프에서 충돌이 시작되는 때, 가장 큰 힘\n을 받는 때, 충돌이 끝나는 때를 각각 찾아보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-04",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 122,
+          "quote": "[10통과1-03-04] 상호작용이 없을 때 물체가 가속되지 않음을 알고, 충격량과 운동량의 관계를 충돌관련 안전 \n장치와 스포츠에 적용할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0030",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "교통수단·스포츠의 관성 및 충돌 사고를 줄일 장치를 고안하며 충격량과 운동량의 안전장치 적용을 직접 수행한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          134
+        ],
+        "quote": "물체의 관성 및 충돌에 의한 \n안전사고 예방을 위해 대비책 \n및 장치를 고안한다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-04",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 122,
+          "quote": "[10통과1-03-04] 상호작용이 없을 때 물체가 가속되지 않음을 알고, 충격량과 운동량의 관계를 충돌관련 안전 \n장치와 스포츠에 적용할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0031",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "충돌 충격을 줄이는 케이스·필름의 원리를 조사하고 보호 장치를 고안하므로 운동량·충격량을 충돌 안전장치에 적용하는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          136
+        ],
+        "quote": "스마트 기기를 충격으로부터 보호할 수 있는 장치를 고안해 글과 그림으로 나타내 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-04",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 122,
+          "quote": "[10통과1-03-04] 상호작용이 없을 때 물체가 가속되지 않음을 알고, 충격량과 운동량의 관계를 충돌관련 안전 \n장치와 스포츠에 적용할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0032",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "막을 통한 물질 이동을 달걀 노른자의 크기·당도 변화로 확인하여 생명 시스템 유지에 필요한 물질 출입을 이해한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          146
+        ],
+        "quote": "세포막은 생명활동에 필요한 물질을 받아들이거나 내보내는 역할을 한다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-05",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 140,
+          "quote": "[10통과1-03-05] 생명 시스템을 유지하기 위해서 다양한 화학 반응과 물질 출입이 필요함을 이해하고, 일상생\n활에서 활용되는 화학 반응 사례를 조사하여 발표할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0033",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "감자 속 효소가 과산화 수소 분해 반응을 촉진하는 것을 비교 실험하여 생명 시스템의 화학 반응을 이해한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          149
+        ],
+        "quote": "감자 조각을 넣은 시험관과 한천 조각을 넣은 시험관에서 일어나는 현상의 차이점을 효소\n의 작용으로 설명해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-05",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 140,
+          "quote": "[10통과1-03-05] 생명 시스템을 유지하기 위해서 다양한 화학 반응과 물질 출입이 필요함을 이해하고, 일상생\n활에서 활용되는 화학 반응 사례를 조사하여 발표할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0034",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "일상생활 제품에서 효소를 활용한 화학 반응 사례를 조사·발표하는 과제가 기준 후반의 생활 속 화학 반응 조사와 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          150
+        ],
+        "quote": "스마트 기기를 이용해 일상생활 속 화학 반응에서 효소를 활용하는 사례를 조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-05",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 140,
+          "quote": "[10통과1-03-05] 생명 시스템을 유지하기 위해서 다양한 화학 반응과 물질 출입이 필요함을 이해하고, 일상생\n활에서 활용되는 화학 반응 사례를 조사하여 발표할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0035",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "세 글자 암호가 비즈를 지정하는 모형을 유전정보의 흐름과 비교하고 암호 손상의 결과를 분석하여 유전자에서 단백질로 이어지는 정보 흐름을 이해한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          156
+        ],
+        "quote": "특별한 장신구를 만드는 과정과 사람 유전정보의 흐름에서 공통점과 차이점을 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-06",
+          "book_id": "jihaksa_IS1",
+          "pdf_page": 140,
+          "quote": "[10통과1-03-06] 생명 시스템의 유지에 필요한 세포 내 정보의 흐름을 유전자로부터 단백질이 만들어지는 과\n정을 중심으로 설명할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is1_0036",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "유전자 검사로 미래 질병을 예측하는 기술의 장단점을 조사하고 검사 찬반을 근거와 함께 논술하는 과학 관련 사회적 쟁점 활동이다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          163
+        ],
+        "quote": "유전자 검사로 질병을 예측하는 사회에서 유전자 검사를 찬성하는지 또는 반대하는지 자신의 주장을\n밝히고, 그 까닭을 근거로 들어서 논술해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에\n서 과학 윤리의 중요성에 대해 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": "책의 권과 다른 통합과학2의 기준에 내용 대조로 연결. 주 에이전트가 학생 수행과 본문을 독립 재검토하여 소재의 기초 개념보다 실제 논증 과제를 우선했다."
+    },
+    {
+      "record_id": "jihaksa_is2_0001",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "지질시대의 상대적인 길이와 대표 생물 출현을 함께 표현하여 지구 역사에서 생물과 환경의 변화를 이해하는 기준의 기초에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          17
+        ],
+        "quote": "각 지질시대의 대표적인 생물의 출현 시기와 출현한 생물을 ➊에서 표현한 그림에 표시해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-01",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 14,
+          "quote": "[10통과2-01-01] 지질시대를 통해 지구 환경이 끊임없이 변화해 왔으며 이러한 환경 변화가 생물다양성에 미\n치는 영향을 추론할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0002",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "대멸종 원인 가설을 평가하고 환경 변화의 생물다양성 영향을 추론하는 목표가 지질시대 환경 변화 기준과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          22
+        ],
+        "quote": "지구 환경 변화에 따른 지질 \n시대 대멸종의 다양한 가설\n이 타당한지 평가하고, 환경 \n변화가 생물다양성에 미치는 \n영향을 추론할 수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-01",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 14,
+          "quote": "[10통과2-01-01] 지질시대를 통해 지구 환경이 끊임없이 변화해 왔으며 이러한 환경 변화가 생물다양성에 미\n치는 영향을 추론할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0003",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "섬별 먹이 환경과 핀치 부리의 변이를 연결하여 자연선택에 따른 진화와 다양성 형성을 추론한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          25
+        ],
+        "quote": "먹이에 따라 핀치의 부리의 특징이 다른 이유를 설명해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-02",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 14,
+          "quote": "[10통과2-01-02] 변이의 발생과 자연선택 과정을 통해 생물의 진화가 일어나고, 진화의 과정을 통해 생물다양\n성이 형성되었음을 추론할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0004",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "배경 색·구슬 색·집게 종류에 따른 생존 차이를 비교해 변이와 환경에 의한 자연선택 과정을 확인한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          26
+        ],
+        "quote": "자연선택 과정에 대한 모의\n실험으로 자연선택의 과정을 \n확인한다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-02",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 14,
+          "quote": "[10통과2-01-02] 변이의 발생과 자연선택 과정을 통해 생물의 진화가 일어나고, 진화의 과정을 통해 생물다양\n성이 형성되었음을 추론할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0005",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "멸종 생물의 복원 이야기를 조사하여 생물다양성의 의미와 보전 필요성을 설명하므로 진화로 형성된 생물다양성을 다루는 기준의 확장 활동에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          31
+        ],
+        "quote": "생물다양성을 보전하기 위해 생물 복원을 해야 하는 까닭을 써 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-02",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 14,
+          "quote": "[10통과2-01-02] 변이의 발생과 자연선택 과정을 통해 생물의 진화가 일어나고, 진화의 과정을 통해 생물다양\n성이 형성되었음을 추론할 수 있다."
+        }
+      ],
+      "review_note": "복원 활동은 자연선택·진화 과정을 직접 추론하지 않고 형성된 생물다양성의 보전으로 학습을 확장한다."
+    },
+    {
+      "record_id": "jihaksa_is2_0006",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "최근 멸종의 공통 원인인 환경 변화를 조사하고 감소 대책을 논의하므로 환경 변화가 생물다양성에 주는 영향에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          32
+        ],
+        "quote": "모둠별로 최근 멸종한 생물과 멸종 시기 및 원인을 조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-01",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 14,
+          "quote": "[10통과2-01-01] 지질시대를 통해 지구 환경이 끊임없이 변화해 왔으며 이러한 환경 변화가 생물다양성에 미\n치는 영향을 추론할 수 있다."
+        }
+      ],
+      "review_note": "지질시대 대멸종을 현재의 멸종 문제로 확장한 활동이다."
+    },
+    {
+      "record_id": "jihaksa_is2_0007",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "가열한 철 솜의 색·질량 변화와 산소 결합을 연결하여 산화 반응의 특징을 분석한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          40
+        ],
+        "quote": "철 솜에 변화가 생긴 까닭을 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-03",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 36,
+          "quote": "[10통과2-01-03] 자연과 인류의 역사에 큰 변화를 가져온 광합성, 화석 연료 사용, 철의 제련 등에서 공통점\n을 찾아 산화와 환원을 이해하고, 생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성\n으로 분석할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0008",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "알루미늄과 염화 구리 수용액의 반응을 전자 이동에 따른 산화·환원으로 설명하므로 생활 속 변화 분석 기준과 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          42
+        ],
+        "quote": "전자, 산화, 환원 등의 용어를 사용하여 에칭 판화의 원리를 설명해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-03",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 36,
+          "quote": "[10통과2-01-03] 자연과 인류의 역사에 큰 변화를 가져온 광합성, 화석 연료 사용, 철의 제련 등에서 공통점\n을 찾아 산화와 환원을 이해하고, 생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성\n으로 분석할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0009",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "주변 반응을 찾아 산소·전자 이동으로 분석하므로 산화·환원 특징과 규칙성의 적용에 해당한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          45
+        ],
+        "quote": "그림에서 찾은 산화· 환원 반응을 분석하여 산소와 전자의 이동으로 설명해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-03",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 36,
+          "quote": "[10통과2-01-03] 자연과 인류의 역사에 큰 변화를 가져온 광합성, 화석 연료 사용, 철의 제련 등에서 공통점\n을 찾아 산화와 환원을 이해하고, 생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성\n으로 분석할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0010",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "과일·식초·비누·제산제의 산성·염기성 성분과 사용 특징을 조사하여 대표 산·염기 물질의 특징에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          48
+        ],
+        "quote": "(가)~(라)는 각각 산과 염기의 어떤 특징을 이용하는지 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-04",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 36,
+          "quote": "[10통과2-01-04] 대표적인 산·염기 물질의 특징을 알고, 산과 염기를 혼합할 때 나타나는 중화 반응을 생활 \n속에서 이용할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0011",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "산과 염기의 혼합 비율별 온도와 지시약 색을 측정하여 중화 반응에 따른 변화를 이해한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          50
+        ],
+        "quote": "산과 염기를 혼합할 때 용액\n의 온도를 측정하여 그래프\n로 나타낼 수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-04",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 36,
+          "quote": "[10통과2-01-04] 대표적인 산·염기 물질의 특징을 알고, 산과 염기를 혼합할 때 나타나는 중화 반응을 생활 \n속에서 이용할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0012",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "생활 속 중화 사례와 각 사례의 산·염기 물질을 찾아 중화 반응의 생활 이용 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          53
+        ],
+        "quote": "스마트 기기와 참고 자료를 이용해 생활 속에서 중화 반응을 이용하는 사례를 조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-04",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 36,
+          "quote": "[10통과2-01-04] 대표적인 산·염기 물질의 특징을 알고, 산과 염기를 혼합할 때 나타나는 중화 반응을 생활 \n속에서 이용할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0013",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "주변의 흡열·발열 현상과 이용 원리를 찾아 토의하는 과제가 에너지 출입의 생활 이용 기준과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          57
+        ],
+        "quote": "그림에서 에너지를 흡수하거나 방출하는 현상을 이용하는 사례를 찾고, 원리를 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-05",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 36,
+          "quote": "[10통과2-01-05] 생활 주변에서 에너지를 흡수하거나 방출하는 현상을 찾아 에너지의 흡수 방출이 우리 생활\n에 어떻게 이용되는지 토의할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0014",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "물·산화 칼슘의 발열 반응을 음식 조리에 활용하여 에너지 방출 현상의 생활 이용을 설계·실험한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          58
+        ],
+        "quote": "조사한 내용을 바탕으로 물과 산화 칼슘의 발열 반응을 이용한 조리 장치를 설계하고 만들어 \n보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-05",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 36,
+          "quote": "[10통과2-01-05] 생활 주변에서 에너지를 흡수하거나 방출하는 현상을 찾아 에너지의 흡수 방출이 우리 생활\n에 어떻게 이용되는지 토의할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0015",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "구리와 질산 은의 산화·환원 반응으로 은을 석출시켜 예술 작품을 만들고 원리를 생각하므로 생활 주변 변화를 산화·환원으로 분석하는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          60
+        ],
+        "quote": "은 결정이 석출되는 원리를 생각해 보고, 어떤 이야기를 담은 작품을 \n만들지 구상해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-03",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 36,
+          "quote": "[10통과2-01-03] 자연과 인류의 역사에 큰 변화를 가져온 광합성, 화석 연료 사용, 철의 제련 등에서 공통점\n을 찾아 산화와 환원을 이해하고, 생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성\n으로 분석할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0016",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "융해·응고의 열 흡수·방출로 온도 변화를 막는 물질의 사용 원리와 새 적용 분야를 논의하므로 에너지 출입의 이용 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          67
+        ],
+        "quote": "각 용품\n의 작동 원리와 함께 상태 변화 물질을 적용해야 하는 까닭을 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-05",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 36,
+          "quote": "[10통과2-01-05] 생활 주변에서 에너지를 흡수하거나 방출하는 현상을 찾아 에너지의 흡수 방출이 우리 생활\n에 어떻게 이용되는지 토의할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0017",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "사진 속 생물요소·비생물요소를 찾아 분류하고 설명하여 생태계 구성요소 이해 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          74
+        ],
+        "quote": "내가 가 보고 싶은 곳의 사진을 검색하고, 사진에서 생태계구성요소를 찾는다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-01",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 70,
+          "quote": "[10통과2-02-01] 생태계구성요소를 이해하고 생물과 환경 사이의 상호 관계를 설명할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0018",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "생태계 구성요소 사이 및 인간과 환경 사이의 상호 영향을 설명하므로 생물·환경의 상호 관계 기준과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          77
+        ],
+        "quote": "➊에서 찾은 생태계구성요소는 서로 어떤 영향을 주고받는지 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-01",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 70,
+          "quote": "[10통과2-02-01] 생태계구성요소를 이해하고 생물과 환경 사이의 상호 관계를 설명할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0019",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "자연재해·오염·외래종이 생태계 평형에 주는 영향을 조사하고 회복 방안을 협력적으로 토의하므로 환경 변화의 생태계 영향 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          81
+        ],
+        "quote": "조사한 사례마다 생태계 회복을 위해 인간이 할 수 있는 노력은 무엇일지 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-02",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 70,
+          "quote": "[10통과2-02-02] 먹이 관계와 생태피라미드를 중심으로 생태계평형이 유지되는 과정을 이해하고, 환경의 \n변화가 생태계에 미칠 수 있는 영향에 대해 협력적으로 소통할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0020",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "먹이사슬·생태피라미드를 이용하여 특정 개체군 변화가 다른 개체군에 미치는 영향을 추론하므로 먹이 관계 중심의 생태계 평형 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          82
+        ],
+        "quote": "특정 개체군에 변동이 생겼을 \n때 다른 개체군의 변동 과정\n을 추론할 수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-02",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 70,
+          "quote": "[10통과2-02-02] 먹이 관계와 생태피라미드를 중심으로 생태계평형이 유지되는 과정을 이해하고, 환경의 \n변화가 생태계에 미칠 수 있는 영향에 대해 협력적으로 소통할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0021",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "이산화 탄소 유무에 따른 온도 변화 실험으로 강화된 온실효과와 열수지 변동을 설명하므로 지구온난화 메커니즘 기준과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          86
+        ],
+        "quote": "온실효과 강화로 발생하는 지\n구온난화의 과정을 이해하고, \n지구온난화에 따른 지구 열수\n지 변동을 설명할 수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-03",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 70,
+          "quote": "[10통과2-02-03] 온실효과 강화로 인한 지구온난화의 메커니즘을 이해하고, 엘니뇨, 사막화 등과 같은 현상이 \n지구 환경과 인간 생활에 미치는 영향과 대처 방안을 분석할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0022",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "엘니뇨·사막화가 지구 환경과 인간 생활에 주는 영향 및 대처 방안을 분석하여 기준의 핵심 수행에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          91
+        ],
+        "quote": "모둠에서 엘니뇨와 사막화 등과 같은 지구 환경 변화를 선정해 그 영향을 조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-03",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 70,
+          "quote": "[10통과2-02-03] 온실효과 강화로 인한 지구온난화의 메커니즘을 이해하고, 엘니뇨, 사막화 등과 같은 현상이 \n지구 환경과 인간 생활에 미치는 영향과 대처 방안을 분석할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0023",
+      "codes": [
+        "10통과2-02-02",
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "기후변화 시나리오 자료로 생태계 변화를 예상하고 지구 환경·인간 사회의 대응을 토의하므로 환경 변화의 생태계 영향과 기후변화 대처 두 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          92
+        ],
+        "quote": "기후변화로 미래 사회의 생태\n계와 지구계의 변화를 예상\n하여 시나리오를 구상하고, \n이에 대응하기 위한 인간의 \n노력을 탐색할 수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-02",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 70,
+          "quote": "[10통과2-02-02] 먹이 관계와 생태피라미드를 중심으로 생태계평형이 유지되는 과정을 이해하고, 환경의 \n변화가 생태계에 미칠 수 있는 영향에 대해 협력적으로 소통할 수 있다."
+        },
+        {
+          "code": "10통과2-02-03",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 70,
+          "quote": "[10통과2-02-03] 온실효과 강화로 인한 지구온난화의 메커니즘을 이해하고, 엘니뇨, 사막화 등과 같은 현상이 \n지구 환경과 인간 생활에 미치는 영향과 대처 방안을 분석할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0024",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "우리 지역의 생태 자산과 환경 정보를 조사하고 인간이 얻는 혜택을 설명하여 생물인 인간과 환경의 상호 관계를 다루는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          94
+        ],
+        "quote": "생태계서비스는 우리 생활에 어떤 영향을 주는지 이야기해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-01",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 70,
+          "quote": "[10통과2-02-01] 생태계구성요소를 이해하고 생물과 환경 사이의 상호 관계를 설명할 수 있다."
+        }
+      ],
+      "review_note": "생태계서비스는 기준의 생물·환경 관계를 인간의 생활로 확장한 소재이다."
+    },
+    {
+      "record_id": "jihaksa_is2_0025",
+      "codes": [
+        "10통과2-02-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "태양 에너지가 식물·화석 연료·발전 등 여러 에너지로 바뀌는 과정을 추론하여 기준의 에너지 전환 부분에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          103
+        ],
+        "quote": "태양 에너지가 전환되어 인간의 생활에 사용되는 사례를 \n조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-04",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 98,
+          "quote": "[10통과2-02-04] 태양에서 수소 핵융합 반응을 통해 질량 일부가 에너지로 바뀌고, 그중 일부가 지구에서 에\n너지 흐름을 일으키며 다양한 에너지로 전환되는 과정을 추론할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0026",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "자석·코일 상대 운동과 유도 전류의 관계를 실험하여 발전기의 운동 에너지→전기 에너지 전환 원리를 이해한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          105
+        ],
+        "quote": "자석과 코일의 상대 운동에 \n의해 운동 에너지가 전기 에\n너지로 전환되는 과정을 탐\n구할 수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-05",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 98,
+          "quote": "[10통과2-02-05] 발전기에서 운동 에너지가 전기 에너지로 전환되는 과정을 이해하고, 열원으로서 화석 연료, \n핵에너지를 이용하는 발전소가 인간 생활에 미치는 영향을 조사·발표할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0027",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "간이 발전기를 만들어 자석의 회전에 따른 전기 생산을 설명하므로 발전기 에너지 전환 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          107
+        ],
+        "quote": "발광 다이오드에 불이 켜질 때 에너지가 전환되는 과정을 분석하여 발전기에서 전기 에너지\n가 어떻게 만들어지는지 설명해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-05",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 98,
+          "quote": "[10통과2-02-05] 발전기에서 운동 에너지가 전기 에너지로 전환되는 과정을 이해하고, 열원으로서 화석 연료, \n핵에너지를 이용하는 발전소가 인간 생활에 미치는 영향을 조사·발표할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0028",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "화석 연료·핵에너지를 열원으로 사용하는 발전소의 이점과 문제를 조사·발표하므로 기준 후반과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          110
+        ],
+        "quote": "화력 발전소와 핵발전소가 인간 생활에 미치는 긍정적인 영향과 화력 발전소와 핵발전소를 \n계속해서 사용할 때 발생할 수 있는 문제점을 조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-05",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 98,
+          "quote": "[10통과2-02-05] 발전기에서 운동 에너지가 전기 에너지로 전환되는 과정을 이해하고, 열원으로서 화석 연료, \n핵에너지를 이용하는 발전소가 인간 생활에 미치는 영향을 조사·발표할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0029",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "신재생 에너지 사례를 찾고 학교·교실에 적용할 방안을 토의하여 지속가능한 발전을 위한 기술 활용 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          116
+        ],
+        "quote": "우리 주변에서 신재생 에너지 기술을 사용하는 예를 찾아보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-06",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 98,
+          "quote": "[10통과2-02-06] 에너지 효율의 의미와 중요성을 이해하고, 지속가능한 발전과 지구 환경 문제 해결에 신재생 \n에너지 기술을 활용하는 방안을 탐색할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0030",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "건축물의 열 손실을 줄이는 단열 기술과 아이디어를 조사·선정하여 에너지 효율의 의미와 중요성을 적용한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          118
+        ],
+        "quote": "모둠별로 단열 효율을 높이는 기술과 사용 방법을 조사하여 이야기해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-06",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 98,
+          "quote": "[10통과2-02-06] 에너지 효율의 의미와 중요성을 이해하고, 지속가능한 발전과 지구 환경 문제 해결에 신재생 \n에너지 기술을 활용하는 방안을 탐색할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0031",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "기업의 재생 에너지 전환 방법과 지속가능한 발전에 대한 효과를 조사·논술하여 신재생 에너지 활용 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          125
+        ],
+        "quote": "RE100에 가입한 기업들이 재생 에너지로 전환하기 위해 어떤 노력을 하는지 조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-06",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 98,
+          "quote": "[10통과2-02-06] 에너지 효율의 의미와 중요성을 이해하고, 지속가능한 발전과 지구 환경 문제 해결에 신재생 \n에너지 기술을 활용하는 방안을 탐색할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0032",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "감염병 진단·추적 사례로 과학의 유용성을 정리하는 과제가 기준과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          131
+        ],
+        "quote": "과학기술의 발전이 감염병의 진단과 추적에 미친 긍정적인 영향을 정리해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-01",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-01] 감염병의 진단, 추적 등을 사례로 과학의 유용성을 설명하고, 미래 사회 문제 해결에서 과학\n의 필요성에 대해 논증할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0033",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "미래 사회에 예상되는 문제의 과학적 해결 방안을 조사·발표하므로 미래 문제 해결에서 과학의 필요성을 다루는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          132
+        ],
+        "quote": "모둠에서 토의한 문제 가운데 한 가지를 고르고, 과학적 해결 방안을 스마트 기기와 참고 자\n료를 이용하여 탐색해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-01",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-01] 감염병의 진단, 추적 등을 사례로 과학의 유용성을 설명하고, 미래 사회 문제 해결에서 과학\n의 필요성에 대해 논증할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0034",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "단백질 검출과 핵산 증폭 진단을 체험·분석하여 신속한 감염병 진단의 유용성을 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          134
+        ],
+        "quote": "감염병 진단 기술을 체험 \n하여 과학의 유용성을 설명할 \n수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-01",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-01] 감염병의 진단, 추적 등을 사례로 과학의 유용성을 설명하고, 미래 사회 문제 해결에서 과학\n의 필요성에 대해 논증할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0035",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "기상 관측·과학 실험·신약 개발 분야의 빅데이터 사용 사례를 조사하여 기준의 사례 조사 수행에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          137
+        ],
+        "quote": "다음은 과학 연구에서 빅데이터를 사용하는 분야이다.\n위의 분야에서 빅데이터 사례를 조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-02",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-02] 빅데이터를 과학기술사회에서 사용하고 있는 사례를 조사하고, 빅데이터 활용의 장점과 \n문제점을 추론할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0036",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "빅데이터 사례를 선정해 장점·문제점을 추론하고 개선 방법을 정리하므로 빅데이터 활용 기준과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          139
+        ],
+        "quote": "빅데이터의 문제점을 최소화하고 장점을 최대화할 수 있는 방법을 써 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-02",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-02] 빅데이터를 과학기술사회에서 사용하고 있는 사례를 조사하고, 빅데이터 활용의 장점과 \n문제점을 추론할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0037",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "생활 데이터의 실시간 수집·그래프 분석·환기 시점 판단을 수행하고 다른 빅데이터 사례로 확장하므로 빅데이터의 사용과 활용 가치를 다루는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          141
+        ],
+        "quote": "교실 내 이산화 탄소 농도와 같이 우리 생활에서 측정할 수 있는 빅데이터는 어떤 것이 있는지 \n이야기해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-02",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-02] 빅데이터를 과학기술사회에서 사용하고 있는 사례를 조사하고, 빅데이터 활용의 장점과 \n문제점을 추론할 수 있다."
+        }
+      ],
+      "review_note": "단일 교실의 측정 데이터 자체를 대규모 빅데이터라고 단정하지 않고, 교과서의 빅데이터 활용 학습을 위한 실습·확장으로 연결한다."
+    },
+    {
+      "record_id": "jihaksa_is2_0038",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "인공지능 로봇·사물인터넷의 삶과 환경 개선 사례를 조사하므로 기준의 사례 찾기 수행과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          143
+        ],
+        "quote": "모둠별로 인공지능 로봇, 사물인터넷과 같은 과학기술의 발전을 인간 삶과 환경 개선에 활\n용하는 사례를 조사해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-03",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-03] 인공지능 로봇, 사물인터넷 등과 같이 과학기술의 발전을 인간 삶과 환경 개선에 활용하는 \n사례를 찾고, 이러한 과학기술의 발전이 미래 사회에 미치는 유용성과 한계를 예측할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0039",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "생활 로봇의 기능·활용·불편함을 분석하고 개선 방안을 고안하여 로봇 기술의 유용성과 한계를 이해한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          145
+        ],
+        "quote": "모둠별로 조사한 로봇의 문제점을 개선할 수 있는 방안을 고안하여 온라인 공유 플랫폼에 \n올려 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-03",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-03] 인공지능 로봇, 사물인터넷 등과 같이 과학기술의 발전을 인간 삶과 환경 개선에 활용하는 \n사례를 찾고, 이러한 과학기술의 발전이 미래 사회에 미치는 유용성과 한계를 예측할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0040",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "직업별 과학기술 발전의 영향·문제점과 개선을 예상하여 미래 사회에서 기술의 유용성과 한계를 예측하는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          146
+        ],
+        "quote": "모둠별로 과학기술 발전의 유용성과 \n한계를 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-03",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-03] 인공지능 로봇, 사물인터넷 등과 같이 과학기술의 발전을 인간 삶과 환경 개선에 활용하는 \n사례를 찾고, 이러한 과학기술의 발전이 미래 사회에 미치는 유용성과 한계를 예측할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0041",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "유전자 가위의 사회·윤리·정책 등 여러 측면을 조사해 사용 입장을 논증하므로 과학 관련 사회적 쟁점과 윤리 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          149
+        ],
+        "quote": "정리한 내용을 근거로 크리스퍼 유전자 가위 사용에 대한 나의 생각을 작성해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-04",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에서 \n과학 윤리의 중요성에 대해 논증할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0042",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "인공지능 연구의 유용성·위험을 조사하고 책임 있는 사용을 논증하여 과학 윤리의 중요성 기준과 일치한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          150
+        ],
+        "quote": "과학기술 발전의 양면성을 \n이해하고, 과학 윤리의 중요\n성에 대해 논증할 수 있다."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-04",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에서 \n과학 윤리의 중요성에 대해 논증할 수 있다."
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "jihaksa_is2_0043",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "키오스크의 주문 과정을 조사하고 이용상 불편을 분석하여 개선 방안을 제안하므로 생활 기술의 유용성과 한계를 인식하고 삶을 개선하는 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          152
+        ],
+        "quote": "공통적으로 느낀 문제점이 무엇인지 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-03",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-03] 인공지능 로봇, 사물인터넷 등과 같이 과학기술의 발전을 인간 삶과 환경 개선에 활용하는 \n사례를 찾고, 이러한 과학기술의 발전이 미래 사회에 미치는 유용성과 한계를 예측할 수 있다."
+        }
+      ],
+      "review_note": "인공지능 로봇·사물인터넷 대신 무인 주문 기기를 사용하는 응용 활동이다."
+    },
+    {
+      "record_id": "jihaksa_is2_0044",
+      "codes": [],
+      "method": "unresolved",
+      "rationale": "과학관의 탐방 목표·전시물·지원·교통·평가 계획을 자유롭게 설계하는 일반 프로젝트이며 특정 과학 내용이나 해당 권의 성취기준 수행이 정해져 있지 않다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          153
+        ],
+        "quote": "학습 목표에 맞는 전시물과 과학 활동을 생각한다."
+      },
+      "standard_evidence": [],
+      "review_note": "실제 선정한 전시물과 학습 목표가 있어야 특정 성취기준을 연결할 수 있음."
+    },
+    {
+      "record_id": "jihaksa_is2_0045",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "동물 실험의 장단점·대체 방안을 조사하고 윤리적 찬반 입장을 논술하므로 과학 관련 사회적 쟁점과 과학 윤리 기준에 연결한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          159
+        ],
+        "quote": "동물 실험 사용 사례와 대체 방안 등을 조사하고, 이를 바탕으로 동물 실험을 토의해 보자."
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-04",
+          "book_id": "jihaksa_IS2",
+          "pdf_page": 128,
+          "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에서 \n과학 윤리의 중요성에 대해 논증할 수 있다."
+        }
+      ],
+      "review_note": null
+    }
+  ]
+}

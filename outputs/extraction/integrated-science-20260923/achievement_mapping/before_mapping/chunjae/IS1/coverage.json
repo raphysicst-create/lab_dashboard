@@ -1,0 +1,1365 @@
+{
+  "book_id": "chunjae_IS1",
+  "pdf_page_count": 176,
+  "visual_reviewed_pages": [
+    1,
+    15,
+    18,
+    19,
+    22,
+    24,
+    29,
+    34,
+    35,
+    41,
+    43,
+    51,
+    58,
+    59,
+    62,
+    65,
+    68,
+    69,
+    70,
+    79,
+    82,
+    85,
+    86,
+    94,
+    95,
+    104,
+    107,
+    109,
+    115,
+    122,
+    123,
+    125,
+    130,
+    133,
+    143,
+    147,
+    148,
+    151,
+    152,
+    155,
+    160,
+    161,
+    174
+  ],
+  "pages": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "표지·머리말·구성 안내·목차·공통 안전 안내; 구성 안내의 활동 재등장 제외."
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "표지·머리말·구성 안내·목차·공통 안전 안내; 구성 안내의 활동 재등장 제외."
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "표지·머리말·구성 안내·목차·공통 안전 안내; 구성 안내의 활동 재등장 제외."
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "표지·머리말·구성 안내·목차·공통 안전 안내; 구성 안내의 활동 재등장 제외."
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "표지·머리말·구성 안내·목차·공통 안전 안내; 구성 안내의 활동 재등장 제외."
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "표지·머리말·구성 안내·목차·공통 안전 안내; 구성 안내의 활동 재등장 제외."
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "표지·머리말·구성 안내·목차·공통 안전 안내; 구성 안내의 활동 재등장 제외."
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "표지·머리말·구성 안내·목차·공통 안전 안내; 구성 안내의 활동 재등장 제외."
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "표지·머리말·구성 안내·목차·공통 안전 안내; 구성 안내의 활동 재등장 제외."
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 10,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 11,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 12,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 13,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "교사용 단원 지도 계획에 본문 활동을 열거한 지면; 중복 후보 제외."
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 14,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": 15,
+      "record_ids": [
+        "chunjae_IS1_001"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": 16,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 17,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 18,
+      "printed_page": 18,
+      "record_ids": [
+        "chunjae_IS1_002"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 19,
+      "record_ids": [
+        "chunjae_IS1_002"
+      ],
+      "decision": "continuation",
+      "reason": "앞쪽에서 시작한 동일 활동의 연속 수행·정리 또는 자료 지면."
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": 20,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 21,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 22,
+      "record_ids": [
+        "chunjae_IS1_003"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 23,
+      "printed_page": 23,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 24,
+      "printed_page": 24,
+      "record_ids": [
+        "chunjae_IS1_004"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": 25,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 26,
+      "printed_page": 26,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 27,
+      "printed_page": 27,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 28,
+      "printed_page": 28,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 29,
+      "printed_page": 29,
+      "record_ids": [
+        "chunjae_IS1_005"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 30,
+      "printed_page": 30,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 31,
+      "printed_page": 31,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 32,
+      "printed_page": 32,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 33,
+      "printed_page": 33,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 34,
+      "printed_page": 34,
+      "record_ids": [
+        "chunjae_IS1_006"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 35,
+      "printed_page": 35,
+      "record_ids": [
+        "chunjae_IS1_006"
+      ],
+      "decision": "continuation",
+      "reason": "앞쪽에서 시작한 동일 활동의 연속 수행·정리 또는 자료 지면."
+    },
+    {
+      "pdf_page": 36,
+      "printed_page": 36,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 37,
+      "printed_page": 37,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 38,
+      "printed_page": 38,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 39,
+      "printed_page": 39,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "교사용 단원 지도 계획에 본문 활동을 열거한 지면; 중복 후보 제외."
+    },
+    {
+      "pdf_page": 40,
+      "printed_page": 40,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 41,
+      "printed_page": 41,
+      "record_ids": [
+        "chunjae_IS1_007"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 42,
+      "printed_page": 42,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 43,
+      "printed_page": 43,
+      "record_ids": [
+        "chunjae_IS1_008"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 44,
+      "printed_page": 44,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 45,
+      "printed_page": 45,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 46,
+      "printed_page": 46,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 47,
+      "printed_page": 47,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 48,
+      "printed_page": 48,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 49,
+      "printed_page": 49,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 50,
+      "printed_page": 50,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 51,
+      "printed_page": 51,
+      "record_ids": [
+        "chunjae_IS1_009"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 52,
+      "printed_page": 52,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 53,
+      "printed_page": 53,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 54,
+      "printed_page": 54,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 55,
+      "printed_page": 55,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 56,
+      "printed_page": 56,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 57,
+      "printed_page": 57,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "교사용 단원 지도 계획에 본문 활동을 열거한 지면; 중복 후보 제외."
+    },
+    {
+      "pdf_page": 58,
+      "printed_page": 58,
+      "record_ids": [
+        "chunjae_IS1_010"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 59,
+      "printed_page": 59,
+      "record_ids": [
+        "chunjae_IS1_010"
+      ],
+      "decision": "continuation",
+      "reason": "앞쪽에서 시작한 동일 활동의 연속 수행·정리 또는 자료 지면."
+    },
+    {
+      "pdf_page": 60,
+      "printed_page": 60,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 61,
+      "printed_page": 61,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 62,
+      "printed_page": 62,
+      "record_ids": [
+        "chunjae_IS1_011"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 63,
+      "printed_page": 63,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 64,
+      "printed_page": 64,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 65,
+      "printed_page": 65,
+      "record_ids": [
+        "chunjae_IS1_012"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 66,
+      "printed_page": 66,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 67,
+      "printed_page": 67,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 68,
+      "printed_page": 68,
+      "record_ids": [
+        "chunjae_IS1_013"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 69,
+      "printed_page": 69,
+      "record_ids": [
+        "chunjae_IS1_013"
+      ],
+      "decision": "continuation",
+      "reason": "앞쪽에서 시작한 동일 활동의 연속 수행·정리 또는 자료 지면."
+    },
+    {
+      "pdf_page": 70,
+      "printed_page": 70,
+      "record_ids": [
+        "chunjae_IS1_014"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 71,
+      "printed_page": 71,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 72,
+      "printed_page": 72,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 73,
+      "printed_page": 73,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 74,
+      "printed_page": 74,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 75,
+      "printed_page": 75,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 76,
+      "printed_page": 76,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 77,
+      "printed_page": 77,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "교사용 단원 지도 계획에 본문 활동을 열거한 지면; 중복 후보 제외."
+    },
+    {
+      "pdf_page": 78,
+      "printed_page": 78,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 79,
+      "printed_page": 79,
+      "record_ids": [
+        "chunjae_IS1_015"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 80,
+      "printed_page": 80,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 81,
+      "printed_page": 81,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 82,
+      "printed_page": 82,
+      "record_ids": [
+        "chunjae_IS1_016"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 83,
+      "printed_page": 83,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 84,
+      "printed_page": 84,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 85,
+      "printed_page": 85,
+      "record_ids": [
+        "chunjae_IS1_017"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 86,
+      "printed_page": 86,
+      "record_ids": [
+        "chunjae_IS1_018"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 87,
+      "printed_page": 87,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 88,
+      "printed_page": 88,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 89,
+      "printed_page": 89,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 90,
+      "printed_page": 90,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 91,
+      "printed_page": 91,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 92,
+      "printed_page": 92,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 93,
+      "printed_page": 93,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 94,
+      "printed_page": 94,
+      "record_ids": [
+        "chunjae_IS1_019"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 95,
+      "printed_page": 95,
+      "record_ids": [
+        "chunjae_IS1_019"
+      ],
+      "decision": "continuation",
+      "reason": "앞쪽에서 시작한 동일 활동의 연속 수행·정리 또는 자료 지면."
+    },
+    {
+      "pdf_page": 96,
+      "printed_page": 96,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 97,
+      "printed_page": 97,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 98,
+      "printed_page": 98,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 99,
+      "printed_page": 99,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "교사용 단원 지도 계획에 본문 활동을 열거한 지면; 중복 후보 제외."
+    },
+    {
+      "pdf_page": 100,
+      "printed_page": 100,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 101,
+      "printed_page": 101,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 102,
+      "printed_page": 102,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 103,
+      "printed_page": 103,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 104,
+      "printed_page": 104,
+      "record_ids": [
+        "chunjae_IS1_020"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 105,
+      "printed_page": 105,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 106,
+      "printed_page": 106,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 107,
+      "printed_page": 107,
+      "record_ids": [
+        "chunjae_IS1_021"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 108,
+      "printed_page": 108,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 109,
+      "printed_page": 109,
+      "record_ids": [
+        "chunjae_IS1_022"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 110,
+      "printed_page": 110,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 111,
+      "printed_page": 111,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 112,
+      "printed_page": 112,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 113,
+      "printed_page": 113,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 114,
+      "printed_page": 114,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 115,
+      "printed_page": 115,
+      "record_ids": [
+        "chunjae_IS1_023"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 116,
+      "printed_page": 116,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 117,
+      "printed_page": 117,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 118,
+      "printed_page": 118,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 119,
+      "printed_page": 119,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 120,
+      "printed_page": 120,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 121,
+      "printed_page": 121,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "교사용 단원 지도 계획에 본문 활동을 열거한 지면; 중복 후보 제외."
+    },
+    {
+      "pdf_page": 122,
+      "printed_page": 122,
+      "record_ids": [
+        "chunjae_IS1_024"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 123,
+      "printed_page": 123,
+      "record_ids": [
+        "chunjae_IS1_024"
+      ],
+      "decision": "continuation",
+      "reason": "앞쪽에서 시작한 동일 활동의 연속 수행·정리 또는 자료 지면."
+    },
+    {
+      "pdf_page": 124,
+      "printed_page": 124,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 125,
+      "printed_page": 125,
+      "record_ids": [
+        "chunjae_IS1_025"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 126,
+      "printed_page": 126,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 127,
+      "printed_page": 127,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 128,
+      "printed_page": 128,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 129,
+      "printed_page": 129,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 130,
+      "printed_page": 130,
+      "record_ids": [
+        "chunjae_IS1_026"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 131,
+      "printed_page": 131,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 132,
+      "printed_page": 132,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 133,
+      "printed_page": 133,
+      "record_ids": [
+        "chunjae_IS1_027"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 134,
+      "printed_page": 134,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 135,
+      "printed_page": 135,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 136,
+      "printed_page": 136,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 137,
+      "printed_page": 137,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 138,
+      "printed_page": 138,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 139,
+      "printed_page": 139,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "교사용 단원 지도 계획에 본문 활동을 열거한 지면; 중복 후보 제외."
+    },
+    {
+      "pdf_page": 140,
+      "printed_page": 140,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 141,
+      "printed_page": 141,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 142,
+      "printed_page": 142,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 143,
+      "printed_page": 143,
+      "record_ids": [
+        "chunjae_IS1_028"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 144,
+      "printed_page": 144,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 145,
+      "printed_page": 145,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 146,
+      "printed_page": 146,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 147,
+      "printed_page": 147,
+      "record_ids": [
+        "chunjae_IS1_029"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 148,
+      "printed_page": 148,
+      "record_ids": [
+        "chunjae_IS1_030"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 149,
+      "printed_page": 149,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 150,
+      "printed_page": 150,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 151,
+      "printed_page": 151,
+      "record_ids": [
+        "chunjae_IS1_031"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 152,
+      "printed_page": 152,
+      "record_ids": [
+        "chunjae_IS1_032"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 153,
+      "printed_page": 153,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 154,
+      "printed_page": 154,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 155,
+      "printed_page": 155,
+      "record_ids": [
+        "chunjae_IS1_033"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 156,
+      "printed_page": 156,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 157,
+      "printed_page": 157,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "단원 마무리·평가 문항; 독립 수행 활동 대상에서 제외."
+    },
+    {
+      "pdf_page": 158,
+      "printed_page": 158,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 159,
+      "printed_page": 159,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 160,
+      "printed_page": 160,
+      "record_ids": [
+        "chunjae_IS1_034"
+      ],
+      "decision": "included",
+      "reason": "학생 본문의 제목 있는 독립 활동 시작."
+    },
+    {
+      "pdf_page": 161,
+      "printed_page": 161,
+      "record_ids": [
+        "chunjae_IS1_034"
+      ],
+      "decision": "continuation",
+      "reason": "앞쪽에서 시작한 동일 활동의 연속 수행·정리 또는 자료 지면."
+    },
+    {
+      "pdf_page": 162,
+      "printed_page": 162,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 163,
+      "printed_page": 163,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "본문 개념 설명·단원 도입·확인 질문·교사용 보충 자료; 제목 있는 신규 독립 수행 활동 없음."
+    },
+    {
+      "pdf_page": 164,
+      "printed_page": 164,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 165,
+      "printed_page": 165,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 166,
+      "printed_page": 166,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 167,
+      "printed_page": 167,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 168,
+      "printed_page": 168,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 169,
+      "printed_page": 169,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 170,
+      "printed_page": 170,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 171,
+      "printed_page": 171,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 172,
+      "printed_page": 172,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 173,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 174,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 175,
+      "printed_page": 175,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    },
+    {
+      "pdf_page": 176,
+      "printed_page": null,
+      "record_ids": [],
+      "decision": "excluded",
+      "reason": "부록(정답·자료 출처·집필진·판권·학습 부속 자료) 또는 빈 지면; 신규 독립 활동 아님."
+    }
+  ]
+}

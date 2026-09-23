@@ -1,4 +1,4 @@
-import { STORAGE_KEY, filterActivities, sanitizePreferences } from './core.js?v=achievement-20260923';
+import { STORAGE_KEY, achievementIds, compareAchievements, filterActivities, gradeKey, sanitizePreferences } from './core.js?v=integrated-20260923';
 import { createChemicalUI } from './chemical-ui.js?v=guides-2';
 
 const $ = id => document.getElementById(id);
@@ -33,6 +33,34 @@ function displayItems(items) {
 
 function pageLabel(activity) {
   return activity.page == null ? '쪽수 미확인' : `${activity.page}쪽`;
+}
+
+function gradeLabel(item) {
+  if (item.grade_label) return item.grade_label;
+  if (item.grade == null) return '학년 미확인';
+  return `${item.school_level === '고등학교' ? '고' : '중'}${item.grade}`;
+}
+
+function gradeOrder(item) {
+  return item.grade == null ? Infinity : (gradeKey(item)?.startsWith('high-') ? 100 : 0) + item.grade;
+}
+
+function materialGroups(activity) {
+  if (activity.material_classification_pending === true
+    || (activity.school_level === '고등학교' && activity.equipment == null && activity.supplies == null)) {
+    return [['실험 준비물 원문', display(activity.materials_raw)]];
+  }
+  return [['실험 기자재', displayItems(activity.equipment)], ['실험 준비물', displayItems(activity.supplies)]];
+}
+
+function standardUnitKey(standard) {
+  return JSON.stringify([standard.school_level ?? '중학교', standard.volume ?? null, standard.unit]);
+}
+
+function standardUnitLabel(standard) {
+  const unit = display(standard.unit);
+  return standard.school_level === '고등학교' && standard.volume != null && !unit.startsWith('통합과학')
+    ? `통합과학 ${standard.volume} · ${unit}` : unit;
 }
 
 function storageWarning(message) {
@@ -72,9 +100,10 @@ function populateSelect(select, choices, firstLabel) {
 }
 
 function populateFilters() {
-  const grades = [...new Set(state.activities.map(a => a.grade).filter(g => g != null))].sort();
-  populateSelect($('grade-filter'), grades.map(grade => [String(grade), `${grade}학년`]), '전체 학년');
-  if (state.activities.some(a => a.grade == null)) $('grade-filter').add(new Option('미확인', 'unknown'));
+  const grades = new Map([...state.activities].sort((a, b) => gradeOrder(a) - gradeOrder(b))
+    .filter(activity => gradeKey(activity) != null).map(activity => [gradeKey(activity), gradeLabel(activity)]));
+  populateSelect($('grade-filter'), [...grades], '전체 학년');
+  if (state.activities.some(a => gradeKey(a) == null)) $('grade-filter').add(new Option('미확인', 'unknown'));
   const options = state.publishers.map(publisher => {
     const label = element('label', null, 'publisher-option');
     const input = document.createElement('input');
@@ -94,13 +123,17 @@ function populateFilters() {
 
 function matchesGrade(item) {
   const grade = $('grade-filter').value;
-  return grade === 'all' || (grade === 'unknown' ? item.grade == null : String(item.grade) === grade);
+  return grade === 'all' || (grade === 'unknown' ? gradeKey(item) == null : gradeKey(item) === grade);
 }
 
 function updateUnitOptions() {
   const current = $('unit-filter').value;
   const activities = state.activities.filter(matchesGrade)
-    .sort((a, b) => (a.unit_number ?? Infinity) - (b.unit_number ?? Infinity));
+    .sort((a, b) => {
+      const order = item => item.school_level === '고등학교'
+        ? 100 + (item.volume ?? 0) * 10 + (item.unit_number ?? 0) : item.unit_number ?? Infinity;
+      return order(a) - order(b) || String(a.unit).localeCompare(String(b.unit), 'ko', { numeric: true });
+    });
   const units = [...new Set(activities.map(a => a.unit))];
   populateSelect($('unit-filter'), units.map(unit => [unit, display(unit)]), '전체 단원');
   if (units.includes(current)) $('unit-filter').value = current;
@@ -111,24 +144,24 @@ function updateAchievementOptions() {
   const selectedUnit = $('unit-filter').value;
   const activities = state.activities.filter(activity => matchesGrade(activity)
     && (selectedUnit === 'all' || activity.unit === selectedUnit));
-  const linkedIds = new Set(activities.map(activity => activity.achievement_id).filter(Boolean));
+  const linkedIds = new Set(activities.flatMap(achievementIds));
   const standards = state.achievements.filter(standard => linkedIds.has(standard.id))
-    .sort((a, b) => (a.unit_number ?? Infinity) - (b.unit_number ?? Infinity)
-      || (a.sequence ?? Infinity) - (b.sequence ?? Infinity));
+    .sort(compareAchievements);
   const select = $('achievement-filter');
   select.replaceChildren(new Option('전체 성취기준', 'all'));
   const groups = new Map();
   for (const standard of standards) {
-    if (!groups.has(standard.unit)) {
+    const groupKey = standardUnitKey(standard);
+    if (!groups.has(groupKey)) {
       const group = document.createElement('optgroup');
-      const groupIds = new Set(standards.filter(item => item.unit === standard.unit).map(item => item.id));
-      const grades = [...new Set(activities.filter(activity => groupIds.has(activity.achievement_id))
-        .map(activity => activity.grade))].sort((a, b) => (a ?? Infinity) - (b ?? Infinity));
-      group.label = `${display(standard.unit)} · ${grades.map(grade => grade == null ? '학년 미확인' : `${grade}학년`).join('·')}`;
-      groups.set(standard.unit, group);
+      const groupIds = new Set(standards.filter(item => standardUnitKey(item) === groupKey).map(item => item.id));
+      const grades = [...new Set(activities.filter(activity => achievementIds(activity).some(id => groupIds.has(id)))
+        .sort((a, b) => gradeOrder(a) - gradeOrder(b)).map(gradeLabel))];
+      group.label = `${standardUnitLabel(standard)} · ${grades.join('·')}`;
+      groups.set(groupKey, group);
       select.append(group);
     }
-    groups.get(standard.unit).append(new Option(display(standard.raw_text), standard.id));
+    groups.get(groupKey).append(new Option(display(standard.raw_text), standard.id));
   }
   if ([...select.options].some(option => option.value === current)) select.value = current;
 }
@@ -148,8 +181,7 @@ function updateResults() {
     state.filtered.sort((a, b) => {
       const left = achievements.get(a.achievement_id);
       const right = achievements.get(b.achievement_id);
-      return (left?.unit_number ?? Infinity) - (right?.unit_number ?? Infinity)
-        || (left?.sequence ?? Infinity) - (right?.sequence ?? Infinity)
+      return compareAchievements(left, right)
         || a.publisher_raw.localeCompare(b.publisher_raw, 'ko')
         || a.source_row - b.source_row;
     });
@@ -173,10 +205,11 @@ function createActivityCard(activity) {
   title.append(action(activity.title, () => showActivity(activity.id)));
   const actions = element('div', null, 'card-actions');
   actions.append(action('상세 보기', () => showActivity(activity.id)));
-  const grade = activity.grade == null ? '학년 미확인' : `${activity.grade}학년`;
-  card.append(top, title, element('p', `${grade} · ${display(activity.unit)}`, 'unit-line'),
-    element('p', '실험 기자재', 'material-label'), element('p', displayItems(activity.equipment), 'raw-materials'),
-    element('p', '실험 준비물', 'material-label'), element('p', displayItems(activity.supplies), 'raw-materials'), actions);
+  card.append(top, title, element('p', `${gradeLabel(activity)} · ${display(activity.unit)}`, 'unit-line'));
+  for (const [label, value] of materialGroups(activity)) {
+    card.append(element('p', label, 'material-label'), element('p', value, 'raw-materials'));
+  }
+  card.append(actions);
   return card;
 }
 
@@ -214,14 +247,15 @@ function showActivity(id) {
   const list = element('dl');
   detailPair(list, '출판사·저자', activity.publisher_raw);
   detailPair(list, '교과서 쪽수', activity.page == null ? null : `${activity.page}쪽`);
-  detailPair(list, '학년', activity.grade == null ? null : `${activity.grade}학년`);
+  detailPair(list, '학년', activity.grade == null ? null : gradeLabel(activity));
   detailPair(list, '단원', activity.unit);
   detailPair(list, '성취기준', activity.achievement_raw);
-  const materials = element('section', null, 'dialog-section');
-  materials.append(element('h3', '실험 기자재'), element('p', displayItems(activity.equipment), 'raw-materials'));
-  const supplies = element('section', null, 'dialog-section');
-  supplies.append(element('h3', '실험 준비물'), element('p', displayItems(activity.supplies), 'raw-materials'));
-  $('dialog-content').replaceChildren(list, materials, supplies, chemicalUI.activitySection(activity));
+  const materials = materialGroups(activity).map(([label, value]) => {
+    const section = element('section', null, 'dialog-section');
+    section.append(element('h3', label), element('p', value, 'raw-materials'));
+    return section;
+  });
+  $('dialog-content').replaceChildren(list, ...materials, chemicalUI.activitySection(activity));
   if (!$('activity-dialog').open) $('activity-dialog').showModal();
 }
 
@@ -252,7 +286,7 @@ async function start() {
     const names = ['activities', 'achievements', 'chemicals', 'materials'];
     const results = await Promise.all(names.map(async name => {
       const url = new URL(`./data/${name}.json`, import.meta.url);
-      url.search = '?v=achievement-20260923';
+      url.search = '?v=integrated-20260923';
       const response = await fetch(url);
       if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
       return response.json();

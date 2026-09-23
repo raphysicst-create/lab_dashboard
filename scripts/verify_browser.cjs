@@ -14,15 +14,25 @@ const key = 'science-classroom-prep.preferences.v1';
   let page=await context.newPage();
   page.on('pageerror',e=>errors.push(String(e)));
   await page.goto(base);
-  await page.waitForFunction(()=>document.getElementById('result-count').textContent==='탐구활동 862건');
+  await page.waitForFunction(()=>document.getElementById('result-count').textContent==='탐구활동 1,277건');
   assert.equal(await page.locator('.activity-card').count(),30);
   assert.equal(await page.locator('#sort-order').inputValue(),'achievement');
   assert.equal(await page.locator('#sort-order option[value="source"]').count(),0);
   const activities = await (await page.request.get(new URL('data/activities.json',base).href)).json();
   const achievements = await (await page.request.get(new URL('data/achievements.json',base).href)).json();
-  const linkedIds = items => [...new Set(items.map(activity => activity.achievement_id).filter(Boolean))].sort();
+  assert.equal(activities.length,1277);
+  const middleActivities = activities.filter(activity => activity.school_level === '중학교');
+  const highActivities = activities.filter(activity => activity.grade_key === 'high-1');
+  assert.equal(middleActivities.length,862);
+  assert.equal(highActivities.length,415);
+  const publishers = [...new Set(activities.map(activity => activity.publisher_raw))];
+  assert.deepEqual((await page.locator('input[data-publisher]').evaluateAll(inputs => inputs.map(input => input.dataset.publisher))).sort(), [...publishers].sort());
+  const linkedIds = items => [...new Set(items.flatMap(activity => activity.achievement_ids))].sort();
   const optionIds = async () => (await page.locator('#achievement-filter option').evaluateAll(options => options.slice(1).map(option => option.value))).sort();
-  const expectedOrder = [...activities].sort((a,b) => (a.achievement_raw?.match(/^\d+-\d+/)?.[0] ?? '999-999').localeCompare(b.achievement_raw?.match(/^\d+-\d+/)?.[0] ?? '999-999', 'en', {numeric:true})
+  const standardById = new Map(achievements.map(standard => [standard.id,standard]));
+  const standardRank = standard => standard?.sort_order ?? standard?.unit_number ?? 999;
+  const expectedOrder = [...activities].sort((a,b) => standardRank(standardById.get(a.achievement_id))-standardRank(standardById.get(b.achievement_id))
+    || (standardById.get(a.achievement_id)?.sequence ?? 999)-(standardById.get(b.achievement_id)?.sequence ?? 999)
     || a.publisher_raw.localeCompare(b.publisher_raw,'ko') || a.source_row-b.source_row);
   while (await page.locator('#load-more').isVisible()) await page.locator('#load-more').click();
   assert.deepEqual(await page.locator('.activity-card').evaluateAll(cards=>cards.map(card=>card.dataset.activityId)),expectedOrder.map(activity=>activity.id));
@@ -32,10 +42,10 @@ const key = 'science-classroom-prep.preferences.v1';
   assert.deepEqual(await page.locator('.activity-card').evaluateAll(cards=>cards.map(card=>card.dataset.activityId)),expectedOrder.slice(0,30).map(activity=>activity.id));
   await page.evaluate(key => localStorage.setItem(key, JSON.stringify({publishers:['동아','미래앤','비상','천재(임성숙)','천재(정대홍)'],classes:3,students:10,groupSize:4})), key);
   await page.reload();
-  await page.waitForFunction(()=>document.getElementById('result-count').textContent==='탐구활동 862건');
+  await page.waitForFunction(()=>document.getElementById('result-count').textContent==='탐구활동 1,277건');
   assert.equal(await page.locator('#materials-tab, #materials-view, #select-results, [data-select-activity]').count(),0);
   assert.ok(!await page.locator('body').innerText().then(text=>text.includes('교과서 대조 미확인')));
-  for(const publisher of ['동아','미래앤','천재(임성숙)','천재(정대홍)','지학사','YBM']) await page.locator(`input[data-publisher="${publisher}"]`).uncheck();
+  for(const publisher of publishers.filter(publisher => publisher !== '비상')) await page.locator(`input[data-publisher="${publisher}"]`).uncheck();
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 111건');
   assert.deepEqual(await page.locator('.activity-card').evaluateAll(cards=>cards.map(card=>card.dataset.activityId)),expectedOrder.filter(activity=>activity.publisher_raw==='비상').slice(0,30).map(activity=>activity.id));
   assert.equal(await page.locator('#settings-toggle, #settings-panel, #class-count, #students-per-class, #students-per-group').count(),0);
@@ -53,23 +63,25 @@ const key = 'science-classroom-prep.preferences.v1';
   await page.waitForFunction(()=>document.getElementById('result-count').textContent==='탐구활동 111건');
   await page.locator('#reset-filters').click();
   const unitNumbers = async () => (await page.locator('#unit-filter option').allTextContents()).slice(1).filter(text => /^\d+/.test(text)).map(text => Number(text.match(/^\d+/)[0]));
-  const achievementNumbers = async () => (await page.locator('#achievement-filter option').allTextContents()).slice(1).map(text => text.match(/^\d+-\d+/)[0]);
+  const achievementNumbers = async () => (await page.locator('#achievement-filter option').allTextContents()).slice(1).map(text => text.match(/^\d+-\d+/)?.[0]).filter(Boolean);
   const groupNumbers = async () => (await page.locator('#achievement-filter optgroup').evaluateAll(groups => groups.map(group => group.label))).filter(text => /^\d+\./.test(text)).map(text => Number(text.match(/^\d+/)[0]));
   const unitValue = async number => page.locator('#unit-filter option').evaluateAll((options, number) => options.find(option => Number(option.textContent.match(/^\d+/)?.[0]) === number).value, number);
-  assert.deepEqual(await page.locator('#grade-filter option').evaluateAll(options => options.map(option => option.value)), ['all','1','2','3']);
+  assert.deepEqual(await page.locator('#grade-filter option').evaluateAll(options => options.map(option => option.value)), ['all','1','2','3','high-1']);
+  assert.deepEqual((await page.locator('#grade-filter option').allTextContents()).slice(1), ['중1','중2','중3','고1']);
   assert.deepEqual(await unitNumbers(), Array.from({length:15}, (_, i) => i + 1));
   assert.deepEqual(await groupNumbers(), Array.from({length:23}, (_, i) => i + 1));
   assert.deepEqual(await optionIds(), linkedIds(activities));
-  assert.equal(achievements.length, 87);
-  const allStandards = await achievementNumbers();
-  assert.equal(allStandards.length, 87);
-  assert.deepEqual(allStandards, [...allStandards].sort((a,b) => a.localeCompare(b, 'en', {numeric:true})));
+  assert.equal(achievements.length, 118);
+  const allStandards = await page.locator('#achievement-filter option').evaluateAll(options => options.slice(1).map(option => option.value));
+  const linked = new Set(linkedIds(activities));
+  assert.deepEqual(allStandards, [...achievements].filter(standard => linked.has(standard.id))
+    .sort((a,b) => standardRank(a)-standardRank(b) || a.sequence-b.sequence).map(standard => standard.id));
   assert.ok(!(await page.locator('#achievement-filter').innerText()).includes('9과'));
   await page.locator('#grade-filter').selectOption('1');
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 328건');
   assert.deepEqual(await unitNumbers(), [1,2,3,4,5,6,7,8]);
   assert.deepEqual(await groupNumbers(), [1,2,3,4,5,6,7,8]);
-  assert.deepEqual(await optionIds(), linkedIds(activities.filter(activity => activity.grade === 1)));
+  assert.deepEqual(await optionIds(), linkedIds(activities.filter(activity => activity.grade_key === '1')));
   const firstUnit = await unitValue(1);
   await page.locator('#unit-filter').selectOption(firstUnit);
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 8건');
@@ -85,7 +97,7 @@ const key = 'science-classroom-prep.preferences.v1';
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 446건');
   assert.deepEqual(await unitNumbers(), [9,10,11,12,13,14,15]);
   assert.deepEqual(await groupNumbers(), [8,9,10,11,12,13,14,15]);
-  assert.deepEqual(await optionIds(), linkedIds(activities.filter(activity => activity.grade === 2)));
+  assert.deepEqual(await optionIds(), linkedIds(activities.filter(activity => activity.grade_key === '2')));
   await page.locator('#unit-filter').selectOption(await unitValue(9));
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 44건');
   assert.deepEqual(await achievementNumbers(), ['9-1','9-2','9-3','9-4','9-5']);
@@ -95,8 +107,8 @@ const key = 'science-classroom-prep.preferences.v1';
   assert.equal(await page.locator('#achievement-filter').inputValue(),'all');
   await page.locator('#unit-filter').selectOption(await unitValue(8));
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 45건');
-  const sharedId = linkedIds(activities.filter(activity => activity.grade === 1))
-    .find(id => activities.some(activity => activity.grade === 2 && activity.achievement_id === id));
+  const sharedId = linkedIds(middleActivities.filter(activity => activity.grade === 1))
+    .find(id => middleActivities.some(activity => activity.grade === 2 && activity.achievement_ids.includes(id)));
   assert.ok(sharedId);
   const sharedGradeTwoUnit = activities.find(activity => activity.grade === 2 && activity.achievement_id === sharedId).unit;
   await page.locator('#grade-filter').selectOption('2');
@@ -139,9 +151,9 @@ const key = 'science-classroom-prep.preferences.v1';
   assert.ok((await page.locator('.publisher-tag').allTextContents()).every(text => text === 'YBM'));
   await page.locator('#reset-filters').click();
   // Check actual category values for added books, missing lists, and empty categories.
-  const examples = [activities.find(a => a.id.startsWith('jihaksa_') && a.equipment?.length && a.supplies?.length),
-    activities.find(a => a.grade === 3 && a.supplies?.length),
-    activities.find(a => a.materials_raw == null), activities.find(a => a.supplies?.length === 0)];
+  const examples = [middleActivities.find(a => a.id.startsWith('jihaksa_') && a.equipment?.length && a.supplies?.length),
+    middleActivities.find(a => a.grade === 3 && a.supplies?.length),
+    middleActivities.find(a => a.materials_raw == null), middleActivities.find(a => a.supplies?.length === 0)];
   for (const activity of examples) {
     assert.ok(activity);
     await page.locator('#search').fill(activity.title);
@@ -151,16 +163,63 @@ const key = 'science-classroom-prep.preferences.v1';
     await page.locator('#close-dialog').click();
   }
   for (const activity of [
-    activities.find(a => a.id.startsWith('jihaksa_') && a.achievement_id),
-    activities.find(a => a.id.startsWith('jihaksa_') && a.achievement_id == null),
+    middleActivities.find(a => a.id.startsWith('jihaksa_') && a.achievement_id),
+    middleActivities.find(a => a.id.startsWith('jihaksa_') && a.achievement_id == null),
   ]) {
     assert.ok(activity);
     await page.locator('#search').fill(activity.title);
     await page.locator(`[data-activity-id="${activity.id}"] .card-actions button`).click();
-    assert.equal(await page.locator('#dialog-content dd').nth(4).innerText(), activity.achievement_raw ?? '미확인');
+    assert.equal(await page.locator('#dialog-content dt').filter({hasText:/^성취기준$/}).locator('xpath=following-sibling::dd[1]').innerText(), activity.achievement_raw ?? '미확인');
     assert.doesNotMatch(await page.locator('#dialog-content').innerText(), /9과\d{2}-\d{2}|scope_based|candidate|교과서 대조/);
     await page.locator('#close-dialog').click();
   }
+  // High-school scope, volume-aware units, secondary standard matching, and raw lists.
+  await page.locator('#reset-filters').click();
+  await page.locator('#grade-filter').selectOption('high-1');
+  assert.equal(await page.locator('#result-count').innerText(),'탐구활동 415건');
+  assert.deepEqual(await optionIds(), linkedIds(highActivities));
+  assert.deepEqual((await page.locator('#unit-filter option').evaluateAll(options => options.slice(1).map(option => option.value))).sort(),
+    [...new Set(highActivities.map(activity => activity.unit))].sort());
+  const highUnit = highActivities.find(activity => activity.volume === 2 && activity.achievement_ids.length > 0).unit;
+  await page.locator('#unit-filter').selectOption(highUnit);
+  const unitActivities = highActivities.filter(activity => activity.unit === highUnit);
+  assert.equal(await page.locator('#result-count').innerText(),`탐구활동 ${unitActivities.length}건`);
+  assert.deepEqual(await optionIds(),linkedIds(unitActivities));
+  const highMultiple = highActivities.find(activity => activity.achievement_ids.length > 1 && activity.materials_raw);
+  assert.ok(highMultiple);
+  await page.locator('#unit-filter').selectOption('all');
+  const secondaryId = highMultiple.achievement_ids[1];
+  await page.locator('#achievement-filter').selectOption(secondaryId);
+  const secondaryMatches = expectedOrder.filter(activity => activity.grade_key === 'high-1' && activity.achievement_ids.includes(secondaryId));
+  assert.equal(await page.locator('#result-count').innerText(),`탐구활동 ${secondaryMatches.length}건`);
+  while (await page.locator('#load-more').isVisible()) await page.locator('#load-more').click();
+  assert.deepEqual(await page.locator('.activity-card').evaluateAll(cards => cards.map(card => card.dataset.activityId)),secondaryMatches.map(activity => activity.id));
+  assert.equal(await page.locator(`[data-activity-id="${highMultiple.id}"]`).count(),1);
+  const normalizeText = value => value.replace(/\s+/g,' ').trim();
+  async function checkHighDetail(activity) {
+    await page.locator('#reset-filters').click();
+    await page.locator('#grade-filter').selectOption('high-1');
+    await page.locator('#search').fill(activity.title);
+    const card = page.locator(`[data-activity-id="${activity.id}"]`);
+    assert.ok((await card.innerText()).includes('고1'));
+    assert.ok((await card.innerText()).includes('실험 준비물 원문'));
+    assert.deepEqual(await card.locator('.raw-materials').allTextContents(),[activity.materials_raw ?? '미확인']);
+    await card.locator('.card-actions button').click();
+    const dialog = page.locator('#dialog-content');
+    assert.ok((await dialog.locator('.dialog-section h3').allTextContents()).includes('실험 준비물 원문'));
+    assert.deepEqual(await dialog.locator('.raw-materials').allTextContents(),[activity.materials_raw ?? '미확인']);
+    const standardText = await dialog.locator('dt').filter({hasText:/^성취기준$/}).locator('xpath=following-sibling::dd[1]').innerText();
+    assert.equal(normalizeText(standardText),normalizeText(activity.achievement_raw ?? '미확인'));
+    for (const id of activity.achievement_ids) assert.ok(normalizeText(standardText).includes(normalizeText(standardById.get(id).raw_text)));
+    assert.doesNotMatch(await dialog.innerText(),/material_classification_pending|content_alignment|준비 수량|교과서 대조/);
+  }
+  await checkHighDetail(highMultiple);
+  await page.screenshot({path:path.join(output,'high-school-detail.png')});
+  await page.locator('#close-dialog').click();
+  const missingHighMaterials = highActivities.find(activity => activity.materials_raw == null);
+  assert.ok(missingHighMaterials);
+  await checkHighDetail(missingHighMaterials);
+  await page.keyboard.press('Escape');
   await page.locator('#reset-filters').click();
   for(const publisher of [...new Set(activities.map(a=>a.publisher_raw))]) await page.locator(`input[data-publisher="${publisher}"]`).uncheck();
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 0건');
@@ -171,14 +230,19 @@ const key = 'science-classroom-prep.preferences.v1';
   await page.setViewportSize({width:390,height:844});
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
   await page.screenshot({path:path.join(output,'mobile.png')});
+  await checkHighDetail(highMultiple);
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+  assert.equal(await page.locator('#activity-dialog').evaluate(dialog=>dialog.scrollWidth<=dialog.clientWidth),true);
+  await page.screenshot({path:path.join(output,'high-school-mobile.png')});
+  await page.keyboard.press('Escape');
   const blocked=await browser.newContext();
   await blocked.addInitScript(()=>{Object.defineProperty(Storage.prototype,'setItem',{value(){throw new DOMException('Blocked','SecurityError')}})});
   const blockedPage=await blocked.newPage();
   await blockedPage.goto(base);
-  await blockedPage.waitForFunction(()=>document.getElementById('result-count').textContent==='탐구활동 862건');
+  await blockedPage.waitForFunction(()=>document.getElementById('result-count').textContent==='탐구활동 1,277건');
   await blockedPage.locator('input[data-publisher="비상"]').uncheck();
   assert.equal(await blockedPage.locator('#storage-warning').isVisible(),true);
-  assert.equal(await blockedPage.locator('#result-count').innerText(),'탐구활동 751건');
+  assert.equal(await blockedPage.locator('#result-count').innerText(),'탐구활동 1,166건');
   const failed=await browser.newContext();
   await failed.route('**/data/activities.json*',route=>route.fulfill({status:500,body:'unavailable'}));
   const failedPage=await failed.newPage();
@@ -186,7 +250,7 @@ const key = 'science-classroom-prep.preferences.v1';
   await failedPage.getByRole('button',{name:'다시 불러오기'}).waitFor();
   assert.equal(errors.length,0,errors.join('\n'));
   await browser.close();
-  const report={status:'passed',checked:['source data load','publisher filter','classroom controls and quantity displays removed','localStorage reload and new tab','preparation list controls removed','grade mapping and unit boundary','linked grade, unit and achievement filters','numeric unit and achievement ordering','incompatible filter reset and compatible selection retention','material and chemical query','no results','achievement comparison','linked and unconfirmed detail text','detail modal and Escape','empty publisher selection persistence','desktop and mobile layout','storage denied graceful failure','data-load error'],pageErrors:errors};
+  const report={status:'passed',activityRows:activities.length,highRows:highActivities.length,standards:achievements.length,checked:['source data load','publisher filter','classroom controls and quantity displays removed','localStorage reload and new tab','preparation list controls removed','grade mapping and unit boundary','linked grade, unit and achievement filters','numeric unit and achievement ordering','incompatible filter reset and compatible selection retention','material and chemical query','no results','achievement comparison','linked and unconfirmed detail text','detail modal and Escape','high-school grade isolation and volume-aware units','secondary achievement matching','high-school raw and missing materials','high-school multiple standards detail','empty publisher selection persistence','desktop and mobile layout including high-school dialog','storage denied graceful failure','data-load error'],pageErrors:errors};
   await fs.writeFile(path.join(output,'browser-report.json'),JSON.stringify(report,null,2));
   console.log(JSON.stringify(report,null,2));
 })().catch(e=>{console.error(e);process.exit(1)});

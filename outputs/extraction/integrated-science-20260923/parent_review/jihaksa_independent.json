@@ -1,0 +1,126 @@
+{
+  "reviewer": "chunjae_extract independent reviewer",
+  "reviewed_original_counts": {
+    "IS1": {
+      "records": 36,
+      "supplies_explicit": 26,
+      "supplies_null": 10,
+      "pages": 180,
+      "errors": [],
+      "quote_comparison": "준비물 표제 제거 후 교구와 근거 목록 일치"
+    },
+    "IS2": {
+      "records": 44,
+      "supplies_explicit": 31,
+      "supplies_null": 13,
+      "pages": 172,
+      "errors": [],
+      "quote_comparison": "준비물 표제 제거 후 교구와 근거 목록 일치"
+    }
+  },
+  "scope": "352쪽 텍스트·좌표에서 활동/준비물 표지와 포함 제목 글꼴의 미수록 후보 역검색, JSON/coverage 80건 구조 대조, 아래 표본 11쪽 이미지 독립 대조. 전체 픽셀 재검수 아님.",
+  "visual_sample_pages": {
+    "IS1": [
+      70,
+      71,
+      78,
+      137,
+      149
+    ],
+    "IS2": [
+      42,
+      50,
+      58,
+      107,
+      134,
+      153
+    ]
+  },
+  "findings": [
+    {
+      "severity": "scope_candidate",
+      "book_id": "jihaksa_IS2",
+      "pdf_page": 153,
+      "printed_page": 153,
+      "title_quote": "과학관 탐방 프로젝트",
+      "status": "recommend inclusion; parent adjudication required",
+      "evidence": "학생 본문 과학과 기술 지면에 별도 프로젝트 제목 및 1. 탐방의 목표 설정 2. 전시물과 활동 선택 3. 학교 지원 프로그램 4. 과학관 선정 5. 탐방 계획서 작성 6. 탐방 후 평가 계획의 6단계 학생 수행이 명시됨. 교사용 주석이나 예시 답안이 아닌 학생 본문.",
+      "recommended_record": {
+        "단원명": "Ⅲ. 과학과 미래 사회",
+        "교과서": "통합과학 2",
+        "대표저자": "전상학",
+        "출판사": "지학사",
+        "쪽": 153,
+        "탐구활동": "과학관 탐방 프로젝트",
+        "교구": null,
+        "성취기준": null,
+        "activity_type": "과학과 기술 · 프로젝트"
+      },
+      "supplies_note": "명시 준비물 목록 없음. 인터넷 안내를 스마트 기기로 추정하지 않음."
+    }
+  ],
+  "confirmed": [
+    {
+      "book_id": "jihaksa_IS2",
+      "pages": [
+        42
+      ],
+      "result": "CuCl₂ 포함 학생 목록 8항목 일치. 교사 시범 실험의 질산 은 수용액·구리판 제외 적절."
+    },
+    {
+      "book_id": "jihaksa_IS2",
+      "pages": [
+        107
+      ],
+      "result": "긴 목록의 자석 4개 규격, 칼이나 사포, 면장갑 모두 보존. 규격 줄바꿈은 원문과 대응."
+    },
+    {
+      "book_id": "jihaksa_IS1",
+      "pages": [
+        70,
+        71
+      ],
+      "result": "학생 준비물은 스마트 기기·참고 자료. 분홍색 예시 답안의 리튬/나트륨/칼륨/칼/보호장치 제외 적절."
+    },
+    {
+      "book_id": "jihaksa_IS1",
+      "pages": [
+        78,
+        149
+      ],
+      "result": "학생 목록과 일치. p149 교사용 1% 한천 수용액·35% 과산화 수소수 희석법은 목록에 혼입되지 않음."
+    },
+    {
+      "book_id": "jihaksa_IS2",
+      "pages": [
+        50,
+        58,
+        134
+      ],
+      "result": "학생 목록과 일치. p50 교사용 1.0 M, p58 예시 포장용 용기/에어캡, p134 교사 모의실험 대안 시약 제외 적절."
+    },
+    {
+      "book_id": "jihaksa_IS1",
+      "pages": [
+        137
+      ],
+      "result": "우주 비행사 중력 훈련 읽을거리에 한 줄 방문 제안만 있음. 별도 제목·단계 프로젝트가 없어 기존 제외 유지 적절."
+    }
+  ],
+  "search_results": {
+    "unmatched_included_title_font_candidates": 0,
+    "uncovered_explicit_supplies_pages_except_book_guidance": 0,
+    "activity_markers": "누락 표지 후보는 교사 활동지 링크·차시 안내·내용 참조·평가의 창의융합 표제·목차로 판별됨. p153 프로젝트는 기본 활동 글꼴과 별도 양식이라 추가로 발견."
+  },
+  "modifications": "지학사 원자료/activities/coverage/report 직접 수정 없음.",
+  "parent_resolution": {
+    "status": "resolved",
+    "decision": "include",
+    "book_id": "jihaksa_IS2",
+    "printed_page": 153,
+    "title": "과학관 탐방 프로젝트",
+    "evidence": "주 에이전트가 p153 렌더 이미지를 직접 확인. 별도 프로젝트 제목과 학생 수행 6단계 확인.",
+    "supplies": null,
+    "final_record_count_IS2": 45
+  }
+}

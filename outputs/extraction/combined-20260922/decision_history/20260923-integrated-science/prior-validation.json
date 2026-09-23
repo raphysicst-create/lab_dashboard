@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "record_count": 862,
+  "unique_id_count": 862,
+  "output_sha256": "c570f3bd85598d6cc486c346ebc033835c1544d9404f29b2356fb4b94087158b",
+  "new_achievement_links": 370,
+  "unconfirmed_achievements": 38,
+  "official_standards": 87,
+  "application_record": "decision_history/20260923-achievements/application.json",
+  "prior_validation": "decision_history/20260923-achievements/prior-validation.json",
+  "independent_validation": "output/validation/achievement-site-20260923/data-validation.json",
+  "scope": "조사한 연결 적용 및 적용 전 스냅샷 보존. 전체 보존·공개 연결 검증은 independent_validation 참고."
+}

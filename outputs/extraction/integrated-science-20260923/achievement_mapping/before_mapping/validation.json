@@ -1,0 +1,178 @@
+{
+  "checked_at": "2026-09-23T02:58:46.892265+00:00",
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "books": [
+    {
+      "book_id": "miraen_IS1",
+      "source_sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4",
+      "activity_file_sha256": "6b3c445eada721eee7031a4b12507d1afcad1087befbbc1e2ebed0f867a8729a",
+      "pdf_pages": 180,
+      "records": 44,
+      "supplies_present": 30,
+      "supplies_null": 14,
+      "visual_reviewed_page_count": 54,
+      "activity_types": {
+        "해 보기": 20,
+        "탐구": 13,
+        "창의력 키움 활동": 7,
+        "토의·토론": 3,
+        "탐구(프로젝트)": 1
+      }
+    },
+    {
+      "book_id": "miraen_IS2",
+      "source_sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e",
+      "activity_file_sha256": "27abac572acc8dced6d0b9188e4d9d8d4c55dc8f0642945cfb9fa4401a2f98bb",
+      "pdf_pages": 178,
+      "records": 46,
+      "supplies_present": 28,
+      "supplies_null": 18,
+      "visual_reviewed_page_count": 62,
+      "activity_types": {
+        "해 보기": 24,
+        "탐구": 11,
+        "창의력 키움 활동": 6,
+        "토의·토론": 3,
+        "탐구(프로젝트)": 2
+      }
+    },
+    {
+      "book_id": "jihaksa_IS1",
+      "source_sha256": "e4ca282ff63dc0037fe2c51e53db439ece0e1358cf1251cb8dd1bc8dc71c221e",
+      "activity_file_sha256": "3d2f4796a488efbe8cc59ba4d3cffe18652f72c6593ffc59880631bf0469ee4d",
+      "pdf_pages": 180,
+      "records": 36,
+      "supplies_present": 26,
+      "supplies_null": 10,
+      "visual_reviewed_page_count": 44,
+      "activity_types": {
+        "해 보기": 14,
+        "탐구 활동": 13,
+        "창의융합": 6,
+        "토의·토론과 논술": 3
+      }
+    },
+    {
+      "book_id": "jihaksa_IS2",
+      "source_sha256": "ff0e6dd1633a5c2c0fe6e8ec05141c084ab86475831c5c94315cb92b624a5453",
+      "activity_file_sha256": "20a4528ca0439285aeece6418a04f1fa4a30c10992676424631d44e90a19ad12",
+      "pdf_pages": 172,
+      "records": 45,
+      "supplies_present": 31,
+      "supplies_null": 14,
+      "visual_reviewed_page_count": 56,
+      "activity_types": {
+        "해 보기": 24,
+        "탐구 활동": 12,
+        "창의융합": 5,
+        "토의·토론과 논술": 3,
+        "과학과 기술 · 프로젝트": 1
+      }
+    },
+    {
+      "book_id": "chunjae_IS1",
+      "source_sha256": "f8176b4cc4554ed5a0aca6b6d89cd8cc64e02a54a4540253fd1df8ec4417c838",
+      "activity_file_sha256": "ea6b6b05595c12a7778ab5e6b08595932841831fef6ea873325bf5c2e37b30db",
+      "pdf_pages": 176,
+      "records": 34,
+      "supplies_present": 20,
+      "supplies_null": 14,
+      "visual_reviewed_page_count": 43,
+      "activity_types": {
+        "해 보기": 11,
+        "탐구": 11,
+        "ON 디지털 탐구": 7,
+        "함께 해 봐요": 3,
+        "ON 디지털 해 보기": 2
+      }
+    },
+    {
+      "book_id": "chunjae_IS2",
+      "source_sha256": "b14ec3491bb4f63ef6de0d70995c68ecadae91571c1ff11cf6cfee4869984356",
+      "activity_file_sha256": "a3e36777dabb8457ee13194c170dba773186755f290596a7405925aec39aed6c",
+      "pdf_pages": 172,
+      "records": 31,
+      "supplies_present": 22,
+      "supplies_null": 9,
+      "visual_reviewed_page_count": 55,
+      "activity_types": {
+        "해 보기": 7,
+        "탐구": 16,
+        "ON 디지털 탐구": 5,
+        "함께 해 봐요": 3
+      }
+    },
+    {
+      "book_id": "visang_IS1",
+      "source_sha256": "288a51d8ed33b9ef206123c1431123193c9d81842faab2e952e55f35173f109c",
+      "activity_file_sha256": "687bce3c45e67d771bd38f20325632df6678d8485cb4e159fae7e015dd43dc71",
+      "pdf_pages": 174,
+      "records": 51,
+      "supplies_present": 17,
+      "supplies_null": 34,
+      "visual_reviewed_page_count": 69,
+      "activity_types": {
+        "활동으로 단원 열기": 16,
+        "탐구": 16,
+        "해 보기": 16,
+        "창의적 문제 해결 프로젝트": 3
+      }
+    },
+    {
+      "book_id": "visang_IS2",
+      "source_sha256": "44b5b69804a9fb7f76aa7bef0800d4e256d21fb565addb1c2d9835e10808d333",
+      "activity_file_sha256": "afc3a9533dbd7431eba110ca7cae09604ad3afbbdfdf85e7b27c300a55f78b87",
+      "pdf_pages": 164,
+      "records": 47,
+      "supplies_present": 19,
+      "supplies_null": 28,
+      "visual_reviewed_page_count": 71,
+      "activity_types": {
+        "활동으로 단원 열기": 15,
+        "해 보기": 9,
+        "탐구": 20,
+        "창의적 문제 해결 프로젝트": 3
+      }
+    },
+    {
+      "book_id": "donga_IS1",
+      "source_sha256": "9923b2593577e7eab0c9ff13e7aadfebf1da0e74f2af231f518faf3fef880dbd",
+      "activity_file_sha256": "a28539a6b4ef957ce6e25fc2175e60ef65064de63d1752e89dcdb0ad455e1172",
+      "pdf_pages": 180,
+      "records": 36,
+      "supplies_present": 21,
+      "supplies_null": 15,
+      "visual_reviewed_page_count": 60,
+      "activity_types": {
+        "해 보기": 11,
+        "탐구": 20,
+        "디지털 소양을 기르는 창의 프로젝트": 3,
+        "토론·논술": 2
+      }
+    },
+    {
+      "book_id": "donga_IS2",
+      "source_sha256": "49905fd6c5fa51f08db905b3172be53f453b49c5b70023da9c7635ec76190496",
+      "activity_file_sha256": "7f52cff581f56fd4d84a62f91ca4d8f4fb6de44edca4a91b57844fb598bb1aaa",
+      "pdf_pages": 168,
+      "records": 45,
+      "supplies_present": 24,
+      "supplies_null": 21,
+      "visual_reviewed_page_count": 71,
+      "activity_types": {
+        "탐구": 25,
+        "해 보기": 13,
+        "디지털 소양을 기르는 창의 프로젝트": 3,
+        "토론·논술": 3,
+        "직업 탐구 활동": 1
+      }
+    }
+  ],
+  "record_count": 415,
+  "independent_reference_checks": 23,
+  "protected_originals_unchanged": true,
+  "scope": "Structure, source SHA-256, actual PDF page counts, unique IDs, evidence fields, page coverage, reverse references, recorded image review, independent image reference checks. Does not certify every source pixel or curriculum mapping.",
+  "combined_sha256": "144cf8888a0be1c1ca93881bcdce04747a135b50da3bf2aec34ba23d97481ada"
+}

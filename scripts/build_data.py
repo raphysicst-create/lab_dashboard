@@ -35,6 +35,9 @@ def main():
                              'sequence': standard['sequence'], 'raw_text': label,
                              'code': standard['code'],
                              'grade': GRADE_BY_UNIT.get(number, 3), 'grades': []}
+        if standard.get('school_level') == '고등학교':
+            achievements[aid].update({'school_level':'고등학교','grade':1,'grade_key':'high-1',
+                'volume':standard['volume'],'sort_order':standard['sort_order']})
         standards_by_code[standard['code']] = achievements[aid]
     review = []
     books = {book['book_id']: book for dataset in source['metadata']['source_datasets']
@@ -47,14 +50,16 @@ def main():
         assert not row.get('source') or book is not None, 'Unknown source book'
         assert not row['분류 보류'], 'Resolve pending classifications before publication'
         grade = book['grade'] if book else GRADE_BY_UNIT.get(unit_number)
+        high = row.get('학교급') == '고등학교'
         codes = row['성취기준 코드'] or []
-        assert len(codes) <= 1, 'Multiple standards require an explicit display/filter policy'
-        achievement = standards_by_code[codes[0]] if codes else None
+        linked = [standards_by_code[code] for code in codes]
+        achievement = linked[0] if linked else None
         aid = achievement['id'] if achievement else None
-        assert standard == (achievement['raw_text'] if achievement else None)
-        if achievement and grade not in achievement['grades']:
-            achievement['grades'].append(grade)
-            achievement['grades'].sort()
+        assert standard == ('\n'.join(a['raw_text'] for a in linked) or None)
+        for a in linked:
+            if grade not in a['grades']:
+                a['grades'].append(grade)
+                a['grades'].sort()
         # These IDs identify source labels only, never infer textbook editions.
         tid = key('TXT', publisher or '')
         textbooks[tid] = {'id': tid, 'publisher_raw': publisher, 'title': None, 'edition': None, 'grade': None}
@@ -69,6 +74,14 @@ def main():
             'material_ids': [],
         }
         activities.append(activity)
+        activity.update({'school_level':'고등학교' if high else '중학교',
+                         'grade_key':f'high-{grade}' if high else str(grade),
+                         'grade_label':f'고{grade}' if high else f'중{grade}',
+                         'achievement_ids':[a['id'] for a in linked]})
+        if high:
+            activity.update({'unit_raw':unit,'unit':f"통합과학 {book['volume']} · {unit}",
+                             'volume':book['volume'],
+                             'material_classification_pending':True})
         review.append({'activity_id': row['id'], 'source_row': row['source_row'],
                        'activity': 'textbook_not_checked', 'materials': 'textbook_not_checked',
                        'quantity': 'not_checked',

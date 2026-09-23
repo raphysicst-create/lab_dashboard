@@ -1,0 +1,37 @@
+{
+  "publisher": "지학사",
+  "record_count": 81,
+  "method_counts": {
+    "content_alignment": 79,
+    "unresolved": 2
+  },
+  "unique_standard_codes": 31,
+  "unresolved": [
+    {
+      "record_id": "jihaksa_is1_0010",
+      "reason": "전류 방향의 관습과 사회적 합의에 관한 논술이다. 같은 권의 기본량·측정 표준 기준은 양의 단위와 측정의 표준화를 대상으로 하므로 방향의 관습에 억지로 연결하지 않았다."
+    },
+    {
+      "record_id": "jihaksa_is2_0044",
+      "reason": "과학관의 탐방 목표·전시물·지원·교통·평가 계획을 자유롭게 설계하는 일반 프로젝트이며 특정 과학 내용이나 해당 권의 성취기준 수행이 정해져 있지 않다."
+    }
+  ],
+  "activity_quote_validation": "81건 모든 인용을 해당 PDF 학생 본문에서 공백을 제외한 정확한 문자열 일치로 대조함. 비연속 발췌는 […]로 표시함.",
+  "independently_visual_reviewed_pages": {
+    "jihaksa_IS1": [
+      14,
+      43,
+      73,
+      99
+    ],
+    "jihaksa_IS2": [
+      31,
+      128,
+      141,
+      153
+    ]
+  },
+  "mapping_policy": "활동별 직접 코드 표기가 확인되지 않아 연결된 79건 모두 content_alignment로 기록함. 성취기준 표는 원문 근거, 활동과 코드의 관계는 검토자의 내용 대조 판단임.",
+  "additional_extraction_observation": "jihaksa_is1_0016의 학생 활동과 정리가 PDF 73쪽에 이어짐. 담당 범위에 따라 원본 활동·coverage는 수정하지 않고 parent에게 알림.",
+  "source_files_modified": false
+}

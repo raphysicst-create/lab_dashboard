@@ -1,0 +1,652 @@
+[
+  {
+    "id": "MAT-0ef3abf4ad799641",
+    "name": "과망가니즈산 칼륨",
+    "chemical_id": "CHEM-0ef3abf4ad799641",
+    "activity_ids": [
+      "activity_0040",
+      "activity_0229"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0040",
+        "source_row": 41,
+        "raw_text": "5 % 질산 칼륨 수용액, 과망가니즈산 칼륨, 질산 구리(II), 사포, 페트리 접시, 스포이트, 약숟가락, 핀셋, 거름종이, 구리 조각, 집게, 전원 장치, 집게 전선, 받침 유리, 자, 가위, 보안경, 실험복, 실험용 장갑, 거름종이 틀(부록 329쪽), 연필",
+        "matched_text": "과망가니즈산 칼륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0229",
+        "source_row": 230,
+        "raw_text": "과망가니즈산 칼륨, 황산 구리(II), 질산 칼륨 수용액, 곤약, 페트리 접시, 클립, 전원 장치, 집게 달린 전선, 스포이트, 약숟가락, 보안경, 면장갑, 실험용 장갑, 실험복",
+        "matched_text": "과망가니즈산 칼륨",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-1929a8d308fa46e4",
+    "name": "구리판",
+    "chemical_id": "CHEM-1929a8d308fa46e4",
+    "activity_ids": [
+      "activity_0059",
+      "activity_0392"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0059",
+        "source_row": 60,
+        "raw_text": "에나멜선, 네오디뮴 자석, 전지, 전지 끼우개, 사포, 구리판, 절연 장갑, 니퍼 등",
+        "matched_text": "구리판",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0392",
+        "source_row": 393,
+        "raw_text": "철판, 유리판, 구리판, 집게 3개, 비커, 스탠드, 링, 집게 잡이, 대류관, 물, 초, 점화기, 전등, 컵, 가림판, 열화상 카메라, 내열 장갑, 실험복",
+        "matched_text": "구리판",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-ccb78a968c6e3718",
+    "name": "붕산",
+    "chemical_id": "CHEM-ccb78a968c6e3718",
+    "activity_ids": [
+      "activity_0069",
+      "activity_0074"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0069",
+        "source_row": 70,
+        "raw_text": "질산 칼륨, 내열 장갑, 보안경, 붕산, 비커, 시약포지, 시험관, 시험관 집게, 실리콘 마개, 실험복, 실험용 장갑, 약숟가락, 전자저울",
+        "matched_text": "붕산",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0074",
+        "source_row": 75,
+        "raw_text": "황산 구리(II), 붕산, 뜨거운 물(약 70 °C), 얼음물, 200 mL 비커, 500 mL 비커, 유리 막대, 스탠드, 링, 집게 잡이, 깔때기, 거름종이, 전자저울, 약숟가락, 시약포지, 보안경, 내열 장갑, 실험용 장갑, 실험복",
+        "matched_text": "붕산",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-7921a3bb40fa91bb",
+    "name": "설탕",
+    "chemical_id": "CHEM-7921a3bb40fa91bb",
+    "activity_ids": [
+      "activity_0039",
+      "ybm_k9_0003"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0039",
+        "source_row": 40,
+        "raw_text": "증류수, 설탕, 염화 나트륨, 이온 음료, 6 홈 판, 비커, 유리 막대, 약수저, 전기 전도도 측정 장치, 실험용 장갑, 실험복",
+        "matched_text": "설탕",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "ybm_k9_0003",
+        "source_row": null,
+        "raw_text": "전자저울, 전자레인지, 종이컵, 물, 설탕, 제빵 소다, 약숟가락(또는 계량 숟가락), 시약포지, 나무 막대, 유산지, 안전 장갑",
+        "matched_text": "설탕",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-c4bd5ea832223699",
+    "name": "수산화 나트륨",
+    "chemical_id": "CHEM-c4bd5ea832223699",
+    "activity_ids": [
+      "activity_0034"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0034",
+        "source_row": 35,
+        "raw_text": "전기 분해 장치, 물, 수산화 나트륨, 전원 장치, 점화 장치, 주사기, 실험복, 실험용 장갑",
+        "matched_text": "수산화 나트륨",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-77ab8ce9b2c1b72a",
+    "name": "아세톤",
+    "chemical_id": "CHEM-77ab8ce9b2c1b72a",
+    "activity_ids": [
+      "activity_0337",
+      "activity_0434",
+      "activity_0437"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0337",
+        "source_row": 338,
+        "raw_text": "아세톤, 삼각 플라스크, 스포이트, 고무풍선, 머리 말리개, 실험복, 보안경, 마스크, 실험용 장갑, 면장갑",
+        "matched_text": "아세톤",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0434",
+        "source_row": 435,
+        "raw_text": "아세톤, 페트리 접시, 거름종이, 전자저울, 스포이트, 연필, 지우개, 마스크, 보안경, 실험용 장갑, 실험복",
+        "matched_text": "아세톤",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0437",
+        "source_row": 438,
+        "raw_text": "아세톤, 비닐 주머니, 스포이트, 감압 장치, 전자저울, 뜨거운 물, 수조, 천, 연필, 지우개, 마스크, 보안경, 내열 장갑, 실험복",
+        "matched_text": "아세톤",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-ec1c5813d468b878",
+    "name": "에탄올",
+    "chemical_id": "CHEM-ec1c5813d468b878",
+    "activity_ids": [
+      "activity_0001",
+      "activity_0005",
+      "activity_0067",
+      "activity_0099",
+      "activity_0127",
+      "activity_0159",
+      "activity_0231",
+      "activity_0270",
+      "activity_0294",
+      "activity_0333",
+      "activity_0400",
+      "activity_0431",
+      "jihaksa_k7_0030",
+      "jihaksa_k7_0035",
+      "jihaksa_k8_0002",
+      "jihaksa_k8_0048"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0001",
+        "source_row": 2,
+        "raw_text": "스마트 기기, 물, 에탄올, 크기가 다른 철 조각, 크기가 다른 알루미늄 조각, 50 mL 눈금실린더, 200 mL 눈금실린더, 비커, 핀셋, 전자저울, 실, 실험복, 실험용 장갑, 보안경",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0005",
+        "source_row": 6,
+        "raw_text": "스마트 기기, 물, 에탄올, 핫플레이트, 끓임쪽, 가지 달린 시험관, 고무관, 유리관, 시험관, 비커, 구멍 뚫린 고무마개, 온도 센서, 집게, 집게 잡이, 스탠드, 실험복, 내열 장갑, 보안경",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0067",
+        "source_row": 68,
+        "raw_text": "시금치, 검정말, 에탄올, 녹말 검출 용액(아이오딘-아이오딘화 칼륨 용액), 이산화 탄소 센서, 스마트 기기, 밀폐 용기, 엘이디등, 어둠상자, 시험관, 시험관대, 고무마개, 알루미늄 포일, 내열 비커, 페트리 접시, 스포이트, 가열 장치, 스탠드, 집게, 핀셋, 보안경, 실험용 장갑, 내열 장갑, 실험복",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0099",
+        "source_row": 100,
+        "raw_text": "고추 모종, 물, 아이오딘-아이오딘화 칼륨 용액, 검은색 종이, 페트리 접시, 가열 장치, 실험용 장갑, 보안경, 에탄올, 비커 2개, 핀셋, 스포이트, 실험복, 내열 장갑",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0127",
+        "source_row": 128,
+        "raw_text": "물, 에탄올, 식용유, 동전, 얼음, 투명한 컵, 실험복, 보안경, 실험용 장갑",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0159",
+        "source_row": 160,
+        "raw_text": "상추 모종, 에탄올, 뜨거운 물(80℃~100℃), 증류수, 아이오딘-아이오딘화 칼륨 용액, 센서 전용 투명 용기, 비커, 시험관, 페트리 접시, 스포이트, 이산화 탄소 센서, 산소 센서, 핀셋, 칼, 발광 다이오드(LED) 전등, 어둠 상자, 스마트 기기, 실험복, 보안경, 마스크, 실험용 장갑, 면장갑",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0231",
+        "source_row": 232,
+        "raw_text": "시금치, 검정말, 물, 에탄올, 녹말 검출 용액(아이오딘-아이오딘화 칼륨 용액), 이산화 탄소 센서, 스마트 기기, 밀폐 용기, 엘이디 등, 어둠상자, 시험관 2개, 시험관대, 고무마개, 알루미늄 포일, 내열 비커, 페트리 접시, 스포이트, 가열 장치, 스탠드, 집게, 핀셋, 보안경, 실험용 장갑, 내열 장갑, 실험복",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0270",
+        "source_row": 271,
+        "raw_text": "가지 달린 시험관, 에탄올, 끓임쪽, 비커",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0294",
+        "source_row": 295,
+        "raw_text": "아이오딘-아이오딘화 칼륨 용액, 물, 에탄올, 알루미늄 포일, 검정말, 뚜껑 있는 시험관, 시험관대, 가열용 시험관대, 비커, 빨대, 점화기, 향, 거름종이, 가열 장치, 받침 유리, 덮개 유리, 스포이트, 핀셋, 색연필, 현미경, 실험복, 실험용 장갑, 내열 장갑, 보안경",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0333",
+        "source_row": 334,
+        "raw_text": "정제수, 에탄올, 제충국 원액, 나무젓가락, 컵, 스프레이 병",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0400",
+        "source_row": 401,
+        "raw_text": "에탄올, 드라이아이스, 얼음, 페트리 접시 3개, 스포이트, 보안경, 내열 장갑, 실험용 장갑, 실험복",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0431",
+        "source_row": 432,
+        "raw_text": "물, 에탄올, 물감(파란색, 빨간색), 50mL 삼각 플라스크, 수조, 유리관, 고무마개, 유성 사인펜, 보안경, 실험용 장갑, 내열 장갑, 실험복",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "jihaksa_k7_0030",
+        "source_row": null,
+        "raw_text": "찬물, 뜨거운 물, 에탄올, 유리관, 삼각 플라스크, 구멍 뚫린 실리콘 마개, 수조, 색소(파랑, 빨강), 실험복, 보안경, 면장갑",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "jihaksa_k7_0035",
+        "source_row": null,
+        "raw_text": "에탄올, 페트리 접시, 스포이트, 거름종이, 전자저울, 실험복, 보안경, 실험용 장갑",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "jihaksa_k8_0002",
+        "source_row": null,
+        "raw_text": "같은 종류의 크기가 다른 플라스틱 빨대 조각, 물, 에탄올, 시약병, 핀셋, 실험복, 보안경, 마스크, 실험용 장갑",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "jihaksa_k8_0048",
+        "source_row": null,
+        "raw_text": "검정말, 에탄올, 아이오딘-아이오딘화 칼륨 용액, 1 % 탄산수소 나트륨 수용액, 뜨거운 물(80 ℃ 이상), 물, 시험관, 비커, 덮개 유리, 받침 유리, 스포이트, 핀셋, 시험관 집게, 스탠드, 디지털 현미경, 스마트 기기, 실험복, 보안경, 면장갑, 실험용 장갑",
+        "matched_text": "에탄올",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-72be2cc06e0a5f83",
+    "name": "염화 나트륨",
+    "chemical_id": "CHEM-72be2cc06e0a5f83",
+    "activity_ids": [
+      "activity_0010",
+      "activity_0039",
+      "activity_0133"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0010",
+        "source_row": 11,
+        "raw_text": "스마트 기기, 물, 리놀레산, 염화 나트륨, 철 가루, 실험 설계에 따른 준비물, 실험복, 실험용 장갑, 보안경",
+        "matched_text": "염화 나트륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0039",
+        "source_row": 40,
+        "raw_text": "증류수, 설탕, 염화 나트륨, 이온 음료, 6 홈 판, 비커, 유리 막대, 약수저, 전기 전도도 측정 장치, 실험용 장갑, 실험복",
+        "matched_text": "염화 나트륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0133",
+        "source_row": 134,
+        "raw_text": "질산 칼륨, 염화 나트륨, 물, 얼음, 500mL 비커, 50mL 비커, 가열 장치, 거름 장치, 유리 막대, 스포이트, 시약포지, 실험복, 보안경, 실험용 장갑, 면장갑, 내열 장갑",
+        "matched_text": "염화 나트륨",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-893e840d1e9b6e10",
+    "name": "올리브유",
+    "chemical_id": "CHEM-893e840d1e9b6e10",
+    "activity_ids": [
+      "activity_0336"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0336",
+        "source_row": 337,
+        "raw_text": "올리브유, 얼음, 소금, 5 mL 뚜껑 있는 유리병, 100 mL 비커, 스포이트, 약숟가락, 색 테이프 2개, 전자저울, 실험복, 보안경, 실험용 장갑",
+        "matched_text": "올리브유",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-87763a97e6afa579",
+    "name": "질산 구리(II)",
+    "chemical_id": "CHEM-87763a97e6afa579",
+    "activity_ids": [
+      "activity_0040"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0040",
+        "source_row": 41,
+        "raw_text": "5 % 질산 칼륨 수용액, 과망가니즈산 칼륨, 질산 구리(II), 사포, 페트리 접시, 스포이트, 약숟가락, 핀셋, 거름종이, 구리 조각, 집게, 전원 장치, 집게 전선, 받침 유리, 자, 가위, 보안경, 실험복, 실험용 장갑, 거름종이 틀(부록 329쪽), 연필",
+        "matched_text": "질산 구리(II)",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-423b642327b1cc75",
+    "name": "질산 암모늄",
+    "chemical_id": "CHEM-423b642327b1cc75",
+    "activity_ids": [
+      "ybm_k9_0011"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "ybm_k9_0011",
+        "source_row": null,
+        "raw_text": "지퍼 백(큰 것, 작은 것), 질산 암모늄, 물, 빈 플라스틱병, 약숟가락, 시약포지, 전자저울, 스포이트, 눈금실린더(25 mL), 적외선 온도계, 열 봉합기, 보안경, 마스크, 실험용 장갑, 실험복",
+        "matched_text": "질산 암모늄",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-eacf60922ff9a3d9",
+    "name": "질산 칼륨",
+    "chemical_id": "CHEM-eacf60922ff9a3d9",
+    "activity_ids": [
+      "activity_0003",
+      "activity_0069",
+      "activity_0128",
+      "activity_0133",
+      "activity_0192",
+      "activity_0196",
+      "activity_0267",
+      "activity_0271",
+      "jihaksa_k8_0003",
+      "jihaksa_k8_0009"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0003",
+        "source_row": 4,
+        "raw_text": "스마트 기기, 황산 구리(II), 질산 칼륨, 물, 비커, 시험관, 전자저울, 페트리 접시, 약숟가락, 실험복, 실험용 장갑, 보안경",
+        "matched_text": "질산 칼륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0069",
+        "source_row": 70,
+        "raw_text": "질산 칼륨, 내열 장갑, 보안경, 붕산, 비커, 시약포지, 시험관, 시험관 집게, 실리콘 마개, 실험복, 실험용 장갑, 약숟가락, 전자저울",
+        "matched_text": "질산 칼륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0128",
+        "source_row": 129,
+        "raw_text": "질산 칼륨, 황산 구리(II), 실온의 물, 60°C 물, 뚜껑 있는 유리병, 비커, 스포이트, 깔때기, 집게, 자석 젓개, 자석, 전자저울, 시약포지, 약숟가락, 실험복, 보안경, 실험용 장갑, 면장갑",
+        "matched_text": "질산 칼륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0133",
+        "source_row": 134,
+        "raw_text": "질산 칼륨, 염화 나트륨, 물, 얼음, 500mL 비커, 50mL 비커, 가열 장치, 거름 장치, 유리 막대, 스포이트, 시약포지, 실험복, 보안경, 실험용 장갑, 면장갑, 내열 장갑",
+        "matched_text": "질산 칼륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0192",
+        "source_row": 193,
+        "raw_text": "질산 칼륨, 물, 전자저울, 시험관 3개, 비커, 가열 장치, 가열용 시험관대, 온도계 3개, 약숟가락, 시약포지, 유리 막대, 보안경, 내열 장갑, 실험용 장갑, 실험복",
+        "matched_text": "질산 칼륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0196",
+        "source_row": 197,
+        "raw_text": "질산 칼륨, 황산 구리(II), 물, 스마트 기기, 가열 장치, 비커, 유리 막대, 얼음물, 깔때기, 깔때기대, 거름종이, 보안경, 내열 장갑, 실험용 장갑, 실험복",
+        "matched_text": "질산 칼륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0267",
+        "source_row": 268,
+        "raw_text": "질산 칼륨, 황산 구리(Ⅱ), 물, 전자저울, 시약포지, 약숟가락, 비커, 시험관 6개, 가열 장치, 가열용 시험관대, 디지털 온도계, 실험복, 실험용 장갑, 내열 장갑, 보안경",
+        "matched_text": "질산 칼륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0271",
+        "source_row": 272,
+        "raw_text": "질산 칼륨, 황산 구리(Ⅱ), 물(약 40 ℃), 얼음물, 비커, 수조, 전자저울, 약숟가락, 유리 막대, 시약포지, 거름종이, 스탠드, 깔때기, 링, 집게 잡이, 실험복, 실험용 장갑, 보안경",
+        "matched_text": "질산 칼륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "jihaksa_k8_0003",
+        "source_row": null,
+        "raw_text": "황산 구리(Ⅱ), 질산 칼륨, 물, 비커, 시험관, 유리 막대, 약숟가락, 질량 접시, 전자저울, 실험복, 보안경, 실험용 장갑",
+        "matched_text": "질산 칼륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "jihaksa_k8_0009",
+        "source_row": null,
+        "raw_text": "물, 질산 칼륨, 황산 구리(Ⅱ), 얼음, 비커, 눈금실린더, 깔때기, 유리 막대, 약숟가락, 거름종이, 질량 접시, 핫플레이트, 스탠드, 고리, 집게 잡이, 전자저울, 실험복, 보안경, 면장갑, 실험용 장갑",
+        "matched_text": "질산 칼륨",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-f4830ef80197733c",
+    "name": "철 가루",
+    "chemical_id": "CHEM-f4830ef80197733c",
+    "activity_ids": [
+      "activity_0010"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0010",
+        "source_row": 11,
+        "raw_text": "스마트 기기, 물, 리놀레산, 염화 나트륨, 철 가루, 실험 설계에 따른 준비물, 실험복, 실험용 장갑, 보안경",
+        "matched_text": "철 가루",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-102aaec35637da00",
+    "name": "철판",
+    "chemical_id": "CHEM-102aaec35637da00",
+    "activity_ids": [
+      "activity_0392"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0392",
+        "source_row": 393,
+        "raw_text": "철판, 유리판, 구리판, 집게 3개, 비커, 스탠드, 링, 집게 잡이, 대류관, 물, 초, 점화기, 전등, 컵, 가림판, 열화상 카메라, 내열 장갑, 실험복",
+        "matched_text": "철판",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-1fd639e1ec96a7ea",
+    "name": "초",
+    "chemical_id": "CHEM-1fd639e1ec96a7ea",
+    "activity_ids": [
+      "activity_0392",
+      "ybm_k7_0021",
+      "ybm_k7_0025"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0392",
+        "source_row": 393,
+        "raw_text": "철판, 유리판, 구리판, 집게 3개, 비커, 스탠드, 링, 집게 잡이, 대류관, 물, 초, 점화기, 전등, 컵, 가림판, 열화상 카메라, 내열 장갑, 실험복",
+        "matched_text": "초",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "ybm_k7_0021",
+        "source_row": null,
+        "raw_text": "가열할 수 있는 다른 종류의 용기 2개, 받침대가 달린 삼발이, 초, 열화상 카메라, 스마트 기기, 거치대, 점화기, 안전 장갑, 보안경, 실험복",
+        "matched_text": "초",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "ybm_k7_0025",
+        "source_row": null,
+        "raw_text": "바이메탈, 집게 잡이, 집게, 초, 점화기, 스탠드, 안전 장갑, 보안경, 실험복",
+        "matched_text": "초",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-615009c04bbf8525",
+    "name": "탄산수소 나트륨",
+    "chemical_id": "CHEM-615009c04bbf8525",
+    "activity_ids": [
+      "ybm_k9_0005",
+      "ybm_k9_0006"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "ybm_k9_0005",
+        "source_row": null,
+        "raw_text": "탄산수소 나트륨, 식초, 빈 플라스틱병, 빈 비커 세 개, 눈금실린더(25 mL) 세 개, 스포이트 세 개, 유리 바이알(20 mL), 뚜껑 있는 플라스틱병, 전자저울, 약숟가락, 시약포지, 핀셋, 5 % 염화 나트륨 수용액, 5 % 질산 은 수용액, 유리 바이알(30 mL) 두 개, 보안경, 마스크, 실험용 장갑, 실험복",
+        "matched_text": "탄산수소 나트륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "ybm_k9_0006",
+        "source_row": null,
+        "raw_text": "탄산수소 나트륨, 식초, 빈 플라스틱병, 빈 비커 세 개, 눈금실린더(25 mL) 세 개, 스포이트 세 개, 유리 바이알(20 mL), 뚜껑 있는 플라스틱병, 전자저울, 약숟가락, 시약포지, 핀셋, 5 % 염화 나트륨 수용액, 5 % 질산 은 수용액, 유리 바이알(30 mL) 두 개, 보안경, 마스크, 실험용 장갑, 실험복",
+        "matched_text": "탄산수소 나트륨",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-e07e706e52afe799",
+    "name": "황산 구리(II)",
+    "chemical_id": "CHEM-e07e706e52afe799",
+    "activity_ids": [
+      "activity_0003",
+      "activity_0074",
+      "activity_0128",
+      "activity_0196",
+      "activity_0229",
+      "activity_0267",
+      "activity_0271",
+      "jihaksa_k8_0003",
+      "jihaksa_k8_0009"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "activity_0003",
+        "source_row": 4,
+        "raw_text": "스마트 기기, 황산 구리(II), 질산 칼륨, 물, 비커, 시험관, 전자저울, 페트리 접시, 약숟가락, 실험복, 실험용 장갑, 보안경",
+        "matched_text": "황산 구리(II)",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0074",
+        "source_row": 75,
+        "raw_text": "황산 구리(II), 붕산, 뜨거운 물(약 70 °C), 얼음물, 200 mL 비커, 500 mL 비커, 유리 막대, 스탠드, 링, 집게 잡이, 깔때기, 거름종이, 전자저울, 약숟가락, 시약포지, 보안경, 내열 장갑, 실험용 장갑, 실험복",
+        "matched_text": "황산 구리(II)",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0128",
+        "source_row": 129,
+        "raw_text": "질산 칼륨, 황산 구리(II), 실온의 물, 60°C 물, 뚜껑 있는 유리병, 비커, 스포이트, 깔때기, 집게, 자석 젓개, 자석, 전자저울, 시약포지, 약숟가락, 실험복, 보안경, 실험용 장갑, 면장갑",
+        "matched_text": "황산 구리(II)",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0196",
+        "source_row": 197,
+        "raw_text": "질산 칼륨, 황산 구리(II), 물, 스마트 기기, 가열 장치, 비커, 유리 막대, 얼음물, 깔때기, 깔때기대, 거름종이, 보안경, 내열 장갑, 실험용 장갑, 실험복",
+        "matched_text": "황산 구리(II)",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0229",
+        "source_row": 230,
+        "raw_text": "과망가니즈산 칼륨, 황산 구리(II), 질산 칼륨 수용액, 곤약, 페트리 접시, 클립, 전원 장치, 집게 달린 전선, 스포이트, 약숟가락, 보안경, 면장갑, 실험용 장갑, 실험복",
+        "matched_text": "황산 구리(II)",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0267",
+        "source_row": 268,
+        "raw_text": "질산 칼륨, 황산 구리(Ⅱ), 물, 전자저울, 시약포지, 약숟가락, 비커, 시험관 6개, 가열 장치, 가열용 시험관대, 디지털 온도계, 실험복, 실험용 장갑, 내열 장갑, 보안경",
+        "matched_text": "황산 구리(Ⅱ)",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "activity_0271",
+        "source_row": 272,
+        "raw_text": "질산 칼륨, 황산 구리(Ⅱ), 물(약 40 ℃), 얼음물, 비커, 수조, 전자저울, 약숟가락, 유리 막대, 시약포지, 거름종이, 스탠드, 깔때기, 링, 집게 잡이, 실험복, 실험용 장갑, 보안경",
+        "matched_text": "황산 구리(Ⅱ)",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "jihaksa_k8_0003",
+        "source_row": null,
+        "raw_text": "황산 구리(Ⅱ), 질산 칼륨, 물, 비커, 시험관, 유리 막대, 약숟가락, 질량 접시, 전자저울, 실험복, 보안경, 실험용 장갑",
+        "matched_text": "황산 구리(Ⅱ)",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "jihaksa_k8_0009",
+        "source_row": null,
+        "raw_text": "물, 질산 칼륨, 황산 구리(Ⅱ), 얼음, 비커, 눈금실린더, 깔때기, 유리 막대, 약숟가락, 거름종이, 질량 접시, 핫플레이트, 스탠드, 고리, 집게 잡이, 전자저울, 실험복, 보안경, 면장갑, 실험용 장갑",
+        "matched_text": "황산 구리(Ⅱ)",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-c1318d622412e2f0",
+    "name": "황산 나트륨",
+    "chemical_id": "CHEM-c1318d622412e2f0",
+    "activity_ids": [
+      "jihaksa_k8_0039"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "jihaksa_k8_0039",
+        "source_row": null,
+        "raw_text": "물, 황산 나트륨, 플라스틱병, 12 홈 판, 빨대, 실리콘 마개, 스포이트, 침핀, 9 V 전지, 집게 달린 전선, 성냥, 시험관 집게, 점화기, 실험복, 보안경, 면장갑, 실험용 장갑",
+        "matched_text": "황산 나트륨",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  }
+]

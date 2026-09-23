@@ -1,0 +1,191 @@
+{
+  "checked_at": "2026-09-23T05:43:00.194636+00:00",
+  "passed": true,
+  "errors": [],
+  "warnings": [
+    "Separate committed update preserved: outputs/extraction/combined-20260922/science_experiment_supplies_combined.json (e10b6b984946704ebefa716bb238761ace4e2fb2)"
+  ],
+  "books": [
+    {
+      "book_id": "miraen_IS1",
+      "source_sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4",
+      "activity_file_sha256": "6b902fc92ce36d6e41531d0165428fdbd4ccffa78689ce0c90ae7a9c8724102a",
+      "pdf_pages": 180,
+      "records": 44,
+      "supplies_present": 30,
+      "supplies_null": 14,
+      "visual_reviewed_page_count": 54,
+      "activity_types": {
+        "해 보기": 20,
+        "탐구": 13,
+        "창의력 키움 활동": 7,
+        "토의·토론": 3,
+        "탐구(프로젝트)": 1
+      }
+    },
+    {
+      "book_id": "miraen_IS2",
+      "source_sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e",
+      "activity_file_sha256": "0699f8ad474c1d9989451797f07cd01226cac8ba0ce682f7e74ea5f7b7b83dbb",
+      "pdf_pages": 178,
+      "records": 46,
+      "supplies_present": 28,
+      "supplies_null": 18,
+      "visual_reviewed_page_count": 62,
+      "activity_types": {
+        "해 보기": 24,
+        "탐구": 11,
+        "창의력 키움 활동": 6,
+        "토의·토론": 3,
+        "탐구(프로젝트)": 2
+      }
+    },
+    {
+      "book_id": "jihaksa_IS1",
+      "source_sha256": "e4ca282ff63dc0037fe2c51e53db439ece0e1358cf1251cb8dd1bc8dc71c221e",
+      "activity_file_sha256": "0c92b4d2f3ff7604c4ec468ba09e27eda52ea907c8e8518ffc13612ab1449e4b",
+      "pdf_pages": 180,
+      "records": 36,
+      "supplies_present": 26,
+      "supplies_null": 10,
+      "visual_reviewed_page_count": 45,
+      "activity_types": {
+        "해 보기": 14,
+        "탐구 활동": 13,
+        "창의융합": 6,
+        "토의·토론과 논술": 3
+      }
+    },
+    {
+      "book_id": "jihaksa_IS2",
+      "source_sha256": "ff0e6dd1633a5c2c0fe6e8ec05141c084ab86475831c5c94315cb92b624a5453",
+      "activity_file_sha256": "4a3a4872ced5918d0315779e4816cf17390e3889dab4aabaf2808439528a597b",
+      "pdf_pages": 172,
+      "records": 45,
+      "supplies_present": 31,
+      "supplies_null": 14,
+      "visual_reviewed_page_count": 56,
+      "activity_types": {
+        "해 보기": 24,
+        "탐구 활동": 12,
+        "창의융합": 5,
+        "토의·토론과 논술": 3,
+        "과학과 기술 · 프로젝트": 1
+      }
+    },
+    {
+      "book_id": "chunjae_IS1",
+      "source_sha256": "f8176b4cc4554ed5a0aca6b6d89cd8cc64e02a54a4540253fd1df8ec4417c838",
+      "activity_file_sha256": "610fcbcd36f329e59e7fc14fbed11972a31653035e00d7ee6235ceac3800c743",
+      "pdf_pages": 176,
+      "records": 34,
+      "supplies_present": 20,
+      "supplies_null": 14,
+      "visual_reviewed_page_count": 43,
+      "activity_types": {
+        "해 보기": 11,
+        "탐구": 11,
+        "ON 디지털 탐구": 7,
+        "함께 해 봐요": 3,
+        "ON 디지털 해 보기": 2
+      }
+    },
+    {
+      "book_id": "chunjae_IS2",
+      "source_sha256": "b14ec3491bb4f63ef6de0d70995c68ecadae91571c1ff11cf6cfee4869984356",
+      "activity_file_sha256": "939904ccb2aac3d0b114cf05145aa2f0821ca76b4ae24d83747c95bed5991d6a",
+      "pdf_pages": 172,
+      "records": 31,
+      "supplies_present": 22,
+      "supplies_null": 9,
+      "visual_reviewed_page_count": 55,
+      "activity_types": {
+        "해 보기": 7,
+        "탐구": 16,
+        "ON 디지털 탐구": 5,
+        "함께 해 봐요": 3
+      }
+    },
+    {
+      "book_id": "visang_IS1",
+      "source_sha256": "288a51d8ed33b9ef206123c1431123193c9d81842faab2e952e55f35173f109c",
+      "activity_file_sha256": "fbb0735e887923e39a55b5569b42435fbf6f805f46a7f04326a7cea4676883b2",
+      "pdf_pages": 174,
+      "records": 51,
+      "supplies_present": 17,
+      "supplies_null": 34,
+      "visual_reviewed_page_count": 69,
+      "activity_types": {
+        "활동으로 단원 열기": 16,
+        "탐구": 16,
+        "해 보기": 16,
+        "창의적 문제 해결 프로젝트": 3
+      }
+    },
+    {
+      "book_id": "visang_IS2",
+      "source_sha256": "44b5b69804a9fb7f76aa7bef0800d4e256d21fb565addb1c2d9835e10808d333",
+      "activity_file_sha256": "a226c3bc4e36ff5a4b9705dccc366a4f64f3f88bc5825a4c9ab9acd9aa35ce71",
+      "pdf_pages": 164,
+      "records": 47,
+      "supplies_present": 19,
+      "supplies_null": 28,
+      "visual_reviewed_page_count": 71,
+      "activity_types": {
+        "활동으로 단원 열기": 15,
+        "해 보기": 9,
+        "탐구": 20,
+        "창의적 문제 해결 프로젝트": 3
+      }
+    },
+    {
+      "book_id": "donga_IS1",
+      "source_sha256": "9923b2593577e7eab0c9ff13e7aadfebf1da0e74f2af231f518faf3fef880dbd",
+      "activity_file_sha256": "6ab1b93a3a6ba355f91f29d895e212be9fdb9c0c061b45781ababf5d6e82c5f0",
+      "pdf_pages": 180,
+      "records": 36,
+      "supplies_present": 21,
+      "supplies_null": 15,
+      "visual_reviewed_page_count": 60,
+      "activity_types": {
+        "해 보기": 11,
+        "탐구": 20,
+        "디지털 소양을 기르는 창의 프로젝트": 3,
+        "토론·논술": 2
+      }
+    },
+    {
+      "book_id": "donga_IS2",
+      "source_sha256": "49905fd6c5fa51f08db905b3172be53f453b49c5b70023da9c7635ec76190496",
+      "activity_file_sha256": "1fab28fbc79d926fdd2624c8c26a19317a6b077c12d8676819a433b7d9c1d8f3",
+      "pdf_pages": 168,
+      "records": 45,
+      "supplies_present": 24,
+      "supplies_null": 21,
+      "visual_reviewed_page_count": 71,
+      "activity_types": {
+        "탐구": 25,
+        "해 보기": 13,
+        "디지털 소양을 기르는 창의 프로젝트": 3,
+        "토론·논술": 3,
+        "직업 탐구 활동": 1
+      }
+    }
+  ],
+  "record_count": 415,
+  "independent_reference_checks": 23,
+  "protected_originals_unchanged": false,
+  "protected_current_versions_preserved": true,
+  "protected_update_history": {
+    "outputs/extraction/combined-20260922/science_experiment_supplies_combined.json": {
+      "original_sha256": "b862cb1fbcf7093cd752dae15743c844809d5fb9e373b8602dcea16716f9ac59",
+      "expected_sha256": "c570f3bd85598d6cc486c346ebc033835c1544d9404f29b2356fb4b94087158b",
+      "commit": "e10b6b984946704ebefa716bb238761ace4e2fb2",
+      "reason": "별도 중학교 성취기준 적용 작업에서 사용자 요청에 따라 갱신되어 커밋됨. WORKSPACE_STATUS.md의 성취기준 JSON·사이트 반영 기록 참조. 이 고등학교 작업에서는 해당 파일을 수정하지 않음.",
+      "subsequent_application": "outputs/extraction/combined-20260922/decision_history/20260923-integrated-science/application.json",
+      "subsequent_reason": "사용자 후속 요청으로 고1 추출본 415개를 통합 JSON과 사이트에 반영함. 최초 스냅샷과 중학교 862행은 별도 보존."
+    }
+  },
+  "scope": "Structure, source SHA-256, actual PDF page counts, unique IDs, evidence fields, page coverage, reverse references, recorded image review, independent image reference checks, user grade and reviewed mapping application. Semantic/source quotation checks are recorded in achievement_mapping/validation.json; does not certify every source pixel or official publisher assignment for content alignments.",
+  "combined_sha256": "e4ee470c17a9e5d0616c94e0852268c716b0dab8de0998ac6831a829f6ab9979"
+}

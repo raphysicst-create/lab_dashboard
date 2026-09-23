@@ -82,3 +82,9 @@ python scripts/review/render-review.py
 미리보기에는 한글 글꼴이 필요합니다. Windows 맑은 고딕, macOS Apple SD Gothic Neo, Linux Noto Sans CJK 또는 나눔고딕의 알려진 경로를 탐색합니다. 찾지 못하면 `LAB_DASHBOARD_FONT`에 설치된 한글 글꼴 파일 경로를 지정하고, 필요하면 `LAB_DASHBOARD_FONT_BOLD`도 지정합니다. 미리보기는 기존 XLSX를 수정하지 않습니다.
 
 **검토표 최초 생성기 `build-review.mjs`만 Codex 제공 `@oai/artifact-tool`에 의존합니다.** 이 패키지는 일반 `npm install`에 포함하지 않았습니다. 패키지가 제공된 Codex 환경에서만 재생성할 수 있으며, 일반 컴퓨터에서는 커밋된 XLSX를 그대로 사용합니다. 자세한 내용은 [검토표 안내](review/README.md)를 참고하세요.
+
+## 고1 통합과학 통합 (2026-09-23)
+
+현재 입력은 같은 경로의 1,277행 통합 JSON입니다. `extraction/apply_integrated_science.py`는 중학교 사본을 보존하고 검증된 고1 415개를 추가합니다. 후속 편집이 있으면 재적용을 중단합니다. `build_data.py`는 복수 성취기준과 중1/고1 구분을 공개 데이터에 반영합니다. 고1 준비물은 원문으로 표시하며 분류하지 않습니다.
+
+현재 전체 검증: `python scripts/verify_integrated_application.py`, `node scripts/verify_core.mjs`, `node scripts/verify_browser.cjs`, `python scripts/verify_chemicals.py`. 기존 `verify_achievement_application.py`는 중학교 862행 적용 시점 전용 검증이며, 후속 추가 자료가 있는 현재 입력에는 사용하지 않습니다.

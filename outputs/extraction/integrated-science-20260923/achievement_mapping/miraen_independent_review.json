@@ -1,0 +1,144 @@
+{
+  "publisher": "미래엔",
+  "reviewer": "miraen_extract",
+  "date": "2026-09-23",
+  "reviewed_record_count": 90,
+  "status": "two_semantic_mapping_recommendations",
+  "scope": "전체 90건의 코드·방법·연결 논리를 읽고, 원본 지정 경계 사례 및 추가 표본을 대조했다. 원본 PDF와 활동·매핑 파일은 수정하지 않았다.",
+  "mechanical_checks": {
+    "record_ids_unique": true,
+    "record_ids_match_source_activities": true,
+    "valid_high_school_code_count": 31,
+    "invalid_code_count": 0,
+    "standard_quote_mismatches": 0,
+    "direct_mapping_records_matching_original_direct_evidence": 24,
+    "methods_in_reviewed_snapshot": {
+      "direct": 24,
+      "content_alignment": 65,
+      "unresolved": 1
+    }
+  },
+  "independently_visual_reviewed_pages": {
+    "miraen_IS1": [
+      39,
+      77,
+      95,
+      98,
+      164
+    ],
+    "miraen_IS2": [
+      10,
+      30,
+      35,
+      66,
+      110
+    ]
+  },
+  "findings": [
+    {
+      "record_id": "miraen_IS1_017",
+      "pdf_page": 77,
+      "priority": "medium",
+      "category": "over_broad_secondary_code",
+      "observed_codes": [
+        "10통과1-02-02",
+        "10통과1-02-03"
+      ],
+      "recommendation": "10통과1-02-02만 유지하고 10통과1-02-03은 삭제한다.",
+      "proposed_codes": [
+        "10통과1-02-02"
+      ],
+      "proposed_method": "content_alignment",
+      "evidence": "주기율표의 원소 중에서 하나를 골라 그 원소를 소개하기 위한 내용을 조사해 보자. / 원소의 생성 과정 / 원소의 성질과 이용 분야",
+      "rationale": "선정한 한 원소의 생성 과정은 원소의 우주적 유래 기준과 연결된다. 그러나 한 원소의 성질·용도 조사만으로는 원소 사이 주기성을 도출하거나 결합을 형성하는 이유를 해석하는 수행을 확인할 수 없다. 주기율표에서 원소를 고른다는 사실만으로 두 번째 기준을 추가하면 소재 중심의 과잉 연결이 된다.",
+      "review_note": "원소 생성 과정이라는 기준의 일부를 조사·표현하는 확장 활동으로 기록한다."
+    },
+    {
+      "record_id": "miraen_IS1_044",
+      "pdf_page": 164,
+      "priority": "medium",
+      "category": "primary_performance_alignment",
+      "observed_codes": [
+        "10통과1-03-04"
+      ],
+      "recommendation": "주 연결을 10통과2-03-04로 교체하고 권간 내용 대조임을 명시한다.",
+      "proposed_codes": [
+        "10통과2-03-04"
+      ],
+      "proposed_method": "content_alignment",
+      "evidence": "과속 방지턱과 관련한 자료, 기사 등을 조사하고 과속 방지턱의 효과에 관한 근거나 주장을 정리해 보자. / 모둠별로 두 의견 중 한쪽의 입장을 정하고, 근거를 들어 주장하는 글을 써 보자. / 입장이 다른 모둠끼리 짝을 지어 토론해 보고, 양측의 입장을 모두 고려하여 양측이 수용할 만한 합리적인 대안을 제시해 보자.",
+      "rationale": "학생의 핵심 수행은 교통안전 기술 도입의 효과·위험을 비교해 찬반을 논증하고 합리적인 대안을 찾는 것이다. 이는 과학 관련 사회적 쟁점의 합리적 논증에 해당한다. 안전장치가 소재이지만 운동량·충격량 관계의 적용은 학생 과제에 명시되지 않아 10통과1-03-04를 주 매핑으로 두는 근거는 약하다.",
+      "proposed_standard_evidence": [
+        {
+          "code": "10통과2-03-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에\n서 과학 윤리의 중요성에 대해 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": "통합과학1 활동을 통합과학2 성취기준에 내용 대조로 연결한 검토자의 판단이며 출판사의 활동별 공식 배정이 아니다. 충돌 안전의 역학은 배경 개념과 주 수행 기준을 구별한다."
+    }
+  ],
+  "confirmed_boundary_cases": [
+    {
+      "record_id": "miraen_IS1_008",
+      "decision": "현재 10통과1-01-02 연결 유지 가능",
+      "reason": "학생 본문에 시간은 기본량이며 액체 질량으로 시간을 재도록 명시하고 g와 초를 대응시킨다. 기본량·단위의 응용이라는 제한을 명시하면 적절하다."
+    },
+    {
+      "record_id": "miraen_IS1_024",
+      "decision": "unresolved 유지",
+      "reason": "과학 사진 작품의 주제를 자유롭게 고르며 제시된 사진도 조개 껍데기·물결·액체 자석이다. 자연의 규칙성이라는 표현만으로 원소의 주기성 기준에 연결할 수 없다."
+    },
+    {
+      "record_id": "miraen_IS1_025",
+      "decision": "현재 10통과2-03-04 권간 연결 유지",
+      "reason": "희토류 채굴 기술의 편익·환경 피해를 비교하고 찬반 입장을 근거로 논증한다. 단순 원소 조사보다 사회적 쟁점 판단이 핵심 산출물이다."
+    },
+    {
+      "record_ids": [
+        "miraen_IS2_005",
+        "miraen_IS2_006"
+      ],
+      "decision": "현재 10통과2-01-02 연결 유지 가능",
+      "reason": "PDF 10쪽 성취기준 표의 병합 셀에서 생물의 진화 및 생물다양성과 보전 두 소단원이 해당 기준에 대응됨을 이미지로 확인했다. 활동 본문도 보전 사례 조사·실천·서식 지도와 보전 중요성을 명시한다. 내용 확장임을 유지하고 direct로 바꾸지 않는다."
+    },
+    {
+      "record_id": "miraen_IS2_016",
+      "decision": "현재 10통과2-01-04 및 10통과2-02-02 연결 유지 가능",
+      "reason": "본문이 이산화 탄소→탄산→수소 이온의 산성화 원리를 설명하며, 학생은 생명체·지구 환경 영향을 조사하고 대응을 토론한다. 산의 특징과 환경 변화의 생태 영향 각각에 근거가 있다."
+    },
+    {
+      "record_id": "miraen_IS2_031",
+      "decision": "현재 10통과2-02-06 연결 유지 가능",
+      "reason": "동일 지면의 소단원명과 학습 목표가 에너지 효율을 명시하고, 교사 지도는 유용한 에너지와 버려지는 에너지를 포함해 다음 효율 학습의 디딤돌이라고 명시한다. 학생 과제는 에너지 전환 설명이므로 선수 개념·부분 연결 메모가 필요하다."
+    }
+  ],
+  "optional_evidence_improvements": [
+    {
+      "record_id": "miraen_IS1_019",
+      "recommendation": "인용 아미노산·종류·배열의 낱말만 대신 학생 지시문을 함께 보존하면 연결 근거를 더 분명히 할 수 있다.",
+      "suggested_quote": "헤모글로빈과 케라틴의 기능이 서로 다른 까닭을 다음 용어를 모두 포함하여 설명해 보자.",
+      "reason": "10통과1-02-05 자체는 타당하다. 근거의 읽기 쉬움 개선 제안이다."
+    },
+    {
+      "record_id": "miraen_IS2_016",
+      "recommendation": "현재 환경 영향 지시문 인용에 산성화 원리의 학생 도입 본문을 추가하면 10통과2-01-04 근거도 자립적으로 읽힌다.",
+      "suggested_quote": "대기 중의 이산화 탄소는 바닷물에 녹아 탄산이 되고 탄산 중 일부가 이온화하여 수소 이온을 내놓는다."
+    }
+  ],
+  "limitations": [
+    "직접 연결 24건은 기존 활동별 직접 표 근거와 재대조하였고 모든 기준문장 인용은 PDF 텍스트와 일치함을 검사했다.",
+    "전체 90건의 원문 모든 픽셀을 다시 판독한 감사는 아니다. 지정 경계 사례를 중심으로 10쪽을 이미지로 독립 확인했다.",
+    "권간 매핑을 허용한다는 부모 작업 방침에 따라 2-03-04 교체를 제안한다. 권 구분만으로 배제하지 않되 content_alignment와 권간 메모를 유지해야 한다."
+  ],
+  "parent_resolution": {
+    "status": "applied",
+    "changes": [
+      "miraen_IS1_017: 10통과1-02-02만 유지",
+      "miraen_IS1_044: 10통과2-03-04로 교체, 권간 연결 명시"
+    ]
+  }
+}

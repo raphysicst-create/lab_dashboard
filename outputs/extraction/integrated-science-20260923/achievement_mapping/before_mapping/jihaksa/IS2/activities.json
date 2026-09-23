@@ -1,0 +1,2181 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "book_id": "jihaksa_IS2",
+    "publisher": "지학사",
+    "author": "전상학",
+    "title": "통합과학 2",
+    "volume": 2,
+    "school_level": "고등학교",
+    "grade": null,
+    "source_file": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\통합과학2_연구용_압축.pdf",
+    "sha256": "ff0e6dd1633a5c2c0fe6e8ec05141c084ab86475831c5c94315cb92b624a5453",
+    "pdf_page_count": 172,
+    "record_count": 45,
+    "identity_evidence": {
+      "pdf_page": 170,
+      "quote": "지은이  전상학 외 12명 / 발행인  (주)지학사",
+      "visual_reviewed": true
+    },
+    "extraction_policy": {
+      "included": "학생 본문의 해 보기, 탐구 활동, 창의융합, 토의·토론과 논술, 명시된 독립 프로젝트",
+      "excluded": "도입 질문, 평가, 일반 읽을거리, 목차 및 교사용 반복/추가 활동, 예시 답안",
+      "supplies": "학생 본문 명시 목록만 보존, 미기재는 null",
+      "standards": "개별 활동과 직접 연결된 원문 근거가 없으므로 null"
+    },
+    "notes": [
+      "본문 활동 구간은 PDF쪽과 인쇄쪽이 같음. 같은 페이지의 숨은 이전 쪽 번호 텍스트는 채택하지 않음.",
+      "전체 페이지 텍스트·좌표 조사; 모든 포함 활동 제목과 명시 준비물 영역, 모든 연속 지면 이미지를 확인. 전체 페이지 모든 픽셀의 전수 판독은 아님.",
+      "원문 체크박스 항목은 줄바꿈으로 분리하고 표제·목록 원문은 source에 보존."
+    ]
+  },
+  "data": [
+    {
+      "id": "jihaksa_is2_0001",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 17,
+      "탐구활동": "지질시대의 상대적인 길이 표현하기",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          17
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "section_title": "1. 생물다양성",
+        "title_quote": "지질시대의 상대적인 길이 표현하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          101.84609985351562,
+          329.9925231933594,
+          224.8619842529297,
+          338.98162841796875
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "지질시대의 상대적인 길이 표현하기",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0002",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 22,
+      "탐구활동": "지질시대 대멸종 원인의 가설 타당성 평가하기",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          22,
+          23
+        ],
+        "printed_pages": [
+          22,
+          23
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅰ",
+        "section_title": "1. 생물다양성",
+        "title_quote": "지질시대 대멸종 원인의 가설 타당성 평가하기",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          112.52849578857422,
+          478.2666015625,
+          123.01579284667969
+        ],
+        "supplies_bbox": [
+          295.6370849609375,
+          214.069091796875,
+          370.7040710449219,
+          234.3930206298828
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "지질시대 대멸종 원인의 가설 타당성 평가하기",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0003",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 25,
+      "탐구활동": "갈라파고스 핀치의 자연선택 추론하기",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          25
+        ],
+        "printed_pages": [
+          25
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "section_title": "1. 생물다양성",
+        "title_quote": "갈라파고스 핀치의 자연선택 추론하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          102.31849670410156,
+          273.3736267089844,
+          233.10995483398438,
+          282.36273193359375
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "갈라파고스 핀치의 자연선택 추론하기",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0004",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 26,
+      "탐구활동": "자연선택 과정에 대한 모의실험하기",
+      "교구": "노란색과 검은색 구슬\n노란색과 검은색 도화지\n핀셋과 굵은 집게\n스톱워치",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          26,
+          27
+        ],
+        "printed_pages": [
+          26,
+          27
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅰ",
+        "section_title": "1. 생물다양성",
+        "title_quote": "자연선택 과정에 대한 모의실험하기",
+        "supplies_quote": "준비물\n노란색과 검은색 구슬\n노란색과 검은색 도화지\n핀셋과 굵은 집게\n스톱워치",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          112.52849578857422,
+          434.5335693359375,
+          123.01579284667969
+        ],
+        "supplies_bbox": [
+          295.6370849609375,
+          205.938232421875,
+          531.0848999023438,
+          226.26222229003906
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "자연선택 과정에 대한 모의실험하기",
+          "supplies_candidate": "노란색과 검은색 구슬\n노란색과 검은색 도화지\n핀셋과 굵은 집게\n스톱워치"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0005",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 31,
+      "탐구활동": "생물 복원 스토리북 만들기",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "section_title": "1. 생물다양성",
+        "title_quote": "생물 복원 스토리북 만들기",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          102.31849670410156,
+          297.780029296875,
+          194.23207092285156,
+          306.7691345214844
+        ],
+        "supplies_bbox": [
+          344.76251220703125,
+          325.6661071777344,
+          378.9085388183594,
+          357.97540283203125
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "생물 복원 스토리북 만들기",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0006",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 32,
+      "탐구활동": "최근 생물의 멸종에 큰 영향을 주는 환경 변화는 무엇일까?",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          32
+        ],
+        "printed_pages": [
+          32
+        ],
+        "activity_type": "창의융합",
+        "chapter_label": "Ⅰ",
+        "section_title": "1. 생물다양성",
+        "title_quote": "최근 생물의 멸종에 큰 영향을 주는 환경 변화는 무엇일까?",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          118.2616958618164,
+          546.1062622070312,
+          130.2471923828125
+        ],
+        "supplies_bbox": [
+          200.0836944580078,
+          198.55401611328125,
+          234.22970581054688,
+          230.3649444580078
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "최근 생물의 멸종에 큰 영향을 주는 환경 변화는 무엇일까?",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0007",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 40,
+      "탐구활동": "철 솜의 변화 추론하기",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          40
+        ],
+        "printed_pages": [
+          40
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "section_title": "2. 화학 반응의 다양성",
+        "title_quote": "철 솜의 변화 추론하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          243.6916961669922,
+          183.34100341796875,
+          320.0541076660156,
+          192.33010864257812
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "철 솜의 변화 추론하기",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0008",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 42,
+      "탐구활동": "에칭 판화 원리 탐구하기",
+      "교구": "알루미늄(Al) 판\n염화 구리(II)(CuCl₂) 수용액\n접착용 필름\n페트리 접시\n가위\n실험복\n보안경\n실험용 장갑",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "section_title": "2. 화학 반응의 다양성",
+        "title_quote": "에칭 판화 원리 탐구하기",
+        "supplies_quote": "준비물\n알루미늄(Al) 판\n염화 구리(II)(CuCl₂) 수용액\n접착용 필름\n페트리 접시\n가위\n실험복\n보안경\n실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "원본 렌더 이미지 대조로 준비물 순서·화학식 첨자·항목 경계를 교정함. 자동 후보 원문은 별도 보존."
+        ],
+        "title_bbox": [
+          244.29989624023438,
+          375.19403076171875,
+          328.4378967285156,
+          384.1831359863281
+        ],
+        "supplies_bbox": [
+          295.6,
+          403.1,
+          523,
+          435
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "에칭 판화 원리 탐구하기",
+          "supplies_candidate": "알루미늄(Al) 판\n접착용 필름\n페트리 접시\n가위\n실험복\n보안경\n실험용 장갑\n활동"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0009",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 45,
+      "탐구활동": "우리 주변에서 일어나는 산화 ・ 환원 반응 분석하기",
+      "교구": "스마트 기기",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          45
+        ],
+        "printed_pages": [
+          45
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "section_title": "2. 화학 반응의 다양성",
+        "title_quote": "우리 주변에서 일어나는 산화 ・ 환원 반응 분석하기",
+        "supplies_quote": "준비물\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          102.31849670410156,
+          97.02752685546875,
+          274.4148254394531,
+          106.01663208007812
+        ],
+        "supplies_bbox": [
+          344.76251220703125,
+          128.12109375,
+          378.9085388183594,
+          148.4449005126953
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "우리 주변에서 일어나는 산화 ・ 환원 반응 분석하기",
+          "supplies_candidate": "스마트 기기"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0010",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 48,
+      "탐구활동": "우리 주변에서 이용하는 산과 염기의 특징 조사하기",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          48
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "section_title": "2. 화학 반응의 다양성",
+        "title_quote": "우리 주변에서 이용하는 산과 염기의 특징 조사하기",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          244.29989624023438,
+          149.6024169921875,
+          420.036865234375,
+          158.59152221679688
+        ],
+        "supplies_bbox": [
+          200.0836944580078,
+          177.4886474609375,
+          234.22970581054688,
+          209.2995147705078
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "우리 주변에서 이용하는 산과 염기의 특징 조사하기",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0011",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 50,
+      "탐구활동": "산과 염기를 혼합할 때 용액의 온도를 측정하여 그래프로 나타내기",
+      "교구": "묽은 염산\n수산화 나트륨(NaOH) 수용액\nBTB 용액\n15 mL 눈금 시험관 7개\n시험관대\n디지털 온도계\n스포이트\n실험복\n보안경\n실험용 장갑",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          50,
+          51
+        ],
+        "printed_pages": [
+          50,
+          51
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅰ",
+        "section_title": "2. 화학 반응의 다양성",
+        "title_quote": "산과 염기를 혼합할 때 용액의 온도를 측정하여\n그래프로 나타내기",
+        "supplies_quote": "준비물\n묽은 염산\n수산화 나트륨(NaOH) 수용액\nBTB 용액\n15 mL 눈금 시험관 7개\n시험관대\n디지털 온도계\n스포이트\n실험복\n보안경\n실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "원본 렌더 이미지 대조로 준비물 순서·화학식 첨자·항목 경계를 교정함. 자동 후보 원문은 별도 보존."
+        ],
+        "title_bbox": [
+          291.0150146484375,
+          112.52849578857422,
+          480.62310791015625,
+          141.5887908935547
+        ],
+        "supplies_bbox": [
+          295.6370849609375,
+          196.736328125,
+          525.8688354492188,
+          241.03114318847656
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "산과 염기를 혼합할 때 용액의 온도를 측정하여\n그래프로 나타내기",
+          "supplies_candidate": "수산화 나트륨(NaOH) 수용액\nBTB 용액\n묽은 염산\n15 mL 눈금 시험관 7개\n시험관대\n디지털 온도계\n스포이트\n실험복\n보안경\n실험용 장갑"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0012",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 53,
+      "탐구활동": "생활 속에서 중화 반응을 이용하는 사례 조사하기",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          53
+        ],
+        "printed_pages": [
+          53
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "section_title": "2. 화학 반응의 다양성",
+        "title_quote": "생활 속에서 중화 반응을 이용하는 사례 조사하기",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          102.31849670410156,
+          161.26055908203125,
+          270.2798767089844,
+          170.24966430664062
+        ],
+        "supplies_bbox": [
+          344.76251220703125,
+          189.1466064453125,
+          378.9085388183594,
+          220.9575958251953
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "생활 속에서 중화 반응을 이용하는 사례 조사하기",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0013",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 57,
+      "탐구활동": "변화가 일어날 때 출입하는 에너지의 이용 원리와 사례 찾기",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          57
+        ],
+        "printed_pages": [
+          57
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "section_title": "2. 화학 반응의 다양성",
+        "title_quote": "변화가 일어날 때 출입하는 에너지의 이용 원리와 사례 찾기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          102.31849670410156,
+          149.6024169921875,
+          305.4272766113281,
+          158.59152221679688
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "변화가 일어날 때 출입하는 에너지의 이용 원리와 사례 찾기",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0014",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 58,
+      "탐구활동": "가열장치 없이 음식을 조리하는 방법 설계하고 실험하기",
+      "교구": "산화 칼슘 발열 팩 50 g\n물\n메추리알\n모둠별로 결정한 재료\n스마트 기기\n실험복\n보안경\n면장갑",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          58,
+          59
+        ],
+        "printed_pages": [
+          58,
+          59
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅰ",
+        "section_title": "2. 화학 반응의 다양성",
+        "title_quote": "가열장치 없이 음식을 조리하는 방법 설계하고 실험하기",
+        "supplies_quote": "준비물\n산화 칼슘 발열 팩 50 g\n물\n메추리알\n모둠별로 결정한 재료\n스마트 기기\n실험복\n보안경\n면장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "원본 렌더 이미지 대조로 준비물 순서·화학식 첨자·항목 경계를 교정함. 자동 후보 원문은 별도 보존."
+        ],
+        "title_bbox": [
+          291.0150146484375,
+          112.52849578857422,
+          514.1845703125,
+          123.01579284667969
+        ],
+        "supplies_bbox": [
+          295.6,
+          178.3,
+          547,
+          211
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "가열장치 없이 음식을 조리하는 방법 설계하고 실험하기",
+          "supplies_candidate": "산화 칼슘 발열 팩 50 g\n물\n메추리알\n모둠별로 결정한 재료\n스마트 기기\n실험복\n보안경\n면장갑\n조사하기"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0015",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 60,
+      "탐구활동": "화학 반응을 이용해 예술 작품을 만들 수 있을까?",
+      "교구": "구리 테이프\n질산 은 수용액\n검은색 도화지\n50 mL 비커 1개\n면봉\n가위\n필기구\n실험복\n실험용 장갑\n보안경",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "activity_type": "창의융합",
+        "chapter_label": "Ⅰ",
+        "section_title": "2. 화학 반응의 다양성",
+        "title_quote": "화학 반응을 이용해 예술 작품을 만들 수 있을까?",
+        "supplies_quote": "준비물\n구리 테이프\n질산 은 수용액\n검은색 도화지\n50 mL 비커 1개\n면봉\n가위\n필기구\n실험복\n실험용 장갑\n보안경",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          118.2616958618164,
+          519.0148315429688,
+          130.2471923828125
+        ],
+        "supplies_bbox": [
+          200.0836944580078,
+          196.71722412109375,
+          254.39686584472656,
+          297.45050048828125
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "화학 반응을 이용해 예술 작품을 만들 수 있을까?",
+          "supplies_candidate": "구리 테이프\n질산 은 수용액\n검은색 도화지\n50 mL 비커 1개\n면봉\n가위\n필기구\n실험복\n실험용 장갑\n보안경"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0016",
+      "source_row": null,
+      "단원명": "Ⅰ. 변화와 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 67,
+      "탐구활동": "상태 변화 물질의 이용",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "activity_type": "토의·토론과 논술",
+        "chapter_label": "Ⅰ",
+        "section_title": "2. 화학 반응의 다양성",
+        "title_quote": "상태 변화 물질의 이용",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          78.90869903564453,
+          58.089439392089844,
+          273.05975341796875,
+          89.35836029052734
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "상태 변화 물질의 이용",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0017",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 74,
+      "탐구활동": "내가 가 보고 싶은 곳의 생태계 조사하기",
+      "교구": "스마트 기기",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          74
+        ],
+        "printed_pages": [
+          74
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "section_title": "1. 생태계와 환경",
+        "title_quote": "내가 가 보고 싶은 곳의 생태계 조사하기",
+        "supplies_quote": "준비물\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          243.6916961669922,
+          319.9853210449219,
+          380.55078125,
+          328.97442626953125
+        ],
+        "supplies_bbox": [
+          199.47560119628906,
+          347.87152099609375,
+          233.6215057373047,
+          368.1954040527344
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "내가 가 보고 싶은 곳의 생태계 조사하기",
+          "supplies_candidate": "스마트 기기"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0018",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 77,
+      "탐구활동": "생물과 환경이 주고받는 영향 찾아보기",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          77
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "section_title": "1. 생태계와 환경",
+        "title_quote": "생물과 환경이 주고받는 영향 찾아보기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          102.31849670410156,
+          97.02752685546875,
+          235.1324920654297,
+          106.01663208007812
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "생물과 환경이 주고받는 영향 찾아보기",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0019",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 81,
+      "탐구활동": "환경 변화가 생태계에 미치는 영향 토의하기",
+      "교구": "스마트 기기",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          81
+        ],
+        "printed_pages": [
+          81
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "section_title": "1. 생태계와 환경",
+        "title_quote": "환경 변화가 생태계에 미치는 영향 토의하기",
+        "supplies_quote": "준비물\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          102.31849670410156,
+          182.42095947265625,
+          255.04246520996094,
+          191.41006469726562
+        ],
+        "supplies_bbox": [
+          344.76251220703125,
+          341.501220703125,
+          378.9085388183594,
+          361.8251037597656
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "환경 변화가 생태계에 미치는 영향 토의하기",
+          "supplies_candidate": "스마트 기기"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0020",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 82,
+      "탐구활동": "개체군 변동 모의실험하기",
+      "교구": "스마트 기기",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          82,
+          83
+        ],
+        "printed_pages": [
+          82,
+          83
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅱ",
+        "section_title": "1. 생태계와 환경",
+        "title_quote": "개체군 변동 모의실험하기",
+        "supplies_quote": "준비물\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          112.52849578857422,
+          395.8879089355469,
+          123.01579284667969
+        ],
+        "supplies_bbox": [
+          295.6370849609375,
+          191.004638671875,
+          329.7831115722656,
+          211.32862854003906
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "개체군 변동 모의실험하기",
+          "supplies_candidate": "스마트 기기"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0021",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 86,
+      "탐구활동": "지구온난화에 따른 지구 열수지 변동 탐구하기",
+      "교구": "500 mL 플라스틱 페트병 2개\n이산화 탄소 발포정\n디지털 온도계 2개\n고무찰흙\n적외선 조명 2개",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          86,
+          87
+        ],
+        "printed_pages": [
+          86,
+          87
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅱ",
+        "section_title": "1. 생태계와 환경",
+        "title_quote": "지구온난화에 따른 지구 열수지 변동 탐구하기",
+        "supplies_quote": "준비물\n500 mL 플라스틱 페트병 2개\n이산화 탄소 발포정\n디지털 온도계 2개\n고무찰흙\n적외선 조명 2개",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          112.52849578857422,
+          478.2666015625,
+          123.01579284667969
+        ],
+        "supplies_bbox": [
+          295.6370849609375,
+          203.738525390625,
+          514.6069946289062,
+          236.0479278564453
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "지구온난화에 따른 지구 열수지 변동 탐구하기",
+          "supplies_candidate": "500 mL 플라스틱 페트병 2개\n이산화 탄소 발포정\n디지털 온도계 2개\n고무찰흙\n적외선 조명 2개"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0022",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 91,
+      "탐구활동": "지구 환경 변화의 영향과 대처 방안 분석하기",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          91
+        ],
+        "printed_pages": [
+          91
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "section_title": "1. 생태계와 환경",
+        "title_quote": "지구 환경 변화의 영향과 대처 방안 분석하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          102.31849670410156,
+          149.86993408203125,
+          254.72874450683594,
+          158.85903930664062
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "지구 환경 변화의 영향과 대처 방안 분석하기",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0023",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 92,
+      "탐구활동": "기후변화로 인한 생태계와 지구계의 미래 시나리오 구상하기",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          92,
+          93
+        ],
+        "printed_pages": [
+          92,
+          93
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅱ",
+        "section_title": "1. 생태계와 환경",
+        "title_quote": "기후변화로 인한 생태계와 지구계의 미래 시나리오 구상하기",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          112.52849578857422,
+          532.32763671875,
+          123.01579284667969
+        ],
+        "supplies_bbox": [
+          295.6370849609375,
+          204.05401611328125,
+          370.7040710449219,
+          224.37794494628906
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "기후변화로 인한 생태계와 지구계의 미래 시나리오 구상하기",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0024",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 94,
+      "탐구활동": "생태계는 우리 생활에 어떤 영향을 줄까?",
+      "교구": "스마트 기기",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          94
+        ],
+        "printed_pages": [
+          94
+        ],
+        "activity_type": "창의융합",
+        "chapter_label": "Ⅱ",
+        "section_title": "1. 생태계와 환경",
+        "title_quote": "생태계는 우리 생활에 어떤 영향을 줄까?",
+        "supplies_quote": "준비물\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          118.2616958618164,
+          481.6441345214844,
+          130.2471923828125
+        ],
+        "supplies_bbox": [
+          200.0836944580078,
+          198.55401611328125,
+          234.22970581054688,
+          218.87770080566406
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "생태계는 우리 생활에 어떤 영향을 줄까?",
+          "supplies_candidate": "스마트 기기"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0025",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 103,
+      "탐구활동": "태양 에너지가 다양한 에너지로 전환되는 과정 추론하기",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          103
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "section_title": "2. 에너지와 지속가능한 발전",
+        "title_quote": "태양 에너지가 다양한 에너지로 전환되는 과정 추론하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          102.31849670410156,
+          97.02752685546875,
+          293.6065979003906,
+          106.01663208007812
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "태양 에너지가 다양한 에너지로 전환되는 과정 추론하기",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0026",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 105,
+      "탐구활동": "운동 에너지가 전기 에너지로 전환되는 과정 알아보기",
+      "교구": "코일\n막대자석 2개\n검류계\n면장갑\n집게 달린 전선 2개",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          105
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅱ",
+        "section_title": "2. 에너지와 지속가능한 발전",
+        "title_quote": "운동 에너지가 전기 에너지로 전환되는 과정 알아보기",
+        "supplies_quote": "준비물\n코일\n막대자석 2개\n검류계\n면장갑\n집게 달린 전선 2개",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          149.0334930419922,
+          195.3413543701172,
+          363.1316833496094,
+          205.8286590576172
+        ],
+        "supplies_bbox": [
+          58.102298736572266,
+          290.3949279785156,
+          129.41343688964844,
+          334.6898193359375
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "운동 에너지가 전기 에너지로 전환되는 과정 알아보기",
+          "supplies_candidate": "코일\n막대자석 2개\n검류계\n면장갑\n집게 달린 전선 2개"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0027",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 107,
+      "탐구활동": "간이 발전기를 만들어 에너지가 전환되는 과정 탐구하기",
+      "교구": "에나멜선(지름 0.2 mm)\n원통형 네오디뮴 자석\n4개(지름 15 mm,\n높이 5 mm)\n나무 막대\n빨간색 발광 다이오드\n페트병 (지름 3 cm)\n빨대\n집게 달린 전선 2개\n글루건\n칼이나 사포\n면장갑",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "section_title": "2. 에너지와 지속가능한 발전",
+        "title_quote": "간이 발전기를 만들어 에너지가 전환되는 과정 탐구하기",
+        "supplies_quote": "준비물\n에나멜선(지름 0.2 mm)\n원통형 네오디뮴 자석\n4개(지름 15 mm,\n높이 5 mm)\n나무 막대\n빨간색 발광 다이오드\n페트병 (지름 3 cm)\n빨대\n집게 달린 전선 2개\n글루건\n칼이나 사포\n면장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "원본 렌더 이미지 대조로 준비물 순서·화학식 첨자·항목 경계를 교정함. 자동 후보 원문은 별도 보존."
+        ],
+        "title_bbox": [
+          102.31849670410156,
+          168.08502197265625,
+          293.6065979003906,
+          177.07412719726562
+        ],
+        "supplies_bbox": [
+          344.7,
+          196.0,
+          418,
+          336.4
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "간이 발전기를 만들어 에너지가 전환되는 과정 탐구하기",
+          "supplies_candidate": "에나멜선(지름 0.2 mm)\n원통형 네오디뮴 자석\n4개(지름 15 mm,\n높이 5 mm)\n나무 막대\n빨간색 발광 다이오드\n페트병 (지름 3 cm)\n빨대\n집게 달린 전선 2개\n글루건"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0028",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 110,
+      "탐구활동": "화력 발전소와 핵발전소가 인간 생활에 미치는 영향 알아보기",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          110
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "section_title": "2. 에너지와 지속가능한 발전",
+        "title_quote": "화력 발전소와 핵발전소가 인간 생활에 미치는 영향 알아보기",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          244.29989624023438,
+          149.6024169921875,
+          453.1617126464844,
+          158.59152221679688
+        ],
+        "supplies_bbox": [
+          200.0836944580078,
+          177.489013671875,
+          242.38455200195312,
+          209.29994201660156
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "화력 발전소와 핵발전소가 인간 생활에 미치는 영향 알아보기",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0029",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 116,
+      "탐구활동": "우리 주위에서 지속가능한 발전을 위한 기술 찾기",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "section_title": "2. 에너지와 지속가능한 발전",
+        "title_quote": "우리 주위에서 지속가능한 발전을 위한 기술 찾기",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          244.29989624023438,
+          149.64080810546875,
+          412.26129150390625,
+          158.62991333007812
+        ],
+        "supplies_bbox": [
+          302.82281494140625,
+          177.7493896484375,
+          375.8509826660156,
+          198.0733184814453
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "우리 주위에서 지속가능한 발전을 위한 기술 찾기",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0030",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 118,
+      "탐구활동": "건축물의 단열 효율을 높이는 방법은 무엇일까?",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "activity_type": "창의융합",
+        "chapter_label": "Ⅱ",
+        "section_title": "2. 에너지와 지속가능한 발전",
+        "title_quote": "건축물의 단열 효율을 높이는 방법은 무엇일까?",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          118.2616958618164,
+          513.5015258789062,
+          130.2471923828125
+        ],
+        "supplies_bbox": [
+          200.0836944580078,
+          236.39459228515625,
+          234.22970581054688,
+          268.20550537109375
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "건축물의 단열 효율을 높이는 방법은 무엇일까?",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0031",
+      "source_row": null,
+      "단원명": "Ⅱ. 환경과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 125,
+      "탐구활동": "기업 활동과 지속가능한 발전",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "activity_type": "토의·토론과 논술",
+        "chapter_label": "Ⅱ",
+        "section_title": "2. 에너지와 지속가능한 발전",
+        "title_quote": "기업 활동과 지속가능한 발전",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          78.90869903564453,
+          58.089439392089844,
+          332.20550537109375,
+          89.35836029052734
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "기업 활동과 지속가능한 발전",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0032",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 131,
+      "탐구활동": "감염병 진단과 추적으로 과학의 유용성 알아보기",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          131
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "감염병 진단과 추적으로 과학의 유용성 알아보기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          101.84609985351562,
+          257.33001708984375,
+          267.784912109375,
+          266.3191223144531
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "감염병 진단과 추적으로 과학의 유용성 알아보기",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0033",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 132,
+      "탐구활동": "미래 사회에 예상되는 문제와 해결 방안 탐색하기",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "미래 사회에 예상되는 문제와 해결 방안 탐색하기",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          243.6916961669922,
+          197.94232177734375,
+          411.653076171875,
+          206.93142700195312
+        ],
+        "supplies_bbox": [
+          199.47560119628906,
+          291.32672119140625,
+          233.6215057373047,
+          323.6360168457031
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "미래 사회에 예상되는 문제와 해결 방안 탐색하기",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0034",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 134,
+      "탐구활동": "단백질과 핵산을 이용한 감염병 진단 기술 체험하기",
+      "교구": "감염병 진단 모의실험 키트\n마이크로 피펫\n마이크로 피펫 팁\n네임펜\n번호를 쓴 종이\n실험복\n실험용 장갑",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          134,
+          135
+        ],
+        "printed_pages": [
+          134,
+          135
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "단백질과 핵산을 이용한 감염병 진단 기술 체험하기",
+        "supplies_quote": "준비물\n감염병 진단 모의실험 키트\n마이크로 피펫\n마이크로 피펫 팁\n네임펜\n번호를 쓴 종이\n실험복\n실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          112.52849578857422,
+          496.0415344238281,
+          123.01579284667969
+        ],
+        "supplies_bbox": [
+          295.6370849609375,
+          267.6240234375,
+          513.901611328125,
+          299.93341064453125
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "단백질과 핵산을 이용한 감염병 진단 기술 체험하기",
+          "supplies_candidate": "감염병 진단 모의실험 키트\n마이크로 피펫\n마이크로 피펫 팁\n네임펜\n번호를 쓴 종이\n실험복\n실험용 장갑"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0035",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 137,
+      "탐구활동": "과학기술사회에서 빅데이터 사용 사례 조사하기",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          137
+        ],
+        "printed_pages": [
+          137
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "과학기술사회에서 빅데이터 사용 사례 조사하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          102.31849670410156,
+          287.2937316894531,
+          266.2347717285156,
+          296.2828369140625
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "과학기술사회에서 빅데이터 사용 사례 조사하기",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0036",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 139,
+      "탐구활동": "빅데이터의 장점과 문제점 조사하기",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "빅데이터의 장점과 문제점 조사하기",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          102.31849670410156,
+          164.584228515625,
+          225.33438110351562,
+          173.57333374023438
+        ],
+        "supplies_bbox": [
+          344.76251220703125,
+          192.47039794921875,
+          378.9085388183594,
+          224.7797393798828
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "빅데이터의 장점과 문제점 조사하기",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0037",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 140,
+      "탐구활동": "디지털 탐구 도구를 활용한 실시간 생활 데이터 측정하기",
+      "교구": "이산화 탄소 측정 센서\n분석용 스마트 기기",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          140,
+          141
+        ],
+        "printed_pages": [
+          140,
+          141
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "디지털 탐구 도구를 활용한 실시간 생활 데이터 측정하기",
+        "supplies_quote": "준비물\n이산화 탄소 측정 센서\n분석용 스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          112.52849578857422,
+          516.544189453125,
+          123.01579284667969
+        ],
+        "supplies_bbox": [
+          295.6370849609375,
+          193.3074951171875,
+          422.6427307128906,
+          213.6314239501953
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "디지털 탐구 도구를 활용한 실시간 생활 데이터 측정하기",
+          "supplies_candidate": "이산화 탄소 측정 센서\n분석용 스마트 기기"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0038",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 143,
+      "탐구활동": "과학기술의 발전을 인간 삶과 환경 개선에 활용하는 사례 조사하기",
+      "교구": "스마트 기기",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          143
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "과학기술의 발전을 인간 삶과 환경 개선에 활용하는 사례 조사하기",
+        "supplies_quote": "준비물\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          102.31849670410156,
+          287.2937316894531,
+          328.7539978027344,
+          296.2828369140625
+        ],
+        "supplies_bbox": [
+          344.76251220703125,
+          315.1798095703125,
+          378.9085388183594,
+          335.50372314453125
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "과학기술의 발전을 인간 삶과 환경 개선에 활용하는 사례 조사하기",
+          "supplies_candidate": "스마트 기기"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0039",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 145,
+      "탐구활동": "일상생활에 활용되는 로봇의 특징을 분석하고 개선 방안 고안하기",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "일상생활에 활용되는 로봇의 특징을 분석하고\n개선 방안 고안하기",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          149.0334930419922,
+          112.52849578857422,
+          333.9234924316406,
+          139.49131774902344
+        ],
+        "supplies_bbox": [
+          58.102298736572266,
+          198.721923828125,
+          92.24828338623047,
+          230.5329132080078
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "일상생활에 활용되는 로봇의 특징을 분석하고\n개선 방안 고안하기",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0040",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 146,
+      "탐구활동": "과학기술의 발전이 미래 사회에 미치는 유용성과 한계 예측하기",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "과학기술의 발전이 미래 사회에 미치는 유용성과 한계 예측하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          244.29989624023438,
+          256.9068603515625,
+          460.9372863769531,
+          265.8959655761719
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "과학기술의 발전이 미래 사회에 미치는 유용성과 한계 예측하기",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0041",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 149,
+      "탐구활동": "크리스퍼 유전자 가위 논증하기",
+      "교구": "스마트 기기",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          149
+        ],
+        "printed_pages": [
+          149
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "크리스퍼 유전자 가위 논증하기",
+        "supplies_quote": "준비물\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          102.31849670410156,
+          197.83612060546875,
+          209.78323364257812,
+          206.82522583007812
+        ],
+        "supplies_bbox": [
+          344.76251220703125,
+          225.72210693359375,
+          378.9085388183594,
+          246.04603576660156
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "크리스퍼 유전자 가위 논증하기",
+          "supplies_candidate": "스마트 기기"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0042",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 150,
+      "탐구활동": "인공지능 활용 과학 연구 비판하기",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          150,
+          151
+        ],
+        "printed_pages": [
+          150,
+          151
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "인공지능 활용 과학 연구 비판하기",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          112.52849578857422,
+          427.82171630859375,
+          123.01579284667969
+        ],
+        "supplies_bbox": [
+          295.6370849609375,
+          360.56640625,
+          370.7040710449219,
+          380.89031982421875
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "인공지능 활용 과학 연구 비판하기",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0043",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 152,
+      "탐구활동": "누구나 쉽게 사용할 수 있는 키오스크를 만들어 볼까?",
+      "교구": "스마트 기기\n참고 자료",
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          152
+        ],
+        "printed_pages": [
+          152
+        ],
+        "activity_type": "창의융합",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "누구나 쉽게 사용할 수 있는 키오스크를 만들어 볼까?",
+        "supplies_quote": "준비물\n스마트 기기\n참고 자료",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_bbox": [
+          291.0150146484375,
+          118.2616958618164,
+          540.2531127929688,
+          130.2471923828125
+        ],
+        "supplies_bbox": [
+          200.0836944580078,
+          198.55401611328125,
+          234.22970581054688,
+          230.3649444580078
+        ],
+        "visual_review": {
+          "title": true,
+          "supplies": true
+        },
+        "raw_extraction": {
+          "title": "누구나 쉽게 사용할 수 있는 키오스크를 만들어 볼까?",
+          "supplies_candidate": "스마트 기기\n참고 자료"
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0044",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 153,
+      "탐구활동": "과학관 탐방 프로젝트",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          153
+        ],
+        "printed_pages": [
+          153
+        ],
+        "activity_type": "과학과 기술 · 프로젝트",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "과학관 탐방 프로젝트",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음.",
+          "독립 교차 검토에서 발견. 학생 본문에 별도 프로젝트 제목과 목표 설정·선정·계획서 작성·평가 계획 등 6단계 수행이 명시되어 포함. 일반 읽을거리 말미 질문과 구별."
+        ],
+        "title_bbox": [
+          154.9097,
+          272.6191,
+          228.0866,
+          282.1238
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "과학관 탐방 프로젝트",
+          "supplies_candidate": null
+        }
+      }
+    },
+    {
+      "id": "jihaksa_is2_0045",
+      "source_row": null,
+      "단원명": "Ⅲ. 과학과 미래 사회",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 159,
+      "탐구활동": "동물 실험과 과학 윤리",
+      "교구": null,
+      "교과서": "통합과학 2",
+      "대표저자": "전상학",
+      "source": {
+        "book_id": "jihaksa_IS2",
+        "pdf_pages": [
+          159
+        ],
+        "printed_pages": [
+          159
+        ],
+        "activity_type": "토의·토론과 논술",
+        "chapter_label": "Ⅲ",
+        "section_title": "1. 과학과 인간",
+        "title_quote": "동물 실험과 과학 윤리",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 명시된 준비물 목록 없음. 절차·삽화·교사용 자료로 추정하지 않음."
+        ],
+        "title_bbox": [
+          86.8947982788086,
+          57.694984436035156,
+          279.8348693847656,
+          88.77874755859375
+        ],
+        "supplies_bbox": null,
+        "visual_review": {
+          "title": true,
+          "supplies": false
+        },
+        "raw_extraction": {
+          "title": "동물 실험과 과학 윤리",
+          "supplies_candidate": null
+        }
+      }
+    }
+  ]
+}

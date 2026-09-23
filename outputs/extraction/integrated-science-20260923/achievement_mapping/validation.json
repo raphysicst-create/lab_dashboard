@@ -1,0 +1,3351 @@
+{
+  "passed": true,
+  "checked_at": "2026-09-23T04:34:59.811205+00:00",
+  "errors": [],
+  "activity_count": 415,
+  "grade": "고1",
+  "standard_count": 31,
+  "mapping_counts": {
+    "content_alignment": 381,
+    "direct": 30,
+    "unresolved": 4
+  },
+  "mapped_count": 411,
+  "unresolved_count": 4,
+  "code_links": 429,
+  "cross_volume_count": 10,
+  "source_verification": [
+    {
+      "record_id": "miraen_IS1_001",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_002",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_003",
+      "activity_quote_verification": "image_transcription",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_004",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_005",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_006",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_007",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_008",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_009",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_010",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-01"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_011",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_012",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_013",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_014",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_015",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_016",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-04"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_017",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_018",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_019",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_020",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_021",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_022",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_023",
+      "activity_quote_verification": "image_transcription",
+      "codes": [
+        "10통과1-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_024",
+      "activity_quote_verification": "pdf_text",
+      "codes": [],
+      "method": "unresolved"
+    },
+    {
+      "record_id": "miraen_IS1_025",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_026",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_027",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_028",
+      "activity_quote_verification": "image_transcription",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_029",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_030",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_031",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_032",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_033",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_034",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_035",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_036",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_037",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_038",
+      "activity_quote_verification": "image_transcription",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_039",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS1_040",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_041",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_042",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_043",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05",
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS1_044",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_001",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_002",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS2_003",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_004",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS2_005",
+      "activity_quote_verification": "image_transcription",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_006",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_007",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_008",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_009",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_010",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_011",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS2_012",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_013",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_014",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS2_015",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_016",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04",
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_017",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_018",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_019",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_020",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS2_021",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_022",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_023",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS2_024",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_025",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS2_026",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_027",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_028",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS2_029",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_030",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_031",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_032",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_033",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_034",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_035",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05",
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_036",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_037",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS2_038",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_039",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS2_040",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_041",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "miraen_IS2_042",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_043",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_044",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_045",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "miraen_IS2_046",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03",
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0001",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0002",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0003",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0004",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0005",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0006",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0007",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0008",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-02",
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0009",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0010",
+      "activity_quote_verification": "pdf_text",
+      "codes": [],
+      "method": "unresolved"
+    },
+    {
+      "record_id": "jihaksa_is1_0011",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0012",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0013",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0014",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0015",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0016",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0017",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0018",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0019",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0020",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0021",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0022",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03",
+        "10통과1-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0023",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0024",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0025",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0026",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0027",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0028",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0029",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0030",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0031",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0032",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0033",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0034",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0035",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is1_0036",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0001",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0002",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0003",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0004",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0005",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0006",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0007",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0008",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0009",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0010",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0011",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0012",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0013",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0014",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0015",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0016",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0017",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0018",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0019",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0020",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0021",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0022",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0023",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02",
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0024",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0025",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0026",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0027",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0028",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0029",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0030",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0031",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0032",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0033",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0034",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0035",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0036",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0037",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0038",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0039",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0040",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0041",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0042",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0043",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "jihaksa_is2_0044",
+      "activity_quote_verification": "pdf_text",
+      "codes": [],
+      "method": "unresolved"
+    },
+    {
+      "record_id": "jihaksa_is2_0045",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_001",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_002",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_003",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_004",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_005",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_006",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_007",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_008",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_009",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_010",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_011",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_012",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_013",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03",
+        "10통과1-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_014",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_015",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_016",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_017",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_018",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_019",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_020",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_021",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_022",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_023",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_024",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_025",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_026",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_027",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_028",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_029",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_030",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_031",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_032",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_033",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS1_034",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03",
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_001",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_002",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_003",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_004",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_005",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_006",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_007",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_008",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_009",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_010",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04",
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_011",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_012",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_013",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_014",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_015",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_016",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_017",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_018",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_019",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_020",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_021",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_022",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_023",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_024",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_025",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_026",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_027",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_028",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_029",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_030",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "chunjae_IS2_031",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_001",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_002",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_003",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_004",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_005",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_006",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_007",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_008",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_009",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_010",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03",
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_011",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_012",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_013",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_014",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_015",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_016",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_017",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_018",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_019",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_020",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_021",
+      "activity_quote_verification": "image_transcription",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_022",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_023",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_024",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_025",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_026",
+      "activity_quote_verification": "image_transcription",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_027",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_028",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_029",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_030",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_031",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_032",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_033",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_034",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_035",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_036",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_037",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_038",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_039",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_040",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_041",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_042",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_043",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_044",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_045",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_046",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_047",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_048",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_049",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_050",
+      "activity_quote_verification": "image_transcription",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS1_051",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01",
+        "10통과1-03-04",
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_001",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_002",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_003",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_004",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_005",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_006",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_007",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_008",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_009",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_010",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_011",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_012",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_013",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_014",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_015",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_016",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_017",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04",
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_018",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_019",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_020",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_021",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_022",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_023",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_024",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_025",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_026",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_027",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_028",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_029",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_030",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_031",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_032",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_033",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_034",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_035",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_036",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_037",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_038",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_039",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_040",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_041",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_042",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_043",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_044",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_045",
+      "activity_quote_verification": "image_transcription",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_046",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "visang_IS2_047",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02",
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_001",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_002",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_003",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_004",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_005",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "donga_IS1_006",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_007",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_008",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_009",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_010",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_011",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_012",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_013",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_014",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_015",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_016",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_017",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_018",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_019",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_020",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_021",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_022",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_023",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_024",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_025",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_026",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_027",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_028",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_029",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_030",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_031",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_032",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_033",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_034",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_035",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS1_036",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_001",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_002",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_003",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_004",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_005",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_006",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_007",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_008",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_009",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_010",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_011",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_012",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_013",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_014",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_015",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_016",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-01-05",
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_017",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_018",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_019",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_020",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "donga_IS2_021",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "donga_IS2_022",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_023",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "donga_IS2_024",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "donga_IS2_025",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_026",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_027",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_028",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_029",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_030",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_031",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_032",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_033",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_034",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-02-03",
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_035",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "direct"
+    },
+    {
+      "record_id": "donga_IS2_036",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_037",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_038",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_039",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_040",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_041",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_042",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_043",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-03",
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_044",
+      "activity_quote_verification": "pdf_text",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment"
+    },
+    {
+      "record_id": "donga_IS2_045",
+      "activity_quote_verification": "pdf_text",
+      "codes": [],
+      "method": "unresolved"
+    }
+  ],
+  "limits": "Codes and quotations checked against textbook_wiki PDFs; semantic mappings are reviewed content alignments, not a claim of publisher-assigned official activity labels. Some are partial/supporting connections.",
+  "protected_fields": "Original activity IDs/titles/chapters/publishers/pages/supplies and title/supplies quotes remain unchanged. One continuation range extended: jihaksa_is1_0016 to pp72–73."
+}

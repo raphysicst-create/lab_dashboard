@@ -1,0 +1,346 @@
+{
+  "source_scope": "textbook_wiki/raw의 교사용 교과서 단원의 성취기준 표. 국가 고시 원본을 별도 대조한 결과는 아님.",
+  "standards": [
+    {
+      "code": "10통과1-01-01",
+      "text": "자연을 시간과 공간에서 기술할 수 있음을 알고, 길이와 시간 측정의 현대적 방법과 다양한 규모의 측정 사례를 조사할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 10,
+        "quote": "[10통과1-01-01] 자연을 시간과 공간에서 기술할 수 있음을 알고, 길이와 시간 측정의 현대적 방법과 다양한 \n규모의 측정 사례를 조사할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-01-02",
+      "text": "과학 탐구에서 중요한 기본량의 의미를 알고, 자연 현상을 기술하는 데 단위가 가지는 의미와 적용 사례를 설명할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 10,
+        "quote": "[10통과1-01-02] 과학 탐구에서 중요한 기본량의 의미를 알고, 자연 현상을 기술하는 데 단위가 가지는 의미\n와 적용 사례를 설명할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-01-03",
+      "text": "과학 탐구에서 측정과 어림의 의미를 알고, 일상생활의 여러 가지 상황에서 측정 표준의 유용성과 필요성을 논증할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 10,
+        "quote": "[10통과1-01-03] 과학 탐구에서 측정과 어림의 의미를 알고, 일상생활의 여러 가지 상황에서 측정 표준의 유\n용성과 필요성을 논증할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-01-04",
+      "text": "자연에서 일어나는 다양한 변화를 측정·분석하여 정보를 산출함을 알고, 이러한 정보를 디지털로 변환하는 기술을 정보 통신에 활용하여 현대 문명에 미친 영향을 인식한다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 10,
+        "quote": "[10통과1-01-04] 자연에서 일어나는 다양한 변화를 측정·분석하여 정보를 산출함을 알고, 이러한 정보를 디\n지털로 변환하는 기술을 정보 통신에 활용하여 현대 문명에 미친 영향을 인식한다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-02-01",
+      "text": "천체에서 방출되는 빛의 스펙트럼을 분석하여 우주 초기에 형성된 원소와 천체의 구성 물질을 추론할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 44,
+        "quote": "[10통과1-02-01] 천체에서 방출되는 빛의 스펙트럼을 분석하여 우주 초기에 형성된 원소와 천체의 구성 물\n질을 추론할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-02-02",
+      "text": "우주 초기의 원소들로부터 태양계의 재료이면서 생명체를 구성하는 원소들이 형성되는 과정을 통해 지구와 생명의 역사가 우주 역사의 일부분임을 해석할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 44,
+        "quote": "[10통과1-02-02] 우주 초기의 원소들로부터 태양계의 재료이면서 생명체를 구성하는 원소들이 형성되는 과\n정을 통해 지구와 생명의 역사가 우주 역사의 일부분임을 해석할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-02-03",
+      "text": "세상을 구성하는 원소들의 성질이 주기성을 나타내는 현상을 통해 자연의 규칙성을 도출하고, 지구와 생명체를 구성하는 주요 원소들이 결합을 형성하는 이유를 해석할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 44,
+        "quote": "[10통과1-02-03] 세상을 구성하는 원소들의 성질이 주기성을 나타내는 현상을 통해 자연의 규칙성을 도출\n하고, 지구와 생명체를 구성하는 주요 원소들이 결합을 형성하는 이유를 해석할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-02-04",
+      "text": "인류의 생존에 필수적인 물, 산소, 소금 등이 만들어지는 결합의 차이를 이해하고 각 물질의 성질과 관련지어 설명할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 44,
+        "quote": "[10통과1-02-04] 인류의 생존에 필수적인 물, 산소, 소금 등이 만들어지는 결합의 차이를 이해하고 각 물질\n의 성질과 관련지어 설명할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-02-05",
+      "text": "지각과 생명체를 구성하는 물질들이 기본 단위체의 결합을 통해서 형성된다는 것을 규산염 광물, 단백질과 핵산의 예를 통해 설명할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 44,
+        "quote": "[10통과1-02-05] 지각과 생명체를 구성하는 물질들이 기본 단위체의 결합을 통해서 형성된다는 것을 규산\n염 광물, 단백질과 핵산의 예를 통해 설명할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-02-06",
+      "text": "지구를 구성하는 물질을 전기적 성질에 따라 구분할 수 있고, 물질의 전기적 성질을 응용하여 일상생활과 첨단 기술에서 다양한 소재로 활용됨을 인식한다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 44,
+        "quote": "[10통과1-02-06] 지구를 구성하는 물질을 전기적 성질에 따라 구분할 수 있고, 물질의 전기적 성질을 응용하\n여 일상생활과 첨단 기술에서 다양한 소재로 활용됨을 인식한다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-03-01",
+      "text": "지구시스템은 태양계라는 시스템의 구성 요소임을 알고, 지구시스템을 구성하는 권역들 간의 물질 순환과 에너지 흐름의 결과로 나타나는 현상을 논증할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 100,
+        "quote": "[10통과1-03-01] 지구시스템은 태양계라는 시스템의 구성 요소임을 알고, 지구시스템을 구성하는 권역들 간\n의 물질 순환과 에너지 흐름의 결과로 나타나는 현상을 논증할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-03-02",
+      "text": "지권의 변화를 판 구조론 관점에서 해석하고, 에너지 흐름의 결과로 발생하는 지권의 변화가 지구시스템에 미치는 영향을 추론할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 100,
+        "quote": "[10통과1-03-02] 지권의 변화를 판 구조론 관점에서 해석하고, 에너지 흐름의 결과로 발생하는 지권의 변화\n가 지구시스템에 미치는 영향을 추론할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-03-03",
+      "text": "중력의 작용으로 인한 지구 표면과 지구 주위의 다양한 운동을 설명할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 100,
+        "quote": "[10통과1-03-03] 중력의 작용으로 인한 지구 표면과 지구 주위의 다양한 운동을 설명할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-03-04",
+      "text": "상호작용이 없을 때 물체가 가속되지 않음을 알고, 충격량과 운동량의 관계를 충돌 관련 안전장치와 스포츠에 적용할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 100,
+        "quote": "[10통과1-03-04] 상호작용이 없을 때 물체가 가속되지 않음을 알고, 충격량과 운동량의 관계를 충돌 관련 안\n전장치와 스포츠에 적용할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-03-05",
+      "text": "생명 시스템을 유지하기 위해서 다양한 화학 반응과 물질 출입이 필요함을 이해하고, 일상생활에서 활용되는 화학 반응 사례를 조사하여 발표할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 100,
+        "quote": "[10통과1-03-05] 생명 시스템을 유지하기 위해서 다양한 화학 반응과 물질 출입이 필요함을 이해하고, 일상\n생활에서 활용되는 화학 반응 사례를 조사하여 발표할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과1-03-06",
+      "text": "생명 시스템의 유지에 필요한 세포 내 정보의 흐름을 유전자로부터 단백질이 만들어지는 과정을 중심으로 설명할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS1",
+        "pdf_page": 100,
+        "quote": "[10통과1-03-06] 생명 시스템의 유지에 필요한 세포 내 정보의 흐름을 유전자로부터 단백질이 만들어지는 \n과정을 중심으로 설명할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+        "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+      }
+    },
+    {
+      "code": "10통과2-01-01",
+      "text": "지질 시대를 통해 지구 환경이 끊임없이 변화해 왔으며 이러한 환경 변화가 생물다양성에 미치는 영향을 추론할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 10,
+        "quote": "[10통과2-01-01] 지질 시대를 통해 지구 환경이 끊임없이 변화해 왔으며 이러한 환경 변화가 생물다양성에 \n미치는 영향을 추론할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-01-02",
+      "text": "변이의 발생과 자연선택 과정을 통해 생물의 진화가 일어나고, 진화의 과정을 통해 생물다양성이 형성되었음을 추론할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 10,
+        "quote": "[10통과2-01-02] 변이의 발생과 자연선택 과정을 통해 생물의 진화가 일어나고, 진화의 과정을 통해 생물다\n양성이 형성되었음을 추론할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-01-03",
+      "text": "자연과 인류의 큰 변화를 가져온 광합성, 화석 연료 사용, 철의 제련 등에서 공통점을 찾아 산화와 환원을 이해하고, 생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성으로 분석할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 10,
+        "quote": "[10통과2-01-03] 자연과 인류의 큰 변화를 가져온 광합성, 화석 연료 사용, 철의 제련 등에서 공통점을 찾아 \n산화와 환원을 이해하고, 생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성으로 분석할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-01-04",
+      "text": "대표적인 산·염기 물질의 특징을 알고, 산과 염기를 혼합할 때 나타나는 중화 반응을 생활 속에서 이용할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 10,
+        "quote": "[10통과2-01-04] 대표적인 산·염기 물질의 특징을 알고, 산과 염기를 혼합할 때 나타나는 중화 반응을 생활 \n속에서 이용할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-01-05",
+      "text": "생활 주변에서 에너지를 흡수하거나 방출하는 현상을 찾아 에너지의 흡수 방출이 우리 생활에 어떻게 이용되는지 토의할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 10,
+        "quote": "[10통과2-01-05] 생활 주변에서 에너지를 흡수하거나 방출하는 현상을 찾아 에너지의 흡수 방출이 우리 생\n활에 어떻게 이용되는지 토의할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-02-01",
+      "text": "생태계구성요소를 이해하고 생물과 환경 사이의 상호 관계를 설명할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 68,
+        "quote": "[10통과2-02-01] 생태계구성요소를 이해하고 생물과 환경 사이의 상호 관계를 설명할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-02-02",
+      "text": "먹이 관계와 생태피라미드를 중심으로 생태계평형이 유지되는 과정을 이해하고, 환경의 변화가 생태계에 미칠 수 있는 영향에 대해 협력적으로 소통할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 68,
+        "quote": "[10통과2-02-02] 먹이 관계와 생태피라미드를 중심으로 생태계평형이 유지되는 과정을 이해하고, 환경의 \n변화가 생태계에 미칠 수 있는 영향에 대해 협력적으로 소통할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-02-03",
+      "text": "온실 효과 강화로 인한 지구 온난화의 메커니즘을 이해하고, 엘니뇨, 사막화 등과 같은 현상이 지구 환경과 인간 생활에 미치는 영향과 대처 방안을 분석할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 68,
+        "quote": "[10통과2-02-03] 온실 효과 강화로 인한 지구 온난화의 메커니즘을 이해하고, 엘니뇨, 사막화 등과 같은 현\n상이 지구 환경과 인간 생활에 미치는 영향과 대처 방안을 분석할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-02-04",
+      "text": "태양에서 수소 핵융합 반응을 통해 질량 일부가 에너지로 바뀌고, 그중 일부가 지구에서 에너지 흐름을 일으키며 다양한 에너지로 전환되는 과정을 추론할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 68,
+        "quote": "[10통과2-02-04] 태양에서 수소 핵융합 반응을 통해 질량 일부가 에너지로 바뀌고, 그중 일부가 지구에서 \n에너지 흐름을 일으키며 다양한 에너지로 전환되는 과정을 추론할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-02-05",
+      "text": "발전기에서 운동 에너지가 전기 에너지로 전환되는 과정을 이해하고, 열원으로서 화석 연료, 핵에너지를 이용하는 발전소가 인간 생활에 미치는 영향을 조사·발표할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 68,
+        "quote": "[10통과2-02-05] 발전기에서 운동 에너지가 전기 에너지로 전환되는 과정을 이해하고, 열원으로서 화석 연\n료, 핵에너지를 이용하는 발전소가 인간 생활에 미치는 영향을 조사·발표할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-02-06",
+      "text": "에너지 효율의 의미와 중요성을 이해하고, 지속가능한 발전과 지구 환경 문제 해결에 신재생 에너지 기술을 활용하는 방안을 탐색할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 68,
+        "quote": "[10통과2-02-06] 에너지 효율의 의미와 중요성을 이해하고, 지속가능한 발전과 지구 환경 문제 해결에 신재\n생 에너지 기술을 활용하는 방안을 탐색할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-03-01",
+      "text": "감염병의 진단, 추적 등을 사례로 과학의 유용성을 설명하고, 미래 사회 문제 해결에서 과학의 필요성에 대해 논증할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 126,
+        "quote": "[10통과2-03-01] 감염병의 진단, 추적 등을 사례로 과학의 유용성을 설명하고, 미래 사회 문제 해결에서 과\n학의 필요성에 대해 논증할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-03-02",
+      "text": "빅데이터를 과학·기술·사회에서 사용하고 있는 사례를 조사하고, 빅데이터 활용의 장점과 문제점을 추론할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 126,
+        "quote": "[10통과2-03-02] 빅데이터를 과학·기술·사회에서 사용하고 있는 사례를 조사하고, 빅데이터 활용의 장점과 \n문제점을 추론할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-03-03",
+      "text": "인공지능 로봇, 사물 인터넷 등과 같이 과학기술의 발전을 인간 삶과 환경 개선에 활용하는 사례를 찾고, 이러한 과학기술의 발전이 미래 사회에 미치는 유용성과 한계를 예측할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 126,
+        "quote": "[10통과2-03-03] 인공지능 로봇, 사물 인터넷 등과 같이 과학기술의 발전을 인간 삶과 환경 개선에 활용하는 \n사례를 찾고, 이러한 과학기술의 발전이 미래 사회에 미치는 유용성과 한계를 예측할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    },
+    {
+      "code": "10통과2-03-04",
+      "text": "과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에서 과학 윤리의 중요성에 대해 논증할 수 있다.",
+      "source": {
+        "book_id": "miraen_IS2",
+        "pdf_page": 126,
+        "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에\n서 과학 윤리의 중요성에 대해 논증할 수 있다.",
+        "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+        "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+      }
+    }
+  ]
+}

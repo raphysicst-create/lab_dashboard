@@ -50,6 +50,23 @@
     ]
   },
   {
+    "id": "MAT-38ba1a4eb2ebd7e1",
+    "name": "마그네슘 리본",
+    "chemical_id": "CHEM-38ba1a4eb2ebd7e1",
+    "activity_ids": [
+      "visang_IS2_011"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "visang_IS2_011",
+        "source_row": null,
+        "raw_text": "묽은 염산, 레몬즙, 식초, 수산화 나\n트륨 수용액, 제빵 소다 수용액, 하\n수구 세정제, BTB 용액, 증류수,\n스포이트, 전기 전도성 측정기, 푸\n른색 리트머스 종이, 붉은색 리트머\n스 종이, 마그네슘 리본, 24 홈판,\n핀셋, 보안경, 실험용 장갑, 실험복",
+        "matched_text": "마그네슘 리본",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
     "id": "MAT-ccb78a968c6e3718",
     "name": "붕산",
     "chemical_id": "CHEM-ccb78a968c6e3718",
@@ -75,12 +92,82 @@
     ]
   },
   {
+    "id": "MAT-31ebefafa3cbd4a6",
+    "name": "산화 구리(II)",
+    "chemical_id": "CHEM-31ebefafa3cbd4a6",
+    "activity_ids": [
+      "donga_IS2_008"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "donga_IS2_008",
+        "source_row": null,
+        "raw_text": "산화 구리(Ⅱ), 탄소 가루, 석회수, 시험\n관, 비커, 유리관, 고무관, 구멍 뚫린 고\n무마개, 스탠드, 집게, 가열 장치, 전자\n저울, 약숟가락, 시약포지, 실험복, 실\n험용 장갑, 보안경",
+        "matched_text": "산화 구리(Ⅱ)",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-f9fd5879e0df785f",
+    "name": "산화 칼슘",
+    "chemical_id": "CHEM-f9fd5879e0df785f",
+    "activity_ids": [
+      "chunjae_IS2_011",
+      "visang_IS2_016",
+      "donga_IS2_014"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "chunjae_IS2_011",
+        "source_row": null,
+        "raw_text": "물, 산화 칼슘, 비커,\n페트리 접시, 약숟가락, 유리\n막대, 온도계, 음식 조리 도구,\n조리에 사용할 음식, 마스크,\n보안경, 실험용 장갑, 보호 장갑,\n실험복",
+        "matched_text": "산화 칼슘",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "visang_IS2_016",
+        "source_row": null,
+        "raw_text": "물, 산화 칼슘, 온도계, 모둠별 준비\n물, 보안경, 실험용 장갑, 면장갑, 실\n험복",
+        "matched_text": "산화 칼슘",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "donga_IS2_014",
+        "source_row": null,
+        "raw_text": "스마트 기기, 물, 산화 칼슘, 조리할\n음식, 실험복, 면장갑, 실험용 장갑, 보\n안경",
+        "matched_text": "산화 칼슘",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-9b931d55037f91d4",
+    "name": "석회수",
+    "chemical_id": "CHEM-9b931d55037f91d4",
+    "activity_ids": [
+      "donga_IS2_008"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "donga_IS2_008",
+        "source_row": null,
+        "raw_text": "산화 구리(Ⅱ), 탄소 가루, 석회수, 시험\n관, 비커, 유리관, 고무관, 구멍 뚫린 고\n무마개, 스탠드, 집게, 가열 장치, 전자\n저울, 약숟가락, 시약포지, 실험복, 실\n험용 장갑, 보안경",
+        "matched_text": "석회수",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
     "id": "MAT-7921a3bb40fa91bb",
     "name": "설탕",
     "chemical_id": "CHEM-7921a3bb40fa91bb",
     "activity_ids": [
       "activity_0039",
-      "ybm_k9_0003"
+      "ybm_k9_0003",
+      "chunjae_IS1_014",
+      "visang_IS1_023",
+      "donga_IS1_014"
     ],
     "source_mentions": [
       {
@@ -94,6 +181,27 @@
         "activity_id": "ybm_k9_0003",
         "source_row": null,
         "raw_text": "전자저울, 전자레인지, 종이컵, 물, 설탕, 제빵 소다, 약숟가락(또는 계량 숟가락), 시약포지, 나무 막대, 유산지, 안전 장갑",
+        "matched_text": "설탕",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "chunjae_IS1_014",
+        "source_row": null,
+        "raw_text": "설탕, 염화 나트륨, 포\n도당, 염화 칼슘, 증류수, 6홈판,\n비커, 유리 막대, 약숟가락, 스\n포이트, 간이 전기 전도계, 휴지,\n보안경, 실험용 장갑, 실험복",
+        "matched_text": "설탕",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "visang_IS1_023",
+        "source_row": null,
+        "raw_text": "증류수, 염화 나트륨, 염화 칼슘, 설\n탕, 포도당, 유리 막대, 스포이트, 전\n기 전도성 측정기, 6 홈판, 약숟가락,\n보안경, 실험용 장갑, 실험복",
+        "matched_text": "설\n탕",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "donga_IS1_014",
+        "source_row": null,
+        "raw_text": "6 홈판, 증류수, 염화 나트륨, 설탕, 전\n기 전도성 측정기, 유리 막대, 약숟가\n락, 실험복, 실험용 장갑, 보안경",
         "matched_text": "설탕",
         "match_method": "whole_item_source_name"
       }
@@ -293,7 +401,10 @@
     "activity_ids": [
       "activity_0010",
       "activity_0039",
-      "activity_0133"
+      "activity_0133",
+      "chunjae_IS1_014",
+      "visang_IS1_023",
+      "donga_IS1_014"
     ],
     "source_mentions": [
       {
@@ -315,6 +426,52 @@
         "source_row": 134,
         "raw_text": "질산 칼륨, 염화 나트륨, 물, 얼음, 500mL 비커, 50mL 비커, 가열 장치, 거름 장치, 유리 막대, 스포이트, 시약포지, 실험복, 보안경, 실험용 장갑, 면장갑, 내열 장갑",
         "matched_text": "염화 나트륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "chunjae_IS1_014",
+        "source_row": null,
+        "raw_text": "설탕, 염화 나트륨, 포\n도당, 염화 칼슘, 증류수, 6홈판,\n비커, 유리 막대, 약숟가락, 스\n포이트, 간이 전기 전도계, 휴지,\n보안경, 실험용 장갑, 실험복",
+        "matched_text": "염화 나트륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "visang_IS1_023",
+        "source_row": null,
+        "raw_text": "증류수, 염화 나트륨, 염화 칼슘, 설\n탕, 포도당, 유리 막대, 스포이트, 전\n기 전도성 측정기, 6 홈판, 약숟가락,\n보안경, 실험용 장갑, 실험복",
+        "matched_text": "염화 나트륨",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "donga_IS1_014",
+        "source_row": null,
+        "raw_text": "6 홈판, 증류수, 염화 나트륨, 설탕, 전\n기 전도성 측정기, 유리 막대, 약숟가\n락, 실험복, 실험용 장갑, 보안경",
+        "matched_text": "염화 나트륨",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-cdbeaa3c7764a63a",
+    "name": "염화 칼슘",
+    "chemical_id": "CHEM-cdbeaa3c7764a63a",
+    "activity_ids": [
+      "chunjae_IS1_014",
+      "visang_IS1_023"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "chunjae_IS1_014",
+        "source_row": null,
+        "raw_text": "설탕, 염화 나트륨, 포\n도당, 염화 칼슘, 증류수, 6홈판,\n비커, 유리 막대, 약숟가락, 스\n포이트, 간이 전기 전도계, 휴지,\n보안경, 실험용 장갑, 실험복",
+        "matched_text": "염화 칼슘",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "visang_IS1_023",
+        "source_row": null,
+        "raw_text": "증류수, 염화 나트륨, 염화 칼슘, 설\n탕, 포도당, 유리 막대, 스포이트, 전\n기 전도성 측정기, 6 홈판, 약숟가락,\n보안경, 실험용 장갑, 실험복",
+        "matched_text": "염화 칼슘",
         "match_method": "whole_item_source_name"
       }
     ]
@@ -527,6 +684,23 @@
     ]
   },
   {
+    "id": "MAT-fe7c9961c118f5bb",
+    "name": "탄산 칼슘",
+    "chemical_id": "CHEM-fe7c9961c118f5bb",
+    "activity_ids": [
+      "chunjae_IS2_008"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "chunjae_IS2_008",
+        "source_row": null,
+        "raw_text": "묽은 염산, 아세트산\n수용액, 수산화 나트륨 수용액,\n수산화 칼륨 수용액, 탄산 칼\n슘, 마그네슘 조각, 두부, 12홈\n판, 실험판(부록 173쪽), 간이\n전기 전도계, 휴지, 스포이트,\n핀셋, 약숟가락, 보안경, 실험용\n장갑, 실험복",
+        "matched_text": "탄산 칼\n슘",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
     "id": "MAT-615009c04bbf8525",
     "name": "탄산수소 나트륨",
     "chemical_id": "CHEM-615009c04bbf8525",
@@ -547,6 +721,48 @@
         "source_row": null,
         "raw_text": "탄산수소 나트륨, 식초, 빈 플라스틱병, 빈 비커 세 개, 눈금실린더(25 mL) 세 개, 스포이트 세 개, 유리 바이알(20 mL), 뚜껑 있는 플라스틱병, 전자저울, 약숟가락, 시약포지, 핀셋, 5 % 염화 나트륨 수용액, 5 % 질산 은 수용액, 유리 바이알(30 mL) 두 개, 보안경, 마스크, 실험용 장갑, 실험복",
         "matched_text": "탄산수소 나트륨",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-dd49f835c02c1ab4",
+    "name": "페놀프탈레인 용액",
+    "chemical_id": "CHEM-dd49f835c02c1ab4",
+    "activity_ids": [
+      "donga_IS2_011"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "donga_IS2_011",
+        "source_row": null,
+        "raw_text": "같은 농도의 염산과 수산화 나트륨 수\n용액, 페놀프탈레인 용액, 자석 젓개 막\n대, 비커, 스탠드, 집게, 뷰렛 집게, 뷰\n렛, 깔때기, 교반기, 무선 온도 센서, 스\n마트 기기, 실험복, 실험용 장갑, 보안경",
+        "matched_text": "페놀프탈레인 용액",
+        "match_method": "whole_item_source_name"
+      }
+    ]
+  },
+  {
+    "id": "MAT-ae0d8878a1203828",
+    "name": "포도당",
+    "chemical_id": "CHEM-ae0d8878a1203828",
+    "activity_ids": [
+      "chunjae_IS1_014",
+      "visang_IS1_023"
+    ],
+    "source_mentions": [
+      {
+        "activity_id": "chunjae_IS1_014",
+        "source_row": null,
+        "raw_text": "설탕, 염화 나트륨, 포\n도당, 염화 칼슘, 증류수, 6홈판,\n비커, 유리 막대, 약숟가락, 스\n포이트, 간이 전기 전도계, 휴지,\n보안경, 실험용 장갑, 실험복",
+        "matched_text": "포\n도당",
+        "match_method": "whole_item_source_name"
+      },
+      {
+        "activity_id": "visang_IS1_023",
+        "source_row": null,
+        "raw_text": "증류수, 염화 나트륨, 염화 칼슘, 설\n탕, 포도당, 유리 막대, 스포이트, 전\n기 전도성 측정기, 6 홈판, 약숟가락,\n보안경, 실험용 장갑, 실험복",
+        "matched_text": "포도당",
         "match_method": "whole_item_source_name"
       }
     ]

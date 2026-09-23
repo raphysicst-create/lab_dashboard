@@ -8,12 +8,12 @@
   },
   "counts": {
     "chemicals": 177,
-    "materials_with_source_name_links": 18,
-    "activities": 862,
-    "activities_with_links": 45,
-    "links": 61,
-    "unmatched_preparation_items": 3652,
-    "unmatched_items_with_name_text_overlap": 77,
+    "materials_with_source_name_links": 26,
+    "activities": 1277,
+    "activities_with_links": 55,
+    "links": 79,
+    "unmatched_preparation_items": 4316,
+    "unmatched_items_with_name_text_overlap": 111,
     "covered_source_rows": 60,
     "excluded_assertions": 2,
     "shared_management_guidelines": 6
@@ -18929,6 +18929,3326 @@
       "activity_id": "ybm_k9_0088",
       "source_row": null,
       "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "miraen_IS1_001",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "miraen_IS1_002",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS1_005",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "miraen_IS1_006",
+      "source_row": null,
+      "item_raw": "스마트 기기\n측정 표준 관련 참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS1_007",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "miraen_IS1_008",
+      "source_row": null,
+      "item_raw": "전자저울"
+    },
+    {
+      "activity_id": "miraen_IS1_010",
+      "source_row": null,
+      "item_raw": "간이 분광기\n백열등\n기체 방전관(수소, 헬륨)\n스마트 기기\n실험복\n내열 장갑"
+    },
+    {
+      "activity_id": "miraen_IS1_011",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS1_012",
+      "source_row": null,
+      "item_raw": "스마트 기기\n주기율표 관련 참고 도서\n\n모둠별로 다음 준비물을 이용해 알칼리 금속의 유사한 성질을 탐구하는 실험을\n설계해 보자.\n수조\n알칼리 금속\n칼\n면장갑\n실험복\n페트리접시\n핀셋\n보안경\n페놀프탈레인 용액\n물\n실험용 고무장갑"
+    },
+    {
+      "activity_id": "miraen_IS1_013",
+      "source_row": null,
+      "item_raw": "투명 전자 껍질(부록 175 쪽)\n유성펜\n파란색 붙임딱지(부록 177 쪽)"
+    },
+    {
+      "activity_id": "miraen_IS1_015",
+      "source_row": null,
+      "item_raw": "64 쪽에서 만든 수소"
+    },
+    {
+      "activity_id": "miraen_IS1_015",
+      "source_row": null,
+      "item_raw": "탄소"
+    },
+    {
+      "activity_id": "miraen_IS1_015",
+      "source_row": null,
+      "item_raw": "질소"
+    },
+    {
+      "activity_id": "miraen_IS1_015",
+      "source_row": null,
+      "item_raw": "플루오린의 원자 모형\n스마트 기기"
+    },
+    {
+      "activity_id": "miraen_IS1_016",
+      "source_row": null,
+      "item_raw": "증류수\n설탕\n황산 구리(Ⅱ)\n염화 나트륨\n6 홈판\n간이 전기 전도성 측정기\n비커\n유리 막대\n스포이트\n약숟가락\n실험복\n보안경\n실험용 고무장갑"
+    },
+    {
+      "activity_id": "miraen_IS1_018",
+      "source_row": null,
+      "item_raw": "산소 원자 모형\n규소 원자 모형\n연결 막대"
+    },
+    {
+      "activity_id": "miraen_IS1_020",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서\n그림 도구"
+    },
+    {
+      "activity_id": "miraen_IS1_021",
+      "source_row": null,
+      "item_raw": "뉴클레오타이드 모형\n(부록 179 쪽)\n투명 테이프"
+    },
+    {
+      "activity_id": "miraen_IS1_022",
+      "source_row": null,
+      "item_raw": "여러 가지 물체(클립, 연필심,\n지우개, 나무 막대, 발광 다이\n오드)\n디지털 전류계\n전지(1.5 V)\n전지 끼우개\n집게 달린 전선\n스위치\n면장갑"
+    },
+    {
+      "activity_id": "miraen_IS1_023",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS1_027",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "miraen_IS1_028",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS1_029",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS1_030",
+      "source_row": null,
+      "item_raw": "투명 용기"
+    },
+    {
+      "activity_id": "miraen_IS1_030",
+      "source_row": null,
+      "item_raw": "덮개"
+    },
+    {
+      "activity_id": "miraen_IS1_030",
+      "source_row": null,
+      "item_raw": "자갈"
+    },
+    {
+      "activity_id": "miraen_IS1_030",
+      "source_row": null,
+      "item_raw": "모래"
+    },
+    {
+      "activity_id": "miraen_IS1_030",
+      "source_row": null,
+      "item_raw": "흙"
+    },
+    {
+      "activity_id": "miraen_IS1_030",
+      "source_row": null,
+      "item_raw": "핀셋"
+    },
+    {
+      "activity_id": "miraen_IS1_030",
+      "source_row": null,
+      "item_raw": "물"
+    },
+    {
+      "activity_id": "miraen_IS1_030",
+      "source_row": null,
+      "item_raw": "분무기"
+    },
+    {
+      "activity_id": "miraen_IS1_030",
+      "source_row": null,
+      "item_raw": "식물(다육식물, 이끼)"
+    },
+    {
+      "activity_id": "miraen_IS1_031",
+      "source_row": null,
+      "item_raw": "스마트 기기\n자"
+    },
+    {
+      "activity_id": "miraen_IS1_032",
+      "source_row": null,
+      "item_raw": "동시 낙하 장치\n작은 공 2 개\n눈금판(또는 모눈종이)\n스마트 기기\n삼각대\n실험복\n면장갑"
+    },
+    {
+      "activity_id": "miraen_IS1_033",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "miraen_IS1_034",
+      "source_row": null,
+      "item_raw": "스마트 기기\n가상 현실 카드보드"
+    },
+    {
+      "activity_id": "miraen_IS1_035",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서\n그림 도구"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "생감자"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "강판"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "거즈"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "6 홈판"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "스포이트"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "3 % 과산화 수소수"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "3 % 에탄올"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "증류수"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "유성펜"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "실험용 고무장갑"
+    },
+    {
+      "activity_id": "miraen_IS1_038",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "miraen_IS1_039",
+      "source_row": null,
+      "item_raw": "적양파\n면도칼\n핀셋\n증류수\n10 % 소금물\n페트리접시\n받침 유리\n덮개 유리\n현미경\n현미경용 스마트 기기 거치대\n스마트 기기\n실험복\n보안경\n실험용 고무장갑"
+    },
+    {
+      "activity_id": "miraen_IS1_042",
+      "source_row": null,
+      "item_raw": "주사위"
+    },
+    {
+      "activity_id": "miraen_IS2_001",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_002",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_004",
+      "source_row": null,
+      "item_raw": "노란색 도화지\n4 가지 색 초콜릿(빨간색, 노란\n색, 초록색, 파란색)\n실험용 고무장갑"
+    },
+    {
+      "activity_id": "miraen_IS2_005",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_007",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "miraen_IS2_008",
+      "source_row": null,
+      "item_raw": "구리 테이프"
+    },
+    {
+      "activity_id": "miraen_IS2_008",
+      "source_row": null,
+      "item_raw": "질산 은 수용액"
+    },
+    {
+      "activity_id": "miraen_IS2_008",
+      "source_row": null,
+      "item_raw": "페트리접시"
+    },
+    {
+      "activity_id": "miraen_IS2_008",
+      "source_row": null,
+      "item_raw": "비커"
+    },
+    {
+      "activity_id": "miraen_IS2_008",
+      "source_row": null,
+      "item_raw": "스포이트"
+    },
+    {
+      "activity_id": "miraen_IS2_008",
+      "source_row": null,
+      "item_raw": "가위"
+    },
+    {
+      "activity_id": "miraen_IS2_008",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "miraen_IS2_008",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "miraen_IS2_008",
+      "source_row": null,
+      "item_raw": "실험용 고무장갑"
+    },
+    {
+      "activity_id": "miraen_IS2_009",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_010",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "miraen_IS2_010",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_011",
+      "source_row": null,
+      "item_raw": "농도가 같은 염산과 수산화\n나트륨 수용액\nBTB 용액\n6 홈판\n디지털 온도계\n비커\n피펫\n피펫 필러\n유리 막대\n실험복\n보안경\n실험용 고무장갑"
+    },
+    {
+      "activity_id": "miraen_IS2_013",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_014",
+      "source_row": null,
+      "item_raw": "물\n산화 칼슘 10 g이 들어 있는\n부직포 주머니\n반응 용기\n조리 용기\n온도 센서\n스마트 기기\n비커\n스탠드\n집게\n클램프\n실험복\n보안경\n면장갑\n실험용 고무장갑"
+    },
+    {
+      "activity_id": "miraen_IS2_020",
+      "source_row": null,
+      "item_raw": "초록색 클립 50 개\n투명 플라스틱 컵 뚜껑 10 개\n생태계 판(부록 175 쪽)\n개체군 변동 규칙 및 기록 양식\n(부록 177 쪽)"
+    },
+    {
+      "activity_id": "miraen_IS2_023",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_024",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "miraen_IS2_025",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_028",
+      "source_row": null,
+      "item_raw": "코일\n막대자석\n검류계\n집게 달린 전선 2 개\n실험복\n면장갑"
+    },
+    {
+      "activity_id": "miraen_IS2_029",
+      "source_row": null,
+      "item_raw": "코일\n철판\n네오디뮴 자석\n발광 다이오드 기판\n날개\n회전축\n헤드\n기둥\n받침대\n전선\n선풍기\n면장갑"
+    },
+    {
+      "activity_id": "miraen_IS2_030",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "miraen_IS2_032",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서\n그림 도구"
+    },
+    {
+      "activity_id": "miraen_IS2_033",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서\n그림 도구"
+    },
+    {
+      "activity_id": "miraen_IS2_036",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_037",
+      "source_row": null,
+      "item_raw": "포획 항체\n감염병 음성 표준 시료\n감염병 양성 표준 시료\n사람 1의 시료\n사람 2의 시료\n검출 시약\n진단 반응물\n4 홈판\n스포이트\n유성펜\n초시계\n실험복\n보안경\n실험용 고무장갑"
+    },
+    {
+      "activity_id": "miraen_IS2_038",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_039",
+      "source_row": null,
+      "item_raw": "스마트 기기\n마이크로프로세서를 탑재한\n피지컬 컴퓨팅 기기\nUSB 연결선"
+    },
+    {
+      "activity_id": "miraen_IS2_041",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서\n그림 도구"
+    },
+    {
+      "activity_id": "miraen_IS2_042",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_043",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "miraen_IS2_044",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 도서"
+    },
+    {
+      "activity_id": "jihaksa_is1_0001",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0002",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0003",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0005",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0006",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0007",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0008",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "jihaksa_is1_0009",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0011",
+      "source_row": null,
+      "item_raw": "백열등\n수소 방전관\n분광기\n흰 종이\n색연필"
+    },
+    {
+      "activity_id": "jihaksa_is1_0013",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0015",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0017",
+      "source_row": null,
+      "item_raw": "소금\n설탕\n황산 구리(II)\n포도당\n증류수 120 mL\n50 mL 비커 8개\n약숟가락\n간이 전기 전도계\n실험복\n보안경\n실험용 장갑"
+    },
+    {
+      "activity_id": "jihaksa_is1_0018",
+      "source_row": null,
+      "item_raw": "단위체 모형(부록 167쪽)"
+    },
+    {
+      "activity_id": "jihaksa_is1_0019",
+      "source_row": null,
+      "item_raw": "스타이로폼 공 2종\n이쑤시개"
+    },
+    {
+      "activity_id": "jihaksa_is1_0020",
+      "source_row": null,
+      "item_raw": "DNA 모형(부록 169쪽)\n가위\n풀"
+    },
+    {
+      "activity_id": "jihaksa_is1_0022",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0025",
+      "source_row": null,
+      "item_raw": "스마트 기기\n세계 지도(부록 171쪽)"
+    },
+    {
+      "activity_id": "jihaksa_is1_0026",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0027",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0028",
+      "source_row": null,
+      "item_raw": "동시 낙하 실험 장치\n쇠구슬 2개(지름 약 1.5 cm)\n스마트 기기\n우드락\n검은색 배경의 모눈종이(간격 2 cm)"
+    },
+    {
+      "activity_id": "jihaksa_is1_0029",
+      "source_row": null,
+      "item_raw": "스마트 기기\n푹신한 방석"
+    },
+    {
+      "activity_id": "jihaksa_is1_0030",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is1_0031",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "jihaksa_is1_0032",
+      "source_row": null,
+      "item_raw": "달걀 노른자 3개\n증류수\n10 % 설탕 수용액\n20 % 설탕 수용액\n페트리 접시 6개\n버니어 캘리퍼스\n당도계\n실험복\n실험용 장갑"
+    },
+    {
+      "activity_id": "jihaksa_is1_0033",
+      "source_row": null,
+      "item_raw": "3.5 % 과산화 수소수\n한천 조각 10개\n감자 조각 10개\n시험관 2개\n시험관대\n스포이트\n핀셋\n실험복\n실험용 장갑"
+    },
+    {
+      "activity_id": "jihaksa_is1_0034",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "jihaksa_is2_0002",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0004",
+      "source_row": null,
+      "item_raw": "노란색과 검은색 구슬\n노란색과 검은색 도화지\n핀셋과 굵은 집게\n스톱워치"
+    },
+    {
+      "activity_id": "jihaksa_is2_0005",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0006",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0008",
+      "source_row": null,
+      "item_raw": "알루미늄(Al) 판\n염화 구리(II)(CuCl₂) 수용액\n접착용 필름\n페트리 접시\n가위\n실험복\n보안경\n실험용 장갑"
+    },
+    {
+      "activity_id": "jihaksa_is2_0009",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "jihaksa_is2_0010",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0011",
+      "source_row": null,
+      "item_raw": "묽은 염산\n수산화 나트륨(NaOH) 수용액\nBTB 용액\n15 mL 눈금 시험관 7개\n시험관대\n디지털 온도계\n스포이트\n실험복\n보안경\n실험용 장갑"
+    },
+    {
+      "activity_id": "jihaksa_is2_0012",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0014",
+      "source_row": null,
+      "item_raw": "산화 칼슘 발열 팩 50 g\n물\n메추리알\n모둠별로 결정한 재료\n스마트 기기\n실험복\n보안경\n면장갑"
+    },
+    {
+      "activity_id": "jihaksa_is2_0015",
+      "source_row": null,
+      "item_raw": "구리 테이프\n질산 은 수용액\n검은색 도화지\n50 mL 비커 1개\n면봉\n가위\n필기구\n실험복\n실험용 장갑\n보안경"
+    },
+    {
+      "activity_id": "jihaksa_is2_0017",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "jihaksa_is2_0019",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "jihaksa_is2_0020",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "jihaksa_is2_0021",
+      "source_row": null,
+      "item_raw": "500 mL 플라스틱 페트병 2개\n이산화 탄소 발포정\n디지털 온도계 2개\n고무찰흙\n적외선 조명 2개"
+    },
+    {
+      "activity_id": "jihaksa_is2_0023",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0024",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "jihaksa_is2_0026",
+      "source_row": null,
+      "item_raw": "코일\n막대자석 2개\n검류계\n면장갑\n집게 달린 전선 2개"
+    },
+    {
+      "activity_id": "jihaksa_is2_0027",
+      "source_row": null,
+      "item_raw": "에나멜선(지름 0.2 mm)\n원통형 네오디뮴 자석\n4개(지름 15 mm,\n높이 5 mm)\n나무 막대\n빨간색 발광 다이오드\n페트병 (지름 3 cm)\n빨대\n집게 달린 전선 2개\n글루건\n칼이나 사포\n면장갑"
+    },
+    {
+      "activity_id": "jihaksa_is2_0028",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0029",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0030",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0033",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0034",
+      "source_row": null,
+      "item_raw": "감염병 진단 모의실험 키트\n마이크로 피펫\n마이크로 피펫 팁\n네임펜\n번호를 쓴 종이\n실험복\n실험용 장갑"
+    },
+    {
+      "activity_id": "jihaksa_is2_0036",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0037",
+      "source_row": null,
+      "item_raw": "이산화 탄소 측정 센서\n분석용 스마트 기기"
+    },
+    {
+      "activity_id": "jihaksa_is2_0038",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "jihaksa_is2_0039",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0041",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "jihaksa_is2_0042",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "jihaksa_is2_0043",
+      "source_row": null,
+      "item_raw": "스마트 기기\n참고 자료"
+    },
+    {
+      "activity_id": "chunjae_IS1_002",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS1_004",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS1_005",
+      "source_row": null,
+      "item_raw": "길이 측정 앱이 설치\n된 스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS1_005",
+      "source_row": null,
+      "item_raw": "전자저울"
+    },
+    {
+      "activity_id": "chunjae_IS1_005",
+      "source_row": null,
+      "item_raw": "디\n지털 온도계"
+    },
+    {
+      "activity_id": "chunjae_IS1_005",
+      "source_row": null,
+      "item_raw": "적외선 온도계"
+    },
+    {
+      "activity_id": "chunjae_IS1_007",
+      "source_row": null,
+      "item_raw": "기체 방전관 (수소, 헬\n륨, 아르곤)"
+    },
+    {
+      "activity_id": "chunjae_IS1_007",
+      "source_row": null,
+      "item_raw": "고전압 발생 장치"
+    },
+    {
+      "activity_id": "chunjae_IS1_007",
+      "source_row": null,
+      "item_raw": "분광기"
+    },
+    {
+      "activity_id": "chunjae_IS1_007",
+      "source_row": null,
+      "item_raw": "내열 장갑"
+    },
+    {
+      "activity_id": "chunjae_IS1_007",
+      "source_row": null,
+      "item_raw": "색연필"
+    },
+    {
+      "activity_id": "chunjae_IS1_010",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS1_010",
+      "source_row": null,
+      "item_raw": "실험 도\n구 붙임딱지 (부록 176쪽)"
+    },
+    {
+      "activity_id": "chunjae_IS1_013",
+      "source_row": null,
+      "item_raw": "원자 모형이 그려진\n투명 필름과 전자 붙임딱지 (부\n록 176~178쪽)"
+    },
+    {
+      "activity_id": "chunjae_IS1_013",
+      "source_row": null,
+      "item_raw": "네임펜"
+    },
+    {
+      "activity_id": "chunjae_IS1_013",
+      "source_row": null,
+      "item_raw": "셀\n로판테이프"
+    },
+    {
+      "activity_id": "chunjae_IS1_014",
+      "source_row": null,
+      "item_raw": "증류수"
+    },
+    {
+      "activity_id": "chunjae_IS1_014",
+      "source_row": null,
+      "item_raw": "6홈판"
+    },
+    {
+      "activity_id": "chunjae_IS1_014",
+      "source_row": null,
+      "item_raw": "비커"
+    },
+    {
+      "activity_id": "chunjae_IS1_014",
+      "source_row": null,
+      "item_raw": "유리 막대"
+    },
+    {
+      "activity_id": "chunjae_IS1_014",
+      "source_row": null,
+      "item_raw": "약숟가락"
+    },
+    {
+      "activity_id": "chunjae_IS1_014",
+      "source_row": null,
+      "item_raw": "스\n포이트"
+    },
+    {
+      "activity_id": "chunjae_IS1_014",
+      "source_row": null,
+      "item_raw": "간이 전기 전도계"
+    },
+    {
+      "activity_id": "chunjae_IS1_014",
+      "source_row": null,
+      "item_raw": "휴지"
+    },
+    {
+      "activity_id": "chunjae_IS1_014",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "chunjae_IS1_014",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "chunjae_IS1_014",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "chunjae_IS1_015",
+      "source_row": null,
+      "item_raw": "컴퓨터"
+    },
+    {
+      "activity_id": "chunjae_IS1_015",
+      "source_row": null,
+      "item_raw": "입체 그림을\n그릴 수 있는 프로그램"
+    },
+    {
+      "activity_id": "chunjae_IS1_017",
+      "source_row": null,
+      "item_raw": "뉴클레오타이드 모형\n(부록 179쪽)"
+    },
+    {
+      "activity_id": "chunjae_IS1_017",
+      "source_row": null,
+      "item_raw": "빨대"
+    },
+    {
+      "activity_id": "chunjae_IS1_017",
+      "source_row": null,
+      "item_raw": "가위"
+    },
+    {
+      "activity_id": "chunjae_IS1_017",
+      "source_row": null,
+      "item_raw": "자"
+    },
+    {
+      "activity_id": "chunjae_IS1_017",
+      "source_row": null,
+      "item_raw": "풀"
+    },
+    {
+      "activity_id": "chunjae_IS1_017",
+      "source_row": null,
+      "item_raw": "철끈"
+    },
+    {
+      "activity_id": "chunjae_IS1_017",
+      "source_row": null,
+      "item_raw": "송곳"
+    },
+    {
+      "activity_id": "chunjae_IS1_018",
+      "source_row": null,
+      "item_raw": "간이 전기 전도계"
+    },
+    {
+      "activity_id": "chunjae_IS1_018",
+      "source_row": null,
+      "item_raw": "여러 가지 물체"
+    },
+    {
+      "activity_id": "chunjae_IS1_018",
+      "source_row": null,
+      "item_raw": "보호 장갑"
+    },
+    {
+      "activity_id": "chunjae_IS1_021",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS1_023",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS1_024",
+      "source_row": null,
+      "item_raw": "쇠구슬"
+    },
+    {
+      "activity_id": "chunjae_IS1_024",
+      "source_row": null,
+      "item_raw": "모눈종이"
+    },
+    {
+      "activity_id": "chunjae_IS1_024",
+      "source_row": null,
+      "item_raw": "우\n드록"
+    },
+    {
+      "activity_id": "chunjae_IS1_024",
+      "source_row": null,
+      "item_raw": "스프레이 접착제"
+    },
+    {
+      "activity_id": "chunjae_IS1_024",
+      "source_row": null,
+      "item_raw": "스마트\n기기"
+    },
+    {
+      "activity_id": "chunjae_IS1_024",
+      "source_row": null,
+      "item_raw": "삼각대"
+    },
+    {
+      "activity_id": "chunjae_IS1_025",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS1_025",
+      "source_row": null,
+      "item_raw": "종이로 된 가상 현실(VR) 안경"
+    },
+    {
+      "activity_id": "chunjae_IS1_026",
+      "source_row": null,
+      "item_raw": "빨대"
+    },
+    {
+      "activity_id": "chunjae_IS1_026",
+      "source_row": null,
+      "item_raw": "면봉"
+    },
+    {
+      "activity_id": "chunjae_IS1_026",
+      "source_row": null,
+      "item_raw": "가위"
+    },
+    {
+      "activity_id": "chunjae_IS1_026",
+      "source_row": null,
+      "item_raw": "주사기"
+    },
+    {
+      "activity_id": "chunjae_IS1_026",
+      "source_row": null,
+      "item_raw": "셀로판테이프"
+    },
+    {
+      "activity_id": "chunjae_IS1_027",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "붉은 양파"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "칼"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "핀셋"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "스포이트"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "증류수"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "20 % 설탕\n물"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "거름종이"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "받침 유리"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "덮개\n유리"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "현미경"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "스마트폰"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "스마\n트폰 촬영 거치대"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "실험용 장\n갑"
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "시험관 세 개"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "시험관\n대"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "3 % 과산화 수소수"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "스포\n이트"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "핀셋"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "생간 조각"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "감자 조\n각"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "페트리 접시"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "향"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "점화기"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "chunjae_IS1_031",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS1_033",
+      "source_row": null,
+      "item_raw": "주사위 세 개"
+    },
+    {
+      "activity_id": "chunjae_IS1_033",
+      "source_row": null,
+      "item_raw": "유전 암\n호 표(부록 175쪽)"
+    },
+    {
+      "activity_id": "chunjae_IS1_033",
+      "source_row": null,
+      "item_raw": "아미노산\n붙임딱지(부록 176쪽)"
+    },
+    {
+      "activity_id": "chunjae_IS1_033",
+      "source_row": null,
+      "item_raw": "유전정\n보 카드(부록 180쪽)"
+    },
+    {
+      "activity_id": "chunjae_IS2_002",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_003",
+      "source_row": null,
+      "item_raw": "나무 이쑤시개"
+    },
+    {
+      "activity_id": "chunjae_IS2_003",
+      "source_row": null,
+      "item_raw": "녹말\n이쑤시개"
+    },
+    {
+      "activity_id": "chunjae_IS2_003",
+      "source_row": null,
+      "item_raw": "황갈색 종이 한 장"
+    },
+    {
+      "activity_id": "chunjae_IS2_003",
+      "source_row": null,
+      "item_raw": "녹색 종이 한 장"
+    },
+    {
+      "activity_id": "chunjae_IS2_003",
+      "source_row": null,
+      "item_raw": "포장용 에어\n캡"
+    },
+    {
+      "activity_id": "chunjae_IS2_003",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "chunjae_IS2_003",
+      "source_row": null,
+      "item_raw": "핀셋"
+    },
+    {
+      "activity_id": "chunjae_IS2_005",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_007",
+      "source_row": null,
+      "item_raw": "질산 은 수용액"
+    },
+    {
+      "activity_id": "chunjae_IS2_007",
+      "source_row": null,
+      "item_raw": "구리\n줄"
+    },
+    {
+      "activity_id": "chunjae_IS2_007",
+      "source_row": null,
+      "item_raw": "페트리 접시"
+    },
+    {
+      "activity_id": "chunjae_IS2_007",
+      "source_row": null,
+      "item_raw": "사포"
+    },
+    {
+      "activity_id": "chunjae_IS2_007",
+      "source_row": null,
+      "item_raw": "핀셋"
+    },
+    {
+      "activity_id": "chunjae_IS2_007",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "chunjae_IS2_007",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "chunjae_IS2_007",
+      "source_row": null,
+      "item_raw": "보호 장갑"
+    },
+    {
+      "activity_id": "chunjae_IS2_007",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "묽은 염산"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "아세트산\n수용액"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "수산화 나트륨 수용액"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "수산화 칼륨 수용액"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "마그네슘 조각"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "두부"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "12홈\n판"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "실험판(부록 173쪽)"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "간이\n전기 전도계"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "휴지"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "스포이트"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "핀셋"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "약숟가락"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "실험용\n장갑"
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "농도와 온도가 같은\n묽은 염산과 수산화 나트륨 수\n용액"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "BTB 용액"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "6홈판"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "스포\n이트"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "눈금실린더"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "유리 막대"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "디지털 온도계"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "실험판(부록\n174쪽)"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "디지털 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "물"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "비커"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "페트리 접시"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "약숟가락"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "유리\n막대"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "온도계"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "음식 조리 도구"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "조리에 사용할 음식"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "마스크"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "보호 장갑"
+    },
+    {
+      "activity_id": "chunjae_IS2_011",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "chunjae_IS2_013",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_013",
+      "source_row": null,
+      "item_raw": "온도계"
+    },
+    {
+      "activity_id": "chunjae_IS2_013",
+      "source_row": null,
+      "item_raw": "줄자"
+    },
+    {
+      "activity_id": "chunjae_IS2_013",
+      "source_row": null,
+      "item_raw": "생물 도감"
+    },
+    {
+      "activity_id": "chunjae_IS2_014",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_015",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_017",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_018",
+      "source_row": null,
+      "item_raw": "코일"
+    },
+    {
+      "activity_id": "chunjae_IS2_018",
+      "source_row": null,
+      "item_raw": "막대자석"
+    },
+    {
+      "activity_id": "chunjae_IS2_018",
+      "source_row": null,
+      "item_raw": "검류\n계"
+    },
+    {
+      "activity_id": "chunjae_IS2_018",
+      "source_row": null,
+      "item_raw": "집게 달린 전선 두 개"
+    },
+    {
+      "activity_id": "chunjae_IS2_019",
+      "source_row": null,
+      "item_raw": "빈 테이프 통"
+    },
+    {
+      "activity_id": "chunjae_IS2_019",
+      "source_row": null,
+      "item_raw": "에나멜\n선"
+    },
+    {
+      "activity_id": "chunjae_IS2_019",
+      "source_row": null,
+      "item_raw": "네오디뮴 자석"
+    },
+    {
+      "activity_id": "chunjae_IS2_019",
+      "source_row": null,
+      "item_raw": "발광 다이\n오드(LED)"
+    },
+    {
+      "activity_id": "chunjae_IS2_019",
+      "source_row": null,
+      "item_raw": "나무젓가락"
+    },
+    {
+      "activity_id": "chunjae_IS2_019",
+      "source_row": null,
+      "item_raw": "글루\n건"
+    },
+    {
+      "activity_id": "chunjae_IS2_019",
+      "source_row": null,
+      "item_raw": "클립"
+    },
+    {
+      "activity_id": "chunjae_IS2_019",
+      "source_row": null,
+      "item_raw": "사포"
+    },
+    {
+      "activity_id": "chunjae_IS2_019",
+      "source_row": null,
+      "item_raw": "셀로판테이프"
+    },
+    {
+      "activity_id": "chunjae_IS2_019",
+      "source_row": null,
+      "item_raw": "면장갑"
+    },
+    {
+      "activity_id": "chunjae_IS2_020",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_022",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_023",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_025",
+      "source_row": null,
+      "item_raw": "스포이트"
+    },
+    {
+      "activity_id": "chunjae_IS2_025",
+      "source_row": null,
+      "item_raw": "12홈판"
+    },
+    {
+      "activity_id": "chunjae_IS2_025",
+      "source_row": null,
+      "item_raw": "모의\n항체"
+    },
+    {
+      "activity_id": "chunjae_IS2_025",
+      "source_row": null,
+      "item_raw": "모의 대조군(양성, 음성)\n검체"
+    },
+    {
+      "activity_id": "chunjae_IS2_025",
+      "source_row": null,
+      "item_raw": "모의 환자 검체 두 개"
+    },
+    {
+      "activity_id": "chunjae_IS2_025",
+      "source_row": null,
+      "item_raw": "검출 시약"
+    },
+    {
+      "activity_id": "chunjae_IS2_025",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "chunjae_IS2_025",
+      "source_row": null,
+      "item_raw": "실험용 장\n갑"
+    },
+    {
+      "activity_id": "chunjae_IS2_025",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "chunjae_IS2_026",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_027",
+      "source_row": null,
+      "item_raw": "노트북"
+    },
+    {
+      "activity_id": "chunjae_IS2_027",
+      "source_row": null,
+      "item_raw": "마이크로컨트\n롤러"
+    },
+    {
+      "activity_id": "chunjae_IS2_027",
+      "source_row": null,
+      "item_raw": "브레드보드"
+    },
+    {
+      "activity_id": "chunjae_IS2_027",
+      "source_row": null,
+      "item_raw": "점퍼 케이블"
+    },
+    {
+      "activity_id": "chunjae_IS2_027",
+      "source_row": null,
+      "item_raw": "이산화 탄소 센서"
+    },
+    {
+      "activity_id": "chunjae_IS2_028",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_029",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "chunjae_IS2_030",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS1_007",
+      "source_row": null,
+      "item_raw": "물"
+    },
+    {
+      "activity_id": "visang_IS1_007",
+      "source_row": null,
+      "item_raw": "전자저울"
+    },
+    {
+      "activity_id": "visang_IS1_007",
+      "source_row": null,
+      "item_raw": "컵"
+    },
+    {
+      "activity_id": "visang_IS1_008",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS1_010",
+      "source_row": null,
+      "item_raw": "온도 센서"
+    },
+    {
+      "activity_id": "visang_IS1_010",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS1_014",
+      "source_row": null,
+      "item_raw": "간이 분광기"
+    },
+    {
+      "activity_id": "visang_IS1_014",
+      "source_row": null,
+      "item_raw": "수소 방전관"
+    },
+    {
+      "activity_id": "visang_IS1_014",
+      "source_row": null,
+      "item_raw": "헬륨 방\n전관"
+    },
+    {
+      "activity_id": "visang_IS1_014",
+      "source_row": null,
+      "item_raw": "고전압 발생 장치"
+    },
+    {
+      "activity_id": "visang_IS1_014",
+      "source_row": null,
+      "item_raw": "스마트폰"
+    },
+    {
+      "activity_id": "visang_IS1_014",
+      "source_row": null,
+      "item_raw": "내열 장갑"
+    },
+    {
+      "activity_id": "visang_IS1_017",
+      "source_row": null,
+      "item_raw": "부록 157 쪽 활동 카드"
+    },
+    {
+      "activity_id": "visang_IS1_019",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS1_023",
+      "source_row": null,
+      "item_raw": "증류수"
+    },
+    {
+      "activity_id": "visang_IS1_023",
+      "source_row": null,
+      "item_raw": "유리 막대"
+    },
+    {
+      "activity_id": "visang_IS1_023",
+      "source_row": null,
+      "item_raw": "스포이트"
+    },
+    {
+      "activity_id": "visang_IS1_023",
+      "source_row": null,
+      "item_raw": "전\n기 전도성 측정기"
+    },
+    {
+      "activity_id": "visang_IS1_023",
+      "source_row": null,
+      "item_raw": "6 홈판"
+    },
+    {
+      "activity_id": "visang_IS1_023",
+      "source_row": null,
+      "item_raw": "약숟가락"
+    },
+    {
+      "activity_id": "visang_IS1_023",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "visang_IS1_023",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "visang_IS1_023",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "visang_IS1_025",
+      "source_row": null,
+      "item_raw": "쇠구슬"
+    },
+    {
+      "activity_id": "visang_IS1_025",
+      "source_row": null,
+      "item_raw": "자석으로 된 막대"
+    },
+    {
+      "activity_id": "visang_IS1_026",
+      "source_row": null,
+      "item_raw": "부록 161 쪽 뉴클레오타이드 모\n형"
+    },
+    {
+      "activity_id": "visang_IS1_026",
+      "source_row": null,
+      "item_raw": "가위"
+    },
+    {
+      "activity_id": "visang_IS1_026",
+      "source_row": null,
+      "item_raw": "풀"
+    },
+    {
+      "activity_id": "visang_IS1_028",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS1_032",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS1_035",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS1_037",
+      "source_row": null,
+      "item_raw": "30 cm 자"
+    },
+    {
+      "activity_id": "visang_IS1_037",
+      "source_row": null,
+      "item_raw": "원형 나무 도막"
+    },
+    {
+      "activity_id": "visang_IS1_037",
+      "source_row": null,
+      "item_raw": "모눈종\n이"
+    },
+    {
+      "activity_id": "visang_IS1_037",
+      "source_row": null,
+      "item_raw": "우드록"
+    },
+    {
+      "activity_id": "visang_IS1_037",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS1_037",
+      "source_row": null,
+      "item_raw": "삼각대"
+    },
+    {
+      "activity_id": "visang_IS1_042",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "적양파"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "0.9 % 소금물"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "10 % 소금\n물"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "증류수"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "받침 유리"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "덮개 유리"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "스포이트"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "핀셋"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "칼"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "거름종이"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "현미\n경"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "스마트폰"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "현미경 스마트폰 촬\n영 거치대"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "visang_IS1_044",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "생간 조각"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "감자 조각"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "3 % 과산화\n수소수"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "시험관"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "시험관대"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "페트리\n접시"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "스포이트"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "향"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "핀셋"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "점화기"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "visang_IS1_046",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_003",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_005",
+      "source_row": null,
+      "item_raw": "네 가지 색 뻥튀기 과자(빨간색, 주\n황색, 노란색, 초록색)"
+    },
+    {
+      "activity_id": "visang_IS2_005",
+      "source_row": null,
+      "item_raw": "두 가지 색\n도화지(빨간색, 초록색)"
+    },
+    {
+      "activity_id": "visang_IS2_005",
+      "source_row": null,
+      "item_raw": "젓가락"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "묽은 염산"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "레몬즙"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "식초"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "수산화 나\n트륨 수용액"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "제빵 소다 수용액"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "하\n수구 세정제"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "BTB 용액"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "증류수"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "스포이트"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "전기 전도성 측정기"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "푸\n른색 리트머스 종이"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "붉은색 리트머\n스 종이"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "24 홈판"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "핀셋"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "묽은 염산"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "수산화 나트륨 수용액"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "증류수"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "BTB 용액"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "유리 막대"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "스\n포이트"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "눈금실린더"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "블루투스 온\n도계"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "6 홈판"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "visang_IS2_015",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_016",
+      "source_row": null,
+      "item_raw": "물"
+    },
+    {
+      "activity_id": "visang_IS2_016",
+      "source_row": null,
+      "item_raw": "온도계"
+    },
+    {
+      "activity_id": "visang_IS2_016",
+      "source_row": null,
+      "item_raw": "모둠별 준비\n물"
+    },
+    {
+      "activity_id": "visang_IS2_016",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "visang_IS2_016",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "visang_IS2_016",
+      "source_row": null,
+      "item_raw": "면장갑"
+    },
+    {
+      "activity_id": "visang_IS2_016",
+      "source_row": null,
+      "item_raw": "실\n험복"
+    },
+    {
+      "activity_id": "visang_IS2_020",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_021",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_023",
+      "source_row": null,
+      "item_raw": "발포 바이타민"
+    },
+    {
+      "activity_id": "visang_IS2_023",
+      "source_row": null,
+      "item_raw": "물"
+    },
+    {
+      "activity_id": "visang_IS2_023",
+      "source_row": null,
+      "item_raw": "투명 페트병"
+    },
+    {
+      "activity_id": "visang_IS2_023",
+      "source_row": null,
+      "item_raw": "구\n멍 뚫린 고무마개"
+    },
+    {
+      "activity_id": "visang_IS2_023",
+      "source_row": null,
+      "item_raw": "전등(150 W 열\n전구)"
+    },
+    {
+      "activity_id": "visang_IS2_023",
+      "source_row": null,
+      "item_raw": "블루투스 온도계"
+    },
+    {
+      "activity_id": "visang_IS2_023",
+      "source_row": null,
+      "item_raw": "스마트 기\n기"
+    },
+    {
+      "activity_id": "visang_IS2_023",
+      "source_row": null,
+      "item_raw": "파라 필름"
+    },
+    {
+      "activity_id": "visang_IS2_023",
+      "source_row": null,
+      "item_raw": "자"
+    },
+    {
+      "activity_id": "visang_IS2_029",
+      "source_row": null,
+      "item_raw": "막대자석"
+    },
+    {
+      "activity_id": "visang_IS2_029",
+      "source_row": null,
+      "item_raw": "코일"
+    },
+    {
+      "activity_id": "visang_IS2_029",
+      "source_row": null,
+      "item_raw": "검류계"
+    },
+    {
+      "activity_id": "visang_IS2_029",
+      "source_row": null,
+      "item_raw": "집게 달린\n전선"
+    },
+    {
+      "activity_id": "visang_IS2_030",
+      "source_row": null,
+      "item_raw": "네오디뮴 자석"
+    },
+    {
+      "activity_id": "visang_IS2_030",
+      "source_row": null,
+      "item_raw": "발광 다이오드"
+    },
+    {
+      "activity_id": "visang_IS2_030",
+      "source_row": null,
+      "item_raw": "에\n나멜선"
+    },
+    {
+      "activity_id": "visang_IS2_030",
+      "source_row": null,
+      "item_raw": "ㄱ자 막대"
+    },
+    {
+      "activity_id": "visang_IS2_030",
+      "source_row": null,
+      "item_raw": "하드보드지"
+    },
+    {
+      "activity_id": "visang_IS2_030",
+      "source_row": null,
+      "item_raw": "사\n포"
+    },
+    {
+      "activity_id": "visang_IS2_030",
+      "source_row": null,
+      "item_raw": "누름 못"
+    },
+    {
+      "activity_id": "visang_IS2_030",
+      "source_row": null,
+      "item_raw": "면장갑"
+    },
+    {
+      "activity_id": "visang_IS2_031",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_034",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "포획 항체"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "표준 시료 1(음성 표준\n시료)"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "표준 시료 2(양성 표준 시\n료)"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "사람 1의 검체"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "사람 2의 검체"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "검출 시약"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "진단 반응 시약"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "스포이\n트"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "4 홈판"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "초시계"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "보\n안경"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "visang_IS2_037",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "visang_IS2_038",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_040",
+      "source_row": null,
+      "item_raw": "미세 먼지 농도 측정 도구"
+    },
+    {
+      "activity_id": "visang_IS2_040",
+      "source_row": null,
+      "item_raw": "스마트\n기기"
+    },
+    {
+      "activity_id": "visang_IS2_041",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_043",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "visang_IS2_046",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_002",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_002",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS1_003",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_003",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS1_004",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_004",
+      "source_row": null,
+      "item_raw": "레이저 거리 측정기"
+    },
+    {
+      "activity_id": "donga_IS1_005",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_005",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS1_009",
+      "source_row": null,
+      "item_raw": "간이 분광기"
+    },
+    {
+      "activity_id": "donga_IS1_009",
+      "source_row": null,
+      "item_raw": "여러 기체의 방전관"
+    },
+    {
+      "activity_id": "donga_IS1_009",
+      "source_row": null,
+      "item_raw": "고전\n압 발생 장치"
+    },
+    {
+      "activity_id": "donga_IS1_009",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_009",
+      "source_row": null,
+      "item_raw": "스탠드"
+    },
+    {
+      "activity_id": "donga_IS1_009",
+      "source_row": null,
+      "item_raw": "실\n험복"
+    },
+    {
+      "activity_id": "donga_IS1_009",
+      "source_row": null,
+      "item_raw": "절연 장갑"
+    },
+    {
+      "activity_id": "donga_IS1_010",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_010",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS1_011",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_014",
+      "source_row": null,
+      "item_raw": "6 홈판"
+    },
+    {
+      "activity_id": "donga_IS1_014",
+      "source_row": null,
+      "item_raw": "증류수"
+    },
+    {
+      "activity_id": "donga_IS1_014",
+      "source_row": null,
+      "item_raw": "전\n기 전도성 측정기"
+    },
+    {
+      "activity_id": "donga_IS1_014",
+      "source_row": null,
+      "item_raw": "유리 막대"
+    },
+    {
+      "activity_id": "donga_IS1_014",
+      "source_row": null,
+      "item_raw": "약숟가\n락"
+    },
+    {
+      "activity_id": "donga_IS1_014",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "donga_IS1_014",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "donga_IS1_014",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "donga_IS1_015",
+      "source_row": null,
+      "item_raw": "가위"
+    },
+    {
+      "activity_id": "donga_IS1_015",
+      "source_row": null,
+      "item_raw": "테이프"
+    },
+    {
+      "activity_id": "donga_IS1_015",
+      "source_row": null,
+      "item_raw": "빵 끈"
+    },
+    {
+      "activity_id": "donga_IS1_015",
+      "source_row": null,
+      "item_raw": "Si-O 사면체 전개도(부록 163 쪽)"
+    },
+    {
+      "activity_id": "donga_IS1_016",
+      "source_row": null,
+      "item_raw": "DNA 모형 도안(부록 165 쪽)"
+    },
+    {
+      "activity_id": "donga_IS1_016",
+      "source_row": null,
+      "item_raw": "가위"
+    },
+    {
+      "activity_id": "donga_IS1_016",
+      "source_row": null,
+      "item_raw": "풀"
+    },
+    {
+      "activity_id": "donga_IS1_016",
+      "source_row": null,
+      "item_raw": "장갑"
+    },
+    {
+      "activity_id": "donga_IS1_017",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_020",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_020",
+      "source_row": null,
+      "item_raw": "붙임쪽지"
+    },
+    {
+      "activity_id": "donga_IS1_022",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_023",
+      "source_row": null,
+      "item_raw": "가상 현실 기기"
+    },
+    {
+      "activity_id": "donga_IS1_024",
+      "source_row": null,
+      "item_raw": "검은색 배경의 모눈종이"
+    },
+    {
+      "activity_id": "donga_IS1_024",
+      "source_row": null,
+      "item_raw": "쇠구슬 발사\n장치"
+    },
+    {
+      "activity_id": "donga_IS1_024",
+      "source_row": null,
+      "item_raw": "스탠드"
+    },
+    {
+      "activity_id": "donga_IS1_024",
+      "source_row": null,
+      "item_raw": "집게"
+    },
+    {
+      "activity_id": "donga_IS1_024",
+      "source_row": null,
+      "item_raw": "스펀지"
+    },
+    {
+      "activity_id": "donga_IS1_024",
+      "source_row": null,
+      "item_raw": "쇠구슬 2\n개"
+    },
+    {
+      "activity_id": "donga_IS1_024",
+      "source_row": null,
+      "item_raw": "다중 섬광 사진 앱이 있거나 다중\n노출 촬영이 가능한 스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_024",
+      "source_row": null,
+      "item_raw": "삼각대"
+    },
+    {
+      "activity_id": "donga_IS1_025",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_025",
+      "source_row": null,
+      "item_raw": "카드"
+    },
+    {
+      "activity_id": "donga_IS1_025",
+      "source_row": null,
+      "item_raw": "동전"
+    },
+    {
+      "activity_id": "donga_IS1_025",
+      "source_row": null,
+      "item_raw": "굵은 철사"
+    },
+    {
+      "activity_id": "donga_IS1_025",
+      "source_row": null,
+      "item_raw": "공\n2 개"
+    },
+    {
+      "activity_id": "donga_IS1_025",
+      "source_row": null,
+      "item_raw": "식탁보"
+    },
+    {
+      "activity_id": "donga_IS1_025",
+      "source_row": null,
+      "item_raw": "무거운 컵과 접시 여러 개"
+    },
+    {
+      "activity_id": "donga_IS1_026",
+      "source_row": null,
+      "item_raw": "면봉"
+    },
+    {
+      "activity_id": "donga_IS1_026",
+      "source_row": null,
+      "item_raw": "주름이 있는 빨대"
+    },
+    {
+      "activity_id": "donga_IS1_026",
+      "source_row": null,
+      "item_raw": "가위"
+    },
+    {
+      "activity_id": "donga_IS1_027",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "붉은 양파"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "안전 면도날"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "핀셋"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "받침 유\n리"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "덮개 유리"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "스포이트"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "증류수"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "20 %\n설탕물"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "거름종이"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "광학 현미경"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "실험\n복"
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "시험관"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "시험관대"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "스포이트"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "3 % 과산\n화 수소수"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "날감자"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "삶은 감자"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "도마"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "칼"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "페트리 접시"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "핀셋"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "향"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "점화기"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "면장갑"
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "donga_IS1_031",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_001",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_002",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_002",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS2_004",
+      "source_row": null,
+      "item_raw": "흰색 도화지"
+    },
+    {
+      "activity_id": "donga_IS2_004",
+      "source_row": null,
+      "item_raw": "네 가지 색(빨간색, 파란\n색, 노란색, 흰색)의 털실 구슬 여러 개"
+    },
+    {
+      "activity_id": "donga_IS2_006",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_007",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "탄소 가루"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "시험\n관"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "비커"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "유리관"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "고무관"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "구멍 뚫린 고\n무마개"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "스탠드"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "집게"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "가열 장치"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "전자\n저울"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "약숟가락"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "시약포지"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "실\n험용 장갑"
+    },
+    {
+      "activity_id": "donga_IS2_008",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "같은 농도의 염산과 수산화 나트륨 수\n용액"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "자석 젓개 막\n대"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "비커"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "스탠드"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "집게"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "뷰렛 집게"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "뷰\n렛"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "깔때기"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "교반기"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "무선 온도 센서"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "스\n마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "donga_IS2_012",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_012",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS2_014",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_014",
+      "source_row": null,
+      "item_raw": "물"
+    },
+    {
+      "activity_id": "donga_IS2_014",
+      "source_row": null,
+      "item_raw": "조리할\n음식"
+    },
+    {
+      "activity_id": "donga_IS2_014",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "donga_IS2_014",
+      "source_row": null,
+      "item_raw": "면장갑"
+    },
+    {
+      "activity_id": "donga_IS2_014",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "donga_IS2_014",
+      "source_row": null,
+      "item_raw": "보\n안경"
+    },
+    {
+      "activity_id": "donga_IS2_020",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_020",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS2_021",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_021",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS2_024",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_027",
+      "source_row": null,
+      "item_raw": "코일"
+    },
+    {
+      "activity_id": "donga_IS2_027",
+      "source_row": null,
+      "item_raw": "네오디뮴 자석 여러 개"
+    },
+    {
+      "activity_id": "donga_IS2_027",
+      "source_row": null,
+      "item_raw": "발광 다\n이오드 2 개"
+    },
+    {
+      "activity_id": "donga_IS2_027",
+      "source_row": null,
+      "item_raw": "연결 단자 2 개"
+    },
+    {
+      "activity_id": "donga_IS2_027",
+      "source_row": null,
+      "item_raw": "면장갑"
+    },
+    {
+      "activity_id": "donga_IS2_028",
+      "source_row": null,
+      "item_raw": "전동기"
+    },
+    {
+      "activity_id": "donga_IS2_028",
+      "source_row": null,
+      "item_raw": "발광 다이오드"
+    },
+    {
+      "activity_id": "donga_IS2_028",
+      "source_row": null,
+      "item_raw": "나만의 간이 발\n전기 만들기 재료"
+    },
+    {
+      "activity_id": "donga_IS2_029",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_029",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS2_032",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_035",
+      "source_row": null,
+      "item_raw": "8 홈판"
+    },
+    {
+      "activity_id": "donga_IS2_035",
+      "source_row": null,
+      "item_raw": "유성펜"
+    },
+    {
+      "activity_id": "donga_IS2_035",
+      "source_row": null,
+      "item_raw": "모의 항체 용액"
+    },
+    {
+      "activity_id": "donga_IS2_035",
+      "source_row": null,
+      "item_raw": "스포이\n트"
+    },
+    {
+      "activity_id": "donga_IS2_035",
+      "source_row": null,
+      "item_raw": "감염병 모의 시료(대조군, 모의 환\n자 ①, ②)"
+    },
+    {
+      "activity_id": "donga_IS2_035",
+      "source_row": null,
+      "item_raw": "검출 시약(①, ②)"
+    },
+    {
+      "activity_id": "donga_IS2_035",
+      "source_row": null,
+      "item_raw": "실험복"
+    },
+    {
+      "activity_id": "donga_IS2_035",
+      "source_row": null,
+      "item_raw": "보안경"
+    },
+    {
+      "activity_id": "donga_IS2_035",
+      "source_row": null,
+      "item_raw": "실험용 장갑"
+    },
+    {
+      "activity_id": "donga_IS2_035",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_036",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_037",
+      "source_row": null,
+      "item_raw": "미세먼지 센서"
+    },
+    {
+      "activity_id": "donga_IS2_037",
+      "source_row": null,
+      "item_raw": "마이크로컨트롤러가\n포함된 센서 보드"
+    },
+    {
+      "activity_id": "donga_IS2_037",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_037",
+      "source_row": null,
+      "item_raw": "확장\n기판"
+    },
+    {
+      "activity_id": "donga_IS2_037",
+      "source_row": null,
+      "item_raw": "삼색 연결선"
+    },
+    {
+      "activity_id": "donga_IS2_037",
+      "source_row": null,
+      "item_raw": "USB 연결선"
+    },
+    {
+      "activity_id": "donga_IS2_037",
+      "source_row": null,
+      "item_raw": "전지"
+    },
+    {
+      "activity_id": "donga_IS2_037",
+      "source_row": null,
+      "item_raw": "전지 상자"
+    },
+    {
+      "activity_id": "donga_IS2_038",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_039",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_039",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS2_040",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_040",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS2_041",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_041",
+      "source_row": null,
+      "item_raw": "참고 도서"
+    },
+    {
+      "activity_id": "donga_IS2_042",
+      "source_row": null,
+      "item_raw": "스마트 기기"
+    },
+    {
+      "activity_id": "donga_IS2_042",
+      "source_row": null,
+      "item_raw": "참고 도서"
     }
   ],
   "name_overlap_review": [
@@ -19783,6 +23103,372 @@
       "item_raw": "70 % 에탄올",
       "text_overlap_chemical_ids": [
         "CHEM-ec1c5813d468b878"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "miraen_IS1_012",
+      "source_row": null,
+      "item_raw": "스마트 기기\n주기율표 관련 참고 도서\n\n모둠별로 다음 준비물을 이용해 알칼리 금속의 유사한 성질을 탐구하는 실험을\n설계해 보자.\n수조\n알칼리 금속\n칼\n면장갑\n실험복\n페트리접시\n핀셋\n보안경\n페놀프탈레인 용액\n물\n실험용 고무장갑",
+      "text_overlap_chemical_ids": [
+        "CHEM-887dffb784f185ef",
+        "CHEM-dd49f835c02c1ab4"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "miraen_IS1_016",
+      "source_row": null,
+      "item_raw": "증류수\n설탕\n황산 구리(Ⅱ)\n염화 나트륨\n6 홈판\n간이 전기 전도성 측정기\n비커\n유리 막대\n스포이트\n약숟가락\n실험복\n보안경\n실험용 고무장갑",
+      "text_overlap_chemical_ids": [
+        "CHEM-12a70e7898ce81b3",
+        "CHEM-29d32300826733bf",
+        "CHEM-72be2cc06e0a5f83",
+        "CHEM-7921a3bb40fa91bb",
+        "CHEM-e07e706e52afe799"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "3 % 과산화 수소수",
+      "text_overlap_chemical_ids": [
+        "CHEM-c79801fd8193656a"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "miraen_IS1_037",
+      "source_row": null,
+      "item_raw": "3 % 에탄올",
+      "text_overlap_chemical_ids": [
+        "CHEM-ec1c5813d468b878"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "miraen_IS2_008",
+      "source_row": null,
+      "item_raw": "질산 은 수용액",
+      "text_overlap_chemical_ids": [
+        "CHEM-aefc0f2d2c2169d9",
+        "CHEM-c03f3530c43fc281"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "miraen_IS2_011",
+      "source_row": null,
+      "item_raw": "농도가 같은 염산과 수산화\n나트륨 수용액\nBTB 용액\n6 홈판\n디지털 온도계\n비커\n피펫\n피펫 필러\n유리 막대\n실험복\n보안경\n실험용 고무장갑",
+      "text_overlap_chemical_ids": [
+        "CHEM-12a70e7898ce81b3",
+        "CHEM-c4bd5ea832223699",
+        "CHEM-e742485b1f06b0c7"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "miraen_IS2_014",
+      "source_row": null,
+      "item_raw": "물\n산화 칼슘 10 g이 들어 있는\n부직포 주머니\n반응 용기\n조리 용기\n온도 센서\n스마트 기기\n비커\n스탠드\n집게\n클램프\n실험복\n보안경\n면장갑\n실험용 고무장갑",
+      "text_overlap_chemical_ids": [
+        "CHEM-f9fd5879e0df785f"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "miraen_IS2_029",
+      "source_row": null,
+      "item_raw": "코일\n철판\n네오디뮴 자석\n발광 다이오드 기판\n날개\n회전축\n헤드\n기둥\n받침대\n전선\n선풍기\n면장갑",
+      "text_overlap_chemical_ids": [
+        "CHEM-102aaec35637da00"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "jihaksa_is1_0017",
+      "source_row": null,
+      "item_raw": "소금\n설탕\n황산 구리(II)\n포도당\n증류수 120 mL\n50 mL 비커 8개\n약숟가락\n간이 전기 전도계\n실험복\n보안경\n실험용 장갑",
+      "text_overlap_chemical_ids": [
+        "CHEM-29d32300826733bf",
+        "CHEM-7921a3bb40fa91bb",
+        "CHEM-ae0d8878a1203828",
+        "CHEM-e07e706e52afe799"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "jihaksa_is1_0032",
+      "source_row": null,
+      "item_raw": "달걀 노른자 3개\n증류수\n10 % 설탕 수용액\n20 % 설탕 수용액\n페트리 접시 6개\n버니어 캘리퍼스\n당도계\n실험복\n실험용 장갑",
+      "text_overlap_chemical_ids": [
+        "CHEM-7921a3bb40fa91bb"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "jihaksa_is1_0033",
+      "source_row": null,
+      "item_raw": "3.5 % 과산화 수소수\n한천 조각 10개\n감자 조각 10개\n시험관 2개\n시험관대\n스포이트\n핀셋\n실험복\n실험용 장갑",
+      "text_overlap_chemical_ids": [
+        "CHEM-bb13abf09be681e3",
+        "CHEM-c79801fd8193656a"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "jihaksa_is2_0008",
+      "source_row": null,
+      "item_raw": "알루미늄(Al) 판\n염화 구리(II)(CuCl₂) 수용액\n접착용 필름\n페트리 접시\n가위\n실험복\n보안경\n실험용 장갑",
+      "text_overlap_chemical_ids": [
+        "CHEM-5d53137530c0932e"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "jihaksa_is2_0011",
+      "source_row": null,
+      "item_raw": "묽은 염산\n수산화 나트륨(NaOH) 수용액\nBTB 용액\n15 mL 눈금 시험관 7개\n시험관대\n디지털 온도계\n스포이트\n실험복\n보안경\n실험용 장갑",
+      "text_overlap_chemical_ids": [
+        "CHEM-12a70e7898ce81b3",
+        "CHEM-c4bd5ea832223699",
+        "CHEM-e742485b1f06b0c7"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "jihaksa_is2_0014",
+      "source_row": null,
+      "item_raw": "산화 칼슘 발열 팩 50 g\n물\n메추리알\n모둠별로 결정한 재료\n스마트 기기\n실험복\n보안경\n면장갑",
+      "text_overlap_chemical_ids": [
+        "CHEM-f9fd5879e0df785f"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "jihaksa_is2_0015",
+      "source_row": null,
+      "item_raw": "구리 테이프\n질산 은 수용액\n검은색 도화지\n50 mL 비커 1개\n면봉\n가위\n필기구\n실험복\n실험용 장갑\n보안경",
+      "text_overlap_chemical_ids": [
+        "CHEM-aefc0f2d2c2169d9",
+        "CHEM-c03f3530c43fc281"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "chunjae_IS1_028",
+      "source_row": null,
+      "item_raw": "20 % 설탕\n물",
+      "text_overlap_chemical_ids": [
+        "CHEM-7921a3bb40fa91bb"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "chunjae_IS1_030",
+      "source_row": null,
+      "item_raw": "3 % 과산화 수소수",
+      "text_overlap_chemical_ids": [
+        "CHEM-c79801fd8193656a"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "chunjae_IS2_007",
+      "source_row": null,
+      "item_raw": "질산 은 수용액",
+      "text_overlap_chemical_ids": [
+        "CHEM-aefc0f2d2c2169d9",
+        "CHEM-c03f3530c43fc281"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "묽은 염산",
+      "text_overlap_chemical_ids": [
+        "CHEM-e742485b1f06b0c7"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "아세트산\n수용액",
+      "text_overlap_chemical_ids": [
+        "CHEM-27d5c435c7c92320"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "수산화 나트륨 수용액",
+      "text_overlap_chemical_ids": [
+        "CHEM-12a70e7898ce81b3",
+        "CHEM-c4bd5ea832223699"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "수산화 칼륨 수용액",
+      "text_overlap_chemical_ids": [
+        "CHEM-5b24f48b9e01728b",
+        "CHEM-e5e024c67bce5922"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "chunjae_IS2_008",
+      "source_row": null,
+      "item_raw": "마그네슘 조각",
+      "text_overlap_chemical_ids": [
+        "CHEM-3b43f38712ae66a4"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "chunjae_IS2_009",
+      "source_row": null,
+      "item_raw": "농도와 온도가 같은\n묽은 염산과 수산화 나트륨 수\n용액",
+      "text_overlap_chemical_ids": [
+        "CHEM-12a70e7898ce81b3",
+        "CHEM-c4bd5ea832223699",
+        "CHEM-e742485b1f06b0c7"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "visang_IS1_045",
+      "source_row": null,
+      "item_raw": "3 % 과산화\n수소수",
+      "text_overlap_chemical_ids": [
+        "CHEM-c79801fd8193656a"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "묽은 염산",
+      "text_overlap_chemical_ids": [
+        "CHEM-e742485b1f06b0c7"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "수산화 나\n트륨 수용액",
+      "text_overlap_chemical_ids": [
+        "CHEM-12a70e7898ce81b3",
+        "CHEM-c4bd5ea832223699"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "푸\n른색 리트머스 종이",
+      "text_overlap_chemical_ids": [
+        "CHEM-40dc6e00d3ac8cfa",
+        "CHEM-8675e8f3df30d046"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "visang_IS2_011",
+      "source_row": null,
+      "item_raw": "붉은색 리트머\n스 종이",
+      "text_overlap_chemical_ids": [
+        "CHEM-40dc6e00d3ac8cfa",
+        "CHEM-8675e8f3df30d046"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "묽은 염산",
+      "text_overlap_chemical_ids": [
+        "CHEM-e742485b1f06b0c7"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "visang_IS2_012",
+      "source_row": null,
+      "item_raw": "수산화 나트륨 수용액",
+      "text_overlap_chemical_ids": [
+        "CHEM-12a70e7898ce81b3",
+        "CHEM-c4bd5ea832223699"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "donga_IS1_028",
+      "source_row": null,
+      "item_raw": "20 %\n설탕물",
+      "text_overlap_chemical_ids": [
+        "CHEM-7921a3bb40fa91bb"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "donga_IS1_030",
+      "source_row": null,
+      "item_raw": "3 % 과산\n화 수소수",
+      "text_overlap_chemical_ids": [
+        "CHEM-c79801fd8193656a"
+      ],
+      "status": "미확인",
+      "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."
+    },
+    {
+      "activity_id": "donga_IS2_011",
+      "source_row": null,
+      "item_raw": "같은 농도의 염산과 수산화 나트륨 수\n용액",
+      "text_overlap_chemical_ids": [
+        "CHEM-12a70e7898ce81b3",
+        "CHEM-c4bd5ea832223699",
+        "CHEM-e742485b1f06b0c7"
       ],
       "status": "미확인",
       "reason": "전체 항목이 자료의 약품명과 일치하지 않아 연결하지 않음. 문자열 포함은 약품 동일성의 근거가 아님."

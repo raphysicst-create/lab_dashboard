@@ -1,5 +1,27 @@
 # 교과서 활동 추출 검증
 
+## 고등학교 통합과학 1·2 (5개 출판사)
+
+`verify_integrated_science.py`는 미래엔·지학사·천재교과서·비상교육·동아출판 10권의 추출 결과를 검사하고 별도 통합 JSON을 생성합니다. Python과 PyMuPDF(`fitz`)가 필요합니다.
+
+2026-09-23 후속 요청에 따라 두 권 모두 고1로 지정하고 교과서 성취기준 표의 31개 기준을 활동에 연결했습니다. `achievement_mapping/`의 검토된 연결안과 코드 목록을 사용하며, 키워드 자동 분류가 아닙니다. 복수 기준, 직접 지정/내용 대조/미확인, 부분·권간 연결의 한계를 기록합니다. 최초 추출본은 같은 폴더의 `before_mapping/`에 보존합니다.
+
+```powershell
+python -X utf8 scripts/extraction/map_integrated_achievements.py --check
+```
+
+위 검사는 코드, 근거 쪽, PDF 인용문(명시한 생략 부호로 나눈 각 발췌 포함), 이미지 전사 예외, 원활동·준비물 보존을 확인합니다. `--check` 없이 실행하면 검토된 연결안을 권별 JSON에 적용합니다. 이후 아래 검증·통합 명령을 실행합니다. 출판사별 초기 추출 스크립트를 다시 실행하면 후속 연결이 사라질 수 있으므로 이 두 단계를 다시 수행해야 합니다.
+
+```powershell
+python -X utf8 scripts/extraction/verify_integrated_science.py
+```
+
+입력과 결과는 `outputs/extraction/integrated-science-20260923/` 아래에 있습니다. `--source-dir`으로 원본 PDF 폴더를, `--output`으로 결과 폴더를 지정할 수 있습니다. 원본 PDF SHA-256와 실제 쪽수, 필수 열·null·중복 ID·쪽 범위, 전쪽 coverage와 양방향 활동 참조, 기록된 이미지 확인 범위, 독립 이미지 표본, 성취기준 근거 쪽을 검사합니다. 기존 원자료 JSON·검토 엑셀·중학교 통합본도 기준 해시와 비교합니다.
+
+통과 시 `science_experiment_supplies_integrated_science.json`을 생성하며 결과는 `validation.json`에 기록합니다. 실패하면 기존 통합본은 그대로 남을 수 있으므로 최신 검증 상태를 확인해야 합니다. 준비물은 학생 본문에 명시된 목록만 보존하고 미기재는 `null`로 둡니다. 통합과학 1·2는 권수이며 학년을 뜻하지 않습니다. 이 도구는 원문 의미·모든 픽셀을 자동 검증하거나 활동을 자동 판별하는 추출기가 아닙니다. 실제 이미지 대조와 제외 범위는 권별 보고서 및 `parent_review/`에 기록합니다. 기존 사이트 데이터 생성 입력은 변경하지 않습니다.
+
+## 지학사 K7·K8
+
 `verify_jihaksa.py`는 두 에이전트가 작성한 지학사 K7·K8 JSON을 검사하고 통합합니다. PDF에서 활동을 자동 판별하는 추출기는 아닙니다. 제목·준비물·본문 범위 판정에는 원본 이미지 검토가 필요합니다.
 
 프로젝트 루트에서 실행합니다. Python 표준 라이브러리만 사용합니다.

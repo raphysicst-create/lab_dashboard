@@ -1,0 +1,2474 @@
+{
+  "publisher": "미래엔",
+  "mappings": [
+    {
+      "record_id": "miraen_IS1_001",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "규모별 시간·길이의 현대적 측정 방법을 조사하는 과제가 기준의 측정 사례 조사에 대응한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          15
+        ],
+        "quote": "자연 현상의 현대적 측정 방법을 조사해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-01",
+          "book_id": "miraen_IS1",
+          "pdf_page": 10,
+          "quote": "[10통과1-01-01] 자연을 시간과 공간에서 기술할 수 있음을 알고, 길이와 시간 측정의 현대적 방법과 다양한 \n규모의 측정 사례를 조사할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_002",
+      "codes": [
+        "10통과1-01-01"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          17
+        ],
+        "quote": "미시 세계와 거시 세계의 물체의 크기에\n따른 차이점 분석하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-01",
+          "book_id": "miraen_IS1",
+          "pdf_page": 10,
+          "quote": "[10통과1-01-01] 자연을 시간과 공간에서 기술할 수 있음을 알고, 길이와 시간 측정의 현대적 방법과 다양한 \n규모의 측정 사례를 조사할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_003",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "제품 정보와 일기 예보에서 기본량·단위를 찾고 부피·속력을 기본량으로 나타내어 단위의 의미와 적용 사례를 다룬다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          20
+        ],
+        "quote": "기본량 외에, 부피, 속력은 어떻게 나타낼 수 있는지 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "image_transcription"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-02",
+          "book_id": "miraen_IS1",
+          "pdf_page": 10,
+          "quote": "[10통과1-01-02] 과학 탐구에서 중요한 기본량의 의미를 알고, 자연 현상을 기술하는 데 단위가 가지는 의미\n와 적용 사례를 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_004",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "기본량의 단위를 조합하여 주변 현상을 표현하고 적용 사례를 제안하는 활동이다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          25
+        ],
+        "quote": "우리 주변의 여러 현상 중 기본량을 활용해 비교할 수 있는 것을 생각해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-02",
+          "book_id": "miraen_IS1",
+          "pdf_page": 10,
+          "quote": "[10통과1-01-02] 과학 탐구에서 중요한 기본량의 의미를 알고, 자연 현상을 기술하는 데 단위가 가지는 의미\n와 적용 사례를 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_005",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "미터원기와 현대 길이 표준을 비교하여 측정 표준의 유용성을 토의한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          29
+        ],
+        "quote": "현재 미터원기를 측정 표준으로 활용하지 않는 까닭을 조사해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-03",
+          "book_id": "miraen_IS1",
+          "pdf_page": 10,
+          "quote": "[10통과1-01-03] 과학 탐구에서 측정과 어림의 의미를 알고, 일상생활의 여러 가지 상황에서 측정 표준의 유\n용성과 필요성을 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_006",
+      "codes": [
+        "10통과1-01-03"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          30
+        ],
+        "quote": "일상생활에서 측정 표준이 활용되는 사례 탐색하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-03",
+          "book_id": "miraen_IS1",
+          "pdf_page": 10,
+          "quote": "[10통과1-01-03] 과학 탐구에서 측정과 어림의 의미를 알고, 일상생활의 여러 가지 상황에서 측정 표준의 유\n용성과 필요성을 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_007",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          35
+        ],
+        "quote": "스마트 기기를 활용해 기본량을 측정하고 분석하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-04",
+          "book_id": "miraen_IS1",
+          "pdf_page": 10,
+          "quote": "[10통과1-01-04] 자연에서 일어나는 다양한 변화를 측정·분석하여 정보를 산출함을 알고, 이러한 정보를 디\n지털로 변환하는 기술을 정보 통신에 활용하여 현대 문명에 미친 영향을 인식한다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_008",
+      "codes": [
+        "10통과1-01-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "질량값과 초 단위를 대응시켜 시간을 재는 장치를 만드는 기본량·단위의 응용이다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          39
+        ],
+        "quote": "액체 타이머로 시간을 측정한 결과와 액체 타이머의 특징을 써 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-02",
+          "book_id": "miraen_IS1",
+          "pdf_page": 10,
+          "quote": "[10통과1-01-02] 과학 탐구에서 중요한 기본량의 의미를 알고, 자연 현상을 기술하는 데 단위가 가지는 의미\n와 적용 사례를 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": "기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS1_009",
+      "codes": [
+        "10통과1-01-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "측정·분석한 디지털 기상 정보의 활용 사례와 접근 방법을 논의하여 정보 변환·활용을 다룬다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          42
+        ],
+        "quote": "디지털 기상 정보를 쉽게 활용하는 방법을 제안하고, 토론을 통해 가장 합리적인 방법을 찾아보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-01-04",
+          "book_id": "miraen_IS1",
+          "pdf_page": 10,
+          "quote": "[10통과1-01-04] 자연에서 일어나는 다양한 변화를 측정·분석하여 정보를 산출함을 알고, 이러한 정보를 디\n지털로 변환하는 기술을 정보 통신에 활용하여 현대 문명에 미친 영향을 인식한다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_010",
+      "codes": [
+        "10통과1-02-01"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          50
+        ],
+        "quote": "분광기를 활용하여 다양한 물질이 방출하는\n스펙트럼 관찰ㆍ비교하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-01",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-01] 천체에서 방출되는 빛의 스펙트럼을 분석하여 우주 초기에 형성된 원소와 천체의 구성 물\n질을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_011",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          59
+        ],
+        "quote": "지구와 생명체의 구성 성분을 비교하고 성분의 유래 탐구하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-02",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-02] 우주 초기의 원소들로부터 태양계의 재료이면서 생명체를 구성하는 원소들이 형성되는 과\n정을 통해 지구와 생명의 역사가 우주 역사의 일부분임을 해석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_012",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          63
+        ],
+        "quote": "같은 족 원소들의 유사성을 탐구하는 실험 설계하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-03",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-03] 세상을 구성하는 원소들의 성질이 주기성을 나타내는 현상을 통해 자연의 규칙성을 도출\n하고, 지구와 생명체를 구성하는 주요 원소들이 결합을 형성하는 이유를 해석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_013",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "원자의 전자 배치 모형에서 주기율표의 규칙성을 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          64
+        ],
+        "quote": "주기율표에서 나타나는 규칙성을 전자 배치와 관련지어 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-03",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-03] 세상을 구성하는 원소들의 성질이 주기성을 나타내는 현상을 통해 자연의 규칙성을 도출\n하고, 지구와 생명체를 구성하는 주요 원소들이 결합을 형성하는 이유를 해석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_014",
+      "codes": [
+        "10통과1-02-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "18족과 같은 안정한 전자 배치를 통해 주요 원소가 결합을 형성하는 이유를 해석한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          67
+        ],
+        "quote": "산소, 나트륨, 염소와 같이 18족이 아닌 원소들은 자연계에서 대부분 결합을 형성한 상태로 존재한다. 그 까닭을 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-03",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-03] 세상을 구성하는 원소들의 성질이 주기성을 나타내는 현상을 통해 자연의 규칙성을 도출\n하고, 지구와 생명체를 구성하는 주요 원소들이 결합을 형성하는 이유를 해석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_015",
+      "codes": [
+        "10통과1-02-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "전자쌍 공유를 모형으로 나타내어 공유 결합의 원리를 이해하는 부분 요소이다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          71
+        ],
+        "quote": "친구들이 나타낸 공유 결합에서 원자들이 전자쌍을 공유하며 결합하는 것을 확인해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-04",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-04] 인류의 생존에 필수적인 물, 산소, 소금 등이 만들어지는 결합의 차이를 이해하고 각 물질\n의 성질과 관련지어 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": "기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS1_016",
+      "codes": [
+        "10통과1-02-04"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          72
+        ],
+        "quote": "이온 결합 물질과 공유 결합 물질의 성질 비교하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-04",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-04] 인류의 생존에 필수적인 물, 산소, 소금 등이 만들어지는 결합의 차이를 이해하고 각 물질\n의 성질과 관련지어 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_017",
+      "codes": [
+        "10통과1-02-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "선택한 원소의 생성 과정을 조사하여 원소의 기원에 관한 학습을 적용한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          77
+        ],
+        "quote": "원소의 생성 과정",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-02",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-02] 우주 초기의 원소들로부터 태양계의 재료이면서 생명체를 구성하는 원소들이 형성되는 과\n정을 통해 지구와 생명의 역사가 우주 역사의 일부분임을 해석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": "기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS1_018",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "규산염 사면체 기본 단위체를 결합하여 지각 물질의 구조를 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          80
+        ],
+        "quote": "만든 규산염 사면체를 다양한 형태로 결합해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-05",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-05] 지각과 생명체를 구성하는 물질들이 기본 단위체의 결합을 통해서 형성된다는 것을 규산\n염 광물, 단백질과 핵산의 예를 통해 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_019",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "아미노산의 종류와 배열로 서로 다른 단백질 구조·기능을 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          83
+        ],
+        "quote": "아미노산                 종류                 배열",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-05",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-05] 지각과 생명체를 구성하는 물질들이 기본 단위체의 결합을 통해서 형성된다는 것을 규산\n염 광물, 단백질과 핵산의 예를 통해 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_020",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "뉴클레오타이드·폴리뉴클레오타이드·DNA·RNA 구조를 조사하여 핵산의 단위체 결합을 표현한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          85
+        ],
+        "quote": "기본 단위체가 연결되어 만들어진 핵산의 특성을 확인해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-05",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-05] 지각과 생명체를 구성하는 물질들이 기본 단위체의 결합을 통해서 형성된다는 것을 규산\n염 광물, 단백질과 핵산의 예를 통해 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_021",
+      "codes": [
+        "10통과1-02-05"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          86,
+          87
+        ],
+        "quote": "DNA 모형을 제작하고 DNA의 구조적 특징과\n규칙성 탐구하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-05",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-05] 지각과 생명체를 구성하는 물질들이 기본 단위체의 결합을 통해서 형성된다는 것을 규산\n염 광물, 단백질과 핵산의 예를 통해 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_022",
+      "codes": [
+        "10통과1-02-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "전기 회로에 연결해 전류가 흐르는 물체와 흐르지 않는 물체를 구분한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          88
+        ],
+        "quote": "여러 가지 물체를 전류가 흐르는 것과 흐르지 않는 것으로 구분해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-06",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-06] 지구를 구성하는 물질을 전기적 성질에 따라 구분할 수 있고, 물질의 전기적 성질을 응용하\n여 일상생활과 첨단 기술에서 다양한 소재로 활용됨을 인식한다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_023",
+      "codes": [
+        "10통과1-02-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "전자 기기 부품을 도체·부도체·반도체로 구분하고 활용 사례를 조사한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          90
+        ],
+        "quote": "일상생활에서 도체, 부도체, 반도체를 활용하는 부품이나 소재에는 어떤 것들이 있는지 조사해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "image_transcription"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-02-06",
+          "book_id": "miraen_IS1",
+          "pdf_page": 44,
+          "quote": "[10통과1-02-06] 지구를 구성하는 물질을 전기적 성질에 따라 구분할 수 있고, 물질의 전기적 성질을 응용하\n여 일상생활과 첨단 기술에서 다양한 소재로 활용됨을 인식한다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_024",
+      "codes": [],
+      "method": "unresolved",
+      "rationale": "자연의 규칙성이나 과학 원리를 자유롭게 골라 사진전을 여는 활동으로 원소 주기성·단위체 등 특정 기준 내용으로 한정되지 않는다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          95
+        ],
+        "quote": "자연의 규칙성이 잘 드러나는 사진 작품 1`개를 골라 관련된 현상의 과학 원리를 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [],
+      "review_note": "학습자가 고를 구체적인 과학 주제가 정해진 뒤 기준 연결을 다시 판단해야 함."
+    },
+    {
+      "record_id": "miraen_IS1_025",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "희토류 채굴의 편익과 생태·환경 피해를 근거로 찬반 입장을 논증하는 과학 관련 사회적 쟁점 활동이다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          98
+        ],
+        "quote": "희토류 자원을 얻기 위한 극지방 개발에 대해 찬성과 반대 중 하나의 입장을 정하고, 이를 주장하는 글을 써 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에\n서 과학 윤리의 중요성에 대해 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": "책의 권과 다른 권의 기준에 연결한 내용 대조 결과이며 출판사의 활동별 공식 배정으로 해석하지 않음."
+    },
+    {
+      "record_id": "miraen_IS1_026",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "물의 순환과 에너지 흐름으로 날씨·지형 변화를 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          108
+        ],
+        "quote": "물이 순환하면서 날씨가 변하고 지표에 다양한 지형이 만들어지는 현상을 물질의 순환 및 에너지 흐름과 관련지어 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-01",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-01] 지구시스템은 태양계라는 시스템의 구성 요소임을 알고, 지구시스템을 구성하는 권역들 간\n의 물질 순환과 에너지 흐름의 결과로 나타나는 현상을 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_027",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "권역 사이 상호작용이 지구 환경과 인간 생활에 미치는 영향을 조사한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          111
+        ],
+        "quote": "지구시스템의 균형이 깨진 다양한 사례를 조사해 보고, 그 사례가 인간 생활에 주는 영향을 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-01",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-01] 지구시스템은 태양계라는 시스템의 구성 요소임을 알고, 지구시스템을 구성하는 권역들 간\n의 물질 순환과 에너지 흐름의 결과로 나타나는 현상을 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_028",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "지진·화산 분출 사례로 지권 변화가 다른 지구시스템 권역에 미치는 영향을 추론한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          116
+        ],
+        "quote": "지진과 화산 활동이 지구시스템에 미치는 영향을 추론하여 발표해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "image_transcription"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-02",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-02] 지권의 변화를 판 구조론 관점에서 해석하고, 에너지 흐름의 결과로 발생하는 지권의 변화\n가 지구시스템에 미치는 영향을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_029",
+      "codes": [
+        "10통과1-03-02"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          118
+        ],
+        "quote": "화산 분출로 인한 피해의 종류를 조사하고 피해 대책 수립하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-02",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-02] 지권의 변화를 판 구조론 관점에서 해석하고, 에너지 흐름의 결과로 발생하는 지권의 변화\n가 지구시스템에 미치는 영향을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_030",
+      "codes": [
+        "10통과1-03-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "닫힌 용기의 작은 지구 모형에서 권역별 구성 요소와 물질 순환·에너지 흐름을 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          121
+        ],
+        "quote": "작은 지구 안에서 일어나는 물질의 순환과 에너지의 흐름을 지구시스템의 상호작용과 관련지어 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-01",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-01] 지구시스템은 태양계라는 시스템의 구성 요소임을 알고, 지구시스템을 구성하는 권역들 간\n의 물질 순환과 에너지 흐름의 결과로 나타나는 현상을 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_031",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "자유 낙하의 시간별 이동과 가속도를 분석하여 중력에 의한 운동을 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          125
+        ],
+        "quote": "자유 낙하 하는 물체의 가속도는 어떤 특징이 있는지 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "image_transcription"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-03",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-03] 중력의 작용으로 인한 지구 표면과 지구 주위의 다양한 운동을 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_032",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          126,
+          127
+        ],
+        "quote": "자유 낙하와 수평으로 던진 물체의 운동을\n시각화하여 비교하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-03",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-03] 중력의 작용으로 인한 지구 표면과 지구 주위의 다양한 운동을 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_033",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "수평으로 던진 속력을 바꾸어 낙하 운동을 비교한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          129
+        ],
+        "quote": "수평 방향으로 물체를 던지는 속력에 따라 물체의 낙하 거리는 어떻게 달라지는지 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-03",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-03] 중력의 작용으로 인한 지구 표면과 지구 주위의 다양한 운동을 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_034",
+      "codes": [
+        "10통과1-03-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "지구와 달에서의 움직임을 비교하여 중력과 운동의 관계를 확장 적용한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          131
+        ],
+        "quote": "지구에서의 움직임과 달에서의 움직임은 어떤 차이가 있는지 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-03",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-03] 중력의 작용으로 인한 지구 표면과 지구 주위의 다양한 운동을 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": "기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS1_035",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          136,
+          137
+        ],
+        "quote": "교통수단과 스포츠 등에서 충격을 줄이는 방법 탐색하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-04",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-04] 상호작용이 없을 때 물체가 가속되지 않음을 알고, 충격량과 운동량의 관계를 충돌 관련 안\n전장치와 스포츠에 적용할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_036",
+      "codes": [
+        "10통과1-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "관성·운동량·충격량을 드론 충돌 안전장치에 적용하도록 명시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          141
+        ],
+        "quote": "드론의 안전장치를 고안할 때 관성, 운동량, 충격량 등 과학 원리를 적용했는지 생각해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-04",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-04] 상호작용이 없을 때 물체가 가속되지 않음을 알고, 충격량과 운동량의 관계를 충돌 관련 안\n전장치와 스포츠에 적용할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_037",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          147
+        ],
+        "quote": "효소 작용의 원리에 관한 실험하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-05",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-05] 생명 시스템을 유지하기 위해서 다양한 화학 반응과 물질 출입이 필요함을 이해하고, 일상\n생활에서 활용되는 화학 반응 사례를 조사하여 발표할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_038",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "효소를 활용하는 생활 속 화학 반응을 조사하고 발표한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          148
+        ],
+        "quote": "일상생활에서 효소를 활용한 사례와 효소에 의한 화학 반응을 조사해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "image_transcription"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-05",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-05] 생명 시스템을 유지하기 위해서 다양한 화학 반응과 물질 출입이 필요함을 이해하고, 일상\n생활에서 활용되는 화학 반응 사례를 조사하여 발표할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_039",
+      "codes": [
+        "10통과1-03-05"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          152,
+          153
+        ],
+        "quote": "막을 통한 물질의 이동을 실험하고\n세포막의 역할 탐구하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-05",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-05] 생명 시스템을 유지하기 위해서 다양한 화학 반응과 물질 출입이 필요함을 이해하고, 일상\n생활에서 활용되는 화학 반응 사례를 조사하여 발표할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_040",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "유전자에서 단백질을 거쳐 형질이 나타나는 관계를 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          155
+        ],
+        "quote": "꽃 색깔과 같은 형질이 나타나는 과정을 유전자와 단백질의 관계와 관련지어 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-06",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-06] 생명 시스템의 유지에 필요한 세포 내 정보의 흐름을 유전자로부터 단백질이 만들어지는 \n과정을 중심으로 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_041",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "유전부호의 염기 수와 아미노산 대응을 추론하여 단백질 합성 정보 흐름을 이해한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          156
+        ],
+        "quote": "DNA의 유전부호는 몇 개의 염기로 이루어져 있어야 하는지 써 보고, 그렇게 판단한 까닭을 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-06",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-06] 생명 시스템의 유지에 필요한 세포 내 정보의 흐름을 유전자로부터 단백질이 만들어지는 \n과정을 중심으로 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_042",
+      "codes": [
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "DNA→RNA→단백질 모형으로 전사·번역 정보 흐름을 표현한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          158
+        ],
+        "quote": "DNA의 유전정보로부터 단백질이 만들어지는 과정을 표현할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-06",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-06] 생명 시스템의 유지에 필요한 세포 내 정보의 흐름을 유전자로부터 단백질이 만들어지는 \n과정을 중심으로 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS1_043",
+      "codes": [
+        "10통과1-03-05",
+        "10통과1-03-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "가사에 물질대사·효소·세포막 출입과 유전정보 흐름을 담는 생명 시스템 종합 표현이다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          161
+        ],
+        "quote": "‘생명 시스템’ 단원에서 배운 물질대사와 효소, 세포막을 통한 물질 출입, 유전정보의 흐름 등에 관한 내용을 바탕",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과1-03-05",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-05] 생명 시스템을 유지하기 위해서 다양한 화학 반응과 물질 출입이 필요함을 이해하고, 일상\n생활에서 활용되는 화학 반응 사례를 조사하여 발표할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        },
+        {
+          "code": "10통과1-03-06",
+          "book_id": "miraen_IS1",
+          "pdf_page": 100,
+          "quote": "[10통과1-03-06] 생명 시스템의 유지에 필요한 세포 내 정보의 흐름을 유전자로부터 단백질이 만들어지는 \n과정을 중심으로 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학1_교사용교과서.pdf",
+          "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+        }
+      ],
+      "review_note": "기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS1_044",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "교통안전 기술 도입의 편익과 부작용을 근거로 설치 찬반을 논증하고 합리적 대안을 제시하는 사회적 쟁점 활동이다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          164
+        ],
+        "quote": "과속 방지턱과 관련한 자료, 기사 등을 조사하고 과속 방지턱의 효과에 관한 근거나 주장을 정리해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에\n서 과학 윤리의 중요성에 대해 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": "책의 권과 다른 권의 기준에 연결한 내용 대조 결과이며 출판사의 활동별 공식 배정으로 해석하지 않음. 기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS2_001",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "화석 생물의 서식 환경을 바탕으로 지질 시대 환경을 추론한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          15
+        ],
+        "quote": "화석을 이용하여 화석이 된 생물이 살았던 지질 시대의 환경을 추론할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-01",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-01] 지질 시대를 통해 지구 환경이 끊임없이 변화해 왔으며 이러한 환경 변화가 생물다양성에 \n미치는 영향을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_002",
+      "codes": [
+        "10통과2-01-01"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          18,
+          19
+        ],
+        "quote": "생물 대멸종의 원인과 그 이후의 변화를 설명하는\n여러 가설의 타당성 평가하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-01",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-01] 지질 시대를 통해 지구 환경이 끊임없이 변화해 왔으며 이러한 환경 변화가 생물다양성에 \n미치는 영향을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_003",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "딱정벌레 색깔 변이와 개체수 비율 변화를 자연선택으로 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          21
+        ],
+        "quote": "딱정벌레 집단에서 변이를 찾고, 딱정벌레 집단의 몸 색깔에 따른 개체수 비율 변화를 변이와 자연선택으로 설명할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-02",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-02] 변이의 발생과 자연선택 과정을 통해 생물의 진화가 일어나고, 진화의 과정을 통해 생물다\n양성이 형성되었음을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_004",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          22,
+          23
+        ],
+        "quote": "자연선택 과정에 대한 모의실험하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-02",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-02] 변이의 발생과 자연선택 과정을 통해 생물의 진화가 일어나고, 진화의 과정을 통해 생물다\n양성이 형성되었음을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_005",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "동일 성취기준 표에 연결된 생물다양성과 보전 소단원에서 다양성 개념을 보전 사례에 확장 적용한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          30
+        ],
+        "quote": "생물다양성을 보전하기 위한 구체적인 사례를 조사하고, 실천 방안을 탐색할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "image_transcription"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-02",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-02] 변이의 발생과 자연선택 과정을 통해 생물의 진화가 일어나고, 진화의 과정을 통해 생물다\n양성이 형성되었음을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": "기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS2_006",
+      "codes": [
+        "10통과2-01-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "생물다양성과 보전 소단원에서 생물종별 특징·서식지를 조사하여 다양성 보전의 중요성을 표현한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          35
+        ],
+        "quote": "멸종 위기 야생 생물 서식 지도 만들기 활동을 통해 생물다양성보전의 중요성을 생각해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-02",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-02] 변이의 발생과 자연선택 과정을 통해 생물의 진화가 일어나고, 진화의 과정을 통해 생물다\n양성이 형성되었음을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": "기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS2_007",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "구리판 가열 과정의 변화를 산소 이동에 의한 산화·환원으로 해석한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          40
+        ],
+        "quote": "겉불꽃과 속불꽃에서 일어나는 구리판의 변화를 관찰하고 산소와 관련지어 설명할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-03] 자연과 인류의 큰 변화를 가져온 광합성, 화석 연료 사용, 철의 제련 등에서 공통점을 찾아 \n산화와 환원을 이해하고, 생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성으로 분석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_008",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "구리와 은 이온 반응을 전자 이동으로 설명하여 산화·환원 규칙성을 분석한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          43
+        ],
+        "quote": "구리와 질산 은 수용액의 반응을 관찰하고 전자의 이동으로 설명할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-03] 자연과 인류의 큰 변화를 가져온 광합성, 화석 연료 사용, 철의 제련 등에서 공통점을 찾아 \n산화와 환원을 이해하고, 생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성으로 분석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_009",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "생활 속 변화에서 산소·전자의 이동을 찾아 산화·환원으로 분석한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          45
+        ],
+        "quote": "우리 주변의 변화를 관찰하고 산소의 이동이나 전자의 이동과 같은 규칙성을 찾아 분석할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-03] 자연과 인류의 큰 변화를 가져온 광합성, 화석 연료 사용, 철의 제련 등에서 공통점을 찾아 \n산화와 환원을 이해하고, 생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성으로 분석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_010",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "산성·염기성 물질을 구분하는 특성을 조사한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          46
+        ],
+        "quote": "산성 물질과 염기성 물질을 구분하는 방법을 조사하여 산성과 염기성을 각각 설명할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-04] 대표적인 산·염기 물질의 특징을 알고, 산과 염기를 혼합할 때 나타나는 중화 반응을 생활 \n속에서 이용할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_011",
+      "codes": [
+        "10통과2-01-04"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          50,
+          51
+        ],
+        "quote": "산과 염기를 혼합할 때 용액의 온도를 측정해\n그래프로 나타내기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-04] 대표적인 산·염기 물질의 특징을 알고, 산과 염기를 혼합할 때 나타나는 중화 반응을 생활 \n속에서 이용할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_012",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "열화상 사진의 온도 변화로 에너지 흡수·방출을 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          54
+        ],
+        "quote": "열화상 사진을 통해 온도 변화를 관찰하고 에너지가 출입하는 현상을 설명할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-05",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-05] 생활 주변에서 에너지를 흡수하거나 방출하는 현상을 찾아 에너지의 흡수 방출이 우리 생\n활에 어떻게 이용되는지 토의할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_013",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "생활 속 에너지 흡수·방출 활용 사례와 원리를 토의한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          56
+        ],
+        "quote": "생활 주변에서 에너지를 흡수하거나 방출하는 현상을 찾아 그 원리를 설명할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-05",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-05] 생활 주변에서 에너지를 흡수하거나 방출하는 현상을 찾아 에너지의 흡수 방출이 우리 생\n활에 어떻게 이용되는지 토의할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_014",
+      "codes": [
+        "10통과2-01-05"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          58,
+          59
+        ],
+        "quote": "물과 산화 칼슘을 이용한 음식 조리 방법\n설계하고 실험하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-05",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-05] 생활 주변에서 에너지를 흡수하거나 방출하는 현상을 찾아 에너지의 흡수 방출이 우리 생\n활에 어떻게 이용되는지 토의할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_015",
+      "codes": [
+        "10통과2-01-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "고려청자 등 제조 과정의 산화·환원 반응을 조사해 홍보 자료로 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          63
+        ],
+        "quote": "도자기 제조 과정과 그 과정에서 이용하는 화학 반응을 조사해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-03] 자연과 인류의 큰 변화를 가져온 광합성, 화석 연료 사용, 철의 제련 등에서 공통점을 찾아 \n산화와 환원을 이해하고, 생활 주변의 다양한 변화를 산화와 환원의 특징과 규칙성으로 분석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_016",
+      "codes": [
+        "10통과2-01-04",
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "바닷물의 산성화 원리와 해양 생태계에 미치는 영향을 함께 조사·토의한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          66
+        ],
+        "quote": "해양 산성화가 지구 환경과 생명체에 미치는 영향을 조사해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-01-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 10,
+          "quote": "[10통과2-01-04] 대표적인 산·염기 물질의 특징을 알고, 산과 염기를 혼합할 때 나타나는 중화 반응을 생활 \n속에서 이용할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        },
+        {
+          "code": "10통과2-02-02",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-02] 먹이 관계와 생태피라미드를 중심으로 생태계평형이 유지되는 과정을 이해하고, 환경의 \n변화가 생태계에 미칠 수 있는 영향에 대해 협력적으로 소통할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": "기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS2_017",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "생물요소·비생물요소 및 생산자·소비자·분해자를 구분한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          73
+        ],
+        "quote": "생태계구성요소를 생물요소와 비생물요소로 구분하고, 생물요소를 양분과 에너지가 이동하는 단계에 따라 구분할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-01",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-01] 생태계구성요소를 이해하고 생물과 환경 사이의 상호 관계를 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_018",
+      "codes": [
+        "10통과2-02-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "생물과 비생물 환경이 서로 영향을 주는 사례를 분석한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          75
+        ],
+        "quote": "생물과 환경의 상호 관계 사례를 분석하면서 생물과 환경이 서로 영향을 주고받는 관계임을 이해할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-01",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-01] 생태계구성요소를 이해하고 생물과 환경 사이의 상호 관계를 설명할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_019",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "카이바브 고원의 포식자·피식자 변화로 먹이 관계와 생태계평형을 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          78
+        ],
+        "quote": "먹이 관계가 생태계평형에 영향을 미친 카이바브 고원의 사례를 분석",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-02",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-02] 먹이 관계와 생태피라미드를 중심으로 생태계평형이 유지되는 과정을 이해하고, 환경의 \n변화가 생태계에 미칠 수 있는 영향에 대해 협력적으로 소통할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_020",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          79
+        ],
+        "quote": "개체군 변동 모의실험하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-02",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-02] 먹이 관계와 생태피라미드를 중심으로 생태계평형이 유지되는 과정을 이해하고, 환경의 \n변화가 생태계에 미칠 수 있는 영향에 대해 협력적으로 소통할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_021",
+      "codes": [
+        "10통과2-02-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "환경 변화 원인과 그로 인한 생태계 영향을 조사한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          80
+        ],
+        "quote": "알프스산맥과 아마존 열대우림에서 일어난 환경 변화의 원인을 각각 조사하고, 환경 변화가 생태계에 미칠 수 있는 영향을 설명할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-02",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-02] 먹이 관계와 생태피라미드를 중심으로 생태계평형이 유지되는 과정을 이해하고, 환경의 \n변화가 생태계에 미칠 수 있는 영향에 대해 협력적으로 소통할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_022",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "이산화 탄소 농도와 평균 기온 자료로 온실 효과 강화와 온난화 메커니즘을 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          83
+        ],
+        "quote": "대기 중 이산화 탄소 농도 변화와 지구 평균 기온 변화의 관계를 설명할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-03] 온실 효과 강화로 인한 지구 온난화의 메커니즘을 이해하고, 엘니뇨, 사막화 등과 같은 현\n상이 지구 환경과 인간 생활에 미치는 영향과 대처 방안을 분석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_023",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          84
+        ],
+        "quote": "지구 온난화로 인한 지구 열수지 변동 탐구하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-03] 온실 효과 강화로 인한 지구 온난화의 메커니즘을 이해하고, 엘니뇨, 사막화 등과 같은 현\n상이 지구 환경과 인간 생활에 미치는 영향과 대처 방안을 분석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_024",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "온난화·사막화·엘니뇨의 영향과 대처 방안의 타당성을 분석한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          89
+        ],
+        "quote": "지구 온난화, 사막화, 엘니뇨의 영향과 대처 방안을 조사하고 대처 방안의 타당성을 분석할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-03] 온실 효과 강화로 인한 지구 온난화의 메커니즘을 이해하고, 엘니뇨, 사막화 등과 같은 현\n상이 지구 환경과 인간 생활에 미치는 영향과 대처 방안을 분석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_025",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          90,
+          91
+        ],
+        "quote": "기후 변화로 인한 생태계와 지구계의\n미래 시나리오 구상하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-03] 온실 효과 강화로 인한 지구 온난화의 메커니즘을 이해하고, 엘니뇨, 사막화 등과 같은 현\n상이 지구 환경과 인간 생활에 미치는 영향과 대처 방안을 분석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_026",
+      "codes": [
+        "10통과2-02-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "탄소 중립의 실천 수칙을 기후 변화 대처 방안으로 작성·홍보한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          95
+        ],
+        "quote": "탄소 중립 실천 수칙 홍보물을 만들면서 기후 변화에 대응하기 위한 다양한 방법을 생각해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-03] 온실 효과 강화로 인한 지구 온난화의 메커니즘을 이해하고, 엘니뇨, 사막화 등과 같은 현\n상이 지구 환경과 인간 생활에 미치는 영향과 대처 방안을 분석할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_027",
+      "codes": [
+        "10통과2-02-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "태양에서 온 에너지가 지구에서 다양한 에너지로 전환되는 경로를 추론한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          100
+        ],
+        "quote": "태양 에너지가 지구에서 에너지 흐름을 일으키며 다양한 에너지로 전환되는 과정을 추론할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-04] 태양에서 수소 핵융합 반응을 통해 질량 일부가 에너지로 바뀌고, 그중 일부가 지구에서 \n에너지 흐름을 일으키며 다양한 에너지로 전환되는 과정을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_028",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          102,
+          103
+        ],
+        "quote": "자석과 코일의 상대 운동에 의해 운동 에너지가\n전기 에너지로 전환되는 과정 탐구하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-05",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-05] 발전기에서 운동 에너지가 전기 에너지로 전환되는 과정을 이해하고, 열원으로서 화석 연\n료, 핵에너지를 이용하는 발전소가 인간 생활에 미치는 영향을 조사·발표할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_029",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "간이 발전기의 회전과 발광을 관찰하여 운동 에너지의 전기 에너지 전환을 설명한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          106
+        ],
+        "quote": "간이발전기에서일어나는에너지전환과정을설명해보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-05",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-05] 발전기에서 운동 에너지가 전기 에너지로 전환되는 과정을 이해하고, 열원으로서 화석 연\n료, 핵에너지를 이용하는 발전소가 인간 생활에 미치는 영향을 조사·발표할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_030",
+      "codes": [
+        "10통과2-02-05"
+      ],
+      "method": "content_alignment",
+      "rationale": "화석·핵연료 발전소의 환경·경제·안전 영향을 조사 발표한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          109
+        ],
+        "quote": "화석 연료 또는 핵연료를 사용하는 발전소 중 한 곳을 선택해 다음 내용을 조사해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-05",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-05] 발전기에서 운동 에너지가 전기 에너지로 전환되는 과정을 이해하고, 열원으로서 화석 연\n료, 핵에너지를 이용하는 발전소가 인간 생활에 미치는 영향을 조사·발표할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_031",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "에너지 효율 소단원의 선수 개념 활동으로 유용한 에너지와 버려지는 에너지로의 전환을 다룬다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          110
+        ],
+        "quote": "각각의 기구를 사용할 때 일어나는 에너지 전환을 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-06",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-06] 에너지 효율의 의미와 중요성을 이해하고, 지속가능한 발전과 지구 환경 문제 해결에 신재\n생 에너지 기술을 활용하는 방안을 탐색할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": "기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS2_032",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "가솔린·전기 자동차의 전환 비율 자료로 에너지 효율을 비교한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          113
+        ],
+        "quote": "가솔린 자동차와 전기 자동차의 에너지 효율에 차이가 나는 까닭을 설명해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-06",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-06] 에너지 효율의 의미와 중요성을 이해하고, 지속가능한 발전과 지구 환경 문제 해결에 신재\n생 에너지 기술을 활용하는 방안을 탐색할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_033",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "신재생 에너지 기술의 학교 적용 방안을 조사해 자가발전 학교를 설계한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          116,
+          117
+        ],
+        "quote": "신재생 에너지 기술을 활용해 전기 에너지를 생산할 수 있는 방법을 탐색하고 자가발전 학교를 설계할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-06",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-06] 에너지 효율의 의미와 중요성을 이해하고, 지속가능한 발전과 지구 환경 문제 해결에 신재\n생 에너지 기술을 활용하는 방안을 탐색할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_034",
+      "codes": [
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "에너지 문제와 지속가능한 발전 목표를 연결하여 에너지 전환의 필요성을 홍보한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          121
+        ],
+        "quote": "에너지 문제와 관련한 지속가능한 발전 목표를 알리는 홍보 문구를 만들어 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-06",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-06] 에너지 효율의 의미와 중요성을 이해하고, 지속가능한 발전과 지구 환경 문제 해결에 신재\n생 에너지 기술을 활용하는 방안을 탐색할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": "기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS2_035",
+      "codes": [
+        "10통과2-02-05",
+        "10통과2-02-06"
+      ],
+      "method": "content_alignment",
+      "rationale": "현재 화석·핵연료 발전과 개발 중인 에너지원의 장단점을 비교해 미래 에너지 대안을 논의한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          124
+        ],
+        "quote": "우리나라에서 현재 사용하는 에너지원과 개발 중인 에너지원을 조사하고 장단점을 정리해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-02-05",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-05] 발전기에서 운동 에너지가 전기 에너지로 전환되는 과정을 이해하고, 열원으로서 화석 연\n료, 핵에너지를 이용하는 발전소가 인간 생활에 미치는 영향을 조사·발표할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        },
+        {
+          "code": "10통과2-02-06",
+          "book_id": "miraen_IS2",
+          "pdf_page": 68,
+          "quote": "[10통과2-02-06] 에너지 효율의 의미와 중요성을 이해하고, 지속가능한 발전과 지구 환경 문제 해결에 신재\n생 에너지 기술을 활용하는 방안을 탐색할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_036",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "content_alignment",
+      "rationale": "미래 사회 문제 해결에 과학을 적용한 사례로 과학의 필요성을 논증한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          131
+        ],
+        "quote": "미래 사회에 발생할 수 있는 문제를 해결하기 위해 과학 원리를 활용한 사례를 조사",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-01",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-01] 감염병의 진단, 추적 등을 사례로 과학의 유용성을 설명하고, 미래 사회 문제 해결에서 과\n학의 필요성에 대해 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_037",
+      "codes": [
+        "10통과2-03-01"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          132,
+          133
+        ],
+        "quote": "단백질과 핵산을 이용한 감염병 진단 기술\n체험하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-01",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-01] 감염병의 진단, 추적 등을 사례로 과학의 유용성을 설명하고, 미래 사회 문제 해결에서 과\n학의 필요성에 대해 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_038",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "생활 속 빅데이터 활용 사례로 장점과 문제점을 추론한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          135
+        ],
+        "quote": "일상생활에서 빅데이터가 활용되는 사례를 찾아 빅데이터 활용의 장점과 문제점을 추론할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-02",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-02] 빅데이터를 과학·기술·사회에서 사용하고 있는 사례를 조사하고, 빅데이터 활용의 장점과 \n문제점을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_039",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          136,
+          137
+        ],
+        "quote": "디지털 탐구 도구를 활용한\n실시간 생활 데이터 측정하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-02",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-02] 빅데이터를 과학·기술·사회에서 사용하고 있는 사례를 조사하고, 빅데이터 활용의 장점과 \n문제점을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_040",
+      "codes": [
+        "10통과2-03-02"
+      ],
+      "method": "content_alignment",
+      "rationale": "건강 데이터를 수집·시각화하여 빅데이터 활용의 유용성을 체험하는 적용 활동이다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          141
+        ],
+        "quote": "스마트 기기로 수집한 데이터를 종합해 자신의 건강 상태를 시각화해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-02",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-02] 빅데이터를 과학·기술·사회에서 사용하고 있는 사례를 조사하고, 빅데이터 활용의 장점과 \n문제점을 추론할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": "기준의 일부 요소·선수 개념 또는 개념 적용/보전/종합 표현 활동으로 연결. 이 활동 하나가 기준 전체 수행을 평가한다는 뜻은 아님."
+    },
+    {
+      "record_id": "miraen_IS2_041",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "direct",
+      "rationale": "교과서 단원의 성취기준 표가 해당 탐구 활동을 이 코드 아래에 직접 제시한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          146,
+          147
+        ],
+        "quote": "일상생활에 활용되는 로봇의 특징을\n분석하고 개선 방안 고안하기",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-03] 인공지능 로봇, 사물 인터넷 등과 같이 과학기술의 발전을 인간 삶과 환경 개선에 활용하는 \n사례를 찾고, 이러한 과학기술의 발전이 미래 사회에 미치는 유용성과 한계를 예측할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_042",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "과학기술 발전이 미래 사회에 미칠 유용성과 한계를 예측한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          148
+        ],
+        "quote": "과학기술의 발전이 미래 사회에 미치는 영향을 예측할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-03] 인공지능 로봇, 사물 인터넷 등과 같이 과학기술의 발전을 인간 삶과 환경 개선에 활용하는 \n사례를 찾고, 이러한 과학기술의 발전이 미래 사회에 미치는 유용성과 한계를 예측할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_043",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "인공지능 활용을 둘러싼 사회적 쟁점에 대해 근거를 조사하고 의사 결정한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          151
+        ],
+        "quote": "과학 관련 사회적 쟁점 중 하나인 인공지능의 활용에 대해 조사하고 합리적인 의사 결정을 할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에\n서 과학 윤리의 중요성에 대해 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_044",
+      "codes": [
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "과학기술 연구·이용에 필요한 태도로 과학 윤리의 중요성을 논증한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          152
+        ],
+        "quote": "과학기술을 연구하고 이용할 때 필요한 태도를 설명할 수 있다.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에\n서 과학 윤리의 중요성에 대해 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_045",
+      "codes": [
+        "10통과2-03-03"
+      ],
+      "method": "content_alignment",
+      "rationale": "일상생활 문제를 해결할 사물 인터넷 서비스를 구상하고 활용 모습을 표현한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          157
+        ],
+        "quote": "내가 선정한 문제를 해결하기 위해서 어떤 사물 인터넷 서비스를 개발할지 생각해 보고",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-03] 인공지능 로봇, 사물 인터넷 등과 같이 과학기술의 발전을 인간 삶과 환경 개선에 활용하는 \n사례를 찾고, 이러한 과학기술의 발전이 미래 사회에 미치는 유용성과 한계를 예측할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    },
+    {
+      "record_id": "miraen_IS2_046",
+      "codes": [
+        "10통과2-03-03",
+        "10통과2-03-04"
+      ],
+      "method": "content_alignment",
+      "rationale": "인공지능의 유용성과 한계를 환경·에너지 문제와 함께 검토하고 사회적 대안을 토의한다.",
+      "activity_evidence": {
+        "pdf_pages": [
+          160
+        ],
+        "quote": "인공지능 기술의 발전과 그에 따른 지구 환경 문제를 어떻게 해결할 수 있을지 친구들과 토의해 보자.",
+        "quote_source": "student task or explicitly stated textbook activity goal",
+        "verification": "pdf_text"
+      },
+      "standard_evidence": [
+        {
+          "code": "10통과2-03-03",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-03] 인공지능 로봇, 사물 인터넷 등과 같이 과학기술의 발전을 인간 삶과 환경 개선에 활용하는 \n사례를 찾고, 이러한 과학기술의 발전이 미래 사회에 미치는 유용성과 한계를 예측할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        },
+        {
+          "code": "10통과2-03-04",
+          "book_id": "miraen_IS2",
+          "pdf_page": 126,
+          "quote": "[10통과2-03-04] 과학기술의 발전 과정에서 발생할 수 있는 과학 관련 사회적 쟁점(SSI)과 과학기술 이용에\n서 과학 윤리의 중요성에 대해 논증할 수 있다.",
+          "source_file": "C:/Users/USER/Desktop/maintain/textbook_wiki/raw/미래엔_통합과학2_교사용교과서.pdf",
+          "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+        }
+      ],
+      "review_note": null
+    }
+  ]
+}

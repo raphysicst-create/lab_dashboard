@@ -1,0 +1,10 @@
+{
+  "outputs/extraction/combined-20260922/science_experiment_supplies_combined.json": {
+    "original_sha256": "b862cb1fbcf7093cd752dae15743c844809d5fb9e373b8602dcea16716f9ac59",
+    "expected_sha256": "c570f3bd85598d6cc486c346ebc033835c1544d9404f29b2356fb4b94087158b",
+    "commit": "e10b6b984946704ebefa716bb238761ace4e2fb2",
+    "reason": "별도 중학교 성취기준 적용 작업에서 사용자 요청에 따라 갱신되어 커밋됨. WORKSPACE_STATUS.md의 성취기준 JSON·사이트 반영 기록 참조. 이 고등학교 작업에서는 해당 파일을 수정하지 않음.",
+    "subsequent_application": "outputs/extraction/combined-20260922/decision_history/20260923-integrated-science/application.json",
+    "subsequent_reason": "사용자 후속 요청으로 고1 추출본 415개를 통합 JSON과 사이트에 반영함. 최초 스냅샷과 중학교 862행은 별도 보존."
+  }
+}
