@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-09-23T06:34:02.169Z",
+  "url": "https://raphysicst-create.github.io/lab_dashboard/",
+  "commit": "ab78623bfd528624c2ec2cc3201c3d776ee2c2a0",
+  "workflowRun": "https://github.com/raphysicst-create/lab_dashboard/actions/runs/35827250208",
+  "conclusion": "success",
+  "filesMatched": [
+    "index.html",
+    "app.js",
+    "style.css"
+  ],
+  "widths": [
+    320,
+    390,
+    700,
+    701,
+    1440
+  ],
+  "checked": [
+    "mobile collapsed initially",
+    "search while collapsed",
+    "expand and collapse",
+    "grade selection retained",
+    "reset filters",
+    "desktop filters visible",
+    "no horizontal overflow"
+  ],
+  "pageErrors": []
+}

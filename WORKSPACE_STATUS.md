@@ -30,7 +30,7 @@
 
 ## 데이터와 검증 상태
 
-- 2026-09-23 모바일 필터 접기 로컬 반영: 320/390/700/701/1440px, 검색·선택값 유지·초기화·키보드·화면 크기 전환 및 기존 전체 브라우저/검색 검증 통과. 페이지 오류 0건. 기록: `output/validation/mobile-filters-20260923/`. 사용자 요청에 따라 이 UI 변경의 GitHub Pages 배포를 진행합니다. 완료 여부는 최신 배포 확인 기록을 따릅니다.
+- 2026-09-23 모바일 필터 접기 로컬 반영: 320/390/700/701/1440px, 검색·선택값 유지·초기화·키보드·화면 크기 전환 및 기존 전체 브라우저/검색 검증 통과. 페이지 오류 0건. 기록: `output/validation/mobile-filters-20260923/`. 모바일 필터 커밋 `ab78623`의 GitHub Pages 배포 및 공개 화면 확인을 완료했습니다. 공개 검증 기록: `output/validation/mobile-filters-20260923/public/deployment.json`.
 - 공개 데이터 생성 입력은 `outputs/extraction/combined-20260922/science_experiment_supplies_combined.json`입니다. 기존 전체 출판사 선택 설정은 새 7개 출판사로 확장하고, 일부만 선택한 설정은 유지합니다.
 - 2026-09-23 로컬 데이터·검색·학년 필터·추가 교과서 상세·분류 빈값/미확인·약품·PC/모바일 브라우저 검증 통과. 기록: `output/validation/combined-site-20260923/`. 같은 항목의 공개 사이트 검증도 통과했으며 게시된 활동 862건의 모든 필드가 로컬 검증 데이터와 일치함을 확인했습니다.
 
@@ -62,7 +62,8 @@
 - 사이트: https://raphysicst-create.github.io/lab_dashboard/
 - 전체 작업을 보존하기 위해 저장소 구조를 로컬 프로젝트와 동일하게 `site/dist` 중심으로 정리했습니다. 루트 `.github/workflows/deploy-pages.yml`은 `site/dist`만 배포합니다. 루트의 이전 `dist` 사본은 중복을 없애기 위해 정리했습니다.
 - 전체 원자료·검토 기록은 사용자의 요청으로 공개 GitHub 저장소에 포함됩니다. 해당 자료를 웹 제품에 표시하거나 `site/dist`에 복사하지 않습니다.
-- 최신 배포 성공 커밋: `bdbe15b5b0461bb8891797b6ce13e29cbffdaec3` (통합과학2 부록 1건 제외). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35825704408 배포 성공, 공개 JSON 일치 및 부록 단원·활동 미노출 검증 완료. 현재 전체 1,276개·고1 414개·29단원. 기록: `output/validation/remove-appendix-20260923/public/`.
+- 최신 배포 성공 커밋: `ab78623bfd528624c2ec2cc3201c3d776ee2c2a0` (모바일 상세 필터 접기). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35827250208 배포 성공. 공개 HTML·JS·CSS가 로컬과 일치하며 320/390/700/701/1440px에서 초기 접힘·검색·필터 펼치기/접기·선택값 유지·초기화·PC 표시·가로 넘침 없음 확인, 페이지 오류 0건. 기록: `output/validation/mobile-filters-20260923/public/`.
+- 이전 배포 성공 커밋: `bdbe15b5b0461bb8891797b6ce13e29cbffdaec3` (통합과학2 부록 1건 제외). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35825704408 배포 성공, 공개 JSON 일치 및 부록 단원·활동 미노출 검증 완료. 현재 전체 1,276개·고1 414개·29단원. 기록: `output/validation/remove-appendix-20260923/public/`.
 - 이전 배포 성공 커밋: `d9322d47a1f548aded6e37d89cb155805ce4e684` (단원명 통일, 86개 표기를 대단원 29개+부록 1개로 정리). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35825015778 의 deploy 성공과 공개 JSON·웹 파일 일치, 단원 필터·출판사 통합·학년 구분·PC/모바일 검증 통과를 확인했습니다. 기록: `output/validation/unit-normalization-20260923/public/`.
 - 이전 배포 성공 커밋: `87f94abb24bdc470f7be0b3dc230500eb017a712` (고1 415개 추가, 총 1,277개·기준 118개). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35823842396 의 deploy 성공과 공개 사이트의 전체 JSON·변경 웹 파일 일치, 고1/중1 분리·복수 성취기준·준비물 원문·PC/모바일 브라우저 검증 통과를 확인했습니다. 페이지 오류 없음. 기록: `output/validation/integrated-site-20260923/public/`.
 - 이전 배포 성공 커밋: `e10b6b984946704ebefa716bb238761ace4e2fb2` (지학사·YBM 성취기준 370건·공식 기준 87개 반영). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35817930172 의 deploy 성공과 공개 사이트의 전체 862건·기준 87개 일치 및 학년·단원·기준 필터·기본순서·상세·PC/모바일 브라우저 검증 통과를 확인했습니다. 페이지 오류 없음. 기록: `output/validation/achievement-site-20260923/public/`.
