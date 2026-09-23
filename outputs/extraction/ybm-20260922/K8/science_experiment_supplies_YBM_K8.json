@@ -1,0 +1,2404 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "source_file": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\textbook_YBM_K8.pdf",
+    "sha256": "72cd9276adf12c88f5b5aa70d071407d2eeb2b452ebac617319a070fcc1165ff",
+    "book_id": "YBM_K8",
+    "grade": 2,
+    "pdf_page_count": 328,
+    "record_count": 83,
+    "source_document_type": "교사용 교과서(학생 본문과 교사용 해설 혼합)",
+    "extraction_policy": "학생 지면의 제목 있는 독립 수행 활동만 수록. 준비물 명시 없으면 null; 교사용 대체·팁·예시에서 보충하지 않음.",
+    "notes": [
+      "본문 단원명과 인쇄쪽을 사용하며 기존 웹 학년 매핑을 적용하지 않음.",
+      "활동별 성취기준 직접 연결이 확인되지 않아 null."
+    ]
+  },
+  "data": [
+    {
+      "id": "ybm_k8_0001",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 12,
+      "탐구활동": "물질을 구별하는 방법 알아보기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          12
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "물질을 구별하는 방법 알아보기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0002",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 14,
+      "탐구활동": "물질의 질량과 부피를 측정하여 물질 구별하기",
+      "교구": "크기가 다른 알루미늄 조각\n두 개와 철 조각 두 개\n전자저울\n핀셋\n눈금실린더\n물\n실험용 장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          18,
+          19
+        ],
+        "printed_pages": [
+          14,
+          15
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅰ",
+        "title_quote": "물질의 질량과 부피를 측정하여 물질 구별하기",
+        "supplies_quote": "크기가 다른 알루미늄 조각\n두 개와 철 조각 두 개\n전자저울\n핀셋\n눈금실린더\n물\n실험용 장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0003",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 19,
+      "탐구활동": "용질이 물에 녹는 양 비교하기",
+      "교구": "질산 칼륨\n물(20 ℃ 정도)\n시험관\n뜨거운 물(60 ℃ 정도)\n비커 두 개\n유리 막대\n얼음물\n시험관대\n전자저울\n시약포지\n약숟가락\n디지털 온도계\n면장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          19
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅰ",
+        "title_quote": "용질이 물에 녹는 양 비교하기",
+        "supplies_quote": "질산 칼륨\n물(20 ℃ 정도)\n시험관\n뜨거운 물(60 ℃ 정도)\n비커 두 개\n유리 막대\n얼음물\n시험관대\n전자저울\n시약포지\n약숟가락\n디지털 온도계\n면장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0004",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 20,
+      "탐구활동": "온도에 따른 기체의 용해도 관찰하기",
+      "교구": "탄산수\n시험관 두 개\n시험관대\n얼음물\n뜨거운 물\n비커 두 개\n실험용 장갑\n면장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          20
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "온도에 따른 기체의 용해도 관찰하기",
+        "supplies_quote": "탄산수\n시험관 두 개\n시험관대\n얼음물\n뜨거운 물\n비커 두 개\n실험용 장갑\n면장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0005",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 22,
+      "탐구활동": "물질이 융해하거나 응고할 때의 온도 알아보기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          22
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "물질이 융해하거나 응고할 때의 온도 알아보기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0006",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 24,
+      "탐구활동": "물질의 끓는 온도 측정하기",
+      "교구": "스마트 기기\n온도 센서\n물\n에탄올\n끓임쪽\n가지 달린 시험관\n구멍 뚫린 고무마개\n시험관\n고무관\n유리관\n비커 두 개\n가열 장치\n스탠드\n고정 집게\n보안경\n실험용 장갑\n면장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          28
+        ],
+        "printed_pages": [
+          24
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅰ",
+        "title_quote": "물질의 끓는 온도 측정하기",
+        "supplies_quote": "스마트 기기\n온도 센서\n물\n에탄올\n끓임쪽\n가지 달린 시험관\n구멍 뚫린 고무마개\n시험관\n고무관\n유리관\n비커 두 개\n가열 장치\n스탠드\n고정 집게\n보안경\n실험용 장갑\n면장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0007",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 26,
+      "탐구활동": "에브루를 이용한 나만의 작품 만들기",
+      "교구": "물, 흰 종이, 종이 크기의 넓은 그릇, 마블링 물감, 일회용 스포이트, 막대",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          30
+        ],
+        "printed_pages": [
+          26
+        ],
+        "activity_type": "한 뼘 자라는",
+        "chapter_label": "Ⅰ",
+        "title_quote": "에브루를 이용한 나만의 작품 만들기",
+        "supplies_quote": "물, 흰 종이, 종이 크기의 넓은 그릇, 마블링 물감, 일회용 스포이트, 막대",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0008",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 30,
+      "탐구활동": "순물질과 혼합물 구별하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          30
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "순물질과 혼합물 구별하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0009",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 33,
+      "탐구활동": "밀도 차이를 이용하여 혼합물 분리하기",
+      "교구": "종류가 다른 플라스틱 조각\n(PET, PS, PP)\n물\n비커\n핀셋\n소금\n가위\n페트리 접시\n유리 막대\n약숟가락\n실험용 장갑\n면장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          37
+        ],
+        "printed_pages": [
+          33
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅰ",
+        "title_quote": "밀도 차이를 이용하여 혼합물 분리하기",
+        "supplies_quote": "종류가 다른 플라스틱 조각\n(PET, PS, PP)\n물\n비커\n핀셋\n소금\n가위\n페트리 접시\n유리 막대\n약숟가락\n실험용 장갑\n면장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0010",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 34,
+      "탐구활동": "용해도 차이를 이용하여 혼합물 분리하기",
+      "교구": "질산 칼륨\n황산 구리(II)\n뜨거운 물(40 ℃ 정도)\n비커 세 개\n얼음물\n수조\n유리 막대\n깔때기\n거름종이\n깔때기대\n전자저울\n약숟가락\n시약포지\n보안경\n실험용 장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          38
+        ],
+        "printed_pages": [
+          34
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅰ",
+        "title_quote": "용해도 차이를 이용하여 혼합물 분리하기",
+        "supplies_quote": "질산 칼륨\n황산 구리(II)\n뜨거운 물(40 ℃ 정도)\n비커 세 개\n얼음물\n수조\n유리 막대\n깔때기\n거름종이\n깔때기대\n전자저울\n약숟가락\n시약포지\n보안경\n실험용 장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0011",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 40,
+      "탐구활동": "혼합물 분리 실험을 설계하고 수행하기",
+      "교구": "물\n대두유\n소금\n모래\n넓은 그릇\n모둠별 준비물\n스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          44,
+          45
+        ],
+        "printed_pages": [
+          40,
+          41
+        ],
+        "activity_type": "함께 만드는 탐구",
+        "chapter_label": "Ⅰ",
+        "title_quote": "혼합물 분리 실험을 설계하고 수행하기",
+        "supplies_quote": "물\n대두유\n소금\n모래\n넓은 그릇\n모둠별 준비물\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0012",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 44,
+      "탐구활동": "해양 쓰레기를 줄이기 위한 여러 가지 실천 방법",
+      "교구": "스마트 기기\n도화지\n그림 도구",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          48
+        ],
+        "printed_pages": [
+          44
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "Ⅰ",
+        "title_quote": "해양 쓰레기를 줄이기 위한 여러 가지 실천 방법",
+        "supplies_quote": "스마트 기기\n도화지\n그림 도구",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함",
+          "실천하는 생태 시민의 독립 수행 과제로 포함; 왼쪽 준비물 체크리스트의 스마트 기기 등을 본문에서 확인한 경우만 기입"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0013",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 51,
+      "탐구활동": "지구와 달의 표면 비교하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          57
+        ],
+        "printed_pages": [
+          51
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "지구와 달의 표면 비교하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0014",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 54,
+      "탐구활동": "지권의 층상 구조와 특징 조사하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          54
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅱ",
+        "title_quote": "지권의 층상 구조와 특징 조사하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0015",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 56,
+      "탐구활동": "지구 내부 탐험 게임 만들기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          56
+        ],
+        "activity_type": "한 뼘 자라는",
+        "chapter_label": "Ⅱ",
+        "title_quote": "지구 내부 탐험 게임 만들기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0016",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 60,
+      "탐구활동": "광물의 특성 관찰하기",
+      "교구": "광물 표본(석영, 방해석, 장석,\n흑운모, 적철석, 자철석)\n조흔판\n클립\n묽은 염산\n페트리 접시\n스포이트\n비커\n보안경\n실험용 장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          66,
+          67
+        ],
+        "printed_pages": [
+          60,
+          61
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅱ",
+        "title_quote": "광물의 특성 관찰하기",
+        "supplies_quote": "광물 표본(석영, 방해석, 장석,\n흑운모, 적철석, 자철석)\n조흔판\n클립\n묽은 염산\n페트리 접시\n스포이트\n비커\n보안경\n실험용 장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0017",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 64,
+      "탐구활동": "암석과 광물의 활용과 가치 알아보기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          64
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅱ",
+        "title_quote": "암석과 광물의 활용과 가치 알아보기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0018",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 70,
+      "탐구활동": "암석을 관찰하여 분류하기",
+      "교구": "암석 표본(화강암, 현무암, 역\n암, 이암, 편마암)\n돋보기\n페트리 접시",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          76,
+          77
+        ],
+        "printed_pages": [
+          70,
+          71
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅱ",
+        "title_quote": "암석을 관찰하여 분류하기",
+        "supplies_quote": "암석 표본(화강암, 현무암, 역\n암, 이암, 편마암)\n돋보기\n페트리 접시",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0019",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 73,
+      "탐구활동": "국가지질공원의 암석 조사하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          73
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "국가지질공원의 암석 조사하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0020",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 77,
+      "탐구활동": "암석의 풍화와 토양의 생성을 글과 만화로 표현하기",
+      "교구": "그림 도구\n스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          83
+        ],
+        "printed_pages": [
+          77
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "암석의 풍화와 토양의 생성을 글과 만화로 표현하기",
+        "supplies_quote": "그림 도구\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0021",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 82,
+      "탐구활동": "대륙 이동 경로 영상 만들기",
+      "교구": "스마트 기기\n대륙 모형(부록 337 쪽)",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          82
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "대륙 이동 경로 영상 만들기",
+        "supplies_quote": "스마트 기기\n대륙 모형(부록 337 쪽)",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0022",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 86,
+      "탐구활동": "빅데이터를 활용하여 화산대 및 지진대와 판의 경계와의 관련성 탐구하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          92,
+          93
+        ],
+        "printed_pages": [
+          86,
+          87
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅱ",
+        "title_quote": "빅데이터를 활용하여 화산대 및 지진대와 판의 경계와의 관련성 탐구하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0023",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 90,
+      "탐구활동": "전자 폐기물 속에서 금을 캐자!",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          90
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "Ⅱ",
+        "title_quote": "전자 폐기물 속에서 금을 캐자!",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0024",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 98,
+      "탐구활동": "빛의 반사와 굴절의 특징 관찰하기",
+      "교구": "원형 각도기 실험 장치\n평면거울\n슬릿 레이저\n물\n각도기가 달린 원형 물통\n보안경",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          106
+        ],
+        "printed_pages": [
+          98
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅲ",
+        "title_quote": "빛의 반사와 굴절의 특징 관찰하기",
+        "supplies_quote": "원형 각도기 실험 장치\n평면거울\n슬릿 레이저\n물\n각도기가 달린 원형 물통\n보안경",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0025",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 100,
+      "탐구활동": "물체를 보는 과정을 빛의 경로로 추론하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          108
+        ],
+        "printed_pages": [
+          100
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "물체를 보는 과정을 빛의 경로로 추론하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0026",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 102,
+      "탐구활동": "평면거울에 의한 상의 특징 관찰하기",
+      "교구": "중앙에 선을 그린 모눈종이\n아크릴 평면거울\n크기와 모양이 같은 물체 두 개",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          102
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "평면거울에 의한 상의 특징 관찰하기",
+        "supplies_quote": "중앙에 선을 그린 모눈종이\n아크릴 평면거울\n크기와 모양이 같은 물체 두 개",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0027",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 104,
+      "탐구활동": "볼록 거울과 오목 거울에 의한 상의 특징 관찰하기",
+      "교구": "물체\n볼록 거울\n오목 거울\n자",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          112
+        ],
+        "printed_pages": [
+          104
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅲ",
+        "title_quote": "볼록 거울과 오목 거울에 의한 상의 특징 관찰하기",
+        "supplies_quote": "물체\n볼록 거울\n오목 거울\n자",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0028",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 107,
+      "탐구활동": "볼록 렌즈와 오목 렌즈에 의한 상의 특징 관찰하기",
+      "교구": "물체\n볼록 렌즈\n오목 렌즈\n자",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          115
+        ],
+        "printed_pages": [
+          107
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅲ",
+        "title_quote": "볼록 렌즈와 오목 렌즈에 의한 상의 특징 관찰하기",
+        "supplies_quote": "물체\n볼록 렌즈\n오목 렌즈\n자",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0029",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 110,
+      "탐구활동": "일상생활에서 사용되는 거울과 렌즈 분류하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          110
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅲ",
+        "title_quote": "일상생활에서 사용되는 거울과 렌즈 분류하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0030",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 112,
+      "탐구활동": "조명에 따른 물체의 색 관찰하기",
+      "교구": "색 관찰 상자와 티셔츠 모형\n(부록 336 쪽)\n스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          120
+        ],
+        "printed_pages": [
+          112
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅲ",
+        "title_quote": "조명에 따른 물체의 색 관찰하기",
+        "supplies_quote": "색 관찰 상자와 티셔츠 모형\n(부록 336 쪽)\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0031",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 114,
+      "탐구활동": "영상 장치를 활용한 빛의 합성 관찰하기",
+      "교구": "확대경\n스마트 기기 두 대\n사인펜 세 개\n(빨간색, 파란색, 초록색)",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          122
+        ],
+        "printed_pages": [
+          114
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅲ",
+        "title_quote": "영상 장치를 활용한 빛의 합성 관찰하기",
+        "supplies_quote": "확대경\n스마트 기기 두 대\n사인펜 세 개\n(빨간색, 파란색, 초록색)",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0032",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 119,
+      "탐구활동": "파동의 발생과 전달 탐구하기",
+      "교구": "줄\n리본",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          127
+        ],
+        "printed_pages": [
+          119
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "파동의 발생과 전달 탐구하기",
+        "supplies_quote": "줄\n리본",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0033",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 122,
+      "탐구활동": "파동을 이용한 에너지와 정보의 전달 사례를 조사하여 공유하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          130,
+          131
+        ],
+        "printed_pages": [
+          122,
+          123
+        ],
+        "activity_type": "함께 만드는 탐구",
+        "chapter_label": "Ⅲ",
+        "title_quote": "파동을 이용한 에너지와 정보의 전달 사례를 조사하여 공유하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0034",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 124,
+      "탐구활동": "디지털 탐구 도구를 이용하여 소리의 진폭, 진동수, 파형 탐구하기",
+      "교구": "스마트 기기 두 대",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          132,
+          133
+        ],
+        "printed_pages": [
+          124,
+          125
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅲ",
+        "title_quote": "디지털 탐구 도구를 이용하여 소리의 진폭, 진동수, 파형 탐구하기",
+        "supplies_quote": "스마트 기기 두 대",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0035",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 128,
+      "탐구활동": "눈으로 음악을 감상하는 장치 만들기",
+      "교구": "플라스틱 컵, 칼, 풍선, 아크릴 거울,\n양면테이프, 접착테이프, 레이저 포인터, 클립,\n스마트 기기, 면장갑, 보안경",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          128
+        ],
+        "activity_type": "한 뼘 자라는",
+        "chapter_label": "Ⅲ",
+        "title_quote": "눈으로 음악을 감상하는 장치 만들기",
+        "supplies_quote": "플라스틱 컵, 칼, 풍선, 아크릴 거울,\n양면테이프, 접착테이프, 레이저 포인터, 클립,\n스마트 기기, 면장갑, 보안경",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0036",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 130,
+      "탐구활동": "소음 공해로부터 모두가 안전할 수 있는 세상",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          130
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "Ⅲ",
+        "title_quote": "소음 공해로부터 모두가 안전할 수 있는 세상",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함",
+          "실천하는 생태 시민의 독립 수행 과제로 포함; 왼쪽 준비물 체크리스트의 스마트 기기 등을 본문에서 확인한 경우만 기입"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0037",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 139,
+      "탐구활동": "원소 기호 익히기",
+      "교구": "원소 기호 판과 붙임딱지\n(부록 335 쪽)\n바둑알 네 개",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          149
+        ],
+        "printed_pages": [
+          139
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅳ",
+        "title_quote": "원소 기호 익히기",
+        "supplies_quote": "원소 기호 판과 붙임딱지\n(부록 335 쪽)\n바둑알 네 개",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0038",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 142,
+      "탐구활동": "지구 환경에 영향을 미치는 물질 표현하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          152
+        ],
+        "printed_pages": [
+          142
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅳ",
+        "title_quote": "지구 환경에 영향을 미치는 물질 표현하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0039",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 144,
+      "탐구활동": "원소 발견의 역사 알아보기",
+      "교구": "스마트 기기, A3 용지, 그림 도구",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          144
+        ],
+        "activity_type": "한 뼘 자라는",
+        "chapter_label": "Ⅳ",
+        "title_quote": "원소 발견의 역사 알아보기",
+        "supplies_quote": "스마트 기기, A3 용지, 그림 도구",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0040",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 149,
+      "탐구활동": "원자를 모형으로 나타내기",
+      "교구": "양성자, 중성자, 전자 붙임딱지\n(부록 334  쪽)",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          159
+        ],
+        "printed_pages": [
+          149
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅳ",
+        "title_quote": "원자를 모형으로 나타내기",
+        "supplies_quote": "양성자, 중성자, 전자 붙임딱지\n(부록 334  쪽)",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0041",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 151,
+      "탐구활동": "원자의 크기를 이해하기 위한 비유 모형 만들기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          151
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅳ",
+        "title_quote": "원자의 크기를 이해하기 위한 비유 모형 만들기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0042",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 154,
+      "탐구활동": "같은 족 원소의 유사성 탐구하기",
+      "교구": "원소 카드(부록 333 쪽)\n스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          154
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅳ",
+        "title_quote": "같은 족 원소의 유사성 탐구하기",
+        "supplies_quote": "원소 카드(부록 333 쪽)\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0043",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 156,
+      "탐구활동": "우리 반 주기율표 만들기",
+      "교구": "A4 용지\n그림 도구\n스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          166
+        ],
+        "printed_pages": [
+          156
+        ],
+        "activity_type": "한 뼘 자라는",
+        "chapter_label": "Ⅳ",
+        "title_quote": "우리 반 주기율표 만들기",
+        "supplies_quote": "A4 용지\n그림 도구\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0044",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 164,
+      "탐구활동": "전기력을 이용한 실험으로 이온의 이동 관찰하기",
+      "교구": "페트리 접시\n금속 집게\n전원 장치\n집게 달린 전선\n질산 칼륨 포화 수용액\n과망가니즈산 칼륨\n약숟가락\n실험용 장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          174
+        ],
+        "printed_pages": [
+          164
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅳ",
+        "title_quote": "전기력을 이용한 실험으로 이온의 이동 관찰하기",
+        "supplies_quote": "페트리 접시\n금속 집게\n전원 장치\n집게 달린 전선\n질산 칼륨 포화 수용액\n과망가니즈산 칼륨\n약숟가락\n실험용 장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0045",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 168,
+      "탐구활동": "탄소 색깔로 알아보는 탄소 중립 실천",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          178
+        ],
+        "printed_pages": [
+          168
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "Ⅳ",
+        "title_quote": "탄소 색깔로 알아보는 탄소 중립 실천",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함",
+          "실천하는 생태 시민의 독립 수행 과제로 포함; 왼쪽 준비물 체크리스트의 스마트 기기 등을 본문에서 확인한 경우만 기입"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0046",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 176,
+      "탐구활동": "광합성의 장소와 광합성으로 만들어지는 양분 추론하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          188
+        ],
+        "printed_pages": [
+          176
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅴ",
+        "title_quote": "광합성의 장소와 광합성으로 만들어지는 양분 추론하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0047",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 177,
+      "탐구활동": "광합성으로 만들어지는 기체 추론하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          189
+        ],
+        "printed_pages": [
+          177
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅴ",
+        "title_quote": "광합성으로 만들어지는 기체 추론하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0048",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 178,
+      "탐구활동": "광합성에 필요한 물질과 광합성산물 확인하기",
+      "교구": "시금칫잎\n바이오챔버\n이산화 탄소 농도 감지기\n산소 농도 감지기\n알루미늄 포일\n스마트 기기\nLED등(660 nm)\n줄자\n실험용 장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          190,
+          191
+        ],
+        "printed_pages": [
+          178,
+          179
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅴ",
+        "title_quote": "광합성에 필요한 물질과 광합성산물 확인하기",
+        "supplies_quote": "시금칫잎\n바이오챔버\n이산화 탄소 농도 감지기\n산소 농도 감지기\n알루미늄 포일\n스마트 기기\nLED등(660 nm)\n줄자\n실험용 장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0049",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 182,
+      "탐구활동": "환경요인과 광합성의 관계를 탐구하는 실험 설계하기",
+      "교구": "실험 설계 카드 판(부록 331 쪽)\n실험 설계 활동 카드(부록 332 쪽)\n스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          194
+        ],
+        "printed_pages": [
+          182
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅴ",
+        "title_quote": "환경요인과 광합성의 관계를 탐구하는 실험 설계하기",
+        "supplies_quote": "실험 설계 카드 판(부록 331 쪽)\n실험 설계 활동 카드(부록 332 쪽)\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함",
+          "준비물 박스 3개 항목을 이미지에서 직접 확인; 본문 뒤쪽의 카드 사진이나 카드 예시는 목록에 추가하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0050",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 188,
+      "탐구활동": "식물의 호흡과 광합성에서 기체 출입 비교하기",
+      "교구": "검정말\n묽은 BTB 용액\n감지기 전용 방수 천\n이산화 탄소 농도 감지기\nLED등(660 nm)\n스마트 기기\n집기병\n스포이트\n가위\n핀셋\n비커\n알루미늄 포일\n실험용 장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          200
+        ],
+        "printed_pages": [
+          188
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅴ",
+        "title_quote": "식물의 호흡과 광합성에서 기체 출입 비교하기",
+        "supplies_quote": "검정말\n묽은 BTB 용액\n감지기 전용 방수 천\n이산화 탄소 농도 감지기\nLED등(660 nm)\n스마트 기기\n집기병\n스포이트\n가위\n핀셋\n비커\n알루미늄 포일\n실험용 장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0051",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 192,
+      "탐구활동": "광합성산물의 저장과 이용을 모형으로 나타내기",
+      "교구": "종이\n연필\n색칠 도구\n스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          204,
+          205
+        ],
+        "printed_pages": [
+          192,
+          193
+        ],
+        "activity_type": "함께 만드는 탐구",
+        "chapter_label": "Ⅴ",
+        "title_quote": "광합성산물의 저장과 이용을 모형으로 나타내기",
+        "supplies_quote": "종이\n연필\n색칠 도구\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0052",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 194,
+      "탐구활동": "다양한 형태의 농장을 소개하는 기사 쓰기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          206
+        ],
+        "printed_pages": [
+          194
+        ],
+        "activity_type": "한 뼘 자라는",
+        "chapter_label": "Ⅴ",
+        "title_quote": "다양한 형태의 농장을 소개하는 기사 쓰기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0053",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 196,
+      "탐구활동": "초록 학교 가꾸기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          208
+        ],
+        "printed_pages": [
+          196
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "Ⅴ",
+        "title_quote": "초록 학교 가꾸기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함",
+          "실천하는 생태 시민의 독립 수행 과제로 포함; 왼쪽 준비물 체크리스트의 스마트 기기 등을 본문에서 확인한 경우만 기입"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0054",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 204,
+      "탐구활동": "음식물에 들어 있는 영양소 검출하기",
+      "교구": "음식물(식용유, 무지방 우유,\n쌀 음료, 이온 음료)\n시험관\n증류수\n영양소 검출 용액(베네딕트 용\n액, 아이오딘－아이오딘화 칼륨\n용액, 뷰렛 용액, 수단Ⅲ용액)\n영양소 검출 반응판\n(부록 330 쪽)\n뜨거운 물\n스포이트\n비커 두 개\n시험관대\n실험용 장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          218,
+          219
+        ],
+        "printed_pages": [
+          204,
+          205
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅵ",
+        "title_quote": "음식물에 들어 있는 영양소 검출하기",
+        "supplies_quote": "음식물(식용유, 무지방 우유,\n쌀 음료, 이온 음료)\n시험관\n증류수\n영양소 검출 용액(베네딕트 용\n액, 아이오딘－아이오딘화 칼륨\n용액, 뷰렛 용액, 수단Ⅲ용액)\n영양소 검출 반응판\n(부록 330 쪽)\n뜨거운 물\n스포이트\n비커 두 개\n시험관대\n실험용 장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0055",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 207,
+      "탐구활동": "침의 소화 작용 탐구하기",
+      "교구": "증류수\n거즈\n핀셋\n유리 막대\n5 % 녹말 용액\n시험관\n시험관대\n미지근한 물(35 ℃~40 ℃)\n아이오딘－아이오딘화 칼륨\n용액\n베네딕트 용액\n뜨거운 물(80 ℃~90 ℃)\n스포이트\n비커\n실험용 장갑\n실험복",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          221
+        ],
+        "printed_pages": [
+          207
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅵ",
+        "title_quote": "침의 소화 작용 탐구하기",
+        "supplies_quote": "증류수\n거즈\n핀셋\n유리 막대\n5 % 녹말 용액\n시험관\n시험관대\n미지근한 물(35 ℃~40 ℃)\n아이오딘－아이오딘화 칼륨\n용액\n베네딕트 용액\n뜨거운 물(80 ℃~90 ℃)\n스포이트\n비커\n실험용 장갑\n실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0056",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 214,
+      "탐구활동": "모형으로 혈관의 종류와 기능 비교하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          228
+        ],
+        "printed_pages": [
+          214
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅵ",
+        "title_quote": "모형으로 혈관의 종류와 기능 비교하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0057",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 217,
+      "탐구활동": "혈액의 순환 경로 나타내기",
+      "교구": "사람의 혈액 순환 경로 그림\n(부록 329 쪽)\n혈액 순환 경로 붙임딱지\n(부록 327 쪽)\nPVC관 네 개\n접착테이프",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          231
+        ],
+        "printed_pages": [
+          217
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅵ",
+        "title_quote": "혈액의 순환 경로 나타내기",
+        "supplies_quote": "사람의 혈액 순환 경로 그림\n(부록 329 쪽)\n혈액 순환 경로 붙임딱지\n(부록 327 쪽)\nPVC관 네 개\n접착테이프",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0058",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 218,
+      "탐구활동": "동물 실험 생명윤리 토의하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          232
+        ],
+        "printed_pages": [
+          218
+        ],
+        "activity_type": "함께하는 창의·융합",
+        "chapter_label": "Ⅵ",
+        "title_quote": "동물 실험 생명윤리 토의하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0059",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 222,
+      "탐구활동": "호흡운동의 원리를 나타내는 모형 만들기",
+      "교구": "Y자관\n작은 고무풍선 두 개\n접착테이프\n바닥에 구멍이 뚫린 투명한\n플라스틱 컵\n고무찰흙\n큰 고무풍선 한 개\n가위\n갈비뼈 모형 붙임딱지\n(부록 330 쪽)",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          236
+        ],
+        "printed_pages": [
+          222
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅵ",
+        "title_quote": "호흡운동의 원리를 나타내는 모형 만들기",
+        "supplies_quote": "Y자관\n작은 고무풍선 두 개\n접착테이프\n바닥에 구멍이 뚫린 투명한\n플라스틱 컵\n고무찰흙\n큰 고무풍선 한 개\n가위\n갈비뼈 모형 붙임딱지\n(부록 330 쪽)",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0060",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 224,
+      "탐구활동": "들숨과 날숨에서 나타나는 기체 교환 분석하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          238
+        ],
+        "printed_pages": [
+          224
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅵ",
+        "title_quote": "들숨과 날숨에서 나타나는 기체 교환 분석하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0061",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 229,
+      "탐구활동": "노폐물이 배설되는 과정을 모식도로 표현하기",
+      "교구": "오줌의 생성 과정 모식도\n(부록 328 쪽)\n배설계 붙임딱지(부록 327 쪽)",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          243
+        ],
+        "printed_pages": [
+          229
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅵ",
+        "title_quote": "노폐물이 배설되는 과정을 모식도로 표현하기",
+        "supplies_quote": "오줌의 생성 과정 모식도\n(부록 328 쪽)\n배설계 붙임딱지(부록 327 쪽)",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0062",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 232,
+      "탐구활동": "소화, 순환, 호흡, 배설의 관계 표현하기",
+      "교구": "영양소, 산소, 이산화 탄소,\n노폐물을 표현할 수 있는 물체",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          246,
+          247
+        ],
+        "printed_pages": [
+          232,
+          233
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅵ",
+        "title_quote": "소화, 순환, 호흡, 배설의 관계 표현하기",
+        "supplies_quote": "영양소, 산소, 이산화 탄소,\n노폐물을 표현할 수 있는 물체",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0063",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 236,
+      "탐구활동": "삼시 세끼로 지구 지키기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          250
+        ],
+        "printed_pages": [
+          236
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "Ⅵ",
+        "title_quote": "삼시 세끼로 지구 지키기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함",
+          "실천하는 생태 시민의 독립 수행 과제로 포함; 왼쪽 준비물 체크리스트의 스마트 기기 등을 본문에서 확인한 경우만 기입"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0064",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 244,
+      "탐구활동": "마찰한 물체 사이에 작용하는 힘 확인하기",
+      "교구": "풍선\n털가죽",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          260
+        ],
+        "printed_pages": [
+          244
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "마찰한 물체 사이에 작용하는 힘 확인하기",
+        "supplies_quote": "풍선\n털가죽",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0065",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 246,
+      "탐구활동": "정전기 유도 현상 관찰하기",
+      "교구": "알루미늄 깡통\n플라스틱 막대\n털가죽",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          262
+        ],
+        "printed_pages": [
+          246
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "정전기 유도 현상 관찰하기",
+        "supplies_quote": "알루미늄 깡통\n플라스틱 막대\n털가죽",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0066",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 249,
+      "탐구활동": "물 흐름 모형으로 전기 회로 설명하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          265
+        ],
+        "printed_pages": [
+          249
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "물 흐름 모형으로 전기 회로 설명하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0067",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 250,
+      "탐구활동": "전류, 전압, 저항 사이의 관계 탐구하기",
+      "교구": "전원 장치\n길이가 다른\n니크롬선 두 개\n스위치\n집게 달린 전선\n전압 센서\n전류 센서\n스마트 기기\n안전 장갑",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          266,
+          267
+        ],
+        "printed_pages": [
+          250,
+          251
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅶ",
+        "title_quote": "전류, 전압, 저항 사이의 관계 탐구하기",
+        "supplies_quote": "전원 장치\n길이가 다른\n니크롬선 두 개\n스위치\n집게 달린 전선\n전압 센서\n전류 센서\n스마트 기기\n안전 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0068",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 255,
+      "탐구활동": "저항의 직렬연결과 병렬연결의 특징 비교하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          271
+        ],
+        "printed_pages": [
+          255
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅶ",
+        "title_quote": "저항의 직렬연결과 병렬연결의 특징 비교하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0069",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 258,
+      "탐구활동": "전기 에너지의 전환과 소비 전력 보고서 작성하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          274,
+          275
+        ],
+        "printed_pages": [
+          258,
+          259
+        ],
+        "activity_type": "함께 만드는 탐구",
+        "chapter_label": "Ⅶ",
+        "title_quote": "전기 에너지의 전환과 소비 전력 보고서 작성하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0070",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 264,
+      "탐구활동": "전류가 흐르는 코일 주위의 자기장 관찰하기",
+      "교구": "코일 주위의 자기장 실험 장치\n니크롬선\n스위치\n전원 장치\n나침반 여덟 개\n집게 달린 전선\n안전 장갑",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          280
+        ],
+        "printed_pages": [
+          264
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅶ",
+        "title_quote": "전류가 흐르는 코일 주위의 자기장 관찰하기",
+        "supplies_quote": "코일 주위의 자기장 실험 장치\n니크롬선\n스위치\n전원 장치\n나침반 여덟 개\n집게 달린 전선\n안전 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0071",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 266,
+      "탐구활동": "자기장 안에 놓인 전류가 흐르는 코일 관찰하기",
+      "교구": "전원 장치\n전기 그네 실험 장치\n스위치\n집게 달린 전선\n안전 장갑",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          282,
+          283
+        ],
+        "printed_pages": [
+          266,
+          267
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅶ",
+        "title_quote": "자기장 안에 놓인 전류가 흐르는 코일 관찰하기",
+        "supplies_quote": "전원 장치\n전기 그네 실험 장치\n스위치\n집게 달린 전선\n안전 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0072",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 269,
+      "탐구활동": "일상생활 속 전동기 조사하고 만들어 보기",
+      "교구": "스마트 기기\n간이 전동기 만들기 키트",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          285
+        ],
+        "printed_pages": [
+          269
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "일상생활 속 전동기 조사하고 만들어 보기",
+        "supplies_quote": "스마트 기기\n간이 전동기 만들기 키트",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0073",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 270,
+      "탐구활동": "전기와 자기를 활용한 유니버설 디자인 기기 설계하기",
+      "교구": "A4 용지, 필기도구",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          286
+        ],
+        "printed_pages": [
+          270
+        ],
+        "activity_type": "한 뼘 자라는",
+        "chapter_label": "Ⅶ",
+        "title_quote": "전기와 자기를 활용한 유니버설 디자인 기기 설계하기",
+        "supplies_quote": "A4 용지, 필기도구",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0074",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 272,
+      "탐구활동": "디지털 탄소 발자국 줄이기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          288
+        ],
+        "printed_pages": [
+          272
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "Ⅶ",
+        "title_quote": "디지털 탄소 발자국 줄이기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함",
+          "실천하는 생태 시민의 독립 수행 과제로 포함; 왼쪽 준비물 체크리스트의 스마트 기기 등을 본문에서 확인한 경우만 기입"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0075",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 280,
+      "탐구활동": "시차 관측하기",
+      "교구": "줄자\n붙임쪽지\n스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          298
+        ],
+        "printed_pages": [
+          280
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅷ",
+        "title_quote": "시차 관측하기",
+        "supplies_quote": "줄자\n붙임쪽지\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0076",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 282,
+      "탐구활동": "광원으로부터의 거리에 따른 빛의 밝기 실험하기",
+      "교구": "스마트 기기\n스마트 기기 거치대\n전등\n30 cm 자",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          300,
+          301
+        ],
+        "printed_pages": [
+          282,
+          283
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅷ",
+        "title_quote": "광원으로부터의 거리에 따른 빛의 밝기 실험하기",
+        "supplies_quote": "스마트 기기\n스마트 기기 거치대\n전등\n30 cm 자",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0077",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 285,
+      "탐구활동": "별의 겉보기 등급과 절대 등급을 비교하여 거리 추정하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          303
+        ],
+        "printed_pages": [
+          285
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅷ",
+        "title_quote": "별의 겉보기 등급과 절대 등급을 비교하여 거리 추정하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0078",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 286,
+      "탐구활동": "별의 표면 온도와 색 비교하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          304
+        ],
+        "printed_pages": [
+          286
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅷ",
+        "title_quote": "별의 표면 온도와 색 비교하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 지면에 명시된 준비물 목록 없음",
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0079",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 288,
+      "탐구활동": "별을 주제로 한 예술 작품 소개하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          306
+        ],
+        "printed_pages": [
+          288
+        ],
+        "activity_type": "한 뼘 자라는",
+        "chapter_label": "Ⅷ",
+        "title_quote": "별을 주제로 한 예술 작품 소개하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0080",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 294,
+      "탐구활동": "천체 관측 프로그램을 활용하여 우리은하를 구성하는 천체 관측하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          312
+        ],
+        "printed_pages": [
+          294
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅷ",
+        "title_quote": "천체 관측 프로그램을 활용하여 우리은하를 구성하는 천체 관측하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0081",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 296,
+      "탐구활동": "풍선을 이용하여 우주 팽창 알아보기",
+      "교구": "고무풍선\n사인펜\n알파벳 붙임딱지\n줄자",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          314
+        ],
+        "printed_pages": [
+          296
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "Ⅷ",
+        "title_quote": "풍선을 이용하여 우주 팽창 알아보기",
+        "supplies_quote": "고무풍선\n사인펜\n알파벳 붙임딱지\n줄자",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0082",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 302,
+      "탐구활동": "우주 탐사 계획 세우기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          320,
+          321
+        ],
+        "printed_pages": [
+          302,
+          303
+        ],
+        "activity_type": "함께 만드는 탐구",
+        "chapter_label": "Ⅷ",
+        "title_quote": "우주 탐사 계획 세우기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함"
+        ]
+      }
+    },
+    {
+      "id": "ybm_k8_0083",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 306,
+      "탐구활동": "인공위성 다시 쓰기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K8",
+        "pdf_pages": [
+          324
+        ],
+        "printed_pages": [
+          306
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "Ⅷ",
+        "title_quote": "인공위성 다시 쓰기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 활동 제목 및 명시 준비물 영역의 확대 렌더 이미지를 직접 대조함",
+          "실천하는 생태 시민의 독립 수행 과제로 포함; 왼쪽 준비물 체크리스트의 스마트 기기 등을 본문에서 확인한 경우만 기입"
+        ]
+      }
+    }
+  ],
+  "views": {
+    "기본자료": {
+      "record_count": 83,
+      "record_ids": [
+        "ybm_k8_0001",
+        "ybm_k8_0002",
+        "ybm_k8_0003",
+        "ybm_k8_0004",
+        "ybm_k8_0005",
+        "ybm_k8_0006",
+        "ybm_k8_0007",
+        "ybm_k8_0008",
+        "ybm_k8_0009",
+        "ybm_k8_0010",
+        "ybm_k8_0011",
+        "ybm_k8_0012",
+        "ybm_k8_0013",
+        "ybm_k8_0014",
+        "ybm_k8_0015",
+        "ybm_k8_0016",
+        "ybm_k8_0017",
+        "ybm_k8_0018",
+        "ybm_k8_0019",
+        "ybm_k8_0020",
+        "ybm_k8_0021",
+        "ybm_k8_0022",
+        "ybm_k8_0023",
+        "ybm_k8_0024",
+        "ybm_k8_0025",
+        "ybm_k8_0026",
+        "ybm_k8_0027",
+        "ybm_k8_0028",
+        "ybm_k8_0029",
+        "ybm_k8_0030",
+        "ybm_k8_0031",
+        "ybm_k8_0032",
+        "ybm_k8_0033",
+        "ybm_k8_0034",
+        "ybm_k8_0035",
+        "ybm_k8_0036",
+        "ybm_k8_0037",
+        "ybm_k8_0038",
+        "ybm_k8_0039",
+        "ybm_k8_0040",
+        "ybm_k8_0041",
+        "ybm_k8_0042",
+        "ybm_k8_0043",
+        "ybm_k8_0044",
+        "ybm_k8_0045",
+        "ybm_k8_0046",
+        "ybm_k8_0047",
+        "ybm_k8_0048",
+        "ybm_k8_0049",
+        "ybm_k8_0050",
+        "ybm_k8_0051",
+        "ybm_k8_0052",
+        "ybm_k8_0053",
+        "ybm_k8_0054",
+        "ybm_k8_0055",
+        "ybm_k8_0056",
+        "ybm_k8_0057",
+        "ybm_k8_0058",
+        "ybm_k8_0059",
+        "ybm_k8_0060",
+        "ybm_k8_0061",
+        "ybm_k8_0062",
+        "ybm_k8_0063",
+        "ybm_k8_0064",
+        "ybm_k8_0065",
+        "ybm_k8_0066",
+        "ybm_k8_0067",
+        "ybm_k8_0068",
+        "ybm_k8_0069",
+        "ybm_k8_0070",
+        "ybm_k8_0071",
+        "ybm_k8_0072",
+        "ybm_k8_0073",
+        "ybm_k8_0074",
+        "ybm_k8_0075",
+        "ybm_k8_0076",
+        "ybm_k8_0077",
+        "ybm_k8_0078",
+        "ybm_k8_0079",
+        "ybm_k8_0080",
+        "ybm_k8_0081",
+        "ybm_k8_0082",
+        "ybm_k8_0083"
+      ]
+    }
+  }
+}

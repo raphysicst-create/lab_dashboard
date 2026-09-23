@@ -72,6 +72,11 @@
 
 새 컴퓨터에서는 이 저장소를 clone하고 README의 로컬 서버를 실행하면 수정된 화면과 원자료를 확인할 수 있습니다. GitHub Pages 게시 성공과 Git 저장소 백업 완료는 별개입니다.
 
+## 디자인 비교 사이트 업데이트 (2026-09-22)
+
+- 사용자 요청으로 디자인 비교 사이트 첫 카드에 ‘현재 기본 스타일’을 추가했습니다. 기본 화면은 최신 기능을 볼 수 있도록 https://raphysicst-create.github.io/lab_dashboard/ 로 연결하며, 기존 목업 4개는 유지합니다.
+- 반영 파일: `design-mockups-site/dist/index.html`. https://science-classroom-design-mockups.raphysicst.chatgpt.site/ 에 Sites 버전 2 게시 성공 후 공개 응답에서 카드 5개와 기본 화면 링크를 확인했습니다. 이 변경은 GitHub Pages 제품 코드와 데이터를 수정하지 않습니다.
+
 ## 이 저장소에 포함되지 않는 상태
 
 기존 컴퓨터의 Codex 대화 자체, 브라우저 localStorage, 로그인·인증 정보, 설치한 런타임·패키지, 임시 복제본, 이전 Sites의 중첩 `.git`과 `.openai` 연결 설정은 포함하지 않습니다. 대화에서 필요한 결정 사항은 이 문서로 옮겼습니다.

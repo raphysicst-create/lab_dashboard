@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "record_count": 862,
+  "unique_id_count": 862,
+  "output_sha256": "edf9f7f1d6d734c4a8950523c215ddfd2498abdf0991cc593ef53bd35d5ef247",
+  "sources": [
+    {
+      "dataset": "원자료",
+      "record_count": 454,
+      "records_exactly_preserved": true,
+      "input_file_unchanged": true
+    },
+    {
+      "dataset": "지학사",
+      "record_count": 169,
+      "records_exactly_preserved": true,
+      "input_file_unchanged": true
+    },
+    {
+      "dataset": "YBM",
+      "record_count": 239,
+      "records_exactly_preserved": true,
+      "input_file_unchanged": true
+    }
+  ],
+  "scope": "통합 구조와 원본 행·파일 보존 검사. 원문 교과서 재검토가 아님."
+}

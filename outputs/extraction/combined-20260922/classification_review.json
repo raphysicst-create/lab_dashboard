@@ -1,0 +1,5 @@
+{
+  "instructions": "각 item_id를 classification_decisions.json의 키로 사용하고 category에 실험 기자재 또는 실험 준비물을 입력한다. 미결정은 null. 참고 문맥은 occurrences에 있다.",
+  "item_count": 0,
+  "items": []
+}

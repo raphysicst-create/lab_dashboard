@@ -1,0 +1,5062 @@
+{
+  "metadata": {
+    "schema_version": "1.0-jihaksa-extraction",
+    "record_count": 169,
+    "source_books": [
+      {
+        "book_id": "jihaksa_K7",
+        "grade": 1,
+        "source_file": "textbook_jihaksa_K7.pdf",
+        "source_sha256": "1172bc57147358307211ab97b545e325c114f187ddc05b2a5f55af92b58f3764",
+        "pdf_page_count": 294,
+        "record_count": 82,
+        "supplies_null": 27,
+        "standards_null": 82,
+        "by_chapter": {
+          "과학과 인류의 지속가능한 삶": 9,
+          "생물의 구성과 다양성": 13,
+          "열": 11,
+          "물질의 상태 변화": 12,
+          "힘의 작용": 17,
+          "기체의 성질": 8,
+          "태양계": 12
+        },
+        "by_activity_type": {
+          "익혀 보기": 3,
+          "프로젝트": 3,
+          "조사": 7,
+          "예상": 1,
+          "조사, 토의": 2,
+          "미래 역량을 키우는 프로젝트": 6,
+          "함께하는 창의 융합 활동": 7,
+          "관찰": 11,
+          "추론": 11,
+          "분석": 1,
+          "분류": 1,
+          "놀이": 1,
+          "미래 역량을 키우는 견학·체험": 2,
+          "실험": 12,
+          "관찰, 분석": 1,
+          "미래 역량을 키우는 포트폴리오": 2,
+          "미래 역량을 키우는 직업ㆍ진로": 2,
+          "미래 역량을 키우는 토의·토론": 1,
+          "자료 해석": 3,
+          "조사, 분석": 5
+        },
+        "extraction_metadata": {
+          "schema_version": "1.0",
+          "source_file": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\textbook_jihaksa_K7.pdf",
+          "sha256": "1172bc57147358307211ab97b545e325c114f187ddc05b2a5f55af92b58f3764",
+          "book_id": "jihaksa_K7",
+          "grade": 1,
+          "pdf_page_count": 294,
+          "record_count": 82,
+          "extraction_policy": {
+            "included": "학생 본문의 제목 있는 수행 활동(탐구/해 보기, 미래 역량, 창의 융합 등). 모래시계 탐구 방법 익혀 보기의 제목 있는 3단계는 개별 기록하고 series_id로 연결. 연속된 탐구1·2는 상위 제목 한 건.",
+            "excluded": "도입 질문·사고력 문제·단원 평가·목차 반복·정답과 해설·교사용 지도안의 또 다른 활동·예시 탐구 계획서 재료.",
+            "supplies": "학생 본문에 명시된 준비물 체크박스 또는 준비물 목록만. 줄바꿈은 보존하고 수량을 추정하지 않음.",
+            "standards": "교사용 성취기준과 개별 활동의 연결이 명시되지 않으면 null."
+          },
+          "notes": [
+            "원본은 학생 교과서 본문과 교사용 지도 주석이 결합된 PDF다.",
+            "본문 인쇄쪽은 해당 PDF쪽보다 1 작다(예: PDF 19 → 인쇄 18). 앞부속·부록은 별도 분류했다.",
+            "열 관련 인쇄 원문 °C는 텍스트 추출에서 ¾로 깨져 렌더 이미지와 대조해 °C로 옮겼다.",
+            "본문에 준비물 목록이 없는 경우 null이며 준비물이 필요 없다는 뜻은 아니다."
+          ]
+        }
+      },
+      {
+        "book_id": "jihaksa_K8",
+        "grade": 2,
+        "source_file": "textbook_jihaksa_K8.pdf",
+        "source_sha256": "f7e1118d7f8068644a846f4c97ebb483dbc9b282f4e2dd683984bd77e52ece6b",
+        "pdf_page_count": 352,
+        "record_count": 87,
+        "supplies_null": 13,
+        "standards_null": 87,
+        "by_chapter": {
+          "Ⅰ. 물질의 특성": 12,
+          "Ⅱ. 지권의 변화": 12,
+          "Ⅲ. 빛과 파동": 14,
+          "Ⅳ. 물질의 구성": 8,
+          "Ⅴ. 식물과 에너지": 7,
+          "Ⅵ. 동물과 에너지": 10,
+          "Ⅶ. 전기와 자기": 12,
+          "Ⅷ. 별과 우주": 12
+        },
+        "by_activity_type": {
+          "해 보기": 60,
+          "탐구 활동": 19,
+          "함께하는 창의 융합 활동": 6,
+          "함께하는 주제 통합 수업": 2
+        },
+        "extraction_metadata": {
+          "schema_version": "1.0",
+          "source_file": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\textbook_jihaksa_K8.pdf",
+          "sha256": "f7e1118d7f8068644a846f4c97ebb483dbc9b282f4e2dd683984bd77e52ece6b",
+          "book_id": "jihaksa_K8",
+          "grade": 2,
+          "pdf_page_count": 352,
+          "record_count": 87,
+          "extraction_policy": "학생 본문에서 제목과 수행 절차가 있는 해 보기·탐구 활동·프로젝트·창의 융합 활동을 포함한다. 준비물은 본문에 표시된 준비물 칸/목록만 옮긴다. 교사용 대체 활동·수업 도움 자료·도입 질문·평가 문제는 제외하며 목록 부재는 null이다.",
+          "notes": [
+            "이 책의 단원명과 학년은 해당 교과서 원문을 따른다. 기존 통합 자료의 1~15단원 학년 매핑을 적용하지 않았다.",
+            "교사용 축쇄본으로, 주변 교사용 주석에 있는 추가 준비물은 본문 목록과 섞지 않았다.",
+            "PDF의 일부 내장 폰트가 한글·℃·Ⅱ를 엉뚱한 문자로 추출하여 렌더 이미지로 확인한 표기를 사용했다.",
+            "교사용 지도상의 성취기준은 본문 각 활동의 명시적 성취기준이 아니므로 성취기준 필드는 null이다.",
+            "교구는 목록 전체 문자열이고 수량을 계산하거나 절차에서 물품을 보충하지 않았다."
+          ]
+        }
+      }
+    ],
+    "original_columns": [
+      "단원명",
+      "성취기준",
+      "출판사",
+      "쪽",
+      "탐구활동",
+      "교구"
+    ],
+    "notes": [
+      "K7 and K8 are independent book extractions; existing 454 activity rows are not merged.",
+      "Chapter names/numbers preserve the source book and are not the website grade mapping.",
+      "Missing explicitly stated supplies or confirmed achievement standards remain null.",
+      "Source PDFs contain teacher guidance; activities target the student textbook region.",
+      "See book coverage.json, extraction_report.md and parent review for verification limits."
+    ]
+  },
+  "data": [
+    {
+      "id": "jihaksa_k7_0001",
+      "source_row": null,
+      "단원명": "과학과 인류의 지속가능한 삶",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 15,
+      "탐구활동": "탐구 문제를 정하고 가설 설정하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          15
+        ],
+        "activity_type": "익혀 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "탐구 문제를 정하고 가설 설정하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "인쇄 15~17쪽에 이어지는 모래시계 탐구 방법 익혀 보기의 한 단계"
+        ],
+        "series_id": "jihaksa_k7_sandglass_inquiry_steps"
+      }
+    },
+    {
+      "id": "jihaksa_k7_0002",
+      "source_row": null,
+      "단원명": "과학과 인류의 지속가능한 삶",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 16,
+      "탐구활동": "탐구 설계하고 수행하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          17
+        ],
+        "printed_pages": [
+          16
+        ],
+        "activity_type": "익혀 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "탐구 설계하고 수행하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "인쇄 15~17쪽에 이어지는 모래시계 탐구 방법 익혀 보기의 한 단계",
+          "예시 탐구 계획서 작성 항목의 준비물: “모래의 양이 다르고 뚜껑이 열리는 모래시계 3 개, 전자저울, 초시계”. 이 단계의 공통 준비물 목록이 아니므로 교구는 null"
+        ],
+        "series_id": "jihaksa_k7_sandglass_inquiry_steps"
+      }
+    },
+    {
+      "id": "jihaksa_k7_0003",
+      "source_row": null,
+      "단원명": "과학과 인류의 지속가능한 삶",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 17,
+      "탐구활동": "자료 해석하고 결론 도출하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          18
+        ],
+        "printed_pages": [
+          17
+        ],
+        "activity_type": "익혀 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "자료 해석하고 결론 도출하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "인쇄 15~17쪽에 이어지는 모래시계 탐구 방법 익혀 보기의 한 단계"
+        ],
+        "series_id": "jihaksa_k7_sandglass_inquiry_steps"
+      }
+    },
+    {
+      "id": "jihaksa_k7_0004",
+      "source_row": null,
+      "단원명": "과학과 인류의 지속가능한 삶",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 18,
+      "탐구활동": "주변에서 탐구할 문제를 발견하고 탐구 계획서 작성하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          19,
+          20
+        ],
+        "printed_pages": [
+          18,
+          19
+        ],
+        "activity_type": "프로젝트",
+        "chapter_label": "Ⅰ",
+        "title_quote": "주변에서 탐구할 문제를 발견하고 탐구 계획서 작성하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0005",
+      "source_row": null,
+      "단원명": "과학과 인류의 지속가능한 삶",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 21,
+      "탐구활동": "과학의 발전이 인류 문명에 영향을 준 사례 조사하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          21
+        ],
+        "activity_type": "조사",
+        "chapter_label": "Ⅰ",
+        "title_quote": "과학의 발전이 인류 문명에 영향을 준 사례 조사하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0006",
+      "source_row": null,
+      "단원명": "과학과 인류의 지속가능한 삶",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 25,
+      "탐구활동": "미래의 생활 모습 예측하기",
+      "교구": "스마트 기기\n참고 도서\n여러 가지 색깔 펜",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          26
+        ],
+        "printed_pages": [
+          25
+        ],
+        "activity_type": "예상",
+        "chapter_label": "Ⅰ",
+        "title_quote": "미래의 생활 모습 예측하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서\n여러 가지 색깔 펜",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0007",
+      "source_row": null,
+      "단원명": "과학과 인류의 지속가능한 삶",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 30,
+      "탐구활동": "인류의 지속가능한 삶을 위한 과학기술의 역할 알아보기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          30
+        ],
+        "activity_type": "조사, 토의",
+        "chapter_label": "Ⅰ",
+        "title_quote": "인류의 지속가능한 삶을 위한 과학기술의 역할 알아보기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0008",
+      "source_row": null,
+      "단원명": "과학과 인류의 지속가능한 삶",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 32,
+      "탐구활동": "탄소 발자국을 줄이자",
+      "교구": "스마트 기기\n여러 가지 촬영용 소품\n(카메라, 마이크 등)",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          32
+        ],
+        "activity_type": "미래 역량을 키우는 프로젝트",
+        "chapter_label": "Ⅰ",
+        "title_quote": "탄소 발자국을 줄이자",
+        "supplies_quote": "준비물 스마트 기기\n여러 가지 촬영용 소품\n(카메라, 마이크 등)",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0009",
+      "source_row": null,
+      "단원명": "과학과 인류의 지속가능한 삶",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 34,
+      "탐구활동": "편리하고 즐거운 학교 만들기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          35,
+          36
+        ],
+        "printed_pages": [
+          34,
+          35
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅰ",
+        "title_quote": "편리하고 즐거운 학교 만들기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "제목의 여러 줄을 이어 표기했으며 학생 본문 렌더 이미지에서 각 어구를 대조함"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0010",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 42,
+      "탐구활동": "세포 관찰하기",
+      "교구": "멀티미디어 영상 현미경, 여러 가지 영구표본(적혈구, 신경세포, 동물 상피세포, 양파 표피세포), 실험복, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          43,
+          44
+        ],
+        "printed_pages": [
+          42,
+          43
+        ],
+        "activity_type": "관찰",
+        "chapter_label": "Ⅱ",
+        "title_quote": "세포 관찰하기",
+        "supplies_quote": "준비물 멀티미디어 영상 현미경, 여러 가지 영구표본(적혈구, 신경세포, 동물 상피세포, 양파 표피세포), 실험복, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0011",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 45,
+      "탐구활동": "세포의 구조와 기능 관계 추론하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          46
+        ],
+        "printed_pages": [
+          45
+        ],
+        "activity_type": "추론",
+        "chapter_label": "Ⅱ",
+        "title_quote": "세포의 구조와 기능 관계 추론하기",
+        "supplies_quote": "준비물 스마트 기기",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0012",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 48,
+      "탐구활동": "동물과 식물의 구성 단계 비교하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          48
+        ],
+        "activity_type": "분석",
+        "chapter_label": "Ⅱ",
+        "title_quote": "동물과 식물의 구성 단계 비교하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0013",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 50,
+      "탐구활동": "3D 바이오 프린팅 기술로 만든, 인공 기관",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          51
+        ],
+        "printed_pages": [
+          50
+        ],
+        "activity_type": "미래 역량을 키우는 프로젝트",
+        "chapter_label": "Ⅱ",
+        "title_quote": "3D 바이오 프린팅 기술로 만든, 인공 기관",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "제목은 지면의 줄바꿈·여백에 흩어진 원문을 이어 표기함; 페이지 렌더 대조 필요",
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "제목의 여러 줄을 이어 표기했으며 학생 본문 렌더 이미지에서 각 어구를 대조함"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0014",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 54,
+      "탐구활동": "우리 학교의 생태 지도 만들기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          54
+        ],
+        "activity_type": "관찰",
+        "chapter_label": "Ⅱ",
+        "title_quote": "우리 학교의 생태 지도 만들기",
+        "supplies_quote": "준비물 스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "제목은 지면의 줄바꿈·여백에 흩어진 원문을 이어 표기함; 페이지 렌더 대조 필요"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0015",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 57,
+      "탐구활동": "감자의 변이와 생물다양성 관계 추론하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          57
+        ],
+        "activity_type": "추론",
+        "chapter_label": "Ⅱ",
+        "title_quote": "감자의 변이와 생물다양성 관계 추론하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0016",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 59,
+      "탐구활동": "얼룩말과 당나귀로 종의 개념 알아보기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          59
+        ],
+        "activity_type": "추론",
+        "chapter_label": "Ⅱ",
+        "title_quote": "얼룩말과 당나귀로 종의 개념 알아보기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0017",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 63,
+      "탐구활동": "우리 주변의 생물 분류하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          64
+        ],
+        "printed_pages": [
+          63
+        ],
+        "activity_type": "분류",
+        "chapter_label": "Ⅱ",
+        "title_quote": "우리 주변의 생물 분류하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0018",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 64,
+      "탐구활동": "생물다양성에 영향을 주는 숲의 변화 알아보기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          65
+        ],
+        "printed_pages": [
+          64
+        ],
+        "activity_type": "추론",
+        "chapter_label": "Ⅱ",
+        "title_quote": "생물다양성에 영향을 주는 숲의 변화 알아보기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0019",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 66,
+      "탐구활동": "생물다양성보전 놀이 활동하기",
+      "교구": "풍선 또는 공\n막대 또는 수수깡\n그물망",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          67,
+          68
+        ],
+        "printed_pages": [
+          66,
+          67
+        ],
+        "activity_type": "놀이",
+        "chapter_label": "Ⅱ",
+        "title_quote": "생물다양성보전 놀이 활동하기",
+        "supplies_quote": "준비물 풍선 또는 공\n막대 또는 수수깡\n그물망",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0020",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 69,
+      "탐구활동": "생물다양성을 유지하는 방안을 조사하고 실천하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          70
+        ],
+        "printed_pages": [
+          69
+        ],
+        "activity_type": "조사",
+        "chapter_label": "Ⅱ",
+        "title_quote": "생물다양성을 유지하는 방안을 조사하고 실천하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0021",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 72,
+      "탐구활동": "집에서 관람하는 생물다양성",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          73
+        ],
+        "printed_pages": [
+          72
+        ],
+        "activity_type": "미래 역량을 키우는 견학·체험",
+        "chapter_label": "Ⅱ",
+        "title_quote": "집에서 관람하는 생물다양성",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0022",
+      "source_row": null,
+      "단원명": "생물의 구성과 다양성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 74,
+      "탐구활동": "인공지능으로 외래종 분류하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          75,
+          76
+        ],
+        "printed_pages": [
+          74,
+          75
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅱ",
+        "title_quote": "인공지능으로 외래종 분류하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0023",
+      "source_row": null,
+      "단원명": "열",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 84,
+      "탐구활동": "가열하지 않고 식용유의 온도 높이기",
+      "교구": "보온병\n실온의 식용유 50 mL\n디지털 온도계",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          84
+        ],
+        "activity_type": "관찰",
+        "chapter_label": "Ⅲ",
+        "title_quote": "가열하지 않고 식용유의 온도 높이기",
+        "supplies_quote": "준비물 보온병\n실온의 식용유 50 mL\n디지털 온도계",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0024",
+      "source_row": null,
+      "단원명": "열",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 86,
+      "탐구활동": "온도가 다른 두 물체가 만날 때 온도 변화 관찰하기",
+      "교구": "열량계(A형), 뜨거운 물 100 mL, 차가운 물 200 mL, 스마트 온도 센서, 스마트 기기, 실험복, 보안경, 면장갑",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          86
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅲ",
+        "title_quote": "온도가 다른 두 물체가 만날 때 온도 변화 관찰하기",
+        "supplies_quote": "준비물 열량계(A형), 뜨거운 물 100 mL, 차가운 물 200 mL, 스마트 온도 센서, 스마트 기기, 실험복, 보안경, 면장갑",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0025",
+      "source_row": null,
+      "단원명": "열",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 91,
+      "탐구활동": "열의 이동을 몸으로 표현하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          91
+        ],
+        "activity_type": "프로젝트",
+        "chapter_label": "Ⅲ",
+        "title_quote": "열의 이동을 몸으로 표현하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0026",
+      "source_row": null,
+      "단원명": "열",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 92,
+      "탐구활동": "물체에서 열의 전도 비교하기",
+      "교구": "여러 가지 물질판(구리, 철, 플라스틱)\n검은색 종이테이프\n유리판\n뜨거운 물\n비커\n스탠드\n집게\n열화상 카메라\n실험복\n보안경\n면장갑",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          93,
+          94
+        ],
+        "printed_pages": [
+          92,
+          93
+        ],
+        "activity_type": "관찰, 분석",
+        "chapter_label": "Ⅲ",
+        "title_quote": "물체에서 열의 전도 비교하기",
+        "supplies_quote": "준비물 여러 가지 물질판(구리, 철, 플라스틱)\n검은색 종이테이프\n유리판\n뜨거운 물\n비커\n스탠드\n집게\n열화상 카메라\n실험복\n보안경\n면장갑",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0027",
+      "source_row": null,
+      "단원명": "열",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 94,
+      "탐구활동": "대류를 활용한 냉방 건축가, 흰개미",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          95
+        ],
+        "printed_pages": [
+          94
+        ],
+        "activity_type": "미래 역량을 키우는 포트폴리오",
+        "chapter_label": "Ⅲ",
+        "title_quote": "대류를 활용한 냉방 건축가, 흰개미",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "제목은 지면의 줄바꿈·여백에 흩어진 원문을 이어 표기함; 페이지 렌더 대조 필요",
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0028",
+      "source_row": null,
+      "단원명": "열",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 99,
+      "탐구활동": "물과 식용유의 비열 비교하기",
+      "교구": "물\n식용유\n금속 컵\n핫플레이트\n스탠드\n전자저울\n스마트 온도 센서\n스마트 기기\n실험복\n보안경\n면장갑",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          100
+        ],
+        "printed_pages": [
+          99
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅲ",
+        "title_quote": "물과 식용유의 비열 비교하기",
+        "supplies_quote": "준비물 물\n식용유\n금속 컵\n핫플레이트\n스탠드\n전자저울\n스마트 온도 센서\n스마트 기기\n실험복\n보안경\n면장갑",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0029",
+      "source_row": null,
+      "단원명": "열",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 101,
+      "탐구활동": "비열을 활용한 사례 조사하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          102
+        ],
+        "printed_pages": [
+          101
+        ],
+        "activity_type": "조사",
+        "chapter_label": "Ⅲ",
+        "title_quote": "비열을 활용한 사례 조사하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0030",
+      "source_row": null,
+      "단원명": "열",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 102,
+      "탐구활동": "액체에 열을 가할 때 부피 변화 관찰하기",
+      "교구": "찬물, 뜨거운 물, 에탄올, 유리관, 삼각 플라스크, 구멍 뚫린 실리콘 마개, 수조, 색소(파랑, 빨강), 실험복, 보안경, 면장갑",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          103
+        ],
+        "printed_pages": [
+          102
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅲ",
+        "title_quote": "액체에 열을 가할 때 부피 변화 관찰하기",
+        "supplies_quote": "준비물 찬물, 뜨거운 물, 에탄올, 유리관, 삼각 플라스크, 구멍 뚫린 실리콘 마개, 수조, 색소(파랑, 빨강), 실험복, 보안경, 면장갑",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0031",
+      "source_row": null,
+      "단원명": "열",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 104,
+      "탐구활동": "열팽창을 활용한 우리 주변의 사례 조사하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          105
+        ],
+        "printed_pages": [
+          104
+        ],
+        "activity_type": "조사",
+        "chapter_label": "Ⅲ",
+        "title_quote": "열팽창을 활용한 우리 주변의 사례 조사하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0032",
+      "source_row": null,
+      "단원명": "열",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 106,
+      "탐구활동": "열팽창을 극복하라, 신소재 공학 연구원",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          106
+        ],
+        "activity_type": "미래 역량을 키우는 직업ㆍ진로",
+        "chapter_label": "Ⅲ",
+        "title_quote": "열팽창을 극복하라, 신소재 공학 연구원",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "제목의 여러 줄을 이어 표기했으며 학생 본문 렌더 이미지에서 각 어구를 대조함"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0033",
+      "source_row": null,
+      "단원명": "열",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 108,
+      "탐구활동": "극한의 환경을 버티는 우주복 설계하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          109,
+          110
+        ],
+        "printed_pages": [
+          108,
+          109
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅲ",
+        "title_quote": "극한의 환경을 버티는 우주복 설계하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "제목의 여러 줄을 이어 표기했으며 학생 본문 렌더 이미지에서 각 어구를 대조함"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0034",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 118,
+      "탐구활동": "확산 현상 관찰하기",
+      "교구": "향수\n물\n색소\n스프레이병\n500 mL 비커\n스포이트\n스마트 기기\n실험복\n실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          119,
+          120
+        ],
+        "printed_pages": [
+          118,
+          119
+        ],
+        "activity_type": "관찰",
+        "chapter_label": "Ⅳ",
+        "title_quote": "확산 현상 관찰하기",
+        "supplies_quote": "준비물 향수\n물\n색소\n스프레이병\n500 mL 비커\n스포이트\n스마트 기기\n실험복\n실험용 장갑",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0035",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 120,
+      "탐구활동": "에탄올의 증발 현상 관찰하기",
+      "교구": "에탄올, 페트리 접시, 스포이트, 거름종이, 전자저울, 실험복, 보안경, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          120
+        ],
+        "activity_type": "관찰",
+        "chapter_label": "Ⅳ",
+        "title_quote": "에탄올의 증발 현상 관찰하기",
+        "supplies_quote": "준비물 에탄올, 페트리 접시, 스포이트, 거름종이, 전자저울, 실험복, 보안경, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0036",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 123,
+      "탐구활동": "고체, 액체, 기체 상태의 입자 모형 나타내기",
+      "교구": "페트리 접시\n공 모양 과자",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          124
+        ],
+        "printed_pages": [
+          123
+        ],
+        "activity_type": "추론",
+        "chapter_label": "Ⅳ",
+        "title_quote": "고체, 액체, 기체 상태의 입자 모형 나타내기",
+        "supplies_quote": "준비물 페트리 접시\n공 모양 과자",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0037",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 126,
+      "탐구활동": "청정에너지로 사용하는 수소",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          127
+        ],
+        "printed_pages": [
+          126
+        ],
+        "activity_type": "미래 역량을 키우는 토의·토론",
+        "chapter_label": "Ⅳ",
+        "title_quote": "청정에너지로 사용하는 수소",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0038",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 130,
+      "탐구활동": "초콜릿의 상태 변화 관찰하기",
+      "교구": "초콜릿 튜브, 약 60 °C의 물, 모양 틀, 그릇, 숟가락, 실험복, 면장갑",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          131
+        ],
+        "printed_pages": [
+          130
+        ],
+        "activity_type": "관찰",
+        "chapter_label": "Ⅳ",
+        "title_quote": "초콜릿의 상태 변화 관찰하기",
+        "supplies_quote": "준비물 초콜릿 튜브, 약 60 °C의 물, 모양 틀, 그릇, 숟가락, 실험복, 면장갑",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0039",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 132,
+      "탐구활동": "상태 변화가 일어날 때 부피와 질량 변화 관찰하기",
+      "교구": "아세톤\n차가운 물\n뜨거운 물(50 °C~60 °C)\n삼각 플라스크\n비커\n스포이트\n사각 수조\n실리콘 마개\n지퍼 백\n전자저울\n드라이어\n실험복\n보안경\n마스크\n면장갑\n실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          133,
+          134
+        ],
+        "printed_pages": [
+          132,
+          133
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅳ",
+        "title_quote": "상태 변화가 일어날 때 부피와 질량 변화 관찰하기",
+        "supplies_quote": "준비물 아세톤\n차가운 물\n뜨거운 물(50 °C~60 °C)\n삼각 플라스크\n비커\n스포이트\n사각 수조\n실리콘 마개\n지퍼 백\n전자저울\n드라이어\n실험복\n보안경\n마스크\n면장갑\n실험용 장갑",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0040",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 134,
+      "탐구활동": "드라이아이스의 상태 변화 관찰하기",
+      "교구": "드라이아이스, 비눗물, 투명한 컵, 털실, 실험복, 면장갑",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          135
+        ],
+        "printed_pages": [
+          134
+        ],
+        "activity_type": "관찰",
+        "chapter_label": "Ⅳ",
+        "title_quote": "드라이아이스의 상태 변화 관찰하기",
+        "supplies_quote": "준비물 드라이아이스, 비눗물, 투명한 컵, 털실, 실험복, 면장갑",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0041",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 136,
+      "탐구활동": "냉각 곡선과 가열 곡선 그리기",
+      "교구": "물(증류수), 조각 얼음, 소금, 스포이트, 50 mL 비커, 수조, 약숟가락, 디지털 온도계, 스탠드, 집게, 집게 잡이, 초시계, 색깔 펜, 실험복, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          137,
+          138
+        ],
+        "printed_pages": [
+          136,
+          137
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅳ",
+        "title_quote": "냉각 곡선과 가열 곡선 그리기",
+        "supplies_quote": "준비물 물(증류수), 조각 얼음, 소금, 스포이트, 50 mL 비커, 수조, 약숟가락, 디지털 온도계, 스탠드, 집게, 집게 잡이, 초시계, 색깔 펜, 실험복, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "제목은 지면의 줄바꿈·여백에 흩어진 원문을 이어 표기함; 페이지 렌더 대조 필요"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0042",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 138,
+      "탐구활동": "상태 변화를 입자 모형으로 나타내기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          138
+        ],
+        "activity_type": "추론",
+        "chapter_label": "Ⅳ",
+        "title_quote": "상태 변화를 입자 모형으로 나타내기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0043",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 141,
+      "탐구활동": "상태 변화가 일어날 때 출입하는 열에너지의 유용성 토의하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          142
+        ],
+        "printed_pages": [
+          141
+        ],
+        "activity_type": "조사, 토의",
+        "chapter_label": "Ⅳ",
+        "title_quote": "상태 변화가 일어날 때 출입하는 열에너지의 유용성 토의하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0044",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 142,
+      "탐구활동": "상태 변화가 일어날 때 출입하는 열에너지를 이용하는 스마트 팜",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          143
+        ],
+        "printed_pages": [
+          142
+        ],
+        "activity_type": "미래 역량을 키우는 프로젝트",
+        "chapter_label": "Ⅳ",
+        "title_quote": "상태 변화가 일어날 때 출입하는 열에너지를 이용하는 스마트 팜",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "제목의 여러 줄을 이어 표기했으며 학생 본문 렌더 이미지에서 각 어구를 대조함"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0045",
+      "source_row": null,
+      "단원명": "물질의 상태 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 144,
+      "탐구활동": "창의적인 와카 타워 만들기",
+      "교구": "빨대형 블록, 연결발, 여러 종류의 그물망(양파망, 스타킹 등), 컵, 빵 끈, 가습기, 가위",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          145,
+          146
+        ],
+        "printed_pages": [
+          144,
+          145
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅳ",
+        "title_quote": "창의적인 와카 타워 만들기",
+        "supplies_quote": "준비물 빨대형 블록, 연결발, 여러 종류의 그물망(양파망, 스타킹 등), 컵, 빵 끈, 가습기, 가위",
+        "standard_quote": null,
+        "review_notes": [
+          "준비물 목록은 활동의 다음 인쇄쪽 145(PDF 146)에 있음"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0046",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 154,
+      "탐구활동": "생활 속에서 힘이 작용한 상황 찾기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          155
+        ],
+        "printed_pages": [
+          154
+        ],
+        "activity_type": "추론",
+        "chapter_label": "Ⅴ",
+        "title_quote": "생활 속에서 힘이 작용한 상황 찾기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "제목은 지면의 줄바꿈·여백에 흩어진 원문을 이어 표기함; 페이지 렌더 대조 필요",
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0047",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 156,
+      "탐구활동": "두 힘 더하기",
+      "교구": "용수철저울\n고무판\n모눈종이\n고무줄\n압정\n고리",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          157
+        ],
+        "printed_pages": [
+          156
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅴ",
+        "title_quote": "두 힘 더하기",
+        "supplies_quote": "준비물 용수철저울\n고무판\n모눈종이\n고무줄\n압정\n고리",
+        "standard_quote": null,
+        "review_notes": [
+          "제목은 지면의 줄바꿈·여백에 흩어진 원문을 이어 표기함; 페이지 렌더 대조 필요"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0048",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 158,
+      "탐구활동": "물체에 작용하는 힘의 방향 찾기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          159
+        ],
+        "printed_pages": [
+          158
+        ],
+        "activity_type": "추론",
+        "chapter_label": "Ⅴ",
+        "title_quote": "물체에 작용하는 힘의 방향 찾기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0049",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 160,
+      "탐구활동": "중력의 크기가 변할 때 생기는 일 추론하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          161
+        ],
+        "printed_pages": [
+          160
+        ],
+        "activity_type": "추론",
+        "chapter_label": "Ⅴ",
+        "title_quote": "중력의 크기가 변할 때 생기는 일 추론하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0050",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 162,
+      "탐구활동": "탄성력이 작용하는 방향 찾기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          163
+        ],
+        "printed_pages": [
+          162
+        ],
+        "activity_type": "자료 해석",
+        "chapter_label": "Ⅴ",
+        "title_quote": "탄성력이 작용하는 방향 찾기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0051",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 164,
+      "탐구활동": "용수철의 탄성력 측정하기",
+      "교구": "용수철 실험 장치\n추\n디지털 용수철저울",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          165
+        ],
+        "printed_pages": [
+          164
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅴ",
+        "title_quote": "용수철의 탄성력 측정하기",
+        "supplies_quote": "준비물 용수철 실험 장치\n추\n디지털 용수철저울",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0052",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 166,
+      "탐구활동": "마찰력을 이용한 일상생활 속 도구 찾기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          167
+        ],
+        "printed_pages": [
+          166
+        ],
+        "activity_type": "조사",
+        "chapter_label": "Ⅴ",
+        "title_quote": "마찰력을 이용한 일상생활 속 도구 찾기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0053",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 168,
+      "탐구활동": "물속에서 물체가 받는 힘 관찰하기",
+      "교구": "나무 막대\n50 g 추\n실\n컵\n물",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          169
+        ],
+        "printed_pages": [
+          168
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅴ",
+        "title_quote": "물속에서 물체가 받는 힘 관찰하기",
+        "supplies_quote": "준비물 나무 막대\n50 g 추\n실\n컵\n물",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0054",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 170,
+      "탐구활동": "물속에서 부력 측정하기",
+      "교구": "용수철저울, 500 g 추, 투명 컵, 물, 스탠드",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          171
+        ],
+        "printed_pages": [
+          170
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅴ",
+        "title_quote": "물속에서 부력 측정하기",
+        "supplies_quote": "준비물 용수철저울, 500 g 추, 투명 컵, 물, 스탠드",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0055",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 172,
+      "탐구활동": "힘의 작용으로 공을 디자인하다",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          173
+        ],
+        "printed_pages": [
+          172
+        ],
+        "activity_type": "미래 역량을 키우는 프로젝트",
+        "chapter_label": "Ⅴ",
+        "title_quote": "힘의 작용으로 공을 디자인하다",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "제목의 여러 줄을 이어 표기했으며 학생 본문 렌더 이미지에서 각 어구를 대조함"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0056",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 176,
+      "탐구활동": "알짜힘과 물체의 운동 상태의 관계 찾아보기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          177
+        ],
+        "printed_pages": [
+          176
+        ],
+        "activity_type": "자료 해석",
+        "chapter_label": "Ⅴ",
+        "title_quote": "알짜힘과 물체의 운동 상태의 관계 찾아보기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0057",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 179,
+      "탐구활동": "운동 상태가 변하는 사례 조사하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          180
+        ],
+        "printed_pages": [
+          179
+        ],
+        "activity_type": "조사, 분석",
+        "chapter_label": "Ⅴ",
+        "title_quote": "운동 상태가 변하는 사례 조사하기",
+        "supplies_quote": "준비물 스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0058",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 180,
+      "탐구활동": "학교에서 힘이 작용하는 상황 찾아보기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          181
+        ],
+        "printed_pages": [
+          180
+        ],
+        "activity_type": "조사, 분석",
+        "chapter_label": "Ⅴ",
+        "title_quote": "학교에서 힘이 작용하는 상황 찾아보기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0059",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 183,
+      "탐구활동": "힘을 이용하여 일상생활의 불편함 개선하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          184
+        ],
+        "printed_pages": [
+          183
+        ],
+        "activity_type": "프로젝트",
+        "chapter_label": "Ⅴ",
+        "title_quote": "힘을 이용하여 일상생활의 불편함 개선하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0060",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 184,
+      "탐구활동": "놀이기구에 작용하는 힘 탐구하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          185,
+          186
+        ],
+        "printed_pages": [
+          184,
+          185
+        ],
+        "activity_type": "조사, 분석",
+        "chapter_label": "Ⅴ",
+        "title_quote": "놀이기구에 작용하는 힘 탐구하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0061",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 186,
+      "탐구활동": "빙판 위 기적을 준비하는 동계 스포츠 장비 매니저",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          187
+        ],
+        "printed_pages": [
+          186
+        ],
+        "activity_type": "미래 역량을 키우는 직업ㆍ진로",
+        "chapter_label": "Ⅴ",
+        "title_quote": "빙판 위 기적을 준비하는 동계 스포츠 장비 매니저",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "제목의 여러 줄을 이어 표기했으며 학생 본문 렌더 이미지에서 각 어구를 대조함"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0062",
+      "source_row": null,
+      "단원명": "힘의 작용",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 188,
+      "탐구활동": "힘으로 달리는 장난감 자동차 만들기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          189,
+          190
+        ],
+        "printed_pages": [
+          188,
+          189
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅴ",
+        "title_quote": "힘으로 달리는 장난감 자동차 만들기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "제목은 지면의 줄바꿈·여백에 흩어진 원문을 이어 표기함; 페이지 렌더 대조 필요",
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "제목의 여러 줄을 이어 표기했으며 학생 본문 렌더 이미지에서 각 어구를 대조함"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0063",
+      "source_row": null,
+      "단원명": "기체의 성질",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 199,
+      "탐구활동": "손바닥에 전해지는 콩의 힘 느껴 보기",
+      "교구": "콩\n페트병",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          200
+        ],
+        "printed_pages": [
+          199
+        ],
+        "activity_type": "추론",
+        "chapter_label": "Ⅵ",
+        "title_quote": "손바닥에 전해지는 콩의 힘 느껴 보기",
+        "supplies_quote": "준비물 콩\n페트병",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0064",
+      "source_row": null,
+      "단원명": "기체의 성질",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 200,
+      "탐구활동": "기체의 압력과 부피 관계 알아보기",
+      "교구": "20 mL 주사기\n기체 압력 센서\n스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          201,
+          202
+        ],
+        "printed_pages": [
+          200,
+          201
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅵ",
+        "title_quote": "기체의 압력과 부피 관계 알아보기",
+        "supplies_quote": "준비물 20 mL 주사기\n기체 압력 센서\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0065",
+      "source_row": null,
+      "단원명": "기체의 성질",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 205,
+      "탐구활동": "일상생활에서 기체의 압력과 부피 관계가 나타나는 현상 찾기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          206
+        ],
+        "printed_pages": [
+          205
+        ],
+        "activity_type": "조사",
+        "chapter_label": "Ⅵ",
+        "title_quote": "일상생활에서 기체의 압력과 부피 관계가 나타나는 현상 찾기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0066",
+      "source_row": null,
+      "단원명": "기체의 성질",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 206,
+      "탐구활동": "비행기 안 공기의 압력을 책임지는 여압 장치",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          207
+        ],
+        "printed_pages": [
+          206
+        ],
+        "activity_type": "미래 역량을 키우는 프로젝트",
+        "chapter_label": "Ⅵ",
+        "title_quote": "비행기 안 공기의 압력을 책임지는 여압 장치",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "제목의 여러 줄을 이어 표기했으며 학생 본문 렌더 이미지에서 각 어구를 대조함"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0067",
+      "source_row": null,
+      "단원명": "기체의 성질",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 210,
+      "탐구활동": "기체의 온도와 부피 관계 알아보기",
+      "교구": "뜨거운 물(50 °C~70 °C)\n실온의 물(20 °C~25 °C)\n얼음물\n500 mL 비커\n100 mL 삼각 플라스크\n20 mL 유리 주사기\n구멍 뚫린 실리콘 마개\n실리콘 관\n스탠드\n집게\n집게 잡이\n디지털 온도계\n실험복\n면장갑\n스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          211,
+          212
+        ],
+        "printed_pages": [
+          210,
+          211
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅵ",
+        "title_quote": "기체의 온도와 부피 관계 알아보기",
+        "supplies_quote": "준비물 뜨거운 물(50 °C~70 °C)\n실온의 물(20 °C~25 °C)\n얼음물\n500 mL 비커\n100 mL 삼각 플라스크\n20 mL 유리 주사기\n구멍 뚫린 실리콘 마개\n실리콘 관\n스탠드\n집게\n집게 잡이\n디지털 온도계\n실험복\n면장갑\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0068",
+      "source_row": null,
+      "단원명": "기체의 성질",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 215,
+      "탐구활동": "일상생활에서 기체의 온도와 부피 관계가 나타나는 사례 찾기",
+      "교구": "사례 카드\n종",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          216
+        ],
+        "printed_pages": [
+          215
+        ],
+        "activity_type": "조사",
+        "chapter_label": "Ⅵ",
+        "title_quote": "일상생활에서 기체의 온도와 부피 관계가 나타나는 사례 찾기",
+        "supplies_quote": "준비물 사례 카드\n종",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0069",
+      "source_row": null,
+      "단원명": "기체의 성질",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 216,
+      "탐구활동": "기체의 부피 변화를 이용한 온도계 만들기",
+      "교구": "빨대, 플라스틱병, 마개, 색소를 탄 물",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          217
+        ],
+        "printed_pages": [
+          216
+        ],
+        "activity_type": "미래 역량을 키우는 포트폴리오",
+        "chapter_label": "Ⅵ",
+        "title_quote": "기체의 부피 변화를 이용한 온도계 만들기",
+        "supplies_quote": "준비물 빨대, 플라스틱병, 마개, 색소를 탄 물",
+        "standard_quote": null,
+        "review_notes": [
+          "제목은 지면의 줄바꿈·여백에 흩어진 원문을 이어 표기함; 페이지 렌더 대조 필요",
+          "준비물은 본문 포트폴리오의 제작 과정 안에 명시된 목록",
+          "제목의 여러 줄을 이어 표기했으며 학생 본문 렌더 이미지에서 각 어구를 대조함"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0070",
+      "source_row": null,
+      "단원명": "기체의 성질",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 218,
+      "탐구활동": "공기의 압력을 이용한 재활 장비 고안하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          219,
+          220
+        ],
+        "printed_pages": [
+          218,
+          219
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅵ",
+        "title_quote": "공기의 압력을 이용한 재활 장비 고안하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0071",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 229,
+      "탐구활동": "태양계 천체 자료 수집 및 분석하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          230
+        ],
+        "printed_pages": [
+          229
+        ],
+        "activity_type": "조사, 분석",
+        "chapter_label": "Ⅶ",
+        "title_quote": "태양계 천체 자료 수집 및 분석하기",
+        "supplies_quote": "준비물 스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0072",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 234,
+      "탐구활동": "태양계 행성 분류하기",
+      "교구": "태양계 행성 카드",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          235
+        ],
+        "printed_pages": [
+          234
+        ],
+        "activity_type": "자료 해석",
+        "chapter_label": "Ⅶ",
+        "title_quote": "태양계 행성 분류하기",
+        "supplies_quote": "준비물 태양계 행성 카드",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0073",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 237,
+      "탐구활동": "태양에서 나타나는 현상 살펴보기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          238
+        ],
+        "printed_pages": [
+          237
+        ],
+        "activity_type": "조사, 분석",
+        "chapter_label": "Ⅶ",
+        "title_quote": "태양에서 나타나는 현상 살펴보기",
+        "supplies_quote": "준비물 스마트 기기",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0074",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 239,
+      "탐구활동": "태양 활동이 활발할 때 지구에서 나타나는 현상 추론하기",
+      "교구": "스마트 기기\n참고 도서",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          240
+        ],
+        "printed_pages": [
+          239
+        ],
+        "activity_type": "추론",
+        "chapter_label": "Ⅶ",
+        "title_quote": "태양 활동이 활발할 때 지구에서 나타나는 현상 추론하기",
+        "supplies_quote": "준비물 스마트 기기\n참고 도서",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0075",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 240,
+      "탐구활동": "제2의 지구를 꿈꾸다, 화성 테라포밍",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          241
+        ],
+        "printed_pages": [
+          240
+        ],
+        "activity_type": "미래 역량을 키우는 프로젝트",
+        "chapter_label": "Ⅶ",
+        "title_quote": "제2의 지구를 꿈꾸다, 화성 테라포밍",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0076",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 244,
+      "탐구활동": "천체 관측 프로그램으로 별의 일주 운동 알아보기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          245
+        ],
+        "printed_pages": [
+          244
+        ],
+        "activity_type": "관찰",
+        "chapter_label": "Ⅶ",
+        "title_quote": "천체 관측 프로그램으로 별의 일주 운동 알아보기",
+        "supplies_quote": "준비물 스마트 기기",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0077",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 246,
+      "탐구활동": "태양의 위치에 따라서 별자리가 달라지는 까닭 알아보기",
+      "교구": "전등\n여러 가지 별자리 그림\n(물고기자리, 쌍둥이자리, 처녀자리, 궁수자리)",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          247
+        ],
+        "printed_pages": [
+          246
+        ],
+        "activity_type": "관찰",
+        "chapter_label": "Ⅶ",
+        "title_quote": "태양의 위치에 따라서 별자리가 달라지는 까닭 알아보기",
+        "supplies_quote": "준비물 전등\n여러 가지 별자리 그림\n(물고기자리, 쌍둥이자리, 처녀자리, 궁수자리)",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0078",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 249,
+      "탐구활동": "모형을 이용하여 달의 위상 변화 관찰하기",
+      "교구": "손전등, 스타이로폼 공, 나무젓가락, 회전의자, 보안경, 액션캠",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          250
+        ],
+        "printed_pages": [
+          249
+        ],
+        "activity_type": "관찰",
+        "chapter_label": "Ⅶ",
+        "title_quote": "모형을 이용하여 달의 위상 변화 관찰하기",
+        "supplies_quote": "준비물 손전등, 스타이로폼 공, 나무젓가락, 회전의자, 보안경, 액션캠",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0079",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 250,
+      "탐구활동": "식이 일어나는 원리 알아보기",
+      "교구": "전등\n지구본\n스타이로폼 공\n이쑤시개\n스마트 기기\n스마트 기기 거치대",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          251
+        ],
+        "printed_pages": [
+          250
+        ],
+        "activity_type": "실험",
+        "chapter_label": "Ⅶ",
+        "title_quote": "식이 일어나는 원리 알아보기",
+        "supplies_quote": "준비물 전등\n지구본\n스타이로폼 공\n이쑤시개\n스마트 기기\n스마트 기기 거치대",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0080",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 252,
+      "탐구활동": "천체 망원경을 이용하여 달, 행성 관측하기",
+      "교구": "천체 망원경\n스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          253,
+          254
+        ],
+        "printed_pages": [
+          252,
+          253
+        ],
+        "activity_type": "관찰",
+        "chapter_label": "Ⅶ",
+        "title_quote": "천체 망원경을 이용하여 달, 행성 관측하기",
+        "supplies_quote": "준비물 천체 망원경\n스마트 기기",
+        "standard_quote": null,
+        "review_notes": []
+      }
+    },
+    {
+      "id": "jihaksa_k7_0081",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 254,
+      "탐구활동": "우주를 느껴 보자! 천문대 체험하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          255
+        ],
+        "printed_pages": [
+          254
+        ],
+        "activity_type": "미래 역량을 키우는 견학·체험",
+        "chapter_label": "Ⅶ",
+        "title_quote": "우주를 느껴 보자! 천문대 체험하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k7_0082",
+      "source_row": null,
+      "단원명": "태양계",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 256,
+      "탐구활동": "태양계 천체에 필요한 생활용품 고안하여 홍보하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K7",
+        "pdf_pages": [
+          257,
+          258
+        ],
+        "printed_pages": [
+          256,
+          257
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅶ",
+        "title_quote": "태양계 천체에 필요한 생활용품 고안하여 홍보하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "이 본문 활동의 명시적 준비물 목록을 확인하지 못해 null",
+          "제목의 여러 줄을 이어 표기했으며 학생 본문 렌더 이미지에서 각 어구를 대조함"
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0001",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 15,
+      "탐구활동": "여러 가지 물질의 밀도 비교하기",
+      "교구": "크기가 다른 정육면체 조각(알루미늄, 철), 핀셋, 전자저울, 자, 실험복, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "여러 가지 물질의 밀도 비교하기",
+        "supplies_quote": "크기가 다른 정육면체 조각(알루미늄, 철), 핀셋, 전자저울, 자, 실험복, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0002",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 16,
+      "탐구활동": "물질이 뜨고 가라앉는 현상 알아보기",
+      "교구": "같은 종류의 크기가 다른 플라스틱 빨대 조각, 물, 에탄올, 시약병, 핀셋, 실험복, 보안경, 마스크, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          16
+        ],
+        "printed_pages": [
+          16
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "물질이 뜨고 가라앉는 현상 알아보기",
+        "supplies_quote": "같은 종류의 크기가 다른 플라스틱 빨대 조각, 물, 에탄올, 시약병, 핀셋, 실험복, 보안경, 마스크, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0003",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 19,
+      "탐구활동": "용질이 녹는 양 측정하기",
+      "교구": "황산 구리(Ⅱ), 질산 칼륨, 물, 비커, 시험관, 유리 막대, 약숟가락, 질량 접시, 전자저울, 실험복, 보안경, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          19
+        ],
+        "printed_pages": [
+          19
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "용질이 녹는 양 측정하기",
+        "supplies_quote": "황산 구리(Ⅱ), 질산 칼륨, 물, 비커, 시험관, 유리 막대, 약숟가락, 질량 접시, 전자저울, 실험복, 보안경, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "PDF 문자 매핑이 깨진 물질명·기호는 렌더 이미지에서 판독했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0004",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 20,
+      "탐구활동": "온도와 압력에 따른 기체의 용해도 비교하기",
+      "교구": "탄산음료, 따뜻한 물, 얼음물, 비커, 시험관, 감압 용기, 실험복, 면장갑, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "온도와 압력에 따른 기체의 용해도 비교하기",
+        "supplies_quote": "탄산음료, 따뜻한 물, 얼음물, 비커, 시험관, 감압 용기, 실험복, 면장갑, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0005",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 22,
+      "탐구활동": "물질의 양과 종류에 따른 녹는점 비교하기",
+      "교구": "로르산, 팔미트산, 물, 비커, 시험관, 약숟가락, 질량 접시, 핫플레이트, 스탠드, 집게, 집게 잡이, 전자저울, 온도 센서, 스마트 기기, 실험복, 보안경, 면장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          22
+        ],
+        "printed_pages": [
+          22
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "물질의 양과 종류에 따른 녹는점 비교하기",
+        "supplies_quote": "로르산, 팔미트산, 물, 비커, 시험관, 약숟가락, 질량 접시, 핫플레이트, 스탠드, 집게, 집게 잡이, 전자저울, 온도 센서, 스마트 기기, 실험복, 보안경, 면장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0006",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 24,
+      "탐구활동": "물질의 양과 종류에 따른 끓는점 비교하기",
+      "교구": "물, 삼각 플라스크, 끓임쪽, 핫플레이트, 스탠드, 집게, 집게 잡이, 온도 센서, 스마트 기기, 실험복, 보안경, 면장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          24
+        ],
+        "printed_pages": [
+          24
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "물질의 양과 종류에 따른 끓는점 비교하기",
+        "supplies_quote": "물, 삼각 플라스크, 끓임쪽, 핫플레이트, 스탠드, 집게, 집게 잡이, 온도 센서, 스마트 기기, 실험복, 보안경, 면장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0007",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 31,
+      "탐구활동": "우리 주변의 물질을 순물질과 혼합물로 분류하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          31
+        ],
+        "printed_pages": [
+          31
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "우리 주변의 물질을 순물질과 혼합물로 분류하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0008",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 33,
+      "탐구활동": "밀도 차를 이용하여 액체 혼합물 분리하기",
+      "교구": "물, 식용유, 분별 깔때기, 비커, 스탠드, 고리, 집게 잡이, 실험복, 보안경, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          33
+        ],
+        "printed_pages": [
+          33
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "밀도 차를 이용하여 액체 혼합물 분리하기",
+        "supplies_quote": "물, 식용유, 분별 깔때기, 비커, 스탠드, 고리, 집게 잡이, 실험복, 보안경, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0009",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 34,
+      "탐구활동": "용해도 차를 이용하여 혼합물 분리하기",
+      "교구": "물, 질산 칼륨, 황산 구리(Ⅱ), 얼음, 비커, 눈금실린더, 깔때기, 유리 막대, 약숟가락, 거름종이, 질량 접시, 핫플레이트, 스탠드, 고리, 집게 잡이, 전자저울, 실험복, 보안경, 면장갑, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          34
+        ],
+        "printed_pages": [
+          34
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "용해도 차를 이용하여 혼합물 분리하기",
+        "supplies_quote": "물, 질산 칼륨, 황산 구리(Ⅱ), 얼음, 비커, 눈금실린더, 깔때기, 유리 막대, 약숟가락, 거름종이, 질량 접시, 핫플레이트, 스탠드, 고리, 집게 잡이, 전자저울, 실험복, 보안경, 면장갑, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "PDF 문자 매핑이 깨진 물질명·기호는 렌더 이미지에서 판독했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0010",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 36,
+      "탐구활동": "우리 주변의 혼합물을 분리하는 사례 찾기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          36
+        ],
+        "printed_pages": [
+          36
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅰ",
+        "title_quote": "우리 주변의 혼합물을 분리하는 사례 찾기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0011",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 38,
+      "탐구활동": "혼합물 분리 실험을 설계하고 수행하기",
+      "교구": "혼합물(질산 칼륨, 구리 조각, 폴리에틸렌 구슬), 물, 얼음, 비커, 시험관, 가지 달린 삼각 플라스크, 유리관, 깔때기, 수조, 약숟가락, 실리콘 마개, 실리콘 관, 수조, 거름종이, 스탠드, 고리, 집게 잡이, 스마트 기기, 실험복, 보안경, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          38,
+          39
+        ],
+        "printed_pages": [
+          38,
+          39
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅰ",
+        "title_quote": "혼합물 분리 실험을 설계하고 수행하기",
+        "supplies_quote": "혼합물(질산 칼륨, 구리 조각, 폴리에틸렌 구슬), 물, 얼음, 비커, 시험관, 가지 달린 삼각 플라스크, 유리관, 깔때기, 수조, 약숟가락, 실리콘 마개, 실리콘 관, 수조, 거름종이, 스탠드, 고리, 집게 잡이, 스마트 기기, 실험복, 보안경, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다.",
+          "본문 준비물 목록의 수조 중복 표기를 원문대로 보존했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0012",
+      "source_row": null,
+      "단원명": "Ⅰ. 물질의 특성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 44,
+      "탐구활동": "밀도를 이용하여 알록달록 음료 만들기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          44
+        ],
+        "printed_pages": [
+          44
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅰ",
+        "title_quote": "밀도를 이용하여 알록달록 음료 만들기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0013",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 49,
+      "탐구활동": "지구계를 소개하는 짧은 동영상 만들기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          49
+        ],
+        "printed_pages": [
+          49
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "지구계를 소개하는 짧은 동영상 만들기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0014",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 50,
+      "탐구활동": "지권의 구조와 특징 알아보기",
+      "교구": "여러 가지 색깔 펜, 스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          50
+        ],
+        "printed_pages": [
+          50
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "지권의 구조와 특징 알아보기",
+        "supplies_quote": "여러 가지 색깔 펜, 스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0015",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 57,
+      "탐구활동": "광물의 특성 관찰하기",
+      "교구": "여러 가지 광물 표본(석영, 방해석, 흑운모, 적철석, 자철석), 조흔판, 클립, 묽은 염산, 스포이트, 페트리 접시, 실험복, 보안경, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          57,
+          58
+        ],
+        "printed_pages": [
+          57,
+          58
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅱ",
+        "title_quote": "광물의 특성 관찰하기",
+        "supplies_quote": "여러 가지 광물 표본(석영, 방해석, 흑운모, 적철석, 자철석), 조흔판, 클립, 묽은 염산, 스포이트, 페트리 접시, 실험복, 보안경, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0016",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 60,
+      "탐구활동": "광물과 암석의 활용 방안과 자원으로서의 가치를 조사하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "광물과 암석의 활용 방안과 자원으로서의 가치를 조사하기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0017",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 62,
+      "탐구활동": "여러 가지 암석의 특징 살펴보기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          62
+        ],
+        "printed_pages": [
+          62
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "여러 가지 암석의 특징 살펴보기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0018",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 67,
+      "탐구활동": "암석의 순환 과정 놀이하기",
+      "교구": "주사위, 말",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          67
+        ],
+        "printed_pages": [
+          67
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "암석의 순환 과정 놀이하기",
+        "supplies_quote": "주사위, 말",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0019",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 68,
+      "탐구활동": "암석을 관찰하여 분류하기",
+      "교구": "여러 가지 암석 표본(현무암, 화강암, 역암, 사암, 편마암), 디지털 현미경, 숫자 붙임딱지, 스마트 기기, 실험복, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          68,
+          69
+        ],
+        "printed_pages": [
+          68,
+          69
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅱ",
+        "title_quote": "암석을 관찰하여 분류하기",
+        "supplies_quote": "여러 가지 암석 표본(현무암, 화강암, 역암, 사암, 편마암), 디지털 현미경, 숫자 붙임딱지, 스마트 기기, 실험복, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0020",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 72,
+      "탐구활동": "토양이 생성되는 과정을 만화로 표현하기",
+      "교구": "여러 가지 색깔 펜",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          72
+        ],
+        "printed_pages": [
+          72
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "토양이 생성되는 과정을 만화로 표현하기",
+        "supplies_quote": "여러 가지 색깔 펜",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0021",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 78,
+      "탐구활동": "과거의 대륙 분포 추리하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          78
+        ],
+        "printed_pages": [
+          78
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "과거의 대륙 분포 추리하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0022",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 84,
+      "탐구활동": "빅데이터를 활용하여 지진대 및 화산대와 판의 경계와의 관련성 탐구하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          84,
+          85
+        ],
+        "printed_pages": [
+          84,
+          85
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅱ",
+        "title_quote": "빅데이터를 활용하여 지진대 및 화산대와 판의 경계와의 관련성 탐구하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0023",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 87,
+      "탐구활동": "최근에 발생한 지진과 화산 활동 사례 조사하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          87
+        ],
+        "printed_pages": [
+          87
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅱ",
+        "title_quote": "최근에 발생한 지진과 화산 활동 사례 조사하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0024",
+      "source_row": null,
+      "단원명": "Ⅱ. 지권의 변화",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 92,
+      "탐구활동": "토양 유실을 방지하는 구조물 설계하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          92
+        ],
+        "printed_pages": [
+          92
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅱ",
+        "title_quote": "토양 유실을 방지하는 구조물 설계하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0025",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 96,
+      "탐구활동": "빛의 반사 관찰하기",
+      "교구": "슬릿 레이저, 평면거울, 집게, 보안경",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          96
+        ],
+        "printed_pages": [
+          96
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "빛의 반사 관찰하기",
+        "supplies_quote": "슬릿 레이저, 평면거울, 집게, 보안경",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0026",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 98,
+      "탐구활동": "빛의 굴절 관찰하기",
+      "교구": "반원형 물통, 슬릿 레이저, 물, 우유, 스포이트, 유리 막대, 보안경",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          98
+        ],
+        "printed_pages": [
+          98
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "빛의 굴절 관찰하기",
+        "supplies_quote": "반원형 물통, 슬릿 레이저, 물, 우유, 스포이트, 유리 막대, 보안경",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0027",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 102,
+      "탐구활동": "평면거울에 생기는 상의 특징 관찰하기",
+      "교구": "반투명 거울, 똑같은 물체 두 개, 모눈종이, 자, 연필",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          102
+        ],
+        "printed_pages": [
+          102
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "평면거울에 생기는 상의 특징 관찰하기",
+        "supplies_quote": "반투명 거울, 똑같은 물체 두 개, 모눈종이, 자, 연필",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0028",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 104,
+      "탐구활동": "거울에 생기는 상의 특징 관찰하기",
+      "교구": "볼록 거울, 오목 거울, 물체, 지지대, 스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          104,
+          105
+        ],
+        "printed_pages": [
+          104,
+          105
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅲ",
+        "title_quote": "거울에 생기는 상의 특징 관찰하기",
+        "supplies_quote": "볼록 거울, 오목 거울, 물체, 지지대, 스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0029",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 107,
+      "탐구활동": "거울을 이용한 작품 사진 촬영하기",
+      "교구": "여러 가지 거울, 스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          107
+        ],
+        "printed_pages": [
+          107
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "거울을 이용한 작품 사진 촬영하기",
+        "supplies_quote": "여러 가지 거울, 스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0030",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 108,
+      "탐구활동": "렌즈를 통해 보이는 상의 특징 관찰하기",
+      "교구": "볼록 렌즈, 오목 렌즈, 물체, 지지대, 스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          108,
+          109
+        ],
+        "printed_pages": [
+          108,
+          109
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅲ",
+        "title_quote": "렌즈를 통해 보이는 상의 특징 관찰하기",
+        "supplies_quote": "볼록 렌즈, 오목 렌즈, 물체, 지지대, 스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0031",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 111,
+      "탐구활동": "간이 안경으로 가상 현실 체험하기",
+      "교구": "볼록 렌즈, 골판지, 칼, 양면테이프, 스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          111
+        ],
+        "printed_pages": [
+          111
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "간이 안경으로 가상 현실 체험하기",
+        "supplies_quote": "볼록 렌즈, 골판지, 칼, 양면테이프, 스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0032",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 113,
+      "탐구활동": "빛의 색에 따른 물체의 색 관찰하기",
+      "교구": "어둠 상자, 빨간 물체, 파란 물체, RGB 손전등",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          113
+        ],
+        "printed_pages": [
+          113
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "빛의 색에 따른 물체의 색 관찰하기",
+        "supplies_quote": "어둠 상자, 빨간 물체, 파란 물체, RGB 손전등",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0033",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 114,
+      "탐구활동": "영상 장치에서 빛의 합성 관찰하기",
+      "교구": "디지털 현미경, 스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          114
+        ],
+        "printed_pages": [
+          114
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "영상 장치에서 빛의 합성 관찰하기",
+        "supplies_quote": "디지털 현미경, 스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0034",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 121,
+      "탐구활동": "파동이 발생하고 전달되는 과정 관찰하기",
+      "교구": "사각 수조, 탁구공, 나무판, 물, 실험복",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          121
+        ],
+        "printed_pages": [
+          121
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "파동이 발생하고 전달되는 과정 관찰하기",
+        "supplies_quote": "사각 수조, 탁구공, 나무판, 물, 실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0035",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 123,
+      "탐구활동": "파동을 이용한 에너지와 정보의 전달 사례 조사하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          123
+        ],
+        "printed_pages": [
+          123
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "파동을 이용한 에너지와 정보의 전달 사례 조사하기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0036",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 125,
+      "탐구활동": "디지털 탐구 도구를 이용하여 소리의 진폭, 진동수, 파형 탐구하기",
+      "교구": "글로켄슈필, 칼림바, 스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          125
+        ],
+        "printed_pages": [
+          125
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅲ",
+        "title_quote": "디지털 탐구 도구를 이용하여 소리의 진폭, 진동수, 파형 탐구하기",
+        "supplies_quote": "글로켄슈필, 칼림바, 스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0037",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 127,
+      "탐구활동": "파형 관찰하여 소리 맞히기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          127
+        ],
+        "printed_pages": [
+          127
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅲ",
+        "title_quote": "파형 관찰하여 소리 맞히기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0038",
+      "source_row": null,
+      "단원명": "Ⅲ. 빛과 파동",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 132,
+      "탐구활동": "칸딘스키와 함께 소리 그리기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "activity_type": "함께하는 주제 통합 수업",
+        "chapter_label": "Ⅲ",
+        "title_quote": "칸딘스키와 함께 소리 그리기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0039",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 136,
+      "탐구활동": "물 성분 확인하기",
+      "교구": "물, 황산 나트륨, 플라스틱병, 12 홈 판, 빨대, 실리콘 마개, 스포이트, 침핀, 9 V 전지, 집게 달린 전선, 성냥, 시험관 집게, 점화기, 실험복, 보안경, 면장갑, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          136
+        ],
+        "printed_pages": [
+          136
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅳ",
+        "title_quote": "물 성분 확인하기",
+        "supplies_quote": "물, 황산 나트륨, 플라스틱병, 12 홈 판, 빨대, 실리콘 마개, 스포이트, 침핀, 9 V 전지, 집게 달린 전선, 성냥, 시험관 집게, 점화기, 실험복, 보안경, 면장갑, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "PDF 문자 매핑이 깨진 물질명·기호는 렌더 이미지에서 판독했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0040",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 139,
+      "탐구활동": "원소와 화합물 구분하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          139
+        ],
+        "printed_pages": [
+          139
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅳ",
+        "title_quote": "원소와 화합물 구분하기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0041",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 142,
+      "탐구활동": "여러 가지 원자 모형 나타내기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          142
+        ],
+        "printed_pages": [
+          142
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅳ",
+        "title_quote": "여러 가지 원자 모형 나타내기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0042",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 145,
+      "탐구활동": "주기율표로 암호문 만들기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅳ",
+        "title_quote": "주기율표로 암호문 만들기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0043",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 146,
+      "탐구활동": "같은 족 원소들의 유사성 탐구하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          146,
+          147
+        ],
+        "printed_pages": [
+          146,
+          147
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅳ",
+        "title_quote": "같은 족 원소들의 유사성 탐구하기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0044",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 154,
+      "탐구활동": "분자를 이루는 원자의 종류와 개수 알아보기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          154
+        ],
+        "printed_pages": [
+          154
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅳ",
+        "title_quote": "분자를 이루는 원자의 종류와 개수 알아보기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0045",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 158,
+      "탐구활동": "전기력을 이용한 실험으로 이온의 이동 관찰하기",
+      "교구": "10 % 질산 칼륨 수용액, 황산 구리 (Ⅱ) 수용액, 과망가니즈산 칼륨 수용액, 페트리 접시, 점적병, 막대 모양 거름종이, 집게 전선, 금속 집게, 전원 장치, 연필, 스마트 기기, 실험복, 보안경, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          158,
+          159
+        ],
+        "printed_pages": [
+          158,
+          159
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅳ",
+        "title_quote": "전기력을 이용한 실험으로 이온의 이동 관찰하기",
+        "supplies_quote": "10 % 질산 칼륨 수용액, 황산 구리 (Ⅱ) 수용액, 과망가니즈산 칼륨 수용액, 페트리 접시, 점적병, 막대 모양 거름종이, 집게 전선, 금속 집게, 전원 장치, 연필, 스마트 기기, 실험복, 보안경, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다.",
+          "PDF 문자 매핑이 깨진 물질명·기호는 렌더 이미지에서 판독했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0046",
+      "source_row": null,
+      "단원명": "Ⅳ. 물질의 구성",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 164,
+      "탐구활동": "나만의 원소 기호 제품 만들기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          164
+        ],
+        "printed_pages": [
+          164
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅳ",
+        "title_quote": "나만의 원소 기호 제품 만들기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0047",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 168,
+      "탐구활동": "광합성에 필요한 물질 확인하는 실험하기",
+      "교구": "시금치, 삼각 플라스크, 빨대, 구멍 뚫린 실리콘 마개, 식물 생장용 LED 조명, 이산화 탄소 센서, 어둠상자, 스마트 기기, 실험복",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          168
+        ],
+        "printed_pages": [
+          168
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅴ",
+        "title_quote": "광합성에 필요한 물질 확인하는 실험하기",
+        "supplies_quote": "시금치, 삼각 플라스크, 빨대, 구멍 뚫린 실리콘 마개, 식물 생장용 LED 조명, 이산화 탄소 센서, 어둠상자, 스마트 기기, 실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0048",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 170,
+      "탐구활동": "광합성산물 확인하는 실험하기",
+      "교구": "검정말, 에탄올, 아이오딘-아이오딘화 칼륨 용액, 1 % 탄산수소 나트륨 수용액, 뜨거운 물(80 ℃ 이상), 물, 시험관, 비커, 덮개 유리, 받침 유리, 스포이트, 핀셋, 시험관 집게, 스탠드, 디지털 현미경, 스마트 기기, 실험복, 보안경, 면장갑, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          170,
+          171
+        ],
+        "printed_pages": [
+          170,
+          171
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅴ",
+        "title_quote": "광합성산물 확인하는 실험하기",
+        "supplies_quote": "검정말, 에탄올, 아이오딘-아이오딘화 칼륨 용액, 1 % 탄산수소 나트륨 수용액, 뜨거운 물(80 ℃ 이상), 물, 시험관, 비커, 덮개 유리, 받침 유리, 스포이트, 핀셋, 시험관 집게, 스탠드, 디지털 현미경, 스마트 기기, 실험복, 보안경, 면장갑, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다.",
+          "PDF 문자 매핑이 깨진 물질명·기호는 렌더 이미지에서 판독했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0049",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 173,
+      "탐구활동": "식물의 광합성 과정 놀이하기",
+      "교구": "종이",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          173
+        ],
+        "printed_pages": [
+          173
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅴ",
+        "title_quote": "식물의 광합성 과정 놀이하기",
+        "supplies_quote": "종이",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0050",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 174,
+      "탐구활동": "광합성과 환경 요인의 관계를 탐구하는 실험 설계하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          174,
+          175
+        ],
+        "printed_pages": [
+          174,
+          175
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅴ",
+        "title_quote": "광합성과 환경 요인의 관계를 탐구하는 실험 설계하기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0051",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 183,
+      "탐구활동": "식물의 호흡 과정과 광합성 과정 분석하여 모식도 그리기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          183
+        ],
+        "printed_pages": [
+          183
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅴ",
+        "title_quote": "식물의 호흡 과정과 광합성 과정 분석하여 모식도 그리기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0052",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 185,
+      "탐구활동": "광합성산물의 저장과 이용 과정 모형 만들기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          185
+        ],
+        "printed_pages": [
+          185
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅴ",
+        "title_quote": "광합성산물의 저장과 이용 과정 모형 만들기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0053",
+      "source_row": null,
+      "단원명": "Ⅴ. 식물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 190,
+      "탐구활동": "반려 식물 키우기 모바일 게임 설계하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          190
+        ],
+        "printed_pages": [
+          190
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅴ",
+        "title_quote": "반려 식물 키우기 모바일 게임 설계하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0054",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 195,
+      "탐구활동": "음식물에 들어 있는 영양소 검출하기",
+      "교구": "증류수, 우유, 식용유, 음식물, 뜨거운 물(80 ℃ 이상), 아이오딘-아이오딘화 칼륨 용액, 베네딕트 용액, 뷰렛 용액(5 % 수산화 나트륨 수용액, 1 % 황산 구리(Ⅱ) 수용액), 수단 Ⅲ 용액, 12 홈 판, 비커, 시험관, 스포이트, 시험관대, 시험관 집게, 실험복, 보안경, 면장갑, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          195
+        ],
+        "printed_pages": [
+          195
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅵ",
+        "title_quote": "음식물에 들어 있는 영양소 검출하기",
+        "supplies_quote": "증류수, 우유, 식용유, 음식물, 뜨거운 물(80 ℃ 이상), 아이오딘-아이오딘화 칼륨 용액, 베네딕트 용액, 뷰렛 용액(5 % 수산화 나트륨 수용액, 1 % 황산 구리(Ⅱ) 수용액), 수단 Ⅲ 용액, 12 홈 판, 비커, 시험관, 스포이트, 시험관대, 시험관 집게, 실험복, 보안경, 면장갑, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "PDF 문자 매핑이 깨진 물질명·기호는 렌더 이미지에서 판독했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0055",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 196,
+      "탐구활동": "침의 소화 작용 탐구하기",
+      "교구": "물, 아이오딘-아이오딘화 칼륨 용액, 베네딕트 용액, 5 % 녹말 용액, 비커, 시험관, 페트리 접시, 스포이트, 온도계, 거즈, 시험관대, 시험관 집게, 핀셋, 실험복, 보안경, 면장갑, 실험용 장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          196,
+          197
+        ],
+        "printed_pages": [
+          196,
+          197
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅵ",
+        "title_quote": "침의 소화 작용 탐구하기",
+        "supplies_quote": "물, 아이오딘-아이오딘화 칼륨 용액, 베네딕트 용액, 5 % 녹말 용액, 비커, 시험관, 페트리 접시, 스포이트, 온도계, 거즈, 시험관대, 시험관 집게, 핀셋, 실험복, 보안경, 면장갑, 실험용 장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0056",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 200,
+      "탐구활동": "소화효소에 따른 소화 과정 추론하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          200
+        ],
+        "printed_pages": [
+          200
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅵ",
+        "title_quote": "소화효소에 따른 소화 과정 추론하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0057",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 202,
+      "탐구활동": "증강 현실로 심장의 구조 알아보기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          202
+        ],
+        "printed_pages": [
+          202
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅵ",
+        "title_quote": "증강 현실로 심장의 구조 알아보기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0058",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 205,
+      "탐구활동": "혈액 순환의 경로를 따라 여행하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          205
+        ],
+        "printed_pages": [
+          205
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅵ",
+        "title_quote": "혈액 순환의 경로를 따라 여행하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0059",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 210,
+      "탐구활동": "호흡할 때 기체 변화 알아보기",
+      "교구": "이산화 탄소 센서, 스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          210
+        ],
+        "printed_pages": [
+          210
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅵ",
+        "title_quote": "호흡할 때 기체 변화 알아보기",
+        "supplies_quote": "이산화 탄소 센서, 스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0060",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 212,
+      "탐구활동": "호흡운동의 원리를 표현하는 흉강 모형 만들기",
+      "교구": "Y 자 관, 투명 플라스틱 컵, 크기가 다른 두 종류의 고무풍선, 구멍 뚫린 실리콘 마개, 셀로판테이프",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          212
+        ],
+        "printed_pages": [
+          212
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅵ",
+        "title_quote": "호흡운동의 원리를 표현하는 흉강 모형 만들기",
+        "supplies_quote": "Y 자 관, 투명 플라스틱 컵, 크기가 다른 두 종류의 고무풍선, 구멍 뚫린 실리콘 마개, 셀로판테이프",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0061",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 216,
+      "탐구활동": "배설 과정 표현하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          216
+        ],
+        "printed_pages": [
+          216
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅵ",
+        "title_quote": "배설 과정 표현하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0062",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 219,
+      "탐구활동": "세포호흡과 기관계의 통합적 작용을 역할놀이로 표현하기",
+      "교구": "종이컵, 붙임쪽지",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          219
+        ],
+        "printed_pages": [
+          219
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅵ",
+        "title_quote": "세포호흡과 기관계의 통합적 작용을 역할놀이로 표현하기",
+        "supplies_quote": "종이컵, 붙임쪽지",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0063",
+      "source_row": null,
+      "단원명": "Ⅵ. 동물과 에너지",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 226,
+      "탐구활동": "인공지능을 활용하여 세포호흡 노래 만들기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          226
+        ],
+        "printed_pages": [
+          226
+        ],
+        "activity_type": "함께하는 주제 통합 수업",
+        "chapter_label": "Ⅵ",
+        "title_quote": "인공지능을 활용하여 세포호흡 노래 만들기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0064",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 230,
+      "탐구활동": "마찰한 물체 관찰하기",
+      "교구": "풍선, 플라스틱 막대, 털가죽, 양면테이프",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          230
+        ],
+        "printed_pages": [
+          230
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "마찰한 물체 관찰하기",
+        "supplies_quote": "풍선, 플라스틱 막대, 털가죽, 양면테이프",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0065",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 232,
+      "탐구활동": "손대지 않고 알루미늄 캔 끌어당기기",
+      "교구": "알루미늄 캔, 플라스틱 막대, 털가죽",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          232
+        ],
+        "printed_pages": [
+          232
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "손대지 않고 알루미늄 캔 끌어당기기",
+        "supplies_quote": "알루미늄 캔, 플라스틱 막대, 털가죽",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0066",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 238,
+      "탐구활동": "전류의 세기에 영향을 주는 요인 알아보기",
+      "교구": "전원 장치, 디지털 전압계, 디지털 전류계, 집게 달린 전선, 짧은 니크롬선, 긴 니크롬선, 스위치, 실험복, 면장갑, 스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          238,
+          239
+        ],
+        "printed_pages": [
+          238,
+          239
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅶ",
+        "title_quote": "전류의 세기에 영향을 주는 요인 알아보기",
+        "supplies_quote": "전원 장치, 디지털 전압계, 디지털 전류계, 집게 달린 전선, 짧은 니크롬선, 긴 니크롬선, 스위치, 실험복, 면장갑, 스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0067",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 241,
+      "탐구활동": "일상생활에서 저항을 활용하는 예 조사하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          241
+        ],
+        "printed_pages": [
+          241
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "일상생활에서 저항을 활용하는 예 조사하기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0068",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 242,
+      "탐구활동": "저항의 직렬연결과 병렬연결의 특징 비교하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          242
+        ],
+        "printed_pages": [
+          242
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "저항의 직렬연결과 병렬연결의 특징 비교하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0069",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 245,
+      "탐구활동": "일상생활에서 사용하는 전기 기구의 소비 전력 조사하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          245
+        ],
+        "printed_pages": [
+          245
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "일상생활에서 사용하는 전기 기구의 소비 전력 조사하기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0070",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 247,
+      "탐구활동": "일상생활에서 효율적인 에너지 소비 제안하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          247
+        ],
+        "printed_pages": [
+          247
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "일상생활에서 효율적인 에너지 소비 제안하기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0071",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 252,
+      "탐구활동": "막대자석이 만드는 자기장의 방향 관찰하기",
+      "교구": "막대자석, 나침반",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          252
+        ],
+        "printed_pages": [
+          252
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "막대자석이 만드는 자기장의 방향 관찰하기",
+        "supplies_quote": "막대자석, 나침반",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0072",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 254,
+      "탐구활동": "전류가 흐르는 코일 주위의 자기장 관찰하기",
+      "교구": "코일, 나침반, 전원 장치, 집게 달린 전선, 니크롬선, 스위치, 실험복, 면장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          254,
+          255
+        ],
+        "printed_pages": [
+          254,
+          255
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅶ",
+        "title_quote": "전류가 흐르는 코일 주위의 자기장 관찰하기",
+        "supplies_quote": "코일, 나침반, 전원 장치, 집게 달린 전선, 니크롬선, 스위치, 실험복, 면장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0073",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 256,
+      "탐구활동": "자기장 속 전류가 흐르는 코일이 받는 힘의 특성 추리하기",
+      "교구": "전기 그네 실험 장치, 전원 장치, 집게 달린 전선, 실험복, 면장갑",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          256
+        ],
+        "printed_pages": [
+          256
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "자기장 속 전류가 흐르는 코일이 받는 힘의 특성 추리하기",
+        "supplies_quote": "전기 그네 실험 장치, 전원 장치, 집게 달린 전선, 실험복, 면장갑",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0074",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 258,
+      "탐구활동": "일상생활에서 전류가 흐르는 코일과 자석 사이의 힘을 활용하는 예 찾아보기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          258
+        ],
+        "printed_pages": [
+          258
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅶ",
+        "title_quote": "일상생활에서 전류가 흐르는 코일과 자석 사이의 힘을 활용하는 예 찾아보기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0075",
+      "source_row": null,
+      "단원명": "Ⅶ. 전기와 자기",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 264,
+      "탐구활동": "전기력과 자기력을 활용한 마술 공연 설계하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          264
+        ],
+        "printed_pages": [
+          264
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅶ",
+        "title_quote": "전기력과 자기력을 활용한 마술 공연 설계하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0076",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 269,
+      "탐구활동": "시차 측정하기",
+      "교구": "별 모양 붙임딱지, 나무젓가락",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          269
+        ],
+        "printed_pages": [
+          269
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅷ",
+        "title_quote": "시차 측정하기",
+        "supplies_quote": "별 모양 붙임딱지, 나무젓가락",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0077",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 271,
+      "탐구활동": "연주 시차를 이용하여 별까지의 거리 비교하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          271
+        ],
+        "printed_pages": [
+          271
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅷ",
+        "title_quote": "연주 시차를 이용하여 별까지의 거리 비교하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0078",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 272,
+      "탐구활동": "디지털 탐구 도구를 활용하여 광원으로부터의 거리에 따른 빛의 세기 실험하기",
+      "교구": "광원, 스마트 기기, 스마트 기기 거치대, 자",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          272,
+          273
+        ],
+        "printed_pages": [
+          272,
+          273
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅷ",
+        "title_quote": "디지털 탐구 도구를 활용하여 광원으로부터의 거리에 따른 빛의 세기 실험하기",
+        "supplies_quote": "광원, 스마트 기기, 스마트 기기 거치대, 자",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0079",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 275,
+      "탐구활동": "겉보기 등급과 절대 등급을 이용하여 지구에서 별까지의 거리 비교하기",
+      "교구": null,
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          275
+        ],
+        "printed_pages": [
+          275
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅷ",
+        "title_quote": "겉보기 등급과 절대 등급을 이용하여 지구에서 별까지의 거리 비교하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 독립된 활동 제목이 있지만 명시된 준비물 목록은 확인되지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0080",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 276,
+      "탐구활동": "별의 표면 온도에 따른 별의 색 비교하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          276
+        ],
+        "printed_pages": [
+          276
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅷ",
+        "title_quote": "별의 표면 온도에 따른 별의 색 비교하기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0081",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 282,
+      "탐구활동": "천체 관측 프로그램으로 은하수 관측하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          282
+        ],
+        "printed_pages": [
+          282
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅷ",
+        "title_quote": "천체 관측 프로그램으로 은하수 관측하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0082",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 284,
+      "탐구활동": "천체 관측 프로그램을 활용하여 우리은하를 구성하는 천체 관측하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          284,
+          285
+        ],
+        "printed_pages": [
+          284,
+          285
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅷ",
+        "title_quote": "천체 관측 프로그램을 활용하여 우리은하를 구성하는 천체 관측하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0083",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 288,
+      "탐구활동": "풍선 모형을 이용하여 우주의 팽창 알아보기",
+      "교구": "풍선, 숫자 붙임딱지, 줄자, 공기 주입기",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          288
+        ],
+        "printed_pages": [
+          288
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅷ",
+        "title_quote": "풍선 모형을 이용하여 우주의 팽창 알아보기",
+        "supplies_quote": "풍선, 숫자 붙임딱지, 줄자, 공기 주입기",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0084",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 290,
+      "탐구활동": "우주 탐사의 의의와 인류에게 주는 영향 조사하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          290
+        ],
+        "printed_pages": [
+          290
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅷ",
+        "title_quote": "우주 탐사의 의의와 인류에게 주는 영향 조사하기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0085",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 292,
+      "탐구활동": "우주 탐사의 성과 조사하기",
+      "교구": "스마트 기기, 참고 도서",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          292
+        ],
+        "printed_pages": [
+          292
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "Ⅷ",
+        "title_quote": "우주 탐사의 성과 조사하기",
+        "supplies_quote": "스마트 기기, 참고 도서",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0086",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 294,
+      "탐구활동": "우주 탐사 계획 세우기",
+      "교구": "스마트 기기, 참고 도서, 여러 가지 상황극 소품",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          294,
+          295
+        ],
+        "printed_pages": [
+          294,
+          295
+        ],
+        "activity_type": "탐구 활동",
+        "chapter_label": "Ⅷ",
+        "title_quote": "우주 탐사 계획 세우기",
+        "supplies_quote": "스마트 기기, 참고 도서, 여러 가지 상황극 소품",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다.",
+          "뒤쪽은 같은 활동의 연속이며 별도 활동으로 중복하지 않았다."
+        ]
+      }
+    },
+    {
+      "id": "jihaksa_k8_0087",
+      "source_row": null,
+      "단원명": "Ⅷ. 별과 우주",
+      "성취기준": null,
+      "출판사": "지학사",
+      "쪽": 300,
+      "탐구활동": "우리은하 모형 만들기",
+      "교구": "폼보드, 투명 OHP 필름, 칼, 자, 접착제, 별 붙임딱지, 스타이로폼 공, 카메라",
+      "source": {
+        "book_id": "jihaksa_K8",
+        "pdf_pages": [
+          300
+        ],
+        "printed_pages": [
+          300
+        ],
+        "activity_type": "함께하는 창의 융합 활동",
+        "chapter_label": "Ⅷ",
+        "title_quote": "우리은하 모형 만들기",
+        "supplies_quote": "폼보드, 투명 OHP 필름, 칼, 자, 접착제, 별 붙임딱지, 스타이로폼 공, 카메라",
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에서 제목과 준비물 목록을 판독했다. 교사용 보충·대체 활동의 물품은 제외했다."
+        ]
+      }
+    }
+  ],
+  "views": {
+    "기본자료": {
+      "record_count": 169,
+      "record_ids": [
+        "jihaksa_k7_0001",
+        "jihaksa_k7_0002",
+        "jihaksa_k7_0003",
+        "jihaksa_k7_0004",
+        "jihaksa_k7_0005",
+        "jihaksa_k7_0006",
+        "jihaksa_k7_0007",
+        "jihaksa_k7_0008",
+        "jihaksa_k7_0009",
+        "jihaksa_k7_0010",
+        "jihaksa_k7_0011",
+        "jihaksa_k7_0012",
+        "jihaksa_k7_0013",
+        "jihaksa_k7_0014",
+        "jihaksa_k7_0015",
+        "jihaksa_k7_0016",
+        "jihaksa_k7_0017",
+        "jihaksa_k7_0018",
+        "jihaksa_k7_0019",
+        "jihaksa_k7_0020",
+        "jihaksa_k7_0021",
+        "jihaksa_k7_0022",
+        "jihaksa_k7_0023",
+        "jihaksa_k7_0024",
+        "jihaksa_k7_0025",
+        "jihaksa_k7_0026",
+        "jihaksa_k7_0027",
+        "jihaksa_k7_0028",
+        "jihaksa_k7_0029",
+        "jihaksa_k7_0030",
+        "jihaksa_k7_0031",
+        "jihaksa_k7_0032",
+        "jihaksa_k7_0033",
+        "jihaksa_k7_0034",
+        "jihaksa_k7_0035",
+        "jihaksa_k7_0036",
+        "jihaksa_k7_0037",
+        "jihaksa_k7_0038",
+        "jihaksa_k7_0039",
+        "jihaksa_k7_0040",
+        "jihaksa_k7_0041",
+        "jihaksa_k7_0042",
+        "jihaksa_k7_0043",
+        "jihaksa_k7_0044",
+        "jihaksa_k7_0045",
+        "jihaksa_k7_0046",
+        "jihaksa_k7_0047",
+        "jihaksa_k7_0048",
+        "jihaksa_k7_0049",
+        "jihaksa_k7_0050",
+        "jihaksa_k7_0051",
+        "jihaksa_k7_0052",
+        "jihaksa_k7_0053",
+        "jihaksa_k7_0054",
+        "jihaksa_k7_0055",
+        "jihaksa_k7_0056",
+        "jihaksa_k7_0057",
+        "jihaksa_k7_0058",
+        "jihaksa_k7_0059",
+        "jihaksa_k7_0060",
+        "jihaksa_k7_0061",
+        "jihaksa_k7_0062",
+        "jihaksa_k7_0063",
+        "jihaksa_k7_0064",
+        "jihaksa_k7_0065",
+        "jihaksa_k7_0066",
+        "jihaksa_k7_0067",
+        "jihaksa_k7_0068",
+        "jihaksa_k7_0069",
+        "jihaksa_k7_0070",
+        "jihaksa_k7_0071",
+        "jihaksa_k7_0072",
+        "jihaksa_k7_0073",
+        "jihaksa_k7_0074",
+        "jihaksa_k7_0075",
+        "jihaksa_k7_0076",
+        "jihaksa_k7_0077",
+        "jihaksa_k7_0078",
+        "jihaksa_k7_0079",
+        "jihaksa_k7_0080",
+        "jihaksa_k7_0081",
+        "jihaksa_k7_0082",
+        "jihaksa_k8_0001",
+        "jihaksa_k8_0002",
+        "jihaksa_k8_0003",
+        "jihaksa_k8_0004",
+        "jihaksa_k8_0005",
+        "jihaksa_k8_0006",
+        "jihaksa_k8_0007",
+        "jihaksa_k8_0008",
+        "jihaksa_k8_0009",
+        "jihaksa_k8_0010",
+        "jihaksa_k8_0011",
+        "jihaksa_k8_0012",
+        "jihaksa_k8_0013",
+        "jihaksa_k8_0014",
+        "jihaksa_k8_0015",
+        "jihaksa_k8_0016",
+        "jihaksa_k8_0017",
+        "jihaksa_k8_0018",
+        "jihaksa_k8_0019",
+        "jihaksa_k8_0020",
+        "jihaksa_k8_0021",
+        "jihaksa_k8_0022",
+        "jihaksa_k8_0023",
+        "jihaksa_k8_0024",
+        "jihaksa_k8_0025",
+        "jihaksa_k8_0026",
+        "jihaksa_k8_0027",
+        "jihaksa_k8_0028",
+        "jihaksa_k8_0029",
+        "jihaksa_k8_0030",
+        "jihaksa_k8_0031",
+        "jihaksa_k8_0032",
+        "jihaksa_k8_0033",
+        "jihaksa_k8_0034",
+        "jihaksa_k8_0035",
+        "jihaksa_k8_0036",
+        "jihaksa_k8_0037",
+        "jihaksa_k8_0038",
+        "jihaksa_k8_0039",
+        "jihaksa_k8_0040",
+        "jihaksa_k8_0041",
+        "jihaksa_k8_0042",
+        "jihaksa_k8_0043",
+        "jihaksa_k8_0044",
+        "jihaksa_k8_0045",
+        "jihaksa_k8_0046",
+        "jihaksa_k8_0047",
+        "jihaksa_k8_0048",
+        "jihaksa_k8_0049",
+        "jihaksa_k8_0050",
+        "jihaksa_k8_0051",
+        "jihaksa_k8_0052",
+        "jihaksa_k8_0053",
+        "jihaksa_k8_0054",
+        "jihaksa_k8_0055",
+        "jihaksa_k8_0056",
+        "jihaksa_k8_0057",
+        "jihaksa_k8_0058",
+        "jihaksa_k8_0059",
+        "jihaksa_k8_0060",
+        "jihaksa_k8_0061",
+        "jihaksa_k8_0062",
+        "jihaksa_k8_0063",
+        "jihaksa_k8_0064",
+        "jihaksa_k8_0065",
+        "jihaksa_k8_0066",
+        "jihaksa_k8_0067",
+        "jihaksa_k8_0068",
+        "jihaksa_k8_0069",
+        "jihaksa_k8_0070",
+        "jihaksa_k8_0071",
+        "jihaksa_k8_0072",
+        "jihaksa_k8_0073",
+        "jihaksa_k8_0074",
+        "jihaksa_k8_0075",
+        "jihaksa_k8_0076",
+        "jihaksa_k8_0077",
+        "jihaksa_k8_0078",
+        "jihaksa_k8_0079",
+        "jihaksa_k8_0080",
+        "jihaksa_k8_0081",
+        "jihaksa_k8_0082",
+        "jihaksa_k8_0083",
+        "jihaksa_k8_0084",
+        "jihaksa_k8_0085",
+        "jihaksa_k8_0086",
+        "jihaksa_k8_0087"
+      ]
+    },
+    "jihaksa_K7": {
+      "record_count": 82,
+      "record_ids": [
+        "jihaksa_k7_0001",
+        "jihaksa_k7_0002",
+        "jihaksa_k7_0003",
+        "jihaksa_k7_0004",
+        "jihaksa_k7_0005",
+        "jihaksa_k7_0006",
+        "jihaksa_k7_0007",
+        "jihaksa_k7_0008",
+        "jihaksa_k7_0009",
+        "jihaksa_k7_0010",
+        "jihaksa_k7_0011",
+        "jihaksa_k7_0012",
+        "jihaksa_k7_0013",
+        "jihaksa_k7_0014",
+        "jihaksa_k7_0015",
+        "jihaksa_k7_0016",
+        "jihaksa_k7_0017",
+        "jihaksa_k7_0018",
+        "jihaksa_k7_0019",
+        "jihaksa_k7_0020",
+        "jihaksa_k7_0021",
+        "jihaksa_k7_0022",
+        "jihaksa_k7_0023",
+        "jihaksa_k7_0024",
+        "jihaksa_k7_0025",
+        "jihaksa_k7_0026",
+        "jihaksa_k7_0027",
+        "jihaksa_k7_0028",
+        "jihaksa_k7_0029",
+        "jihaksa_k7_0030",
+        "jihaksa_k7_0031",
+        "jihaksa_k7_0032",
+        "jihaksa_k7_0033",
+        "jihaksa_k7_0034",
+        "jihaksa_k7_0035",
+        "jihaksa_k7_0036",
+        "jihaksa_k7_0037",
+        "jihaksa_k7_0038",
+        "jihaksa_k7_0039",
+        "jihaksa_k7_0040",
+        "jihaksa_k7_0041",
+        "jihaksa_k7_0042",
+        "jihaksa_k7_0043",
+        "jihaksa_k7_0044",
+        "jihaksa_k7_0045",
+        "jihaksa_k7_0046",
+        "jihaksa_k7_0047",
+        "jihaksa_k7_0048",
+        "jihaksa_k7_0049",
+        "jihaksa_k7_0050",
+        "jihaksa_k7_0051",
+        "jihaksa_k7_0052",
+        "jihaksa_k7_0053",
+        "jihaksa_k7_0054",
+        "jihaksa_k7_0055",
+        "jihaksa_k7_0056",
+        "jihaksa_k7_0057",
+        "jihaksa_k7_0058",
+        "jihaksa_k7_0059",
+        "jihaksa_k7_0060",
+        "jihaksa_k7_0061",
+        "jihaksa_k7_0062",
+        "jihaksa_k7_0063",
+        "jihaksa_k7_0064",
+        "jihaksa_k7_0065",
+        "jihaksa_k7_0066",
+        "jihaksa_k7_0067",
+        "jihaksa_k7_0068",
+        "jihaksa_k7_0069",
+        "jihaksa_k7_0070",
+        "jihaksa_k7_0071",
+        "jihaksa_k7_0072",
+        "jihaksa_k7_0073",
+        "jihaksa_k7_0074",
+        "jihaksa_k7_0075",
+        "jihaksa_k7_0076",
+        "jihaksa_k7_0077",
+        "jihaksa_k7_0078",
+        "jihaksa_k7_0079",
+        "jihaksa_k7_0080",
+        "jihaksa_k7_0081",
+        "jihaksa_k7_0082"
+      ]
+    },
+    "jihaksa_K8": {
+      "record_count": 87,
+      "record_ids": [
+        "jihaksa_k8_0001",
+        "jihaksa_k8_0002",
+        "jihaksa_k8_0003",
+        "jihaksa_k8_0004",
+        "jihaksa_k8_0005",
+        "jihaksa_k8_0006",
+        "jihaksa_k8_0007",
+        "jihaksa_k8_0008",
+        "jihaksa_k8_0009",
+        "jihaksa_k8_0010",
+        "jihaksa_k8_0011",
+        "jihaksa_k8_0012",
+        "jihaksa_k8_0013",
+        "jihaksa_k8_0014",
+        "jihaksa_k8_0015",
+        "jihaksa_k8_0016",
+        "jihaksa_k8_0017",
+        "jihaksa_k8_0018",
+        "jihaksa_k8_0019",
+        "jihaksa_k8_0020",
+        "jihaksa_k8_0021",
+        "jihaksa_k8_0022",
+        "jihaksa_k8_0023",
+        "jihaksa_k8_0024",
+        "jihaksa_k8_0025",
+        "jihaksa_k8_0026",
+        "jihaksa_k8_0027",
+        "jihaksa_k8_0028",
+        "jihaksa_k8_0029",
+        "jihaksa_k8_0030",
+        "jihaksa_k8_0031",
+        "jihaksa_k8_0032",
+        "jihaksa_k8_0033",
+        "jihaksa_k8_0034",
+        "jihaksa_k8_0035",
+        "jihaksa_k8_0036",
+        "jihaksa_k8_0037",
+        "jihaksa_k8_0038",
+        "jihaksa_k8_0039",
+        "jihaksa_k8_0040",
+        "jihaksa_k8_0041",
+        "jihaksa_k8_0042",
+        "jihaksa_k8_0043",
+        "jihaksa_k8_0044",
+        "jihaksa_k8_0045",
+        "jihaksa_k8_0046",
+        "jihaksa_k8_0047",
+        "jihaksa_k8_0048",
+        "jihaksa_k8_0049",
+        "jihaksa_k8_0050",
+        "jihaksa_k8_0051",
+        "jihaksa_k8_0052",
+        "jihaksa_k8_0053",
+        "jihaksa_k8_0054",
+        "jihaksa_k8_0055",
+        "jihaksa_k8_0056",
+        "jihaksa_k8_0057",
+        "jihaksa_k8_0058",
+        "jihaksa_k8_0059",
+        "jihaksa_k8_0060",
+        "jihaksa_k8_0061",
+        "jihaksa_k8_0062",
+        "jihaksa_k8_0063",
+        "jihaksa_k8_0064",
+        "jihaksa_k8_0065",
+        "jihaksa_k8_0066",
+        "jihaksa_k8_0067",
+        "jihaksa_k8_0068",
+        "jihaksa_k8_0069",
+        "jihaksa_k8_0070",
+        "jihaksa_k8_0071",
+        "jihaksa_k8_0072",
+        "jihaksa_k8_0073",
+        "jihaksa_k8_0074",
+        "jihaksa_k8_0075",
+        "jihaksa_k8_0076",
+        "jihaksa_k8_0077",
+        "jihaksa_k8_0078",
+        "jihaksa_k8_0079",
+        "jihaksa_k8_0080",
+        "jihaksa_k8_0081",
+        "jihaksa_k8_0082",
+        "jihaksa_k8_0083",
+        "jihaksa_k8_0084",
+        "jihaksa_k8_0085",
+        "jihaksa_k8_0086",
+        "jihaksa_k8_0087"
+      ]
+    }
+  }
+}

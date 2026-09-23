@@ -1,0 +1,404 @@
+{
+  "status": "passed",
+  "scope": "Structural/provenance validation, not a claim of complete visual verification.",
+  "books": [
+    {
+      "book_id": "YBM_K7",
+      "grade": 1,
+      "source_file": "textbook_YBM_K7.pdf",
+      "source_sha256": "eae8172887bb835c80e1575aef7732f22150e5d1e7cc31399dc832df5be28747",
+      "pdf_page_count": 252,
+      "record_count": 68,
+      "supplies_null": 6,
+      "standards_null": 68,
+      "by_chapter": {
+        "과학과 인류의 지속가능한 삶": 6,
+        "생물의 구성과 다양성": 12,
+        "열": 10,
+        "물질의 상태 변화": 8,
+        "힘의 작용": 12,
+        "기체의 성질": 10,
+        "태양계": 10
+      },
+      "by_activity_type": {
+        "탐구": 31,
+        "해 보기": 20,
+        "실천하는 생태 시민": 7,
+        "한 뼘 자라는 창의·혁신": 10
+      },
+      "extraction_metadata": {
+        "schema_version": "1.0",
+        "source_file": "textbook_YBM_K7.pdf",
+        "sha256": "eae8172887bb835c80e1575aef7732f22150e5d1e7cc31399dc832df5be28747",
+        "book_id": "YBM_K7",
+        "grade": 1,
+        "pdf_page_count": 252,
+        "record_count": 68,
+        "source_document_type": "교사용 지도서에 재현된 학생용 교과서 지면",
+        "extraction_policy": "독립 학생 수행 활동; 명시 준비물만 원문 보존; 교사 지도·예시·대체 활동 제외",
+        "notes": "단원 사이 4쪽의 교사용 도입·지도계획이 끼어 인쇄쪽 오프셋은 단원별로 +4부터 +16까지 달라진다. 성취기준은 개별 활동에 직접 연결된 학생 지면 원문이 없어 null."
+      }
+    },
+    {
+      "book_id": "YBM_K8",
+      "grade": 2,
+      "source_file": "textbook_YBM_K8.pdf",
+      "source_sha256": "72cd9276adf12c88f5b5aa70d071407d2eeb2b452ebac617319a070fcc1165ff",
+      "pdf_page_count": 328,
+      "record_count": 83,
+      "supplies_null": 14,
+      "standards_null": 83,
+      "by_chapter": {
+        "Ⅰ. 물질의 특성": 12,
+        "Ⅱ. 지권의 변화": 11,
+        "Ⅲ. 빛과 파동": 13,
+        "Ⅳ. 물질의 구성": 9,
+        "Ⅴ. 식물과 에너지": 8,
+        "Ⅵ. 동물과 에너지": 10,
+        "Ⅶ. 전기와 자기": 11,
+        "Ⅷ. 별과 우주": 9
+      },
+      "by_activity_type": {
+        "해 보기": 25,
+        "탐구": 36,
+        "한 뼘 자라는": 8,
+        "함께 만드는 탐구": 5,
+        "실천하는 생태 시민": 8,
+        "함께하는 창의·융합": 1
+      },
+      "extraction_metadata": {
+        "schema_version": "1.0",
+        "source_file": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\textbook_YBM_K8.pdf",
+        "sha256": "72cd9276adf12c88f5b5aa70d071407d2eeb2b452ebac617319a070fcc1165ff",
+        "book_id": "YBM_K8",
+        "grade": 2,
+        "pdf_page_count": 328,
+        "record_count": 83,
+        "source_document_type": "교사용 교과서(학생 본문과 교사용 해설 혼합)",
+        "extraction_policy": "학생 지면의 제목 있는 독립 수행 활동만 수록. 준비물 명시 없으면 null; 교사용 대체·팁·예시에서 보충하지 않음.",
+        "notes": [
+          "본문 단원명과 인쇄쪽을 사용하며 기존 웹 학년 매핑을 적용하지 않음.",
+          "활동별 성취기준 직접 연결이 확인되지 않아 null."
+        ]
+      }
+    },
+    {
+      "book_id": "YBM_K9",
+      "grade": 3,
+      "source_file": "textbook_YBM_K9.pdf",
+      "source_sha256": "88ec1780c146aacd3653dd35f4ff6cb3c0db35101b6f919a641863c4c7640d09",
+      "pdf_page_count": 328,
+      "record_count": 88,
+      "supplies_null": 18,
+      "standards_null": 88,
+      "by_chapter": {
+        "화학 반응의 규칙성": 14,
+        "날씨와 기후변화": 17,
+        "수권과 해수의 순환": 11,
+        "운동과 에너지": 12,
+        "자극과 반응": 13,
+        "생식과 유전": 13,
+        "재해·재난과 안전": 3,
+        "과학과 나의 미래": 5
+      },
+      "by_activity_type": {
+        "탐구": 31,
+        "한 뼘 자라는 창의·혁신": 8,
+        "해 보기": 33,
+        "탐구 1": 1,
+        "탐구 2": 1,
+        "함께 만드는 탐구": 4,
+        "실천하는 생태 시민": 8,
+        "함께 만드는 탐구 1": 1,
+        "함께 만드는 탐구 2": 1
+      },
+      "extraction_metadata": {
+        "schema_version": "1.0",
+        "source_file": "textbook_YBM_K9.pdf",
+        "sha256": "88ec1780c146aacd3653dd35f4ff6cb3c0db35101b6f919a641863c4c7640d09",
+        "book_id": "YBM_K9",
+        "grade": 3,
+        "pdf_page_count": 328,
+        "record_count": 88,
+        "source_document_type": "학생용 중학교 과학 3 교과서",
+        "extraction_policy": "제목 있는 독립 학생 수행 활동; 제목과 명시 준비물 이미지 대조; 미명시 준비물·성취기준 null; 원문 수량·규격 보존",
+        "notes": [
+          "학생 본문 10~289쪽에서 파일쪽과 인쇄쪽이 일치한다.",
+          "2~3쪽의 본문 복제 소개 지면은 제외한다.",
+          "준비물은 명시된 학생용 목록만 기록한다."
+        ]
+      }
+    }
+  ],
+  "total_record_count": 239,
+  "errors": [],
+  "warnings": [],
+  "independent_visual_reference_checks": [
+    {
+      "book_id": "YBM_K7",
+      "printed_page": 13,
+      "title": "주변에서 탐구할 문제를 발견하고 탐구 계획서 작성하기",
+      "passed": true,
+      "record_id": "ybm_k7_0001",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K7",
+      "printed_page": 34,
+      "title": "세포 관찰하기",
+      "passed": true,
+      "record_id": "ybm_k7_0007",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K7",
+      "printed_page": 76,
+      "title": "온도가 다른 두 물체가 접촉할 때 온도 변화 측정하기",
+      "passed": true,
+      "record_id": "ybm_k7_0019",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K7",
+      "printed_page": 116,
+      "title": "드라이아이스가 상태 변화할 때의 질량과 부피 변화 측정하기",
+      "passed": true,
+      "record_id": "ybm_k7_0032",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K7",
+      "printed_page": 150,
+      "title": "물속에서 부력 측정하기",
+      "passed": true,
+      "record_id": "ybm_k7_0042",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K7",
+      "printed_page": 178,
+      "title": "입자 모형으로 기체의 압력과 부피 관계 설명하기",
+      "passed": true,
+      "record_id": "ybm_k7_0051",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K7",
+      "printed_page": 205,
+      "title": "행성 이름 알아맞히기 놀이하기",
+      "passed": true,
+      "record_id": "ybm_k7_0059",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K7",
+      "printed_page": 230,
+      "title": "무분별한 달 개발을 막기 위한 달 조약 만들기",
+      "passed": true,
+      "record_id": "ybm_k7_0068",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K8",
+      "printed_page": 12,
+      "title": "물질을 구별하는 방법 알아보기",
+      "passed": true,
+      "record_id": "ybm_k8_0001",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K8",
+      "printed_page": 14,
+      "title": "물질의 질량과 부피를 측정하여 물질 구별하기",
+      "passed": true,
+      "record_id": "ybm_k8_0002",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K8",
+      "printed_page": 33,
+      "title": "밀도 차이를 이용하여 혼합물 분리하기",
+      "passed": true,
+      "record_id": "ybm_k8_0009",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K8",
+      "printed_page": 98,
+      "title": "빛의 반사와 굴절의 특징 관찰하기",
+      "passed": true,
+      "record_id": "ybm_k8_0024",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K8",
+      "printed_page": 128,
+      "title": "눈으로 음악을 감상하는 장치 만들기",
+      "passed": true,
+      "record_id": "ybm_k8_0035",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K8",
+      "printed_page": 204,
+      "title": "음식물에 들어 있는 영양소 검출하기",
+      "passed": true,
+      "record_id": "ybm_k8_0054",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K8",
+      "printed_page": 207,
+      "title": "침의 소화 작용 탐구하기",
+      "passed": true,
+      "record_id": "ybm_k8_0055",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K8",
+      "printed_page": 255,
+      "title": "저항의 직렬연결과 병렬연결의 특징 비교하기",
+      "passed": true,
+      "record_id": "ybm_k8_0068",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K8",
+      "printed_page": 296,
+      "title": "풍선을 이용하여 우주 팽창 알아보기",
+      "passed": true,
+      "record_id": "ybm_k8_0081",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K9",
+      "printed_page": 15,
+      "title": "화학 변화에서 생성되는 물질 관찰하기",
+      "passed": true,
+      "record_id": "ybm_k9_0001",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K9",
+      "printed_page": 20,
+      "title": "설탕의 다양한 변신, 달고나",
+      "passed": true,
+      "record_id": "ybm_k9_0003",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K9",
+      "printed_page": 24,
+      "title": "기체 발생 반응에서의 질량 변화 관찰하기",
+      "passed": true,
+      "record_id": "ybm_k9_0005",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K9",
+      "printed_page": 40,
+      "title": "생활 속 발열 반응과 흡열 반응의 사례 생각 그물 만들기",
+      "passed": true,
+      "record_id": "ybm_k9_0012",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K9",
+      "printed_page": 77,
+      "title": "바람이 부는 원리 알아보기",
+      "passed": true,
+      "record_id": "ybm_k9_0025",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K9",
+      "printed_page": 104,
+      "title": "디지털 탐구 도구를 이용하여 해수의 연직 수온 분포 실험하기",
+      "passed": true,
+      "record_id": "ybm_k9_0035",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K9",
+      "printed_page": 180,
+      "title": "맛을 느끼는 과정 추론하기",
+      "passed": true,
+      "record_id": "ybm_k9_0058",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K9",
+      "printed_page": 220,
+      "title": "체세포분열 관찰하기",
+      "passed": true,
+      "record_id": "ybm_k9_0070",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K9",
+      "printed_page": 238,
+      "title": "두 쌍의 대립형질의 유전 알아보기",
+      "passed": true,
+      "record_id": "ybm_k9_0076",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K9",
+      "printed_page": 268,
+      "title": "재난 대피 시 필요한 우리 가족 재난 가방 만들기",
+      "passed": true,
+      "record_id": "ybm_k9_0083",
+      "supplies_match": true,
+      "page_coverage_match": true
+    },
+    {
+      "book_id": "YBM_K8",
+      "printed_page": 194,
+      "title": "다양한 형태의 농장을 소개하는 기사 쓰기",
+      "passed": true,
+      "record_id": "ybm_k8_0052",
+      "supplies_match": true,
+      "page_coverage_match": true
+    }
+  ],
+  "original_454_record_json_sha256": "22748932ad38860145bdd1c47eb6cd437bfc965e90cbdbff303477133e9336ff",
+  "original_454_record_json_unchanged_during_validation": true,
+  "protected_baseline_files": [
+    {
+      "file": "science_experiment_supplies.json",
+      "unchanged": true,
+      "sha256": "22748932ad38860145bdd1c47eb6cd437bfc965e90cbdbff303477133e9336ff"
+    },
+    {
+      "file": "outputs/extraction/jihaksa-20260922/science_experiment_supplies_jihaksa.json",
+      "unchanged": true,
+      "sha256": "d429e0c8d89fd845b92fbf6c9b6e0ccf34859430cc0e46d80565f6ace5bc56ce"
+    }
+  ]
+}

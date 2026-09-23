@@ -1,0 +1,1580 @@
+{
+  "instructions": "각 item_id를 classification_decisions.json의 키로 사용하고 category에 실험 기자재 또는 실험 준비물을 입력한다. 미결정은 null. 참고 문맥은 occurrences에 있다.",
+  "item_count": 62,
+  "items": [
+    {
+      "item_id": "ITEM-ee03c955c8415d82",
+      "representative_text": "모양 틀",
+      "raw_variants": [
+        "모양 틀"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0433",
+          "activity_title": "방향제 만들기",
+          "publisher": "비상",
+          "page": 117,
+          "item_index": 4,
+          "raw_text": "모양 틀",
+          "span": [
+            59,
+            63
+          ]
+        },
+        {
+          "activity_id": "jihaksa_k7_0038",
+          "activity_title": "초콜릿의 상태 변화 관찰하기",
+          "publisher": "지학사",
+          "page": 130,
+          "item_index": 3,
+          "raw_text": "모양 틀",
+          "span": [
+            20,
+            24
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-94492ed6a9c25177",
+      "representative_text": "원형 돌림판",
+      "raw_variants": [
+        "원형 돌림판"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0452",
+          "activity_title": "지구 공전으로 인한 별자리 변화 알아보기",
+          "publisher": "비상",
+          "page": 240,
+          "item_index": 4,
+          "raw_text": "원형 돌림판",
+          "span": [
+            21,
+            27
+          ]
+        },
+        {
+          "activity_id": "activity_0453",
+          "activity_title": "모형을 이용하여 달의 위상 변화 관찰하기",
+          "publisher": "비상",
+          "page": 242,
+          "item_index": 5,
+          "raw_text": "원형 돌림판",
+          "span": [
+            40,
+            46
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-2c8b2786f928b655",
+      "representative_text": "PVC관 네 개",
+      "raw_variants": [
+        "PVC관 네 개"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k8_0057",
+          "activity_title": "혈액의 순환 경로 나타내기",
+          "publisher": "YBM",
+          "page": 217,
+          "item_index": 3,
+          "raw_text": "PVC관 네 개",
+          "span": [
+            52,
+            60
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-107b91a31b063c9a",
+      "representative_text": "가림판",
+      "raw_variants": [
+        "가림판"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0392",
+          "activity_title": "열화상 카메라로 열의 이동 관찰하기",
+          "publisher": "천재(임성숙)",
+          "page": 80,
+          "item_index": 15,
+          "raw_text": "가림판",
+          "span": [
+            63,
+            66
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-1b95a5efa55404a6",
+      "representative_text": "각도가 표시된 반원 통",
+      "raw_variants": [
+        "각도가 표시된 반원 통"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0084",
+          "activity_title": "빛의 반사와 굴절 알아보기",
+          "publisher": "천재(임성숙)",
+          "page": 98,
+          "item_index": 7,
+          "raw_text": "각도가 표시된 반원 통",
+          "span": [
+            55,
+            67
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-9424de86f0acf6a9",
+      "representative_text": "간이 전동기 만들기 키트",
+      "raw_variants": [
+        "간이 전동기 만들기 키트"
+      ],
+      "category": "분류 보류",
+      "reason": "실험·제작 방식에 따라 가공·소모하거나 재사용할 수 있는 물품",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k8_0072",
+          "activity_title": "일상생활 속 전동기 조사하고 만들어 보기",
+          "publisher": "YBM",
+          "page": 269,
+          "item_index": 2,
+          "raw_text": "간이 전동기 만들기 키트",
+          "span": [
+            7,
+            20
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-dd1653416a7f9891",
+      "representative_text": "계절별 별자리판",
+      "raw_variants": [
+        "계절별 별자리판"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0353",
+          "activity_title": "계절에 따라 보이는 별자리가 달라지는 까닭 알아보기",
+          "publisher": "미래앤",
+          "page": 246,
+          "item_index": 4,
+          "raw_text": "계절별 별자리판",
+          "span": [
+            18,
+            26
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-3a30dae3433d5759",
+      "representative_text": "관측자 모형",
+      "raw_variants": [
+        "관측자 모형"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0382",
+          "activity_title": "모형으로 태양의 연주 운동 관찰하기",
+          "publisher": "천재(정대홍)",
+          "page": 250,
+          "item_index": 4,
+          "raw_text": "관측자 모형",
+          "span": [
+            49,
+            55
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-72c5bc58e93064c5",
+      "representative_text": "그 밖에 필요한 재료(접착제, 접시, 도화지 등)",
+      "raw_variants": [
+        "그 밖에 필요한 재료(접착제, 접시, 도화지 등)"
+      ],
+      "category": "분류 보류",
+      "reason": "용기·내용물 또는 서로 다른 종류가 한 항목에 함께 적혀 있어 분리 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k7_0030",
+          "activity_title": "입자 모형으로 물질의 세 가지 상태 표현하기",
+          "publisher": "YBM",
+          "page": 109,
+          "item_index": 2,
+          "raw_text": "그 밖에 필요한 재료(접착제, 접시, 도화지 등)",
+          "span": [
+            23,
+            50
+          ]
+        }
+      ],
+      "review_group": "복합 항목·용기와 내용물"
+    },
+    {
+      "item_id": "ITEM-42ff79245be2af13",
+      "representative_text": "나만의 준비물",
+      "raw_variants": [
+        "나만의 준비물"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0399",
+          "activity_title": "물질의 세 가지 상태를 입자 모형으로 표현하기",
+          "publisher": "천재(임성숙)",
+          "page": 116,
+          "item_index": 1,
+          "raw_text": "나만의 준비물",
+          "span": [
+            0,
+            7
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-8c4101e15c10c509",
+      "representative_text": "놀이판",
+      "raw_variants": [
+        "놀이판"
+      ],
+      "category": "분류 보류",
+      "reason": "기록·제작에 소모하는 자료인지 반복 사용하는 교구인지 확인 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k7_0016",
+          "activity_title": "생물다양성보전 놀이 활동하기",
+          "publisher": "YBM",
+          "page": 62,
+          "item_index": 3,
+          "raw_text": "놀이판",
+          "span": [
+            24,
+            27
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-93a101ce0fc8770d",
+      "representative_text": "달의 위상 변화판",
+      "raw_variants": [
+        "달의 위상 변화판"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0354",
+          "activity_title": "모형을 이용하여 달의 위상 변화 관찰하기",
+          "publisher": "미래앤",
+          "page": 248,
+          "item_index": 1,
+          "raw_text": "달의 위상 변화판",
+          "span": [
+            0,
+            9
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-2d4a2c33b7a1df95",
+      "representative_text": "대륙 조각",
+      "raw_variants": [
+        "대륙 조각"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0082",
+          "activity_title": "대륙 조각 퍼즐 맞추기",
+          "publisher": "천재(임성숙)",
+          "page": 80,
+          "item_index": 1,
+          "raw_text": "대륙 조각",
+          "span": [
+            0,
+            5
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-c19022a0a4edcfdf",
+      "representative_text": "모둠별 제작 물품",
+      "raw_variants": [
+        "모둠별 제작 물품"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0242",
+          "activity_title": "배설 과정을 모식도로 표현하기",
+          "publisher": "비상",
+          "page": 214,
+          "item_index": 2,
+          "raw_text": "모둠별 제작 물품",
+          "span": [
+            8,
+            17
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-2401936ee0182053",
+      "representative_text": "모둠별 준비물",
+      "raw_variants": [
+        "모둠별 준비물"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k8_0011",
+          "activity_title": "혼합물 분리 실험을 설계하고 수행하기",
+          "publisher": "YBM",
+          "page": 40,
+          "item_index": 6,
+          "raw_text": "모둠별 준비물",
+          "span": [
+            18,
+            25
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-48dbe89aa9068d66",
+      "representative_text": "모둠별로 정한 모형 준비물",
+      "raw_variants": [
+        "모둠별로 정한 모형 준비물"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0012",
+          "activity_title": "지권의 층상 구조 모형 만들기",
+          "publisher": "천재(정대홍)",
+          "page": 59,
+          "item_index": 5,
+          "raw_text": "모둠별로 정한 모형 준비물",
+          "span": [
+            24,
+            38
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-1f878aafce7832e5",
+      "representative_text": "모둠별로 정한 재료",
+      "raw_variants": [
+        "모둠별로 정한 재료"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0163",
+          "activity_title": "광합성산물의 저장과 이용 과정을 모형으로 설명하기",
+          "publisher": "미래앤",
+          "page": 188,
+          "item_index": 1,
+          "raw_text": "모둠별로 정한 재료",
+          "span": [
+            0,
+            10
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-e6143bc896d0ec17",
+      "representative_text": "모둠에서 선택한 물체",
+      "raw_variants": [
+        "모둠에서 선택한 물체"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k7_0041",
+          "activity_title": "마찰력의 크기 비교하기",
+          "publisher": "YBM",
+          "page": 148,
+          "item_index": 3,
+          "raw_text": "모둠에서 선택한 물체",
+          "span": [
+            9,
+            20
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-88263b89a852d074",
+      "representative_text": "모둠의 물질 분류 실험에 따른 실험 기구",
+      "raw_variants": [
+        "모둠의 물질 분류 실험에 따른 실험 기구"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0072",
+          "activity_title": "물질의 특성으로 순물질과 혼합물 분류하기",
+          "publisher": "천재(임성숙)",
+          "page": 28,
+          "item_index": 2,
+          "raw_text": "모둠의 물질 분류 실험에 따른 실험 기구",
+          "span": [
+            8,
+            30
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-e0b865f972d0ad77",
+      "representative_text": "모둠의 설계에 따른 실험 기구",
+      "raw_variants": [
+        "모둠의 설계에 따른 실험 기구"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0075",
+          "activity_title": "혼합물 분리 실험을 설계하고 수행하기",
+          "publisher": "천재(임성숙)",
+          "page": 40,
+          "item_index": 3,
+          "raw_text": "모둠의 설계에 따른 실험 기구",
+          "span": [
+            29,
+            45
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-77dc93edd6809c3b",
+      "representative_text": "모래가 담긴 페트리접시",
+      "raw_variants": [
+        "모래가 담긴 페트리접시"
+      ],
+      "category": "분류 보류",
+      "reason": "용기·내용물 또는 서로 다른 종류가 한 항목에 함께 적혀 있어 분리 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k9_0021",
+          "activity_title": "디지털 탐구 도구를 이용하여 구름 생성 과정 실험하기",
+          "publisher": "YBM",
+          "page": 68,
+          "item_index": 10,
+          "raw_text": "모래가 담긴 페트리접시",
+          "span": [
+            54,
+            66
+          ]
+        }
+      ],
+      "review_group": "복합 항목·용기와 내용물"
+    },
+    {
+      "item_id": "ITEM-8cb7cccb912de2ab",
+      "representative_text": "모양, 표면의 거칠기, 온도, 소리가 다른 다양한 물건",
+      "raw_variants": [
+        "모양, 표면의 거칠기, 온도, 소리가 다른 다양한 물건"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k9_0057",
+          "activity_title": "다양한 감각으로 물건 찾기",
+          "publisher": "YBM",
+          "page": 177,
+          "item_index": 2,
+          "raw_text": "모양, 표면의 거칠기, 온도, 소리가 다른 다양한 물건",
+          "span": [
+            6,
+            36
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-c8e16f13560a8ff4",
+      "representative_text": "바퀴",
+      "raw_variants": [
+        "바퀴"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k9_0043",
+          "activity_title": "블록 코딩을 활용하여 등속 운동의 특징 알아보기",
+          "publisher": "YBM",
+          "page": 132,
+          "item_index": 5,
+          "raw_text": "바퀴",
+          "span": [
+            40,
+            42
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-94754bc923c534be",
+      "representative_text": "반원 모양의 플라스틱",
+      "raw_variants": [
+        "반원 모양의 플라스틱"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0282",
+          "activity_title": "빛의 굴절 관찰하기",
+          "publisher": "동아",
+          "page": 92,
+          "item_index": 2,
+          "raw_text": "반원 모양의 플라스틱",
+          "span": [
+            19,
+            30
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-8a7db14af451db0f",
+      "representative_text": "반짝이 가루",
+      "raw_variants": [
+        "반짝이 가루"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k7_0023",
+          "activity_title": "움직이는 조명 만들기",
+          "publisher": "YBM",
+          "page": 84,
+          "item_index": 5,
+          "raw_text": "반짝이 가루",
+          "span": [
+            38,
+            44
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-17b82ee4ad9de2d1",
+      "representative_text": "반투명 거울(또는 아크릴)",
+      "raw_variants": [
+        "반투명 거울(또는 아크릴)"
+      ],
+      "category": "분류 보류",
+      "reason": "대체 재료의 재질·가공·재사용 여부 확인 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0023",
+          "activity_title": "평면거울에 의한 상의 특징 관찰하기",
+          "publisher": "천재(정대홍)",
+          "page": 104,
+          "item_index": 1,
+          "raw_text": "반투명 거울(또는 아크릴)",
+          "span": [
+            0,
+            14
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-f604eb386925feb4",
+      "representative_text": "별자리 그림",
+      "raw_variants": [
+        "별자리 그림"
+      ],
+      "category": "분류 보류",
+      "reason": "기록·제작에 소모하는 자료인지 반복 사용하는 교구인지 확인 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0452",
+          "activity_title": "지구 공전으로 인한 별자리 변화 알아보기",
+          "publisher": "비상",
+          "page": 240,
+          "item_index": 3,
+          "raw_text": "별자리 그림",
+          "span": [
+            13,
+            19
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-19d2f58917ca7808",
+      "representative_text": "비커(물)",
+      "raw_variants": [
+        "비커(물)"
+      ],
+      "category": "분류 보류",
+      "reason": "용기·내용물 또는 서로 다른 종류가 한 항목에 함께 적혀 있어 분리 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0408",
+          "activity_title": "물속에서 부력의 크기 측정하기",
+          "publisher": "천재(임성숙)",
+          "page": 168,
+          "item_index": 3,
+          "raw_text": "비커(물)",
+          "span": [
+            17,
+            22
+          ]
+        }
+      ],
+      "review_group": "복합 항목·용기와 내용물"
+    },
+    {
+      "item_id": "ITEM-3907e66f29007c62",
+      "representative_text": "빛의 반사와 굴절 활동판",
+      "raw_variants": [
+        "빛의 반사와 굴절 활동판"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0210",
+          "activity_title": "빛의 반사와 굴절의 특징 관찰하기",
+          "publisher": "비상",
+          "page": 92,
+          "item_index": 5,
+          "raw_text": "빛의 반사와 굴절 활동판",
+          "span": [
+            35,
+            48
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-3a5f27148f111e7e",
+      "representative_text": "사건 카드",
+      "raw_variants": [
+        "사건 카드"
+      ],
+      "category": "분류 보류",
+      "reason": "기록·제작에 소모하는 자료인지 반복 사용하는 교구인지 확인 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0359",
+          "activity_title": "생물다양성보전 놀이하기",
+          "publisher": "천재(정대홍)",
+          "page": 66,
+          "item_index": 3,
+          "raw_text": "사건 카드",
+          "span": [
+            22,
+            27
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-636debd230d1f395",
+      "representative_text": "사례 카드",
+      "raw_variants": [
+        "사례 카드"
+      ],
+      "category": "분류 보류",
+      "reason": "기록·제작에 소모하는 자료인지 반복 사용하는 교구인지 확인 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "jihaksa_k7_0068",
+          "activity_title": "일상생활에서 기체의 온도와 부피 관계가 나타나는 사례 찾기",
+          "publisher": "지학사",
+          "page": 215,
+          "item_index": 1,
+          "raw_text": "사례 카드",
+          "span": [
+            0,
+            5
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-45a7ba20ec0bb4ac",
+      "representative_text": "생물 카드",
+      "raw_variants": [
+        "생물 카드"
+      ],
+      "category": "분류 보류",
+      "reason": "기록·제작에 소모하는 자료인지 반복 사용하는 교구인지 확인 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0359",
+          "activity_title": "생물다양성보전 놀이하기",
+          "publisher": "천재(정대홍)",
+          "page": 66,
+          "item_index": 4,
+          "raw_text": "생물 카드",
+          "span": [
+            29,
+            34
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-c2a5e633d9f08d7b",
+      "representative_text": "스크린",
+      "raw_variants": [
+        "스크린"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0148",
+          "activity_title": "빛의 합성 관찰하기",
+          "publisher": "미래앤",
+          "page": 113,
+          "item_index": 2,
+          "raw_text": "스크린",
+          "span": [
+            25,
+            28
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-d006832d4128ce09",
+      "representative_text": "스펀지 공",
+      "raw_variants": [
+        "스펀지 공"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0443",
+          "activity_title": "물체에 작용하는 힘에 따른 운동 상태 변화 알아보기",
+          "publisher": "비상",
+          "page": 178,
+          "item_index": 1,
+          "raw_text": "스펀지 공",
+          "span": [
+            0,
+            5
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-0bfe317aa6bbbbc4",
+      "representative_text": "식물 생장용 LED 조명",
+      "raw_variants": [
+        "식물 생장용 LED 조명"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "jihaksa_k8_0047",
+          "activity_title": "광합성에 필요한 물질 확인하는 실험하기",
+          "publisher": "지학사",
+          "page": 168,
+          "item_index": 5,
+          "raw_text": "식물 생장용 LED 조명",
+          "span": [
+            32,
+            45
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-514d3c6f08937125",
+      "representative_text": "신발",
+      "raw_variants": [
+        "신발"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k7_0041",
+          "activity_title": "마찰력의 크기 비교하기",
+          "publisher": "YBM",
+          "page": 148,
+          "item_index": 4,
+          "raw_text": "신발",
+          "span": [
+            22,
+            24
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-eb6f2020663b9ec6",
+      "representative_text": "실험 설계에 따른 준비물",
+      "raw_variants": [
+        "실험 설계에 따른 준비물"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0010",
+          "activity_title": "혼합물 분리 실험을 설계하고 수행하기",
+          "publisher": "천재(정대홍)",
+          "page": 40,
+          "item_index": 6,
+          "raw_text": "실험 설계에 따른 준비물",
+          "span": [
+            31,
+            44
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-a19d41f1f76f9927",
+      "representative_text": "얼음 틀",
+      "raw_variants": [
+        "얼음 틀"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0386",
+          "activity_title": "주변에서 탐구할 문제를 발견하고 탐구 계획서 작성하기",
+          "publisher": "천재(임성숙)",
+          "page": 14,
+          "item_index": 3,
+          "raw_text": "얼음 틀",
+          "span": [
+            8,
+            12
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-b82696c238c48b3b",
+      "representative_text": "여러 가지 별자리 그림\n(물고기자리, 쌍둥이자리, 처녀자리, 궁수자리)",
+      "raw_variants": [
+        "여러 가지 별자리 그림\n(물고기자리, 쌍둥이자리, 처녀자리, 궁수자리)"
+      ],
+      "category": "분류 보류",
+      "reason": "기록·제작에 소모하는 자료인지 반복 사용하는 교구인지 확인 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "jihaksa_k7_0077",
+          "activity_title": "태양의 위치에 따라서 별자리가 달라지는 까닭 알아보기",
+          "publisher": "지학사",
+          "page": 246,
+          "item_index": 2,
+          "raw_text": "여러 가지 별자리 그림\n(물고기자리, 쌍둥이자리, 처녀자리, 궁수자리)",
+          "span": [
+            3,
+            42
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-b8b86986f1538f23",
+      "representative_text": "여러 가지 상황극 소품",
+      "raw_variants": [
+        "여러 가지 상황극 소품"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "jihaksa_k8_0086",
+          "activity_title": "우주 탐사 계획 세우기",
+          "publisher": "지학사",
+          "page": 294,
+          "item_index": 3,
+          "raw_text": "여러 가지 상황극 소품",
+          "span": [
+            15,
+            27
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-adee740a2966bbdd",
+      "representative_text": "여러 가지 촬영용 소품\n(카메라, 마이크 등)",
+      "raw_variants": [
+        "여러 가지 촬영용 소품\n(카메라, 마이크 등)"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "jihaksa_k7_0008",
+          "activity_title": "탄소 발자국을 줄이자",
+          "publisher": "지학사",
+          "page": 32,
+          "item_index": 2,
+          "raw_text": "여러 가지 촬영용 소품\n(카메라, 마이크 등)",
+          "span": [
+            7,
+            32
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-ea3bc49f304ad1e5",
+      "representative_text": "연결발",
+      "raw_variants": [
+        "연결발"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "jihaksa_k7_0045",
+          "activity_title": "창의적인 와카 타워 만들기",
+          "publisher": "지학사",
+          "page": 144,
+          "item_index": 2,
+          "raw_text": "연결발",
+          "span": [
+            8,
+            11
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-e1f497a2767889ce",
+      "representative_text": "영상 제작을 위한 물품",
+      "raw_variants": [
+        "영상 제작을 위한 물품"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0304",
+          "activity_title": "소화, 순환, 호흡, 배설의 통합적 관계 설명하기",
+          "publisher": "동아",
+          "page": 216,
+          "item_index": 3,
+          "raw_text": "영상 제작을 위한 물품",
+          "span": [
+            13,
+            25
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-8ba8b5d46044b713",
+      "representative_text": "영양소 검출 실험판",
+      "raw_variants": [
+        "영양소 검출 실험판"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0236",
+          "activity_title": "음식물에 들어 있는 영양소 검출하기",
+          "publisher": "비상",
+          "page": 192,
+          "item_index": 1,
+          "raw_text": "영양소 검출 실험판",
+          "span": [
+            0,
+            10
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-61f31dc6b091e7d8",
+      "representative_text": "영양소, 산소, 이산화 탄소,\n노폐물을 표현할 수 있는 물체",
+      "raw_variants": [
+        "영양소, 산소, 이산화 탄소,\n노폐물을 표현할 수 있는 물체"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k8_0062",
+          "activity_title": "소화, 순환, 호흡, 배설의 관계 표현하기",
+          "publisher": "YBM",
+          "page": 232,
+          "item_index": 1,
+          "raw_text": "영양소, 산소, 이산화 탄소,\n노폐물을 표현할 수 있는 물체",
+          "span": [
+            0,
+            33
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-f3aa9fa5fbcf27e4",
+      "representative_text": "종류가 다른 플라스틱 조각\n(PET, PS, PP)",
+      "raw_variants": [
+        "종류가 다른 플라스틱 조각\n(PET, PS, PP)"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k8_0009",
+          "activity_title": "밀도 차이를 이용하여 혼합물 분리하기",
+          "publisher": "YBM",
+          "page": 33,
+          "item_index": 1,
+          "raw_text": "종류가 다른 플라스틱 조각\n(PET, PS, PP)",
+          "span": [
+            0,
+            28
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-4371e0fc27f1428a",
+      "representative_text": "증류수를 넣고 얼린 일회용 스포이트(3 mL)",
+      "raw_variants": [
+        "증류수를 넣고 얼린 일회용 스포이트(3 mL)"
+      ],
+      "category": "분류 보류",
+      "reason": "용기·내용물 또는 서로 다른 종류가 한 항목에 함께 적혀 있어 분리 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0402",
+          "activity_title": "얼음이 융해될 때의 온도 변화",
+          "publisher": "천재(임성숙)",
+          "page": 130,
+          "item_index": 1,
+          "raw_text": "증류수를 넣고 얼린 일회용 스포이트(3 mL)",
+          "span": [
+            0,
+            25
+          ]
+        }
+      ],
+      "review_group": "복합 항목·용기와 내용물"
+    },
+    {
+      "item_id": "ITEM-8e595dea4c934046",
+      "representative_text": "지구 내부 모형",
+      "raw_variants": [
+        "지구 내부 모형"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0077",
+          "activity_title": "지권의 층상구조 모형 만들기",
+          "publisher": "천재(임성숙)",
+          "page": 57,
+          "item_index": 1,
+          "raw_text": "지구 내부 모형",
+          "span": [
+            0,
+            8
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-6eb3cc504084d80a",
+      "representative_text": "지름 30 cm 두꺼운 원판",
+      "raw_variants": [
+        "지름 30 cm 두꺼운 원판"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0385",
+          "activity_title": "모형으로 월식 현상 관찰하기",
+          "publisher": "천재(정대홍)",
+          "page": 258,
+          "item_index": 2,
+          "raw_text": "지름 30 cm 두꺼운 원판",
+          "span": [
+            8,
+            23
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-0aaeea618770ba61",
+      "representative_text": "지름 30 cm 지구 그림",
+      "raw_variants": [
+        "지름 30 cm 지구 그림"
+      ],
+      "category": "분류 보류",
+      "reason": "기록·제작에 소모하는 자료인지 반복 사용하는 교구인지 확인 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0385",
+          "activity_title": "모형으로 월식 현상 관찰하기",
+          "publisher": "천재(정대홍)",
+          "page": 258,
+          "item_index": 3,
+          "raw_text": "지름 30 cm 지구 그림",
+          "span": [
+            25,
+            39
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-373b4ad1c921c04f",
+      "representative_text": "촬영 소품(상자, 택배 기사 옷 등)",
+      "raw_variants": [
+        "촬영 소품(상자, 택배 기사 옷 등)"
+      ],
+      "category": "분류 보류",
+      "reason": "구체적인 구성 물품이 정해져 있지 않거나 혼합되어 있음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k7_0022",
+          "activity_title": "열의 이동을 표현하는 짧은 영상 만들기",
+          "publisher": "YBM",
+          "page": 82,
+          "item_index": 2,
+          "raw_text": "촬영 소품(상자, 택배 기사 옷 등)",
+          "span": [
+            8,
+            28
+          ]
+        }
+      ],
+      "review_group": "구체적인 물품이 정해지지 않은 항목"
+    },
+    {
+      "item_id": "ITEM-6a3d6cf4334ba763",
+      "representative_text": "태양계 행성 카드",
+      "raw_variants": [
+        "태양계 행성 카드"
+      ],
+      "category": "분류 보류",
+      "reason": "기록·제작에 소모하는 자료인지 반복 사용하는 교구인지 확인 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "jihaksa_k7_0072",
+          "activity_title": "태양계 행성 분류하기",
+          "publisher": "지학사",
+          "page": 234,
+          "item_index": 1,
+          "raw_text": "태양계 행성 카드",
+          "span": [
+            0,
+            9
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-f2dc9bce4f95ecff",
+      "representative_text": "투명한 플라스틱 관",
+      "raw_variants": [
+        "투명한 플라스틱 관"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "ybm_k9_0049",
+          "activity_title": "중력에 의한 일과 에너지 관계",
+          "publisher": "YBM",
+          "page": 148,
+          "item_index": 4,
+          "raw_text": "투명한 플라스틱 관",
+          "span": [
+            21,
+            31
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-a6d0c81166774b82",
+      "representative_text": "폴리에틸렌 테레프탈레이트(PET),저밀도 폴리에틸렌(LDPE), 폴리스티렌(PS) 조각이 섞여 있는 플라스틱 혼합물",
+      "raw_variants": [
+        "폴리에틸렌 테레프탈레이트(PET),저밀도 폴리에틸렌(LDPE), 폴리스티렌(PS) 조각이 섞여 있는 플라스틱 혼합물"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0007",
+          "activity_title": "밀도 차를 이용하여 플라스틱 혼합물 분리하기",
+          "publisher": "천재(정대홍)",
+          "page": 32,
+          "item_index": 1,
+          "raw_text": "폴리에틸렌 테레프탈레이트(PET),저밀도 폴리에틸렌(LDPE), 폴리스티렌(PS) 조각이 섞여 있는 플라스틱 혼합물",
+          "span": [
+            0,
+            64
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-eeb1b9b535a69cdd",
+      "representative_text": "플라스틱 관",
+      "raw_variants": [
+        "플라스틱 관"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0032",
+          "activity_title": "소리의 전달",
+          "publisher": "천재(정대홍)",
+          "page": 126,
+          "item_index": 7,
+          "raw_text": "플라스틱 관",
+          "span": [
+            32,
+            38
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-6a5751f812771086",
+      "representative_text": "플라스틱 구슬 10~20개",
+      "raw_variants": [
+        "플라스틱 구슬 10~20개"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0376",
+          "activity_title": "기체의 압력을 입자의 운동으로 설명하기",
+          "publisher": "천재(정대홍)",
+          "page": 196,
+          "item_index": 1,
+          "raw_text": "플라스틱 구슬 10~20개",
+          "span": [
+            0,
+            14
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-3205ca7789dd8573",
+      "representative_text": "플라스틱 블록",
+      "raw_variants": [
+        "플라스틱 블록"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0435",
+          "activity_title": "물질의 세 가지 상태 특징 알아보기",
+          "publisher": "비상",
+          "page": 122,
+          "item_index": 1,
+          "raw_text": "플라스틱 블록",
+          "span": [
+            0,
+            7
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-adecd8d241dccf9b",
+      "representative_text": "플라스틱 숟가락 2개",
+      "raw_variants": [
+        "플라스틱 숟가락 2개"
+      ],
+      "category": "분류 보류",
+      "reason": "소모·폐기·재사용 여부가 품목명만으로 확정되지 않음",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0109",
+          "activity_title": "마찰한 두 물체에 작용하는 힘 관찰하기",
+          "publisher": "천재(임성숙)",
+          "page": 236,
+          "item_index": 3,
+          "raw_text": "플라스틱 숟가락 2개",
+          "span": [
+            9,
+            20
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-e967d02393e48222",
+      "representative_text": "플라스틱 투명 반구",
+      "raw_variants": [
+        "플라스틱 투명 반구"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0415",
+          "activity_title": "하루 동안 천체의 위치 변화 알아보기",
+          "publisher": "천재(임성숙)",
+          "page": 248,
+          "item_index": 2,
+          "raw_text": "플라스틱 투명 반구",
+          "span": [
+            5,
+            15
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-c02c98199db650e3",
+      "representative_text": "플라스틱판",
+      "raw_variants": [
+        "플라스틱판"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0429",
+          "activity_title": "열화상 카메라를 이용하여 물체에서 열의 전도 비교하기",
+          "publisher": "비상",
+          "page": 90,
+          "item_index": 1,
+          "raw_text": "플라스틱판",
+          "span": [
+            0,
+            5
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    },
+    {
+      "item_id": "ITEM-83c5234beb6e0620",
+      "representative_text": "학교와 주변 지역 지도",
+      "raw_variants": [
+        "학교와 주변 지역 지도"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0425",
+          "activity_title": "학교와 주변 지역의 생물 분류하기",
+          "publisher": "비상",
+          "page": 62,
+          "item_index": 1,
+          "raw_text": "학교와 주변 지역 지도",
+          "span": [
+            0,
+            12
+          ]
+        }
+      ],
+      "review_group": "카드·모형·부록·학습 자료"
+    },
+    {
+      "item_id": "ITEM-2d1c5eddf616ff8e",
+      "representative_text": "흰색 상자",
+      "raw_variants": [
+        "흰색 상자"
+      ],
+      "category": "분류 보류",
+      "reason": "사용 후 남는지 또는 재사용하는 물품인지 추가 판단 필요",
+      "decision_source": "사용자 판단 대기",
+      "occurrences": [
+        {
+          "activity_id": "activity_0215",
+          "activity_title": "물제가 반사하는 빛의 색 관찰하기",
+          "publisher": "비상",
+          "page": 104,
+          "item_index": 1,
+          "raw_text": "흰색 상자",
+          "span": [
+            0,
+            5
+          ]
+        }
+      ],
+      "review_group": "그 밖의 재사용 여부 확인 항목"
+    }
+  ]
+}

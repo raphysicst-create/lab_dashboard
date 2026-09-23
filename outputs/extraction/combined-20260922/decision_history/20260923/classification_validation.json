@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "source_fields_exactly_preserved": true,
+  "all_nonseparator_characters_accounted_for": true,
+  "each_occurrence_assigned_once": true,
+  "nulls_preserved": true,
+  "views_preserved": true,
+  "output_sha256": "74210aba522146e42eed0648380c844f49f3212336c68e07b32411cc1a729c49",
+  "sources": [
+    {
+      "dataset": "원자료",
+      "record_count": 454,
+      "records_exactly_preserved": true,
+      "input_file_unchanged": true
+    },
+    {
+      "dataset": "지학사",
+      "record_count": 169,
+      "records_exactly_preserved": true,
+      "input_file_unchanged": true
+    },
+    {
+      "dataset": "YBM",
+      "record_count": 239,
+      "records_exactly_preserved": true,
+      "input_file_unchanged": true
+    }
+  ],
+  "counts": {
+    "schema_version": "1.0",
+    "unclassified_backup": "science_experiment_supplies_combined.unclassified.json",
+    "unclassified_sha256": "edf9f7f1d6d734c4a8950523c215ddfd2498abdf0991cc593ef53bd35d5ef247",
+    "policy": "사용자가 정한 기준: 실험 후에도 남아 반복 사용하는 물품은 실험 기자재, 투입·소모 재료는 실험 준비물. 불명확하면 분류 보류.",
+    "original_field": "교구",
+    "added_fields": [
+      "실험 기자재",
+      "실험 준비물",
+      "분류 보류",
+      "준비물 분류"
+    ],
+    "notes": [
+      "장갑·보안경·실험복은 사용자 지정에 따라 기자재로 분류한다.",
+      "원문·규격·농도·수량은 변경하지 않고 분류 필드만 추가한다.",
+      "약품규정의 약품명 목록 일치 여부는 이 분류의 조건이 아니다.",
+      "미확인 원문(null)은 세 분류도 null이며, 명시된 목록에 해당 분류가 없으면 빈 배열이다.",
+      "분류 보류는 임의로 어느 쪽에도 넣지 않았으며 classification_review.md에서 판단할 수 있다.",
+      "일반 명칭의 펜·연필은 반복 사용하는 도구로 분류하고, 소프트웨어·자료 및 재사용 여부가 불명확한 재료는 보류한다."
+    ],
+    "record_count": 862,
+    "records_without_preparation_text": 103,
+    "item_occurrences": {
+      "실험 기자재": 2720,
+      "실험 준비물": 634,
+      "분류 보류": 665
+    },
+    "unique_item_count": 1073,
+    "pending_unique_items": 378,
+    "unique_items_by_category": {
+      "실험 기자재": 469,
+      "실험 준비물": 226,
+      "분류 보류": 378
+    },
+    "records_with_pending_items": 380
+  }
+}

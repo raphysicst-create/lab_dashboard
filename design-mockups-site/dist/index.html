@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="중학교 과학 수업 준비 화면의 네 가지 디자인 목업 비교">
+  <meta name="description" content="중학교 과학 수업 준비의 현재 기본 스타일과 네 가지 디자인 목업 비교">
   <meta name="theme-color" content="#111111">
-  <title>과학 수업 준비 · 디자인 목업 4종</title>
+  <title>과학 수업 준비 · 기본 스타일과 디자인 목업 4종</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23111'/%3E%3Ccircle cx='11' cy='11' r='4' fill='%230f62fe'/%3E%3Ccircle cx='21' cy='11' r='4' fill='%23aa2d00'/%3E%3Ccircle cx='11' cy='21' r='4' fill='%2300754a'/%3E%3Ccircle cx='21' cy='21' r='4' fill='white'/%3E%3C/svg%3E">
   <style>
     :root { font-family: Inter,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif; color:#161616; background:#f4f4f4; }
@@ -30,6 +30,11 @@
     .mini-results { display:grid; grid-template-columns:repeat(2,1fr); gap:8px; }
     .mini-card { padding:12px; }
     .mini-card::before { content:""; display:block; width:42%; height:6px; margin-bottom:16px; background:var(--accent); border-radius:4px; }
+    .current { --canvas:#f3f6f8;--head:#174a75;--head-ink:#fff;--head-radius:0;--button:#fff;--button-radius:5px;--surface:#fff;--line:#ccd5dd;--radius:7px;--shadow:none;--accent:#174a75; }
+    .current-card { border-color:#174a75; }
+    .current-card .eyebrow { color:#174a75; }
+    .current-card a { background:#174a75; }
+    .current-card a:hover { background:#123c60; }
     .cal { --canvas:#fff;--head:#fff;--head-ink:#111;--button:#111;--button-radius:7px;--surface:#f8f9fa;--line:#e5e7eb;--radius:12px;--shadow:none;--accent:#111; }
     .ibm { --canvas:#fff;--head:#161616;--head-ink:#fff;--button:#0f62fe;--button-radius:0;--surface:#f4f4f4;--line:#e0e0e0;--radius:0;--shadow:none;--accent:#0f62fe; }
     .airtable { --canvas:#f7f8fa;--head:#fff;--head-ink:#181d26;--button:#181d26;--button-radius:8px;--surface:#fff;--line:#d9dee5;--radius:10px;--shadow:none;--accent:#aa2d00; }
@@ -44,10 +49,11 @@
   </style>
 </head>
 <body>
-  <header><h1>과학 수업 준비<br>디자인 목업 4종</h1><p>같은 검색·필터·정렬·상세보기 흐름을 네 가지 디자인 언어로 비교할 수 있습니다. 각 목업은 데스크톱과 모바일 레이아웃을 모두 지원합니다.</p></header>
+  <header><h1>과학 수업 준비<br>기본 스타일 + 디자인 목업 4종</h1><p>현재 개발 중인 기본 화면과 네 가지 디자인 시안을 비교할 수 있습니다. 각 화면은 데스크톱과 모바일 레이아웃을 모두 지원합니다.</p></header>
   <main>
-    <p class="note">카드를 선택하면 인터랙션이 포함된 전체 화면 목업이 열립니다.</p>
-    <section class="grid" aria-label="디자인 목업 목록">
+    <p class="note">현재 기본 스타일은 개발 중인 실제 사이트로, 나머지 네 카드는 전체 화면 목업으로 연결됩니다.</p>
+    <section class="grid" aria-label="기본 스타일과 디자인 목업 목록">
+      <article class="current-card"><div class="preview current" aria-hidden="true"><div class="mini-head"><strong>중학교 과학 수업 준비</strong><span></span></div><div class="mini-body"><div class="mini-filter"><div class="bar"></div><div class="bar short"></div><div class="bar"></div></div><div class="mini-results"><div class="mini-card"><div class="bar"></div><div class="bar short"></div></div><div class="mini-card"><div class="bar"></div><div class="bar short"></div></div></div></div></div><div class="card-copy"><span class="eyebrow">현재 개발 중</span><h2>현재 기본 스타일</h2><p>파란 헤더와 밝은 회색 배경의 기본 화면입니다. 실제 활동 검색, 필터, 상세보기와 약품 목록을 확인할 수 있습니다.</p><a href="https://raphysicst-create.github.io/lab_dashboard/">현재 기본 화면 열기 →</a></div></article>
       <article><div class="preview cal"><div class="mini-head"><strong>과학 수업 준비</strong><span></span></div><div class="mini-body"><div class="mini-filter"><div class="bar"></div><div class="bar short"></div><div class="bar"></div></div><div class="mini-results"><div class="mini-card"><div class="bar"></div><div class="bar short"></div></div><div class="mini-card"><div class="bar"></div><div class="bar short"></div></div></div></div></div><div class="card-copy"><span class="eyebrow">Cal.com</span><h2>모노크롬 SaaS</h2><p>넉넉한 여백, 둥근 제품 카드, 검정 주 액션으로 만든 정돈된 작업 화면입니다.</p><a href="./cal.html">Cal.com 목업 열기 →</a></div></article>
       <article><div class="preview ibm"><div class="mini-head"><strong>IBM · 과학 수업 준비</strong><span></span></div><div class="mini-body"><div class="mini-filter"><div class="bar"></div><div class="bar short"></div><div class="bar"></div></div><div class="mini-results"><div class="mini-card"><div class="bar"></div><div class="bar short"></div></div><div class="mini-card"><div class="bar"></div><div class="bar short"></div></div></div></div></div><div class="card-copy"><span class="eyebrow">IBM Carbon</span><h2>정밀한 데이터 도구</h2><p>정사각형 모서리, 선명한 그리드, IBM Blue를 사용한 업무 중심의 화면입니다.</p><a href="./ibm.html">IBM 목업 열기 →</a></div></article>
       <article><div class="preview airtable"><div class="mini-head"><strong>과학 수업 준비 베이스</strong><span></span></div><div class="mini-body"><div class="mini-filter"><div class="bar"></div><div class="bar short"></div><div class="bar"></div></div><div class="mini-results"><div class="mini-card"><div class="bar"></div><div class="bar short"></div></div><div class="mini-card"><div class="bar"></div><div class="bar short"></div></div></div></div></div><div class="card-copy"><span class="eyebrow">Airtable</span><h2>차분한 편집형 워크스페이스</h2><p>중간 굵기 서체, 약한 테두리, 작은 코럴 포인트로 편집 도구의 인상을 냅니다.</p><a href="./airtable.html">Airtable 목업 열기 →</a></div></article>

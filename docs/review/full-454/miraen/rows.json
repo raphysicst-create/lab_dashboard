@@ -1,0 +1,4140 @@
+[
+  {
+    "id": "activity_0126",
+    "source_row": 127,
+    "publisher": "미래앤",
+    "unit": "8. 물질의 특성",
+    "title": "질량과 부피를 측정하여 철과 알루미늄 구별하기",
+    "page": 16,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch01.pdf",
+    "pdf_page": 5,
+    "printed_page": 16,
+    "evidence_excerpt": "인쇄면 16: '질량과 부피를 측정하여 철과 알루미늄 구별하기'. 준비물: 크기가 다른 철 조각 2개, 크기가 다른 알루미늄 조각 2개, 물, 가는 실, 100 mL 눈금실린더, 핀셋, 전자저울, 실험복, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 장 제목 '물질의 특성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 8을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "08_물질의특성.md의 [9과08-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 23)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 물리페이지 5에 인쇄면 16와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 16의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "표현차이",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 16 준비물란: 크기가 다른 철 조각 2개, 크기가 다른 알루미늄 조각 2개, 물, 가는 실, 100 mL 눈금실린더, 핀셋, 전자저울, 실험복, 실험용 장갑. '100ml'의 단위 대소문자와 띄어쓰기를 PDF의 100 mL 표기에 맞춘다.",
+        "suggested": "크기가 다른 철 조각 2개, 크기가 다른 알루미늄 조각 2개, 물, 가는 실, 100 mL 눈금실린더, 핀셋, 전자저울, 실험복, 실험용 장갑"
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0127",
+    "source_row": 128,
+    "publisher": "미래앤",
+    "unit": "8. 물질의 특성",
+    "title": "물질이 뜨거나 가라앉는 것과 밀도의 관계 알아보기",
+    "page": 18,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch01.pdf",
+    "pdf_page": 7,
+    "printed_page": 18,
+    "evidence_excerpt": "인쇄면 18: '물질이 뜨거나 가라앉는 것과 밀도의 관계 알아보기'. 준비물: 물, 에탄올, 식용유, 동전, 얼음, 투명한 컵, 실험복, 보안경, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 장 제목 '물질의 특성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 8을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "08_물질의특성.md의 [9과08-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 23)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 물리페이지 7에 인쇄면 18와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 18의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 18의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0128",
+    "source_row": 129,
+    "publisher": "미래앤",
+    "unit": "8. 물질의 특성",
+    "title": "용질의 녹는 양 측정하기",
+    "page": 21,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch01.pdf",
+    "pdf_page": 10,
+    "printed_page": 21,
+    "evidence_excerpt": "인쇄면 21: '용질의 녹는 양 측정하기'. 준비물: 질산 칼륨, 황산 구리(II), 실온의 물, 60°C 물, 뚜껑 있는 유리병, 비커, 스포이트, 깔때기, 집게, 자석 젓개, 자석, 전자저울, 시약포지, 약숟가락, 실험복, 보안경, 실험용 장갑, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 장 제목 '물질의 특성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 8을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "08_물질의특성.md의 [9과08-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 23)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 물리페이지 10에 인쇄면 21와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 21의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 21의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0129",
+    "source_row": 130,
+    "publisher": "미래앤",
+    "unit": "8. 물질의 특성",
+    "title": "온도와 압력에 따른 기체의 용해도 알아보기",
+    "page": 22,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch01.pdf",
+    "pdf_page": 11,
+    "printed_page": 22,
+    "evidence_excerpt": "인쇄면 22: '온도와 압력에 따른 기체의 용해도 알아보기'. 준비물: 차가운 탄산음료, 뜨거운 물, 비커, 시험관, 감압 용기, 실험복, 보안경, 실험용 장갑, 내열 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 장 제목 '물질의 특성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 8을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "08_물질의특성.md의 [9과08-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 23)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 물리페이지 11에 인쇄면 22와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 22의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 22의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0130",
+    "source_row": 131,
+    "publisher": "미래앤",
+    "unit": "8. 물질의 특성",
+    "title": "끓는점으로 물질 구별하기",
+    "page": 26,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch01.pdf",
+    "pdf_page": 15,
+    "printed_page": 26,
+    "evidence_excerpt": "인쇄면 26: '끓는점으로 물질 구별하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 장 제목 '물질의 특성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 8을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "08_물질의특성.md의 [9과08-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 23)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 물리페이지 15에 인쇄면 26와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 26의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 26의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0131",
+    "source_row": 132,
+    "publisher": "미래앤",
+    "unit": "8. 물질의 특성",
+    "title": "순물질과 혼합물 분류하기",
+    "page": 33,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch01.pdf",
+    "pdf_page": 22,
+    "printed_page": 33,
+    "evidence_excerpt": "인쇄면 33: '순물질과 혼합물 분류하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 장 제목 '물질의 특성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 8을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "08_물질의특성.md의 [9과08-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 23)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 물리페이지 22에 인쇄면 33와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 33의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 33의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0132",
+    "source_row": 133,
+    "publisher": "미래앤",
+    "unit": "8. 물질의 특성",
+    "title": "물과 식용유 혼합물 분리하기",
+    "page": 35,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch01.pdf",
+    "pdf_page": 24,
+    "printed_page": 35,
+    "evidence_excerpt": "인쇄면 35: '물과 식용유 혼합물 분리하기'. 준비물: 물과 식용유 혼합물, 분별 깔때기, 깔때기, 비커, 스탠드, 링, 집게 잡이, 실험복, 보안경, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 장 제목 '물질의 특성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 8을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "08_물질의특성.md의 [9과08-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 23)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 물리페이지 24에 인쇄면 35와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 35의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 35의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0133",
+    "source_row": 134,
+    "publisher": "미래앤",
+    "unit": "8. 물질의 특성",
+    "title": "고체 혼합물에서 순수한 고체 물질 얻기",
+    "page": 36,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch01.pdf",
+    "pdf_page": 25,
+    "printed_page": 36,
+    "evidence_excerpt": "인쇄면 36: '고체 혼합물에서 순수한 고체 물질 얻기'. 준비물: 질산 칼륨 10 g과 염화 나트륨 2 g이 섞인 혼합물, 물, 잘게 부순 얼음, 500 mL 비커, 50 mL 비커, 가열 장치, 거름 장치, 유리 막대, 스포이트, 시약포지, 실험복, 보안경, 실험용 장갑, 면장갑, 내열 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 장 제목 '물질의 특성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 8을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "08_물질의특성.md의 [9과08-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 23)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 물리페이지 25에 인쇄면 36와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 36의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 36 준비물란: 질산 칼륨 10 g과 염화 나트륨 2 g이 섞인 혼합물, 물, 잘게 부순 얼음, 500 mL 비커, 50 mL 비커, 가열 장치, 거름 장치, 유리 막대, 스포이트, 시약포지, 실험복, 보안경, 실험용 장갑, 면장갑, 내열 장갑. PDF는 두 시약을 별도 항목으로 쓰지 않고 양이 정해진 혼합물로 명시하며, 얼음도 '잘게 부순' 조건을 붙인다.",
+        "suggested": "질산 칼륨 10 g과 염화 나트륨 2 g이 섞인 혼합물, 물, 잘게 부순 얼음, 500 mL 비커, 50 mL 비커, 가열 장치, 거름 장치, 유리 막대, 스포이트, 시약포지, 실험복, 보안경, 실험용 장갑, 면장갑, 내열 장갑"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0134",
+    "source_row": 135,
+    "publisher": "미래앤",
+    "unit": "8. 물질의 특성",
+    "title": "물과 에탄올 혼합물 분리하기",
+    "page": 38,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch01.pdf",
+    "pdf_page": 27,
+    "printed_page": 38,
+    "evidence_excerpt": "인쇄면 38: '물과 에탄올 혼합물 분리하기'. 준비물: 물과 에탄올 혼합물, 얼음물, 끓임쪽, 가지 달린 삼각 플라스크, 시험관 4개, 시험관대, 비커, 구멍 뚫린 실리콘 마개, 유리관, 고무관, 가열 장치, 온도 센서, 스마트 기기, 유리 막대, 푸른색 염화 코발트 종이, 실험복, 보안경, 실험용 장갑, 면장갑, 내열 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 장 제목 '물질의 특성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 8을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "08_물질의특성.md의 [9과08-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 23)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 물리페이지 27에 인쇄면 38와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 38의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 38의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0135",
+    "source_row": 136,
+    "publisher": "미래앤",
+    "unit": "8. 물질의 특성",
+    "title": "끓는점 차를 이용하여 혼합물을 분리하는 사례 조사하기",
+    "page": 40,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch01.pdf",
+    "pdf_page": 29,
+    "printed_page": 40,
+    "evidence_excerpt": "인쇄면 40: '끓는점 차를 이용하여 혼합물을 분리하는 사례 조사하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 장 제목 '물질의 특성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 8을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "08_물질의특성.md의 [9과08-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 23)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 물리페이지 29에 인쇄면 40와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 40의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch01.pdf 인쇄면 40의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0136",
+    "source_row": 137,
+    "publisher": "미래앤",
+    "unit": "9. 지권의 변화",
+    "title": "지구를 구성하는 요소 찾아보기",
+    "page": 56,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch02.pdf",
+    "pdf_page": 5,
+    "printed_page": 56,
+    "evidence_excerpt": "인쇄면 56: '지구를 구성하는 요소 찾아보기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 장 제목 '지권의 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 9을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "09_지권의변화.md의 [9과09-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 24)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 물리페이지 5에 인쇄면 56와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 56의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 56의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0137",
+    "source_row": 138,
+    "publisher": "미래앤",
+    "unit": "9. 지권의 변화",
+    "title": "지권의 층상 구조와 특징 조사하기",
+    "page": 59,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch02.pdf",
+    "pdf_page": 8,
+    "printed_page": 59,
+    "evidence_excerpt": "인쇄면 59: '지권의 층상 구조와 특징 조사하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 장 제목 '지권의 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 9을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "09_지권의변화.md의 [9과09-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 24)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 물리페이지 8에 인쇄면 59와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 59의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 59의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0138",
+    "source_row": 139,
+    "publisher": "미래앤",
+    "unit": "9. 지권의 변화",
+    "title": "광물의 특성 관찰하기",
+    "page": 62,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch02.pdf",
+    "pdf_page": 11,
+    "printed_page": 62,
+    "evidence_excerpt": "인쇄면 62: '광물의 특성 관찰하기'. 준비물: 광물 표본(석영, 장석, 흑운모, 방해석, 자철석), 조흔판, 클립, 묽은 염산, 스포이트, 페트리 접시, 실험복, 보안경, 마스크, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 장 제목 '지권의 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 9을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "09_지권의변화.md의 [9과09-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 24)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 물리페이지 11에 인쇄면 62와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 62의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 62의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0139",
+    "source_row": 140,
+    "publisher": "미래앤",
+    "unit": "9. 지권의 변화",
+    "title": "암석을 관찰하여 분류하기",
+    "page": 70,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch02.pdf",
+    "pdf_page": 19,
+    "printed_page": 70,
+    "evidence_excerpt": "인쇄면 70: '암석을 관찰하여 분류하기'. 준비물: 암석 표본(화강암, 현무암, 역암, 사암, 편마암, 대리암), 번호표, 돋보기, 묽은 염산, 스포이트, 페트리 접시, 실험복, 보안경, 마스크, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 장 제목 '지권의 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 9을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "09_지권의변화.md의 [9과09-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 24)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 물리페이지 19에 인쇄면 70와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 70의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 70의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0140",
+    "source_row": 141,
+    "publisher": "미래앤",
+    "unit": "9. 지권의 변화",
+    "title": "광물과 암석의 활용 예 조사하기",
+    "page": 72,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch02.pdf",
+    "pdf_page": 21,
+    "printed_page": 72,
+    "evidence_excerpt": "인쇄면 72: '광물과 암석의 활용 예 조사하기'. 준비물: 스마트 기기, 참고 도서",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 장 제목 '지권의 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 9을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "09_지권의변화.md의 [9과09-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 24)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 물리페이지 21에 인쇄면 72와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 72의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 72의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0141",
+    "source_row": 142,
+    "publisher": "미래앤",
+    "unit": "9. 지권의 변화",
+    "title": "대륙의 해안선 맞추기",
+    "page": 80,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch02.pdf",
+    "pdf_page": 29,
+    "printed_page": 80,
+    "evidence_excerpt": "인쇄면 80: '대륙의 해안선 맞추기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 장 제목 '지권의 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 9을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "09_지권의변화.md의 [9과09-05] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 24)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 물리페이지 29에 인쇄면 80와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 80의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 80의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0142",
+    "source_row": 143,
+    "publisher": "미래앤",
+    "unit": "9. 지권의 변화",
+    "title": "빅데이터를 활용하여 화산대 및 지진대와 판의 경계와의 관련성 탐구하기",
+    "page": 84,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch02.pdf",
+    "pdf_page": 33,
+    "printed_page": 84,
+    "evidence_excerpt": "인쇄면 84: '빅데이터를 활용하여 화산대 및 지진대와 판의 경계와의 관련성 탐구하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 장 제목 '지권의 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 9을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "09_지권의변화.md의 [9과09-05] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 24)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 물리페이지 33에 인쇄면 84와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 84의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch02.pdf 인쇄면 84의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0143",
+    "source_row": 144,
+    "publisher": "미래앤",
+    "unit": "10. 빛과 파동",
+    "title": "빛의 반사 관찰하기",
+    "page": 98,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch03.pdf",
+    "pdf_page": 5,
+    "printed_page": 98,
+    "evidence_excerpt": "인쇄면 98: '빛의 반사 관찰하기'. 준비물: 각도기가 달린 거울, 슬릿 레이저, 레이저 보안경",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 장 제목 '빛과 파동'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 10을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "10_빛과파동.md의 [9과10-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 25)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 물리페이지 5에 인쇄면 98와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 98의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 98의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0144",
+    "source_row": 145,
+    "publisher": "미래앤",
+    "unit": "10. 빛과 파동",
+    "title": "빛의 굴절 관찰하기",
+    "page": 100,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch03.pdf",
+    "pdf_page": 7,
+    "printed_page": 100,
+    "evidence_excerpt": "인쇄면 100: '빛의 굴절 관찰하기'. 준비물: 투명한 사각 수조, 물, 레이저 지시기(고출력), 우유, 향, 스포이트, 유리 막대, 점화기, 스마트 기기, 실험복, 레이저 보안경, 실험용 장갑, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 장 제목 '빛과 파동'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 10을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "10_빛과파동.md의 [9과10-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 25)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 물리페이지 7에 인쇄면 100와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 100의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 100의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0145",
+    "source_row": 146,
+    "publisher": "미래앤",
+    "unit": "10. 빛과 파동",
+    "title": "평면거울에 의한 상의 특징 관찰하기",
+    "page": 104,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch03.pdf",
+    "pdf_page": 11,
+    "printed_page": 104,
+    "evidence_excerpt": "인쇄면 104: '평면거울에 의한 상의 특징 관찰하기'. 준비물: 반투명 평면거울, 크기와 모양이 같은 물체 2개, 모눈종이, 연필",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 장 제목 '빛과 파동'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 10을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "10_빛과파동.md의 [9과10-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 25)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 물리페이지 11에 인쇄면 104와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 104의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 104의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0146",
+    "source_row": 147,
+    "publisher": "미래앤",
+    "unit": "10. 빛과 파동",
+    "title": "거울과 렌즈에 의한 상의 특징 관찰하기",
+    "page": 106,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch03.pdf",
+    "pdf_page": 13,
+    "printed_page": 106,
+    "evidence_excerpt": "인쇄면 106: '거울과 렌즈에 의한 상의 특징 관찰하기'. 준비물: 볼록 거울, 오목 거울, 볼록 렌즈, 오목 렌즈, 물체",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 장 제목 '빛과 파동'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 10을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "10_빛과파동.md의 [9과10-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 25)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 물리페이지 13에 인쇄면 106와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 106의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 106의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0147",
+    "source_row": 148,
+    "publisher": "미래앤",
+    "unit": "10. 빛과 파동",
+    "title": "일상생활에서 사용하는 거울가 렌즈 분류하기",
+    "page": 111,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch03.pdf",
+    "pdf_page": 18,
+    "printed_page": 111,
+    "evidence_excerpt": "인쇄면 111: '일상생활에서 사용하는 거울과 렌즈 분류하기'. 준비물: 거울과 렌즈 카드(부록 319쪽), 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 장 제목 '빛과 파동'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 10을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "10_빛과파동.md의 [9과10-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 25)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 물리페이지 18에 인쇄면 111와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "수정후보",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 111: '일상생활에서 사용하는 거울과 렌즈 분류하기'. 원문 '거울가'는 PDF의 '거울과'와 다른 조사 오기이다.",
+        "suggested": "일상생활에서 사용하는 거울과 렌즈 분류하기"
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 111 준비물란: 거울과 렌즈 카드(부록 319쪽), 스마트 기기. PDF 준비물의 거울과 렌즈 카드가 원문에서 누락되었다.",
+        "suggested": "거울과 렌즈 카드(부록 319쪽), 스마트 기기"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인; PDF 렌더 시각 확인 완료"
+  },
+  {
+    "id": "activity_0148",
+    "source_row": 149,
+    "publisher": "미래앤",
+    "unit": "10. 빛과 파동",
+    "title": "빛의 합성 관찰하기",
+    "page": 113,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch03.pdf",
+    "pdf_page": 20,
+    "printed_page": 113,
+    "evidence_excerpt": "인쇄면 113: '빛의 합성 관찰하기'. 준비물: 세 가지 색 발광 다이오드[LED] 손전등, 스크린",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 장 제목 '빛과 파동'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 10을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "10_빛과파동.md의 [9과10-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 25)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 물리페이지 20에 인쇄면 113와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 113의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "표현차이",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 113 준비물란: 세 가지 색 발광 다이오드[LED] 손전등, 스크린. LED 괄호 모양만 PDF와 다르고 준비물 의미는 같다.",
+        "suggested": "세 가지 색 발광 다이오드[LED] 손전등, 스크린"
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0149",
+    "source_row": 150,
+    "publisher": "미래앤",
+    "unit": "10. 빛과 파동",
+    "title": "영상 장치에서 다양한 색이 표현되는 원리 관찰하기",
+    "page": 114,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch03.pdf",
+    "pdf_page": 21,
+    "printed_page": 114,
+    "evidence_excerpt": "인쇄면 114: '영상 장치에서 다양한 색이 표현되는 원리 관찰하기'. 준비물: 스마트폰 현미경, 스마트폰, 노트북, 사인펜(빨간색, 초록색, 파란색)",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 장 제목 '빛과 파동'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 10을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "10_빛과파동.md의 [9과10-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 25)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 물리페이지 21에 인쇄면 114와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 114의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 114의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0150",
+    "source_row": 151,
+    "publisher": "미래앤",
+    "unit": "10. 빛과 파동",
+    "title": "파동의 움직임 관찰하기",
+    "page": 120,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch03.pdf",
+    "pdf_page": 27,
+    "printed_page": 120,
+    "evidence_excerpt": "인쇄면 120: '파동의 움직임 관찰하기'. 준비물: 사각 수조, 물, 탁구공, 나무 막대, 실험복, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 장 제목 '빛과 파동'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 10을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "10_빛과파동.md의 [9과10-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 25)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 물리페이지 27에 인쇄면 120와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 120의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 120의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0151",
+    "source_row": 152,
+    "publisher": "미래앤",
+    "unit": "10. 빛과 파동",
+    "title": "디지털 탐구 도구를 이용하여 소리의 진폭, 진동수, 파형 탐구하기",
+    "page": 122,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch03.pdf",
+    "pdf_page": 29,
+    "printed_page": 122,
+    "evidence_excerpt": "인쇄면 122: '디지털 탐구 도구를 이용하여 소리의 진폭, 진동수, 파형 탐구하기'. 준비물: 칼림바, 다양한 악기(리코더, 오카리나, 플루트, 바이올린 등), 스마트 기기, 소리 분석 애플리케이션",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 장 제목 '빛과 파동'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 10을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "10_빛과파동.md의 [9과10-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 25)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 물리페이지 29에 인쇄면 122와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 122의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch03.pdf 인쇄면 122의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0152",
+    "source_row": 153,
+    "publisher": "미래앤",
+    "unit": "11. 물질의 구성",
+    "title": "우리 주변의 물질 구분하기",
+    "page": 139,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch04.pdf",
+    "pdf_page": 6,
+    "printed_page": 139,
+    "evidence_excerpt": "인쇄면 139: '우리 주변의 물질 구분하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 장 제목 '물질의 구성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 11을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "11_물질의구성.md의 [9과11-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 26)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 물리페이지 6에 인쇄면 139와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 139의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 139의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0153",
+    "source_row": 154,
+    "publisher": "미래앤",
+    "unit": "11. 물질의 구성",
+    "title": "원소기호를 익히는 놀이 하기",
+    "page": 141,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch04.pdf",
+    "pdf_page": 8,
+    "printed_page": 141,
+    "evidence_excerpt": "인쇄면 141: '원소기호를 익히는 놀이 하기'. 준비물: 원소 카드(부록 321쪽), 색깔이 다른 말 4개",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 장 제목 '물질의 구성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 11을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "11_물질의구성.md의 [9과11-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 26)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 물리페이지 8에 인쇄면 141와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 141의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 141 준비물란: 원소 카드(부록 321쪽), 색깔이 다른 말 4개. 원문은 null이지만 PDF에 준비물 두 항목이 명시되어 있다.",
+        "suggested": "원소 카드(부록 321쪽), 색깔이 다른 말 4개"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0154",
+    "source_row": 155,
+    "publisher": "미래앤",
+    "unit": "11. 물질의 구성",
+    "title": "지구 환경에 영향을 미치는 물질을 화학식으로 표현하기",
+    "page": 143,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch04.pdf",
+    "pdf_page": 10,
+    "printed_page": 143,
+    "evidence_excerpt": "인쇄면 143: '지구 환경에 영향을 미치는 물질을 화학식으로 표현하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 장 제목 '물질의 구성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 11을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "11_물질의구성.md의 [9과11-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 26)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 물리페이지 10에 인쇄면 143와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 143의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 143의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0155",
+    "source_row": 156,
+    "publisher": "미래앤",
+    "unit": "11. 물질의 구성",
+    "title": "원자 모형 만들기",
+    "page": 145,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch04.pdf",
+    "pdf_page": 12,
+    "printed_page": 145,
+    "evidence_excerpt": "인쇄면 145: '원자 모형 만들기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 장 제목 '물질의 구성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 11을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "11_물질의구성.md의 [9과11-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 26)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 물리페이지 12에 인쇄면 145와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 145의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 145의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0156",
+    "source_row": 157,
+    "publisher": "미래앤",
+    "unit": "11. 물질의 구성",
+    "title": "같은 족 원소들의 유사성 탐구하기",
+    "page": 148,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch04.pdf",
+    "pdf_page": 15,
+    "printed_page": 148,
+    "evidence_excerpt": "인쇄면 148: '같은 족 원소들의 유사성 탐구하기'. 준비물: 스마트 기기, 도화지, 그림 도구",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 장 제목 '물질의 구성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 11을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "11_물질의구성.md의 [9과11-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 26)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 물리페이지 15에 인쇄면 148와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 148의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 148의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0157",
+    "source_row": 158,
+    "publisher": "미래앤",
+    "unit": "11. 물질의 구성",
+    "title": "원자, 분자, 이온으로 존재하는 물질 알아보기",
+    "page": 157,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch04.pdf",
+    "pdf_page": 24,
+    "printed_page": 157,
+    "evidence_excerpt": "인쇄면 157: '원자, 분자, 이온으로 존재하는 물질 알아보기'. 준비물: 스마트 기기, 디지털 그림 도구 애플리케이션",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 장 제목 '물질의 구성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 11을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "11_물질의구성.md의 [9과11-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 26)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 물리페이지 24에 인쇄면 157와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 157의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 157의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0158",
+    "source_row": 159,
+    "publisher": "미래앤",
+    "unit": "11. 물질의 구성",
+    "title": "이온의 이동 관찰하기",
+    "page": 158,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch04.pdf",
+    "pdf_page": 25,
+    "printed_page": 158,
+    "evidence_excerpt": "인쇄면 158: '이온의 이동 관찰하기'. 준비물: 10% 질산 칼륨 수용액, 황산 구리(Ⅱ) 수용액, 과망가니즈산 칼륨 수용액, 페트리 접시, 스포이트, 거름종이, 집게, 전원 장치, 집게 달린 전선, 스마트 기기, 실험복, 보안경, 실험용 장갑, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 장 제목 '물질의 구성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 11을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "11_물질의구성.md의 [9과11-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 26)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 물리페이지 25에 인쇄면 158와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 158의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch04.pdf 인쇄면 158의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0159",
+    "source_row": 160,
+    "publisher": "미래앤",
+    "unit": "12. 식물과 에너지",
+    "title": "광합성에 필요한 물질과 광합성 산물 확인하기",
+    "page": 174,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch05.pdf",
+    "pdf_page": 7,
+    "printed_page": 174,
+    "evidence_excerpt": "인쇄면 174: '광합성에 필요한 물질과 광합성 산물 확인하기'. 준비물: 상추 모종, 에탄올, 뜨거운 물(80℃~100℃), 증류수, 아이오딘-아이오딘화 칼륨 용액, 센서 전용 투명 용기, 비커, 시험관, 페트리 접시, 스포이트, 이산화 탄소 센서, 산소 센서, 핀셋, 칼, 발광 다이오드[LED] 전등, 어둠 상자, 스마트 기기, 실험복, 보안경, 마스크, 실험용 장갑, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 장 제목 '식물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 12을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "12_식물과에너지.md의 [9과12-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 27)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 물리페이지 7에 인쇄면 174와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 인쇄면 174의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "표현차이",
+        "evidence": "miraeN_K8_ch05.pdf 인쇄면 174 준비물란: 상추 모종, 에탄올, 뜨거운 물(80℃~100℃), 증류수, 아이오딘-아이오딘화 칼륨 용액, 센서 전용 투명 용기, 비커, 시험관, 페트리 접시, 스포이트, 이산화 탄소 센서, 산소 센서, 핀셋, 칼, 발광 다이오드[LED] 전등, 어둠 상자, 스마트 기기, 실험복, 보안경, 마스크, 실험용 장갑, 면장갑. LED 괄호와 하이픈 계열만 PDF와 다르고 준비물 의미는 같다.",
+        "suggested": "상추 모종, 에탄올, 뜨거운 물(80℃~100℃), 증류수, 아이오딘-아이오딘화 칼륨 용액, 센서 전용 투명 용기, 비커, 시험관, 페트리 접시, 스포이트, 이산화 탄소 센서, 산소 센서, 핀셋, 칼, 발광 다이오드[LED] 전등, 어둠 상자, 스마트 기기, 실험복, 보안경, 마스크, 실험용 장갑, 면장갑"
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0160",
+    "source_row": 161,
+    "publisher": "미래앤",
+    "unit": "12. 식물과 에너지",
+    "title": "환경요인이 식물의 광합성에 영향을 미치는 사례 조사하기",
+    "page": 179,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch05.pdf",
+    "pdf_page": 12,
+    "printed_page": 179,
+    "evidence_excerpt": "인쇄면 179: '환경요인이 식물의 광합성에 영향을 미치는 사례 조사하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 장 제목 '식물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 12을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "12_식물과에너지.md의 [9과12-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 27)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 물리페이지 12에 인쇄면 179와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 인쇄면 179의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 인쇄면 179의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0161",
+    "source_row": 162,
+    "publisher": "미래앤",
+    "unit": "12. 식물과 에너지",
+    "title": "광합성과 호흡의 관계 알아보기",
+    "page": 185,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch05.pdf",
+    "pdf_page": 18,
+    "printed_page": 185,
+    "evidence_excerpt": "인쇄면 185: '광합성과 호흡의 관계 알아보기'. 준비물: 붙임딱지(부록 329쪽)",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 장 제목 '식물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 12을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "12_식물과에너지.md의 [9과12-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 27)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 물리페이지 18에 인쇄면 185와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 인쇄면 185의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K8_ch05.pdf 인쇄면 185 준비물란: 붙임딱지(부록 329쪽). 원문은 null이지만 PDF 준비물란에 붙임딱지가 명시되어 있다.",
+        "suggested": "붙임딱지(부록 329쪽)"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0162",
+    "source_row": 163,
+    "publisher": "미래앤",
+    "unit": "12. 식물과 에너지",
+    "title": "광합성산물의 저장과 이용 알아보기",
+    "page": 186,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch05.pdf",
+    "pdf_page": 19,
+    "printed_page": 186,
+    "evidence_excerpt": "인쇄면 186: '광합성산물의 저장과 이용 알아보기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 장 제목 '식물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 12을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "12_식물과에너지.md의 [9과12-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 27)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 물리페이지 19에 인쇄면 186와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 인쇄면 186의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 인쇄면 186의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0163",
+    "source_row": 164,
+    "publisher": "미래앤",
+    "unit": "12. 식물과 에너지",
+    "title": "광합성산물의 저장과 이용 과정을 모형으로 설명하기",
+    "page": 188,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch05.pdf",
+    "pdf_page": 21,
+    "printed_page": 188,
+    "evidence_excerpt": "인쇄면 188: '광합성산물의 저장과 이용 과정을 모형으로 설명하기'. 준비물: 식물 모형(부록 323쪽), 모둠별로 정한 재료, 그림 도구, 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 장 제목 '식물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 12을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "12_식물과에너지.md의 [9과12-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 27)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 물리페이지 21에 인쇄면 188와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch05.pdf 인쇄면 188의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K8_ch05.pdf 인쇄면 188 준비물란: 식물 모형(부록 323쪽), 모둠별로 정한 재료, 그림 도구, 스마트 기기. PDF 준비물의 식물 모형이 원문에서 누락되었다.",
+        "suggested": "식물 모형(부록 323쪽), 모둠별로 정한 재료, 그림 도구, 스마트 기기"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0164",
+    "source_row": 165,
+    "publisher": "미래앤",
+    "unit": "13. 동물과 에너지",
+    "title": "음식물에 들어 있는 영양소 검출하기",
+    "page": 204,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch06.pdf",
+    "pdf_page": 7,
+    "printed_page": 204,
+    "evidence_excerpt": "인쇄면 204: '음식물에 들어 있는 영양소 검출하기'. 준비물: 증류수, 밥, 양파즙, 달걀흰자액, 식용유, 아이오딘-아이오딘화 칼륨 용액, 뷰렛 용액, 수단 Ⅲ 용액, 베네딕트 용액, 뜨거운 물(80℃~90℃), 24 홈판, 비커, 시험관, 스포이트, 시험관대, 가열용 시험관대, 시험관 집게, 실험복, 보안경, 실험용 장갑, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 장 제목 '동물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 13을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "13_동물과에너지.md의 [9과13-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 물리페이지 7에 인쇄면 204와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 204의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 204의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0165",
+    "source_row": 166,
+    "publisher": "미래앤",
+    "unit": "13. 동물과 에너지",
+    "title": "침의 소화 작용 탐구하기",
+    "page": 207,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch06.pdf",
+    "pdf_page": 10,
+    "printed_page": 207,
+    "evidence_excerpt": "인쇄면 207: '침의 소화 작용 탐구하기'. 준비물: 5% 녹말 용액, 아이오딘-아이오딘화 칼륨 용액, 베네딕트 용액, 증류수, 35℃~40℃의 물, 뜨거운 물(80℃~90℃), 비커, 시험관, 받침 유리, 스포이트, 시험관대, 시험관 집게, 디지털 온도계, 핀셋, 거즈, 실험복, 보안경, 실험용 장갑, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 장 제목 '동물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 13을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "13_동물과에너지.md의 [9과13-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 물리페이지 10에 인쇄면 207와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 207의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 207의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0166",
+    "source_row": 167,
+    "publisher": "미래앤",
+    "unit": "13. 동물과 에너지",
+    "title": "혈액의 특징과 기능을 만화로 표현하기",
+    "page": 215,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch06.pdf",
+    "pdf_page": 18,
+    "printed_page": 215,
+    "evidence_excerpt": "인쇄면 215: '혈액의 특징과 기능을 만화로 표현하기'. 준비물: 그림 도구, 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 장 제목 '동물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 13을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "13_동물과에너지.md의 [9과13-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 물리페이지 18에 인쇄면 215와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 215의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "표현차이",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 215 준비물란: 그림 도구, 스마트 기기. '그림도구' 띄어쓰기만 PDF와 다르다.",
+        "suggested": "그림 도구, 스마트 기기"
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0167",
+    "source_row": 168,
+    "publisher": "미래앤",
+    "unit": "13. 동물과 에너지",
+    "title": "혈액의 순환 경로 정리하기",
+    "page": 217,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch06.pdf",
+    "pdf_page": 20,
+    "printed_page": 217,
+    "evidence_excerpt": "인쇄면 217: '혈액의 순환 경로 정리하기'. 준비물: 사람의 혈액 순환 경로 모식도(부록 325쪽), 색연필, 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 장 제목 '동물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 13을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "13_동물과에너지.md의 [9과13-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 물리페이지 20에 인쇄면 217와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 217의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 217 준비물란: 사람의 혈액 순환 경로 모식도(부록 325쪽), 색연필, 스마트 기기. PDF 준비물의 혈액 순환 경로 모식도가 원문에서 누락되었다.",
+        "suggested": "사람의 혈액 순환 경로 모식도(부록 325쪽), 색연필, 스마트 기기"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0168",
+    "source_row": 169,
+    "publisher": "미래앤",
+    "unit": "13. 동물과 에너지",
+    "title": "호흡운동 모형 만들기",
+    "page": 223,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch06.pdf",
+    "pdf_page": 26,
+    "printed_page": 223,
+    "evidence_excerpt": "인쇄면 223: '호흡운동 모형 만들기'. 준비물: 구멍 뚫린 플라스틱 컵 2개, 갈비뼈 붙임딱지(부록 327쪽), 구부러지는 빨대 2개, 작은 고무풍선 2개, 큰 고무풍선, 지퍼백, 고무찰흙, 고무줄, 칼, 가위, 셀로판테이프, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 장 제목 '동물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 13을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "13_동물과에너지.md의 [9과13-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 물리페이지 26에 인쇄면 223와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 223의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 223 준비물란: 구멍 뚫린 플라스틱 컵 2개, 갈비뼈 붙임딱지(부록 327쪽), 구부러지는 빨대 2개, 작은 고무풍선 2개, 큰 고무풍선, 지퍼백, 고무찰흙, 고무줄, 칼, 가위, 셀로판테이프, 면장갑. 원문은 갈비뼈 붙임딱지의 부록 위치를 누락했다.",
+        "suggested": "구멍 뚫린 플라스틱 컵 2개, 갈비뼈 붙임딱지(부록 327쪽), 구부러지는 빨대 2개, 작은 고무풍선 2개, 큰 고무풍선, 지퍼백, 고무찰흙, 고무줄, 칼, 가위, 셀로판테이프, 면장갑"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0169",
+    "source_row": 170,
+    "publisher": "미래앤",
+    "unit": "13. 동물과 에너지",
+    "title": "노폐물의 배설 과정을 모식도로 표현하기",
+    "page": 229,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch06.pdf",
+    "pdf_page": 32,
+    "printed_page": 229,
+    "evidence_excerpt": "인쇄면 229: '노폐물의 배설 과정을 모식도로 표현하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 장 제목 '동물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 13을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "13_동물과에너지.md의 [9과13-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 물리페이지 32에 인쇄면 229와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 229의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 229의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0170",
+    "source_row": 171,
+    "publisher": "미래앤",
+    "unit": "13. 동물과 에너지",
+    "title": "세포호흡과 소화, 순환, 호흡, 배설의 관계 알아보기",
+    "page": 231,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch06.pdf",
+    "pdf_page": 34,
+    "printed_page": 231,
+    "evidence_excerpt": "인쇄면 231: '세포호흡과 소화, 순환, 호흡, 배설의 관계 알아보기'. 준비물: 준비물란 없음",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 장 제목 '동물과 에너지'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 13을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "13_동물과에너지.md의 [9과13-05] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 물리페이지 34에 인쇄면 231와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 231의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "근거부족",
+        "evidence": "miraeN_K8_ch06.pdf 인쇄면 231에는 별도 준비물란이 없다. 준비물이 전혀 필요 없다고 단정하지 않고 null을 유지한다."
+      }
+    },
+    "result": "근거부족",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0171",
+    "source_row": 172,
+    "publisher": "미래앤",
+    "unit": "14. 전기와 자기",
+    "title": "마찰전기 관찰하기",
+    "page": 244,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch07.pdf",
+    "pdf_page": 5,
+    "printed_page": 244,
+    "evidence_excerpt": "인쇄면 244: '마찰전기 관찰하기'. 준비물: 빨간색 빨대, 파란색 빨대, 플라스틱 통, 털가죽",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 장 제목 '전기와 자기'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 14을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "14_전기와자기.md의 [9과14-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 물리페이지 5에 인쇄면 244와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 244의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 244의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0172",
+    "source_row": 173,
+    "publisher": "미래앤",
+    "unit": "14. 전기와 자기",
+    "title": "금속 물체가 전기를 띠는 현상 관찰하기",
+    "page": 246,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch07.pdf",
+    "pdf_page": 7,
+    "printed_page": 246,
+    "evidence_excerpt": "인쇄면 246: '금속 물체가 전기를 띠는 현상 관찰하기'. 준비물: 알루미늄 깡통, 플라스틱 막대, 털가죽",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 장 제목 '전기와 자기'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 14을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "14_전기와자기.md의 [9과14-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 물리페이지 7에 인쇄면 246와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 246의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 246의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0173",
+    "source_row": 174,
+    "publisher": "미래앤",
+    "unit": "14. 전기와 자기",
+    "title": "전기 회로에서 전류가 흐르는 과정 살펴보기",
+    "page": 248,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch07.pdf",
+    "pdf_page": 9,
+    "printed_page": 248,
+    "evidence_excerpt": "인쇄면 248: '전기 회로에서 전류가 흐르는 과정 살펴보기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 장 제목 '전기와 자기'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 14을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "14_전기와자기.md의 [9과14-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 물리페이지 9에 인쇄면 248와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 248의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 248의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0174",
+    "source_row": 175,
+    "publisher": "미래앤",
+    "unit": "14. 전기와 자기",
+    "title": "전류, 전압, 저항 사이의 관계 탐구하기",
+    "page": 250,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch07.pdf",
+    "pdf_page": 11,
+    "printed_page": 250,
+    "evidence_excerpt": "인쇄면 250: '전류, 전압, 저항 사이의 관계 탐구하기'. 준비물: 전원 장치, 길이가 다른 니크롬선 2개, 전압 센서, 전류 센서, 집게 달린 전선, 스마트 기기, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 장 제목 '전기와 자기'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 14을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "14_전기와자기.md의 [9과14-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 물리페이지 11에 인쇄면 250와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 250의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 250의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0175",
+    "source_row": 176,
+    "publisher": "미래앤",
+    "unit": "14. 전기와 자기",
+    "title": "도체, 부도체를 활용한 제품 찾아보기",
+    "page": 253,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch07.pdf",
+    "pdf_page": 14,
+    "printed_page": 253,
+    "evidence_excerpt": "인쇄면 253: '도체, 부도체를 활용한 제품 찾아보기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 장 제목 '전기와 자기'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 14을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "14_전기와자기.md의 [9과14-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 물리페이지 14에 인쇄면 253와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 253의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 253의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0176",
+    "source_row": 177,
+    "publisher": "미래앤",
+    "unit": "14. 전기와 자기",
+    "title": "저항의 직렬연결과 병렬연결의 특징 비교하기",
+    "page": 254,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch07.pdf",
+    "pdf_page": 15,
+    "printed_page": 254,
+    "evidence_excerpt": "인쇄면 254: '저항의 직렬연결과 병렬연결의 특징 비교하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 장 제목 '전기와 자기'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 14을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "14_전기와자기.md의 [9과14-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 물리페이지 15에 인쇄면 254와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 254의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 254의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0177",
+    "source_row": 178,
+    "publisher": "미래앤",
+    "unit": "14. 전기와 자기",
+    "title": "전기 기구에서 에너지가 전환될 때의 소비 전력 조사하기",
+    "page": 256,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch07.pdf",
+    "pdf_page": 17,
+    "printed_page": 256,
+    "evidence_excerpt": "인쇄면 256: '전기 기구에서 에너지가 전환될 때의 소비 전력 조사하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 장 제목 '전기와 자기'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 14을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "14_전기와자기.md의 [9과14-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 물리페이지 17에 인쇄면 256와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 256의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 256의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0178",
+    "source_row": 179,
+    "publisher": "미래앤",
+    "unit": "14. 전기와 자기",
+    "title": "전기 에너지의 효율적 사용 실천하기",
+    "page": 259,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch07.pdf",
+    "pdf_page": 20,
+    "printed_page": 259,
+    "evidence_excerpt": "인쇄면 259: '전기 에너지의 효율적 사용 실천하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 장 제목 '전기와 자기'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 14을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "14_전기와자기.md의 [9과14-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 물리페이지 20에 인쇄면 259와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 259의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 259의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0179",
+    "source_row": 180,
+    "publisher": "미래앤",
+    "unit": "14. 전기와 자기",
+    "title": "전류가 흐르는 코일 주위의 자기장 관찰하기",
+    "page": 264,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch07.pdf",
+    "pdf_page": 25,
+    "printed_page": 264,
+    "evidence_excerpt": "인쇄면 264: '전류가 흐르는 코일 주위의 자기장 관찰하기'. 준비물: 전원 장치, 에나멜선, 나침반, 받침대, 집게 달린 전선, 스위치, 시멘트 저항(1 Ω), 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 장 제목 '전기와 자기'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 14을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "14_전기와자기.md의 [9과14-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 물리페이지 25에 인쇄면 264와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 264의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 264 준비물란: 전원 장치, 에나멜선, 나침반, 받침대, 집게 달린 전선, 스위치, 시멘트 저항(1 Ω), 면장갑. PDF 준비물은 시멘트 저항의 규격 1 Ω을 명시한다(인쇄면 264 시각 확인).",
+        "suggested": "전원 장치, 에나멜선, 나침반, 받침대, 집게 달린 전선, 스위치, 시멘트 저항(1 Ω), 면장갑"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인; PDF 렌더 시각 확인 완료"
+  },
+  {
+    "id": "activity_0180",
+    "source_row": 181,
+    "publisher": "미래앤",
+    "unit": "14. 전기와 자기",
+    "title": "자기장 안에서 전류가 흐르는 코일이 받는 힘 관찰하기",
+    "page": 266,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch07.pdf",
+    "pdf_page": 27,
+    "printed_page": 266,
+    "evidence_excerpt": "인쇄면 266: '자기장 안에서 전류가 흐르는 코일이 받는 힘 관찰하기'. 준비물: 전기 그네 실험 장치, 전원 장치, 집게 달린 전선, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 장 제목 '전기와 자기'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 14을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "14_전기와자기.md의 [9과14-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 물리페이지 27에 인쇄면 266와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 266의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 266의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0181",
+    "source_row": 182,
+    "publisher": "미래앤",
+    "unit": "14. 전기와 자기",
+    "title": "전류가 흐르는 코일이 받는 힘을 활용한 예 조사하기",
+    "page": 269,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch07.pdf",
+    "pdf_page": 30,
+    "printed_page": 269,
+    "evidence_excerpt": "인쇄면 269: '전류가 흐르는 코일이 받는 힘을 활용한 예 조사하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 장 제목 '전기와 자기'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 14을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "14_전기와자기.md의 [9과14-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 물리페이지 30에 인쇄면 269와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 269의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch07.pdf 인쇄면 269의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0182",
+    "source_row": 183,
+    "publisher": "미래앤",
+    "unit": "15. 별과 우주",
+    "title": "시차와 거리의 관계 알아보기",
+    "page": 282,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch08.pdf",
+    "pdf_page": 5,
+    "printed_page": 282,
+    "evidence_excerpt": "인쇄면 282: '시차와 거리의 관계 알아보기'. 준비물: 붙임딱지(부록 329쪽), 30 cm 자, 연필",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 장 제목 '별과 우주'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 15을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "15_별과우주.md의 [9과15-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 물리페이지 5에 인쇄면 282와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 282의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 282 준비물란: 붙임딱지(부록 329쪽), 30 cm 자, 연필. PDF 준비물의 붙임딱지가 원문에서 누락되었다.",
+        "suggested": "붙임딱지(부록 329쪽), 30 cm 자, 연필"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0183",
+    "source_row": 184,
+    "publisher": "미래앤",
+    "unit": "15. 별과 우주",
+    "title": "광원으로부터의 거리에 따른 빛의 밝기 실험하기",
+    "page": 284,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch08.pdf",
+    "pdf_page": 7,
+    "printed_page": 284,
+    "evidence_excerpt": "인쇄면 284: '광원으로부터의 거리에 따른 빛의 밝기 실험하기'. 준비물: 스마트 기기, 전등, 줄자, 빛의 밝기 측정 애플리케이션",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 장 제목 '별과 우주'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 15을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "15_별과우주.md의 [9과15-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 물리페이지 7에 인쇄면 284와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 284의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 284의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0184",
+    "source_row": 185,
+    "publisher": "미래앤",
+    "unit": "15. 별과 우주",
+    "title": "물체의 색과 온도의 관계 알아보기",
+    "page": 288,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch08.pdf",
+    "pdf_page": 11,
+    "printed_page": 288,
+    "evidence_excerpt": "인쇄면 288: '물체의 색과 온도의 관계 알아보기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 장 제목 '별과 우주'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 15을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "15_별과우주.md의 [9과15-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 물리페이지 11에 인쇄면 288와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 288의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 288의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0185",
+    "source_row": 186,
+    "publisher": "미래앤",
+    "unit": "15. 별과 우주",
+    "title": "우리은하에 속한 별의 분포 예상하기",
+    "page": 294,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch08.pdf",
+    "pdf_page": 17,
+    "printed_page": 294,
+    "evidence_excerpt": "인쇄면 294: '우리은하에 속한 별의 분포 예상하기'. 준비물: 스타이로폼 공, 철사, 가위, 검은색 우드록, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 장 제목 '별과 우주'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 15을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "15_별과우주.md의 [9과15-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 물리페이지 17에 인쇄면 294와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 294의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 294의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0186",
+    "source_row": 187,
+    "publisher": "미래앤",
+    "unit": "15. 별과 우주",
+    "title": "천체 관측 프로그램으로 우리은하를 구성하는 천체 관측하기",
+    "page": 298,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch08.pdf",
+    "pdf_page": 21,
+    "printed_page": 298,
+    "evidence_excerpt": "인쇄면 298: '천체 관측 프로그램으로 우리은하를 구성하는 천체 관측하기'. 준비물: 스마트 기기, 천체 관측 프로그램",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 장 제목 '별과 우주'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 15을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "15_별과우주.md의 [9과15-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 물리페이지 21에 인쇄면 298와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 298의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 298의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0187",
+    "source_row": 188,
+    "publisher": "미래앤",
+    "unit": "15. 별과 우주",
+    "title": "풍선 모형으로 우주 팽창 알아보기",
+    "page": 300,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch08.pdf",
+    "pdf_page": 23,
+    "printed_page": 300,
+    "evidence_excerpt": "인쇄면 300: '풍선 모형으로 우주 팽창 알아보기'. 준비물: 풍선, 집게, 붙임딱지, 사인펜, 줄자",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 장 제목 '별과 우주'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 15을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "15_별과우주.md의 [9과15-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 물리페이지 23에 인쇄면 300와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 300의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 300 준비물란: 풍선, 집게, 붙임딱지, 사인펜, 줄자. PDF 준비물의 붙임딱지가 원문에서 누락되었다.",
+        "suggested": "풍선, 집게, 붙임딱지, 사인펜, 줄자"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0188",
+    "source_row": 189,
+    "publisher": "미래앤",
+    "unit": "15. 별과 우주",
+    "title": "우주 탐사가 인류에 미친 영향 조사하기",
+    "page": 305,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch08.pdf",
+    "pdf_page": 28,
+    "printed_page": 305,
+    "evidence_excerpt": "인쇄면 305: '우주 탐사가 인류에 미친 영향 조사하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 장 제목 '별과 우주'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 15을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "15_별과우주.md의 [9과15-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 물리페이지 28에 인쇄면 305와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 305의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 305의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0189",
+    "source_row": 190,
+    "publisher": "미래앤",
+    "unit": "15. 별과 우주",
+    "title": "우주 탐사 계획 세우기",
+    "page": 306,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K8_ch08.pdf",
+    "pdf_page": 29,
+    "printed_page": 306,
+    "evidence_excerpt": "인쇄면 306: '우주 탐사 계획 세우기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 장 제목 '별과 우주'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 15을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "15_별과우주.md의 [9과15-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 None)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 물리페이지 29에 인쇄면 306와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 306의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K8_ch08.pdf 인쇄면 306의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0322",
+    "source_row": 323,
+    "publisher": "미래앤",
+    "unit": "1. 과학과 인류의 지속가능한 삶",
+    "title": "컵의 색깔에 따른 물의 온도 변화 측정하기",
+    "page": 15,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch01.pdf",
+    "pdf_page": 4,
+    "printed_page": 15,
+    "evidence_excerpt": "인쇄면 15: '컵의 색깔에 따른 물의 온도 변화 측정하기'. 준비물: 유리컵 3개, 비커, 상온의 물, 색종이(검은색, 파란색, 흰색), 디지털 온도계",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 장 제목 '과학과 인류의 지속가능한 삶'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 1을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "01_과학과인류의지속가능한삶.md의 [9과01-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 16)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 물리페이지 4에 인쇄면 15와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 인쇄면 15의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 인쇄면 15의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0323",
+    "source_row": 324,
+    "publisher": "미래앤",
+    "unit": "1. 과학과 인류의 지속가능한 삶",
+    "title": "주변에서 탐구할 문제를 발견하고 탐구 계획서 작성하기",
+    "page": 18,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch01.pdf",
+    "pdf_page": 7,
+    "printed_page": 18,
+    "evidence_excerpt": "인쇄면 18: '주변에서 탐구할 문제를 발견하고 탐구 계획서 작성하기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 장 제목 '과학과 인류의 지속가능한 삶'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 1을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "01_과학과인류의지속가능한삶.md의 [9과01-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 16)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 물리페이지 7에 인쇄면 18와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 인쇄면 18의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 인쇄면 18의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0324",
+    "source_row": 325,
+    "publisher": "미래앤",
+    "unit": "1. 과학과 인류의 지속가능한 삶",
+    "title": "첨단 과학기술이 가져올 미래 사회의 변화 조사하기",
+    "page": 24,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch01.pdf",
+    "pdf_page": 13,
+    "printed_page": 24,
+    "evidence_excerpt": "인쇄면 24: '첨단 과학기술이 가져올 미래 사회의 변화 조사하기'. 준비물: 스마트 기기, 도화지, 그림 도구",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 장 제목 '과학과 인류의 지속가능한 삶'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 1을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "01_과학과인류의지속가능한삶.md의 [9과01-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 16)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 물리페이지 13에 인쇄면 24와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 인쇄면 24의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch01.pdf 인쇄면 24의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0325",
+    "source_row": 326,
+    "publisher": "미래앤",
+    "unit": "2. 생물의 구성과 다양성",
+    "title": "세포 관찰하기",
+    "page": 42,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch02.pdf",
+    "pdf_page": 9,
+    "printed_page": 42,
+    "evidence_excerpt": "인쇄면 42: '세포 관찰하기'. 준비물: 검정말, 광학 현미경, 메틸렌 블루 용액, 아세트올세인 용액, 받침 유리, 덮개 유리, 스포이트, 면봉, 핀셋, 거름종이, 스마트 기기, 실험복, 보안경, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch02.pdf 장 제목 '생물의 구성과 다양성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 2을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "02_생물의구성과다양성.md의 [9과02-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 17)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch02.pdf 물리페이지 9에 인쇄면 42와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch02.pdf 인쇄면 42의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch02.pdf 인쇄면 42의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0326",
+    "source_row": 327,
+    "publisher": "미래앤",
+    "unit": "2. 생물의 구성과 다양성",
+    "title": "우리 학교 생태 지도 만들기",
+    "page": 54,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch02.pdf",
+    "pdf_page": 21,
+    "printed_page": 54,
+    "evidence_excerpt": "인쇄면 54: '우리 학교 생태 지도 만들기'. 준비물: 스마트 기기, 종이, 그림 도구",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch02.pdf 장 제목 '생물의 구성과 다양성'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 2을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "02_생물의구성과다양성.md의 [9과02-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 17)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch02.pdf 물리페이지 21에 인쇄면 54와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch02.pdf 인쇄면 54의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch02.pdf 인쇄면 54의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0327",
+    "source_row": 328,
+    "publisher": "미래앤",
+    "unit": "3. 열",
+    "title": "온도가 다른 두 물체가 접촉할 때의 온도 변화 관찰하기",
+    "page": 84,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch03.pdf",
+    "pdf_page": 7,
+    "printed_page": 84,
+    "evidence_excerpt": "인쇄면 84: '온도가 다른 두 물체가 접촉할 때의 온도 변화 관찰하기'. 준비물: 열량계, 알루미늄 컵, 온도 센서, 스마트 기기, 뜨거운 물, 찬물, 비커, 실험복, 보안경, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 장 제목 '열'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 3을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "03_열.md의 [9과03-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 18)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 물리페이지 7에 인쇄면 84와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 인쇄면 84의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 인쇄면 84의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0328",
+    "source_row": 329,
+    "publisher": "미래앤",
+    "unit": "3. 열",
+    "title": "여러 가지 물체에서 열의 전도 비교하기",
+    "page": 89,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch03.pdf",
+    "pdf_page": 12,
+    "printed_page": 89,
+    "evidence_excerpt": "인쇄면 89: '열화상 카메라를 이용하여 물체에서 열의 전도 비교하기'. 준비물: 철 막대, 구리 막대, 유리 막대, 가열 장치, 열화상 카메라, 스마트 기기, 스탠드, 삼각대, 실험복, 보안경, 내열 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 장 제목 '열'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 3을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "03_열.md의 [9과03-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 18)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 물리페이지 12에 인쇄면 89와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "표현차이",
+        "evidence": "miraeN_K7_ch03.pdf 인쇄면 89: '열화상 카메라를 이용하여 물체에서 열의 전도 비교하기'. 원문은 의미를 유지한 축약이지만 PDF 정식 제목은 탐구 도구를 명시한다.",
+        "suggested": "열화상 카메라를 이용하여 물체에서 열의 전도 비교하기"
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 인쇄면 89의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0329",
+    "source_row": 330,
+    "publisher": "미래앤",
+    "unit": "3. 열",
+    "title": "온도 센서를 이용하여 물과 식용유의 온도 변화 비교하기",
+    "page": 96,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch03.pdf",
+    "pdf_page": 19,
+    "printed_page": 96,
+    "evidence_excerpt": "인쇄면 96: '온도 센서를 이용하여 물과 식용유의 온도 변화 비교하기'. 준비물: 물, 식용유, 금속 비커, 온도 센서, 스마트 기기, 센서 고정 장치, 가열 장치, 전자저울, 실험복, 보안경, 실험용 장갑, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 장 제목 '열'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 3을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "03_열.md의 [9과03-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 18)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 물리페이지 19에 인쇄면 96와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 인쇄면 96의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 인쇄면 96의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0330",
+    "source_row": 331,
+    "publisher": "미래앤",
+    "unit": "3. 열",
+    "title": "물질에 따른 열팽창 정도 비교하기",
+    "page": 101,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch03.pdf",
+    "pdf_page": 24,
+    "printed_page": 101,
+    "evidence_excerpt": "인쇄면 101: '물질에 따른 열팽창 정도 비교하기'. 준비물: 알루미늄박, 종이, 풀, 가열 장치, 철사, 가위, 스탠드, 고정 막대, 집게 잡이, 실험복, 보안경, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 장 제목 '열'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 3을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "03_열.md의 [9과03-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 18)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 물리페이지 24에 인쇄면 101와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 인쇄면 101의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch03.pdf 인쇄면 101의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0331",
+    "source_row": 332,
+    "publisher": "미래앤",
+    "unit": "4. 물질의 상태 변화",
+    "title": "확산 현상 관찰하기",
+    "page": 116,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch04.pdf",
+    "pdf_page": 5,
+    "printed_page": 116,
+    "evidence_excerpt": "인쇄면 116: '확산 현상 관찰하기'. 준비물: 물, 잉크, 비커, 스포이트, 식초, BTB 용액, 페트리 접시, 흰 종이, 스마트 기기, 실험복, 보안경, 마스크, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 장 제목 '물질의 상태 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 4을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "04_물질의상태변화.md의 [9과04-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 19)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 물리페이지 5에 인쇄면 116와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 116의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 116의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0332",
+    "source_row": 333,
+    "publisher": "미래앤",
+    "unit": "4. 물질의 상태 변화",
+    "title": "손 소독제의 증발 현상 관찰하기",
+    "page": 118,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch04.pdf",
+    "pdf_page": 7,
+    "printed_page": 118,
+    "evidence_excerpt": "인쇄면 118: '손 소독제의 증발 현상 관찰하기'. 준비물: 젤 형태의 손 소독제, 거름종이, 페트리 접시, 전자저울, 실험복, 보안경, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 장 제목 '물질의 상태 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 4을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "04_물질의상태변화.md의 [9과04-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 19)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 물리페이지 7에 인쇄면 118와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 118의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 118의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0333",
+    "source_row": 334,
+    "publisher": "미래앤",
+    "unit": "4. 물질의 상태 변화",
+    "title": "천연 모기 퇴치제 만들기",
+    "page": 122,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch04.pdf",
+    "pdf_page": 12,
+    "printed_page": 123,
+    "evidence_excerpt": "인쇄면 123: '천연 모기 퇴치제 만들기'. 준비물: 정제수, 에탄올, 제충국 원액, 나무젓가락, 컵, 스프레이 병",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 장 제목 '물질의 상태 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 4을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "04_물질의상태변화.md의 [9과04-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 19)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "수정후보",
+        "evidence": "PDF 인쇄면 122는 '물질의 상태를 입자 모형으로 표현하기'이고, 해당 활동과 준비물은 인쇄면 123에 있다.",
+        "suggested": 123
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 123의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 123의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인; PDF 렌더 시각 확인 완료"
+  },
+  {
+    "id": "activity_0334",
+    "source_row": 335,
+    "publisher": "미래앤",
+    "unit": "4. 물질의 상태 변화",
+    "title": "물질의 상태 변화 관찰하기",
+    "page": 124,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch04.pdf",
+    "pdf_page": 13,
+    "printed_page": 124,
+    "evidence_excerpt": "인쇄면 124: '물질의 상태 변화 관찰하기'. 준비물: 뜨거운 물, 얼음, 비커, 시계 접시, 푸른색 염화 코발트 종이, 핀셋, 실험복, 보안경, 실험용 장갑, 면장갑, 내열 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 장 제목 '물질의 상태 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 4을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "04_물질의상태변화.md의 [9과04-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 19)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 물리페이지 13에 인쇄면 124와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 124의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 124의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0335",
+    "source_row": 336,
+    "publisher": "미래앤",
+    "unit": "4. 물질의 상태 변화",
+    "title": "드라이아이스의 승화 현상 관찰하기",
+    "page": 126,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch04.pdf",
+    "pdf_page": 15,
+    "printed_page": 126,
+    "evidence_excerpt": "인쇄면 126: '드라이아이스의 승화 현상 관찰하기'. 준비물: 드라이아이스, 투명한 유리컵, 집게, 비눗방울 용액, 운동화 끈, 실험복, 보안경, 실험용 장갑, 내열 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 장 제목 '물질의 상태 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 4을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "04_물질의상태변화.md의 [9과04-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 19)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 물리페이지 15에 인쇄면 126와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 126의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 126의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0336",
+    "source_row": 337,
+    "publisher": "미래앤",
+    "unit": "4. 물질의 상태 변화",
+    "title": "올리브유의 상태가 변할 때 질량과 부피 변화 측정하기",
+    "page": 128,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch04.pdf",
+    "pdf_page": 17,
+    "printed_page": 128,
+    "evidence_excerpt": "인쇄면 128: '올리브유의 상태가 변할 때 질량과 부피 변화 측정하기'. 준비물: 올리브유, 얼음, 소금, 5 mL 뚜껑 있는 유리병, 100 mL 비커, 스포이트, 약숟가락, 색깔이 다른 색 테이프 2개, 전자저울, 실험복, 보안경, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 장 제목 '물질의 상태 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 4을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "04_물질의상태변화.md의 [9과04-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 19)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 물리페이지 17에 인쇄면 128와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 128의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 128 준비물란: 올리브유, 얼음, 소금, 5 mL 뚜껑 있는 유리병, 100 mL 비커, 스포이트, 약숟가락, 색깔이 다른 색 테이프 2개, 전자저울, 실험복, 보안경, 실험용 장갑. PDF는 색 테이프 두 개가 서로 다른 색이어야 한다는 선택 조건을 명시한다.",
+        "suggested": "올리브유, 얼음, 소금, 5 mL 뚜껑 있는 유리병, 100 mL 비커, 스포이트, 약숟가락, 색깔이 다른 색 테이프 2개, 전자저울, 실험복, 보안경, 실험용 장갑"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0337",
+    "source_row": 338,
+    "publisher": "미래앤",
+    "unit": "4. 물질의 상태 변화",
+    "title": "아세톤이 기화할 때의 부피 변화 관찰하기",
+    "page": 130,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch04.pdf",
+    "pdf_page": 19,
+    "printed_page": 130,
+    "evidence_excerpt": "인쇄면 130: '아세톤이 기화할 때의 부피 변화 관찰하기'. 준비물: 아세톤, 삼각 플라스크, 스포이트, 고무풍선, 머리 말리개, 실험복, 보안경, 마스크, 실험용 장갑, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 장 제목 '물질의 상태 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 4을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "04_물질의상태변화.md의 [9과04-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 19)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 물리페이지 19에 인쇄면 130와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 130의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 130의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0338",
+    "source_row": 339,
+    "publisher": "미래앤",
+    "unit": "4. 물질의 상태 변화",
+    "title": "얼음이 녹고 물이 끓을 때의 온도 측정하기",
+    "page": 136,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch04.pdf",
+    "pdf_page": 25,
+    "printed_page": 136,
+    "evidence_excerpt": "인쇄면 136: '얼음이 녹고 물이 끓을 때의 온도 측정하기'. 준비물: 얼음, 찬물, 증류수, 끓임쪽, 100 mL 삼각 플라스크 2개, 500 mL 비커, 디지털 온도계, 스탠드, 고정 막대, 집게, 집게 잡이, 가열 장치, 초시계, 실험복, 보안경, 실험용 장갑, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 장 제목 '물질의 상태 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 4을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "04_물질의상태변화.md의 [9과04-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 19)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 물리페이지 25에 인쇄면 136와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 136의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 136의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0339",
+    "source_row": 340,
+    "publisher": "미래앤",
+    "unit": "4. 물질의 상태 변화",
+    "title": "물이 얼 때의 온도 측정하기",
+    "page": 140,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch04.pdf",
+    "pdf_page": 29,
+    "printed_page": 140,
+    "evidence_excerpt": "인쇄면 140: '물이 얼 때의 온도 측정하기'. 준비물: 증류수, 얼음, 소금, 시험관, 비커, 온도 센서, 스탠드, 집게, 집게 잡이, 약숟가락, 스마트 기기, 실험복, 보안경, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 장 제목 '물질의 상태 변화'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 4을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "04_물질의상태변화.md의 [9과04-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 19)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 물리페이지 29에 인쇄면 140와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 140의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "표현차이",
+        "evidence": "miraeN_K7_ch04.pdf 인쇄면 140 준비물란: 증류수, 얼음, 소금, 시험관, 비커, 온도 센서, 스탠드, 집게, 집게 잡이, 약숟가락, 스마트 기기, 실험복, 보안경, 실험용 장갑. '시험 관'은 PDF의 '시험관'과 띄어쓰기만 다르다.",
+        "suggested": "증류수, 얼음, 소금, 시험관, 비커, 온도 센서, 스탠드, 집게, 집게 잡이, 약숟가락, 스마트 기기, 실험복, 보안경, 실험용 장갑"
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0340",
+    "source_row": 341,
+    "publisher": "미래앤",
+    "unit": "5. 힘의 작용",
+    "title": "용수철로 쏘아 올린 탁구공 관찰하기",
+    "page": 164,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch05.pdf",
+    "pdf_page": 13,
+    "printed_page": 164,
+    "evidence_excerpt": "인쇄면 164: '용수철로 쏘아 올린 탁구공 관찰하기'. 준비물: 용수철, 탁구공, 플라스틱 받침대, 양면테이프",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 장 제목 '힘의 작용'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 5을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "05_힘의작용.md의 [9과05-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 20)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 물리페이지 13에 인쇄면 164와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 164의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 164의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0341",
+    "source_row": 342,
+    "publisher": "미래앤",
+    "unit": "5. 힘의 작용",
+    "title": "용수철의 탄성력 측정하기",
+    "page": 166,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch05.pdf",
+    "pdf_page": 15,
+    "printed_page": 166,
+    "evidence_excerpt": "인쇄면 166: '용수철의 탄성력 측정하기'. 준비물: 용수철, 힘 센서, 스마트 기기, 30 cm 자, 고리 달린 나무 도막, 클램프",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 장 제목 '힘의 작용'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 5을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "05_힘의작용.md의 [9과05-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 20)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 물리페이지 15에 인쇄면 166와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 166의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 166의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0342",
+    "source_row": 343,
+    "publisher": "미래앤",
+    "unit": "5. 힘의 작용",
+    "title": "마찰력 알아보기",
+    "page": 168,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch05.pdf",
+    "pdf_page": 17,
+    "printed_page": 168,
+    "evidence_excerpt": "인쇄면 168: '마찰력 알아보기'. 준비물: 긴 나무판, 나무 도막, 사포, 스마트 기기, 집게, 투명 필름, 스마트 기기 케이스, 양면테이프",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 장 제목 '힘의 작용'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 5을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "05_힘의작용.md의 [9과05-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 20)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 물리페이지 17에 인쇄면 168와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 168의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 168의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0343",
+    "source_row": 344,
+    "publisher": "미래앤",
+    "unit": "5. 힘의 작용",
+    "title": "물속에서 받는 힘 알아보기",
+    "page": 170,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch05.pdf",
+    "pdf_page": 19,
+    "printed_page": 170,
+    "evidence_excerpt": "인쇄면 170: '물속에서 받는 힘 알아보기'. 준비물: 빈 페트병, 수조, 물, 실험복, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 장 제목 '힘의 작용'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 5을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "05_힘의작용.md의 [9과05-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 20)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 물리페이지 19에 인쇄면 170와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 170의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 170의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0344",
+    "source_row": 345,
+    "publisher": "미래앤",
+    "unit": "5. 힘의 작용",
+    "title": "물속에서 부력 측정하기",
+    "page": 172,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch05.pdf",
+    "pdf_page": 21,
+    "printed_page": 172,
+    "evidence_excerpt": "인쇄면 172: '물속에서 부력 측정하기'. 준비물: 힘 센서, 스마트 기기, 추, 물, 비커, 스탠드, 고정 막대, 집게 잡이, 실험복, 보안경, 실험용 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 장 제목 '힘의 작용'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 5을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "05_힘의작용.md의 [9과05-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 20)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 물리페이지 21에 인쇄면 172와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 172의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 172의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0345",
+    "source_row": 346,
+    "publisher": "미래앤",
+    "unit": "5. 힘의 작용",
+    "title": "힘과 운동의 관계 알아보기",
+    "page": 178,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch05.pdf",
+    "pdf_page": 27,
+    "printed_page": 178,
+    "evidence_excerpt": "인쇄면 178: '힘과 운동의 관계 알아보기'. 준비물: 탁구공, 홈통, 받침대, 휴대용 선풍기, 종이테이프",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 장 제목 '힘의 작용'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 5을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "05_힘의작용.md의 [9과05-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 20)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 물리페이지 27에 인쇄면 178와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 178의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 178의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0346",
+    "source_row": 347,
+    "publisher": "미래앤",
+    "unit": "5. 힘의 작용",
+    "title": "여러 가지 물체의 운동 조사하기",
+    "page": 180,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch05.pdf",
+    "pdf_page": 29,
+    "printed_page": 180,
+    "evidence_excerpt": "인쇄면 180: '여러 가지 물체의 운동 조사하기'. 준비물: 스마트 기기, 종이, 그림 도구",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 장 제목 '힘의 작용'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 5을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "05_힘의작용.md의 [9과05-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 20)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 물리페이지 29에 인쇄면 180와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 180의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch05.pdf 인쇄면 180의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0347",
+    "source_row": 348,
+    "publisher": "미래앤",
+    "unit": "6. 기체의 성질",
+    "title": "기체의 압력과 부피 관계 알아보기",
+    "page": 200,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch06.pdf",
+    "pdf_page": 7,
+    "printed_page": 200,
+    "evidence_excerpt": "인쇄면 200: '기체의 압력과 부피 관계 알아보기'. 준비물: 20 mL 플라스틱 주사기, 압력 센서, 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch06.pdf 장 제목 '기체의 성질'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 6을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "06_기체의성질.md의 [9과06-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 21)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch06.pdf 물리페이지 7에 인쇄면 200와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch06.pdf 인쇄면 200의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "표현차이",
+        "evidence": "miraeN_K7_ch06.pdf 인쇄면 200 준비물란: 20 mL 플라스틱 주사기, 압력 센서, 스마트 기기. 20과 mL 사이의 역따옴표는 PDF 추출 과정의 표식으로 보이며 일반 단위 표기로 정리한다.",
+        "suggested": "20 mL 플라스틱 주사기, 압력 센서, 스마트 기기"
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0348",
+    "source_row": 349,
+    "publisher": "미래앤",
+    "unit": "6. 기체의 성질",
+    "title": "생활 속에서 보일 법칙과 관련된 현상 찾아보기",
+    "page": 205,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch06.pdf",
+    "pdf_page": 12,
+    "printed_page": 205,
+    "evidence_excerpt": "인쇄면 205: '생활 속에서 보일 법칙과 관련된 현상 찾아보기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch06.pdf 장 제목 '기체의 성질'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 6을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "06_기체의성질.md의 [9과06-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 21)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch06.pdf 물리페이지 12에 인쇄면 205와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch06.pdf 인쇄면 205의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch06.pdf 인쇄면 205의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0349",
+    "source_row": 350,
+    "publisher": "미래앤",
+    "unit": "6. 기체의 성질",
+    "title": "기체의 온도와 부피 관계 알아보기",
+    "page": 210,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch06.pdf",
+    "pdf_page": 17,
+    "printed_page": 210,
+    "evidence_excerpt": "인쇄면 210: '기체의 온도와 부피 관계 알아보기'. 준비물: 뜨거운 물, 얼음물, 50 mL 유리 주사기, 500 mL 비커, 주사기 마개, 집게, 실험복, 보안경, 실험용 장갑, 면장갑, 내열 장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch06.pdf 장 제목 '기체의 성질'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 6을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "06_기체의성질.md의 [9과06-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 21)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch06.pdf 물리페이지 17에 인쇄면 210와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch06.pdf 인쇄면 210의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch06.pdf 인쇄면 210의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0350",
+    "source_row": 351,
+    "publisher": "미래앤",
+    "unit": "7. 태양계",
+    "title": "천체 망원경을 이용하여 달과 행성 관측하기",
+    "page": 232,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch07.pdf",
+    "pdf_page": 9,
+    "printed_page": 232,
+    "evidence_excerpt": "인쇄면 232: '천체 망원경을 이용하여 달과 행성 관측하기'. 준비물: 천체 망원경, 스마트 기기, 천체 관측 애플리케이션",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 장 제목 '태양계'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 7을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "07_태양계.md의 [9과07-01] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 22)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 물리페이지 9에 인쇄면 232와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 232의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 232의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0351",
+    "source_row": 352,
+    "publisher": "미래앤",
+    "unit": "7. 태양계",
+    "title": "천체 망원경을 이용하여 태양 관측하기",
+    "page": 236,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch07.pdf",
+    "pdf_page": 13,
+    "printed_page": 236,
+    "evidence_excerpt": "인쇄면 236: '천체 망원경을 이용하여 태양 관측하기'. 준비물: 천체 망원경, 태양 광선 차단판, 태양 투영판, 종이",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 장 제목 '태양계'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 7을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "07_태양계.md의 [9과07-02] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 22)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 물리페이지 13에 인쇄면 236와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 236의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 236의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0352",
+    "source_row": 353,
+    "publisher": "미래앤",
+    "unit": "7. 태양계",
+    "title": "하루 동안 별의 운동 알아보기",
+    "page": 244,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch07.pdf",
+    "pdf_page": 21,
+    "printed_page": 244,
+    "evidence_excerpt": "인쇄면 244: '하루 동안 별의 운동 알아보기'. 준비물: 스마트 기기",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 장 제목 '태양계'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 7을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "07_태양계.md의 [9과07-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 22)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 물리페이지 21에 인쇄면 244와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 244의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 244의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0353",
+    "source_row": 354,
+    "publisher": "미래앤",
+    "unit": "7. 태양계",
+    "title": "계절에 따라 보이는 별자리가 달라지는 까닭 알아보기",
+    "page": 246,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch07.pdf",
+    "pdf_page": 23,
+    "printed_page": 246,
+    "evidence_excerpt": "인쇄면 246: '계절에 따라 보이는 별자리가 달라지는 까닭 알아보기'. 준비물: 전등, 전등 받침대, 회전의자, 계절별 별자리판",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 장 제목 '태양계'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 7을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "07_태양계.md의 [9과07-03] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 22)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 물리페이지 23에 인쇄면 246와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 246의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 246의 준비물란과 항목·규격이 일치한다."
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0354",
+    "source_row": 355,
+    "publisher": "미래앤",
+    "unit": "7. 태양계",
+    "title": "모형을 이용하여 달의 위상 변화 관찰하기",
+    "page": 248,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch07.pdf",
+    "pdf_page": 25,
+    "printed_page": 248,
+    "evidence_excerpt": "인쇄면 248: '모형을 이용하여 달의 위상 변화 관찰하기'. 준비물: 달의 위상 변화판(부록 273쪽), 노란색 스타이로폼 공, 검은색 사인펜, 압정, 스마트 기기, 삼각대, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 장 제목 '태양계'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 7을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "07_태양계.md의 [9과07-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 22)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 물리페이지 25에 인쇄면 248와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 248의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "수정후보",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 248 준비물란: 달의 위상 변화판(부록 273쪽), 노란색 스타이로폼 공, 검은색 사인펜, 압정, 스마트 기기, 삼각대, 면장갑. 원문은 달의 위상 변화판의 부록 위치를 누락했다.",
+        "suggested": "달의 위상 변화판(부록 273쪽), 노란색 스타이로폼 공, 검은색 사인펜, 압정, 스마트 기기, 삼각대, 면장갑"
+      }
+    },
+    "result": "수정후보",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  },
+  {
+    "id": "activity_0355",
+    "source_row": 356,
+    "publisher": "미래앤",
+    "unit": "7. 태양계",
+    "title": "태양과 달이 가려지는 원리 알아보기",
+    "page": 252,
+    "workbook_match": true,
+    "source_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\miraeN_K7_ch07.pdf",
+    "pdf_page": 29,
+    "printed_page": 252,
+    "evidence_excerpt": "인쇄면 252: '태양과 달이 가려지는 원리 알아보기'. 준비물: 태양-지구-달 받침판(부록 275쪽), 크기가 다른 스타이로폼 공 2개, 압정, 손전등, 면장갑",
+    "field_results": {
+      "단원명": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 장 제목 '태양계'과 핵심 명칭이 일치한다. 단원 번호는 사용자 지정 전역 번호 7을 유지한다."
+      },
+      "성취기준": {
+        "status": "일치",
+        "evidence": "07_태양계.md의 [9과07-04] 문구와 번호 접두어를 제외한 원문이 일치한다(교육과정 인쇄면 22)."
+      },
+      "출판사": {
+        "status": "표현차이",
+        "evidence": "제공 파일명과 미래엔 전용 wiki 장 문서는 출판사를 '미래엔'으로 식별한다. 원문 '미래앤'은 동음 표기 차이로 별도 기록한다.",
+        "suggested": "미래엔"
+      },
+      "쪽": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 물리페이지 29에 인쇄면 252와 해당 활동이 함께 확인된다."
+      },
+      "탐구활동": {
+        "status": "일치",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 252의 활동 제목과 일치한다."
+      },
+      "교구": {
+        "status": "표현차이",
+        "evidence": "miraeN_K7_ch07.pdf 인쇄면 252 준비물란: 태양-지구-달 받침판(부록 275쪽), 크기가 다른 스타이로폼 공 2개, 압정, 손전등, 면장갑. 공 개수와 부록 쪽수 뒤의 역따옴표를 제거하고 연결 부호를 일반 하이픈으로 정리한다.",
+        "suggested": "태양-지구-달 받침판(부록 275쪽), 크기가 다른 스타이로폼 공 2개, 압정, 손전등, 면장갑"
+      }
+    },
+    "result": "표현차이",
+    "notes": "기존 XLSX A:H와 JSON 일치; 기존 XLSX 검토상태: 교과서 대조 미확인"
+  }
+]

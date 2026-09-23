@@ -1,0 +1,505 @@
+{
+  "user_instruction": "62개 일단 준비물로 분류해놔",
+  "item_count": 62,
+  "occurrence_count": 64,
+  "category": "실험 준비물",
+  "provisional": true,
+  "changes": [
+    {
+      "item_id": "ITEM-ee03c955c8415d82",
+      "raw_text": "모양 틀",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 2
+    },
+    {
+      "item_id": "ITEM-94492ed6a9c25177",
+      "raw_text": "원형 돌림판",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 2
+    },
+    {
+      "item_id": "ITEM-2c8b2786f928b655",
+      "raw_text": "PVC관 네 개",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-107b91a31b063c9a",
+      "raw_text": "가림판",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-1b95a5efa55404a6",
+      "raw_text": "각도가 표시된 반원 통",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-9424de86f0acf6a9",
+      "raw_text": "간이 전동기 만들기 키트",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-dd1653416a7f9891",
+      "raw_text": "계절별 별자리판",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-3a30dae3433d5759",
+      "raw_text": "관측자 모형",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-72c5bc58e93064c5",
+      "raw_text": "그 밖에 필요한 재료(접착제, 접시, 도화지 등)",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-42ff79245be2af13",
+      "raw_text": "나만의 준비물",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-8c4101e15c10c509",
+      "raw_text": "놀이판",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-93a101ce0fc8770d",
+      "raw_text": "달의 위상 변화판",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-2d4a2c33b7a1df95",
+      "raw_text": "대륙 조각",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-c19022a0a4edcfdf",
+      "raw_text": "모둠별 제작 물품",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-2401936ee0182053",
+      "raw_text": "모둠별 준비물",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-48dbe89aa9068d66",
+      "raw_text": "모둠별로 정한 모형 준비물",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-1f878aafce7832e5",
+      "raw_text": "모둠별로 정한 재료",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-e6143bc896d0ec17",
+      "raw_text": "모둠에서 선택한 물체",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-88263b89a852d074",
+      "raw_text": "모둠의 물질 분류 실험에 따른 실험 기구",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-e0b865f972d0ad77",
+      "raw_text": "모둠의 설계에 따른 실험 기구",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-77dc93edd6809c3b",
+      "raw_text": "모래가 담긴 페트리접시",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-8cb7cccb912de2ab",
+      "raw_text": "모양, 표면의 거칠기, 온도, 소리가 다른 다양한 물건",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-c8e16f13560a8ff4",
+      "raw_text": "바퀴",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-94754bc923c534be",
+      "raw_text": "반원 모양의 플라스틱",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-8a7db14af451db0f",
+      "raw_text": "반짝이 가루",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-17b82ee4ad9de2d1",
+      "raw_text": "반투명 거울(또는 아크릴)",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-f604eb386925feb4",
+      "raw_text": "별자리 그림",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-19d2f58917ca7808",
+      "raw_text": "비커(물)",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-3907e66f29007c62",
+      "raw_text": "빛의 반사와 굴절 활동판",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-3a5f27148f111e7e",
+      "raw_text": "사건 카드",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-636debd230d1f395",
+      "raw_text": "사례 카드",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-45a7ba20ec0bb4ac",
+      "raw_text": "생물 카드",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-c2a5e633d9f08d7b",
+      "raw_text": "스크린",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-d006832d4128ce09",
+      "raw_text": "스펀지 공",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-0bfe317aa6bbbbc4",
+      "raw_text": "식물 생장용 LED 조명",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-514d3c6f08937125",
+      "raw_text": "신발",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-eb6f2020663b9ec6",
+      "raw_text": "실험 설계에 따른 준비물",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-a19d41f1f76f9927",
+      "raw_text": "얼음 틀",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-b82696c238c48b3b",
+      "raw_text": "여러 가지 별자리 그림\n(물고기자리, 쌍둥이자리, 처녀자리, 궁수자리)",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-b8b86986f1538f23",
+      "raw_text": "여러 가지 상황극 소품",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-adee740a2966bbdd",
+      "raw_text": "여러 가지 촬영용 소품\n(카메라, 마이크 등)",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-ea3bc49f304ad1e5",
+      "raw_text": "연결발",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-e1f497a2767889ce",
+      "raw_text": "영상 제작을 위한 물품",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-8ba8b5d46044b713",
+      "raw_text": "영양소 검출 실험판",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-61f31dc6b091e7d8",
+      "raw_text": "영양소, 산소, 이산화 탄소,\n노폐물을 표현할 수 있는 물체",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-f3aa9fa5fbcf27e4",
+      "raw_text": "종류가 다른 플라스틱 조각\n(PET, PS, PP)",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-4371e0fc27f1428a",
+      "raw_text": "증류수를 넣고 얼린 일회용 스포이트(3 mL)",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-8e595dea4c934046",
+      "raw_text": "지구 내부 모형",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-6eb3cc504084d80a",
+      "raw_text": "지름 30 cm 두꺼운 원판",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-0aaeea618770ba61",
+      "raw_text": "지름 30 cm 지구 그림",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-373b4ad1c921c04f",
+      "raw_text": "촬영 소품(상자, 택배 기사 옷 등)",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-6a3d6cf4334ba763",
+      "raw_text": "태양계 행성 카드",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-f2dc9bce4f95ecff",
+      "raw_text": "투명한 플라스틱 관",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-a6d0c81166774b82",
+      "raw_text": "폴리에틸렌 테레프탈레이트(PET),저밀도 폴리에틸렌(LDPE), 폴리스티렌(PS) 조각이 섞여 있는 플라스틱 혼합물",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-eeb1b9b535a69cdd",
+      "raw_text": "플라스틱 관",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-6a5751f812771086",
+      "raw_text": "플라스틱 구슬 10~20개",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-3205ca7789dd8573",
+      "raw_text": "플라스틱 블록",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-adecd8d241dccf9b",
+      "raw_text": "플라스틱 숟가락 2개",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-e967d02393e48222",
+      "raw_text": "플라스틱 투명 반구",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-c02c98199db650e3",
+      "raw_text": "플라스틱판",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-83c5234beb6e0620",
+      "raw_text": "학교와 주변 지역 지도",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    },
+    {
+      "item_id": "ITEM-2d1c5eddf616ff8e",
+      "raw_text": "흰색 상자",
+      "before": "분류 보류",
+      "after": "실험 준비물",
+      "provisional": true,
+      "occurrences": 1
+    }
+  ]
+}

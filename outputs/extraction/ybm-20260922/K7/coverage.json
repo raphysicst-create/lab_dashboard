@@ -1,0 +1,3769 @@
+{
+  "pdf_page_count": 252,
+  "source_file": "textbook_YBM_K7.pdf",
+  "sha256": "eae8172887bb835c80e1575aef7732f22150e5d1e7cc31399dc832df5be28747",
+  "criteria": "제목 있는 독립 학생 수행 활동을 포함; 단원 도입 질문·교사용 수업안·예시 답안·평가·읽을거리·목차·정답·본문 복제 제외",
+  "methods": [
+    "전권 252쪽 텍스트·좌표 스캔",
+    "학생용 지면 제목 및 명시 준비물 목록을 고해상도 렌더 이미지 17개 시트에서 대조",
+    "모든 페이지 분류·레코드 역연결",
+    "학생 본문 구간 212쪽의 인쇄쪽 footer 전수 대조"
+  ],
+  "visual_reviewed_pages": [
+    17,
+    18,
+    22,
+    25,
+    27,
+    28,
+    40,
+    42,
+    46,
+    50,
+    52,
+    54,
+    58,
+    60,
+    64,
+    68,
+    70,
+    72,
+    84,
+    87,
+    88,
+    90,
+    92,
+    96,
+    99,
+    100,
+    102,
+    104,
+    116,
+    119,
+    125,
+    126,
+    131,
+    134,
+    138,
+    140,
+    152,
+    155,
+    156,
+    158,
+    160,
+    162,
+    164,
+    168,
+    171,
+    172,
+    174,
+    176,
+    188,
+    190,
+    192,
+    195,
+    196,
+    200,
+    202,
+    204,
+    206,
+    208,
+    221,
+    222,
+    226,
+    228,
+    230,
+    234,
+    236,
+    240,
+    242,
+    246
+  ],
+  "remaining_ambiguities": [
+    "연속 페이지 전체 본문은 모두 이미지로 전수 시각 검토한 것은 아니다. 제목과 명시 준비물 영역 68개 첫 지면을 직접 대조했다."
+  ],
+  "pages": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "category": "front_matter",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 2,
+      "printed_page": null,
+      "category": "front_matter",
+      "record_ids": [],
+      "activity_candidates": [
+        {
+          "title": "움직이는 조명 만들기",
+          "decision": "excluded",
+          "reason": "책 구성·특징 안내 속 학생 본문 PDF 92쪽(인쇄 84쪽) 복제",
+          "record_id": null
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 3,
+      "printed_page": null,
+      "category": "front_matter",
+      "record_ids": [],
+      "activity_candidates": [
+        {
+          "title": "우리 지역 기온 1 ℃ 낮추기",
+          "decision": "excluded",
+          "reason": "책 구성·특징 안내 속 학생 본문 PDF 104~105쪽(인쇄 96~97쪽) 예시 복제",
+          "record_id": null
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": null,
+      "category": "front_matter",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": null,
+      "category": "front_matter",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": null,
+      "category": "front_matter",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": null,
+      "category": "front_matter",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": null,
+      "category": "front_matter",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": null,
+      "category": "front_matter",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": null,
+      "category": "front_matter",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": null,
+      "category": "front_matter",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 15,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 16,
+      "printed_page": 12,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 17,
+      "printed_page": 13,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0001"
+      ],
+      "activity_candidates": [
+        {
+          "title": "주변에서 탐구할 문제를 발견하고 탐구 계획서 작성하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0001"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 18,
+      "printed_page": 14,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0002"
+      ],
+      "activity_candidates": [
+        {
+          "title": "과학의 발전이 인류 문명에 미친 영향 조사하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0002"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 19,
+      "printed_page": 15,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0002"
+      ],
+      "activity_candidates": [
+        {
+          "title": "과학의 발전이 인류 문명에 미친 영향 조사하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0002"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 20,
+      "printed_page": 16,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 21,
+      "printed_page": 17,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 22,
+      "printed_page": 18,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0003"
+      ],
+      "activity_candidates": [
+        {
+          "title": "미래 생활의 모습 예측하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0003"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 23,
+      "printed_page": 19,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 24,
+      "printed_page": 20,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 25,
+      "printed_page": 21,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0004"
+      ],
+      "activity_candidates": [
+        {
+          "title": "지속가능한 삶을 위한 과학적 토의하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0004"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 26,
+      "printed_page": 22,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 27,
+      "printed_page": 23,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0005"
+      ],
+      "activity_candidates": [
+        {
+          "title": "지속가능한 우리 동네 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0005"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 28,
+      "printed_page": 24,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0006"
+      ],
+      "activity_candidates": [
+        {
+          "title": "지속가능한 삶을 위한 실천",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0006"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 29,
+      "printed_page": 25,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0006"
+      ],
+      "activity_candidates": [
+        {
+          "title": "지속가능한 삶을 위한 실천",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0006"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 30,
+      "printed_page": 26,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 31,
+      "printed_page": 27,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 32,
+      "printed_page": 28,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 33,
+      "printed_page": 29,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 34,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 35,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 36,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 37,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 38,
+      "printed_page": 32,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 39,
+      "printed_page": 33,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 40,
+      "printed_page": 34,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0007"
+      ],
+      "activity_candidates": [
+        {
+          "title": "세포 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0007"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 41,
+      "printed_page": 35,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 42,
+      "printed_page": 36,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0008"
+      ],
+      "activity_candidates": [
+        {
+          "title": "세포의 생김새와 역할의 관계 추론하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0008"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 43,
+      "printed_page": 37,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 44,
+      "printed_page": 38,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 45,
+      "printed_page": 39,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 46,
+      "printed_page": 40,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0009"
+      ],
+      "activity_candidates": [
+        {
+          "title": "생물의 구성 단계로 계단책 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0009"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 47,
+      "printed_page": 41,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 48,
+      "printed_page": 42,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 49,
+      "printed_page": 43,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 50,
+      "printed_page": 44,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0010"
+      ],
+      "activity_candidates": [
+        {
+          "title": "우리 학교 생태 지도 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0010"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 51,
+      "printed_page": 45,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 52,
+      "printed_page": 46,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0011"
+      ],
+      "activity_candidates": [
+        {
+          "title": "변이와 생물다양성의 관계 추론하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0011"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 53,
+      "printed_page": 47,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 54,
+      "printed_page": 48,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0012"
+      ],
+      "activity_candidates": [
+        {
+          "title": "종 구분하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0012"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 55,
+      "printed_page": 49,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 56,
+      "printed_page": 50,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 57,
+      "printed_page": 51,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 58,
+      "printed_page": 52,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0013"
+      ],
+      "activity_candidates": [
+        {
+          "title": "생물분류하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0013"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 59,
+      "printed_page": 53,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 60,
+      "printed_page": 54,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0014"
+      ],
+      "activity_candidates": [
+        {
+          "title": "우리나라의 자생 생물 달력 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0014"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 61,
+      "printed_page": 55,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 62,
+      "printed_page": 56,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 63,
+      "printed_page": 57,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 64,
+      "printed_page": 58,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0015"
+      ],
+      "activity_candidates": [
+        {
+          "title": "생물다양성보전의 필요성 역할놀이하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0015"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 65,
+      "printed_page": 59,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 66,
+      "printed_page": 60,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 67,
+      "printed_page": 61,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 68,
+      "printed_page": 62,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0016"
+      ],
+      "activity_candidates": [
+        {
+          "title": "생물다양성보전 놀이 활동하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0016"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 69,
+      "printed_page": 63,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0016"
+      ],
+      "activity_candidates": [
+        {
+          "title": "생물다양성보전 놀이 활동하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0016"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 70,
+      "printed_page": 64,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0017"
+      ],
+      "activity_candidates": [
+        {
+          "title": "생물다양성보전 스톱 모션 만화 영화 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0017"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 71,
+      "printed_page": 65,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 72,
+      "printed_page": 66,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0018"
+      ],
+      "activity_candidates": [
+        {
+          "title": "우리가 소개하는 생물다양성",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0018"
+        },
+        {
+          "title": "생태원 탐방하기",
+          "decision": "excluded",
+          "reason": "교사용 유사 프로젝트 제안",
+          "record_id": null
+        },
+        {
+          "title": "우리 지역에서 이루어지는 생물다양성 보전 활동 소개하기",
+          "decision": "excluded",
+          "reason": "교사용 유사 프로젝트 제안",
+          "record_id": null
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 73,
+      "printed_page": 67,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0018"
+      ],
+      "activity_candidates": [
+        {
+          "title": "우리가 소개하는 생물다양성",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0018"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 74,
+      "printed_page": 68,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 75,
+      "printed_page": 69,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 76,
+      "printed_page": 70,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 77,
+      "printed_page": 71,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 78,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 79,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 80,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 81,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 82,
+      "printed_page": 74,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 83,
+      "printed_page": 75,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 84,
+      "printed_page": 76,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0019"
+      ],
+      "activity_candidates": [
+        {
+          "title": "온도가 다른 두 물체가 접촉할 때 온도 변화 측정하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0019"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 85,
+      "printed_page": 77,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0019"
+      ],
+      "activity_candidates": [
+        {
+          "title": "온도가 다른 두 물체가 접촉할 때 온도 변화 측정하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0019"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 86,
+      "printed_page": 78,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 87,
+      "printed_page": 79,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0020"
+      ],
+      "activity_candidates": [
+        {
+          "title": "열평형 과정을 입자의 움직임으로 설명하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0020"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 88,
+      "printed_page": 80,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0021"
+      ],
+      "activity_candidates": [
+        {
+          "title": "물체에서 열의 전도 비교하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0021"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 89,
+      "printed_page": 81,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0021"
+      ],
+      "activity_candidates": [
+        {
+          "title": "물체에서 열의 전도 비교하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0021"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 90,
+      "printed_page": 82,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0022"
+      ],
+      "activity_candidates": [
+        {
+          "title": "열의 이동을 표현하는 짧은 영상 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0022"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 91,
+      "printed_page": 83,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0022"
+      ],
+      "activity_candidates": [
+        {
+          "title": "열의 이동을 표현하는 짧은 영상 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0022"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 92,
+      "printed_page": 84,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0023"
+      ],
+      "activity_candidates": [
+        {
+          "title": "움직이는 조명 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0023"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 93,
+      "printed_page": 85,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 94,
+      "printed_page": 86,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 95,
+      "printed_page": 87,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 96,
+      "printed_page": 88,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0024"
+      ],
+      "activity_candidates": [
+        {
+          "title": "여러 가지 액체의 비열 비교하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0024"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 97,
+      "printed_page": 89,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 98,
+      "printed_page": 90,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 99,
+      "printed_page": 91,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0025"
+      ],
+      "activity_candidates": [
+        {
+          "title": "열을 얻어 변하는 물체 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0025"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 100,
+      "printed_page": 92,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0026"
+      ],
+      "activity_candidates": [
+        {
+          "title": "비열과 열팽창을 활용한 예 홍보하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0026"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 101,
+      "printed_page": 93,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0026"
+      ],
+      "activity_candidates": [
+        {
+          "title": "비열과 열팽창을 활용한 예 홍보하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0026"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 102,
+      "printed_page": 94,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0027"
+      ],
+      "activity_candidates": [
+        {
+          "title": "바이메탈을 이용한 발명품 설계하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0027"
+        },
+        {
+          "title": "간이 화재경보기 만들기",
+          "decision": "excluded",
+          "reason": "교사용 학습 흐름의 대체 요약; 학생 활동 제목은 발명품 설계하기",
+          "record_id": null
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 103,
+      "printed_page": 95,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 104,
+      "printed_page": 96,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0028"
+      ],
+      "activity_candidates": [
+        {
+          "title": "우리 지역 기온 1 ℃ 낮추기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0028"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 105,
+      "printed_page": 97,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0028"
+      ],
+      "activity_candidates": [
+        {
+          "title": "우리 지역 기온 1 ℃ 낮추기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0028"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 106,
+      "printed_page": 98,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 107,
+      "printed_page": 99,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 108,
+      "printed_page": 100,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 109,
+      "printed_page": 101,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 110,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 111,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 112,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 113,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 114,
+      "printed_page": 104,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 115,
+      "printed_page": 105,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 116,
+      "printed_page": 106,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0029"
+      ],
+      "activity_candidates": [
+        {
+          "title": "증발과 확산 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0029"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 117,
+      "printed_page": 107,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 118,
+      "printed_page": 108,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 119,
+      "printed_page": 109,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0030"
+      ],
+      "activity_candidates": [
+        {
+          "title": "입자 모형으로 물질의 세 가지 상태 표현하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0030"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 120,
+      "printed_page": 110,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 121,
+      "printed_page": 111,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 122,
+      "printed_page": 112,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 123,
+      "printed_page": 113,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 124,
+      "printed_page": 114,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 125,
+      "printed_page": 115,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0031"
+      ],
+      "activity_candidates": [
+        {
+          "title": "여러 가지 상태 변화 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0031"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 126,
+      "printed_page": 116,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0032"
+      ],
+      "activity_candidates": [
+        {
+          "title": "드라이아이스가 상태 변화할 때의 질량과 부피 변화 측정하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0032"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 127,
+      "printed_page": 117,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0032"
+      ],
+      "activity_candidates": [
+        {
+          "title": "드라이아이스가 상태 변화할 때의 질량과 부피 변화 측정하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0032"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 128,
+      "printed_page": 118,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 129,
+      "printed_page": 119,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 130,
+      "printed_page": 120,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 131,
+      "printed_page": 121,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0033"
+      ],
+      "activity_candidates": [
+        {
+          "title": "상태 변화와 열에너지 출입 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0033"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 132,
+      "printed_page": 122,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 133,
+      "printed_page": 123,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 134,
+      "printed_page": 124,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0034"
+      ],
+      "activity_candidates": [
+        {
+          "title": "액체 로르산의 상태 변화 실험에서 냉각 곡선 그리기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0034"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 135,
+      "printed_page": 125,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0034"
+      ],
+      "activity_candidates": [
+        {
+          "title": "액체 로르산의 상태 변화 실험에서 냉각 곡선 그리기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0034"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 136,
+      "printed_page": 126,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 137,
+      "printed_page": 127,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 138,
+      "printed_page": 128,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0035"
+      ],
+      "activity_candidates": [
+        {
+          "title": "얼음 선풍기 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0035"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 139,
+      "printed_page": 129,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 140,
+      "printed_page": 130,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0036"
+      ],
+      "activity_candidates": [
+        {
+          "title": "캔에서 캔으로, 알루미늄 캔 재활용 실천하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0036"
+        },
+        {
+          "title": "플라스틱 재활용 실천하기",
+          "decision": "excluded",
+          "reason": "교사용 유사 프로젝트 제안",
+          "record_id": null
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 141,
+      "printed_page": 131,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0036"
+      ],
+      "activity_candidates": [
+        {
+          "title": "캔에서 캔으로, 알루미늄 캔 재활용 실천하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0036"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 142,
+      "printed_page": 132,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 143,
+      "printed_page": 133,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 144,
+      "printed_page": 134,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 145,
+      "printed_page": 135,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 146,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 147,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 148,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 149,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 150,
+      "printed_page": 138,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 151,
+      "printed_page": 139,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 152,
+      "printed_page": 140,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0037"
+      ],
+      "activity_candidates": [
+        {
+          "title": "힘의 요소 찾기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0037"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 153,
+      "printed_page": 141,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 154,
+      "printed_page": 142,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 155,
+      "printed_page": 143,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0038"
+      ],
+      "activity_candidates": [
+        {
+          "title": "힘의 평형 조건 찾기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0038"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 156,
+      "printed_page": 144,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0039"
+      ],
+      "activity_candidates": [
+        {
+          "title": "중력의 방향 찾기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0039"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 157,
+      "printed_page": 145,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 158,
+      "printed_page": 146,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0040"
+      ],
+      "activity_candidates": [
+        {
+          "title": "용수철의 탄성력 측정하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0040"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 159,
+      "printed_page": 147,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0040"
+      ],
+      "activity_candidates": [
+        {
+          "title": "용수철의 탄성력 측정하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0040"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 160,
+      "printed_page": 148,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0041"
+      ],
+      "activity_candidates": [
+        {
+          "title": "마찰력의 크기 비교하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0041"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 161,
+      "printed_page": 149,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0041"
+      ],
+      "activity_candidates": [
+        {
+          "title": "마찰력의 크기 비교하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0041"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 162,
+      "printed_page": 150,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0042"
+      ],
+      "activity_candidates": [
+        {
+          "title": "물속에서 부력 측정하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0042"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 163,
+      "printed_page": 151,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 164,
+      "printed_page": 152,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0043"
+      ],
+      "activity_candidates": [
+        {
+          "title": "고무줄로 움직이는 배 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0043"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 165,
+      "printed_page": 153,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 166,
+      "printed_page": 154,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 167,
+      "printed_page": 155,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 168,
+      "printed_page": 156,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0044"
+      ],
+      "activity_candidates": [
+        {
+          "title": "놀이기구에서 힘의 작용 탐구하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0044"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 169,
+      "printed_page": 157,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0044"
+      ],
+      "activity_candidates": [
+        {
+          "title": "놀이기구에서 힘의 작용 탐구하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0044"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 170,
+      "printed_page": 158,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 171,
+      "printed_page": 159,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0045"
+      ],
+      "activity_candidates": [
+        {
+          "title": "힘의 평형 놀이하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0045"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 172,
+      "printed_page": 160,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0046"
+      ],
+      "activity_candidates": [
+        {
+          "title": "힘의 특징을 활용한 장난감 설계하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0046"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 173,
+      "printed_page": 161,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0046"
+      ],
+      "activity_candidates": [
+        {
+          "title": "힘의 특징을 활용한 장난감 설계하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0046"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 174,
+      "printed_page": 162,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0047"
+      ],
+      "activity_candidates": [
+        {
+          "title": "가상 공간에서의 힘과 운동",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0047"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 175,
+      "printed_page": 163,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 176,
+      "printed_page": 164,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0048"
+      ],
+      "activity_candidates": [
+        {
+          "title": "안전하게 즐기는 자전거 생활",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0048"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 177,
+      "printed_page": 165,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0048"
+      ],
+      "activity_candidates": [
+        {
+          "title": "안전하게 즐기는 자전거 생활",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0048"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 178,
+      "printed_page": 166,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 179,
+      "printed_page": 167,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [
+        {
+          "title": "대단원 마무리 바둑알 놀이",
+          "decision": "excluded",
+          "reason": "단원 평가·복습 문제",
+          "record_id": null
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 180,
+      "printed_page": 168,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 181,
+      "printed_page": 169,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 182,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 183,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 184,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 185,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 186,
+      "printed_page": 172,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 187,
+      "printed_page": 173,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 188,
+      "printed_page": 174,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0049"
+      ],
+      "activity_candidates": [
+        {
+          "title": "기체의 압력 체험하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0049"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 189,
+      "printed_page": 175,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 190,
+      "printed_page": 176,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0050"
+      ],
+      "activity_candidates": [
+        {
+          "title": "기체의 압력과 부피 관계를 실험으로 알아보기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0050"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 191,
+      "printed_page": 177,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0050"
+      ],
+      "activity_candidates": [
+        {
+          "title": "기체의 압력과 부피 관계를 실험으로 알아보기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0050"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 192,
+      "printed_page": 178,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0051"
+      ],
+      "activity_candidates": [
+        {
+          "title": "입자 모형으로 기체의 압력과 부피 관계 설명하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0051"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 193,
+      "printed_page": 179,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 194,
+      "printed_page": 180,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 195,
+      "printed_page": 181,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0052"
+      ],
+      "activity_candidates": [
+        {
+          "title": "기체의 압력과 부피 관계 날개책 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0052"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 196,
+      "printed_page": 182,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0053"
+      ],
+      "activity_candidates": [
+        {
+          "title": "나만의 빨대 잠수부 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0053"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 197,
+      "printed_page": 183,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 198,
+      "printed_page": 184,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 199,
+      "printed_page": 185,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 200,
+      "printed_page": 186,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0054"
+      ],
+      "activity_candidates": [
+        {
+          "title": "기체의 온도와 부피 관계를 실험으로 알아보기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0054"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 201,
+      "printed_page": 187,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0054"
+      ],
+      "activity_candidates": [
+        {
+          "title": "기체의 온도와 부피 관계를 실험으로 알아보기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0054"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 202,
+      "printed_page": 188,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0055"
+      ],
+      "activity_candidates": [
+        {
+          "title": "입자 모형으로 기체의 온도와 부피 관계 설명하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0055"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 203,
+      "printed_page": 189,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 204,
+      "printed_page": 190,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0056"
+      ],
+      "activity_candidates": [
+        {
+          "title": "기체의 온도와 부피 관계를 만화로 표현하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0056"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 205,
+      "printed_page": 191,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0056"
+      ],
+      "activity_candidates": [
+        {
+          "title": "기체의 온도와 부피 관계를 만화로 표현하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0056"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 206,
+      "printed_page": 192,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0057"
+      ],
+      "activity_candidates": [
+        {
+          "title": "접착제 없이 요구르트병 붙이기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0057"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 207,
+      "printed_page": 193,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 208,
+      "printed_page": 194,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0058"
+      ],
+      "activity_candidates": [
+        {
+          "title": "풍등 날리기 대체 행사 기획하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0058"
+        },
+        {
+          "title": "풍선 날리기 대체 행사 기획하기",
+          "decision": "excluded",
+          "reason": "교사용 유사 프로젝트 제안",
+          "record_id": null
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 209,
+      "printed_page": 195,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0058"
+      ],
+      "activity_candidates": [
+        {
+          "title": "풍등 날리기 대체 행사 기획하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0058"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 210,
+      "printed_page": 196,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 211,
+      "printed_page": 197,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [
+        {
+          "title": "대단원 마무리 주사위 놀이",
+          "decision": "excluded",
+          "reason": "단원 평가·복습 문제",
+          "record_id": null
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 212,
+      "printed_page": 198,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 213,
+      "printed_page": 199,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 214,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 215,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 216,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 217,
+      "printed_page": null,
+      "category": "chapter_opening_or_guide",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 218,
+      "printed_page": 202,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 219,
+      "printed_page": 203,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 220,
+      "printed_page": 204,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 221,
+      "printed_page": 205,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0059"
+      ],
+      "activity_candidates": [
+        {
+          "title": "행성 이름 알아맞히기 놀이하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0059"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 222,
+      "printed_page": 206,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0060"
+      ],
+      "activity_candidates": [
+        {
+          "title": "태양계 행성 분류하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0060"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 223,
+      "printed_page": 207,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 224,
+      "printed_page": 208,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 225,
+      "printed_page": 209,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 226,
+      "printed_page": 210,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0061"
+      ],
+      "activity_candidates": [
+        {
+          "title": "태양 활동이 지구에 미치는 영향 추론하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0061"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 227,
+      "printed_page": 211,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 228,
+      "printed_page": 212,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0062"
+      ],
+      "activity_candidates": [
+        {
+          "title": "천체 망원경으로 태양계 천체 관측하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0062"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 229,
+      "printed_page": 213,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0062"
+      ],
+      "activity_candidates": [
+        {
+          "title": "천체 망원경으로 태양계 천체 관측하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0062"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 230,
+      "printed_page": 214,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0063"
+      ],
+      "activity_candidates": [
+        {
+          "title": "태양계 천체를 홀로그램으로 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0063"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 231,
+      "printed_page": 215,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 232,
+      "printed_page": 216,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 233,
+      "printed_page": 217,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 234,
+      "printed_page": 218,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0064"
+      ],
+      "activity_candidates": [
+        {
+          "title": "지구 자전에 의한 별의 운동 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0064"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 235,
+      "printed_page": 219,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0064"
+      ],
+      "activity_candidates": [
+        {
+          "title": "지구 자전에 의한 별의 운동 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0064"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 236,
+      "printed_page": 220,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0065"
+      ],
+      "activity_candidates": [
+        {
+          "title": "지구 공전에 의한 별자리 변화 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0065"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 237,
+      "printed_page": 221,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0065"
+      ],
+      "activity_candidates": [
+        {
+          "title": "지구 공전에 의한 별자리 변화 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0065"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 238,
+      "printed_page": 222,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 239,
+      "printed_page": 223,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 240,
+      "printed_page": 224,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0066"
+      ],
+      "activity_candidates": [
+        {
+          "title": "모형을 이용하여 달의 위상변화 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0066"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 241,
+      "printed_page": 225,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 242,
+      "printed_page": 226,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0067"
+      ],
+      "activity_candidates": [
+        {
+          "title": "모형으로 일식과 월식 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0067"
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 243,
+      "printed_page": 227,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0067"
+      ],
+      "activity_candidates": [
+        {
+          "title": "모형으로 일식과 월식 관찰하기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0067"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 244,
+      "printed_page": 228,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 245,
+      "printed_page": 229,
+      "category": "student_concept_with_teacher_notes",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 246,
+      "printed_page": 230,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0068"
+      ],
+      "activity_candidates": [
+        {
+          "title": "무분별한 달 개발을 막기 위한 달 조약 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0068"
+        },
+        {
+          "title": "달 탐사 계획서 작성하기",
+          "decision": "excluded",
+          "reason": "교사용 유사 프로젝트 제안",
+          "record_id": null
+        }
+      ],
+      "visual_review": {
+        "reviewed": true,
+        "scope": "학생 활동 제목과 준비물 영역의 이미지 대조"
+      }
+    },
+    {
+      "pdf_page": 247,
+      "printed_page": 231,
+      "category": "student_activity",
+      "record_ids": [
+        "ybm_k7_0068"
+      ],
+      "activity_candidates": [
+        {
+          "title": "무분별한 달 개발을 막기 위한 달 조약 만들기",
+          "decision": "included",
+          "reason": "제목 있는 학생 수행 활동",
+          "record_id": "ybm_k7_0068"
+        }
+      ],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 248,
+      "printed_page": 232,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 249,
+      "printed_page": 233,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 250,
+      "printed_page": 234,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 251,
+      "printed_page": 235,
+      "category": "reading_or_evaluation",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    },
+    {
+      "pdf_page": 252,
+      "printed_page": null,
+      "category": "blank",
+      "record_ids": [],
+      "activity_candidates": [],
+      "visual_review": {
+        "reviewed": false,
+        "scope": "전권 텍스트·좌표 스캔, 페이지 이미지 미검토"
+      }
+    }
+  ]
+}

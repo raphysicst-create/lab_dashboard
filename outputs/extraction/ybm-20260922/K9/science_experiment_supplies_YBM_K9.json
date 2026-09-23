@@ -1,0 +1,2683 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "source_file": "textbook_YBM_K9.pdf",
+    "sha256": "88ec1780c146aacd3653dd35f4ff6cb3c0db35101b6f919a641863c4c7640d09",
+    "book_id": "YBM_K9",
+    "grade": 3,
+    "pdf_page_count": 328,
+    "record_count": 88,
+    "source_document_type": "학생용 중학교 과학 3 교과서",
+    "extraction_policy": "제목 있는 독립 학생 수행 활동; 제목과 명시 준비물 이미지 대조; 미명시 준비물·성취기준 null; 원문 수량·규격 보존",
+    "notes": [
+      "학생 본문 10~289쪽에서 파일쪽과 인쇄쪽이 일치한다.",
+      "2~3쪽의 본문 복제 소개 지면은 제외한다.",
+      "준비물은 명시된 학생용 목록만 기록한다."
+    ]
+  },
+  "data": [
+    {
+      "id": "ybm_k9_0001",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 15,
+      "탐구활동": "화학 변화에서 생성되는 물질 관찰하기",
+      "교구": "8 cm 마그네슘 리본 세 개, 페트리접시 세 개, 가위, 세라믹 핀셋, 점화기, 증발 접시, 간이 전기 전도계, 보안경, 마스크, 안전 장갑, 실험복",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          15
+        ],
+        "printed_pages": [
+          15
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "I",
+        "title_quote": "화학 변화에서 생성되는 물질 관찰하기",
+        "supplies_quote": "8 cm 마그네슘 리본 세 개, 페트리접시 세 개, 가위, 세라믹 핀셋, 점화기, 증발 접시, 간이 전기 전도계, 보안경, 마스크, 안전 장갑, 실험복",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 15,
+        "supplies_visual_page": 15,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0002",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 18,
+      "탐구활동": "화학 반응을 화학 반응식으로 표현하기",
+      "교구": "필기도구",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          18,
+          19
+        ],
+        "printed_pages": [
+          18,
+          19
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "I",
+        "title_quote": "화학 반응을 화학 반응식으로 표현하기",
+        "supplies_quote": "필기도구",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 18,
+        "supplies_visual_page": 18,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0003",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 20,
+      "탐구활동": "설탕의 다양한 변신, 달고나",
+      "교구": "전자저울, 전자레인지, 종이컵, 물, 설탕, 제빵 소다, 약숟가락(또는 계량 숟가락), 시약포지, 나무 막대, 유산지, 안전 장갑",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          20
+        ],
+        "printed_pages": [
+          20
+        ],
+        "activity_type": "한 뼘 자라는 창의·혁신",
+        "chapter_label": "I",
+        "title_quote": "설탕의 다양한 변신, 달고나",
+        "supplies_quote": "전자저울, 전자레인지, 종이컵, 물, 설탕, 제빵 소다, 약숟가락(또는 계량 숟가락), 시약포지, 나무 막대, 유산지, 안전 장갑",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 20,
+        "supplies_visual_page": 20,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0004",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 23,
+      "탐구활동": "모형으로 질량 보존 법칙이 성립하는 까닭 알아보기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          23
+        ],
+        "printed_pages": [
+          23
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "I",
+        "title_quote": "모형으로 질량 보존 법칙이 성립하는 까닭 알아보기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 23,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0005",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 24,
+      "탐구활동": "기체 발생 반응에서의 질량 변화 관찰하기",
+      "교구": "탄산수소 나트륨, 식초, 빈 플라스틱병, 빈 비커 세 개, 눈금실린더(25 mL) 세 개, 스포이트 세 개, 유리 바이알(20 mL), 뚜껑 있는 플라스틱병, 전자저울, 약숟가락, 시약포지, 핀셋, 5 % 염화 나트륨 수용액, 5 % 질산 은 수용액, 유리 바이알(30 mL) 두 개, 보안경, 마스크, 실험용 장갑, 실험복",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          24,
+          25
+        ],
+        "printed_pages": [
+          24,
+          25
+        ],
+        "activity_type": "탐구 1",
+        "chapter_label": "I",
+        "title_quote": "기체 발생 반응에서의 질량 변화 관찰하기",
+        "supplies_quote": "탄산수소 나트륨, 식초, 빈 플라스틱병, 빈 비커 세 개, 눈금실린더(25 mL) 세 개, 스포이트 세 개, 유리 바이알(20 mL), 뚜껑 있는 플라스틱병, 전자저울, 약숟가락, 시약포지, 핀셋, 5 % 염화 나트륨 수용액, 5 % 질산 은 수용액, 유리 바이알(30 mL) 두 개, 보안경, 마스크, 실험용 장갑, 실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "상위 탐구 제목: 화학 반응 전후의 질량 변화 관찰하기. 탐구 1·2가 24쪽 하나의 준비물 체크리스트 전체를 공유하여 양쪽 레코드에 중복 보존함."
+        ],
+        "title_visual_page": 24,
+        "supplies_visual_page": 24,
+        "series_id": "ybm_k9_mass_conservation"
+      }
+    },
+    {
+      "id": "ybm_k9_0006",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 25,
+      "탐구활동": "고체 생성 반응에서의 질량 변화 관찰하기",
+      "교구": "탄산수소 나트륨, 식초, 빈 플라스틱병, 빈 비커 세 개, 눈금실린더(25 mL) 세 개, 스포이트 세 개, 유리 바이알(20 mL), 뚜껑 있는 플라스틱병, 전자저울, 약숟가락, 시약포지, 핀셋, 5 % 염화 나트륨 수용액, 5 % 질산 은 수용액, 유리 바이알(30 mL) 두 개, 보안경, 마스크, 실험용 장갑, 실험복",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          24,
+          25
+        ],
+        "printed_pages": [
+          24,
+          25
+        ],
+        "activity_type": "탐구 2",
+        "chapter_label": "I",
+        "title_quote": "고체 생성 반응에서의 질량 변화 관찰하기",
+        "supplies_quote": "탄산수소 나트륨, 식초, 빈 플라스틱병, 빈 비커 세 개, 눈금실린더(25 mL) 세 개, 스포이트 세 개, 유리 바이알(20 mL), 뚜껑 있는 플라스틱병, 전자저울, 약숟가락, 시약포지, 핀셋, 5 % 염화 나트륨 수용액, 5 % 질산 은 수용액, 유리 바이알(30 mL) 두 개, 보안경, 마스크, 실험용 장갑, 실험복",
+        "standard_quote": null,
+        "review_notes": [
+          "상위 탐구 제목: 화학 반응 전후의 질량 변화 관찰하기. 탐구 1·2가 24쪽 하나의 준비물 체크리스트 전체를 공유하여 양쪽 레코드에 중복 보존함."
+        ],
+        "title_visual_page": 25,
+        "supplies_visual_page": 24,
+        "series_id": "ybm_k9_mass_conservation"
+      }
+    },
+    {
+      "id": "ybm_k9_0007",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 27,
+      "탐구활동": "화합물을 구성하는 성분 원소 사이의 질량 관계 알아보기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          27
+        ],
+        "printed_pages": [
+          27
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "I",
+        "title_quote": "화합물을 구성하는 성분 원소 사이의 질량 관계 알아보기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 27,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0008",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 28,
+      "탐구활동": "일정 성분비 법칙을 모형으로 설명하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          28,
+          29
+        ],
+        "printed_pages": [
+          28,
+          29
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "I",
+        "title_quote": "일정 성분비 법칙을 모형으로 설명하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 28,
+        "supplies_visual_page": 28,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0009",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 32,
+      "탐구활동": "기체 반응에서의 부피 관계 알아보기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          32,
+          33
+        ],
+        "printed_pages": [
+          32,
+          33
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "I",
+        "title_quote": "기체 반응에서의 부피 관계 알아보기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 32,
+        "supplies_visual_page": 32,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0010",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 37,
+      "탐구활동": "화학 반응에서 열에너지의 출입 확인하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          37
+        ],
+        "printed_pages": [
+          37
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "I",
+        "title_quote": "화학 반응에서 열에너지의 출입 확인하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 37,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0011",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 39,
+      "탐구활동": "화학 반응을 이용한 간단한 흡열 반응 실험하기",
+      "교구": "지퍼 백(큰 것, 작은 것), 질산 암모늄, 물, 빈 플라스틱병, 약숟가락, 시약포지, 전자저울, 스포이트, 눈금실린더(25 mL), 적외선 온도계, 열 봉합기, 보안경, 마스크, 실험용 장갑, 실험복",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          39
+        ],
+        "printed_pages": [
+          39
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "I",
+        "title_quote": "화학 반응을 이용한 간단한 흡열 반응 실험하기",
+        "supplies_quote": "지퍼 백(큰 것, 작은 것), 질산 암모늄, 물, 빈 플라스틱병, 약숟가락, 시약포지, 전자저울, 스포이트, 눈금실린더(25 mL), 적외선 온도계, 열 봉합기, 보안경, 마스크, 실험용 장갑, 실험복",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 39,
+        "supplies_visual_page": 39,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0012",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 40,
+      "탐구활동": "생활 속 발열 반응과 흡열 반응의 사례 생각 그물 만들기",
+      "교구": "스마트 기기, A4 용지, 그림 도구",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          40,
+          41
+        ],
+        "printed_pages": [
+          40,
+          41
+        ],
+        "activity_type": "함께 만드는 탐구",
+        "chapter_label": "I",
+        "title_quote": "생활 속 발열 반응과 흡열 반응의 사례 생각 그물 만들기",
+        "supplies_quote": "스마트 기기, A4 용지, 그림 도구",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 40,
+        "supplies_visual_page": 40,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0013",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 42,
+      "탐구활동": "발열 반응이나 흡열 반응을 이용한 제품 구상하기",
+      "교구": "필기도구, 색연필, 스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          42
+        ],
+        "printed_pages": [
+          42
+        ],
+        "activity_type": "한 뼘 자라는 창의·혁신",
+        "chapter_label": "I",
+        "title_quote": "발열 반응이나 흡열 반응을 이용한 제품 구상하기",
+        "supplies_quote": "필기도구, 색연필, 스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 42,
+        "supplies_visual_page": 42,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0014",
+      "source_row": null,
+      "단원명": "화학 반응의 규칙성",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 44,
+      "탐구활동": "알아 두면 슬기롭고 신나는 플라스틱 사용 습관!",
+      "교구": "스마트 기기, 그림 도구",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          44,
+          45
+        ],
+        "printed_pages": [
+          44,
+          45
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "I",
+        "title_quote": "알아 두면 슬기롭고 신나는 플라스틱 사용 습관!",
+        "supplies_quote": "스마트 기기, 그림 도구",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 44,
+        "supplies_visual_page": 44,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0015",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 53,
+      "탐구활동": "대기권의 높이에 따른 기온 분포 그리기",
+      "교구": "대기권의 기온 분포 그래프(부록 317 쪽)",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          53
+        ],
+        "printed_pages": [
+          53
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "II",
+        "title_quote": "대기권의 높이에 따른 기온 분포 그리기",
+        "supplies_quote": "대기권의 기온 분포 그래프(부록 317 쪽)",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 53,
+        "supplies_visual_page": 53,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0016",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 55,
+      "탐구활동": "물체의 복사 평형을 모형으로 이해하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          55
+        ],
+        "printed_pages": [
+          55
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "II",
+        "title_quote": "물체의 복사 평형을 모형으로 이해하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 55,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0017",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 58,
+      "탐구활동": "기후변화 관련 자료 검색 및 분석하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          58
+        ],
+        "printed_pages": [
+          58
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "II",
+        "title_quote": "기후변화 관련 자료 검색 및 분석하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 58,
+        "supplies_visual_page": 58,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0018",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 59,
+      "탐구활동": "위도별 태양 복사 에너지양 예상하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          59
+        ],
+        "printed_pages": [
+          59
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "II",
+        "title_quote": "위도별 태양 복사 에너지양 예상하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 59,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0019",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 60,
+      "탐구활동": "대기 대순환에서 위도별 바람의 방향 그리기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          60
+        ],
+        "printed_pages": [
+          60
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "II",
+        "title_quote": "대기 대순환에서 위도별 바람의 방향 그리기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 60,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0020",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 66,
+      "탐구활동": "기온, 상대습도, 이슬점의 관계 알아보기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          66
+        ],
+        "printed_pages": [
+          66
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "II",
+        "title_quote": "기온, 상대습도, 이슬점의 관계 알아보기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 66,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0021",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 68,
+      "탐구활동": "디지털 탐구 도구를 이용하여 구름 생성 과정 실험하기",
+      "교구": "물, 스포이트, 디지털 온도계, 간이 가압 장치, 페트병, 스마트 기기, 삼각대, 향, 점화기, 모래가 담긴 페트리접시, 안전 장갑, 실험용 장갑, 실험복",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          68
+        ],
+        "printed_pages": [
+          68
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "II",
+        "title_quote": "디지털 탐구 도구를 이용하여 구름 생성 과정 실험하기",
+        "supplies_quote": "물, 스포이트, 디지털 온도계, 간이 가압 장치, 페트병, 스마트 기기, 삼각대, 향, 점화기, 모래가 담긴 페트리접시, 안전 장갑, 실험용 장갑, 실험복",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 68,
+        "supplies_visual_page": 68,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0022",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 71,
+      "탐구활동": "구름 생성과 강수 과정을 그림으로 표현하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          71
+        ],
+        "printed_pages": [
+          71
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "II",
+        "title_quote": "구름 생성과 강수 과정을 그림으로 표현하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 71,
+        "supplies_visual_page": 71,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0023",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 72,
+      "탐구활동": "구름 사진전",
+      "교구": "스마트 기기 또는 사진기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          72
+        ],
+        "printed_pages": [
+          72
+        ],
+        "activity_type": "한 뼘 자라는 창의·혁신",
+        "chapter_label": "II",
+        "title_quote": "구름 사진전",
+        "supplies_quote": "스마트 기기 또는 사진기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 72,
+        "supplies_visual_page": 72,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0024",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 75,
+      "탐구활동": "기압의 작용 알아보기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          75
+        ],
+        "printed_pages": [
+          75
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "II",
+        "title_quote": "기압의 작용 알아보기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 75,
+        "supplies_visual_page": 75,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0025",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 77,
+      "탐구활동": "바람이 부는 원리 알아보기",
+      "교구": "입체 퍼즐 도면(부록 316 쪽), 풀 또는 양면테이프",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          77
+        ],
+        "printed_pages": [
+          77
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "II",
+        "title_quote": "바람이 부는 원리 알아보기",
+        "supplies_quote": "입체 퍼즐 도면(부록 316 쪽), 풀 또는 양면테이프",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 77,
+        "supplies_visual_page": 77,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0026",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 79,
+      "탐구활동": "기단의 위치와 성질 알아보기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          79
+        ],
+        "printed_pages": [
+          79
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "II",
+        "title_quote": "기단의 위치와 성질 알아보기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 79,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0027",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 80,
+      "탐구활동": "전선의 형성 과정 실험하기",
+      "교구": "칸막이가 있는 수조, 따뜻한 물, 찬물, 색소(파란색, 빨간색), 색연필(파란색, 빨간색), 실험용 장갑, 실험복",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          80
+        ],
+        "printed_pages": [
+          80
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "II",
+        "title_quote": "전선의 형성 과정 실험하기",
+        "supplies_quote": "칸막이가 있는 수조, 따뜻한 물, 찬물, 색소(파란색, 빨간색), 색연필(파란색, 빨간색), 실험용 장갑, 실험복",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 80,
+        "supplies_visual_page": 80,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0028",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 85,
+      "탐구활동": "우리나라 사계절의 일기도 해석하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          85
+        ],
+        "printed_pages": [
+          85
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "II",
+        "title_quote": "우리나라 사계절의 일기도 해석하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 85,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0029",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 86,
+      "탐구활동": "일기도, 레이더 및 위성 영상 등 실시간 데이터를 활용하여 날씨 해석하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          86,
+          87
+        ],
+        "printed_pages": [
+          86,
+          87
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "II",
+        "title_quote": "일기도, 레이더 및 위성 영상 등 실시간 데이터를 활용하여 날씨 해석하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 86,
+        "supplies_visual_page": 86,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0030",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 88,
+      "탐구활동": "나만의 날씨 앱 디자인하기",
+      "교구": "스마트 기기, 종이, 꾸밈 도구",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          88
+        ],
+        "printed_pages": [
+          88
+        ],
+        "activity_type": "한 뼘 자라는 창의·혁신",
+        "chapter_label": "II",
+        "title_quote": "나만의 날씨 앱 디자인하기",
+        "supplies_quote": "스마트 기기, 종이, 꾸밈 도구",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 88,
+        "supplies_visual_page": 88,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0031",
+      "source_row": null,
+      "단원명": "날씨와 기후변화",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 90,
+      "탐구활동": "기후변화 맞춤형 온라인 바자회",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          90,
+          91
+        ],
+        "printed_pages": [
+          90,
+          91
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "II",
+        "title_quote": "기후변화 맞춤형 온라인 바자회",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 90,
+        "supplies_visual_page": 90,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0032",
+      "source_row": null,
+      "단원명": "수권과 해수의 순환",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 99,
+      "탐구활동": "수권의 분포 조사하기",
+      "교구": "스마트 기기, 네 가지 색깔의 색연필",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          99
+        ],
+        "printed_pages": [
+          99
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "III",
+        "title_quote": "수권의 분포 조사하기",
+        "supplies_quote": "스마트 기기, 네 가지 색깔의 색연필",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 99,
+        "supplies_visual_page": 99,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0033",
+      "source_row": null,
+      "단원명": "수권과 해수의 순환",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 101,
+      "탐구활동": "수자원의 활용 사례 조사하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          101
+        ],
+        "printed_pages": [
+          101
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "III",
+        "title_quote": "수자원의 활용 사례 조사하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 101,
+        "supplies_visual_page": 101,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0034",
+      "source_row": null,
+      "단원명": "수권과 해수의 순환",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 102,
+      "탐구활동": "자원으로서 물의 가치 토론하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          102,
+          103
+        ],
+        "printed_pages": [
+          102,
+          103
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "III",
+        "title_quote": "자원으로서 물의 가치 토론하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 102,
+        "supplies_visual_page": 102,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0035",
+      "source_row": null,
+      "단원명": "수권과 해수의 순환",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 104,
+      "탐구활동": "디지털 탐구 도구를 이용하여 해수의 연직 수온 분포 실험하기",
+      "교구": "스마트 기기, 온도 센서 다섯 개, 수조(30×20×20 cm), 물, 적외선등(높이 조절식), 휴대용 선풍기, 스탠드 두 개, 온도 센서 고정 장치, 자, 실험용 장갑, 실험복",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          104,
+          105
+        ],
+        "printed_pages": [
+          104,
+          105
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "III",
+        "title_quote": "디지털 탐구 도구를 이용하여 해수의 연직 수온 분포 실험하기",
+        "supplies_quote": "스마트 기기, 온도 센서 다섯 개, 수조(30×20×20 cm), 물, 적외선등(높이 조절식), 휴대용 선풍기, 스탠드 두 개, 온도 센서 고정 장치, 자, 실험용 장갑, 실험복",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 104,
+        "supplies_visual_page": 104,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0036",
+      "source_row": null,
+      "단원명": "수권과 해수의 순환",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 109,
+      "탐구활동": "전 세계 해수의 표층 염분 분포 해석하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          109
+        ],
+        "printed_pages": [
+          109
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "III",
+        "title_quote": "전 세계 해수의 표층 염분 분포 해석하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 109,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0037",
+      "source_row": null,
+      "단원명": "수권과 해수의 순환",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 110,
+      "탐구활동": "우리나라 주변 해역의 수온 분석하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          110
+        ],
+        "printed_pages": [
+          110
+        ],
+        "activity_type": "함께 만드는 탐구 1",
+        "chapter_label": "III",
+        "title_quote": "우리나라 주변 해역의 수온 분석하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "상위 탐구 제목: 실시간 데이터를 활용하여 우리나라 주변 해양 정보 분석하기. 탐구 1·2가 110쪽 하나의 준비물 목록 전체를 공유하여 양쪽 레코드에 중복 보존함."
+        ],
+        "title_visual_page": 110,
+        "supplies_visual_page": 110,
+        "series_id": "ybm_k9_sea_data"
+      }
+    },
+    {
+      "id": "ybm_k9_0038",
+      "source_row": null,
+      "단원명": "수권과 해수의 순환",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 111,
+      "탐구활동": "우리나라 주변 해역의 염분 분석하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          110,
+          111
+        ],
+        "printed_pages": [
+          110,
+          111
+        ],
+        "activity_type": "함께 만드는 탐구 2",
+        "chapter_label": "III",
+        "title_quote": "우리나라 주변 해역의 염분 분석하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [
+          "상위 탐구 제목: 실시간 데이터를 활용하여 우리나라 주변 해양 정보 분석하기. 탐구 1·2가 110쪽 하나의 준비물 목록 전체를 공유하여 양쪽 레코드에 중복 보존함."
+        ],
+        "title_visual_page": 111,
+        "supplies_visual_page": 110,
+        "series_id": "ybm_k9_sea_data"
+      }
+    },
+    {
+      "id": "ybm_k9_0039",
+      "source_row": null,
+      "단원명": "수권과 해수의 순환",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 116,
+      "탐구활동": "북태평양 표층 순환 그리기",
+      "교구": "펜(빨간색, 파란색)",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          116
+        ],
+        "printed_pages": [
+          116
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "III",
+        "title_quote": "북태평양 표층 순환 그리기",
+        "supplies_quote": "펜(빨간색, 파란색)",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 116,
+        "supplies_visual_page": 116,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0040",
+      "source_row": null,
+      "단원명": "수권과 해수의 순환",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 118,
+      "탐구활동": "기후변화에 영향을 미치는 해류의 역할 알아보기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          118
+        ],
+        "printed_pages": [
+          118
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "III",
+        "title_quote": "기후변화에 영향을 미치는 해류의 역할 알아보기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 118,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0041",
+      "source_row": null,
+      "단원명": "수권과 해수의 순환",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 120,
+      "탐구활동": "우리나라의 미래 어장을 소개하는 기사 쓰기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          120
+        ],
+        "printed_pages": [
+          120
+        ],
+        "activity_type": "한 뼘 자라는 창의·혁신",
+        "chapter_label": "III",
+        "title_quote": "우리나라의 미래 어장을 소개하는 기사 쓰기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 120,
+        "supplies_visual_page": 120,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0042",
+      "source_row": null,
+      "단원명": "수권과 해수의 순환",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 122,
+      "탐구활동": "물 발자국 줄이기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          122,
+          123
+        ],
+        "printed_pages": [
+          122,
+          123
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "III",
+        "title_quote": "물 발자국 줄이기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 122,
+        "supplies_visual_page": 122,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0043",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 132,
+      "탐구활동": "블록 코딩을 활용하여 등속 운동의 특징 알아보기",
+      "교구": "스타이로폼 보드, 마이크로컨트롤러 보드, 건전지, 직류 전동기 두 개, 바퀴, 스마트 기기 두 대, 줄자, 양면테이프",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          132
+        ],
+        "printed_pages": [
+          132
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "IV",
+        "title_quote": "블록 코딩을 활용하여 등속 운동의 특징 알아보기",
+        "supplies_quote": "스타이로폼 보드, 마이크로컨트롤러 보드, 건전지, 직류 전동기 두 개, 바퀴, 스마트 기기 두 대, 줄자, 양면테이프",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 132,
+        "supplies_visual_page": 132,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0044",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 134,
+      "탐구활동": "장난감 자동차의 운동 분석하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          134
+        ],
+        "printed_pages": [
+          134
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "IV",
+        "title_quote": "장난감 자동차의 운동 분석하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 134,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0045",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 136,
+      "탐구활동": "여러 가지 물체의 자유 낙하 운동 분석하기",
+      "교구": "진공 실험 장치(동전, 깃털, 작은 스티로폼 조각 등 종류와 질량이 다른 물체가 들어 있는 것), 스마트 기기(고속 촬영 기능), 동영상 분석 프로그램, 자, 스탠드, 자유 낙하 운동 기록표(부록 315쪽)",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          136,
+          137
+        ],
+        "printed_pages": [
+          136,
+          137
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "IV",
+        "title_quote": "여러 가지 물체의 자유 낙하 운동 분석하기",
+        "supplies_quote": "진공 실험 장치(동전, 깃털, 작은 스티로폼 조각 등 종류와 질량이 다른 물체가 들어 있는 것), 스마트 기기(고속 촬영 기능), 동영상 분석 프로그램, 자, 스탠드, 자유 낙하 운동 기록표(부록 315쪽)",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 136,
+        "supplies_visual_page": 137,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0046",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 138,
+      "탐구활동": "자유 낙하 운동 이해하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          138
+        ],
+        "printed_pages": [
+          138
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "IV",
+        "title_quote": "자유 낙하 운동 이해하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 138,
+        "supplies_visual_page": 138,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0047",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 145,
+      "탐구활동": "일과 에너지의 관계 알아보기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          145
+        ],
+        "printed_pages": [
+          145
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "IV",
+        "title_quote": "일과 에너지의 관계 알아보기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 145,
+        "supplies_visual_page": 145,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0048",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 146,
+      "탐구활동": "중력에 대해서 한 일과 위치 에너지 비교하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          146
+        ],
+        "printed_pages": [
+          146
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "IV",
+        "title_quote": "중력에 대해서 한 일과 위치 에너지 비교하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 146,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0049",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 148,
+      "탐구활동": "중력에 의한 일과 에너지 관계",
+      "교구": "쇠구슬, 전자저울, 질량 측정 용기, 투명한 플라스틱 관, 스탠드, 종이컵, 모래, 속력 측정기, 줄자",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          148
+        ],
+        "printed_pages": [
+          148
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "IV",
+        "title_quote": "중력에 의한 일과 에너지 관계",
+        "supplies_quote": "쇠구슬, 전자저울, 질량 측정 용기, 투명한 플라스틱 관, 스탠드, 종이컵, 모래, 속력 측정기, 줄자",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 148,
+        "supplies_visual_page": 148,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0050",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 153,
+      "탐구활동": "위치 에너지와 운동 에너지의 변화 알아보기",
+      "교구": "스마트 기기, 색연필(두 가지 색)",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          153
+        ],
+        "printed_pages": [
+          153
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "IV",
+        "title_quote": "위치 에너지와 운동 에너지의 변화 알아보기",
+        "supplies_quote": "스마트 기기, 색연필(두 가지 색)",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 153,
+        "supplies_visual_page": 153,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0051",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 156,
+      "탐구활동": "중력에 의해 떨어지는 물체의 역학적 에너지 보존 실험하기",
+      "교구": "쇠구슬, 전자저울, 질량 측정 용기, 줄자, 스탠드, 투명한 플라스틱 관과 고정 장치, 속력 측정기 두 개, 종이컵, 모래, 역학적 에너지 보존 실험 기록표(부록 314 쪽)",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          156
+        ],
+        "printed_pages": [
+          156
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "IV",
+        "title_quote": "중력에 의해 떨어지는 물체의 역학적 에너지 보존 실험하기",
+        "supplies_quote": "쇠구슬, 전자저울, 질량 측정 용기, 줄자, 스탠드, 투명한 플라스틱 관과 고정 장치, 속력 측정기 두 개, 종이컵, 모래, 역학적 에너지 보존 실험 기록표(부록 314 쪽)",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 156,
+        "supplies_visual_page": 156,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0052",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 160,
+      "탐구활동": "역학적 에너지 전환과 보존을 이용한 놀이기구 홍보물 만들기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          160,
+          161
+        ],
+        "printed_pages": [
+          160,
+          161
+        ],
+        "activity_type": "함께 만드는 탐구",
+        "chapter_label": "IV",
+        "title_quote": "역학적 에너지 전환과 보존을 이용한 놀이기구 홍보물 만들기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 160,
+        "supplies_visual_page": 160,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0053",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 162,
+      "탐구활동": "나만의 롤러코스터 만들기",
+      "교구": "필기도구, 폼 레일, 빨대, 수수깡, 고정핀, 쇠구슬, 스타이로폼 보드 판, 스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          162
+        ],
+        "printed_pages": [
+          162
+        ],
+        "activity_type": "한 뼘 자라는 창의·혁신",
+        "chapter_label": "IV",
+        "title_quote": "나만의 롤러코스터 만들기",
+        "supplies_quote": "필기도구, 폼 레일, 빨대, 수수깡, 고정핀, 쇠구슬, 스타이로폼 보드 판, 스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 162,
+        "supplies_visual_page": 162,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0054",
+      "source_row": null,
+      "단원명": "운동과 에너지",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 164,
+      "탐구활동": "일과 에너지의 전환을 활용한 생태 환경 로봇 설계하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          164,
+          165
+        ],
+        "printed_pages": [
+          164,
+          165
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "IV",
+        "title_quote": "일과 에너지의 전환을 활용한 생태 환경 로봇 설계하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 164,
+        "supplies_visual_page": 164,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0055",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 174,
+      "탐구활동": "맹점 확인 실험하기",
+      "교구": "맹점 확인 실험 자료(부록 313 쪽)",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          174
+        ],
+        "printed_pages": [
+          174
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "V",
+        "title_quote": "맹점 확인 실험하기",
+        "supplies_quote": "맹점 확인 실험 자료(부록 313 쪽)",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 174,
+        "supplies_visual_page": 174,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0056",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 175,
+      "탐구활동": "빛의 밝기에 따른 눈에서의 변화 관찰하기",
+      "교구": "손전등, A4 용지, 가위, 접착테이프",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          175
+        ],
+        "printed_pages": [
+          175
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "V",
+        "title_quote": "빛의 밝기에 따른 눈에서의 변화 관찰하기",
+        "supplies_quote": "손전등, A4 용지, 가위, 접착테이프",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 175,
+        "supplies_visual_page": 175,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0057",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 177,
+      "탐구활동": "다양한 감각으로 물건 찾기",
+      "교구": "눈가리개, 모양, 표면의 거칠기, 온도, 소리가 다른 다양한 물건",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          177
+        ],
+        "printed_pages": [
+          177
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "V",
+        "title_quote": "다양한 감각으로 물건 찾기",
+        "supplies_quote": "눈가리개, 모양, 표면의 거칠기, 온도, 소리가 다른 다양한 물건",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 177,
+        "supplies_visual_page": 177,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0058",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 180,
+      "탐구활동": "맛을 느끼는 과정 추론하기",
+      "교구": "눈가리개, 접시, 세 가지 맛 젤리(망고 맛, 딸기 맛, 청포도 맛)",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          180
+        ],
+        "printed_pages": [
+          180
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "V",
+        "title_quote": "맛을 느끼는 과정 추론하기",
+        "supplies_quote": "눈가리개, 접시, 세 가지 맛 젤리(망고 맛, 딸기 맛, 청포도 맛)",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 180,
+        "supplies_visual_page": 180,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0059",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 182,
+      "탐구활동": "자극이 뇌로 전달되는 과정 표현하기",
+      "교구": "그림 도구, 스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          182,
+          183
+        ],
+        "printed_pages": [
+          182,
+          183
+        ],
+        "activity_type": "함께 만드는 탐구",
+        "chapter_label": "V",
+        "title_quote": "자극이 뇌로 전달되는 과정 표현하기",
+        "supplies_quote": "그림 도구, 스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 182,
+        "supplies_visual_page": 182,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0060",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 188,
+      "탐구활동": "중추신경계의 구조와 기능 이해하기",
+      "교구": "중추신경계의 구조(부록 313 쪽), 투명 필름, 여러 가지 색깔의 사인펜, 스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          188
+        ],
+        "printed_pages": [
+          188
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "V",
+        "title_quote": "중추신경계의 구조와 기능 이해하기",
+        "supplies_quote": "중추신경계의 구조(부록 313 쪽), 투명 필름, 여러 가지 색깔의 사인펜, 스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 188,
+        "supplies_visual_page": 188,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0061",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 190,
+      "탐구활동": "뉴런의 역할 표현하기",
+      "교구": "자극 카드(부록 311 쪽), 반응 카드(부록 312 쪽)",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          190
+        ],
+        "printed_pages": [
+          190
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "V",
+        "title_quote": "뉴런의 역할 표현하기",
+        "supplies_quote": "자극 카드(부록 311 쪽), 반응 카드(부록 312 쪽)",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 190,
+        "supplies_visual_page": 190,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0062",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 193,
+      "탐구활동": "무조건반사와 의식적 반응 실험하기",
+      "교구": "눈가리개, 고무망치, 스마트 기기, 삼각대",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          193
+        ],
+        "printed_pages": [
+          193
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "V",
+        "title_quote": "무조건반사와 의식적 반응 실험하기",
+        "supplies_quote": "눈가리개, 고무망치, 스마트 기기, 삼각대",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 193,
+        "supplies_visual_page": 193,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0063",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 195,
+      "탐구활동": "자극에서 반응이 일어나기까지의 과정을 모형으로 설명하기",
+      "교구": "두 가지 색깔의 펜",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          195
+        ],
+        "printed_pages": [
+          195
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "V",
+        "title_quote": "자극에서 반응이 일어나기까지의 과정을 모형으로 설명하기",
+        "supplies_quote": "두 가지 색깔의 펜",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 195,
+        "supplies_visual_page": 195,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0064",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 197,
+      "탐구활동": "신경계와 호르몬의 작용 비교하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          197
+        ],
+        "printed_pages": [
+          197
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "V",
+        "title_quote": "신경계와 호르몬의 작용 비교하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 197,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0065",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 200,
+      "탐구활동": "호르몬과 관련된 질병 조사하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          200,
+          201
+        ],
+        "printed_pages": [
+          200,
+          201
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "V",
+        "title_quote": "호르몬과 관련된 질병 조사하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 200,
+        "supplies_visual_page": 200,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0066",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 202,
+      "탐구활동": "진통제 오남용의 위험성 알리기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          202
+        ],
+        "printed_pages": [
+          202
+        ],
+        "activity_type": "한 뼘 자라는 창의·혁신",
+        "chapter_label": "V",
+        "title_quote": "진통제 오남용의 위험성 알리기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 202,
+        "supplies_visual_page": 202,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0067",
+      "source_row": null,
+      "단원명": "자극과 반응",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 204,
+      "탐구활동": "우리 학교를 장벽 없는 환경으로 만들기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          204,
+          205
+        ],
+        "printed_pages": [
+          204,
+          205
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "V",
+        "title_quote": "우리 학교를 장벽 없는 환경으로 만들기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 204,
+        "supplies_visual_page": 204,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0068",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 214,
+      "탐구활동": "세포분열의 필요성 추론하기",
+      "교구": "페놀프탈레인이 들어 있는 우무 조각, 자, 안전면도날, 유리판, 비커 두 개, 비눗물, 핀셋, 보안경, 안전 장갑, 실험용 장갑, 실험복",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          214,
+          215
+        ],
+        "printed_pages": [
+          214,
+          215
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "VI",
+        "title_quote": "세포분열의 필요성 추론하기",
+        "supplies_quote": "페놀프탈레인이 들어 있는 우무 조각, 자, 안전면도날, 유리판, 비커 두 개, 비눗물, 핀셋, 보안경, 안전 장갑, 실험용 장갑, 실험복",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 214,
+        "supplies_visual_page": 214,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0069",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 217,
+      "탐구활동": "염색체와 유전자의 관계 이해하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          217
+        ],
+        "printed_pages": [
+          217
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "VI",
+        "title_quote": "염색체와 유전자의 관계 이해하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 217,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0070",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 220,
+      "탐구활동": "체세포분열 관찰하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          220,
+          221
+        ],
+        "printed_pages": [
+          220,
+          221
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "VI",
+        "title_quote": "체세포분열 관찰하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 220,
+        "supplies_visual_page": 220,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0071",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 224,
+      "탐구활동": "생식세포 형성 과정 관찰하기",
+      "교구": "고정된 호밀 이삭, 페트리접시, 70 % 에탄올, 핀셋 두 개, 안전면도날, 받침 유리, 아세트올세인 용액, 스포이트, 해부 침, 덮개 유리, 거름종이, 현미경, 안전 장갑, 실험용 장갑, 실험복",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          224,
+          225
+        ],
+        "printed_pages": [
+          224,
+          225
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "VI",
+        "title_quote": "생식세포 형성 과정 관찰하기",
+        "supplies_quote": "고정된 호밀 이삭, 페트리접시, 70 % 에탄올, 핀셋 두 개, 안전면도날, 받침 유리, 아세트올세인 용액, 스포이트, 해부 침, 덮개 유리, 거름종이, 현미경, 안전 장갑, 실험용 장갑, 실험복",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 224,
+        "supplies_visual_page": 224,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0072",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 227,
+      "탐구활동": "동물의 발생 과정을 모형으로 표현하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          227
+        ],
+        "printed_pages": [
+          227
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "VI",
+        "title_quote": "동물의 발생 과정을 모형으로 표현하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 227,
+        "supplies_visual_page": 227,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0073",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 228,
+      "탐구활동": "오가노이드를 소개하는 카드 뉴스 만들기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          228
+        ],
+        "printed_pages": [
+          228
+        ],
+        "activity_type": "한 뼘 자라는 창의·혁신",
+        "chapter_label": "VI",
+        "title_quote": "오가노이드를 소개하는 카드 뉴스 만들기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 228,
+        "supplies_visual_page": 228,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0074",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 234,
+      "탐구활동": "유전자의 전달 과정 설명하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          234
+        ],
+        "printed_pages": [
+          234
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "VI",
+        "title_quote": "유전자의 전달 과정 설명하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 234,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0075",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 237,
+      "탐구활동": "유전 현상 모의 활동 하기",
+      "교구": "두 가지 모양의 나무 막대 네 개, 대립유전자, 표현형 붙임딱지(부록 310 쪽)",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          237
+        ],
+        "printed_pages": [
+          237
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "VI",
+        "title_quote": "유전 현상 모의 활동 하기",
+        "supplies_quote": "두 가지 모양의 나무 막대 네 개, 대립유전자, 표현형 붙임딱지(부록 310 쪽)",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 237,
+        "supplies_visual_page": 237,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0076",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 238,
+      "탐구활동": "두 쌍의 대립형질의 유전 알아보기",
+      "교구": "생식세포 붙임딱지(부록 310 쪽)",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          238
+        ],
+        "printed_pages": [
+          238
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "VI",
+        "title_quote": "두 쌍의 대립형질의 유전 알아보기",
+        "supplies_quote": "생식세포 붙임딱지(부록 310 쪽)",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 238,
+        "supplies_visual_page": 238,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0077",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 240,
+      "탐구활동": "멘델 유전 원리가 적용되는 유전 현상 조사하기",
+      "교구": "연필, 색연필, 스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          240,
+          241
+        ],
+        "printed_pages": [
+          240,
+          241
+        ],
+        "activity_type": "함께 만드는 탐구",
+        "chapter_label": "VI",
+        "title_quote": "멘델 유전 원리가 적용되는 유전 현상 조사하기",
+        "supplies_quote": "연필, 색연필, 스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 240,
+        "supplies_visual_page": 240,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0078",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 243,
+      "탐구활동": "가계도를 그려 유전 현상 설명하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          243
+        ],
+        "printed_pages": [
+          243
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "VI",
+        "title_quote": "가계도를 그려 유전 현상 설명하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 243,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0079",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 245,
+      "탐구활동": "ABO식 혈액형 가계도 분석하기",
+      "교구": null,
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          245
+        ],
+        "printed_pages": [
+          245
+        ],
+        "activity_type": "해 보기",
+        "chapter_label": "VI",
+        "title_quote": "ABO식 혈액형 가계도 분석하기",
+        "supplies_quote": null,
+        "standard_quote": null,
+        "review_notes": [
+          "학생 본문에 별도 준비물 목록이 명시되지 않음; 절차·그림에서 추론하지 않음."
+        ],
+        "title_visual_page": 245,
+        "supplies_visual_page": null,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0080",
+      "source_row": null,
+      "단원명": "생식과 유전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 248,
+      "탐구활동": "다가오는 생명공학 시대의 윤리 찾기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          248,
+          249
+        ],
+        "printed_pages": [
+          248,
+          249
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "VI",
+        "title_quote": "다가오는 생명공학 시대의 윤리 찾기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 248,
+        "supplies_visual_page": 248,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0081",
+      "source_row": null,
+      "단원명": "재해·재난과 안전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 260,
+      "탐구활동": "빅데이터를 이용하여 재해·재난 사례 분석하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          260,
+          261
+        ],
+        "printed_pages": [
+          260,
+          261
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "VII",
+        "title_quote": "빅데이터를 이용하여 재해·재난 사례 분석하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 260,
+        "supplies_visual_page": 260,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0082",
+      "source_row": null,
+      "단원명": "재해·재난과 안전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 262,
+      "탐구활동": "재해·재난의 피해를 줄이기 위한 홍보 자료 제작하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          262,
+          263
+        ],
+        "printed_pages": [
+          262,
+          263
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "VII",
+        "title_quote": "재해·재난의 피해를 줄이기 위한 홍보 자료 제작하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 262,
+        "supplies_visual_page": 262,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0083",
+      "source_row": null,
+      "단원명": "재해·재난과 안전",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 268,
+      "탐구활동": "재난 대피 시 필요한 우리 가족 재난 가방 만들기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          268,
+          269
+        ],
+        "printed_pages": [
+          268,
+          269
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "VII",
+        "title_quote": "재난 대피 시 필요한 우리 가족 재난 가방 만들기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 268,
+        "supplies_visual_page": 268,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0084",
+      "source_row": null,
+      "단원명": "과학과 나의 미래",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 274,
+      "탐구활동": "다양한 직업 속 과학 탐색하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          274,
+          275
+        ],
+        "printed_pages": [
+          274,
+          275
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "VIII",
+        "title_quote": "다양한 직업 속 과학 탐색하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 274,
+        "supplies_visual_page": 274,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0085",
+      "source_row": null,
+      "단원명": "과학과 나의 미래",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 276,
+      "탐구활동": "미래 사회에서 과학의 역할과 새로운 과학 직업 토의하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          276
+        ],
+        "printed_pages": [
+          276
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "VIII",
+        "title_quote": "미래 사회에서 과학의 역할과 새로운 과학 직업 토의하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 276,
+        "supplies_visual_page": 276,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0086",
+      "source_row": null,
+      "단원명": "과학과 나의 미래",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 279,
+      "탐구활동": "진로와 관련 있는 과학 분야 조사하기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          279
+        ],
+        "printed_pages": [
+          279
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "VIII",
+        "title_quote": "진로와 관련 있는 과학 분야 조사하기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 279,
+        "supplies_visual_page": 279,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0087",
+      "source_row": null,
+      "단원명": "과학과 나의 미래",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 282,
+      "탐구활동": "진로 선택에 필요한 과학 학습 계획하기",
+      "교구": "스마트 기기, 진로 책자(부록 309 쪽)",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          282,
+          283
+        ],
+        "printed_pages": [
+          282,
+          283
+        ],
+        "activity_type": "탐구",
+        "chapter_label": "VIII",
+        "title_quote": "진로 선택에 필요한 과학 학습 계획하기",
+        "supplies_quote": "스마트 기기, 진로 책자(부록 309 쪽)",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 282,
+        "supplies_visual_page": 282,
+        "series_id": null
+      }
+    },
+    {
+      "id": "ybm_k9_0088",
+      "source_row": null,
+      "단원명": "과학과 나의 미래",
+      "성취기준": null,
+      "출판사": "YBM",
+      "쪽": 286,
+      "탐구활동": "나의 직업 속 생태 감수성 키우기",
+      "교구": "스마트 기기",
+      "source": {
+        "book_id": "YBM_K9",
+        "pdf_pages": [
+          286,
+          287
+        ],
+        "printed_pages": [
+          286,
+          287
+        ],
+        "activity_type": "실천하는 생태 시민",
+        "chapter_label": "VIII",
+        "title_quote": "나의 직업 속 생태 감수성 키우기",
+        "supplies_quote": "스마트 기기",
+        "standard_quote": null,
+        "review_notes": [],
+        "title_visual_page": 286,
+        "supplies_visual_page": 286,
+        "series_id": null
+      }
+    }
+  ],
+  "views": {
+    "기본자료": {
+      "record_count": 88,
+      "record_ids": [
+        "ybm_k9_0001",
+        "ybm_k9_0002",
+        "ybm_k9_0003",
+        "ybm_k9_0004",
+        "ybm_k9_0005",
+        "ybm_k9_0006",
+        "ybm_k9_0007",
+        "ybm_k9_0008",
+        "ybm_k9_0009",
+        "ybm_k9_0010",
+        "ybm_k9_0011",
+        "ybm_k9_0012",
+        "ybm_k9_0013",
+        "ybm_k9_0014",
+        "ybm_k9_0015",
+        "ybm_k9_0016",
+        "ybm_k9_0017",
+        "ybm_k9_0018",
+        "ybm_k9_0019",
+        "ybm_k9_0020",
+        "ybm_k9_0021",
+        "ybm_k9_0022",
+        "ybm_k9_0023",
+        "ybm_k9_0024",
+        "ybm_k9_0025",
+        "ybm_k9_0026",
+        "ybm_k9_0027",
+        "ybm_k9_0028",
+        "ybm_k9_0029",
+        "ybm_k9_0030",
+        "ybm_k9_0031",
+        "ybm_k9_0032",
+        "ybm_k9_0033",
+        "ybm_k9_0034",
+        "ybm_k9_0035",
+        "ybm_k9_0036",
+        "ybm_k9_0037",
+        "ybm_k9_0038",
+        "ybm_k9_0039",
+        "ybm_k9_0040",
+        "ybm_k9_0041",
+        "ybm_k9_0042",
+        "ybm_k9_0043",
+        "ybm_k9_0044",
+        "ybm_k9_0045",
+        "ybm_k9_0046",
+        "ybm_k9_0047",
+        "ybm_k9_0048",
+        "ybm_k9_0049",
+        "ybm_k9_0050",
+        "ybm_k9_0051",
+        "ybm_k9_0052",
+        "ybm_k9_0053",
+        "ybm_k9_0054",
+        "ybm_k9_0055",
+        "ybm_k9_0056",
+        "ybm_k9_0057",
+        "ybm_k9_0058",
+        "ybm_k9_0059",
+        "ybm_k9_0060",
+        "ybm_k9_0061",
+        "ybm_k9_0062",
+        "ybm_k9_0063",
+        "ybm_k9_0064",
+        "ybm_k9_0065",
+        "ybm_k9_0066",
+        "ybm_k9_0067",
+        "ybm_k9_0068",
+        "ybm_k9_0069",
+        "ybm_k9_0070",
+        "ybm_k9_0071",
+        "ybm_k9_0072",
+        "ybm_k9_0073",
+        "ybm_k9_0074",
+        "ybm_k9_0075",
+        "ybm_k9_0076",
+        "ybm_k9_0077",
+        "ybm_k9_0078",
+        "ybm_k9_0079",
+        "ybm_k9_0080",
+        "ybm_k9_0081",
+        "ybm_k9_0082",
+        "ybm_k9_0083",
+        "ybm_k9_0084",
+        "ybm_k9_0085",
+        "ybm_k9_0086",
+        "ybm_k9_0087",
+        "ybm_k9_0088"
+      ]
+    }
+  }
+}
