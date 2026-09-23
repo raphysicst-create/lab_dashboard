@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "checked_at": "2026-09-23T07:43:06.838410+00:00",
+  "commit": "6e778cc6b626f05ddac570d87ab571bb22d3b01e",
+  "workflow_url": "https://github.com/raphysicst-create/lab_dashboard/actions/runs/35833083955",
+  "conclusion": "success",
+  "activities": 1276,
+  "publisher_counts": {
+    "천재(정대홍)": 96,
+    "천재(임성숙)": 92,
+    "미래엔": 188,
+    "비상교육": 209,
+    "동아출판": 137,
+    "지학사": 250,
+    "YBM": 239,
+    "천재교과서": 65
+  },
+  "checks": [
+    {
+      "file": "index.html",
+      "sha256": "8463f7b9ea8959e923ad75a01e8ae097cc95ebc302baa5f9263fa90e5f4ec793",
+      "matched": true
+    },
+    {
+      "file": "app.js",
+      "sha256": "956f7707a532990e10bd7b3d6146534921e823185d8f75c10337ca336459cc6f",
+      "matched": true
+    },
+    {
+      "file": "core.js",
+      "sha256": "847142de6c615bff9978d8cb76f6d87c4c5fad5f4d5c389e20b4d29d740bdae7",
+      "matched": true
+    },
+    {
+      "file": "style.css",
+      "sha256": "e03b5b6538db292b4fe70f6606e63c1c86ea8c254506050a9b373d5cbc07b239",
+      "matched": true
+    },
+    {
+      "file": "data/achievements.json",
+      "sha256": "ad071713c5ccff2f810c6bacd7b3d975f4a9de1dcb8acf5fd7b68b99d6785dbe",
+      "matched": true
+    },
+    {
+      "file": "data/activities.json",
+      "sha256": "365d3071e04369fb07ae5c7ff50dcfccbd8e91776d04310ebb9bf4fad6d9e445",
+      "matched": true
+    },
+    {
+      "file": "data/chemical_guidelines.json",
+      "sha256": "d81734f8436833af822c1a2d62cd4711fdd00cce41b0cba8645ff533b1ffcd8d",
+      "matched": true
+    },
+    {
+      "file": "data/chemicals.json",
+      "sha256": "3d43d2006634f3fa4e2d7de8aedc03f0d9ed3d07faf12c4a6f0789672acb6c42",
+      "matched": true
+    },
+    {
+      "file": "data/materials.json",
+      "sha256": "843eafc77f89847d66ff541c507c7c2da7f2327af9273873b25f0969caac19ae",
+      "matched": true
+    },
+    {
+      "file": "data/quantities.json",
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "matched": true
+    },
+    {
+      "file": "data/sources.json",
+      "sha256": "eedd0901f91a6f923e836412a71e5df264debd624e11768f0e4a2ad2e2e07e75",
+      "matched": true
+    },
+    {
+      "file": "data/textbooks.json",
+      "sha256": "853b0824284a7cdbce3c66e4ebfd2eff121c6568fec7d2419bf48497c933e14f",
+      "matched": true
+    }
+  ]
+}

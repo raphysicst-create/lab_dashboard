@@ -62,7 +62,8 @@
 - 사이트: https://raphysicst-create.github.io/lab_dashboard/
 - 전체 작업을 보존하기 위해 저장소 구조를 로컬 프로젝트와 동일하게 `site/dist` 중심으로 정리했습니다. 루트 `.github/workflows/deploy-pages.yml`은 `site/dist`만 배포합니다. 루트의 이전 `dist` 사본은 중복을 없애기 위해 정리했습니다.
 - 전체 원자료·검토 기록은 사용자의 요청으로 공개 GitHub 저장소에 포함됩니다. 해당 자료를 웹 제품에 표시하거나 `site/dist`에 복사하지 않습니다.
-- 최신 배포 성공 커밋: `67ae45409665649f2ea4e5277796f8e2043c502b` (고1 준비물 기자재·준비물 분류). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35829199537 배포 성공. 공개 파일 12개가 로컬과 일치하며 고1 두 분류 영역·미확인·빈 분류·검색/필터·PC/모바일 검증 통과, 페이지 오류 0건. 기록: `output/validation/high-classification-20260923/public/`.
+- 최신 배포 성공 커밋: `6e778cc6b626f05ddac570d87ab571bb22d3b01e` (천재 제외 중복 출판사 표기 통일). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35833083955 배포 성공. 공개 파일 12개 일치·출판사 8종·기존 선택 이관·카드/상세·PC/모바일 검증 통과, 페이지 오류 0건. 기록: `output/validation/publishers-20260923/public/`.
+- 이전 배포 성공 커밋: `67ae45409665649f2ea4e5277796f8e2043c502b` (고1 준비물 기자재·준비물 분류). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35829199537 배포 성공. 공개 파일 12개가 로컬과 일치하며 고1 두 분류 영역·미확인·빈 분류·검색/필터·PC/모바일 검증 통과, 페이지 오류 0건. 기록: `output/validation/high-classification-20260923/public/`.
 - 이전 배포 성공 커밋: `ab78623bfd528624c2ec2cc3201c3d776ee2c2a0` (모바일 상세 필터 접기). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35827250208 배포 성공. 공개 HTML·JS·CSS가 로컬과 일치하며 320/390/700/701/1440px에서 초기 접힘·검색·필터 펼치기/접기·선택값 유지·초기화·PC 표시·가로 넘침 없음 확인, 페이지 오류 0건. 기록: `output/validation/mobile-filters-20260923/public/`.
 - 이전 배포 성공 커밋: `bdbe15b5b0461bb8891797b6ce13e29cbffdaec3` (통합과학2 부록 1건 제외). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35825704408 배포 성공, 공개 JSON 일치 및 부록 단원·활동 미노출 검증 완료. 현재 전체 1,276개·고1 414개·29단원. 기록: `output/validation/remove-appendix-20260923/public/`.
 - 이전 배포 성공 커밋: `d9322d47a1f548aded6e37d89cb155805ce4e684` (단원명 통일, 86개 표기를 대단원 29개+부록 1개로 정리). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35825015778 의 deploy 성공과 공개 JSON·웹 파일 일치, 단원 필터·출판사 통합·학년 구분·PC/모바일 검증 통과를 확인했습니다. 기록: `output/validation/unit-normalization-20260923/public/`.
@@ -159,4 +160,4 @@
 - 출판사 선택은 11개에서 8개로 정리됐고 활동 1,276개는 모두 유지합니다. 통일 후 동아출판 137·미래엔 188·비상교육 209개입니다. 바뀐 266행의 이전 표기는 `출판사 원문`에 보존했고 준비물 분류·단원·학년·성취기준은 그대로입니다.
 - 기존 브라우저의 부분 선택도 별칭을 새 이름으로 변환합니다. 합쳐진 이름 중 하나를 선택했다면 통합 출판사를 선택하며, 전체 선택과 전체 해제 상태도 유지합니다.
 - 적용 전 통합본과 공개 활동·교과서 사본: `outputs/extraction/combined-20260922/decision_history/20260923-publishers/`. 검증·배포 기록: `output/validation/publishers-20260923/`.
-- 독립 데이터 검증 59개와 출판사 선택 이관·카드·상세·PC/모바일 브라우저 검증 통과. 페이지 오류 0건. 공개 배포는 후속 기록을 따릅니다.
+- 독립 데이터 검증 59개와 출판사 선택 이관·카드·상세·PC/모바일 브라우저 검증 통과. 페이지 오류 0건. 변경 커밋 `6e778cc`의 공개 배포·파일 대조·브라우저 검증도 통과했습니다.
