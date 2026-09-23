@@ -1,0 +1,24 @@
+{
+  "status": "applied",
+  "before_sha256": "b862cb1fbcf7093cd752dae15743c844809d5fb9e373b8602dcea16716f9ac59",
+  "after_sha256": "c570f3bd85598d6cc486c346ebc033835c1544d9404f29b2356fb4b94087158b",
+  "research_sha256": "660a7dfa07c35f0a63e478368bc48bf0adfa30735477522d43617a6f7ef06fac",
+  "activities": 862,
+  "status_counts": {
+    "scope_based": 234,
+    "candidate": 29,
+    "direct": 136,
+    "unconfirmed": 9
+  },
+  "official_standards": 87,
+  "new_links": 370,
+  "remaining_null": 38,
+  "preserved": [
+    "original input files",
+    "original achievement values",
+    "preparation text and classification",
+    "activity order",
+    "grade mapping",
+    "default sort rule"
+  ]
+}

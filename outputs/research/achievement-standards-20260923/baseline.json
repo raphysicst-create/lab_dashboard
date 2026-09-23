@@ -1,0 +1,11 @@
+{
+  "files": {
+    "science_experiment_supplies.json": "22748932ad38860145bdd1c47eb6cd437bfc965e90cbdbff303477133e9336ff",
+    "outputs/extraction/combined-20260922/science_experiment_supplies_combined.json": "b862cb1fbcf7093cd752dae15743c844809d5fb9e373b8602dcea16716f9ac59",
+    "site/dist/data/activities.json": "96f0f9284860fa568cec1173d8d68d00f51326149f7a610217b791db959b8191",
+    "site/dist/app.js": "661183986e7bf0e55a8370e3c54b3cc46f8324f88cc4a2b3dc88477aed73913c",
+    "site/dist/core.js": "9965531131679fb8e0bee71288b14bfe8004274122acf61949a7cde86c5944ce",
+    "site/dist/index.html": "be0a1fbc22c43d00177d1624376bab658bcd29940651fae93ef00e8d543e17ed"
+  },
+  "scope": "성취기준 조사 결과만 별도 작성. 원자료와 사이트 및 기본 정렬 변경 없음."
+}

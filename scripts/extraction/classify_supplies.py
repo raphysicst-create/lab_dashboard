@@ -176,6 +176,8 @@ def review_group(item):
 
 
 def main():
+    if 'achievement_mapping' in json.loads(TARGET.read_text(encoding='utf8'))['metadata']:
+        raise SystemExit('성취기준이 반영된 통합본입니다. 기존 분류 생성기로 후속 성취기준을 덮어쓰지 않았습니다. 분류 변경 시 성취기준 보존 절차를 함께 적용하세요.')
     if not BACKUP.exists():
         current=json.loads(TARGET.read_text(encoding='utf8'))
         if 'preparation_classification' in current['metadata']:

@@ -1,0 +1,3796 @@
+{
+  "metadata": {
+    "book_id": "YBM_K9",
+    "publisher": "(주)와이비엠",
+    "title": "중학교 과학 3",
+    "first_edition_date": "2027-03-01",
+    "curriculum": "2022 개정 과학과 교육과정",
+    "book_pdf": "C:\\Users\\USER\\Desktop\\maintain\\textbook_wiki\\raw\\textbook_YBM_K9.pdf",
+    "book_pdf_sha256": "88ec1780c146aacd3653dd35f4ff6cb3c0db35101b6f919a641863c4c7640d09",
+    "book_page_count": 328,
+    "activity_source": "outputs\\extraction\\ybm-20260922\\K9\\science_experiment_supplies_YBM_K9.json",
+    "official_standard_source": "교육부 고시 제2022-33호 [별책9] 과학과 교육과정",
+    "official_standard_source_url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=141&boardSeq=93458&lev=0&page=1&searchType=null&statusYN=W",
+    "official_standard_download_url": "https://www.moe.go.kr/boardCnts/fileDown.do?fileSeq=1512facbda6c234a1641ac7e9c156ca2&m=&s=moe",
+    "official_standard_hwp_sha256": "d049caa5b3e7420a0505345dc70ca325faf65a18468ba393eec103b44b78c790",
+    "method": "공식 코드·원문은 교육부 고시 HWP에서 확인했다. 학생용 교과서에는 공식 코드가 없으며, 단원 말 '나의 학습 되돌아보기'의 학습 목표와 본문 참조 쪽수, 활동 본문을 대조했다. derived_body_ranges는 목차와 본문을 통해 별도로 추론한 활동 소단원 범위이며 자기점검에 명시된 범위가 아니다. 직접 코드 표시는 발견되지 않아 direct 연결은 0건이다. 주제 유사성만으로는 확정하지 않았다.",
+    "source_limits": "학생용 교과서이므로 교사용 단원 지도계획·차시별 성취기준 표는 포함되지 않는다. 범위 근거 연결안은 교과서 안의 목표·참조 쪽수와 수행 내용이 맞는 경우로 제한한다."
+  },
+  "standards": [
+    {
+      "book_id": "YBM_K9",
+      "code": "9과16-01",
+      "raw_text": "물리 변화와 화학 변화의 의미를 알고, 화학 변화에서 새로운 물질이 생성됨을 관찰할 수 있다.",
+      "chapter": "화학 반응의 규칙성",
+      "derived_body_ranges": [
+        [
+          13,
+          15
+        ],
+        [
+          20,
+          21
+        ]
+      ],
+      "textbook_review_page": 49,
+      "bridge_note": "교과서 목표는 '이해', 공식 기준은 '관찰'이라고 표현하며 해당 활동은 생성 물질 관찰을 실제로 요구한다.",
+      "evidence": [
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "물리 변화와 화학 변화의 의미를 알고, 화학 변화에서 새로운 물질이 생성됨을 이해할 수 있다.",
+          "review_reference_page": 13,
+          "review_reference_quote": "13 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과16-02",
+      "raw_text": "간단한 화학 반응을 화학 반응식으로 표현하고, 화학 반응식에서 계수의 비를 입자 수의 비로 해석할 수 있다.",
+      "chapter": "화학 반응의 규칙성",
+      "derived_body_ranges": [
+        [
+          16,
+          19
+        ]
+      ],
+      "textbook_review_page": 49,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "간단한 화학 반응을 화학 반응식으로 표현하고, 화학 반응식에서 계수의 비를 입자 수의 비로 해석할 수 있다.",
+          "review_reference_page": 16,
+          "review_reference_quote": "16 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과16-03",
+      "raw_text": "화학 반응에서 질량이 보존됨을 실험을 통해 추론할 수 있다.",
+      "chapter": "화학 반응의 규칙성",
+      "derived_body_ranges": [
+        [
+          23,
+          26
+        ]
+      ],
+      "textbook_review_page": 49,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화학 반응에서 질량이 보존됨을 실험을 통해 추론할 수 있다.",
+          "review_reference_page": 23,
+          "review_reference_quote": "23 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과16-04",
+      "raw_text": "화합물을 구성하는 성분 원소의 질량비가 일정함을 실험 자료를 해석하여 설명할 수 있다.",
+      "chapter": "화학 반응의 규칙성",
+      "derived_body_ranges": [
+        [
+          27,
+          30
+        ]
+      ],
+      "textbook_review_page": 49,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화합물을 구성하는 성분 원소의 질량비가 일정함을 실험 자료를 해석하여 설명할 수 있다.",
+          "review_reference_page": 27,
+          "review_reference_quote": "27 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과16-05",
+      "raw_text": "기체 반응에서 기체 부피 사이의 비가 일정함을 실험 자료를 해석하여 설명할 수 있다.",
+      "chapter": "화학 반응의 규칙성",
+      "derived_body_ranges": [
+        [
+          31,
+          35
+        ]
+      ],
+      "textbook_review_page": 49,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "기체 반응에서 기체 부피 사이의 비가 일정함을 실험 자료를 해석하여 설명할 수 있다.",
+          "review_reference_page": 31,
+          "review_reference_quote": "31 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과16-06",
+      "raw_text": "화학 반응에서 열에너지가 출입함을 알고, 생활 속 사례를 조사하여 발표할 수 있다.",
+      "chapter": "화학 반응의 규칙성",
+      "derived_body_ranges": [
+        [
+          37,
+          43
+        ]
+      ],
+      "textbook_review_page": 49,
+      "bridge_note": "교과서 자기점검은 사례 '조사'까지 적고 공식 기준에는 '발표'가 추가된다. 코드 연결은 같은 열출입 개념·사례 범위에 한정한다.",
+      "evidence": [
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화학 반응에서 열에너지가 출입함을 알고, 생활 속 사례를 조사할 수 있다.",
+          "review_reference_page": 37,
+          "review_reference_quote": "37 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과17-01",
+      "raw_text": "지구 대기권을 4개 권역으로 구분하며, 온실효과와 지구온난화를 복사 평형의 관점으로 설명할 수 있다.",
+      "chapter": "날씨와 기후변화",
+      "derived_body_ranges": [
+        [
+          53,
+          58
+        ]
+      ],
+      "textbook_review_page": 95,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "대기권을 4 개의 권역으로 구분하고, 온실 효과와 지구온난화를 복사 평형의 관점으로 설명할 수 있다.",
+          "review_reference_page": 53,
+          "review_reference_quote": "53 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과17-02",
+      "raw_text": "대기 대순환에서 위도별 바람의 특성을 파악하고, 대기 대순환의 역할을 설명할 수 있다.",
+      "chapter": "날씨와 기후변화",
+      "derived_body_ranges": [
+        [
+          59,
+          63
+        ]
+      ],
+      "textbook_review_page": 95,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "대기 대순환에서 위도별 바람의 특성을 파악하고, 대기 대순환의 역할을 설명할 수 있다.",
+          "review_reference_page": 61,
+          "review_reference_quote": "61 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과17-03",
+      "raw_text": "상대습도, 단열 팽창 및 응결 현상의 관계를 이해하고, 구름의 생성과 강수 과정을 설명할 수 있다.",
+      "chapter": "날씨와 기후변화",
+      "derived_body_ranges": [
+        [
+          65,
+          73
+        ]
+      ],
+      "textbook_review_page": 95,
+      "bridge_note": "교과서 목표는 습도·구름·강수로 나뉘며 공식 기준은 단열 팽창·응결 관계로 이를 묶는다.",
+      "evidence": [
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "대기 중의 수증기량과 이슬점, 포화 수증기압, 상대습도의 관계를 파악하고, 구름의 생성과 강수 과정을 설명할 수 있다.",
+          "review_reference_page": 67,
+          "review_reference_quote": "67 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과17-04",
+      "raw_text": "기압, 기단, 전선의 개념을 이해하고, 일기도에서 저기압과 고기압의 분포에 따른 날씨를 해석할 수 있다.",
+      "chapter": "날씨와 기후변화",
+      "derived_body_ranges": [
+        [
+          75,
+          89
+        ]
+      ],
+      "textbook_review_page": 95,
+      "bridge_note": "교과서 자기점검의 기압·바람·전선 목표와 일기도 해석 목표가 공식 기준 한 코드에 합쳐져 있다.",
+      "evidence": [
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "기압의 차이로 바람이 부는 원리, 전선의 형성 과정, 전선 주변의 날씨 변화를 설명할 수 있다.",
+          "review_reference_page": 79,
+          "review_reference_quote": "79 쪽"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "일기도에서 저기압과 고기압의 분포에 따른 날씨를 해석할 수 있다.",
+          "review_reference_page": 84,
+          "review_reference_quote": "84 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과18-01",
+      "raw_text": "수권에서 해수, 담수, 빙하의 분포와 활용 사례를 조사하고, 자원으로서 물의 가치에 대해 토론할 수 있다.",
+      "chapter": "수권과 해수의 순환",
+      "derived_body_ranges": [
+        [
+          99,
+          103
+        ],
+        [
+          122,
+          123
+        ]
+      ],
+      "textbook_review_page": 127,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "수권에서 해수, 담수, 빙하의 분포와 활용 사례를 조사하고, 자원으로서 물의 가치에 대해 토론할 수 있다.",
+          "review_reference_page": 99,
+          "review_reference_quote": "99 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과18-02",
+      "raw_text": "해수의 수온과 염분의 분포 및 변화를 해석하여 해수의 특성을 설명할 수 있다.",
+      "chapter": "수권과 해수의 순환",
+      "derived_body_ranges": [
+        [
+          104,
+          113
+        ]
+      ],
+      "textbook_review_page": 127,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "해수의 수온과 염분의 분포 및 변화를 해석하여 해수의 특성을 설명할 수 있다.",
+          "review_reference_page": 104,
+          "review_reference_quote": "104 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과18-03",
+      "raw_text": "대기 대순환과 해양 표층 순환과의 관계를 이해하고, 기후변화에 영향을 미치는 해류의 역할을 설명할 수 있다.",
+      "chapter": "수권과 해수의 순환",
+      "derived_body_ranges": [
+        [
+          115,
+          121
+        ]
+      ],
+      "textbook_review_page": 127,
+      "bridge_note": "교과서 자기점검의 대기·해양 순환과 해류의 기후 역할 목표가 공식 기준 한 코드에 합쳐져 있다.",
+      "evidence": [
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "대기 대순환과 해양 표층 순환과의 관계를 이해할 수 있다.",
+          "review_reference_page": 115,
+          "review_reference_quote": "115 쪽"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "기후변화에 영향을 미치는 해류의 역할을 설명할 수 있다.",
+          "review_reference_page": 118,
+          "review_reference_quote": "118 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과19-01",
+      "raw_text": "직선상에서 움직이는 물체의 운동을 그래프로 나타내고 해석할 수 있다.",
+      "chapter": "운동과 에너지",
+      "derived_body_ranges": [
+        [
+          131,
+          135
+        ]
+      ],
+      "textbook_review_page": 169,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "직선상에서 움직이는 물체의 운동을 그래프로 나타내고 해석할 수 있다.",
+          "review_reference_page": 131,
+          "review_reference_quote": "131 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과19-02",
+      "raw_text": "자유 낙하하는 물체의 운동에서 시간에 따른 속력의 변화가 일정함을 분석할 수 있다.",
+      "chapter": "운동과 에너지",
+      "derived_body_ranges": [
+        [
+          136,
+          141
+        ]
+      ],
+      "textbook_review_page": 169,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "자유 낙하 하는 물체의 운동에서 시간에 따른 속력의 변화가 일정함을 분석할 수 있다.",
+          "review_reference_page": 136,
+          "review_reference_quote": "136 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과19-03",
+      "raw_text": "일의 정의를 알고, 자유 낙하하는 물체의 운동에서 중력이 한 일을 위치 에너지와 운동 에너지로 표현할 수 있다.",
+      "chapter": "운동과 에너지",
+      "derived_body_ranges": [
+        [
+          143,
+          151
+        ]
+      ],
+      "textbook_review_page": 169,
+      "bridge_note": "교과서 자기점검의 일의 정의 및 낙하 운동의 일·에너지 목표가 공식 기준 한 코드에 합쳐져 있다.",
+      "evidence": [
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "과학에서의 일의 정의를 알 수 있다.",
+          "review_reference_page": 143,
+          "review_reference_quote": "143 쪽"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "자유 낙하를 하는 물체의 운동에서 중력이 한 일과 중력에 대해 한 일을 위치 에너지와 운동 에너지로 표현할 수 있다.",
+          "review_reference_page": 145,
+          "review_reference_quote": "145 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과19-04",
+      "raw_text": "물체의 운동에서 역학적 에너지의 전환과 보존을 이해하고, 이를 활용하여 일상생활 속 물체의 운동을 예측할 수 있다.",
+      "chapter": "운동과 에너지",
+      "derived_body_ranges": [
+        [
+          153,
+          163
+        ]
+      ],
+      "textbook_review_page": 169,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "물체의 운동에서 역학적 에너지의 전환과 보존을 이해할 수 있다.",
+          "review_reference_page": 153,
+          "review_reference_quote": "153 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과20-01",
+      "raw_text": "감각기관의 구조와 기능을 이해하고, 실험을 통해 자극이 뇌로 전달되는 과정을 추론할 수 있다.",
+      "chapter": "자극과 반응",
+      "derived_body_ranges": [
+        [
+          173,
+          185
+        ]
+      ],
+      "textbook_review_page": 209,
+      "bridge_note": "교과서 자기점검의 감각기관 구조·기능 및 뇌까지 자극 전달 목표가 공식 기준 한 코드에 합쳐져 있다.",
+      "evidence": [
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "감긱기관의 구조와 기능을 이해할 수 있다.",
+          "review_reference_page": 173,
+          "review_reference_quote": "173 쪽"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "자극이 감각기관에서 뇌로 전달되기까지의 과정을 설명할 수 있다.",
+          "review_reference_page": 182,
+          "review_reference_quote": "182 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과20-02",
+      "raw_text": "뉴런과 신경계의 구조와 기능을 이해하고, 자극에서 반응이 일어나기까지의 과정을 모형으로 설명할 수 있다.",
+      "chapter": "자극과 반응",
+      "derived_body_ranges": [
+        [
+          187,
+          195
+        ]
+      ],
+      "textbook_review_page": 209,
+      "bridge_note": "교과서 자기점검의 뉴런·신경계 및 자극에서 반응까지의 경로 목표가 공식 기준 한 코드에 합쳐져 있다.",
+      "evidence": [
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "신경계와 뉴런의 구조와 기능을 이해할 수 있다.",
+          "review_reference_page": 187,
+          "review_reference_quote": "187 쪽"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "자극에서 반응이 일어나기까지의 과정을 설명할 수 있다.",
+          "review_reference_page": 192,
+          "review_reference_quote": "192 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과20-03",
+      "raw_text": "우리 몸의 기능 조절에 호르몬이 관여함을 알고, 관련 자료를 조사하여 발표할 수 있다.",
+      "chapter": "자극과 반응",
+      "derived_body_ranges": [
+        [
+          196,
+          201
+        ]
+      ],
+      "textbook_review_page": 209,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "신경계와 호르몬에 의해 항상성이 유지되는 작용을 설명할 수 있다.",
+          "review_reference_page": 196,
+          "review_reference_quote": "196 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과21-01",
+      "raw_text": "개체의 생장에 세포분열이 필요한 이유를 세포의 표면적과 부피의 관계로 추론할 수 있다.",
+      "chapter": "생식과 유전",
+      "derived_body_ranges": [
+        [
+          213,
+          215
+        ]
+      ],
+      "textbook_review_page": 253,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "세포분열이 필요한 까닭을 추론할 수 있다.",
+          "review_reference_page": 213,
+          "review_reference_quote": "213 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과21-02",
+      "raw_text": "염색체와 유전자의 관계를 이해하고, 체세포분열과 생식세포 형성과정의 특징을 염색체 행동을 중심으로 해석할 수 있다.",
+      "chapter": "생식과 유전",
+      "derived_body_ranges": [
+        [
+          216,
+          225
+        ]
+      ],
+      "textbook_review_page": 253,
+      "bridge_note": "교과서 자기점검은 염색체 행동과 두 분열 과정을 적고, 염색체·유전자 관계는 본문 216쪽 이후에 있다.",
+      "evidence": [
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "염색체의 행동으로 체세포분열과 생식세포 형성 과정을 구분하여 해석할 수 있다.",
+          "review_reference_page": 218,
+          "review_reference_quote": "218 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과21-03",
+      "raw_text": "수정란으로부터 개체가 발생하는 과정을 모형으로 표현할 수 있다.",
+      "chapter": "생식과 유전",
+      "derived_body_ranges": [
+        [
+          226,
+          227
+        ]
+      ],
+      "textbook_review_page": 253,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "수정란으로부터 개체가 발생되는 과정을 설명할 수 있다.",
+          "review_reference_page": 226,
+          "review_reference_quote": "226 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과21-04",
+      "raw_text": "멘델 유전 실험의 의의와 원리를 이해하고, 멘델 유전 원리가 적용되는 유전 현상을 조사하여 협력적으로 소통할 수 있다.",
+      "chapter": "생식과 유전",
+      "derived_body_ranges": [
+        [
+          231,
+          241
+        ]
+      ],
+      "textbook_review_page": 253,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "멘델 유전 실험의 의의와 원리를 설명할 수 있다.",
+          "review_reference_page": 231,
+          "review_reference_quote": "231 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과21-05",
+      "raw_text": "사람의 유전 형질과 유전 연구 방법을 알고, 가계도를 분석하여 사람의 유전 현상을 설명할 수 있다.",
+      "chapter": "생식과 유전",
+      "derived_body_ranges": [
+        [
+          242,
+          247
+        ]
+      ],
+      "textbook_review_page": 253,
+      "bridge_note": null,
+      "evidence": [
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "가계도를 분석하여 사람의 유전 현상을 이해할 수 있다.",
+          "review_reference_page": 242,
+          "review_reference_quote": "242 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과22-01",
+      "raw_text": "재해⋅재난 사례와 관련된 자료를 조사하고, 그 발생 원인과 피해에 대해 과학적으로 분석할 수 있다.",
+      "chapter": "재해·재난과 안전",
+      "derived_body_ranges": [
+        [
+          256,
+          261
+        ]
+      ],
+      "textbook_review_page": 271,
+      "bridge_note": "교과서 자기점검의 발생 원인·피해와 사례 분석 목표가 공식 기준 한 코드에 합쳐져 있다.",
+      "evidence": [
+        {
+          "pdf_page": 271,
+          "printed_page": 271,
+          "quote": "재해·재난의 발생 원인과 피해를 설명할 수 있다.",
+          "review_reference_page": 256,
+          "review_reference_quote": "256 쪽"
+        },
+        {
+          "pdf_page": 271,
+          "printed_page": 271,
+          "quote": "재해·재난의 사례를 과학적으로 분석할 수 있다.",
+          "review_reference_page": 260,
+          "review_reference_quote": "260 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과22-02",
+      "raw_text": "과학적 원리를 이용하여 재해⋅재난에 대한 대비 및 대처 방안을 세울 수 있다.",
+      "chapter": "재해·재난과 안전",
+      "derived_body_ranges": [
+        [
+          262,
+          269
+        ]
+      ],
+      "textbook_review_page": 271,
+      "bridge_note": "교과서 자기점검의 대처 방안 설명과 피해 감소 방안 수립 목표가 공식 기준 한 코드에 합쳐져 있다.",
+      "evidence": [
+        {
+          "pdf_page": 271,
+          "printed_page": 271,
+          "quote": "재해·재난의 대비 및 대처 방안을 설명할 수 있다.",
+          "review_reference_page": 264,
+          "review_reference_quote": "264 쪽"
+        },
+        {
+          "pdf_page": 271,
+          "printed_page": 271,
+          "quote": "재해·재난의 피해를 줄이기 위한 방안을 세울 수 있다.",
+          "review_reference_page": 262,
+          "review_reference_quote": "262 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과23-01",
+      "raw_text": "과학과 관련된 직업의 종류와 하는 일을 조사하고, 과학기술의 발달로 생기는 미래 사회의 직업 변화를 예상할 수 있다.",
+      "chapter": "과학과 나의 미래",
+      "derived_body_ranges": [
+        [
+          274,
+          277
+        ],
+        [
+          286,
+          287
+        ]
+      ],
+      "textbook_review_page": 289,
+      "bridge_note": "교과서 자기점검의 직업 조사와 미래 직업 변화 예상 목표가 공식 기준 한 코드에 합쳐져 있다.",
+      "evidence": [
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "과학과 관련된 직업의 종류와 하는 일을 설명할 수 있다.",
+          "review_reference_page": 274,
+          "review_reference_quote": "274 쪽"
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "과학기술의 발달로 생기는 미래 사회의 직업 변화를 예상할 수 있다.",
+          "review_reference_page": 276,
+          "review_reference_quote": "276 쪽"
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K9",
+      "code": "9과23-02",
+      "raw_text": "자신의 진로와 관련 있는 과학 분야를 조사하고, 진로 선택을 위하여 필요한 과학 학습을 계획할 수 있다.",
+      "chapter": "과학과 나의 미래",
+      "derived_body_ranges": [
+        [
+          278,
+          283
+        ]
+      ],
+      "textbook_review_page": 289,
+      "bridge_note": "교과서 자기점검의 진로 관련 분야 조사와 학습 계획 목표가 공식 기준 한 코드에 합쳐져 있다.",
+      "evidence": [
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "나의 진로와 관련 있는 과학 분야를 조사할 수 있다.",
+          "review_reference_page": 278,
+          "review_reference_quote": "278 쪽"
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "나의 진로 선택을 위하여 필요한 과학 학습을 계획할 수 있다.",
+          "review_reference_page": 282,
+          "review_reference_quote": "282 쪽"
+        }
+      ]
+    }
+  ],
+  "activity_mappings": [
+    {
+      "activity_id": "ybm_k9_0001",
+      "book_id": "YBM_K9",
+      "title": "화학 변화에서 생성되는 물질 관찰하기",
+      "standard_codes": [
+        "9과16-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 15,
+          "printed_page": 15,
+          "quote": "화학 변화에서 생성되는 물질 관찰하기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "물리 변화와 화학 변화의 의미를 알고, 화학 변화에서 새로운 물질이 생성됨을 이해할 수 있다.",
+          "review_reference_page": 13,
+          "review_reference_quote": "13 쪽",
+          "derived_body_ranges": [
+            [
+              13,
+              15
+            ],
+            [
+              20,
+              21
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 목표는 '이해', 공식 기준은 '관찰'이라고 표현하며 해당 활동은 생성 물질 관찰을 실제로 요구한다."
+    },
+    {
+      "activity_id": "ybm_k9_0002",
+      "book_id": "YBM_K9",
+      "title": "화학 반응을 화학 반응식으로 표현하기",
+      "standard_codes": [
+        "9과16-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 18,
+          "printed_page": 18,
+          "quote": "화학 반응을 화학 반응식으로 표현하기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "간단한 화학 반응을 화학 반응식으로 표현하고, 화학 반응식에서 계수의 비를 입자 수의 비로 해석할 수 있다.",
+          "review_reference_page": 16,
+          "review_reference_quote": "16 쪽",
+          "derived_body_ranges": [
+            [
+              16,
+              19
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0003",
+      "book_id": "YBM_K9",
+      "title": "설탕의 다양한 변신, 달고나",
+      "standard_codes": [
+        "9과16-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 20,
+          "printed_page": 20,
+          "quote": "설탕의 다양한 변신, 달고나"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "물리 변화와 화학 변화의 의미를 알고, 화학 변화에서 새로운 물질이 생성됨을 이해할 수 있다.",
+          "review_reference_page": 13,
+          "review_reference_quote": "13 쪽",
+          "derived_body_ranges": [
+            [
+              13,
+              15
+            ],
+            [
+              20,
+              21
+            ]
+          ]
+        }
+      ],
+      "reason": "20쪽 활동 본문에서 달고나 제작 과정의 물리 변화와 화학 변화를 찾도록 명시한다. 교과서 목표는 '이해', 공식 기준은 '관찰'이라고 표현하며 해당 활동은 생성 물질 관찰을 실제로 요구한다."
+    },
+    {
+      "activity_id": "ybm_k9_0004",
+      "book_id": "YBM_K9",
+      "title": "모형으로 질량 보존 법칙이 성립하는 까닭 알아보기",
+      "standard_codes": [
+        "9과16-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 23,
+          "printed_page": 23,
+          "quote": "모형으로 질량 보존 법칙이 성립하는 까닭 알아보기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화학 반응에서 질량이 보존됨을 실험을 통해 추론할 수 있다.",
+          "review_reference_page": 23,
+          "review_reference_quote": "23 쪽",
+          "derived_body_ranges": [
+            [
+              23,
+              26
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0005",
+      "book_id": "YBM_K9",
+      "title": "기체 발생 반응에서의 질량 변화 관찰하기",
+      "standard_codes": [
+        "9과16-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 24,
+          "printed_page": 24,
+          "quote": "기체 발생 반응에서의 질량 변화 관찰하기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화학 반응에서 질량이 보존됨을 실험을 통해 추론할 수 있다.",
+          "review_reference_page": 23,
+          "review_reference_quote": "23 쪽",
+          "derived_body_ranges": [
+            [
+              23,
+              26
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0006",
+      "book_id": "YBM_K9",
+      "title": "고체 생성 반응에서의 질량 변화 관찰하기",
+      "standard_codes": [
+        "9과16-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 25,
+          "printed_page": 25,
+          "quote": "고체 생성 반응에서의 질량 변화 관찰하기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화학 반응에서 질량이 보존됨을 실험을 통해 추론할 수 있다.",
+          "review_reference_page": 23,
+          "review_reference_quote": "23 쪽",
+          "derived_body_ranges": [
+            [
+              23,
+              26
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0007",
+      "book_id": "YBM_K9",
+      "title": "화합물을 구성하는 성분 원소 사이의 질량 관계 알아보기",
+      "standard_codes": [
+        "9과16-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 27,
+          "printed_page": 27,
+          "quote": "화합물을 구성하는 성분 원소 사이의 질량 관계 알아보기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화합물을 구성하는 성분 원소의 질량비가 일정함을 실험 자료를 해석하여 설명할 수 있다.",
+          "review_reference_page": 27,
+          "review_reference_quote": "27 쪽",
+          "derived_body_ranges": [
+            [
+              27,
+              30
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0008",
+      "book_id": "YBM_K9",
+      "title": "일정 성분비 법칙을 모형으로 설명하기",
+      "standard_codes": [
+        "9과16-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 28,
+          "printed_page": 28,
+          "quote": "일정 성분비 법칙을 모형으로 설명하기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화합물을 구성하는 성분 원소의 질량비가 일정함을 실험 자료를 해석하여 설명할 수 있다.",
+          "review_reference_page": 27,
+          "review_reference_quote": "27 쪽",
+          "derived_body_ranges": [
+            [
+              27,
+              30
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0009",
+      "book_id": "YBM_K9",
+      "title": "기체 반응에서의 부피 관계 알아보기",
+      "standard_codes": [
+        "9과16-05"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 32,
+          "printed_page": 32,
+          "quote": "기체 반응에서의 부피 관계 알아보기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "기체 반응에서 기체 부피 사이의 비가 일정함을 실험 자료를 해석하여 설명할 수 있다.",
+          "review_reference_page": 31,
+          "review_reference_quote": "31 쪽",
+          "derived_body_ranges": [
+            [
+              31,
+              35
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0010",
+      "book_id": "YBM_K9",
+      "title": "화학 반응에서 열에너지의 출입 확인하기",
+      "standard_codes": [
+        "9과16-06"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 37,
+          "printed_page": 37,
+          "quote": "화학 반응에서 열에너지의 출입 확인하기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화학 반응에서 열에너지가 출입함을 알고, 생활 속 사례를 조사할 수 있다.",
+          "review_reference_page": 37,
+          "review_reference_quote": "37 쪽",
+          "derived_body_ranges": [
+            [
+              37,
+              43
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검은 사례 '조사'까지 적고 공식 기준에는 '발표'가 추가된다. 코드 연결은 같은 열출입 개념·사례 범위에 한정한다."
+    },
+    {
+      "activity_id": "ybm_k9_0011",
+      "book_id": "YBM_K9",
+      "title": "화학 반응을 이용한 간단한 흡열 반응 실험하기",
+      "standard_codes": [
+        "9과16-06"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 39,
+          "printed_page": 39,
+          "quote": "화학 반응을 이용한 간단한 흡열 반응 실험하기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화학 반응에서 열에너지가 출입함을 알고, 생활 속 사례를 조사할 수 있다.",
+          "review_reference_page": 37,
+          "review_reference_quote": "37 쪽",
+          "derived_body_ranges": [
+            [
+              37,
+              43
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검은 사례 '조사'까지 적고 공식 기준에는 '발표'가 추가된다. 코드 연결은 같은 열출입 개념·사례 범위에 한정한다."
+    },
+    {
+      "activity_id": "ybm_k9_0012",
+      "book_id": "YBM_K9",
+      "title": "생활 속 발열 반응과 흡열 반응의 사례 생각 그물 만들기",
+      "standard_codes": [
+        "9과16-06"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 40,
+          "printed_page": 40,
+          "quote": "생활 속 발열 반응과 흡열 반응의 사례 생각 그물 만들기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화학 반응에서 열에너지가 출입함을 알고, 생활 속 사례를 조사할 수 있다.",
+          "review_reference_page": 37,
+          "review_reference_quote": "37 쪽",
+          "derived_body_ranges": [
+            [
+              37,
+              43
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검은 사례 '조사'까지 적고 공식 기준에는 '발표'가 추가된다. 코드 연결은 같은 열출입 개념·사례 범위에 한정한다."
+    },
+    {
+      "activity_id": "ybm_k9_0013",
+      "book_id": "YBM_K9",
+      "title": "발열 반응이나 흡열 반응을 이용한 제품 구상하기",
+      "standard_codes": [
+        "9과16-06"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 42,
+          "printed_page": 42,
+          "quote": "발열 반응이나 흡열 반응을 이용한 제품 구상하기"
+        },
+        {
+          "pdf_page": 49,
+          "printed_page": 49,
+          "quote": "화학 반응에서 열에너지가 출입함을 알고, 생활 속 사례를 조사할 수 있다.",
+          "review_reference_page": 37,
+          "review_reference_quote": "37 쪽",
+          "derived_body_ranges": [
+            [
+              37,
+              43
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검은 사례 '조사'까지 적고 공식 기준에는 '발표'가 추가된다. 코드 연결은 같은 열출입 개념·사례 범위에 한정한다."
+    },
+    {
+      "activity_id": "ybm_k9_0014",
+      "book_id": "YBM_K9",
+      "title": "알아 두면 슬기롭고 신나는 플라스틱 사용 습관!",
+      "standard_codes": null,
+      "candidate_codes": [],
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pdf_page": 44,
+          "printed_page": 44,
+          "quote": "알아 두면 슬기롭고 신나는 플라스틱 사용 습관!"
+        }
+      ],
+      "reason": "플라스틱 사용 습관 활동은 이 단원의 화학 반응 열출입 등 공식 기준과의 범위 연결이 명시되지 않는다."
+    },
+    {
+      "activity_id": "ybm_k9_0015",
+      "book_id": "YBM_K9",
+      "title": "대기권의 높이에 따른 기온 분포 그리기",
+      "standard_codes": [
+        "9과17-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 53,
+          "printed_page": 53,
+          "quote": "대기권의 높이에 따른 기온 분포 그리기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "대기권을 4 개의 권역으로 구분하고, 온실 효과와 지구온난화를 복사 평형의 관점으로 설명할 수 있다.",
+          "review_reference_page": 53,
+          "review_reference_quote": "53 쪽",
+          "derived_body_ranges": [
+            [
+              53,
+              58
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0016",
+      "book_id": "YBM_K9",
+      "title": "물체의 복사 평형을 모형으로 이해하기",
+      "standard_codes": [
+        "9과17-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 55,
+          "printed_page": 55,
+          "quote": "물체의 복사 평형을 모형으로 이해하기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "대기권을 4 개의 권역으로 구분하고, 온실 효과와 지구온난화를 복사 평형의 관점으로 설명할 수 있다.",
+          "review_reference_page": 53,
+          "review_reference_quote": "53 쪽",
+          "derived_body_ranges": [
+            [
+              53,
+              58
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0017",
+      "book_id": "YBM_K9",
+      "title": "기후변화 관련 자료 검색 및 분석하기",
+      "standard_codes": [
+        "9과17-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 58,
+          "printed_page": 58,
+          "quote": "기후변화 관련 자료 검색 및 분석하기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "대기권을 4 개의 권역으로 구분하고, 온실 효과와 지구온난화를 복사 평형의 관점으로 설명할 수 있다.",
+          "review_reference_page": 53,
+          "review_reference_quote": "53 쪽",
+          "derived_body_ranges": [
+            [
+              53,
+              58
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0018",
+      "book_id": "YBM_K9",
+      "title": "위도별 태양 복사 에너지양 예상하기",
+      "standard_codes": [
+        "9과17-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 59,
+          "printed_page": 59,
+          "quote": "위도별 태양 복사 에너지양 예상하기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "대기 대순환에서 위도별 바람의 특성을 파악하고, 대기 대순환의 역할을 설명할 수 있다.",
+          "review_reference_page": 61,
+          "review_reference_quote": "61 쪽",
+          "derived_body_ranges": [
+            [
+              59,
+              63
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0019",
+      "book_id": "YBM_K9",
+      "title": "대기 대순환에서 위도별 바람의 방향 그리기",
+      "standard_codes": [
+        "9과17-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 60,
+          "printed_page": 60,
+          "quote": "대기 대순환에서 위도별 바람의 방향 그리기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "대기 대순환에서 위도별 바람의 특성을 파악하고, 대기 대순환의 역할을 설명할 수 있다.",
+          "review_reference_page": 61,
+          "review_reference_quote": "61 쪽",
+          "derived_body_ranges": [
+            [
+              59,
+              63
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0020",
+      "book_id": "YBM_K9",
+      "title": "기온, 상대습도, 이슬점의 관계 알아보기",
+      "standard_codes": [
+        "9과17-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 66,
+          "printed_page": 66,
+          "quote": "기온, 상대습도, 이슬점의 관계 알아보기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "대기 중의 수증기량과 이슬점, 포화 수증기압, 상대습도의 관계를 파악하고, 구름의 생성과 강수 과정을 설명할 수 있다.",
+          "review_reference_page": 67,
+          "review_reference_quote": "67 쪽",
+          "derived_body_ranges": [
+            [
+              65,
+              73
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 목표는 습도·구름·강수로 나뉘며 공식 기준은 단열 팽창·응결 관계로 이를 묶는다."
+    },
+    {
+      "activity_id": "ybm_k9_0021",
+      "book_id": "YBM_K9",
+      "title": "디지털 탐구 도구를 이용하여 구름 생성 과정 실험하기",
+      "standard_codes": [
+        "9과17-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 68,
+          "printed_page": 68,
+          "quote": "디지털 탐구 도구를 이용하여 구름 생성 과정 실험하기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "대기 중의 수증기량과 이슬점, 포화 수증기압, 상대습도의 관계를 파악하고, 구름의 생성과 강수 과정을 설명할 수 있다.",
+          "review_reference_page": 67,
+          "review_reference_quote": "67 쪽",
+          "derived_body_ranges": [
+            [
+              65,
+              73
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 목표는 습도·구름·강수로 나뉘며 공식 기준은 단열 팽창·응결 관계로 이를 묶는다."
+    },
+    {
+      "activity_id": "ybm_k9_0022",
+      "book_id": "YBM_K9",
+      "title": "구름 생성과 강수 과정을 그림으로 표현하기",
+      "standard_codes": [
+        "9과17-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 71,
+          "printed_page": 71,
+          "quote": "구름 생성과 강수 과정을 그림으로 표현하기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "대기 중의 수증기량과 이슬점, 포화 수증기압, 상대습도의 관계를 파악하고, 구름의 생성과 강수 과정을 설명할 수 있다.",
+          "review_reference_page": 67,
+          "review_reference_quote": "67 쪽",
+          "derived_body_ranges": [
+            [
+              65,
+              73
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 목표는 습도·구름·강수로 나뉘며 공식 기준은 단열 팽창·응결 관계로 이를 묶는다."
+    },
+    {
+      "activity_id": "ybm_k9_0023",
+      "book_id": "YBM_K9",
+      "title": "구름 사진전",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과17-03"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 72,
+          "printed_page": 72,
+          "quote": "구름 사진전"
+        }
+      ],
+      "reason": "구름의 형태를 관찰·기록하지만 공식 기준의 구름 생성·강수 과정 설명과의 수업 범위 연결은 명시되지 않는다."
+    },
+    {
+      "activity_id": "ybm_k9_0024",
+      "book_id": "YBM_K9",
+      "title": "기압의 작용 알아보기",
+      "standard_codes": [
+        "9과17-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 75,
+          "printed_page": 75,
+          "quote": "기압의 작용 알아보기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "기압의 차이로 바람이 부는 원리, 전선의 형성 과정, 전선 주변의 날씨 변화를 설명할 수 있다.",
+          "review_reference_page": 79,
+          "review_reference_quote": "79 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "일기도에서 저기압과 고기압의 분포에 따른 날씨를 해석할 수 있다.",
+          "review_reference_page": 84,
+          "review_reference_quote": "84 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 기압·바람·전선 목표와 일기도 해석 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0025",
+      "book_id": "YBM_K9",
+      "title": "바람이 부는 원리 알아보기",
+      "standard_codes": [
+        "9과17-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 77,
+          "printed_page": 77,
+          "quote": "바람이 부는 원리 알아보기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "기압의 차이로 바람이 부는 원리, 전선의 형성 과정, 전선 주변의 날씨 변화를 설명할 수 있다.",
+          "review_reference_page": 79,
+          "review_reference_quote": "79 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "일기도에서 저기압과 고기압의 분포에 따른 날씨를 해석할 수 있다.",
+          "review_reference_page": 84,
+          "review_reference_quote": "84 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 기압·바람·전선 목표와 일기도 해석 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0026",
+      "book_id": "YBM_K9",
+      "title": "기단의 위치와 성질 알아보기",
+      "standard_codes": [
+        "9과17-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 79,
+          "printed_page": 79,
+          "quote": "기단의 위치와 성질 알아보기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "기압의 차이로 바람이 부는 원리, 전선의 형성 과정, 전선 주변의 날씨 변화를 설명할 수 있다.",
+          "review_reference_page": 79,
+          "review_reference_quote": "79 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "일기도에서 저기압과 고기압의 분포에 따른 날씨를 해석할 수 있다.",
+          "review_reference_page": 84,
+          "review_reference_quote": "84 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 기압·바람·전선 목표와 일기도 해석 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0027",
+      "book_id": "YBM_K9",
+      "title": "전선의 형성 과정 실험하기",
+      "standard_codes": [
+        "9과17-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 80,
+          "printed_page": 80,
+          "quote": "전선의 형성 과정 실험하기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "기압의 차이로 바람이 부는 원리, 전선의 형성 과정, 전선 주변의 날씨 변화를 설명할 수 있다.",
+          "review_reference_page": 79,
+          "review_reference_quote": "79 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "일기도에서 저기압과 고기압의 분포에 따른 날씨를 해석할 수 있다.",
+          "review_reference_page": 84,
+          "review_reference_quote": "84 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 기압·바람·전선 목표와 일기도 해석 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0028",
+      "book_id": "YBM_K9",
+      "title": "우리나라 사계절의 일기도 해석하기",
+      "standard_codes": [
+        "9과17-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 85,
+          "printed_page": 85,
+          "quote": "우리나라 사계절의 일기도 해석하기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "기압의 차이로 바람이 부는 원리, 전선의 형성 과정, 전선 주변의 날씨 변화를 설명할 수 있다.",
+          "review_reference_page": 79,
+          "review_reference_quote": "79 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "일기도에서 저기압과 고기압의 분포에 따른 날씨를 해석할 수 있다.",
+          "review_reference_page": 84,
+          "review_reference_quote": "84 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 기압·바람·전선 목표와 일기도 해석 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0029",
+      "book_id": "YBM_K9",
+      "title": "일기도, 레이더 및 위성 영상 등 실시간 데이터를 활용하여 날씨 해석하기",
+      "standard_codes": [
+        "9과17-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 86,
+          "printed_page": 86,
+          "quote": "일기도, 레이더 및 위성 영상 등 실시간 데이터를 활용하여 날씨 해석하기"
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "기압의 차이로 바람이 부는 원리, 전선의 형성 과정, 전선 주변의 날씨 변화를 설명할 수 있다.",
+          "review_reference_page": 79,
+          "review_reference_quote": "79 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        },
+        {
+          "pdf_page": 95,
+          "printed_page": 95,
+          "quote": "일기도에서 저기압과 고기압의 분포에 따른 날씨를 해석할 수 있다.",
+          "review_reference_page": 84,
+          "review_reference_quote": "84 쪽",
+          "derived_body_ranges": [
+            [
+              75,
+              89
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 기압·바람·전선 목표와 일기도 해석 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0030",
+      "book_id": "YBM_K9",
+      "title": "나만의 날씨 앱 디자인하기",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과17-04"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 88,
+          "printed_page": 88,
+          "quote": "나만의 날씨 앱 디자인하기"
+        }
+      ],
+      "reason": "날씨 앱 화면 설계 활동이나 일기도를 실제 해석하도록 요구하지 않는다."
+    },
+    {
+      "activity_id": "ybm_k9_0031",
+      "book_id": "YBM_K9",
+      "title": "기후변화 맞춤형 온라인 바자회",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과17-01"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 90,
+          "printed_page": 90,
+          "quote": "기후변화 맞춤형 온라인 바자회"
+        }
+      ],
+      "reason": "의류 소비와 기후변화의 관계를 다루지만 복사 평형에 따른 온실효과 설명의 범위는 명시되지 않는다."
+    },
+    {
+      "activity_id": "ybm_k9_0032",
+      "book_id": "YBM_K9",
+      "title": "수권의 분포 조사하기",
+      "standard_codes": [
+        "9과18-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 99,
+          "printed_page": 99,
+          "quote": "수권의 분포 조사하기"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "수권에서 해수, 담수, 빙하의 분포와 활용 사례를 조사하고, 자원으로서 물의 가치에 대해 토론할 수 있다.",
+          "review_reference_page": 99,
+          "review_reference_quote": "99 쪽",
+          "derived_body_ranges": [
+            [
+              99,
+              103
+            ],
+            [
+              122,
+              123
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0033",
+      "book_id": "YBM_K9",
+      "title": "수자원의 활용 사례 조사하기",
+      "standard_codes": [
+        "9과18-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 101,
+          "printed_page": 101,
+          "quote": "수자원의 활용 사례 조사하기"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "수권에서 해수, 담수, 빙하의 분포와 활용 사례를 조사하고, 자원으로서 물의 가치에 대해 토론할 수 있다.",
+          "review_reference_page": 99,
+          "review_reference_quote": "99 쪽",
+          "derived_body_ranges": [
+            [
+              99,
+              103
+            ],
+            [
+              122,
+              123
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0034",
+      "book_id": "YBM_K9",
+      "title": "자원으로서 물의 가치 토론하기",
+      "standard_codes": [
+        "9과18-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": 102,
+          "quote": "자원으로서 물의 가치 토론하기"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "수권에서 해수, 담수, 빙하의 분포와 활용 사례를 조사하고, 자원으로서 물의 가치에 대해 토론할 수 있다.",
+          "review_reference_page": 99,
+          "review_reference_quote": "99 쪽",
+          "derived_body_ranges": [
+            [
+              99,
+              103
+            ],
+            [
+              122,
+              123
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0035",
+      "book_id": "YBM_K9",
+      "title": "디지털 탐구 도구를 이용하여 해수의 연직 수온 분포 실험하기",
+      "standard_codes": [
+        "9과18-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 104,
+          "printed_page": 104,
+          "quote": "디지털 탐구 도구를 이용하여 해수의 연직 수온 분포 실험하기"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "해수의 수온과 염분의 분포 및 변화를 해석하여 해수의 특성을 설명할 수 있다.",
+          "review_reference_page": 104,
+          "review_reference_quote": "104 쪽",
+          "derived_body_ranges": [
+            [
+              104,
+              113
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0036",
+      "book_id": "YBM_K9",
+      "title": "전 세계 해수의 표층 염분 분포 해석하기",
+      "standard_codes": [
+        "9과18-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 109,
+          "printed_page": 109,
+          "quote": "전 세계 해수의 표층 염분 분포 해석하기"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "해수의 수온과 염분의 분포 및 변화를 해석하여 해수의 특성을 설명할 수 있다.",
+          "review_reference_page": 104,
+          "review_reference_quote": "104 쪽",
+          "derived_body_ranges": [
+            [
+              104,
+              113
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0037",
+      "book_id": "YBM_K9",
+      "title": "우리나라 주변 해역의 수온 분석하기",
+      "standard_codes": [
+        "9과18-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 110,
+          "printed_page": 110,
+          "quote": "우리나라 주변 해역의 수온 분석하기"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "해수의 수온과 염분의 분포 및 변화를 해석하여 해수의 특성을 설명할 수 있다.",
+          "review_reference_page": 104,
+          "review_reference_quote": "104 쪽",
+          "derived_body_ranges": [
+            [
+              104,
+              113
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0038",
+      "book_id": "YBM_K9",
+      "title": "우리나라 주변 해역의 염분 분석하기",
+      "standard_codes": [
+        "9과18-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 111,
+          "printed_page": 111,
+          "quote": "우리나라 주변 해역의 염분 분석하기"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "해수의 수온과 염분의 분포 및 변화를 해석하여 해수의 특성을 설명할 수 있다.",
+          "review_reference_page": 104,
+          "review_reference_quote": "104 쪽",
+          "derived_body_ranges": [
+            [
+              104,
+              113
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0039",
+      "book_id": "YBM_K9",
+      "title": "북태평양 표층 순환 그리기",
+      "standard_codes": [
+        "9과18-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 116,
+          "printed_page": 116,
+          "quote": "북태평양 표층 순환 그리기"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "대기 대순환과 해양 표층 순환과의 관계를 이해할 수 있다.",
+          "review_reference_page": 115,
+          "review_reference_quote": "115 쪽",
+          "derived_body_ranges": [
+            [
+              115,
+              121
+            ]
+          ]
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "기후변화에 영향을 미치는 해류의 역할을 설명할 수 있다.",
+          "review_reference_page": 118,
+          "review_reference_quote": "118 쪽",
+          "derived_body_ranges": [
+            [
+              115,
+              121
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 대기·해양 순환과 해류의 기후 역할 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0040",
+      "book_id": "YBM_K9",
+      "title": "기후변화에 영향을 미치는 해류의 역할 알아보기",
+      "standard_codes": [
+        "9과18-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 118,
+          "printed_page": 118,
+          "quote": "기후변화에 영향을 미치는 해류의 역할 알아보기"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "대기 대순환과 해양 표층 순환과의 관계를 이해할 수 있다.",
+          "review_reference_page": 115,
+          "review_reference_quote": "115 쪽",
+          "derived_body_ranges": [
+            [
+              115,
+              121
+            ]
+          ]
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "기후변화에 영향을 미치는 해류의 역할을 설명할 수 있다.",
+          "review_reference_page": 118,
+          "review_reference_quote": "118 쪽",
+          "derived_body_ranges": [
+            [
+              115,
+              121
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 대기·해양 순환과 해류의 기후 역할 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0041",
+      "book_id": "YBM_K9",
+      "title": "우리나라의 미래 어장을 소개하는 기사 쓰기",
+      "standard_codes": [
+        "9과18-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 120,
+          "printed_page": 120,
+          "quote": "우리나라의 미래 어장을 소개하는 기사 쓰기"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "대기 대순환과 해양 표층 순환과의 관계를 이해할 수 있다.",
+          "review_reference_page": 115,
+          "review_reference_quote": "115 쪽",
+          "derived_body_ranges": [
+            [
+              115,
+              121
+            ]
+          ]
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "기후변화에 영향을 미치는 해류의 역할을 설명할 수 있다.",
+          "review_reference_page": 118,
+          "review_reference_quote": "118 쪽",
+          "derived_body_ranges": [
+            [
+              115,
+              121
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 대기·해양 순환과 해류의 기후 역할 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0042",
+      "book_id": "YBM_K9",
+      "title": "물 발자국 줄이기",
+      "standard_codes": [
+        "9과18-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 122,
+          "printed_page": 122,
+          "quote": "물 발자국 줄이기"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 127,
+          "quote": "수권에서 해수, 담수, 빙하의 분포와 활용 사례를 조사하고, 자원으로서 물의 가치에 대해 토론할 수 있다.",
+          "review_reference_page": 99,
+          "review_reference_quote": "99 쪽",
+          "derived_body_ranges": [
+            [
+              99,
+              103
+            ],
+            [
+              122,
+              123
+            ]
+          ]
+        }
+      ],
+      "reason": "122쪽은 물 발자국을 조사하며 자원으로서 물의 가치를 다루는 확장 활동이다."
+    },
+    {
+      "activity_id": "ybm_k9_0043",
+      "book_id": "YBM_K9",
+      "title": "블록 코딩을 활용하여 등속 운동의 특징 알아보기",
+      "standard_codes": [
+        "9과19-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 132,
+          "printed_page": 132,
+          "quote": "블록 코딩을 활용하여 등속 운동의 특징 알아보기"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "직선상에서 움직이는 물체의 운동을 그래프로 나타내고 해석할 수 있다.",
+          "review_reference_page": 131,
+          "review_reference_quote": "131 쪽",
+          "derived_body_ranges": [
+            [
+              131,
+              135
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0044",
+      "book_id": "YBM_K9",
+      "title": "장난감 자동차의 운동 분석하기",
+      "standard_codes": [
+        "9과19-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 134,
+          "printed_page": 134,
+          "quote": "장난감 자동차의 운동 분석하기"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "직선상에서 움직이는 물체의 운동을 그래프로 나타내고 해석할 수 있다.",
+          "review_reference_page": 131,
+          "review_reference_quote": "131 쪽",
+          "derived_body_ranges": [
+            [
+              131,
+              135
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0045",
+      "book_id": "YBM_K9",
+      "title": "여러 가지 물체의 자유 낙하 운동 분석하기",
+      "standard_codes": [
+        "9과19-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 136,
+          "printed_page": 136,
+          "quote": "여러 가지 물체의 자유 낙하 운동 분석하기"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "자유 낙하 하는 물체의 운동에서 시간에 따른 속력의 변화가 일정함을 분석할 수 있다.",
+          "review_reference_page": 136,
+          "review_reference_quote": "136 쪽",
+          "derived_body_ranges": [
+            [
+              136,
+              141
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0046",
+      "book_id": "YBM_K9",
+      "title": "자유 낙하 운동 이해하기",
+      "standard_codes": [
+        "9과19-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 138,
+          "printed_page": 138,
+          "quote": "자유 낙하 운동 이해하기"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "자유 낙하 하는 물체의 운동에서 시간에 따른 속력의 변화가 일정함을 분석할 수 있다.",
+          "review_reference_page": 136,
+          "review_reference_quote": "136 쪽",
+          "derived_body_ranges": [
+            [
+              136,
+              141
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0047",
+      "book_id": "YBM_K9",
+      "title": "일과 에너지의 관계 알아보기",
+      "standard_codes": [
+        "9과19-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 145,
+          "printed_page": 145,
+          "quote": "일과 에너지의 관계 알아보기"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "과학에서의 일의 정의를 알 수 있다.",
+          "review_reference_page": 143,
+          "review_reference_quote": "143 쪽",
+          "derived_body_ranges": [
+            [
+              143,
+              151
+            ]
+          ]
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "자유 낙하를 하는 물체의 운동에서 중력이 한 일과 중력에 대해 한 일을 위치 에너지와 운동 에너지로 표현할 수 있다.",
+          "review_reference_page": 145,
+          "review_reference_quote": "145 쪽",
+          "derived_body_ranges": [
+            [
+              143,
+              151
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 일의 정의 및 낙하 운동의 일·에너지 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0048",
+      "book_id": "YBM_K9",
+      "title": "중력에 대해서 한 일과 위치 에너지 비교하기",
+      "standard_codes": [
+        "9과19-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 146,
+          "printed_page": 146,
+          "quote": "중력에 대해서 한 일과 위치 에너지 비교하기"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "과학에서의 일의 정의를 알 수 있다.",
+          "review_reference_page": 143,
+          "review_reference_quote": "143 쪽",
+          "derived_body_ranges": [
+            [
+              143,
+              151
+            ]
+          ]
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "자유 낙하를 하는 물체의 운동에서 중력이 한 일과 중력에 대해 한 일을 위치 에너지와 운동 에너지로 표현할 수 있다.",
+          "review_reference_page": 145,
+          "review_reference_quote": "145 쪽",
+          "derived_body_ranges": [
+            [
+              143,
+              151
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 일의 정의 및 낙하 운동의 일·에너지 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0049",
+      "book_id": "YBM_K9",
+      "title": "중력에 의한 일과 에너지 관계",
+      "standard_codes": [
+        "9과19-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": 148,
+          "quote": "중력에 의한 일과 에너지 관계"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "과학에서의 일의 정의를 알 수 있다.",
+          "review_reference_page": 143,
+          "review_reference_quote": "143 쪽",
+          "derived_body_ranges": [
+            [
+              143,
+              151
+            ]
+          ]
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "자유 낙하를 하는 물체의 운동에서 중력이 한 일과 중력에 대해 한 일을 위치 에너지와 운동 에너지로 표현할 수 있다.",
+          "review_reference_page": 145,
+          "review_reference_quote": "145 쪽",
+          "derived_body_ranges": [
+            [
+              143,
+              151
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 일의 정의 및 낙하 운동의 일·에너지 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0050",
+      "book_id": "YBM_K9",
+      "title": "위치 에너지와 운동 에너지의 변화 알아보기",
+      "standard_codes": [
+        "9과19-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 153,
+          "printed_page": 153,
+          "quote": "위치 에너지와 운동 에너지의 변화 알아보기"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "물체의 운동에서 역학적 에너지의 전환과 보존을 이해할 수 있다.",
+          "review_reference_page": 153,
+          "review_reference_quote": "153 쪽",
+          "derived_body_ranges": [
+            [
+              153,
+              163
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0051",
+      "book_id": "YBM_K9",
+      "title": "중력에 의해 떨어지는 물체의 역학적 에너지 보존 실험하기",
+      "standard_codes": [
+        "9과19-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 156,
+          "printed_page": 156,
+          "quote": "중력에 의해 떨어지는 물체의 역학적 에너지 보존 실험하기"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "물체의 운동에서 역학적 에너지의 전환과 보존을 이해할 수 있다.",
+          "review_reference_page": 153,
+          "review_reference_quote": "153 쪽",
+          "derived_body_ranges": [
+            [
+              153,
+              163
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0052",
+      "book_id": "YBM_K9",
+      "title": "역학적 에너지 전환과 보존을 이용한 놀이기구 홍보물 만들기",
+      "standard_codes": [
+        "9과19-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 160,
+          "printed_page": 160,
+          "quote": "역학적 에너지 전환과 보존을 이용한 놀이기구 홍보물 만들기"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "물체의 운동에서 역학적 에너지의 전환과 보존을 이해할 수 있다.",
+          "review_reference_page": 153,
+          "review_reference_quote": "153 쪽",
+          "derived_body_ranges": [
+            [
+              153,
+              163
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0053",
+      "book_id": "YBM_K9",
+      "title": "나만의 롤러코스터 만들기",
+      "standard_codes": [
+        "9과19-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 162,
+          "printed_page": 162,
+          "quote": "나만의 롤러코스터 만들기"
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 169,
+          "quote": "물체의 운동에서 역학적 에너지의 전환과 보존을 이해할 수 있다.",
+          "review_reference_page": 153,
+          "review_reference_quote": "153 쪽",
+          "derived_body_ranges": [
+            [
+              153,
+              163
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0054",
+      "book_id": "YBM_K9",
+      "title": "일과 에너지의 전환을 활용한 생태 환경 로봇 설계하기",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과19-03",
+        "9과19-04"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 164,
+          "printed_page": 164,
+          "quote": "일과 에너지의 전환을 활용한 생태 환경 로봇 설계하기"
+        }
+      ],
+      "reason": "환경 로봇의 전기·운동·위치 에너지 전환을 다루지만 공식 기준의 자유 낙하와 역학적 에너지 보존 범위는 명시되지 않는다."
+    },
+    {
+      "activity_id": "ybm_k9_0055",
+      "book_id": "YBM_K9",
+      "title": "맹점 확인 실험하기",
+      "standard_codes": [
+        "9과20-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 174,
+          "printed_page": 174,
+          "quote": "맹점 확인 실험하기"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "감긱기관의 구조와 기능을 이해할 수 있다.",
+          "review_reference_page": 173,
+          "review_reference_quote": "173 쪽",
+          "derived_body_ranges": [
+            [
+              173,
+              185
+            ]
+          ]
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "자극이 감각기관에서 뇌로 전달되기까지의 과정을 설명할 수 있다.",
+          "review_reference_page": 182,
+          "review_reference_quote": "182 쪽",
+          "derived_body_ranges": [
+            [
+              173,
+              185
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 감각기관 구조·기능 및 뇌까지 자극 전달 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0056",
+      "book_id": "YBM_K9",
+      "title": "빛의 밝기에 따른 눈에서의 변화 관찰하기",
+      "standard_codes": [
+        "9과20-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 175,
+          "printed_page": 175,
+          "quote": "빛의 밝기에 따른 눈에서의 변화 관찰하기"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "감긱기관의 구조와 기능을 이해할 수 있다.",
+          "review_reference_page": 173,
+          "review_reference_quote": "173 쪽",
+          "derived_body_ranges": [
+            [
+              173,
+              185
+            ]
+          ]
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "자극이 감각기관에서 뇌로 전달되기까지의 과정을 설명할 수 있다.",
+          "review_reference_page": 182,
+          "review_reference_quote": "182 쪽",
+          "derived_body_ranges": [
+            [
+              173,
+              185
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 감각기관 구조·기능 및 뇌까지 자극 전달 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0057",
+      "book_id": "YBM_K9",
+      "title": "다양한 감각으로 물건 찾기",
+      "standard_codes": [
+        "9과20-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 177,
+          "printed_page": 177,
+          "quote": "다양한 감각으로 물건 찾기"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "감긱기관의 구조와 기능을 이해할 수 있다.",
+          "review_reference_page": 173,
+          "review_reference_quote": "173 쪽",
+          "derived_body_ranges": [
+            [
+              173,
+              185
+            ]
+          ]
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "자극이 감각기관에서 뇌로 전달되기까지의 과정을 설명할 수 있다.",
+          "review_reference_page": 182,
+          "review_reference_quote": "182 쪽",
+          "derived_body_ranges": [
+            [
+              173,
+              185
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 감각기관 구조·기능 및 뇌까지 자극 전달 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0058",
+      "book_id": "YBM_K9",
+      "title": "맛을 느끼는 과정 추론하기",
+      "standard_codes": [
+        "9과20-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 180,
+          "printed_page": 180,
+          "quote": "맛을 느끼는 과정 추론하기"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "감긱기관의 구조와 기능을 이해할 수 있다.",
+          "review_reference_page": 173,
+          "review_reference_quote": "173 쪽",
+          "derived_body_ranges": [
+            [
+              173,
+              185
+            ]
+          ]
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "자극이 감각기관에서 뇌로 전달되기까지의 과정을 설명할 수 있다.",
+          "review_reference_page": 182,
+          "review_reference_quote": "182 쪽",
+          "derived_body_ranges": [
+            [
+              173,
+              185
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 감각기관 구조·기능 및 뇌까지 자극 전달 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0059",
+      "book_id": "YBM_K9",
+      "title": "자극이 뇌로 전달되는 과정 표현하기",
+      "standard_codes": [
+        "9과20-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 182,
+          "printed_page": 182,
+          "quote": "자극이 뇌로 전달되는 과정 표현하기"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "감긱기관의 구조와 기능을 이해할 수 있다.",
+          "review_reference_page": 173,
+          "review_reference_quote": "173 쪽",
+          "derived_body_ranges": [
+            [
+              173,
+              185
+            ]
+          ]
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "자극이 감각기관에서 뇌로 전달되기까지의 과정을 설명할 수 있다.",
+          "review_reference_page": 182,
+          "review_reference_quote": "182 쪽",
+          "derived_body_ranges": [
+            [
+              173,
+              185
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 감각기관 구조·기능 및 뇌까지 자극 전달 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0060",
+      "book_id": "YBM_K9",
+      "title": "중추신경계의 구조와 기능 이해하기",
+      "standard_codes": [
+        "9과20-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 188,
+          "printed_page": 188,
+          "quote": "중추신경계의 구조와 기능 이해하기"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "신경계와 뉴런의 구조와 기능을 이해할 수 있다.",
+          "review_reference_page": 187,
+          "review_reference_quote": "187 쪽",
+          "derived_body_ranges": [
+            [
+              187,
+              195
+            ]
+          ]
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "자극에서 반응이 일어나기까지의 과정을 설명할 수 있다.",
+          "review_reference_page": 192,
+          "review_reference_quote": "192 쪽",
+          "derived_body_ranges": [
+            [
+              187,
+              195
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 뉴런·신경계 및 자극에서 반응까지의 경로 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0061",
+      "book_id": "YBM_K9",
+      "title": "뉴런의 역할 표현하기",
+      "standard_codes": [
+        "9과20-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 190,
+          "printed_page": 190,
+          "quote": "뉴런의 역할 표현하기"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "신경계와 뉴런의 구조와 기능을 이해할 수 있다.",
+          "review_reference_page": 187,
+          "review_reference_quote": "187 쪽",
+          "derived_body_ranges": [
+            [
+              187,
+              195
+            ]
+          ]
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "자극에서 반응이 일어나기까지의 과정을 설명할 수 있다.",
+          "review_reference_page": 192,
+          "review_reference_quote": "192 쪽",
+          "derived_body_ranges": [
+            [
+              187,
+              195
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 뉴런·신경계 및 자극에서 반응까지의 경로 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0062",
+      "book_id": "YBM_K9",
+      "title": "무조건반사와 의식적 반응 실험하기",
+      "standard_codes": [
+        "9과20-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 193,
+          "printed_page": 193,
+          "quote": "무조건반사와 의식적 반응 실험하기"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "신경계와 뉴런의 구조와 기능을 이해할 수 있다.",
+          "review_reference_page": 187,
+          "review_reference_quote": "187 쪽",
+          "derived_body_ranges": [
+            [
+              187,
+              195
+            ]
+          ]
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "자극에서 반응이 일어나기까지의 과정을 설명할 수 있다.",
+          "review_reference_page": 192,
+          "review_reference_quote": "192 쪽",
+          "derived_body_ranges": [
+            [
+              187,
+              195
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 뉴런·신경계 및 자극에서 반응까지의 경로 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0063",
+      "book_id": "YBM_K9",
+      "title": "자극에서 반응이 일어나기까지의 과정을 모형으로 설명하기",
+      "standard_codes": [
+        "9과20-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 195,
+          "printed_page": 195,
+          "quote": "자극에서 반응이 일어나기까지의 과정을 모형으로 설명하기"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "신경계와 뉴런의 구조와 기능을 이해할 수 있다.",
+          "review_reference_page": 187,
+          "review_reference_quote": "187 쪽",
+          "derived_body_ranges": [
+            [
+              187,
+              195
+            ]
+          ]
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "자극에서 반응이 일어나기까지의 과정을 설명할 수 있다.",
+          "review_reference_page": 192,
+          "review_reference_quote": "192 쪽",
+          "derived_body_ranges": [
+            [
+              187,
+              195
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 뉴런·신경계 및 자극에서 반응까지의 경로 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0064",
+      "book_id": "YBM_K9",
+      "title": "신경계와 호르몬의 작용 비교하기",
+      "standard_codes": [
+        "9과20-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 197,
+          "printed_page": 197,
+          "quote": "신경계와 호르몬의 작용 비교하기"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "신경계와 호르몬에 의해 항상성이 유지되는 작용을 설명할 수 있다.",
+          "review_reference_page": 196,
+          "review_reference_quote": "196 쪽",
+          "derived_body_ranges": [
+            [
+              196,
+              201
+            ]
+          ]
+        }
+      ],
+      "reason": "호르몬 소단원에서 신경계와 호르몬의 조절 작용을 비교한다. 신경계 단원의 뉴런·반응 경로 학습까지 이 활동에 확정하지 않는다."
+    },
+    {
+      "activity_id": "ybm_k9_0065",
+      "book_id": "YBM_K9",
+      "title": "호르몬과 관련된 질병 조사하기",
+      "standard_codes": [
+        "9과20-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 200,
+          "printed_page": 200,
+          "quote": "호르몬과 관련된 질병 조사하기"
+        },
+        {
+          "pdf_page": 209,
+          "printed_page": 209,
+          "quote": "신경계와 호르몬에 의해 항상성이 유지되는 작용을 설명할 수 있다.",
+          "review_reference_page": 196,
+          "review_reference_quote": "196 쪽",
+          "derived_body_ranges": [
+            [
+              196,
+              201
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0066",
+      "book_id": "YBM_K9",
+      "title": "진통제 오남용의 위험성 알리기",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과20-02"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 202,
+          "printed_page": 202,
+          "quote": "진통제 오남용의 위험성 알리기"
+        }
+      ],
+      "reason": "진통제가 신경 신호에 작용한다고 설명하지만 학생 수행은 약물 오남용 조사·캠페인이다."
+    },
+    {
+      "activity_id": "ybm_k9_0067",
+      "book_id": "YBM_K9",
+      "title": "우리 학교를 장벽 없는 환경으로 만들기",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과20-01"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 204,
+          "printed_page": 204,
+          "quote": "우리 학교를 장벽 없는 환경으로 만들기"
+        }
+      ],
+      "reason": "감각의 불편과 무장애 환경을 다루지만 감각기관의 구조·기능 및 전달 과정 탐구와의 범위 연결은 명시되지 않는다."
+    },
+    {
+      "activity_id": "ybm_k9_0068",
+      "book_id": "YBM_K9",
+      "title": "세포분열의 필요성 추론하기",
+      "standard_codes": [
+        "9과21-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": 214,
+          "quote": "세포분열의 필요성 추론하기"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "세포분열이 필요한 까닭을 추론할 수 있다.",
+          "review_reference_page": 213,
+          "review_reference_quote": "213 쪽",
+          "derived_body_ranges": [
+            [
+              213,
+              215
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0069",
+      "book_id": "YBM_K9",
+      "title": "염색체와 유전자의 관계 이해하기",
+      "standard_codes": [
+        "9과21-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 217,
+          "printed_page": 217,
+          "quote": "염색체와 유전자의 관계 이해하기"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "염색체의 행동으로 체세포분열과 생식세포 형성 과정을 구분하여 해석할 수 있다.",
+          "review_reference_page": 218,
+          "review_reference_quote": "218 쪽",
+          "derived_body_ranges": [
+            [
+              216,
+              225
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검은 염색체 행동과 두 분열 과정을 적고, 염색체·유전자 관계는 본문 216쪽 이후에 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0070",
+      "book_id": "YBM_K9",
+      "title": "체세포분열 관찰하기",
+      "standard_codes": [
+        "9과21-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 220,
+          "printed_page": 220,
+          "quote": "체세포분열 관찰하기"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "염색체의 행동으로 체세포분열과 생식세포 형성 과정을 구분하여 해석할 수 있다.",
+          "review_reference_page": 218,
+          "review_reference_quote": "218 쪽",
+          "derived_body_ranges": [
+            [
+              216,
+              225
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검은 염색체 행동과 두 분열 과정을 적고, 염색체·유전자 관계는 본문 216쪽 이후에 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0071",
+      "book_id": "YBM_K9",
+      "title": "생식세포 형성 과정 관찰하기",
+      "standard_codes": [
+        "9과21-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 224,
+          "printed_page": 224,
+          "quote": "생식세포 형성 과정 관찰하기"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "염색체의 행동으로 체세포분열과 생식세포 형성 과정을 구분하여 해석할 수 있다.",
+          "review_reference_page": 218,
+          "review_reference_quote": "218 쪽",
+          "derived_body_ranges": [
+            [
+              216,
+              225
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검은 염색체 행동과 두 분열 과정을 적고, 염색체·유전자 관계는 본문 216쪽 이후에 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0072",
+      "book_id": "YBM_K9",
+      "title": "동물의 발생 과정을 모형으로 표현하기",
+      "standard_codes": [
+        "9과21-03"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 227,
+          "printed_page": 227,
+          "quote": "동물의 발생 과정을 모형으로 표현하기"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "수정란으로부터 개체가 발생되는 과정을 설명할 수 있다.",
+          "review_reference_page": 226,
+          "review_reference_quote": "226 쪽",
+          "derived_body_ranges": [
+            [
+              226,
+              227
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0073",
+      "book_id": "YBM_K9",
+      "title": "오가노이드를 소개하는 카드 뉴스 만들기",
+      "standard_codes": null,
+      "candidate_codes": [],
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pdf_page": 228,
+          "printed_page": 228,
+          "quote": "오가노이드를 소개하는 카드 뉴스 만들기"
+        }
+      ],
+      "reason": "오가노이드 활용 조사·카드뉴스는 발생 과정 모형 표현이나 염색체 행동 기준의 수행으로 연결되지 않는다."
+    },
+    {
+      "activity_id": "ybm_k9_0074",
+      "book_id": "YBM_K9",
+      "title": "유전자의 전달 과정 설명하기",
+      "standard_codes": [
+        "9과21-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 234,
+          "printed_page": 234,
+          "quote": "유전자의 전달 과정 설명하기"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "멘델 유전 실험의 의의와 원리를 설명할 수 있다.",
+          "review_reference_page": 231,
+          "review_reference_quote": "231 쪽",
+          "derived_body_ranges": [
+            [
+              231,
+              241
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0075",
+      "book_id": "YBM_K9",
+      "title": "유전 현상 모의 활동 하기",
+      "standard_codes": [
+        "9과21-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 237,
+          "printed_page": 237,
+          "quote": "유전 현상 모의 활동 하기"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "멘델 유전 실험의 의의와 원리를 설명할 수 있다.",
+          "review_reference_page": 231,
+          "review_reference_quote": "231 쪽",
+          "derived_body_ranges": [
+            [
+              231,
+              241
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0076",
+      "book_id": "YBM_K9",
+      "title": "두 쌍의 대립형질의 유전 알아보기",
+      "standard_codes": [
+        "9과21-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 238,
+          "printed_page": 238,
+          "quote": "두 쌍의 대립형질의 유전 알아보기"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "멘델 유전 실험의 의의와 원리를 설명할 수 있다.",
+          "review_reference_page": 231,
+          "review_reference_quote": "231 쪽",
+          "derived_body_ranges": [
+            [
+              231,
+              241
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0077",
+      "book_id": "YBM_K9",
+      "title": "멘델 유전 원리가 적용되는 유전 현상 조사하기",
+      "standard_codes": [
+        "9과21-04"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 240,
+          "printed_page": 240,
+          "quote": "멘델 유전 원리가 적용되는 유전 현상 조사하기"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "멘델 유전 실험의 의의와 원리를 설명할 수 있다.",
+          "review_reference_page": 231,
+          "review_reference_quote": "231 쪽",
+          "derived_body_ranges": [
+            [
+              231,
+              241
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0078",
+      "book_id": "YBM_K9",
+      "title": "가계도를 그려 유전 현상 설명하기",
+      "standard_codes": [
+        "9과21-05"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 243,
+          "printed_page": 243,
+          "quote": "가계도를 그려 유전 현상 설명하기"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "가계도를 분석하여 사람의 유전 현상을 이해할 수 있다.",
+          "review_reference_page": 242,
+          "review_reference_quote": "242 쪽",
+          "derived_body_ranges": [
+            [
+              242,
+              247
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0079",
+      "book_id": "YBM_K9",
+      "title": "ABO식 혈액형 가계도 분석하기",
+      "standard_codes": [
+        "9과21-05"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 245,
+          "printed_page": 245,
+          "quote": "ABO식 혈액형 가계도 분석하기"
+        },
+        {
+          "pdf_page": 253,
+          "printed_page": 253,
+          "quote": "가계도를 분석하여 사람의 유전 현상을 이해할 수 있다.",
+          "review_reference_page": 242,
+          "review_reference_quote": "242 쪽",
+          "derived_body_ranges": [
+            [
+              242,
+              247
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다."
+    },
+    {
+      "activity_id": "ybm_k9_0080",
+      "book_id": "YBM_K9",
+      "title": "다가오는 생명공학 시대의 윤리 찾기",
+      "standard_codes": null,
+      "candidate_codes": [],
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pdf_page": 248,
+          "printed_page": 248,
+          "quote": "다가오는 생명공학 시대의 윤리 찾기"
+        }
+      ],
+      "reason": "생명공학 윤리 강령은 이 단원의 멘델 유전·가계도 분석 기준과 연결이 명시되지 않는다."
+    },
+    {
+      "activity_id": "ybm_k9_0081",
+      "book_id": "YBM_K9",
+      "title": "빅데이터를 이용하여 재해·재난 사례 분석하기",
+      "standard_codes": [
+        "9과22-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 260,
+          "printed_page": 260,
+          "quote": "빅데이터를 이용하여 재해`재난"
+        },
+        {
+          "pdf_page": 271,
+          "printed_page": 271,
+          "quote": "재해·재난의 발생 원인과 피해를 설명할 수 있다.",
+          "review_reference_page": 256,
+          "review_reference_quote": "256 쪽",
+          "derived_body_ranges": [
+            [
+              256,
+              261
+            ]
+          ]
+        },
+        {
+          "pdf_page": 271,
+          "printed_page": 271,
+          "quote": "재해·재난의 사례를 과학적으로 분석할 수 있다.",
+          "review_reference_page": 260,
+          "review_reference_quote": "260 쪽",
+          "derived_body_ranges": [
+            [
+              256,
+              261
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 발생 원인·피해와 사례 분석 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0082",
+      "book_id": "YBM_K9",
+      "title": "재해·재난의 피해를 줄이기 위한 홍보 자료 제작하기",
+      "standard_codes": [
+        "9과22-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 262,
+          "printed_page": 262,
+          "quote": "재해`재난의 피해를 줄이기 위한 홍보 자료 제작하기"
+        },
+        {
+          "pdf_page": 271,
+          "printed_page": 271,
+          "quote": "재해·재난의 대비 및 대처 방안을 설명할 수 있다.",
+          "review_reference_page": 264,
+          "review_reference_quote": "264 쪽",
+          "derived_body_ranges": [
+            [
+              262,
+              269
+            ]
+          ]
+        },
+        {
+          "pdf_page": 271,
+          "printed_page": 271,
+          "quote": "재해·재난의 피해를 줄이기 위한 방안을 세울 수 있다.",
+          "review_reference_page": 262,
+          "review_reference_quote": "262 쪽",
+          "derived_body_ranges": [
+            [
+              262,
+              269
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 대처 방안 설명과 피해 감소 방안 수립 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0083",
+      "book_id": "YBM_K9",
+      "title": "재난 대피 시 필요한 우리 가족 재난 가방 만들기",
+      "standard_codes": [
+        "9과22-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 268,
+          "printed_page": 268,
+          "quote": "재난 대피 시 필요한 우리 가족 재난 가방 만들기"
+        },
+        {
+          "pdf_page": 271,
+          "printed_page": 271,
+          "quote": "재해·재난의 대비 및 대처 방안을 설명할 수 있다.",
+          "review_reference_page": 264,
+          "review_reference_quote": "264 쪽",
+          "derived_body_ranges": [
+            [
+              262,
+              269
+            ]
+          ]
+        },
+        {
+          "pdf_page": 271,
+          "printed_page": 271,
+          "quote": "재해·재난의 피해를 줄이기 위한 방안을 세울 수 있다.",
+          "review_reference_page": 262,
+          "review_reference_quote": "262 쪽",
+          "derived_body_ranges": [
+            [
+              262,
+              269
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 대처 방안 설명과 피해 감소 방안 수립 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0084",
+      "book_id": "YBM_K9",
+      "title": "다양한 직업 속 과학 탐색하기",
+      "standard_codes": [
+        "9과23-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 274,
+          "printed_page": 274,
+          "quote": "다양한 직업 속 과학 탐색하기"
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "과학과 관련된 직업의 종류와 하는 일을 설명할 수 있다.",
+          "review_reference_page": 274,
+          "review_reference_quote": "274 쪽",
+          "derived_body_ranges": [
+            [
+              274,
+              277
+            ],
+            [
+              286,
+              287
+            ]
+          ]
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "과학기술의 발달로 생기는 미래 사회의 직업 변화를 예상할 수 있다.",
+          "review_reference_page": 276,
+          "review_reference_quote": "276 쪽",
+          "derived_body_ranges": [
+            [
+              274,
+              277
+            ],
+            [
+              286,
+              287
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 직업 조사와 미래 직업 변화 예상 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0085",
+      "book_id": "YBM_K9",
+      "title": "미래 사회에서 과학의 역할과 새로운 과학 직업 토의하기",
+      "standard_codes": [
+        "9과23-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 276,
+          "printed_page": 276,
+          "quote": "미래 사회에서 과학의 역할과 새로운 과학 직업 토의하기"
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "과학과 관련된 직업의 종류와 하는 일을 설명할 수 있다.",
+          "review_reference_page": 274,
+          "review_reference_quote": "274 쪽",
+          "derived_body_ranges": [
+            [
+              274,
+              277
+            ],
+            [
+              286,
+              287
+            ]
+          ]
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "과학기술의 발달로 생기는 미래 사회의 직업 변화를 예상할 수 있다.",
+          "review_reference_page": 276,
+          "review_reference_quote": "276 쪽",
+          "derived_body_ranges": [
+            [
+              274,
+              277
+            ],
+            [
+              286,
+              287
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 직업 조사와 미래 직업 변화 예상 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0086",
+      "book_id": "YBM_K9",
+      "title": "진로와 관련 있는 과학 분야 조사하기",
+      "standard_codes": [
+        "9과23-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 279,
+          "printed_page": 279,
+          "quote": "진로와 관련 있는 과학 분야 조사하기"
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "나의 진로와 관련 있는 과학 분야를 조사할 수 있다.",
+          "review_reference_page": 278,
+          "review_reference_quote": "278 쪽",
+          "derived_body_ranges": [
+            [
+              278,
+              283
+            ]
+          ]
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "나의 진로 선택을 위하여 필요한 과학 학습을 계획할 수 있다.",
+          "review_reference_page": 282,
+          "review_reference_quote": "282 쪽",
+          "derived_body_ranges": [
+            [
+              278,
+              283
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 진로 관련 분야 조사와 학습 계획 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0087",
+      "book_id": "YBM_K9",
+      "title": "진로 선택에 필요한 과학 학습 계획하기",
+      "standard_codes": [
+        "9과23-02"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 282,
+          "printed_page": 282,
+          "quote": "진로 선택에 필요한 과학 학습 계획하기"
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "나의 진로와 관련 있는 과학 분야를 조사할 수 있다.",
+          "review_reference_page": 278,
+          "review_reference_quote": "278 쪽",
+          "derived_body_ranges": [
+            [
+              278,
+              283
+            ]
+          ]
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "나의 진로 선택을 위하여 필요한 과학 학습을 계획할 수 있다.",
+          "review_reference_page": 282,
+          "review_reference_quote": "282 쪽",
+          "derived_body_ranges": [
+            [
+              278,
+              283
+            ]
+          ]
+        }
+      ],
+      "reason": "활동 쪽이 교과서의 해당 소단원에 있고, 단원 말 자기점검의 학습 목표·본문 쪽수와 활동 수행 내용이 일치한다. 공식 코드는 교육부 교육과정 원문에서 확인했다. 교과서 자기점검의 진로 관련 분야 조사와 학습 계획 목표가 공식 기준 한 코드에 합쳐져 있다."
+    },
+    {
+      "activity_id": "ybm_k9_0088",
+      "book_id": "YBM_K9",
+      "title": "나의 직업 속 생태 감수성 키우기",
+      "standard_codes": [
+        "9과23-01"
+      ],
+      "candidate_codes": [],
+      "status": "scope_based",
+      "evidence": [
+        {
+          "pdf_page": 286,
+          "printed_page": 286,
+          "quote": "나의 직업 속 생태 감수성 키우기"
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "과학과 관련된 직업의 종류와 하는 일을 설명할 수 있다.",
+          "review_reference_page": 274,
+          "review_reference_quote": "274 쪽",
+          "derived_body_ranges": [
+            [
+              274,
+              277
+            ],
+            [
+              286,
+              287
+            ]
+          ]
+        },
+        {
+          "pdf_page": 289,
+          "printed_page": 289,
+          "quote": "과학기술의 발달로 생기는 미래 사회의 직업 변화를 예상할 수 있다.",
+          "review_reference_page": 276,
+          "review_reference_quote": "276 쪽",
+          "derived_body_ranges": [
+            [
+              274,
+              277
+            ],
+            [
+              286,
+              287
+            ]
+          ]
+        }
+      ],
+      "reason": "286쪽에서 녹색 일자리의 종류와 하는 일을 조사하도록 명시한다. 교과서 자기점검의 직업 조사와 미래 직업 변화 예상 목표가 공식 기준 한 코드에 합쳐져 있다."
+    }
+  ]
+}

@@ -24,6 +24,8 @@ node scripts/verify_core.mjs
 
 `build_data.py`는 `outputs/extraction/combined-20260922/science_experiment_supplies_combined.json`과 `output/parsed/`의 약품 MD·JSON을 읽어 `site/dist/data/`의 데이터를 다시 만듭니다. 원자료를 수정하지 않으며, 검토 상태와 변환 보고서는 `output/validation/`에 기록합니다. 수동으로 수정한 생성 데이터는 재생성하면 덮어써지므로 원자료·변환 규칙 변경을 먼저 검토합니다. 원문에 없는 실험·약품 정보는 추가하지 않습니다.
 
+통합 JSON에는 조사한 공식 성취기준 87개와 활동별 연결이 포함됩니다. 최초 적용 도구는 `scripts/extraction/apply_achievement_standards.py`이며, 적용 전 통합본을 보존하고 후속 수정이 있으면 덮어쓰지 않습니다. 현재 상태는 `python scripts/verify_achievement_application.py`로 검증합니다. 조사 생성기와 이전 준비물 분류 생성기는 이미 적용된 성취기준을 덮어쓰지 않도록 중단합니다.
+
 `build_chemicals.py`를 단독 실행하면 약품 변환 보고서를 재작성합니다. 전체 사이트 데이터를 함께 갱신할 때는 `build_data.py`를 사용합니다.
 
 ## 브라우저 기능 검증

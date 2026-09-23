@@ -1,0 +1,153 @@
+{
+  "status": "pass",
+  "scope": "Local data and static-site JSON, 2026-09-23 achievement application",
+  "checks": [
+    {
+      "name": "required_files",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "pre_application_snapshot_hash",
+      "passed": true
+    },
+    {
+      "name": "original_input_file_unchanged",
+      "passed": true
+    },
+    {
+      "name": "all_three_input_files_unchanged",
+      "passed": true
+    },
+    {
+      "name": "official_87_unique_and_research_identical",
+      "passed": true
+    },
+    {
+      "name": "crosswalk_56_unique_and_official",
+      "passed": true
+    },
+    {
+      "name": "mapping_408_unique_and_status_counts",
+      "passed": true
+    },
+    {
+      "name": "review_41_exact_and_extra_candidates_3",
+      "passed": true
+    },
+    {
+      "name": "combined_862_order_and_views",
+      "passed": true
+    },
+    {
+      "name": "combined_87_registry_official_text",
+      "passed": true
+    },
+    {
+      "name": "display_labels_preserve_official_wording",
+      "passed": true
+    },
+    {
+      "name": "combined_metadata_nonachievement_preserved",
+      "passed": true
+    },
+    {
+      "name": "all_original_nonachievement_row_values_preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "research_covers_exact_extracted_rows",
+      "passed": true
+    },
+    {
+      "name": "original_454_labels_preserved",
+      "passed": true
+    },
+    {
+      "name": "original_454_official_codes",
+      "passed": true
+    },
+    {
+      "name": "original_454_connection_provenance",
+      "passed": true
+    },
+    {
+      "name": "extracted_408_mapping_text_status_and_evidence",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "original_454_raw_copy_field",
+      "passed": true
+    },
+    {
+      "name": "all_codes_are_one_official_or_null",
+      "passed": true
+    },
+    {
+      "name": "370_applied_38_unresolved",
+      "passed": true
+    },
+    {
+      "name": "public_862_order_and_nonachievement_digest",
+      "passed": true
+    },
+    {
+      "name": "public_raw_labels_match_combined",
+      "passed": true
+    },
+    {
+      "name": "original_56_public_ids_preserved",
+      "passed": true
+    },
+    {
+      "name": "public_achievements_87_unique_official_codes",
+      "passed": true
+    },
+    {
+      "name": "public_activity_code_id_references",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "public_achievement_grades_match_activities",
+      "passed": true
+    },
+    {
+      "name": "public_achievement_display_text_matches_registry",
+      "passed": true
+    },
+    {
+      "name": "chemical_links_45_61_preserved",
+      "passed": true
+    },
+    {
+      "name": "grade_and_classification_totals",
+      "passed": true
+    }
+  ],
+  "failed_checks": [],
+  "counts": {
+    "combined_rows": 862,
+    "public_activities": 862,
+    "public_achievements": 87,
+    "research_mapping_status": {
+      "scope_based": 234,
+      "candidate": 29,
+      "direct": 136,
+      "unconfirmed": 9
+    },
+    "combined_extracted_with_standards": 370,
+    "combined_extracted_unresolved": 38,
+    "public_grades": {
+      "1": 328,
+      "2": 446,
+      "3": 88
+    },
+    "equipment_occurrences": 2924,
+    "supplies_occurrences": 1095,
+    "chemical_linked_activities": 45,
+    "chemical_link_occurrences": 61
+  }
+}

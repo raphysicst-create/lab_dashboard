@@ -1,4 +1,4 @@
-import { STORAGE_KEY, filterActivities, sanitizePreferences } from './core.js?v=combined-1';
+import { STORAGE_KEY, filterActivities, sanitizePreferences } from './core.js?v=achievement-20260923';
 import { createChemicalUI } from './chemical-ui.js?v=guides-2';
 
 const $ = id => document.getElementById(id);
@@ -108,9 +108,12 @@ function updateUnitOptions() {
 
 function updateAchievementOptions() {
   const current = $('achievement-filter').value;
-  const unit = $('unit-filter').value;
-  const standards = state.achievements.filter(a => (unit === 'all' || a.unit === unit)
-    && matchesGrade(a)).sort((a, b) => (a.unit_number ?? Infinity) - (b.unit_number ?? Infinity)
+  const selectedUnit = $('unit-filter').value;
+  const activities = state.activities.filter(activity => matchesGrade(activity)
+    && (selectedUnit === 'all' || activity.unit === selectedUnit));
+  const linkedIds = new Set(activities.map(activity => activity.achievement_id).filter(Boolean));
+  const standards = state.achievements.filter(standard => linkedIds.has(standard.id))
+    .sort((a, b) => (a.unit_number ?? Infinity) - (b.unit_number ?? Infinity)
       || (a.sequence ?? Infinity) - (b.sequence ?? Infinity));
   const select = $('achievement-filter');
   select.replaceChildren(new Option('전체 성취기준', 'all'));
@@ -118,13 +121,16 @@ function updateAchievementOptions() {
   for (const standard of standards) {
     if (!groups.has(standard.unit)) {
       const group = document.createElement('optgroup');
-      group.label = `${display(standard.unit)} · ${standard.grade == null ? '학년 미확인' : `${standard.grade}학년`}`;
+      const groupIds = new Set(standards.filter(item => item.unit === standard.unit).map(item => item.id));
+      const grades = [...new Set(activities.filter(activity => groupIds.has(activity.achievement_id))
+        .map(activity => activity.grade))].sort((a, b) => (a ?? Infinity) - (b ?? Infinity));
+      group.label = `${display(standard.unit)} · ${grades.map(grade => grade == null ? '학년 미확인' : `${grade}학년`).join('·')}`;
       groups.set(standard.unit, group);
       select.append(group);
     }
     groups.get(standard.unit).append(new Option(display(standard.raw_text), standard.id));
   }
-  if (standards.some(a => a.id === current)) $('achievement-filter').value = current;
+  if ([...select.options].some(option => option.value === current)) select.value = current;
 }
 
 function getFilters() {
@@ -246,7 +252,7 @@ async function start() {
     const names = ['activities', 'achievements', 'chemicals', 'materials'];
     const results = await Promise.all(names.map(async name => {
       const url = new URL(`./data/${name}.json`, import.meta.url);
-      url.search = '?v=combined-20260923';
+      url.search = '?v=achievement-20260923';
       const response = await fetch(url);
       if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
       return response.json();

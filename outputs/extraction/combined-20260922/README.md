@@ -2,6 +2,18 @@
 
 원자료 454건, 지학사 169건, YBM 239건을 합친 862개 활동이다. [통합 JSON](science_experiment_supplies_combined.json)에 준비물 분류를 추가했다.
 
+## 성취기준 반영 (2026-09-23)
+
+사용자 요청으로 지학사·YBM 활동 370건에 조사한 성취기준을 반영했다. 문서 직접 연결 136건과 소단원·목표·쪽수 대조 연결 234건이며, 후보 29건·미확인 9건은 `성취기준:null`을 유지한다. 추가 후보가 있는 3건도 후보 코드는 반영하지 않는다. 기존 454건의 연결·표시는 유지했다.
+
+- `성취기준`: 현재 적용한 기준 문장. 기존 문장이 있는 기준은 동일 표기를 사용한다.
+- `성취기준 원문`: 변경 전 값. 추출 자료 408건의 원문 null도 보존한다.
+- `성취기준 코드`: 공식 코드 배열 또는 null.
+- `성취기준 연결`: 직접/범위 대조/후보/미확인 구분과 근거·후보 코드. 사이트 화면에는 표시하지 않는다.
+- `achievement_standards`: 교육부 공식 기준 87개와 사이트용 표시 문장.
+
+범위 대조 연결은 출판사가 활동별 공식 코드를 직접 지정했다는 의미가 아니다. [조사 근거](../../research/achievement-standards-20260923/README.md), [적용 전 통합본](decision_history/20260923-achievements/science_experiment_supplies_combined.json), [적용 기록](decision_history/20260923-achievements/application.json)을 보존했다. 원본 3개 입력 파일·활동 순서·준비물·분류·학년은 그대로다. 최신 검증은 `output/validation/achievement-site-20260923/data-validation.json`이며 기존 분류 검증은 성취기준 적용 전 기록이다.
+
 | 필드 | 내용 |
 |---|---|
 | `교구` | 원문 그대로. 수정하지 않음 |

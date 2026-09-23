@@ -1,0 +1,4934 @@
+{
+  "metadata": {
+    "research_date": "2026-09-23",
+    "scope": "YBM 중학교 과학 1·2 교사용 교과서의 성취기준과 기존 추출 활동의 연결 조사",
+    "curriculum": "2022 개정 교육과정, 교육부 고시 제2022-33호 [별책9] 과학과 교육과정",
+    "official_source_url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=141&boardSeq=93458&lev=0&page=1&searchType=null&statusYN=W",
+    "mapping_policy": {
+      "direct": "교사용 단원 지도 계획의 성취기준 열 아래 활동명이 명시된 경우",
+      "scope_based": "활동명이 표에 그대로 없지만 인쇄쪽이 기준별 차시 범위에 포함되는 경우",
+      "candidate": "교과 내용 유사성만 있고 표·차시 근거가 없는 경우",
+      "unconfirmed": "기준 존재 또는 활동 연결을 확인할 수 없는 경우"
+    },
+    "books": [
+      {
+        "book_id": "YBM_K7",
+        "filename": "textbook_YBM_K7.pdf",
+        "sha256": "eae8172887bb835c80e1575aef7732f22150e5d1e7cc31399dc832df5be28747",
+        "pdf_pages": 252,
+        "activity_count": 68,
+        "title": "중학교 과학 1 교사용 교과서",
+        "edition_note": "교사용 교과서 내 교육과정 및 단원 지도 계획은 2022 개정 과학과 교육과정 [9과] 성취기준 체계와 일치한다. PDF 내 판쇄·발행 연도는 별도로 확정하지 않았다."
+      },
+      {
+        "book_id": "YBM_K8",
+        "filename": "textbook_YBM_K8.pdf",
+        "sha256": "72cd9276adf12c88f5b5aa70d071407d2eeb2b452ebac617319a070fcc1165ff",
+        "pdf_pages": 328,
+        "activity_count": 83,
+        "title": "중학교 과학 2 교사용 교과서",
+        "edition_note": "교사용 교과서 내 교육과정 및 단원 지도 계획은 2022 개정 과학과 교육과정 [9과] 성취기준 체계와 일치한다. PDF 내 판쇄·발행 연도는 별도로 확정하지 않았다."
+      }
+    ],
+    "note": "direct는 학생 활동 지면의 코드 직접 인쇄를 뜻하지 않는다. 연결 근거는 교사용 단원 지도 계획이다. 제품·통합 JSON에는 아직 반영하지 않았다."
+  },
+  "standards": [
+    {
+      "book_id": "YBM_K7",
+      "code": "9과01-01",
+      "raw_text": "과학적 탐구 방법을 이해하고, 일상생활의 문제에 대한 과학적 해결 방안을 제안할 수 있다.",
+      "chapter": "과학과 인류의 지속가능한 삶",
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "printed_page": null,
+          "quote": "•[9과01-01] 과학적 탐구 방법을 이해하고, 일상생활의 문제에 대한 과학적 해결 방안을 제안할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과01-02",
+      "raw_text": "과학의 발전이 인류 문명에 미친 영향을 이해하고, 인공지능 등 첨단 과학기술이 가져올 미래 사회의 변화를 조사하여 발표할 수 있다.",
+      "chapter": "과학과 인류의 지속가능한 삶",
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "printed_page": null,
+          "quote": "•[9과01-02] 과학의 발전이 인류 문명에 미친 영향을 이해하고, 인공지능 등 첨단 과학기술이 가져올 미래 사회의 변화를 조사하여 발표할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과01-03",
+      "raw_text": "인류의 지속가능한 삶을 위한 과학기술의 중요성과 역할에 대해 토의하고, 개인과 사회 차원의 활동 방안을 찾아 실천할 수 있다.",
+      "chapter": "과학과 인류의 지속가능한 삶",
+      "evidence": [
+        {
+          "pdf_page": 13,
+          "printed_page": null,
+          "quote": "•[9과01-03] 인류의 지속가능한 삶을 위한 과학기술의 중요성과 역할에 대해 토의하고, 개인과 사회 차원의 활동 방안을 찾아 실천할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과02-01",
+      "raw_text": "세포는 생명 활동이 일어나는 기본 단위임을 이해하고, 세포의 구조와 기능의 관계를 추론할 수 있다.",
+      "chapter": "생물의 구성과 다양성",
+      "evidence": [
+        {
+          "pdf_page": 35,
+          "printed_page": null,
+          "quote": "•[9과02–01] 세포는 생명 활동이 일어나는 기본 단위임을 이해하고, 세포의 구조와 기능의 관계를 추론할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과02-02",
+      "raw_text": "생물의 유기적 구성 단계를 이해하고, 동물과 식물을 비교하여 분석할 수 있다.",
+      "chapter": "생물의 구성과 다양성",
+      "evidence": [
+        {
+          "pdf_page": 35,
+          "printed_page": null,
+          "quote": "•[9과02–02] 생물의 유기적 구성 단계를 이해하고, 동물과 식물을 비교하여 분석할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과02-03",
+      "raw_text": "생물다양성을 이해하고, 변이와 생물다양성의 관계를 추론할 수 있다.",
+      "chapter": "생물의 구성과 다양성",
+      "evidence": [
+        {
+          "pdf_page": 35,
+          "printed_page": null,
+          "quote": "•[9과02–03] 생물다양성을 이해하고, 변이와 생물다양성의 관계를 추론할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과02-04",
+      "raw_text": "종의 개념과 분류체계를 이해하고, 생물을 계 수준에서 분류할 수 있다.",
+      "chapter": "생물의 구성과 다양성",
+      "evidence": [
+        {
+          "pdf_page": 35,
+          "printed_page": null,
+          "quote": "•[9과02–04] 종의 개념과 분류체계를 이해하고, 생물을 계 수준에서 분류할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과02-05",
+      "raw_text": "생물다양성보전의 필요성을 이해하고, 생물다양성 유지를 위한 방안을 조사하고 실천할 수 있다.",
+      "chapter": "생물의 구성과 다양성",
+      "evidence": [
+        {
+          "pdf_page": 35,
+          "printed_page": null,
+          "quote": "•[9과02–05] 생물다양성보전의 필요성을 이해하고, 생물다양성 유지를 위한 방안을 조사하고 실천할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과03-01",
+      "raw_text": "온도와 열평형 과정을 물질을 구성하는 입자들의 배치나 움직임 등으로 설명할 수 있다.",
+      "chapter": "열",
+      "evidence": [
+        {
+          "pdf_page": 79,
+          "printed_page": null,
+          "quote": "•[9과03-01] 온도와 열평형 과정을 물질을 구성하는 입자들의 배치나 움직임 등으로 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과03-02",
+      "raw_text": "열은 전도, 대류, 복사로 전달됨을 알고, 열전달 과정을 모형 등을 사용하여 다양하게 표현할 수 있다.",
+      "chapter": "열",
+      "evidence": [
+        {
+          "pdf_page": 79,
+          "printed_page": null,
+          "quote": "•[9과03-02] 열은 전도, 대류, 복사로 전달됨을 알고, 열전달 과정을 모형 등을 사용하여 다양하게 표현할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과03-03",
+      "raw_text": "물질에 따라 비열과 열팽창 정도가 다름을 알고, 이러한 성질이 일상생활에서 유용하게 활용됨을 인식할 수 있다.",
+      "chapter": "열",
+      "evidence": [
+        {
+          "pdf_page": 79,
+          "printed_page": null,
+          "quote": "•[9과03-03] 물질에 따라 비열과 열팽창 정도가 다름을 알고, 이러한 성질이 일상생활에서 유용하게 활용됨을 인식할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과04-01",
+      "raw_text": "확산 및 증발 현상을 관찰하여 물질을 구성하는 입자가 운동하고 있음을 추론할 수 있다.",
+      "chapter": "물질의 상태 변화",
+      "evidence": [
+        {
+          "pdf_page": 111,
+          "printed_page": null,
+          "quote": "•[9과04-01] 확산 및 증발 현상을 관찰하여 물질을 구성하는 입자가 운동하고 있음을 추론할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과04-02",
+      "raw_text": "물질의 세 가지 상태의 특징을 설명하고, 이를 입자 모형으로 표현할 수 있다.",
+      "chapter": "물질의 상태 변화",
+      "evidence": [
+        {
+          "pdf_page": 111,
+          "printed_page": null,
+          "quote": "•[9과04-02] 물질의 세 가지 상태의 특징을 설명하고, 이를 입자 모형으로 표현할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과04-03",
+      "raw_text": "여러 가지 물질의 상태 변화를 관찰하고, 이를 입자 모형으로 설명할 수 있다.",
+      "chapter": "물질의 상태 변화",
+      "evidence": [
+        {
+          "pdf_page": 111,
+          "printed_page": null,
+          "quote": "•[9과04-03] 여러 가지 물질의 상태 변화를 관찰하고, 이를 입자 모형으로 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과04-04",
+      "raw_text": "물질의 상태 변화와 열에너지 출입 관계를 이해하고, 이를 실생활에 적용하여 과학의 유용성을 인식할 수 있다.",
+      "chapter": "물질의 상태 변화",
+      "evidence": [
+        {
+          "pdf_page": 111,
+          "printed_page": null,
+          "quote": "•[9과04-04] 물질의 상태 변화와 열에너지 출입 관계를 이해하고, 이를 실생활에 적용하여 과학의 유용성을 인식할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과05-01",
+      "raw_text": "물체에 작용하는 힘을 화살표를 이용하여 나타내고, 힘의 평형을 이루는 조건을 설명할 수 있다.",
+      "chapter": "힘의 작용",
+      "evidence": [
+        {
+          "pdf_page": 147,
+          "printed_page": null,
+          "quote": "•[9과05-01] 물체에 작용하는 힘을 화살표를 이용하여 나타내고, 힘의 평형을 이루는 조건을 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과05-02",
+      "raw_text": "중력, 탄성력, 마찰력, 부력을 이해하고, 각 힘의 특징을 크기와 방향으로 설명할 수 있다.",
+      "chapter": "힘의 작용",
+      "evidence": [
+        {
+          "pdf_page": 147,
+          "printed_page": null,
+          "quote": "•[9과05-02] 중력, 탄성력, 마찰력, 부력을 이해하고, 각 힘의 특징을 크기와 방향으로 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과05-03",
+      "raw_text": "알짜힘이 0이 아닐 때 물체의 운동 상태가 변함을 알고, 그 예를 조사하여 분류할 수 있다.",
+      "chapter": "힘의 작용",
+      "evidence": [
+        {
+          "pdf_page": 147,
+          "printed_page": null,
+          "quote": "•[9과05-03] 알짜힘이 0이 아닐 때 물체의 운동 상태가 변함을 알고, 그 예를 조사하여 분류할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과05-04",
+      "raw_text": "다양한 사례에서 작용하는 힘과 힘의 평형 관계를 설명하고, 일상생활에서 힘의 특징을 이용한 기구나 장치를 설계할 수 있다.",
+      "chapter": "힘의 작용",
+      "evidence": [
+        {
+          "pdf_page": 147,
+          "printed_page": null,
+          "quote": "•[9과05-04] 다양한 사례에서 작용하는 힘과 힘의 평형 관계를 설명하고, 일상생활에서 힘의 특징을 이용한 기구나 장치를 설계할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과06-01",
+      "raw_text": "압력의 의미를 알고, 기체의 압력을 입자의 운동으로 설명할 수 있다.",
+      "chapter": "기체의 성질",
+      "evidence": [
+        {
+          "pdf_page": 183,
+          "printed_page": null,
+          "quote": "•[9과06-01] 압력의 의미를 알고, 기체의 압력을 입자의 운동으로 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과06-02",
+      "raw_text": "기체의 압력과 부피 관계를 실험 결과로부터 알아내고, 이를 입자 모형으로 해석할 수 있다.",
+      "chapter": "기체의 성질",
+      "evidence": [
+        {
+          "pdf_page": 183,
+          "printed_page": null,
+          "quote": "•[9과06-02] 기체의 압력과 부피 관계를 실험 결과로부터 알아내고, 이를 입자 모형으로 해석할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과06-03",
+      "raw_text": "기체의 온도와 부피 관계를 실험 결과로부터 알아내고, 이를 입자 모형으로 해석할 수 있다.",
+      "chapter": "기체의 성질",
+      "evidence": [
+        {
+          "pdf_page": 183,
+          "printed_page": null,
+          "quote": "•[9과06-03] 기체의 온도와 부피 관계를 실험 결과로부터 알아내고, 이를 입자 모형으로 해석할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과07-01",
+      "raw_text": "태양계를 구성하는 천체의 특징을 알고, 행성을 목성형 행성과 지구형 행성으로 구분할 수 있다.",
+      "chapter": "태양계",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": null,
+          "quote": "•[9과07-01] 태양계를 구성하는 천체의 특징을 알고, 행성을 목성형 행성과 지구형 행성으로 구분할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과07-02",
+      "raw_text": "태양의 표면과 대기에서 일어나는 현상을 알고, 태양의 활동이 지구에 미치는 영향을 추론할 수 있다.",
+      "chapter": "태양계",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": null,
+          "quote": "•[9과07-02] 태양의 표면과 대기에서 일어나는 현상을 알고, 태양의 활동이 지구에 미치는 영향을 추론할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과07-03",
+      "raw_text": "지구 자전에 의한 천체의 겉보기 운동과 지구 공전에 의한 별자리 변화를 이해하고, 밤하늘 천체에 호기심을 가진다.",
+      "chapter": "태양계",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": null,
+          "quote": "•[9과07-03] 지구 자전에 의한 천체의 겉보기 운동과 지구 공전에 의한 별자리 변화를 이해하고, 밤하늘 천체에 호기심을 가진다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K7",
+      "code": "9과07-04",
+      "raw_text": "달을 관측하여 달의 위상변화 원리를 이해하고, 일식과 월식을 설명할 수 있다.",
+      "chapter": "태양계",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": null,
+          "quote": "•[9과07-04] 달을 관측하여 달의 위상변화 원리를 이해하고, 일식과 월식을 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과08-01",
+      "raw_text": "물질의 특성의 의미를 알고, 실험을 통해 밀도, 용해도, 녹는점, 끓는점 등을 설명할 수 있다.",
+      "chapter": "물질의 특성",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": null,
+          "quote": "•[9과08-01] 물질의 특성의 의미를 알고, 실험을 통해 밀도, 용해도, 녹는점, 끓는점 등을 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과08-02",
+      "raw_text": "물질의 특성을 근거로 우리 주변의 물질을 순물질과 혼합물로 분류할 수 있다.",
+      "chapter": "물질의 특성",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": null,
+          "quote": "•[9과08-02] 물질의 특성을 근거로 우리 주변의 물질을 순물질과 혼합물로 분류할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과08-03",
+      "raw_text": "물질의 특성을 이용하여 혼합물이 분리되는 원리를 이해하고, 이를 이용한 사례를 주변에서 찾을 수 있다.",
+      "chapter": "물질의 특성",
+      "evidence": [
+        {
+          "pdf_page": 11,
+          "printed_page": null,
+          "quote": "•[9과08-03] 물질의 특성을 이용하여 혼합물이 분리되는 원리를 이해하고, 이를 이용한 사례를 주변에서 찾을 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과09-01",
+      "raw_text": "지구계의 구성 요소를 알고, 지권의 층상 구조와 그 특징을 조사·발표할 수 있다.",
+      "chapter": "지권의 변화",
+      "evidence": [
+        {
+          "pdf_page": 53,
+          "printed_page": null,
+          "quote": "•[9과09-01] 지구계의 구성 요소를 알고, 지권의 층상 구조와 그 특징을 조사·발표할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과09-02",
+      "raw_text": "조암 광물의 주요 특성을 관찰하고, 암석과 광물의 활용 방안 및 자원으로서 가치에 대해 조사할 수 있다.",
+      "chapter": "지권의 변화",
+      "evidence": [
+        {
+          "pdf_page": 53,
+          "printed_page": null,
+          "quote": "•[9과09-02] 조암 광물의 주요 특성을 관찰하고, 암석과 광물의 활용 방안 및 자원으로서 가치에 대해 조사할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과09-03",
+      "raw_text": "지각을 이루는 암석을 생성 과정에 따라 분류하고, 암석의 순환 과정을 설명할 수 있다.",
+      "chapter": "지권의 변화",
+      "evidence": [
+        {
+          "pdf_page": 53,
+          "printed_page": null,
+          "quote": "•[9과09-03] 지각을 이루는 암석을 생성 과정에 따라 분류하고, 암석의 순환 과정을 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과09-04",
+      "raw_text": "풍화 과정을 이해하고, 토양 생성 과정을 풍화 작용의 예로 설명할 수 있다.",
+      "chapter": "지권의 변화",
+      "evidence": [
+        {
+          "pdf_page": 53,
+          "printed_page": null,
+          "quote": "•[9과09-04] 풍화 과정을 이해하고, 토양 생성 과정을 풍화 작용의 예로 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과09-05",
+      "raw_text": "대륙이동설을 이해하고, 지진과 화산이 발생하는 지역의 분포를 판의 경계와 관련지어 설명할 수 있다.",
+      "chapter": "지권의 변화",
+      "evidence": [
+        {
+          "pdf_page": 53,
+          "printed_page": null,
+          "quote": "•[9과09-05] 대륙이동설을 이해하고, 지진과 화산이 발생하는 지역의 분포를 판의 경계와 관련지어 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과10-01",
+      "raw_text": "빛의 반사와 굴절의 원리를 이해하고, 물체를 보는 과정을 빛의 경로를 이용하여 표현할 수 있다.",
+      "chapter": "빛과 파동",
+      "evidence": [
+        {
+          "pdf_page": 101,
+          "printed_page": null,
+          "quote": "•[9과10-01] 빛의 반사와 굴절의 원리를 이해하고, 물체를 보는 과정을 빛의 경로를 이용하여 표현할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과10-02",
+      "raw_text": "평면거울에서 상이 생기는 원리를 설명하고, 일상생활에서 사용되는 거울과 렌즈의 종류를 분류하고 상의 특징을 비교할 수 있다.",
+      "chapter": "빛과 파동",
+      "evidence": [
+        {
+          "pdf_page": 101,
+          "printed_page": null,
+          "quote": "•[9과10-02] 평면거울에서 상이 생기는 원리를 설명하고, 일상생활에서 사용되는 거울과 렌즈의 종류를 분류하고 상의 특징을 비교할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과10-03",
+      "raw_text": "물체의 색을 빛의 반사와 관련지어 설명하고, 영상 장치에서 빛의 합성을 이용하여 다양한 색이 표현되는 원리를 이해할 수 있다.",
+      "chapter": "빛과 파동",
+      "evidence": [
+        {
+          "pdf_page": 101,
+          "printed_page": null,
+          "quote": "•[9과10-03] 물체의 색을 빛의 반사와 관련지어 설명하고, 영상 장치에서 빛의 합성을 이용하여 다양한 색이 표현되는 원리를 이해할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과10-04",
+      "raw_text": "파동의 발생과 전달 과정을 이해하고, 소리의 특성을 진폭, 진동수, 파형 등의 과학적 용어로 표현할 수 있다.",
+      "chapter": "빛과 파동",
+      "evidence": [
+        {
+          "pdf_page": 101,
+          "printed_page": null,
+          "quote": "•[9과10-04] 파동의 발생과 전달 과정을 이해하고, 소리의 특성을 진폭, 진동수, 파형 등의 과학적 용어로 표현할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과11-01",
+      "raw_text": "원소와 화합물의 정의를 알고, 원소와 화합물을 화학식으로 표현할 수 있다.",
+      "chapter": "물질의 구성",
+      "evidence": [
+        {
+          "pdf_page": 143,
+          "printed_page": null,
+          "quote": "•[9과11-01] 원소와 화합물의 정의를 알고, 원소와 화합물을 화학식으로 표현할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과11-02",
+      "raw_text": "원소를 구성하는 입자인 원자는 양성자, 중성자, 전자로 구성되며, 양성자의 수에 따라 원소의 종류가 달라짐을 입자 모형을 활용하여 설명할 수 있다.",
+      "chapter": "물질의 구성",
+      "evidence": [
+        {
+          "pdf_page": 143,
+          "printed_page": null,
+          "quote": "•\u0007[9과11-02] 원소를 구성하는 입자인 원자는 양성자, 중성자, 전자로 구성되며, 양성자의 수에 따라 원소의 종류가 달라짐을 입자 모형을 활용하여\n설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과11-03",
+      "raw_text": "원소는 양성자의 수에 따라 주기율표에 배치됨을 알고, 주기율표에서 성질이 유사한 원소를 찾을 수 있다.",
+      "chapter": "물질의 구성",
+      "evidence": [
+        {
+          "pdf_page": 143,
+          "printed_page": null,
+          "quote": "•\u0007[9과11-03] 원소는 양성자의 수에 따라 주기율표에 배치됨을 알고, 주기율표에서 성질이 유사한 원소를 찾을 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과11-04",
+      "raw_text": "물질을 이루는 입자인 원자, 분자, 이온 등으로 존재할 수 있음을 알고, 이온은 전하를 띠고 있음을 설명할 수 있다.",
+      "chapter": "물질의 구성",
+      "evidence": [
+        {
+          "pdf_page": 143,
+          "printed_page": null,
+          "quote": "•\u0007[9과11-04] 물질을 이루는 입자인 원자, 분자, 이온 등으로 존재할 수 있음을 알고, 이온은 전하를 띠고 있음을 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과12-01",
+      "raw_text": "광합성 과정을 이해하고, 환경요인과 광합성의 관계를 탐구하는 실험을 설계할 수 있다.",
+      "chapter": "식물과 에너지",
+      "evidence": [
+        {
+          "pdf_page": 183,
+          "printed_page": null,
+          "quote": "•[9과12-01] 광합성 과정을 이해하고, 환경요인과 광합성의 관계를 탐구하는 실험을 설계할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과12-02",
+      "raw_text": "식물의 호흡과 광합성의 관계를 이해하고, 호흡과 광합성 과정에서 출입하는 에너지와 물질의 변화를 분석할 수 있다.",
+      "chapter": "식물과 에너지",
+      "evidence": [
+        {
+          "pdf_page": 183,
+          "printed_page": null,
+          "quote": "•[9과12-02] 식물의 호흡과 광합성의 관계를 이해하고, 호흡과 광합성 과정에서 출입하는 에너지와 물질의 변화를 분석할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과12-03",
+      "raw_text": "광합성산물의 저장과 이용 과정을 이해하고, 모형으로 설명할 수 있다.",
+      "chapter": "식물과 에너지",
+      "evidence": [
+        {
+          "pdf_page": 183,
+          "printed_page": null,
+          "quote": "•[9과12-03] 광합성산물의 저장과 이용 과정을 이해하고, 모형으로 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과13-01",
+      "raw_text": "소화계의 구조와 기능을 이해하고, 소화 과정을 소화효소의 작용과 관련지어 추론할 수 있다.",
+      "chapter": "동물과 에너지",
+      "evidence": [
+        {
+          "pdf_page": 213,
+          "printed_page": null,
+          "quote": "•[9과13-01] 소화계의 구조와 기능을 이해하고, 소화 과정을 소화효소의 작용과 관련지어 추론할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과13-02",
+      "raw_text": "순환계의 구조와 기능을 이해하고, 혈액의 순환 경로를 종합하여 발표할 수 있다.",
+      "chapter": "동물과 에너지",
+      "evidence": [
+        {
+          "pdf_page": 213,
+          "printed_page": null,
+          "quote": "•[9과13-02] 순환계의 구조와 기능을 이해하고, 혈액의 순환 경로를 종합하여 발표할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과13-03",
+      "raw_text": "호흡계의 구조와 기능을 이해하고, 호흡운동의 원리를 나타내는 모형을 만들 수 있다.",
+      "chapter": "동물과 에너지",
+      "evidence": [
+        {
+          "pdf_page": 213,
+          "printed_page": null,
+          "quote": "•[9과13-03] 호흡계의 구조와 기능을 이해하고, 호흡운동의 원리를 나타내는 모형을 만들 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과13-04",
+      "raw_text": "배설계의 구조와 기능을 이해하고, 노폐물이 배설되는 과정을 모식도로 표현할 수 있다.",
+      "chapter": "동물과 에너지",
+      "evidence": [
+        {
+          "pdf_page": 213,
+          "printed_page": null,
+          "quote": "•[9과13-04] 배설계의 구조와 기능을 이해하고, 노폐물이 배설되는 과정을 모식도로 표현할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과13-05",
+      "raw_text": "동물이 세포호흡을 통해 에너지를 얻는 과정을 소화, 순환, 호흡, 배설과 관련지어 통합적으로 설명할 수 있다.",
+      "chapter": "동물과 에너지",
+      "evidence": [
+        {
+          "pdf_page": 213,
+          "printed_page": null,
+          "quote": "•[9과13-05] 동물이 세포호흡을 통해 에너지를 얻는 과정을 소화, 순환, 호흡, 배설과 관련지어 통합적으로 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과14-01",
+      "raw_text": "마찰 전기, 정전기 유도 현상을 관찰하고, 이를 전기력과 원자 모형을 이용하여 설명할 수 있다.",
+      "chapter": "전기와 자기",
+      "evidence": [
+        {
+          "pdf_page": 255,
+          "printed_page": null,
+          "quote": "•[9과14-01] 마찰 전기, 정전기 유도 현상을 관찰하고, 이를 전기력과 원자 모형을 이용하여 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과14-02",
+      "raw_text": "전기 회로에서 전류를 모형으로 설명하고, 실험을 통해 저항, 전류, 전압 사이의 관계를 이끌어낼 수 있다.",
+      "chapter": "전기와 자기",
+      "evidence": [
+        {
+          "pdf_page": 255,
+          "printed_page": null,
+          "quote": "•[9과14-02] 전기 회로에서 전류를 모형으로 설명하고, 실험을 통해 저항, 전류, 전압 사이의 관계를 이끌어낼 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과14-03",
+      "raw_text": "저항의 직렬연결과 병렬연결의 특징을 비교하고, 일상생활에서 전기 에너지가 다양한 형태의 에너지로 전환됨을 소비 전력과 관련지어 설명할 수 있다.",
+      "chapter": "전기와 자기",
+      "evidence": [
+        {
+          "pdf_page": 255,
+          "printed_page": null,
+          "quote": "•\u0007[9과14-03] 저항의 직렬연결과 병렬연결의 특징을 비교하고, 일상생활에서 전기 에너지가 다양한 형태의 에너지로 전환됨을 소비 전력과 관련지\n어 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과14-04",
+      "raw_text": "자기장 안에 놓인 전류가 흐르는 코일이 받는 힘의 특성을 추리하고, 전동기 등 일상생활에서 활용한 예를 찾을 수 있다.",
+      "chapter": "전기와 자기",
+      "evidence": [
+        {
+          "pdf_page": 255,
+          "printed_page": null,
+          "quote": "•[9과14-04] 자기장 안에 놓인 전류가 흐르는 코일이 받는 힘의 특성을 추리하고, 전동기 등 일상생활에서 활용한 예를 찾을 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과15-01",
+      "raw_text": "연주시차를 이용하여 별까지의 거리를 구할 수 있고, 별의 등급과 밝기의 관계 및 표면 온도와 색의 관계를 설명할 수 있다.",
+      "chapter": "별과 우주",
+      "evidence": [
+        {
+          "pdf_page": 293,
+          "printed_page": null,
+          "quote": "•[9과15-01] 연주시차를 이용하여 별까지의 거리를 구할 수 있고, 별의 등급과 밝기의 관계 및 표면 온도와 색의 관계를 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과15-02",
+      "raw_text": "우리은하의 구조와 크기를 이해하고, 성운과 성단의 특징을 비교할 수 있다.",
+      "chapter": "별과 우주",
+      "evidence": [
+        {
+          "pdf_page": 293,
+          "printed_page": null,
+          "quote": "•[9과15-02] 우리은하의 구조와 크기를 이해하고, 성운과 성단의 특징을 비교할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과15-03",
+      "raw_text": "모형을 이용하여 우주가 팽창하고 있음을 설명할 수 있다.",
+      "chapter": "별과 우주",
+      "evidence": [
+        {
+          "pdf_page": 293,
+          "printed_page": null,
+          "quote": "•[9과15-03] 모형을 이용하여 우주가 팽창하고 있음을 설명할 수 있다."
+        }
+      ]
+    },
+    {
+      "book_id": "YBM_K8",
+      "code": "9과15-04",
+      "raw_text": "우주탐사의 의의와 인류에게 미치는 영향을 조사하여 과학의 유용성을 인식할 수 있다.",
+      "chapter": "별과 우주",
+      "evidence": [
+        {
+          "pdf_page": 293,
+          "printed_page": null,
+          "quote": "•[9과15-04] 우주탐사의 의의와 인류에게 미치는 영향을 조사하여 과학의 유용성을 인식할 수 있다."
+        }
+      ]
+    }
+  ],
+  "activity_mappings": [
+    {
+      "activity_id": "ybm_k7_0001",
+      "book_id": "YBM_K7",
+      "title": "주변에서 탐구할 문제를 발견하고 탐구 계획서 작성하기",
+      "standard_codes": [
+        "9과01-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "printed_page": "10A",
+          "quote": "[9과01-01]"
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": "10A",
+          "quote": "12~13\n•\t과학적 탐구 방법\n[탐구 | 문제 인식] 주변에서 탐구할 문제를 발견하고 \n탐구 계획서 작성하기"
+        },
+        {
+          "pdf_page": 17,
+          "printed_page": 13,
+          "quote": "주변에서 탐구할 문제를 발견하고 탐구 계획서 작성하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0002",
+      "book_id": "YBM_K7",
+      "title": "과학의 발전이 인류 문명에 미친 영향 조사하기",
+      "standard_codes": [
+        "9과01-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "printed_page": "10A",
+          "quote": "[9과01-02]"
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": "10A",
+          "quote": "14~15\n•\t과학의 발전과 인류 문명\n[해 보기 | 의사소통] 과학의 발전이 인류 문명에 미친 \n영향 조사하기\n3"
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": 14,
+          "quote": "과학의 발전이 인류 문명에 미친 영향 조사하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0003",
+      "book_id": "YBM_K7",
+      "title": "미래 생활의 모습 예측하기",
+      "standard_codes": [
+        "9과01-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "printed_page": "10A",
+          "quote": "[9과01-02]"
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": "10A",
+          "quote": "16~19\n•\t첨단 과학기술과 미래 사회 예측\n [탐구 | 예상] 미래 생활의 모습 예측하기"
+        },
+        {
+          "pdf_page": 22,
+          "printed_page": 18,
+          "quote": "미래 생활의 모습 예측하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0004",
+      "book_id": "YBM_K7",
+      "title": "지속가능한 삶을 위한 과학적 토의하기",
+      "standard_codes": [
+        "9과01-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "printed_page": "10A",
+          "quote": "[9과01-03]"
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": "10A",
+          "quote": "20~21\n•\t지속가능한 삶을 위한 과학기술의 중요성과 역할\n[해 보기 | 의사소통] 지속가능한 삶을 위한 과학적 토\n의하기\n5"
+        },
+        {
+          "pdf_page": 25,
+          "printed_page": 21,
+          "quote": "지속가능한 삶을 위한 과학적 토의하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0005",
+      "book_id": "YBM_K7",
+      "title": "지속가능한 우리 동네 만들기",
+      "standard_codes": [
+        "9과01-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "printed_page": "10A",
+          "quote": "[9과01-03]"
+        },
+        {
+          "pdf_page": 14,
+          "printed_page": "10A",
+          "quote": "22~23\n•\t지속가능한 삶을 위한 개인과 사회 차원의 활동\n[해 보기 | 의사소통] 지속가능한 우리 동네 만들기\n  \t \u0007실천하는 생태 시민\n1\n6"
+        },
+        {
+          "pdf_page": 27,
+          "printed_page": 23,
+          "quote": "지속가능한 우리 동네 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0006",
+      "book_id": "YBM_K7",
+      "title": "지속가능한 삶을 위한 실천",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과01-03"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 14,
+          "printed_page": "10A",
+          "quote": "24~25\n•\t지속가능한 삶을 위한 실천\n  \t \u0007생각 키우는 과학 읽기\n  \t \u0007대단원 마무리\n1\n7"
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": 24,
+          "quote": "지속가능한 삶을 위한 실천"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 환경 기념일과 지속가능한 삶의 실천을 다뤄 기준의 개인·사회 차원 실천과 내용이 닿는다. 내용상 후보로만 기록한다."
+    },
+    {
+      "activity_id": "ybm_k7_0007",
+      "book_id": "YBM_K7",
+      "title": "세포 관찰하기",
+      "standard_codes": [
+        "9과02-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "[9과02-01]"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "32~35\n•\t세포의 구조와 기능\n[ \u0007탐구 | 관찰 ] 세포 관찰하기\n2"
+        },
+        {
+          "pdf_page": 40,
+          "printed_page": 34,
+          "quote": "세포 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0008",
+      "book_id": "YBM_K7",
+      "title": "세포의 생김새와 역할의 관계 추론하기",
+      "standard_codes": [
+        "9과02-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "[9과02-01]"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "36~37\n[ \u0007해 보기 | 추리 ] 세포의 생김새와 역할의 \n관계 추론하기"
+        },
+        {
+          "pdf_page": 42,
+          "printed_page": 36,
+          "quote": "세포의 생김새와 역할의 관계 추론하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0009",
+      "book_id": "YBM_K7",
+      "title": "생물의 구성 단계로 계단책 만들기",
+      "standard_codes": [
+        "9과02-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "[9과02-02]"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "38~41\n•\t생물의 유기적 구성 단계\n[ \u0007해 보기 | 분류 ] 생물의 구성 단계로 계단\n책 만들기"
+        },
+        {
+          "pdf_page": 46,
+          "printed_page": 40,
+          "quote": "생물의 구성 단계로 계단책 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0010",
+      "book_id": "YBM_K7",
+      "title": "우리 학교 생태 지도 만들기",
+      "standard_codes": [
+        "9과02-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "[9과02-03]"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "42~44\n•\t생물다양성\n[ \u0007탐구 | 관찰 ] 우리 학교 생태 지도 만들기\n5"
+        },
+        {
+          "pdf_page": 50,
+          "printed_page": 44,
+          "quote": "우리 학교 생태 지도 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0011",
+      "book_id": "YBM_K7",
+      "title": "변이와 생물다양성의 관계 추론하기",
+      "standard_codes": [
+        "9과02-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "[9과02-03]"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "45~47\n•\t변이\n•\t변이와 생물다양성의 관계\n[ \u0007해 보기 | 추론 ] 변이와 생물다양성의 관\n계 추론하기"
+        },
+        {
+          "pdf_page": 52,
+          "printed_page": 46,
+          "quote": "변이와 생물다양성의 관계 추론하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0012",
+      "book_id": "YBM_K7",
+      "title": "종 구분하기",
+      "standard_codes": [
+        "9과02-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "[9과02-04]"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "48~51\n•\t종\n•\t생물분류체계\n[ \u0007해 보기 | 의사소통 ] 종 구분하기\n7"
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": 48,
+          "quote": "종 구분하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0013",
+      "book_id": "YBM_K7",
+      "title": "생물분류하기",
+      "standard_codes": [
+        "9과02-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "[9과02-04]"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "52~53\n•\t계 수준의 생물분류\n[ \u0007탐구 | 분류 ] 생물분류하기 \n  \t \u0007한 뼘 자라는 창의·혁신\n  \t \u0007중단원 마무리\n1\n8"
+        },
+        {
+          "pdf_page": 58,
+          "printed_page": 52,
+          "quote": "생물분류하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0014",
+      "book_id": "YBM_K7",
+      "title": "우리나라의 자생 생물 달력 만들기",
+      "standard_codes": [
+        "9과02-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "[9과02-04]"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "54~55\n•\t우리나라의 자생 생물 달력 만들기"
+        },
+        {
+          "pdf_page": 60,
+          "printed_page": 54,
+          "quote": "우리나라의 자생 생물 달력 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0015",
+      "book_id": "YBM_K7",
+      "title": "생물다양성보전의 필요성 역할놀이하기",
+      "standard_codes": [
+        "9과02-05"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "[9과02-05]"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "56~59\n•\t생물다양성 감소의 원인\n•\t생물다양성보전의 필요성\n[ \u0007탐구 | 의사소통 ] 생물다양성보전의 필요\n성 역할놀이하기 \n02\t\u0007생물다양성보전을  \n위한 활동\n2\n10\n~\n11"
+        },
+        {
+          "pdf_page": 64,
+          "printed_page": 58,
+          "quote": "생물다양성보전의 필요성 역할놀이하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0016",
+      "book_id": "YBM_K7",
+      "title": "생물다양성보전 놀이 활동하기",
+      "standard_codes": [
+        "9과02-05"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "[9과02-05]"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "60~63\n•\t생물다양성보전을 위한 활동\n[ \u0007탐구 | 자료 해석] 생물다양성보전 놀이 \n활동하기\n\t 한 뼘 자라는 창의·혁신\n\t 중단원 마무리\n1\n12"
+        },
+        {
+          "pdf_page": 68,
+          "printed_page": 62,
+          "quote": "생물다양성보전 놀이 활동하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0017",
+      "book_id": "YBM_K7",
+      "title": "생물다양성보전 스톱 모션 만화 영화 만들기",
+      "standard_codes": [
+        "9과02-05"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "[9과02-05]"
+        },
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "64~65\n•\t생물다양성보전 스톱 모션 만화 영화 \n만들기\n  \t \u0007실천하는 생태 시민\n1\n13"
+        },
+        {
+          "pdf_page": 70,
+          "printed_page": 64,
+          "quote": "생물다양성보전 스톱 모션 만화 영화 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0018",
+      "book_id": "YBM_K7",
+      "title": "우리가 소개하는 생물다양성",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과02-05"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 36,
+          "printed_page": "30A",
+          "quote": "66~67\n•\t우리가 소개하는 생물다양성\n  \t \u0007생각 키우는 과학 읽기\n  \t \u0007대단원 마무리\n1\n14"
+        },
+        {
+          "pdf_page": 72,
+          "printed_page": 66,
+          "quote": "우리가 소개하는 생물다양성"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 생태원의 생물다양성보전 활동을 조사하여 소개한다. 내용상 후보로만 기록한다."
+    },
+    {
+      "activity_id": "ybm_k7_0019",
+      "book_id": "YBM_K7",
+      "title": "온도가 다른 두 물체가 접촉할 때 온도 변화 측정하기",
+      "standard_codes": [
+        "9과03-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "[9과03-01]"
+        },
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "74~77\n•\t열평형\n[탐구｜측정] 온도가 다른 두 물체가 접\n촉할 때 온도 변화 측정하기\n2"
+        },
+        {
+          "pdf_page": 84,
+          "printed_page": 76,
+          "quote": "온도가 다른 두 물체가 접촉할 때 온도 변화 측정하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0020",
+      "book_id": "YBM_K7",
+      "title": "열평형 과정을 입자의 움직임으로 설명하기",
+      "standard_codes": [
+        "9과03-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "[9과03-01]"
+        },
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "78~79\n•\t열평형과 입자의 움직임\n[해 보기｜예상] 열평형 과정을 입자의 \n움직임으로 설명하기"
+        },
+        {
+          "pdf_page": 87,
+          "printed_page": 79,
+          "quote": "열평형 과정을 입자의 움직임으로 설명하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0021",
+      "book_id": "YBM_K7",
+      "title": "물체에서 열의 전도 비교하기",
+      "standard_codes": [
+        "9과03-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "[9과03-02]"
+        },
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "80~81\n•전도, 대류, 복사\n[탐구｜관찰] 물체에서 열의 전도 비교 \n하기\n4"
+        },
+        {
+          "pdf_page": 88,
+          "printed_page": 80,
+          "quote": "물체에서 열의 전도 비교하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0022",
+      "book_id": "YBM_K7",
+      "title": "열의 이동을 표현하는 짧은 영상 만들기",
+      "standard_codes": [
+        "9과03-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "[9과03-02]"
+        },
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "82~83\n•입자와 열의 이동 방식\n[탐구｜의사소통] 열의 이동을 표현하는 \n짧은 영상 만들기\n  \t \u0007한 뼘 자라는 창의·혁신\n  \t \u0007중단원 마무리\n1\n5"
+        },
+        {
+          "pdf_page": 90,
+          "printed_page": 82,
+          "quote": "열의 이동을 표현하는 짧은 영상 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0023",
+      "book_id": "YBM_K7",
+      "title": "움직이는 조명 만들기",
+      "standard_codes": [
+        "9과03-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "[9과03-02]"
+        },
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "84~85\n•움직이는 조명 만들기"
+        },
+        {
+          "pdf_page": 92,
+          "printed_page": 84,
+          "quote": "움직이는 조명 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0024",
+      "book_id": "YBM_K7",
+      "title": "여러 가지 액체의 비열 비교하기",
+      "standard_codes": [
+        "9과03-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "[9과03-03]"
+        },
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "86~89\n•비열\n[탐구｜측정] 여러 가지 액체의 비열 비\n교하기\n02\t\u0007열팽창\n1\n7"
+        },
+        {
+          "pdf_page": 96,
+          "printed_page": 88,
+          "quote": "여러 가지 액체의 비열 비교하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0025",
+      "book_id": "YBM_K7",
+      "title": "열을 얻어 변하는 물체 관찰하기",
+      "standard_codes": [
+        "9과03-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "[9과03-03]"
+        },
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "90~91\n•열팽창\n[해 보기｜관찰] 열을 얻어 변하는 물체 \n관찰하기\n03\t열과 생활\n1\n8"
+        },
+        {
+          "pdf_page": 99,
+          "printed_page": 91,
+          "quote": "열을 얻어 변하는 물체 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0026",
+      "book_id": "YBM_K7",
+      "title": "비열과 열팽창을 활용한 예 홍보하기",
+      "standard_codes": [
+        "9과03-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "[9과03-03]"
+        },
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "92~93\n[함께 만드는 탐구] 비열과 열팽창을 활용\n한 예 홍보하기\n  \t \u0007한 뼘 자라는 창의·혁신\n  \t \u0007중단원 마무리\n1\n9"
+        },
+        {
+          "pdf_page": 100,
+          "printed_page": 92,
+          "quote": "비열과 열팽창을 활용한 예 홍보하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0027",
+      "book_id": "YBM_K7",
+      "title": "바이메탈을 이용한 발명품 설계하기",
+      "standard_codes": [
+        "9과03-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "[9과03-03]"
+        },
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "94~95\n•\t바이메탈을 이용한 발명품 설계하기\n  \t \u0007실천하는 생태 시민\n1\n10"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": 94,
+          "quote": "바이메탈을 이용한 발명품 설계하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0028",
+      "book_id": "YBM_K7",
+      "title": "우리 지역 기온 1 ℃ 낮추기",
+      "standard_codes": null,
+      "candidate_codes": [],
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pdf_page": 80,
+          "printed_page": "72A",
+          "quote": "96~97\n•\t우리 지역 기온 1 ℃ 낮추기\n  \t \u0007\u0007생각 키우는 과학 읽기\n  \t \u0007\u0007대단원 마무리\n1\n11"
+        },
+        {
+          "pdf_page": 104,
+          "printed_page": 96,
+          "quote": "우리 지역 기온 1 ℃ 낮추기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 이 활동에 적용할 공식 기준은 확정하지 않는다."
+    },
+    {
+      "activity_id": "ybm_k7_0029",
+      "book_id": "YBM_K7",
+      "title": "증발과 확산 관찰하기",
+      "standard_codes": [
+        "9과04-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "[9과04-01]"
+        },
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "104~107\n•\t증발 및 확산과 입자 운동\n[ \u0007탐구 | 관찰 ] 증발과 확산 관찰하기"
+        },
+        {
+          "pdf_page": 116,
+          "printed_page": 106,
+          "quote": "증발과 확산 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0030",
+      "book_id": "YBM_K7",
+      "title": "입자 모형으로 물질의 세 가지 상태 표현하기",
+      "standard_codes": [
+        "9과04-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "[9과04-02]"
+        },
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "108~111\n•\t고체, 액체, 기체의 입자 모형\n[ \u0007탐구 | 추리 ] 입자 모형으로 물질의 세  \n가지 상태 표현하기"
+        },
+        {
+          "pdf_page": 119,
+          "printed_page": 109,
+          "quote": "입자 모형으로 물질의 세 가지 상태 표현하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0031",
+      "book_id": "YBM_K7",
+      "title": "여러 가지 상태 변화 관찰하기",
+      "standard_codes": [
+        "9과04-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "[9과04-03]"
+        },
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "112~115\n•\t상태 변화\n[ \u0007해 보기 | 관찰 ] 여러 가지 상태 변화 관\n찰하기\n02\t\u0007상태 변화와 입자 배열\n  \t \u0007중단원 마무리\n1\n4"
+        },
+        {
+          "pdf_page": 125,
+          "printed_page": 115,
+          "quote": "여러 가지 상태 변화 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0032",
+      "book_id": "YBM_K7",
+      "title": "드라이아이스가 상태 변화할 때의 질량과 부피 변화 측정하기",
+      "standard_codes": [
+        "9과04-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "[9과04-03]"
+        },
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "116~119\n•\t물질이 상태 변화할 때의 입자 배열과\n질량 및 부피 변화\n[ \u0007탐구 | 측정 ] 드라이아이스가 상태 변화\n할 때의 질량과 부피 변화 측정하기"
+        },
+        {
+          "pdf_page": 126,
+          "printed_page": 116,
+          "quote": "드라이아이스가 상태 변화할 때의 질량과 부피 변화 측정하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0033",
+      "book_id": "YBM_K7",
+      "title": "상태 변화와 열에너지 출입 관찰하기",
+      "standard_codes": [
+        "9과04-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "[9과04-04]"
+        },
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "120~123\n•\t물질이 상태 변화할 때 출입하는 열에\n너지\n[ \u0007해 보기 | 관찰 ] 상태 변화와 열에너지 출\n입 관찰하기\n02\t\u0007상태 변화와 온도 변화\n1\n6"
+        },
+        {
+          "pdf_page": 131,
+          "printed_page": 121,
+          "quote": "상태 변화와 열에너지 출입 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0034",
+      "book_id": "YBM_K7",
+      "title": "액체 로르산의 상태 변화 실험에서 냉각 곡선 그리기",
+      "standard_codes": [
+        "9과04-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "[9과04-04]"
+        },
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "124~127\n•\t물질을 가열할 때와 냉각할 때 물질의 \n온도 변화와 입자 배열의 변화\n[ \u0007탐구 | 측정 ] 액체 로르산의 상태 변화 실\n험에서 냉각 곡선 그리기\n  \t \u0007\u0007한 뼘 자라는 창의`혁신\n  \t \u0007\u0007중단원 마무리\n1\n7"
+        },
+        {
+          "pdf_page": 134,
+          "printed_page": 124,
+          "quote": "액체 로르산의 상태 변화 실험에서 냉각 곡선 그리기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0035",
+      "book_id": "YBM_K7",
+      "title": "얼음 선풍기 만들기",
+      "standard_codes": [
+        "9과04-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "[9과04-04]"
+        },
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "128~129\n•\t얼음 선풍기 만들기\n  \t \u0007\u0007실천하는 생태 시민\n1\n8\n+"
+        },
+        {
+          "pdf_page": 138,
+          "printed_page": 128,
+          "quote": "얼음 선풍기 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0036",
+      "book_id": "YBM_K7",
+      "title": "캔에서 캔으로, 알루미늄 캔 재활용 실천하기",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과04-03"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 112,
+          "printed_page": "102A",
+          "quote": "130~131\n•\t캔에서 캔으로, 알루미늄 캔 재활용 실\n천하기\n  \t \u0007\u0007생각 키우는 과학 읽기\n  \t \u0007\u0007대단원 마무리\n1\n9"
+        },
+        {
+          "pdf_page": 140,
+          "printed_page": 130,
+          "quote": "캔에서 캔으로, 알루미늄 캔 재활용 실천하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 알루미늄 캔 재활용 과정에서 상태 변화를 이용하는 과정을 찾도록 한다. 내용상 후보로만 기록한다."
+    },
+    {
+      "activity_id": "ybm_k7_0037",
+      "book_id": "YBM_K7",
+      "title": "힘의 요소 찾기",
+      "standard_codes": [
+        "9과05-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "[9과05-01]"
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "138~141\n•과학에서의 힘 \n•힘을 나타내는 방법 \n[해 보기｜관찰] 힘의 요소 찾기 \n02\t힘의 합성과 평형 조건 \n1\n2"
+        },
+        {
+          "pdf_page": 152,
+          "printed_page": 140,
+          "quote": "힘의 요소 찾기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0038",
+      "book_id": "YBM_K7",
+      "title": "힘의 평형 조건 찾기",
+      "standard_codes": [
+        "9과05-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "[9과05-01]"
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "142~143\n•힘의 합성과 평형 조건 \n[해 보기｜관찰] 힘의 평형 조건 찾기 "
+        },
+        {
+          "pdf_page": 155,
+          "printed_page": 143,
+          "quote": "힘의 평형 조건 찾기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0039",
+      "book_id": "YBM_K7",
+      "title": "중력의 방향 찾기",
+      "standard_codes": [
+        "9과05-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "[9과05-02]"
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "144~151\n•여러 가지 힘\n[해 보기｜예상] 중력의 방향 찾기\n[탐구｜측정] 용수철의 탄성력 측정하기 \n[탐구｜측정] 마찰력의 크기 비교하기\n[탐구｜측정] 물속에서 부력 측정하기 \n  \t \u0001한 뼘 자라는 창의·혁신\n  \t \u0001중단원 마무리\n1\n7"
+        },
+        {
+          "pdf_page": 156,
+          "printed_page": 144,
+          "quote": "중력의 방향 찾기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0040",
+      "book_id": "YBM_K7",
+      "title": "용수철의 탄성력 측정하기",
+      "standard_codes": [
+        "9과05-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "[9과05-02]"
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "144~151\n•여러 가지 힘\n[해 보기｜예상] 중력의 방향 찾기\n[탐구｜측정] 용수철의 탄성력 측정하기 \n[탐구｜측정] 마찰력의 크기 비교하기\n[탐구｜측정] 물속에서 부력 측정하기 \n  \t \u0001한 뼘 자라는 창의·혁신\n  \t \u0001중단원 마무리\n1\n7"
+        },
+        {
+          "pdf_page": 158,
+          "printed_page": 146,
+          "quote": "용수철의 탄성력 측정하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0041",
+      "book_id": "YBM_K7",
+      "title": "마찰력의 크기 비교하기",
+      "standard_codes": [
+        "9과05-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "[9과05-02]"
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "144~151\n•여러 가지 힘\n[해 보기｜예상] 중력의 방향 찾기\n[탐구｜측정] 용수철의 탄성력 측정하기 \n[탐구｜측정] 마찰력의 크기 비교하기\n[탐구｜측정] 물속에서 부력 측정하기 \n  \t \u0001한 뼘 자라는 창의·혁신\n  \t \u0001중단원 마무리\n1\n7"
+        },
+        {
+          "pdf_page": 160,
+          "printed_page": 148,
+          "quote": "마찰력의 크기 비교하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0042",
+      "book_id": "YBM_K7",
+      "title": "물속에서 부력 측정하기",
+      "standard_codes": [
+        "9과05-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "[9과05-02]"
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "144~151\n•여러 가지 힘\n[해 보기｜예상] 중력의 방향 찾기\n[탐구｜측정] 용수철의 탄성력 측정하기 \n[탐구｜측정] 마찰력의 크기 비교하기\n[탐구｜측정] 물속에서 부력 측정하기 \n  \t \u0001한 뼘 자라는 창의·혁신\n  \t \u0001중단원 마무리\n1\n7"
+        },
+        {
+          "pdf_page": 162,
+          "printed_page": 150,
+          "quote": "물속에서 부력 측정하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0043",
+      "book_id": "YBM_K7",
+      "title": "고무줄로 움직이는 배 만들기",
+      "standard_codes": [
+        "9과05-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "[9과05-02]"
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "152~153\n•고무줄로 움직이는 배 만들기"
+        },
+        {
+          "pdf_page": 164,
+          "printed_page": 152,
+          "quote": "고무줄로 움직이는 배 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0044",
+      "book_id": "YBM_K7",
+      "title": "놀이기구에서 힘의 작용 탐구하기",
+      "standard_codes": [
+        "9과05-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "[9과05-03]"
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "154~157\n•알짜힘과 물체의 운동 \n[탐구｜분류] 놀이기구에서의 힘의 작용 \n탐구하기"
+        },
+        {
+          "pdf_page": 168,
+          "printed_page": 156,
+          "quote": "놀이기구에서 힘의 작용 탐구하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0045",
+      "book_id": "YBM_K7",
+      "title": "힘의 평형 놀이하기",
+      "standard_codes": [
+        "9과05-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "[9과05-04]"
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "158~159\n[탐구｜의사소통] 힘의 평형 놀이하기 \n03\t힘과 운동의 활용 \n1\n10\n-"
+        },
+        {
+          "pdf_page": 171,
+          "printed_page": 159,
+          "quote": "힘의 평형 놀이하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0046",
+      "book_id": "YBM_K7",
+      "title": "힘의 특징을 활용한 장난감 설계하기",
+      "standard_codes": [
+        "9과05-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "[9과05-04]"
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "160~161\n[함께 만드는 탐구] 힘의 특징을 활용한 \n장난감 설계하기\n  \t \u0001한 뼘 자라는 창의·혁신\n  \t \u0001중단원 마무리\n1\n11"
+        },
+        {
+          "pdf_page": 172,
+          "printed_page": 160,
+          "quote": "힘의 특징을 활용한 장난감 설계하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0047",
+      "book_id": "YBM_K7",
+      "title": "가상 공간에서의 힘과 운동",
+      "standard_codes": [
+        "9과05-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "[9과05-04]"
+        },
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "162~163\n•가상 공간에서의 힘과 운동\n  \t \u0001실천하는 생태 시민\n1\n12"
+        },
+        {
+          "pdf_page": 174,
+          "printed_page": 162,
+          "quote": "가상 공간에서의 힘과 운동"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0048",
+      "book_id": "YBM_K7",
+      "title": "안전하게 즐기는 자전거 생활",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과05-02"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 148,
+          "printed_page": "136A",
+          "quote": "164~165\n•안전하게 즐기는 자전거 생활\n  \t \u0001생각 키우는 과학 읽기\n  \t \u0001대단원 마무리\n1\n13"
+        },
+        {
+          "pdf_page": 176,
+          "printed_page": 164,
+          "quote": "안전하게 즐기는 자전거 생활"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 자전거 브레이크의 마찰력 등 힘의 특징을 조사한다. 내용상 후보로만 기록한다."
+    },
+    {
+      "activity_id": "ybm_k7_0049",
+      "book_id": "YBM_K7",
+      "title": "기체의 압력 체험하기",
+      "standard_codes": [
+        "9과06-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "[9과06-01]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "173~175\n•\t압력\n•\t기체의 압력과 입자 운동\n[ \u0007해 보기 | 관찰 ] 기체의 압력 체험하기"
+        },
+        {
+          "pdf_page": 188,
+          "printed_page": 174,
+          "quote": "기체의 압력 체험하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0050",
+      "book_id": "YBM_K7",
+      "title": "기체의 압력과 부피 관계를 실험으로 알아보기",
+      "standard_codes": [
+        "9과06-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "[9과06-02]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "176~177\n•\t압력에 따른 기체의 부피 변화\n[ \u0007탐구 | 측정 ] 기체의 압력과 부피 관계를 \n실험으로 알아보기\n3"
+        },
+        {
+          "pdf_page": 190,
+          "printed_page": 176,
+          "quote": "기체의 압력과 부피 관계를 실험으로 알아보기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0051",
+      "book_id": "YBM_K7",
+      "title": "입자 모형으로 기체의 압력과 부피 관계 설명하기",
+      "standard_codes": [
+        "9과06-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "[9과06-02]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "178~179\n•\t기체의 압력에 따른 기체의 입자 운동\n과 부피 변화\n[ \u0007탐구 | 측정 ] 입자 모형으로 기체의 압력\n과 부피 관계 설명하기\n03\t\u0007생활 속 기체의 압력과 \n부피 관계\n1\n4"
+        },
+        {
+          "pdf_page": 192,
+          "printed_page": 178,
+          "quote": "입자 모형으로 기체의 압력과 부피 관계 설명하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0052",
+      "book_id": "YBM_K7",
+      "title": "기체의 압력과 부피 관계 날개책 만들기",
+      "standard_codes": [
+        "9과06-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "[9과06-02]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "180~181\n[ \u0007해 보기 | 자료해석 ] 기체의 압력과 부피 \n관계 날개책 만들기\n  \t \u0007한 뼘 자라는 창의`혁신\n  \t \u0007중단원 마무리\n1\n5"
+        },
+        {
+          "pdf_page": 195,
+          "printed_page": 181,
+          "quote": "기체의 압력과 부피 관계 날개책 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0053",
+      "book_id": "YBM_K7",
+      "title": "나만의 빨대 잠수부 만들기",
+      "standard_codes": [
+        "9과06-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "[9과06-02]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "182~183\n•\t나만의 빨대 잠수부 만들기"
+        },
+        {
+          "pdf_page": 196,
+          "printed_page": 182,
+          "quote": "나만의 빨대 잠수부 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0054",
+      "book_id": "YBM_K7",
+      "title": "기체의 온도와 부피 관계를 실험으로 알아보기",
+      "standard_codes": [
+        "9과06-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "[9과06-03]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "184~187\n•\t온도에 따른 기체의 부피 변화\n[ \u0007탐구 | 관찰 ] 기체의 온도와 부피의 관계\n를 실험으로 알아보기\n7"
+        },
+        {
+          "pdf_page": 200,
+          "printed_page": 186,
+          "quote": "기체의 온도와 부피 관계를 실험으로 알아보기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0055",
+      "book_id": "YBM_K7",
+      "title": "입자 모형으로 기체의 온도와 부피 관계 설명하기",
+      "standard_codes": [
+        "9과06-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "[9과06-03]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "188~189\n•\t온도에 따른 기체의 입자 운동과 부피 \n변화\n[ \u0007해 보기 | 추리 ] 입자 모형으로 기체의 온\n도와 부피 관계 설명하기\n02\t\u0007생활 속 기체의 온도와 \n부피 관계\n1\n8"
+        },
+        {
+          "pdf_page": 202,
+          "printed_page": 188,
+          "quote": "입자 모형으로 기체의 온도와 부피 관계 설명하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0056",
+      "book_id": "YBM_K7",
+      "title": "기체의 온도와 부피 관계를 만화로 표현하기",
+      "standard_codes": [
+        "9과06-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "[9과06-03]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "190~191\n[ \u0007함께 만드는 탐구 ] 기체의 온도와 부피 \n관계를 만화로 표현하기\n  \t \u0007\u0007한 뼘 자라는 창의`혁신\n  \t \u0007중단원 마무리\n1\n9"
+        },
+        {
+          "pdf_page": 204,
+          "printed_page": 190,
+          "quote": "기체의 온도와 부피 관계를 만화로 표현하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0057",
+      "book_id": "YBM_K7",
+      "title": "접착제 없이 요구르트병 붙이기",
+      "standard_codes": [
+        "9과06-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "[9과06-03]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "192~193\n•\t접착제 없이 요구르트병 붙이기\n  \t \u0007실천하는 생태 시민\n1\n10"
+        },
+        {
+          "pdf_page": 206,
+          "printed_page": 192,
+          "quote": "접착제 없이 요구르트병 붙이기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0058",
+      "book_id": "YBM_K7",
+      "title": "풍등 날리기 대체 행사 기획하기",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과06-03"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "170A",
+          "quote": "194~195\n•\t풍등 날리기 대체 행사 기획하기\n  \t \u0007생각 키우는 과학 읽기\n  \t \u0007대단원 마무리\n1\n11"
+        },
+        {
+          "pdf_page": 208,
+          "printed_page": 194,
+          "quote": "풍등 날리기 대체 행사 기획하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 도입 글이 공기를 데우면 풍등이 뜨는 현상을 언급한다. 수행의 중심은 생태 영향과 대체 행사다. 내용상 후보로만 기록한다."
+    },
+    {
+      "activity_id": "ybm_k7_0059",
+      "book_id": "YBM_K7",
+      "title": "행성 이름 알아맞히기 놀이하기",
+      "standard_codes": [
+        "9과07-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "[9과07-01]"
+        },
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "202~205\n•\t태양계를 구성하는 천체\n[해 보기 | 의사소통] 행성 이름 알아맞히\n기 놀이하기\n2"
+        },
+        {
+          "pdf_page": 221,
+          "printed_page": 205,
+          "quote": "행성 이름 알아맞히기 놀이하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0060",
+      "book_id": "YBM_K7",
+      "title": "태양계 행성 분류하기",
+      "standard_codes": [
+        "9과07-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "[9과07-01]"
+        },
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "206~207\n•지구형 행성과 목성형 행성\n[탐구 | 분류] 태양계 행성 분류하기"
+        },
+        {
+          "pdf_page": 222,
+          "printed_page": 206,
+          "quote": "태양계 행성 분류하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0061",
+      "book_id": "YBM_K7",
+      "title": "태양 활동이 지구에 미치는 영향 추론하기",
+      "standard_codes": [
+        "9과07-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "[9과07-02]"
+        },
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "208~211\n•\t태양의 표면과 대기\n•\t\u0007태양 활동이 지구에 미치는 영향\n[해 보기 | 추리] 태양 활동이 지구에 미치\n는 영향 추론하기\n03 태양계 천체의 관측\n1\n4\n+"
+        },
+        {
+          "pdf_page": 226,
+          "printed_page": 210,
+          "quote": "태양 활동이 지구에 미치는 영향 추론하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0062",
+      "book_id": "YBM_K7",
+      "title": "천체 망원경으로 태양계 천체 관측하기",
+      "standard_codes": [
+        "9과07-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "[9과07-02]"
+        },
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "212~213\n•태양계 천체의 관측\n[함께 관측하는 탐구] 천체 망원경으로 태\n양계 천체 관측하기\n  \t 한 뼘 자라는 창의∙혁신\n  \t 중단원 마무리\n1\n5"
+        },
+        {
+          "pdf_page": 228,
+          "printed_page": 212,
+          "quote": "천체 망원경으로 태양계 천체 관측하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0063",
+      "book_id": "YBM_K7",
+      "title": "태양계 천체를 홀로그램으로 관찰하기",
+      "standard_codes": [
+        "9과07-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "[9과07-02]"
+        },
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "214~215\n•\u0007태양계 천체를 홀로그램으로 관찰하기"
+        },
+        {
+          "pdf_page": 230,
+          "printed_page": 214,
+          "quote": "태양계 천체를 홀로그램으로 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0064",
+      "book_id": "YBM_K7",
+      "title": "지구 자전에 의한 별의 운동 관찰하기",
+      "standard_codes": [
+        "9과07-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "[9과07-03]"
+        },
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "216~219\n•\u0007지구 자전과 천체의 겉보기 운동\n[해 보기 | 관찰] 지구 자전에 의한 별의 \n운동 관찰하기\n7"
+        },
+        {
+          "pdf_page": 234,
+          "printed_page": 218,
+          "quote": "지구 자전에 의한 별의 운동 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0065",
+      "book_id": "YBM_K7",
+      "title": "지구 공전에 의한 별자리 변화 관찰하기",
+      "standard_codes": [
+        "9과07-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "[9과07-03]"
+        },
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "220~222\n•지구 공전과 별자리 변화\n[탐구 | 관찰] 지구 공전에 의한 별자리 변\n화 관찰하기 "
+        },
+        {
+          "pdf_page": 236,
+          "printed_page": 220,
+          "quote": "지구 공전에 의한 별자리 변화 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0066",
+      "book_id": "YBM_K7",
+      "title": "모형을 이용하여 달의 위상변화 관찰하기",
+      "standard_codes": [
+        "9과07-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "[9과07-04]"
+        },
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "223~225\n•달의 위상변화\n[탐구 | 관찰] 모형을 이용하여 달의 위상\n변화 관찰하기\n03 일식과 월식\n  \t 중단원 마무리\n1\n9"
+        },
+        {
+          "pdf_page": 240,
+          "printed_page": 224,
+          "quote": "모형을 이용하여 달의 위상변화 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0067",
+      "book_id": "YBM_K7",
+      "title": "모형으로 일식과 월식 관찰하기",
+      "standard_codes": [
+        "9과07-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "[9과07-04]"
+        },
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "226~229\n•일식과 월식\n[탐구 | 관찰] 모형으로 일식과 월식 관찰\n하기\n  \t 실천하는 생태 시민\n1\n10"
+        },
+        {
+          "pdf_page": 242,
+          "printed_page": 226,
+          "quote": "모형으로 일식과 월식 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k7_0068",
+      "book_id": "YBM_K7",
+      "title": "무분별한 달 개발을 막기 위한 달 조약 만들기",
+      "standard_codes": null,
+      "candidate_codes": [],
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pdf_page": 216,
+          "printed_page": "200A",
+          "quote": "230~231\n•\u0007무분별한 달 개발을 막기 위한 달 조약 \n만들기\n  \t 생각 키우는 과학 읽기\n  \t 대단원 마무리\n1\n11"
+        },
+        {
+          "pdf_page": 246,
+          "printed_page": 230,
+          "quote": "무분별한 달 개발을 막기 위한 달 조약 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 이 활동에 적용할 공식 기준은 확정하지 않는다."
+    },
+    {
+      "activity_id": "ybm_k8_0001",
+      "book_id": "YBM_K8",
+      "title": "물질을 구별하는 방법 알아보기",
+      "standard_codes": [
+        "9과08-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "[9과08-01]"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "10~13\n•\t물질의 특성\n[해 보기 | 자료 해석] 물질을 구별하는 방\n법 알아보기\n02\t밀도\n1\n2"
+        },
+        {
+          "pdf_page": 16,
+          "printed_page": 12,
+          "quote": "물질을 구별하는 방법 알아보기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0002",
+      "book_id": "YBM_K8",
+      "title": "물질의 질량과 부피를 측정하여 물질 구별하기",
+      "standard_codes": [
+        "9과08-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "[9과08-01]"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "14~17\n•\t밀도\n[탐구 | 측정] 물질의 질량과 부피를 측정\n하여 물질 구별하기\n03\t용해도\n2\n3"
+        },
+        {
+          "pdf_page": 18,
+          "printed_page": 14,
+          "quote": "물질의 질량과 부피를 측정하여 물질 구별하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0003",
+      "book_id": "YBM_K8",
+      "title": "용질이 물에 녹는 양 비교하기",
+      "standard_codes": [
+        "9과08-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "[9과08-01]"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "18~19\n•\t포화 용액과 불포화 용액\n[탐구 | 비교] 용질이 물에 녹는 양 비교 \n하기\n4"
+        },
+        {
+          "pdf_page": 23,
+          "printed_page": 19,
+          "quote": "용질이 물에 녹는 양 비교하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0004",
+      "book_id": "YBM_K8",
+      "title": "온도에 따른 기체의 용해도 관찰하기",
+      "standard_codes": [
+        "9과08-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "[9과08-01]"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "20~21\n•\t용해도    •고체 물질의 용해도\n•\t기체 물질의 용해도\n[해 보기 | 관찰] 온도에 따른 기체의 용해\n도 관찰하기\n04\t녹는점과 끓는점\n2\n5"
+        },
+        {
+          "pdf_page": 24,
+          "printed_page": 20,
+          "quote": "온도에 따른 기체의 용해도 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0005",
+      "book_id": "YBM_K8",
+      "title": "물질이 융해하거나 응고할 때의 온도 알아보기",
+      "standard_codes": [
+        "9과08-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "[9과08-01]"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "22~23\n•\t녹는점과 어는점\n[해 보기 | 자료 해석] 물질이 융해하거나 \n응고할 때의 온도 알아보기\n6"
+        },
+        {
+          "pdf_page": 26,
+          "printed_page": 22,
+          "quote": "물질이 융해하거나 응고할 때의 온도 알아보기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0006",
+      "book_id": "YBM_K8",
+      "title": "물질의 끓는 온도 측정하기",
+      "standard_codes": [
+        "9과08-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "[9과08-01]"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "24~25\n•\t끓는점\n[탐구 | 측정] 물질의 끓는 온도 측정하기\n  \t \u0007한 뼘 자라는 창의·혁신\n  \t \u0007중단원 마무리\n1\n7"
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": 24,
+          "quote": "물질의 끓는 온도 측정하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0007",
+      "book_id": "YBM_K8",
+      "title": "에브루를 이용한 나만의 작품 만들기",
+      "standard_codes": [
+        "9과08-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "[9과08-01]"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "26~27\n•\t에브루를 이용한 나만의 작품 만들기"
+        },
+        {
+          "pdf_page": 30,
+          "printed_page": 26,
+          "quote": "에브루를 이용한 나만의 작품 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0008",
+      "book_id": "YBM_K8",
+      "title": "순물질과 혼합물 구별하기",
+      "standard_codes": [
+        "9과08-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "[9과08-02]"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "28~31\n•\t순물질과 혼합물\n•\t물질의 특성을 이용한 순물질과 혼합물\n의 분류\n[해 보기 | 의사소통] 순물질과 혼합물 구\n별하기"
+        },
+        {
+          "pdf_page": 34,
+          "printed_page": 30,
+          "quote": "순물질과 혼합물 구별하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0009",
+      "book_id": "YBM_K8",
+      "title": "밀도 차이를 이용하여 혼합물 분리하기",
+      "standard_codes": [
+        "9과08-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "[9과08-03]"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "32~33\n•\t밀도 차이를 이용한 혼합물 분리\n[탐구 | 관찰] 밀도 차이를 이용하여 혼합\n물 분리하기\n10"
+        },
+        {
+          "pdf_page": 37,
+          "printed_page": 33,
+          "quote": "밀도 차이를 이용하여 혼합물 분리하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0010",
+      "book_id": "YBM_K8",
+      "title": "용해도 차이를 이용하여 혼합물 분리하기",
+      "standard_codes": [
+        "9과08-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "[9과08-03]"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "34~36\n•\t용해도 차이를 이용한 혼합물 분리\n•\t끓는점 차이를 이용한 혼합물 분리\n[탐구 | 관찰] 용해도 차이를 이용하여 혼\n합물 분리하기\n03\u0001\t\u0007생활 속 혼합물 분리의 \n예\n  \t \u0007생각 키우는 과학 읽기\n  \t \u0007중단원 마무리\n2\n11"
+        },
+        {
+          "pdf_page": 38,
+          "printed_page": 34,
+          "quote": "용해도 차이를 이용하여 혼합물 분리하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0011",
+      "book_id": "YBM_K8",
+      "title": "혼합물 분리 실험을 설계하고 수행하기",
+      "standard_codes": [
+        "9과08-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "[9과08-03]"
+        },
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "40~43\n[함께 만드는 탐구] 혼합물 분리 실험을 \n설계하고 수행하기\n•\t물 부족을 해결할 해수 담수화 설비, 기\n계공학자\n  \t \u0007실천하는 생태 시민\n1\n13\n44\n•\t해양 쓰레기를 줄이기 위한 여러 가지 \n실천 방법\n  \t \u0007대단원 마무리\n1\n14"
+        },
+        {
+          "pdf_page": 44,
+          "printed_page": 40,
+          "quote": "혼합물 분리 실험을 설계하고 수행하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0012",
+      "book_id": "YBM_K8",
+      "title": "해양 쓰레기를 줄이기 위한 여러 가지 실천 방법",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과08-01"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 12,
+          "printed_page": "8A",
+          "quote": "44\n•\t해양 쓰레기를 줄이기 위한 여러 가지 \n실천 방법\n  \t \u0007대단원 마무리\n1\n14"
+        },
+        {
+          "pdf_page": 48,
+          "printed_page": 44,
+          "quote": "해양 쓰레기를 줄이기 위한 여러 가지 실천 방법"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 플라스틱이 뜨거나 가라앉는 현상을 물질의 특성과 연결해 묻는다. 내용상 후보로만 기록한다."
+    },
+    {
+      "activity_id": "ybm_k8_0013",
+      "book_id": "YBM_K8",
+      "title": "지구와 달의 표면 비교하기",
+      "standard_codes": [
+        "9과09-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "[9과09-01]"
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "50~52\n•\t지구계의 구성 요소\n[해 보기 | 관찰] 지구와 달의 표면 비교 \n하기\n02\t\u0007지권의 층상 구조\n2"
+        },
+        {
+          "pdf_page": 57,
+          "printed_page": 51,
+          "quote": "지구와 달의 표면 비교하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0014",
+      "book_id": "YBM_K8",
+      "title": "지권의 층상 구조와 특징 조사하기",
+      "standard_codes": [
+        "9과09-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "[9과09-01]"
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "53~55\n•\t지권의 층상 구조 및 특징\n[탐구 | 조사] 지권의 층상 구조와 특징  \n조사하기\n\t \u0007한 뼘 자라는 창의・혁신\n\t 중단원 마무리\n1\n3"
+        },
+        {
+          "pdf_page": 60,
+          "printed_page": 54,
+          "quote": "지권의 층상 구조와 특징 조사하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0015",
+      "book_id": "YBM_K8",
+      "title": "지구 내부 탐험 게임 만들기",
+      "standard_codes": [
+        "9과09-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "[9과09-01]"
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "56~57\n•\t지구 내부 탐험 게임 만들기"
+        },
+        {
+          "pdf_page": 62,
+          "printed_page": 56,
+          "quote": "지구 내부 탐험 게임 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0016",
+      "book_id": "YBM_K8",
+      "title": "광물의 특성 관찰하기",
+      "standard_codes": [
+        "9과09-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "[9과09-02]"
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "58~62\n•\t광물\n•\t광물의 특성\n[탐구 | 관찰] 광물의 특성 관찰하기\n5"
+        },
+        {
+          "pdf_page": 66,
+          "printed_page": 60,
+          "quote": "광물의 특성 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0017",
+      "book_id": "YBM_K8",
+      "title": "암석과 광물의 활용과 가치 알아보기",
+      "standard_codes": [
+        "9과09-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "[9과09-02]"
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "63~65\n•\t암석과 광물의 활용과 가치\n[탐구 | 의사소통] 암석과 광물의 활용과 \n가치 알아보기"
+        },
+        {
+          "pdf_page": 70,
+          "printed_page": 64,
+          "quote": "암석과 광물의 활용과 가치 알아보기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0018",
+      "book_id": "YBM_K8",
+      "title": "암석을 관찰하여 분류하기",
+      "standard_codes": [
+        "9과09-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "[9과09-03]"
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "70~71\n[탐구 | 관찰] 암석을 관찰하여 분류하기\n8"
+        },
+        {
+          "pdf_page": 76,
+          "printed_page": 70,
+          "quote": "암석을 관찰하여 분류하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0019",
+      "book_id": "YBM_K8",
+      "title": "국가지질공원의 암석 조사하기",
+      "standard_codes": [
+        "9과09-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "[9과09-03]"
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "72~73\n•\t암석의 순환\n[해 보기 | 조사] 국가지질공원의 암석 조\n사하기"
+        },
+        {
+          "pdf_page": 79,
+          "printed_page": 73,
+          "quote": "국가지질공원의 암석 조사하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0020",
+      "book_id": "YBM_K8",
+      "title": "암석의 풍화와 토양의 생성을 글과 만화로 표현하기",
+      "standard_codes": [
+        "9과09-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "[9과09-04]"
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "74~79\n•\t암석의 풍화  •토양의 생성\n[해 보기 | 의사소통] 암석의 풍화와 토양\n의 생성을 글과 만화로 표현하기\n•\t돌 보기를 황금같이 하는 사람들, 지질\n자원연구원"
+        },
+        {
+          "pdf_page": 83,
+          "printed_page": 77,
+          "quote": "암석의 풍화와 토양의 생성을 글과 만화로 표현하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0021",
+      "book_id": "YBM_K8",
+      "title": "대륙 이동 경로 영상 만들기",
+      "standard_codes": [
+        "9과09-05"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "[9과09-05]"
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "80~84\n•\t대륙 이동설  •판의 이동\n[해 보기 | 관찰] 대륙 이동 경로 영상 만\n들기\n02\t\u0007화산대와 지진대\n\t 생각 키우는 과학 읽기\n\t 중단원 마무리\n2"
+        },
+        {
+          "pdf_page": 88,
+          "printed_page": 82,
+          "quote": "대륙 이동 경로 영상 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0022",
+      "book_id": "YBM_K8",
+      "title": "빅데이터를 활용하여 화산대 및 지진대와 판의 경계와의 관련성 탐구하기",
+      "standard_codes": [
+        "9과09-05"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "[9과09-05]"
+        },
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "85~89\n•\t화산대, 지진대\n[탐구 | 조사] 빅데이터를 활용하여 화산\n대 및 지진대와 판의 경계와의 관련성 \n탐구하기\n•\t과학 기술의 발전으로 직접 확인된 한\n반도의 움직임\n\t 실천하는 생태 시민\n1\n14\n90\n•\t전자 폐기물 속에서 금을 캐자!\n\t 대단원 마무리\n1\n15"
+        },
+        {
+          "pdf_page": 92,
+          "printed_page": 86,
+          "quote": "빅데이터를 활용하여 화산대 및 지진대와 판의 경계와의 관련성 탐구하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0023",
+      "book_id": "YBM_K8",
+      "title": "전자 폐기물 속에서 금을 캐자!",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과09-02"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 54,
+          "printed_page": "48A",
+          "quote": "90\n•\t전자 폐기물 속에서 금을 캐자!\n\t 대단원 마무리\n1\n15"
+        },
+        {
+          "pdf_page": 96,
+          "printed_page": 90,
+          "quote": "전자 폐기물 속에서 금을 캐자!"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 전자 폐기물의 광물 자원 회수와 활용 가치를 다룬다. 내용상 후보로만 기록한다."
+    },
+    {
+      "activity_id": "ybm_k8_0024",
+      "book_id": "YBM_K8",
+      "title": "빛의 반사와 굴절의 특징 관찰하기",
+      "standard_codes": [
+        "9과10-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-01]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "97~99\n•\t빛의 반사와 굴절\n[탐구 | 관찰] 빛의 반사와 굴절의 특징 관\n찰하기\n2"
+        },
+        {
+          "pdf_page": 106,
+          "printed_page": 98,
+          "quote": "빛의 반사와 굴절의 특징 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0025",
+      "book_id": "YBM_K8",
+      "title": "물체를 보는 과정을 빛의 경로로 추론하기",
+      "standard_codes": [
+        "9과10-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-01]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "100~101\n•\t물체를 보는 과정\n[해 보기 | 토의] 물체를 보는 과정을 빛의 \n경로로 추론하기"
+        },
+        {
+          "pdf_page": 108,
+          "printed_page": 100,
+          "quote": "물체를 보는 과정을 빛의 경로로 추론하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0026",
+      "book_id": "YBM_K8",
+      "title": "평면거울에 의한 상의 특징 관찰하기",
+      "standard_codes": [
+        "9과10-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-02]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "102~103\n•\t평면거울\n[해 보기 | 관찰] 평면거울에 의한 상의 특\n징 관찰하기\n4\n+"
+        },
+        {
+          "pdf_page": 110,
+          "printed_page": 102,
+          "quote": "평면거울에 의한 상의 특징 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0027",
+      "book_id": "YBM_K8",
+      "title": "볼록 거울과 오목 거울에 의한 상의 특징 관찰하기",
+      "standard_codes": [
+        "9과10-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-02]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "104~106\n•\t볼록 거울과 오목 거울\n[탐구 | 관찰] 볼록 거울과 오목 거울에 의\n한 상의 특징 관찰하기\n03\t굴절과 렌즈\n2\n5"
+        },
+        {
+          "pdf_page": 112,
+          "printed_page": 104,
+          "quote": "볼록 거울과 오목 거울에 의한 상의 특징 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0028",
+      "book_id": "YBM_K8",
+      "title": "볼록 렌즈와 오목 렌즈에 의한 상의 특징 관찰하기",
+      "standard_codes": [
+        "9과10-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-02]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "107~109\n•\t볼록 렌즈와 오목 렌즈\n[탐구 | 관찰] 볼록 렌즈와 오목 렌즈에 의\n한 상의 특징 관찰하기\n6"
+        },
+        {
+          "pdf_page": 115,
+          "printed_page": 107,
+          "quote": "볼록 렌즈와 오목 렌즈에 의한 상의 특징 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0029",
+      "book_id": "YBM_K8",
+      "title": "일상생활에서 사용되는 거울과 렌즈 분류하기",
+      "standard_codes": [
+        "9과10-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-02]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "110~111\n[탐구 | 조사] 일상생활에서 사용되는 거\n울과 렌즈 분류하기"
+        },
+        {
+          "pdf_page": 118,
+          "printed_page": 110,
+          "quote": "일상생활에서 사용되는 거울과 렌즈 분류하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0030",
+      "book_id": "YBM_K8",
+      "title": "조명에 따른 물체의 색 관찰하기",
+      "standard_codes": [
+        "9과10-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-03]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "112~113\n•\t물체의 색\n[탐구 | 관찰] 조명에 따른 물체의 색 관찰\n하기\n8\n~\n9"
+        },
+        {
+          "pdf_page": 120,
+          "printed_page": 112,
+          "quote": "조명에 따른 물체의 색 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0031",
+      "book_id": "YBM_K8",
+      "title": "영상 장치를 활용한 빛의 합성 관찰하기",
+      "standard_codes": [
+        "9과10-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-03]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "114~117\n•\t빛의 합성\n[탐구 | 관찰] 영상 장치를 활용한 빛의 합\n성 관찰하기\n•\t도심 속 빛의 잔치  •중단원 마무리"
+        },
+        {
+          "pdf_page": 122,
+          "printed_page": 114,
+          "quote": "영상 장치를 활용한 빛의 합성 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0032",
+      "book_id": "YBM_K8",
+      "title": "파동의 발생과 전달 탐구하기",
+      "standard_codes": [
+        "9과10-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-04]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "119~121\n•\t파동의 발생과 전달\n[해 보기 | 관찰] 파동의 발생과 전달 탐구\n하기\n11"
+        },
+        {
+          "pdf_page": 127,
+          "printed_page": 119,
+          "quote": "파동의 발생과 전달 탐구하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0033",
+      "book_id": "YBM_K8",
+      "title": "파동을 이용한 에너지와 정보의 전달 사례를 조사하여 공유하기",
+      "standard_codes": [
+        "9과10-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-04]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "122~123\n[함께 만드는 탐구] 파동을 이용한 에너지\n와 정보의 전달 사례를 조사하여 공유하기\n02\t\u0007파동과 소리\n1\n12\n+"
+        },
+        {
+          "pdf_page": 130,
+          "printed_page": 122,
+          "quote": "파동을 이용한 에너지와 정보의 전달 사례를 조사하여 공유하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0034",
+      "book_id": "YBM_K8",
+      "title": "디지털 탐구 도구를 이용하여 소리의 진폭, 진동수, 파형 탐구하기",
+      "standard_codes": [
+        "9과10-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-04]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "124~127\n•\t파동과 소리\n[탐구 | 분석] 디지털 탐구 도구를 이용하\n여 소리의 진폭, 진동수, 파형 탐구하기\n  \t \u0007한 뼘 자라는 창의ㆍ혁신\n  \t \u0007중단원 마무리\n1\n13"
+        },
+        {
+          "pdf_page": 132,
+          "printed_page": 124,
+          "quote": "디지털 탐구 도구를 이용하여 소리의 진폭, 진동수, 파형 탐구하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0035",
+      "book_id": "YBM_K8",
+      "title": "눈으로 음악을 감상하는 장치 만들기",
+      "standard_codes": [
+        "9과10-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "[9과10-04]"
+        },
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "128~129\n•\t눈으로 음악을 감상하는 장치 만들기\n   \t\u0007실천하는 생태 시민\n1\n14\n130\n•\t소음 공해로부터 모두가 안전할 수 있\n는 세상\n  \t \u0007대단원 마무리\n1\n15"
+        },
+        {
+          "pdf_page": 136,
+          "printed_page": 128,
+          "quote": "눈으로 음악을 감상하는 장치 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0036",
+      "book_id": "YBM_K8",
+      "title": "소음 공해로부터 모두가 안전할 수 있는 세상",
+      "standard_codes": null,
+      "candidate_codes": [],
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pdf_page": 102,
+          "printed_page": "94A",
+          "quote": "130\n•\t소음 공해로부터 모두가 안전할 수 있\n는 세상\n  \t \u0007대단원 마무리\n1\n15"
+        },
+        {
+          "pdf_page": 138,
+          "printed_page": 130,
+          "quote": "소음 공해로부터 모두가 안전할 수 있는 세상"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 이 활동에 적용할 공식 기준은 확정하지 않는다."
+    },
+    {
+      "activity_id": "ybm_k8_0037",
+      "book_id": "YBM_K8",
+      "title": "원소 기호 익히기",
+      "standard_codes": [
+        "9과11-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "[9과11-01]"
+        },
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "136~139\n•\t원소의 정의와 예\n•\t원소 기호 표현 방법\n[해 보기 | 놀이] 원소 기호 익히기\n02\t\u0007화합물\n1\n2\n+"
+        },
+        {
+          "pdf_page": 149,
+          "printed_page": 139,
+          "quote": "원소 기호 익히기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0038",
+      "book_id": "YBM_K8",
+      "title": "지구 환경에 영향을 미치는 물질 표현하기",
+      "standard_codes": [
+        "9과11-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "[9과11-01]"
+        },
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "140~143\n•\t화합물의 정의와 예\n•\t화학식 표현 방법\n[해 보기 | 조사] 지구 환경에 영향을 미치\n는 물질 표현하기\n  \t \u0007한 뼘 자라는 창의·혁신\n  \t \u0007중단원 마무리\n1\n3"
+        },
+        {
+          "pdf_page": 152,
+          "printed_page": 142,
+          "quote": "지구 환경에 영향을 미치는 물질 표현하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0039",
+      "book_id": "YBM_K8",
+      "title": "원소 발견의 역사 알아보기",
+      "standard_codes": [
+        "9과11-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "[9과11-01]"
+        },
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "144~145\n•\t원소 발견의 역사 알아보기"
+        },
+        {
+          "pdf_page": 154,
+          "printed_page": 144,
+          "quote": "원소 발견의 역사 알아보기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0040",
+      "book_id": "YBM_K8",
+      "title": "원자를 모형으로 나타내기",
+      "standard_codes": [
+        "9과11-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "[9과11-02]"
+        },
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "146~149\n•\t원자의 정의\n•\t원자 구조\n[탐구 | 의사소통] 원자를 모형으로 나타\n내기\n5"
+        },
+        {
+          "pdf_page": 159,
+          "printed_page": 149,
+          "quote": "원자를 모형으로 나타내기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0041",
+      "book_id": "YBM_K8",
+      "title": "원자의 크기를 이해하기 위한 비유 모형 만들기",
+      "standard_codes": [
+        "9과11-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "[9과11-02]"
+        },
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "150~151\n•\t원자의 특징\n[해 보기 | 의사소통] 원자의 크기를 이해\n하기 위한 비유 모형 만들기"
+        },
+        {
+          "pdf_page": 161,
+          "printed_page": 151,
+          "quote": "원자의 크기를 이해하기 위한 비유 모형 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0042",
+      "book_id": "YBM_K8",
+      "title": "같은 족 원소의 유사성 탐구하기",
+      "standard_codes": [
+        "9과11-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "[9과11-03]"
+        },
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "152~155\n•\t주기율표\n•\t1 족 원소와 18 족 원소의 성질\n[탐구 | 자료 해석] 같은 족 원소의 유사성 \n탐구하기\n  \t \u0007한 뼘 자라는 창의·혁신\n  \t \u0007중단원 마무리\n1\n7"
+        },
+        {
+          "pdf_page": 164,
+          "printed_page": 154,
+          "quote": "같은 족 원소의 유사성 탐구하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0043",
+      "book_id": "YBM_K8",
+      "title": "우리 반 주기율표 만들기",
+      "standard_codes": [
+        "9과11-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "[9과11-03]"
+        },
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "156~157\n•\t우리 반 주기율표 만들기"
+        },
+        {
+          "pdf_page": 166,
+          "printed_page": 156,
+          "quote": "우리 반 주기율표 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0044",
+      "book_id": "YBM_K8",
+      "title": "전기력을 이용한 실험으로 이온의 이동 관찰하기",
+      "standard_codes": [
+        "9과11-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "[9과11-04]"
+        },
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "164~167\n•\t이온의 이동\n[탐구 | 관찰] 전기력을 이용한 실험으로 \n이온의 이동 관찰하기\n•\t전자 기기의 핵심 부분, 리튬 이온 전지\n  \t \u0007실천하는 생태 시민\n1\n12\n168\n•\t탄소 색깔로 알아보는 탄소 중립 실천\n  \t \u0007대단원 마무리\n1\n13"
+        },
+        {
+          "pdf_page": 174,
+          "printed_page": 164,
+          "quote": "전기력을 이용한 실험으로 이온의 이동 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0045",
+      "book_id": "YBM_K8",
+      "title": "탄소 색깔로 알아보는 탄소 중립 실천",
+      "standard_codes": null,
+      "candidate_codes": [],
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pdf_page": 144,
+          "printed_page": "134A",
+          "quote": "168\n•\t탄소 색깔로 알아보는 탄소 중립 실천\n  \t \u0007대단원 마무리\n1\n13"
+        },
+        {
+          "pdf_page": 178,
+          "printed_page": 168,
+          "quote": "탄소 색깔로 알아보는 탄소 중립 실천"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 이 활동에 적용할 공식 기준은 확정하지 않는다."
+    },
+    {
+      "activity_id": "ybm_k8_0046",
+      "book_id": "YBM_K8",
+      "title": "광합성의 장소와 광합성으로 만들어지는 양분 추론하기",
+      "standard_codes": [
+        "9과12-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "[9과12-01]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "174~177\n•\t광합성의 장소와 광합성으로 만들어지\n는 양분 \n[해 보기｜자료 해석] 광합성의 장소와 \n광합성으로 만들어지는 양분  추론하기\n•\t광합성에서 출입하는 기체\n[해 보기｜자료 해석] 광합성으로 만들\n어지는 기체 추론하기\n2"
+        },
+        {
+          "pdf_page": 188,
+          "printed_page": 176,
+          "quote": "광합성의 장소와 광합성으로 만들어지는 양분 추론하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0047",
+      "book_id": "YBM_K8",
+      "title": "광합성으로 만들어지는 기체 추론하기",
+      "standard_codes": [
+        "9과12-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "[9과12-01]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "174~177\n•\t광합성의 장소와 광합성으로 만들어지\n는 양분 \n[해 보기｜자료 해석] 광합성의 장소와 \n광합성으로 만들어지는 양분  추론하기\n•\t광합성에서 출입하는 기체\n[해 보기｜자료 해석] 광합성으로 만들\n어지는 기체 추론하기\n2"
+        },
+        {
+          "pdf_page": 189,
+          "printed_page": 177,
+          "quote": "광합성으로 만들어지는 기체 추론하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0048",
+      "book_id": "YBM_K8",
+      "title": "광합성에 필요한 물질과 광합성산물 확인하기",
+      "standard_codes": [
+        "9과12-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "[9과12-01]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "178~180\n•\t광합성에서 출입하는 기체\n•\t광합성의 과정\n[탐구｜자료 해석] 광합성에 필요한 물\n질과 광합성산물 확인하기\n02\t\u0007광합성에 영향을 미치는 \n요인\n\t \u0007생각 키우는 과학 읽기\n\t \u0007중단원 마무리\n2\n3~4\n+"
+        },
+        {
+          "pdf_page": 190,
+          "printed_page": 178,
+          "quote": "광합성에 필요한 물질과 광합성산물 확인하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0049",
+      "book_id": "YBM_K8",
+      "title": "환경요인과 광합성의 관계를 탐구하는 실험 설계하기",
+      "standard_codes": [
+        "9과12-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "[9과12-01]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "181~185\n•\t광합성에 영향을 미치는 환경요인\n[탐구｜설계] 환경요인과 광합성의 관계\n를 탐구하는 실험 설계하기\n•\t광합성의 과정이 밝혀지기까지"
+        },
+        {
+          "pdf_page": 194,
+          "printed_page": 182,
+          "quote": "환경요인과 광합성의 관계를 탐구하는 실험 설계하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0050",
+      "book_id": "YBM_K8",
+      "title": "식물의 호흡과 광합성에서 기체 출입 비교하기",
+      "standard_codes": [
+        "9과12-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "[9과12-02]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "186~189\n•\t식물의 호흡과 광합성의 관계\n•\t호흡과 광합성 과정에서 출입하는 에\n너지와 물질의 변화\n[탐구｜관찰] 식물의 호흡과 광합성에서 \n기체 출입 비교하기"
+        },
+        {
+          "pdf_page": 200,
+          "printed_page": 188,
+          "quote": "식물의 호흡과 광합성에서 기체 출입 비교하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0051",
+      "book_id": "YBM_K8",
+      "title": "광합성산물의 저장과 이용을 모형으로 나타내기",
+      "standard_codes": [
+        "9과12-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "[9과12-03]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "192~193\n[함께 만드는 탐구] 광합성산물의 저장\n과 이용을 모형으로 나타내기\n\t \u0007한 뼘 자라는 창의·혁신\n\t \u0007중단원 마무리\n1\n8"
+        },
+        {
+          "pdf_page": 204,
+          "printed_page": 192,
+          "quote": "광합성산물의 저장과 이용을 모형으로 나타내기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0052",
+      "book_id": "YBM_K8",
+      "title": "다양한 형태의 농장을 소개하는 기사 쓰기",
+      "standard_codes": [
+        "9과12-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "[9과12-03]"
+        },
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "194~195\n•\t다양한 형태의 농장을 소개하는 기사 \n쓰기\n\t \u0007실천하는 생태 시민\n1\n9\n196\n•\t초록 학교 가꾸기\n\t \u0007대단원 마무리\n1\n10"
+        },
+        {
+          "pdf_page": 206,
+          "printed_page": 194,
+          "quote": "다양한 형태의 농장을 소개하는 기사 쓰기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0053",
+      "book_id": "YBM_K8",
+      "title": "초록 학교 가꾸기",
+      "standard_codes": null,
+      "candidate_codes": [],
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pdf_page": 184,
+          "printed_page": "172A",
+          "quote": "196\n•\t초록 학교 가꾸기\n\t \u0007대단원 마무리\n1\n10"
+        },
+        {
+          "pdf_page": 208,
+          "printed_page": 196,
+          "quote": "초록 학교 가꾸기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 이 활동에 적용할 공식 기준은 확정하지 않는다."
+    },
+    {
+      "activity_id": "ybm_k8_0054",
+      "book_id": "YBM_K8",
+      "title": "음식물에 들어 있는 영양소 검출하기",
+      "standard_codes": [
+        "9과13-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "[9과13-01]"
+        },
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "202~205\n•\t영양소와 영양소 검출 반응\n[탐구 | 관찰] 음식물에 들어 있는 영양소 \n검출하기\n02\t\u0007소화계의 구조와 기능\n2\n2"
+        },
+        {
+          "pdf_page": 218,
+          "printed_page": 204,
+          "quote": "음식물에 들어 있는 영양소 검출하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0055",
+      "book_id": "YBM_K8",
+      "title": "침의 소화 작용 탐구하기",
+      "standard_codes": [
+        "9과13-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "[9과13-01]"
+        },
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "206~208\n•\t소화계\n[탐구 | 관찰] 침의 소화 작용 탐구하기\n•\t입, 위에서의 소화\n3"
+        },
+        {
+          "pdf_page": 221,
+          "printed_page": 207,
+          "quote": "침의 소화 작용 탐구하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0056",
+      "book_id": "YBM_K8",
+      "title": "모형으로 혈관의 종류와 기능 비교하기",
+      "standard_codes": [
+        "9과13-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "[9과13-02]"
+        },
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "212~215\n•\t순환계\n•\t심장, 혈관의 구조와 기능\n[해 보기 | 비교] 모형으로 혈관의 종류와 \n기능 비교하기\n•\t혈액의 구성 성분과 기능\n5"
+        },
+        {
+          "pdf_page": 228,
+          "printed_page": 214,
+          "quote": "모형으로 혈관의 종류와 기능 비교하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0057",
+      "book_id": "YBM_K8",
+      "title": "혈액의 순환 경로 나타내기",
+      "standard_codes": [
+        "9과13-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "[9과13-02]"
+        },
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "216~217\n•\t혈액의 순환\n[탐구 | 분석] 혈액의 순환 경로 나타내기\n  \t \u0007한 뼘 자라는 창의`혁신\n  \t \u0007중단원 마무리\n1\n6"
+        },
+        {
+          "pdf_page": 231,
+          "printed_page": 217,
+          "quote": "혈액의 순환 경로 나타내기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0058",
+      "book_id": "YBM_K8",
+      "title": "동물 실험 생명윤리 토의하기",
+      "standard_codes": [
+        "9과13-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "[9과13-02]"
+        },
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "218~219\n•\t동물 실험 생명윤리 토의하기"
+        },
+        {
+          "pdf_page": 232,
+          "printed_page": 218,
+          "quote": "동물 실험 생명윤리 토의하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0059",
+      "book_id": "YBM_K8",
+      "title": "호흡운동의 원리를 나타내는 모형 만들기",
+      "standard_codes": [
+        "9과13-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "[9과13-03]"
+        },
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "220~223\n•\t호흡계\n•\t호흡운동의 원리\n[탐구 | 모형] 호흡운동의 원리를 나타내\n는 모형 만들기\n8"
+        },
+        {
+          "pdf_page": 236,
+          "printed_page": 222,
+          "quote": "호흡운동의 원리를 나타내는 모형 만들기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0060",
+      "book_id": "YBM_K8",
+      "title": "들숨과 날숨에서 나타나는 기체 교환 분석하기",
+      "standard_codes": [
+        "9과13-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "[9과13-03]"
+        },
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "224~225\n•\t폐에서의 기체 교환\n[해 보기 | 자료 해석] 들숨과 날숨에서 나\n타나는 기체 교환 분석하기"
+        },
+        {
+          "pdf_page": 238,
+          "printed_page": 224,
+          "quote": "들숨과 날숨에서 나타나는 기체 교환 분석하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0061",
+      "book_id": "YBM_K8",
+      "title": "노폐물이 배설되는 과정을 모식도로 표현하기",
+      "standard_codes": [
+        "9과13-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "[9과13-04]"
+        },
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "228~229\n•\t오줌이 만들어지는 과정\n[탐구 | 모형] 노폐물이 배설되는 과정을 \n모식도로 표현하기"
+        },
+        {
+          "pdf_page": 243,
+          "printed_page": 229,
+          "quote": "노폐물이 배설되는 과정을 모식도로 표현하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0062",
+      "book_id": "YBM_K8",
+      "title": "소화, 순환, 호흡, 배설의 관계 표현하기",
+      "standard_codes": [
+        "9과13-05"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "[9과13-05]"
+        },
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "232~235\n[탐구 | 의사소통] 소화, 순환, 호흡, 배설\n의 관계 표현하기\n•\t건강 상태를 확인하는 소변 검사지\n  \t \u0007실천하는 생태 시민\n1\n14\n236\n•\t삼시 세끼로 지구 지키기\n  \t \u0007대단원 마무리\n1\n15"
+        },
+        {
+          "pdf_page": 246,
+          "printed_page": 232,
+          "quote": "소화, 순환, 호흡, 배설의 관계 표현하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0063",
+      "book_id": "YBM_K8",
+      "title": "삼시 세끼로 지구 지키기",
+      "standard_codes": null,
+      "candidate_codes": [],
+      "status": "unconfirmed",
+      "evidence": [
+        {
+          "pdf_page": 214,
+          "printed_page": "200A",
+          "quote": "236\n•\t삼시 세끼로 지구 지키기\n  \t \u0007대단원 마무리\n1\n15"
+        },
+        {
+          "pdf_page": 250,
+          "printed_page": 236,
+          "quote": "삼시 세끼로 지구 지키기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 이 활동에 적용할 공식 기준은 확정하지 않는다."
+    },
+    {
+      "activity_id": "ybm_k8_0064",
+      "book_id": "YBM_K8",
+      "title": "마찰한 물체 사이에 작용하는 힘 확인하기",
+      "standard_codes": [
+        "9과14-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "[9과14-01]"
+        },
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "242~245\n•\t마찰 전기  •전기력\n•\t물체가 대전되는 과정\n[해 보기 | 관찰] 마찰한 물체 사이에 작\n용하는 힘 확인하기\n1"
+        },
+        {
+          "pdf_page": 260,
+          "printed_page": 244,
+          "quote": "마찰한 물체 사이에 작용하는 힘 확인하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0065",
+      "book_id": "YBM_K8",
+      "title": "정전기 유도 현상 관찰하기",
+      "standard_codes": [
+        "9과14-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "[9과14-01]"
+        },
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "246~247\n•\t정전기 유도\n[해 보기 | 관찰] 정전기 유도 현상 관찰\n하기"
+        },
+        {
+          "pdf_page": 262,
+          "printed_page": 246,
+          "quote": "정전기 유도 현상 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0066",
+      "book_id": "YBM_K8",
+      "title": "물 흐름 모형으로 전기 회로 설명하기",
+      "standard_codes": [
+        "9과14-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "[9과14-02]"
+        },
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "248~249\n•\t전류, 전압, 전기 회로\n[해 보기 | 의사소통] 물 흐름 모형으로 \n전기 회로 설명하기\n4\n+"
+        },
+        {
+          "pdf_page": 265,
+          "printed_page": 249,
+          "quote": "물 흐름 모형으로 전기 회로 설명하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0067",
+      "book_id": "YBM_K8",
+      "title": "전류, 전압, 저항 사이의 관계 탐구하기",
+      "standard_codes": [
+        "9과14-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "[9과14-02]"
+        },
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "250~253\n•\t전류, 전압, 저항 사이의 관계\n[탐구 | 관찰] 전류, 전압, 저항 사이의 \n관계 탐구하기\n•\t저항  •도체, 부도체, 반도체"
+        },
+        {
+          "pdf_page": 266,
+          "printed_page": 250,
+          "quote": "전류, 전압, 저항 사이의 관계 탐구하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0068",
+      "book_id": "YBM_K8",
+      "title": "저항의 직렬연결과 병렬연결의 특징 비교하기",
+      "standard_codes": [
+        "9과14-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "[9과14-03]"
+        },
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "254~256\n•\t저항의 직렬연결, 병렬연결\n[탐구 | 관찰] 저항의 직렬연결과 병렬\n연결의 특징 비교하기   •전기 에너지\n6~7"
+        },
+        {
+          "pdf_page": 271,
+          "printed_page": 255,
+          "quote": "저항의 직렬연결과 병렬연결의 특징 비교하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0069",
+      "book_id": "YBM_K8",
+      "title": "전기 에너지의 전환과 소비 전력 보고서 작성하기",
+      "standard_codes": [
+        "9과14-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "[9과14-03]"
+        },
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "257~261\n•\t에너지 전환  •소비 전력\n[함께 만드는 탐구] 전기 에너지의 전환\n과 소비 전력 보고서 작성하기\n•\t번개의 정체를 밝힌 프랭클린"
+        },
+        {
+          "pdf_page": 274,
+          "printed_page": 258,
+          "quote": "전기 에너지의 전환과 소비 전력 보고서 작성하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0070",
+      "book_id": "YBM_K8",
+      "title": "전류가 흐르는 코일 주위의 자기장 관찰하기",
+      "standard_codes": [
+        "9과14-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "[9과14-04]"
+        },
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "262~265\n•\t자기력  •자기장  •전자석\n[탐구 | 관찰] 전류가 흐르는 코일 주위\n의 자기장 관찰하기\n•\t전류가 만드는 자기장\n02 \u0007전류와 자기장이 만드\n는 힘\n  \t \u0007한 뼘 자라는 창의·혁신\n  \t 중단원 마무리\n3\n9"
+        },
+        {
+          "pdf_page": 280,
+          "printed_page": 264,
+          "quote": "전류가 흐르는 코일 주위의 자기장 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0071",
+      "book_id": "YBM_K8",
+      "title": "자기장 안에 놓인 전류가 흐르는 코일 관찰하기",
+      "standard_codes": [
+        "9과14-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "[9과14-04]"
+        },
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "266~267\n[탐구 | 관찰] 자기장 안에 놓인 전류가 \n흐르는 코일 관찰하기\n•\t전류와 자기장이 만드는 힘\n10"
+        },
+        {
+          "pdf_page": 282,
+          "printed_page": 266,
+          "quote": "자기장 안에 놓인 전류가 흐르는 코일 관찰하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0072",
+      "book_id": "YBM_K8",
+      "title": "일상생활 속 전동기 조사하고 만들어 보기",
+      "standard_codes": [
+        "9과14-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "[9과14-04]"
+        },
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "268~269\n•\t전동기\n[해 보기 | 조사] 일상생활 속 전동기 조\n사하고 만들어 보기\n11"
+        },
+        {
+          "pdf_page": 285,
+          "printed_page": 269,
+          "quote": "일상생활 속 전동기 조사하고 만들어 보기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0073",
+      "book_id": "YBM_K8",
+      "title": "전기와 자기를 활용한 유니버설 디자인 기기 설계하기",
+      "standard_codes": [
+        "9과14-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "[9과14-04]"
+        },
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "270~271\n•\t전기와 자기를 활용한 유니버설 디자\n인 기기 설계하기\n  \t 실천하는 생태 시민\n1\n12\n272\n•\t디지털 탄소 발자국 줄이기\n  \t 대단원 마무리\n1\n13\n•\t놀이로 개념 정리하기\n•\t핵심 개념 적용하기\n•\t과학적 역량 키우기  •창의적 글쓰기"
+        },
+        {
+          "pdf_page": 286,
+          "printed_page": 270,
+          "quote": "전기와 자기를 활용한 유니버설 디자인 기기 설계하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0074",
+      "book_id": "YBM_K8",
+      "title": "디지털 탄소 발자국 줄이기",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과14-03"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 256,
+          "printed_page": "240A",
+          "quote": "272\n•\t디지털 탄소 발자국 줄이기\n  \t 대단원 마무리\n1\n13\n•\t놀이로 개념 정리하기\n•\t핵심 개념 적용하기\n•\t과학적 역량 키우기  •창의적 글쓰기"
+        },
+        {
+          "pdf_page": 288,
+          "printed_page": 272,
+          "quote": "디지털 탄소 발자국 줄이기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 디지털 기기의 전력 사용을 탄소 배출과 연결해 조사·실천한다. 내용상 후보로만 기록한다."
+    },
+    {
+      "activity_id": "ybm_k8_0075",
+      "book_id": "YBM_K8",
+      "title": "시차 관측하기",
+      "standard_codes": [
+        "9과15-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "[9과15-01]"
+        },
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "278~281\n•\t별의 거리와 연주 시차\n[해 보기 | 관측] 시차 관측하기\n02 별의 등급과 밝기\n2\n2"
+        },
+        {
+          "pdf_page": 298,
+          "printed_page": 280,
+          "quote": "시차 관측하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0076",
+      "book_id": "YBM_K8",
+      "title": "광원으로부터의 거리에 따른 빛의 밝기 실험하기",
+      "standard_codes": [
+        "9과15-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "[9과15-01]"
+        },
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "282~283\n•\t거리에 따른 빛의 밝기\n[탐구 | 관찰] 광원으로부터의 거리에 \n따른 빛의 밝기 실험하기\n3"
+        },
+        {
+          "pdf_page": 300,
+          "printed_page": 282,
+          "quote": "광원으로부터의 거리에 따른 빛의 밝기 실험하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0077",
+      "book_id": "YBM_K8",
+      "title": "별의 겉보기 등급과 절대 등급을 비교하여 거리 추정하기",
+      "standard_codes": [
+        "9과15-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "[9과15-01]"
+        },
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "284~285\n•\t겉보기 등급과 절대 등급\n[해 보기 | 자료 해석] 별의 겉보기 등\n급과 절대 등급을 비교하여 거리 추\n정하기\n03 별의 표면 온도와 색\n1\n4"
+        },
+        {
+          "pdf_page": 303,
+          "printed_page": 285,
+          "quote": "별의 겉보기 등급과 절대 등급을 비교하여 거리 추정하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0078",
+      "book_id": "YBM_K8",
+      "title": "별의 표면 온도와 색 비교하기",
+      "standard_codes": [
+        "9과15-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "[9과15-01]"
+        },
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "286~287\n•\t별의 표면 온도와 색\n[해 보기 | 조사] 별의 표면 온도와 색 \n비교하기\n  \t 한 뼘 자라는 창의·혁신\n  \t 중단원 마무리\n1\n5"
+        },
+        {
+          "pdf_page": 304,
+          "printed_page": 286,
+          "quote": "별의 표면 온도와 색 비교하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0079",
+      "book_id": "YBM_K8",
+      "title": "별을 주제로 한 예술 작품 소개하기",
+      "standard_codes": [
+        "9과15-01"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "[9과15-01]"
+        },
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "288~289\n•\t별을 주제로 한 예술 작품 소개하기"
+        },
+        {
+          "pdf_page": 306,
+          "printed_page": 288,
+          "quote": "별을 주제로 한 예술 작품 소개하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0080",
+      "book_id": "YBM_K8",
+      "title": "천체 관측 프로그램을 활용하여 우리은하를 구성하는 천체 관측하기",
+      "standard_codes": [
+        "9과15-02"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "[9과15-02]"
+        },
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "290~295\n•\t성운, 성단, 우리은하\n[탐구 | 관측] 천체 관측 프로그램을 활\n용하여 우리은하를 구성하는 천체 관\n측하기"
+        },
+        {
+          "pdf_page": 312,
+          "printed_page": 294,
+          "quote": "천체 관측 프로그램을 활용하여 우리은하를 구성하는 천체 관측하기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0081",
+      "book_id": "YBM_K8",
+      "title": "풍선을 이용하여 우주 팽창 알아보기",
+      "standard_codes": [
+        "9과15-03"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "[9과15-03]"
+        },
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "296~297\n•\t우주 팽창\n[탐구 | 관찰] 풍선을 이용하여 우주 팽\n창 알아보기"
+        },
+        {
+          "pdf_page": 314,
+          "printed_page": 296,
+          "quote": "풍선을 이용하여 우주 팽창 알아보기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0082",
+      "book_id": "YBM_K8",
+      "title": "우주 탐사 계획 세우기",
+      "standard_codes": [
+        "9과15-04"
+      ],
+      "candidate_codes": [],
+      "status": "direct",
+      "evidence": [
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "[9과15-04]"
+        },
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "302~305\n[함께 관측하는 탐구] 우주 탐사 계획 \n세우기 \n•\t우주 분쟁을 막는 우주법 변호사\n  \t 실천하는 생태 시민\n1\n11\n306\n•\t인공위성 다시 쓰기\n  \t 대단원 마무리\n1\n12"
+        },
+        {
+          "pdf_page": 320,
+          "printed_page": 302,
+          "quote": "우주 탐사 계획 세우기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획에서 해당 성취기준 셀과 같은 행에 활동명이 직접 기재되어 있다."
+    },
+    {
+      "activity_id": "ybm_k8_0083",
+      "book_id": "YBM_K8",
+      "title": "인공위성 다시 쓰기",
+      "standard_codes": null,
+      "candidate_codes": [
+        "9과15-04"
+      ],
+      "status": "candidate",
+      "evidence": [
+        {
+          "pdf_page": 294,
+          "printed_page": "276A",
+          "quote": "306\n•\t인공위성 다시 쓰기\n  \t 대단원 마무리\n1\n12"
+        },
+        {
+          "pdf_page": 324,
+          "printed_page": 306,
+          "quote": "인공위성 다시 쓰기"
+        }
+      ],
+      "reason": "교사용 단원 지도 계획의 이 활동 행은 성취기준 열이 공란이다. 인공위성 재활용과 우주 쓰레기를 조사해 우주 탐사의 영향을 다룬다. 내용상 후보로만 기록한다."
+    }
+  ]
+}

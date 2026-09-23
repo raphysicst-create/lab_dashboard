@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "activity_count": 408,
+  "unique_official_standards": 87,
+  "book_standard_records": 145,
+  "status_counts": {
+    "scope_based": 234,
+    "candidate": 29,
+    "direct": 136,
+    "unconfirmed": 9
+  },
+  "review_activity_count": 41,
+  "additional_candidate_activity_count": 3,
+  "book_counts": [
+    {
+      "book_id": "jihaksa_K7",
+      "label": "지학사 K7",
+      "standards": 26,
+      "activities": 82,
+      "direct": 0,
+      "scope_based": 74,
+      "candidate": 8,
+      "unconfirmed": 0
+    },
+    {
+      "book_id": "jihaksa_K8",
+      "label": "지학사 K8",
+      "standards": 32,
+      "activities": 87,
+      "direct": 0,
+      "scope_based": 81,
+      "candidate": 6,
+      "unconfirmed": 0
+    },
+    {
+      "book_id": "YBM_K7",
+      "label": "YBM K7",
+      "standards": 26,
+      "activities": 68,
+      "direct": 61,
+      "scope_based": 0,
+      "candidate": 5,
+      "unconfirmed": 2
+    },
+    {
+      "book_id": "YBM_K8",
+      "label": "YBM K8",
+      "standards": 32,
+      "activities": 83,
+      "direct": 75,
+      "scope_based": 0,
+      "candidate": 4,
+      "unconfirmed": 4
+    },
+    {
+      "book_id": "YBM_K9",
+      "label": "YBM K9",
+      "standards": 29,
+      "activities": 88,
+      "direct": 0,
+      "scope_based": 79,
+      "candidate": 6,
+      "unconfirmed": 3
+    }
+  ],
+  "textbook_official_text_variants": [
+    {
+      "book_id": "YBM_K8",
+      "code": "9과11-04",
+      "textbook_text": "물질을 이루는 입자인 원자, 분자, 이온 등으로 존재할 수 있음을 알고, 이온은 전하를 띠고 있음을 설명할 수 있다.",
+      "official_text": "물질을 이루는 입자는 원자, 분자, 이온 등으로 존재할 수 있음을 알고, 이온은 전하를 띠고 있음을 설명할 수 있다."
+    }
+  ],
+  "source_and_site_hashes_unchanged": true
+}

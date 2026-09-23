@@ -19,6 +19,9 @@ const key = 'science-classroom-prep.preferences.v1';
   assert.equal(await page.locator('#sort-order').inputValue(),'achievement');
   assert.equal(await page.locator('#sort-order option[value="source"]').count(),0);
   const activities = await (await page.request.get(new URL('data/activities.json',base).href)).json();
+  const achievements = await (await page.request.get(new URL('data/achievements.json',base).href)).json();
+  const linkedIds = items => [...new Set(items.map(activity => activity.achievement_id).filter(Boolean))].sort();
+  const optionIds = async () => (await page.locator('#achievement-filter option').evaluateAll(options => options.slice(1).map(option => option.value))).sort();
   const expectedOrder = [...activities].sort((a,b) => (a.achievement_raw?.match(/^\d+-\d+/)?.[0] ?? '999-999').localeCompare(b.achievement_raw?.match(/^\d+-\d+/)?.[0] ?? '999-999', 'en', {numeric:true})
     || a.publisher_raw.localeCompare(b.publisher_raw,'ko') || a.source_row-b.source_row);
   while (await page.locator('#load-more').isVisible()) await page.locator('#load-more').click();
@@ -51,19 +54,22 @@ const key = 'science-classroom-prep.preferences.v1';
   await page.locator('#reset-filters').click();
   const unitNumbers = async () => (await page.locator('#unit-filter option').allTextContents()).slice(1).filter(text => /^\d+/.test(text)).map(text => Number(text.match(/^\d+/)[0]));
   const achievementNumbers = async () => (await page.locator('#achievement-filter option').allTextContents()).slice(1).map(text => text.match(/^\d+-\d+/)[0]);
-  const groupNumbers = async () => (await page.locator('#achievement-filter optgroup').evaluateAll(groups => groups.map(group => group.label))).map(text => Number(text.match(/^\d+/)[0]));
+  const groupNumbers = async () => (await page.locator('#achievement-filter optgroup').evaluateAll(groups => groups.map(group => group.label))).filter(text => /^\d+\./.test(text)).map(text => Number(text.match(/^\d+/)[0]));
   const unitValue = async number => page.locator('#unit-filter option').evaluateAll((options, number) => options.find(option => Number(option.textContent.match(/^\d+/)?.[0]) === number).value, number);
   assert.deepEqual(await page.locator('#grade-filter option').evaluateAll(options => options.map(option => option.value)), ['all','1','2','3']);
   assert.deepEqual(await unitNumbers(), Array.from({length:15}, (_, i) => i + 1));
-  assert.deepEqual(await groupNumbers(), Array.from({length:15}, (_, i) => i + 1));
+  assert.deepEqual(await groupNumbers(), Array.from({length:23}, (_, i) => i + 1));
+  assert.deepEqual(await optionIds(), linkedIds(activities));
+  assert.equal(achievements.length, 87);
   const allStandards = await achievementNumbers();
-  assert.equal(allStandards.length, 56);
+  assert.equal(allStandards.length, 87);
   assert.deepEqual(allStandards, [...allStandards].sort((a,b) => a.localeCompare(b, 'en', {numeric:true})));
+  assert.ok(!(await page.locator('#achievement-filter').innerText()).includes('9과'));
   await page.locator('#grade-filter').selectOption('1');
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 328건');
   assert.deepEqual(await unitNumbers(), [1,2,3,4,5,6,7,8]);
   assert.deepEqual(await groupNumbers(), [1,2,3,4,5,6,7,8]);
-  assert.equal((await achievementNumbers()).length,27);
+  assert.deepEqual(await optionIds(), linkedIds(activities.filter(activity => activity.grade === 1)));
   const firstUnit = await unitValue(1);
   await page.locator('#unit-filter').selectOption(firstUnit);
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 8건');
@@ -78,8 +84,8 @@ const key = 'science-classroom-prep.preferences.v1';
   assert.equal(await page.locator('#achievement-filter').inputValue(),'all');
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 446건');
   assert.deepEqual(await unitNumbers(), [9,10,11,12,13,14,15]);
-  assert.deepEqual(await groupNumbers(), [9,10,11,12,13,14,15]);
-  assert.equal((await achievementNumbers()).length,29);
+  assert.deepEqual(await groupNumbers(), [8,9,10,11,12,13,14,15]);
+  assert.deepEqual(await optionIds(), linkedIds(activities.filter(activity => activity.grade === 2)));
   await page.locator('#unit-filter').selectOption(await unitValue(9));
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 44건');
   assert.deepEqual(await achievementNumbers(), ['9-1','9-2','9-3','9-4','9-5']);
@@ -89,6 +95,16 @@ const key = 'science-classroom-prep.preferences.v1';
   assert.equal(await page.locator('#achievement-filter').inputValue(),'all');
   await page.locator('#unit-filter').selectOption(await unitValue(8));
   assert.equal(await page.locator('#result-count').innerText(),'탐구활동 45건');
+  const sharedId = linkedIds(activities.filter(activity => activity.grade === 1))
+    .find(id => activities.some(activity => activity.grade === 2 && activity.achievement_id === id));
+  assert.ok(sharedId);
+  const sharedGradeTwoUnit = activities.find(activity => activity.grade === 2 && activity.achievement_id === sharedId).unit;
+  await page.locator('#grade-filter').selectOption('2');
+  await page.locator('#unit-filter').selectOption(sharedGradeTwoUnit);
+  assert.ok((await optionIds()).includes(sharedId));
+  await page.locator('#achievement-filter').selectOption(sharedId);
+  assert.equal(await page.locator('#result-count').innerText(),
+    `탐구활동 ${activities.filter(activity => activity.grade === 2 && activity.unit === sharedGradeTwoUnit && activity.achievement_id === sharedId).length}건`);
   await page.locator('#reset-filters').click();
   await page.locator('#search').fill('염산');
   assert.ok(await page.locator('.activity-card').count()>0);
@@ -118,7 +134,8 @@ const key = 'science-classroom-prep.preferences.v1';
   await page.locator('#reset-filters').click();
   await page.locator('#grade-filter').selectOption('3');
   assert.equal(await page.locator('#result-count').innerText(), '탐구활동 88건');
-  assert.equal(await page.locator('#achievement-filter option').count(), 1);
+  assert.deepEqual(await groupNumbers(), [16,17,18,19,20,21,22,23]);
+  assert.deepEqual(await optionIds(), linkedIds(activities.filter(activity => activity.grade === 3)));
   assert.ok((await page.locator('.publisher-tag').allTextContents()).every(text => text === 'YBM'));
   await page.locator('#reset-filters').click();
   // Check actual category values for added books, missing lists, and empty categories.
@@ -131,6 +148,17 @@ const key = 'science-classroom-prep.preferences.v1';
     await page.locator(`[data-activity-id="${activity.id}"] .card-actions button`).click();
     assert.deepEqual(await page.locator('#dialog-content .raw-materials').allTextContents(),
       [displayItems(activity.equipment), displayItems(activity.supplies)]);
+    await page.locator('#close-dialog').click();
+  }
+  for (const activity of [
+    activities.find(a => a.id.startsWith('jihaksa_') && a.achievement_id),
+    activities.find(a => a.id.startsWith('jihaksa_') && a.achievement_id == null),
+  ]) {
+    assert.ok(activity);
+    await page.locator('#search').fill(activity.title);
+    await page.locator(`[data-activity-id="${activity.id}"] .card-actions button`).click();
+    assert.equal(await page.locator('#dialog-content dd').nth(4).innerText(), activity.achievement_raw ?? '미확인');
+    assert.doesNotMatch(await page.locator('#dialog-content').innerText(), /9과\d{2}-\d{2}|scope_based|candidate|교과서 대조/);
     await page.locator('#close-dialog').click();
   }
   await page.locator('#reset-filters').click();
@@ -158,7 +186,7 @@ const key = 'science-classroom-prep.preferences.v1';
   await failedPage.getByRole('button',{name:'다시 불러오기'}).waitFor();
   assert.equal(errors.length,0,errors.join('\n'));
   await browser.close();
-  const report={status:'passed',checked:['source data load','publisher filter','classroom controls and quantity displays removed','localStorage reload and new tab','preparation list controls removed','grade mapping and unit boundary','linked grade, unit and achievement filters','numeric unit and achievement ordering','incompatible filter reset and compatible selection retention','material and chemical query','no results','achievement comparison','detail modal and Escape','empty publisher selection persistence','desktop and mobile layout','storage denied graceful failure','data-load error'],pageErrors:errors};
+  const report={status:'passed',checked:['source data load','publisher filter','classroom controls and quantity displays removed','localStorage reload and new tab','preparation list controls removed','grade mapping and unit boundary','linked grade, unit and achievement filters','numeric unit and achievement ordering','incompatible filter reset and compatible selection retention','material and chemical query','no results','achievement comparison','linked and unconfirmed detail text','detail modal and Escape','empty publisher selection persistence','desktop and mobile layout','storage denied graceful failure','data-load error'],pageErrors:errors};
   await fs.writeFile(path.join(output,'browser-report.json'),JSON.stringify(report,null,2));
   console.log(JSON.stringify(report,null,2));
 })().catch(e=>{console.error(e);process.exit(1)});

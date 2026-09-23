@@ -26,6 +26,16 @@ def main():
     rows = source['data']
     assert len({r['id'] for r in rows}) == len(rows), 'Duplicate activity IDs'
     achievements, textbooks, activities = {}, {}, []
+    standards_by_code = {}
+    for standard in source['achievement_standards']:
+        unit, label = standard['unit'], standard['display_text']
+        aid = key('ACH', json.dumps([unit, label], ensure_ascii=False))
+        number = standard['unit_number']
+        achievements[aid] = {'id': aid, 'unit': unit, 'unit_number': number,
+                             'sequence': standard['sequence'], 'raw_text': label,
+                             'code': standard['code'],
+                             'grade': GRADE_BY_UNIT.get(number, 3), 'grades': []}
+        standards_by_code[standard['code']] = achievements[aid]
     review = []
     books = {book['book_id']: book for dataset in source['metadata']['source_datasets']
              for book in dataset['original_metadata'].get('source_books', [])}
@@ -37,15 +47,16 @@ def main():
         assert not row.get('source') or book is not None, 'Unknown source book'
         assert not row['분류 보류'], 'Resolve pending classifications before publication'
         grade = book['grade'] if book else GRADE_BY_UNIT.get(unit_number)
-        standard_match = re.match(r'^\s*(\d+)-(\d+)\.', standard or '')
-        sequence = (int(standard_match[2]) if standard_match
-                    and int(standard_match[1]) == unit_number else None)
-        aid = key('ACH', json.dumps([unit, standard], ensure_ascii=False)) if standard is not None else None
+        codes = row['성취기준 코드'] or []
+        assert len(codes) <= 1, 'Multiple standards require an explicit display/filter policy'
+        achievement = standards_by_code[codes[0]] if codes else None
+        aid = achievement['id'] if achievement else None
+        assert standard == (achievement['raw_text'] if achievement else None)
+        if achievement and grade not in achievement['grades']:
+            achievement['grades'].append(grade)
+            achievement['grades'].sort()
         # These IDs identify source labels only, never infer textbook editions.
         tid = key('TXT', publisher or '')
-        if aid is not None:
-            achievements[aid] = {'id': aid, 'unit': unit, 'unit_number': unit_number,
-                                 'sequence': sequence, 'raw_text': standard, 'code': None, 'grade': grade}
         textbooks[tid] = {'id': tid, 'publisher_raw': publisher, 'title': None, 'edition': None, 'grade': None}
         activity = {
             'id': row['id'], 'source_row': row['source_row'],
@@ -63,8 +74,9 @@ def main():
                        'quantity': 'not_checked',
                        'grade_mapping': 'source_book' if book else 'user_specified',
                        'grade_mapping_basis': book['book_id'] if book else 'User instruction: units 1-8 = grade 1; units 9-15 = grade 2',
-                       'achievement_number_mapping': 'source_prefix' if sequence is not None else 'not_checked',
-                       'official_achievement_mapping': 'not_checked',
+                       'achievement_number_mapping': 'official_standard' if achievement else 'not_checked',
+                       'official_achievement_mapping': row['성취기준 연결']['status'],
+                       'achievement_evidence': row['성취기준 연결'],
                        'missing_materials': row['교구'] is None})
     chemical_data = build_chemical_data(ROOT, activities)
     self_check(chemical_data)

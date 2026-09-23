@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "record_count": 862,
+  "unique_id_count": 862,
+  "output_sha256": "b862cb1fbcf7093cd752dae15743c844809d5fb9e373b8602dcea16716f9ac59",
+  "sources": [
+    {
+      "dataset": "원자료",
+      "record_count": 454,
+      "records_exactly_preserved": true,
+      "input_file_unchanged": true
+    },
+    {
+      "dataset": "지학사",
+      "record_count": 169,
+      "records_exactly_preserved": true,
+      "input_file_unchanged": true
+    },
+    {
+      "dataset": "YBM",
+      "record_count": 239,
+      "records_exactly_preserved": true,
+      "input_file_unchanged": true
+    }
+  ],
+  "preparation_classification": {
+    "schema_version": "1.0",
+    "unclassified_backup": "science_experiment_supplies_combined.unclassified.json",
+    "unclassified_sha256": "edf9f7f1d6d734c4a8950523c215ddfd2498abdf0991cc593ef53bd35d5ef247",
+    "policy": "사용자가 정한 기준: 실험 후에도 남아 반복 사용하는 물품은 실험 기자재, 투입·소모 재료는 실험 준비물. 불명확하면 분류 보류.",
+    "original_field": "교구",
+    "added_fields": [
+      "실험 기자재",
+      "실험 준비물",
+      "분류 보류",
+      "준비물 분류"
+    ],
+    "notes": [
+      "장갑·보안경·실험복은 사용자 지정에 따라 기자재로 분류한다.",
+      "원문·규격·농도·수량은 변경하지 않고 분류 필드만 추가한다.",
+      "약품규정의 약품명 목록 일치 여부는 이 분류의 조건이 아니다.",
+      "미확인 원문(null)은 세 분류도 null이며, 명시된 목록에 해당 분류가 없으면 빈 배열이다.",
+      "분류 보류는 임의로 어느 쪽에도 넣지 않았으며 classification_review.md에서 판단할 수 있다.",
+      "일반 명칭의 펜·연필은 반복 사용하는 도구로 분류한다. 기본 규칙보다 classification_decisions.json의 사용자 확정 분류를 우선한다.",
+      "2026-09-23 사용자 결정: 부록 표기가 있는 항목과 프로그램·앱·디지털 자료는 기자재. 나머지 그룹·개별 지정 결정과 적용 범위는 decision_history/20260923/applied_decisions.json에 기록했다.",
+      "후속 사용자 지시에 따라 남은 62개 표기는 일단 실험 준비물로 분류했다. 이는 추후 변경 가능한 사용자 임시 지정이며 decision_history/20260923-remaining-to-supplies/applied_decisions.json에 기록했다."
+    ],
+    "record_count": 862,
+    "records_without_preparation_text": 103,
+    "item_occurrences": {
+      "실험 기자재": 2924,
+      "실험 준비물": 1095,
+      "분류 보류": 0
+    },
+    "unique_item_count": 1073,
+    "pending_unique_items": 0,
+    "unique_items_by_category": {
+      "실험 기자재": 588,
+      "실험 준비물": 485,
+      "분류 보류": 0
+    },
+    "records_with_pending_items": 0
+  },
+  "classification_validation_file": "classification_validation.json",
+  "prior_merge_validation_file": "merge_validation_unclassified.json",
+  "scope": "원래 행과 파일 보존, 항목 원문·분류 일관성 검사. 보류 항목은 사용자 판단 대기."
+}
