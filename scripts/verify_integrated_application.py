@@ -25,6 +25,8 @@ HIGH_DIR = ROOT / "outputs/extraction/integrated-science-20260923"
 HIGH = HIGH_DIR / "science_experiment_supplies_integrated_science.json"
 PUBLIC = ROOT / "site/dist/data"
 REPORT = ROOT / "output/validation/integrated-site-20260923/data-validation.json"
+UNIT_HISTORY = COMBINED_DIR / "decision_history/20260923-units"
+UNIT_REPORT = ROOT / "output/validation/unit-normalization-20260923/data-validation.json"
 MIDDLE_ADDITIONS = {"grade_key", "school_level", "grade_label", "achievement_ids"}
 PUBLIC_ACTIVITY_KEYS = {
     "id", "source_row", "achievement_id", "achievement_ids", "textbook_id",
@@ -79,9 +81,104 @@ def comma_items(raw):
     return [part for part in result if part]
 
 
+def verify_units(live, activities, check, counts):
+    """Check the new transformation independently, then return its input views.
+
+    No activity achievement link is used to determine its chapter. The old
+    middle registry supplies chapter vocabulary; high-school chapter vocabulary
+    is fixed by volume. Roman/Arabic prefixes and subchapters are only syntax.
+    """
+    required = [UNIT_HISTORY / name for name in [COMBINED.name, "public-activities.json",
+                "unit_catalog.json", "application.json"]]
+    missing = [str(p.relative_to(ROOT)) for p in required if not p.is_file()]
+    check("unit_history_required_files_exist", not missing, missing)
+    if missing:
+        return None
+    prior = read_json(UNIT_HISTORY / COMBINED.name)
+    prior_public = read_json(UNIT_HISTORY / "public-activities.json")
+    catalog = read_json(UNIT_HISTORY / "unit_catalog.json")
+    application = read_json(UNIT_HISTORY / "application.json")
+    meta = live["metadata"]["unit_normalization"]
+    prior_hash = file_hash(UNIT_HISTORY / COMBINED.name)
+    check("unit_snapshot_and_output_hash_chain", prior_hash == meta.get("snapshot_sha256")
+          == application.get("before_sha256")
+          and file_hash(COMBINED) == application.get("output_sha256")
+          and meta.get("snapshot") == (UNIT_HISTORY / COMBINED.name).relative_to(ROOT).as_posix())
+
+    middle = {}
+    for standard in prior["achievement_standards"]:
+        match = re.fullmatch(r"9과(\d{2})-\d{2}", standard["code"])
+        if match:
+            number = int(match[1])
+            middle[number] = standard["chapter"]
+    high = {1: ["과학의 기초", "물질과 규칙성", "시스템과 상호작용"],
+            2: ["변화와 다양성", "환경과 에너지", "과학과 미래 사회"]}
+    expected = [{"id": f"middle-{n:02d}", "school_level": "중학교", "volume": None,
+                 "number": n, "label": f"{n}. {middle[n]}"} for n in sorted(middle)]
+    expected += [{"id": f"high-{v}-{n:02d}", "school_level": "고등학교", "volume": v,
+                  "number": n, "label": f"통합과학 {v} · {n}. {title}"}
+                 for v, titles in high.items() for n, title in enumerate(titles, 1)]
+    expected.append({"id": "high-2-appendix", "school_level": "고등학교", "volume": 2,
+                     "number": None, "label": "통합과학 2 · 부록"})
+    check("unit_catalog_23_middle_6_high_and_one_appendix", set(middle) == set(range(1, 24))
+          and catalog == expected and live.get("units") == expected and meta.get("unit_count") == 30)
+
+    def chapter_key(raw):
+        major = re.split(r"[>/]", unicodedata.normalize("NFKC", raw), maxsplit=1)[0]
+        major = re.sub(r"^\s*(?:\d+|[IVX]+)\s*[.．]\s*", "", major)
+        return re.sub(r"[\s·⋅ㆍ]", "", major)
+
+    by_title = {(u["school_level"], u["volume"], chapter_key(
+        u["label"].split(" · ", 1)[-1])): u for u in expected}
+    old_public = {a["id"]: a for a in prior_public}
+    public = {a["id"]: a for a in activities}
+    current = {r["id"]: r for r in live["data"]}
+    check("unit_all_1277_ids_and_order_preserved", len(prior["data"]) == len(live["data"]) == 1277
+          and [r["id"] for r in prior["data"]] == [r["id"] for r in live["data"]]
+          == [r["id"] for r in activities] == [r["id"] for r in prior_public]
+          and len(current) == len(public) == 1277)
+    raw_errors, field_errors, mapping_errors = [], [], []
+    used = Counter()
+    for original in prior["data"]:
+        rid = original["id"]
+        row, exposed, old_exposed = current.get(rid, {}), public.get(rid, {}), old_public.get(rid, {})
+        raw = original["단원명"]
+        if row.get("단원명 원문") != raw or exposed.get("unit_raw") != raw:
+            raw_errors.append(rid)
+        row_without_units = {k: v for k, v in row.items() if k not in {"단원명", "단원명 원문", "단원 번호", "단원 ID"}}
+        original_without_units = {k: v for k, v in original.items() if k != "단원명"}
+        exposed_without_units = {k: v for k, v in exposed.items() if k not in {"unit", "unit_raw", "unit_number"}}
+        old_exposed_without_units = {k: v for k, v in old_exposed.items() if k not in {"unit", "unit_raw", "unit_number"}}
+        if row_without_units != original_without_units or exposed_without_units != old_exposed_without_units:
+            field_errors.append(rid)
+        unit = by_title.get((old_exposed.get("school_level"), old_exposed.get("volume"), chapter_key(raw)))
+        if unit is None or (row.get("단원명"), row.get("단원 번호"), row.get("단원 ID"),
+                            exposed.get("unit"), exposed.get("unit_number")) != (
+                            unit["label"], unit["number"], unit["id"], unit["label"], unit["number"]):
+            mapping_errors.append({"id": rid, "raw": raw, "expected": unit, "actual": row.get("단원명")})
+        else:
+            used[unit["id"]] += 1
+    check("unit_all_original_chapter_labels_preserved_verbatim", not raw_errors, raw_errors)
+    check("unit_all_nonunit_combined_and_public_fields_exactly_preserved", not field_errors, field_errors)
+    check("unit_assignments_match_actual_raw_chapter_not_achievement", not mapping_errors, mapping_errors)
+    check("unit_duplicates_collapsed_to_29_main_and_one_appendix", len(used) == 30
+          and used["high-2-appendix"] == 1 and dict(used) == application.get("unit_counts")
+          and len({r["unit"] for r in activities}) == 30
+          and sum(r.get("unit_number") is None for r in activities) == 1)
+    prior_other = {k: v for k, v in prior.items() if k not in {"metadata", "data"}}
+    live_other = {k: v for k, v in live.items() if k not in {"metadata", "data", "units"}}
+    check("unit_nonrow_content_and_prior_metadata_preserved", prior_other == live_other
+          and {k: v for k, v in live["metadata"].items() if k != "unit_normalization"} == prior["metadata"])
+    counts.update(canonical_main_units=29, canonical_total_units=len(used),
+                  unit_label_changes=sum(r["단원명"] != current[r["id"]]["단원명"] for r in prior["data"]),
+                  unit_assignment_basis="원문 대단원명 및 기존 학교급·권수; 활동 성취기준 미사용")
+    return prior, prior_public, prior_hash
+
+
 def main():
     checks = []
     counts = {}
+    report_path = REPORT
 
     def check(name, condition, detail=None):
         result = {"name": name, "passed": bool(condition)}
@@ -97,13 +194,13 @@ def main():
             "scope": "스냅샷·고등 원자료·공개 JSON의 독립 데이터 검증. 브라우저 동작·실제 배포 및 교과서 의미 재판독은 별도 검증 범위이다.",
             "check_count": len(checks), "failed_check_count": len(failures),
             "counts": counts, "checks": checks,
-            "written_files": [REPORT.relative_to(ROOT).as_posix()],
+            "written_files": [report_path.relative_to(ROOT).as_posix()],
         }
-        REPORT.parent.mkdir(parents=True, exist_ok=True)
-        REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(json.dumps({"status": report["status"], "checks": len(checks),
                           "failures": failures, "counts": counts,
-                          "report": str(REPORT)}, ensure_ascii=False, indent=2))
+                          "report": str(report_path)}, ensure_ascii=False, indent=2))
         return 1 if failures else 0
 
     required = [COMBINED, HIGH, HIGH_DIR / "baseline.json", SNAPSHOT / "application.json",
@@ -126,6 +223,15 @@ def main():
               ["activities", "achievements", "materials", "chemicals", "chemical_guidelines", "textbooks", "sources", "quantities"]}
     before = {name: read_json(SNAPSHOT / f"public-{name}.json") for name in
               ["activities", "achievements", "materials", "chemicals", "chemical_guidelines", "textbooks"]}
+    live_public = public.copy()
+    integration_output_hash = file_hash(COMBINED)
+    if "unit_normalization" in combined["metadata"]:
+        report_path = UNIT_REPORT
+        context = verify_units(combined, public["activities"], check, counts)
+        if context is None:
+            return finish()
+        combined, public["activities"], integration_output_hash = context
+        counts["integration_preservation_basis"] = "정규화 전 1,277행 스냅샷; 현재 행까지의 보존은 unit_* 검사로 별도 대조"
     rows, old_rows, high_rows = combined["data"], old["data"], high["data"]
     middle_ids = [r["id"] for r in old_rows]
     high_ids = [r["id"] for r in high_rows]
@@ -267,7 +373,7 @@ def main():
           == {bid: info["record_count"] for bid, info in books.items()})
 
     public_schema_errors = []
-    for row in public["activities"]:
+    for row in live_public["activities"]:
         extra = sorted(set(row) - PUBLIC_ACTIVITY_KEYS)
         if extra:
             public_schema_errors.append({"id": row.get("id"), "keys": extra})
@@ -289,7 +395,7 @@ def main():
         elif isinstance(value, str) and ("textbook_wiki" in value or "outputs/extraction" in value or "C:/Users/" in value or "C:\\Users\\" in value):
             leaks.append(path)
 
-    for name, document in public.items():
+    for name, document in live_public.items():
         scan(document, name)
     check("public_no_textbook_review_or_mapping_evidence_metadata", not leaks and not public_schema_errors,
           {"forbidden_keys_or_paths": leaks, "unexpected_record_keys": public_schema_errors})
@@ -354,8 +460,8 @@ def main():
 
     hashes = {"combined": file_hash(COMBINED), "high_source": file_hash(HIGH),
               "before_combined": file_hash(SNAPSHOT / COMBINED.name)}
-    check("combined_application_and_public_source_hashes", hashes["combined"] == application.get("output_sha256")
-          == public["sources"].get("source_sha256") and public["sources"].get("record_count") == 1277
+    check("combined_application_and_public_source_hashes", integration_output_hash == application.get("output_sha256")
+          and hashes["combined"] == public["sources"].get("source_sha256") and public["sources"].get("record_count") == 1277
           and set(public["sources"]) == {"source_name", "source_sha256", "record_count"}, hashes)
     check("high_source_and_before_snapshot_hashes", hashes["high_source"] == application.get("input_sha256")
           and hashes["before_combined"] == application.get("before_sha256") == previous.get("output_sha256"))

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "record_count": 1277,
+  "high_school_count": 415,
+  "middle_school_rows_unchanged": true,
+  "standard_count": 118,
+  "unconfirmed_achievements": 42,
+  "output_sha256": "2b504fdc4f33c3d2f35e2b766fce2d3f58961268005a0ce2cbffa62ad2b43274",
+  "input_sha256": "e4ee470c17a9e5d0616c94e0852268c716b0dab8de0998ac6831a829f6ab9979",
+  "before_sha256": "c570f3bd85598d6cc486c346ebc033835c1544d9404f29b2356fb4b94087158b",
+  "independent_validation": "output/validation/integrated-site-20260923/data-validation.json"
+}

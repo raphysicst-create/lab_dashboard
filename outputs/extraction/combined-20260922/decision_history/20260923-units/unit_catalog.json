@@ -1,0 +1,212 @@
+[
+  {
+    "id": "middle-01",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 1,
+    "label": "1. 과학과 인류의 지속가능한 삶"
+  },
+  {
+    "id": "middle-02",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 2,
+    "label": "2. 생물의 구성과 다양성"
+  },
+  {
+    "id": "middle-03",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 3,
+    "label": "3. 열"
+  },
+  {
+    "id": "middle-04",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 4,
+    "label": "4. 물질의 상태 변화"
+  },
+  {
+    "id": "middle-05",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 5,
+    "label": "5. 힘의 작용"
+  },
+  {
+    "id": "middle-06",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 6,
+    "label": "6. 기체의 성질"
+  },
+  {
+    "id": "middle-07",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 7,
+    "label": "7. 태양계"
+  },
+  {
+    "id": "middle-08",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 8,
+    "label": "8. 물질의 특성"
+  },
+  {
+    "id": "middle-09",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 9,
+    "label": "9. 지권의 변화"
+  },
+  {
+    "id": "middle-10",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 10,
+    "label": "10. 빛과 파동"
+  },
+  {
+    "id": "middle-11",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 11,
+    "label": "11. 물질의 구성"
+  },
+  {
+    "id": "middle-12",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 12,
+    "label": "12. 식물과 에너지"
+  },
+  {
+    "id": "middle-13",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 13,
+    "label": "13. 동물과 에너지"
+  },
+  {
+    "id": "middle-14",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 14,
+    "label": "14. 전기와 자기"
+  },
+  {
+    "id": "middle-15",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 15,
+    "label": "15. 별과 우주"
+  },
+  {
+    "id": "middle-16",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 16,
+    "label": "16. 화학 반응의 규칙성"
+  },
+  {
+    "id": "middle-17",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 17,
+    "label": "17. 날씨와 기후변화"
+  },
+  {
+    "id": "middle-18",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 18,
+    "label": "18. 수권과 해수의 순환"
+  },
+  {
+    "id": "middle-19",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 19,
+    "label": "19. 운동과 에너지"
+  },
+  {
+    "id": "middle-20",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 20,
+    "label": "20. 자극과 반응"
+  },
+  {
+    "id": "middle-21",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 21,
+    "label": "21. 생식과 유전"
+  },
+  {
+    "id": "middle-22",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 22,
+    "label": "22. 재해⋅재난과 안전"
+  },
+  {
+    "id": "middle-23",
+    "school_level": "중학교",
+    "volume": null,
+    "number": 23,
+    "label": "23. 과학과 나의 미래"
+  },
+  {
+    "id": "high-1-01",
+    "school_level": "고등학교",
+    "volume": 1,
+    "number": 1,
+    "label": "통합과학 1 · 1. 과학의 기초"
+  },
+  {
+    "id": "high-1-02",
+    "school_level": "고등학교",
+    "volume": 1,
+    "number": 2,
+    "label": "통합과학 1 · 2. 물질과 규칙성"
+  },
+  {
+    "id": "high-1-03",
+    "school_level": "고등학교",
+    "volume": 1,
+    "number": 3,
+    "label": "통합과학 1 · 3. 시스템과 상호작용"
+  },
+  {
+    "id": "high-2-01",
+    "school_level": "고등학교",
+    "volume": 2,
+    "number": 1,
+    "label": "통합과학 2 · 1. 변화와 다양성"
+  },
+  {
+    "id": "high-2-02",
+    "school_level": "고등학교",
+    "volume": 2,
+    "number": 2,
+    "label": "통합과학 2 · 2. 환경과 에너지"
+  },
+  {
+    "id": "high-2-03",
+    "school_level": "고등학교",
+    "volume": 2,
+    "number": 3,
+    "label": "통합과학 2 · 3. 과학과 미래 사회"
+  },
+  {
+    "id": "high-2-appendix",
+    "school_level": "고등학교",
+    "volume": 2,
+    "number": null,
+    "label": "통합과학 2 · 부록"
+  }
+]

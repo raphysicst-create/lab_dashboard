@@ -1,4 +1,4 @@
-import { STORAGE_KEY, achievementIds, compareAchievements, filterActivities, gradeKey, sanitizePreferences } from './core.js?v=integrated-20260923';
+import { STORAGE_KEY, achievementIds, compareAchievements, filterActivities, gradeKey, sanitizePreferences } from './core.js?v=units-20260923';
 import { createChemicalUI } from './chemical-ui.js?v=guides-2';
 
 const $ = id => document.getElementById(id);
@@ -131,7 +131,7 @@ function updateUnitOptions() {
   const activities = state.activities.filter(matchesGrade)
     .sort((a, b) => {
       const order = item => item.school_level === '고등학교'
-        ? 100 + (item.volume ?? 0) * 10 + (item.unit_number ?? 0) : item.unit_number ?? Infinity;
+        ? 100 + (item.volume ?? 0) * 10 + (item.unit_number ?? 9) : item.unit_number ?? Infinity;
       return order(a) - order(b) || String(a.unit).localeCompare(String(b.unit), 'ko', { numeric: true });
     });
   const units = [...new Set(activities.map(a => a.unit))];
@@ -286,7 +286,7 @@ async function start() {
     const names = ['activities', 'achievements', 'chemicals', 'materials'];
     const results = await Promise.all(names.map(async name => {
       const url = new URL(`./data/${name}.json`, import.meta.url);
-      url.search = '?v=integrated-20260923';
+      url.search = '?v=units-20260923';
       const response = await fetch(url);
       if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
       return response.json();

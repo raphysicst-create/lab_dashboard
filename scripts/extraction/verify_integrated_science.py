@@ -124,6 +124,10 @@ def main():
                 applied=read(ROOT/update['subsequent_application'])
                 require(applied['before_sha256']==expected,f'Invalid protected application baseline: {name}')
                 expected=applied['output_sha256']
+            for path in update.get('following_applications',[]):
+                applied=read(ROOT/path)
+                require(applied['before_sha256']==expected,f'Invalid protected following baseline: {name}')
+                expected=applied['output_sha256']
             require(actual==expected,f'Protected current version changed: {name}')
             warnings.append(f"Separate committed update preserved: {name} ({update['commit']})")
         else:require(actual==sha,f'Protected original changed: {name}')

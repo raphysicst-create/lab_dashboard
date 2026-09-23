@@ -45,7 +45,7 @@ def main():
     for row in rows:
         unit, standard, publisher = row['단원명'], row['성취기준'], row['출판사']
         unit_match = re.match(r'^\s*(\d+)\.', unit or '')
-        unit_number = int(unit_match[1]) if unit_match else None
+        unit_number = row.get('단원 번호', int(unit_match[1]) if unit_match else None)
         book = books.get(row.get('source', {}).get('book_id'))
         assert not row.get('source') or book is not None, 'Unknown source book'
         assert not row['분류 보류'], 'Resolve pending classifications before publication'
@@ -67,6 +67,7 @@ def main():
             'id': row['id'], 'source_row': row['source_row'],
             'achievement_id': aid, 'textbook_id': tid, 'grade': grade,
             'unit': unit, 'unit_number': unit_number,
+            'unit_raw': row.get('단원명 원문', unit),
             'achievement_raw': standard, 'publisher_raw': publisher,
             'page': row['쪽'], 'title': row['탐구활동'], 'materials_raw': row['교구'],
             'equipment': row['실험 기자재'], 'supplies': row['실험 준비물'],
@@ -79,8 +80,7 @@ def main():
                          'grade_label':f'고{grade}' if high else f'중{grade}',
                          'achievement_ids':[a['id'] for a in linked]})
         if high:
-            activity.update({'unit_raw':unit,'unit':f"통합과학 {book['volume']} · {unit}",
-                             'volume':book['volume'],
+            activity.update({'volume':book['volume'],
                              'material_classification_pending':True})
         review.append({'activity_id': row['id'], 'source_row': row['source_row'],
                        'activity': 'textbook_not_checked', 'materials': 'textbook_not_checked',

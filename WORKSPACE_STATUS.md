@@ -123,3 +123,11 @@
 - 준비물 전체 항목이 약품 자료의 명칭과 일치할 때만 기존 규칙으로 연결하여 총 55개 활동·79건 약품 연결입니다.
 - 적용 전 통합본·공개 데이터는 `outputs/extraction/combined-20260922/decision_history/20260923-integrated-science/`에 보존했습니다. 현재 검증은 `python scripts/verify_integrated_application.py`, `node scripts/verify_core.mjs`, `node scripts/verify_browser.cjs`입니다. 과거 862행 전용 적용 검증은 당시 기록입니다.
 - 고1 변경 커밋 `87f94ab` 게시와 공개 화면 검증까지 완료했습니다. 배포·파일 전수 대조: `output/validation/integrated-site-20260923/public/deployment.json`. 전체 데이터 독립 검증 27개 및 PC/모바일 브라우저 검증 모두 통과했습니다.
+
+## 단원명 통일 (2026-09-23)
+
+- 사용자 지적에 따라 번호 유무·로마 숫자·대단원/소단원 혼용을 고쳤습니다. 기존 단원명은 `단원명 원문`에 그대로 두고 `단원명`, `단원 번호`, `단원 ID`를 일관된 대단원 체계로 정리했습니다.
+- 중학교는 기존 교육과정 통합 번호 1~23, 고1은 통합과학 1·2 각각 1~3단원입니다. 부록 1개는 번호 null이며 임의로 단원에 넣지 않았습니다. 원본 PDF/추출 JSON과 모든 활동의 학년·성취기준·제목·준비물·쪽수는 그대로입니다.
+- 실제 원문 대단원명과 권수로 매핑하며 성취기준으로 활동 소속 단원을 바꾸지 않습니다. 예: 고1 통합과학1의 토론에 통합과학2 성취기준이 연결돼도 원래 통합과학1 단원에 유지합니다.
+- 총 1,277개 중 단원명 823개가 통일됐고, 공개 필터는 중학교 23개+고1 6개+부록 1개=30개로 정리했습니다. 같은 단원의 출판사별 활동을 함께 찾을 수 있습니다. 사용자 지정 중1 8단원 및 교과서 기준 중2 8단원 학년은 유지합니다.
+- 적용 전 1,277행 사본·공개 활동·매핑·단원 목록: `outputs/extraction/combined-20260922/decision_history/20260923-units/`. 적용 도구 `scripts/extraction/normalize_units.py`, 검증 `scripts/verify_integrated_application.py`.
