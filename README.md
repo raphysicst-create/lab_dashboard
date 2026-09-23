@@ -93,7 +93,7 @@ GitHub의 **Code → Download ZIP**으로 받아도 같은 파일을 복원할 �
 
 - 저장소: https://github.com/raphysicst-create/lab_dashboard
 - 공개 사이트: https://raphysicst-create.github.io/lab_dashboard/
-- 최신 사이트 변경 커밋 `1f7c071`은 2026-09-23 GitHub Pages 배포와 공개 파일 대조를 완료했습니다. 선택 로딩·오류 재시도 18개 시나리오, 검색·필터·상세·약품 및 PC·모바일 검증을 통과했고 페이지 오류는 0건이었습니다.
+- 최신 사이트 변경 커밋 `983f327`은 2026-09-23 GitHub Pages 배포와 공개 파일 14개 대조를 완료했습니다. 학년·단원·성취기준·검색어에 따른 출판사별 활동 건수 갱신과 기존 검색·필터·상세·PC·모바일 검증을 통과했고 페이지 오류는 0건이었습니다.
 - 최신 배포 기록과 과거 장애 이력: [WORKSPACE_STATUS.md](WORKSPACE_STATUS.md)
 
 `site/.github/workflows/deploy-pages.yml`과 `site/README.md`는 공개 파일만 담는 별도 배포용 ZIP의 템플릿입니다. 전체 저장소의 실제 워크플로는 루트 `.github`에 있는 파일입니다.

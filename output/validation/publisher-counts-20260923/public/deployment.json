@@ -1,0 +1,123 @@
+{
+  "checkedAt": "2026-09-23T11:23:34.133Z",
+  "commit": "983f3277b3dc55b5d785951fff8ab0fb4405ef54",
+  "url": "https://raphysicst-create.github.io/lab_dashboard/",
+  "workflow": {
+    "id": 35854150030,
+    "url": "https://github.com/raphysicst-create/lab_dashboard/actions/runs/35854150030",
+    "status": "completed",
+    "conclusion": "success",
+    "headSha": "983f3277b3dc55b5d785951fff8ab0fb4405ef54"
+  },
+  "files": [
+    {
+      "file": "app.js",
+      "status": 200,
+      "sha256": "99cc0349fd42182bcac23bd0b50c3995f10f42f98ca22a7d94e967f35d60aabb",
+      "expectedSha256": "99cc0349fd42182bcac23bd0b50c3995f10f42f98ca22a7d94e967f35d60aabb",
+      "match": true
+    },
+    {
+      "file": "chemical-diagrams.js",
+      "status": 200,
+      "sha256": "bc77ad6eb5eafe36e38f3604441be77fd773896b8a29ef116e75f329789d6ee1",
+      "expectedSha256": "bc77ad6eb5eafe36e38f3604441be77fd773896b8a29ef116e75f329789d6ee1",
+      "match": true
+    },
+    {
+      "file": "chemical-ui.js",
+      "status": 200,
+      "sha256": "24115938567e88acf259222178537ec554d67137adfa0c5ba6b1df7cbda7152f",
+      "expectedSha256": "24115938567e88acf259222178537ec554d67137adfa0c5ba6b1df7cbda7152f",
+      "match": true
+    },
+    {
+      "file": "core.js",
+      "status": 200,
+      "sha256": "847142de6c615bff9978d8cb76f6d87c4c5fad5f4d5c389e20b4d29d740bdae7",
+      "expectedSha256": "847142de6c615bff9978d8cb76f6d87c4c5fad5f4d5c389e20b4d29d740bdae7",
+      "match": true
+    },
+    {
+      "file": "data/achievements.json",
+      "status": 200,
+      "sha256": "ad071713c5ccff2f810c6bacd7b3d975f4a9de1dcb8acf5fd7b68b99d6785dbe",
+      "expectedSha256": "ad071713c5ccff2f810c6bacd7b3d975f4a9de1dcb8acf5fd7b68b99d6785dbe",
+      "match": true
+    },
+    {
+      "file": "data/activities.json",
+      "status": 200,
+      "sha256": "365d3071e04369fb07ae5c7ff50dcfccbd8e91776d04310ebb9bf4fad6d9e445",
+      "expectedSha256": "365d3071e04369fb07ae5c7ff50dcfccbd8e91776d04310ebb9bf4fad6d9e445",
+      "match": true
+    },
+    {
+      "file": "data/chemical_guidelines.json",
+      "status": 200,
+      "sha256": "d81734f8436833af822c1a2d62cd4711fdd00cce41b0cba8645ff533b1ffcd8d",
+      "expectedSha256": "d81734f8436833af822c1a2d62cd4711fdd00cce41b0cba8645ff533b1ffcd8d",
+      "match": true
+    },
+    {
+      "file": "data/chemicals.json",
+      "status": 200,
+      "sha256": "3d43d2006634f3fa4e2d7de8aedc03f0d9ed3d07faf12c4a6f0789672acb6c42",
+      "expectedSha256": "3d43d2006634f3fa4e2d7de8aedc03f0d9ed3d07faf12c4a6f0789672acb6c42",
+      "match": true
+    },
+    {
+      "file": "data/materials.json",
+      "status": 200,
+      "sha256": "843eafc77f89847d66ff541c507c7c2da7f2327af9273873b25f0969caac19ae",
+      "expectedSha256": "843eafc77f89847d66ff541c507c7c2da7f2327af9273873b25f0969caac19ae",
+      "match": true
+    },
+    {
+      "file": "data/quantities.json",
+      "status": 200,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "expectedSha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "match": true
+    },
+    {
+      "file": "data/sources.json",
+      "status": 200,
+      "sha256": "eedd0901f91a6f923e836412a71e5df264debd624e11768f0e4a2ad2e2e07e75",
+      "expectedSha256": "eedd0901f91a6f923e836412a71e5df264debd624e11768f0e4a2ad2e2e07e75",
+      "match": true
+    },
+    {
+      "file": "data/textbooks.json",
+      "status": 200,
+      "sha256": "853b0824284a7cdbce3c66e4ebfd2eff121c6568fec7d2419bf48497c933e14f",
+      "expectedSha256": "853b0824284a7cdbce3c66e4ebfd2eff121c6568fec7d2419bf48497c933e14f",
+      "match": true
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "1f71c332ad877bbd2ab957becdac0e2435671118518752e51c2e15fbf8aa78c8",
+      "expectedSha256": "1f71c332ad877bbd2ab957becdac0e2435671118518752e51c2e15fbf8aa78c8",
+      "match": true
+    },
+    {
+      "file": "style.css",
+      "status": 200,
+      "sha256": "e03b5b6538db292b4fe70f6606e63c1c86ea8c254506050a9b373d5cbc07b239",
+      "expectedSha256": "e03b5b6538db292b4fe70f6606e63c1c86ea8c254506050a9b373d5cbc07b239",
+      "match": true
+    }
+  ],
+  "browserVerification": {
+    "status": "passed",
+    "report": "browser-report.json",
+    "checked": [
+      "publisher counts by grade, unit and achievement across middle and high school",
+      "counts retained for unchecked publishers",
+      "search, zero matches and reset",
+      "existing desktop and mobile regression suite"
+    ],
+    "pageErrors": []
+  }
+}
