@@ -32,6 +32,38 @@ const key = 'science-classroom-prep.preferences.v1';
   assert.deepEqual([...publishers].sort(),[...expectedPublishers].sort());
   assert.deepEqual((await page.locator('input[data-publisher]').evaluateAll(inputs => inputs.map(input => input.dataset.publisher))).sort(), [...publishers].sort());
   const linkedIds = items => [...new Set(items.flatMap(activity => activity.achievement_ids))].sort();
+  const checkPublisherCounts = async items => {
+    for (const publisher of publishers) {
+      assert.equal(await page.locator(`input[data-publisher="${publisher}"]`).locator('..').locator('small').innerText(),
+        String(items.filter(activity => activity.publisher_raw === publisher).length), publisher);
+    }
+  };
+  await checkPublisherCounts(activities);
+  for (const grade of ['1', '2', '3', 'high-1']) {
+    await page.locator('#reset-filters').click();
+    await page.locator('#grade-filter').selectOption(grade);
+    const gradeItems = activities.filter(activity => activity.grade_key === grade);
+    await checkPublisherCounts(gradeItems);
+    await page.locator('#unit-filter').selectOption(gradeItems[0].unit);
+    const unitItems = gradeItems.filter(activity => activity.unit === gradeItems[0].unit);
+    await checkPublisherCounts(unitItems);
+    const standard = unitItems.flatMap(activity => activity.achievement_ids)[0];
+    await page.locator('#achievement-filter').selectOption(standard);
+    const standardItems = unitItems.filter(activity => activity.achievement_ids.includes(standard));
+    await checkPublisherCounts(standardItems);
+    for (const publisher of publishers) await page.locator(`input[data-publisher="${publisher}"]`).uncheck();
+    await checkPublisherCounts(standardItems);
+    assert.equal(await page.locator('#result-count').innerText(), '탐구활동 0건');
+  }
+  await page.locator('#reset-filters').click();
+  await page.locator('#search').fill('염산');
+  await checkPublisherCounts(activities.filter(activity =>
+    [activity.title, activity.materials_raw, activity.achievement_raw, activity.unit, activity.publisher_raw]
+      .some(value => String(value ?? '').includes('염산'))));
+  await page.locator('#search').fill('일치하는활동이없는검색어12345');
+  await checkPublisherCounts([]);
+  await page.locator('#reset-filters').click();
+  await checkPublisherCounts(activities);
   const optionIds = async () => (await page.locator('#achievement-filter option').evaluateAll(options => options.slice(1).map(option => option.value))).sort();
   const standardById = new Map(achievements.map(standard => [standard.id,standard]));
   const standardRank = standard => standard?.sort_order ?? standard?.unit_number ?? 999;

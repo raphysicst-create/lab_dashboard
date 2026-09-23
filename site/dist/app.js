@@ -228,7 +228,9 @@ function populateFilters() {
       state.preferences.publishers = [...document.querySelectorAll('[data-publisher]:checked')].map(n => n.dataset.publisher);
       savePreferences(); updateResults();
     });
-    label.append(input, element('span', publisher), element('small', state.activities.filter(a => a.publisher_raw === publisher).length));
+    const count = element('small', '0');
+    count.dataset.publisherCount = publisher;
+    label.append(input, element('span', publisher), count);
     return label;
   });
   $('publisher-options').replaceChildren(...options);
@@ -289,7 +291,15 @@ function getFilters() {
 
 function updateResults() {
   state.limit = PAGE_SIZE;
-  state.filtered = filterActivities(state.activities, getFilters());
+  const filters = getFilters();
+  // Show matches for every publisher, including unchecked options.
+  const matching = filterActivities(state.activities, { ...filters, publishers: state.publishers });
+  const counts = new Map(state.publishers.map(publisher => [publisher, 0]));
+  for (const activity of matching) counts.set(activity.publisher_raw, counts.get(activity.publisher_raw) + 1);
+  document.querySelectorAll('[data-publisher-count]').forEach(count => {
+    count.textContent = counts.get(count.dataset.publisherCount);
+  });
+  state.filtered = matching.filter(activity => filters.publishers.includes(activity.publisher_raw));
   const sort = $('sort-order').value;
   if (sort === 'achievement') {
     const achievements = new Map(state.achievements.map(item => [item.id, item]));
