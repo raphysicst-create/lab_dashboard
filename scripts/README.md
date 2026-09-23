@@ -22,7 +22,7 @@ python scripts/verify_chemicals.py
 node scripts/verify_core.mjs
 ```
 
-`build_data.py`는 `science_experiment_supplies.json`과 `output/parsed/`의 약품 MD·JSON을 읽어 `site/dist/data/`의 데이터를 다시 만듭니다. 원자료를 수정하지 않으며, 검토 상태와 변환 보고서는 `output/validation/`에 기록합니다. 수동으로 수정한 생성 데이터는 재생성하면 덮어써지므로 원자료·변환 규칙 변경을 먼저 검토합니다. 원문에 없는 실험·약품 정보는 추가하지 않습니다.
+`build_data.py`는 `outputs/extraction/combined-20260922/science_experiment_supplies_combined.json`과 `output/parsed/`의 약품 MD·JSON을 읽어 `site/dist/data/`의 데이터를 다시 만듭니다. 원자료를 수정하지 않으며, 검토 상태와 변환 보고서는 `output/validation/`에 기록합니다. 수동으로 수정한 생성 데이터는 재생성하면 덮어써지므로 원자료·변환 규칙 변경을 먼저 검토합니다. 원문에 없는 실험·약품 정보는 추가하지 않습니다.
 
 `build_chemicals.py`를 단독 실행하면 약품 변환 보고서를 재작성합니다. 전체 사이트 데이터를 함께 갱신할 때는 `build_data.py`를 사용합니다.
 

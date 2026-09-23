@@ -20,8 +20,12 @@ export function filterActivities(activities, filters) {
 
 export function sanitizePreferences(input, publishers) {
   const value = input && typeof input === 'object' && !Array.isArray(input) ? input : {};
+  const previousCatalog = Array.isArray(value.publisherCatalog) ? value.publisherCatalog
+    : ['동아', '미래앤', '비상', '천재(임성숙)', '천재(정대홍)'];
+  const selected = Array.isArray(value.publishers) ? value.publishers : publishers;
+  const selectedAll = previousCatalog.length > 0 && previousCatalog.every(p => selected.includes(p));
   return {
-    publishers: Array.isArray(value.publishers)
-      ? [...new Set(value.publishers.filter(p => publishers.includes(p)))] : [...publishers],
+    publishers: selectedAll ? [...publishers] : [...new Set(selected.filter(p => publishers.includes(p)))],
+    publisherCatalog: [...publishers],
   };
 }

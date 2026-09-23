@@ -1,4 +1,4 @@
-import { STORAGE_KEY, filterActivities, sanitizePreferences } from './core.js?v=chemicals-8';
+import { STORAGE_KEY, filterActivities, sanitizePreferences } from './core.js?v=combined-1';
 import { createChemicalUI } from './chemical-ui.js?v=chemicals-8';
 
 const $ = id => document.getElementById(id);
@@ -25,6 +25,10 @@ function action(label, callback, className) {
 
 function display(value) {
   return value == null || value === '' ? '미확인' : String(value);
+}
+
+function displayItems(items) {
+  return items == null ? '미확인' : items.length ? items.join(', ') : '해당 항목 없음';
 }
 
 function pageLabel(activity) {
@@ -164,8 +168,9 @@ function createActivityCard(activity) {
   const actions = element('div', null, 'card-actions');
   actions.append(action('상세 보기', () => showActivity(activity.id)));
   const grade = activity.grade == null ? '학년 미확인' : `${activity.grade}학년`;
-  card.append(top, title, element('p', `${grade} · ${display(activity.unit)}`, 'unit-line'), element('p', '준비물', 'material-label'),
-    element('p', display(activity.materials_raw), 'raw-materials'), actions);
+  card.append(top, title, element('p', `${grade} · ${display(activity.unit)}`, 'unit-line'),
+    element('p', '실험 기자재', 'material-label'), element('p', displayItems(activity.equipment), 'raw-materials'),
+    element('p', '실험 준비물', 'material-label'), element('p', displayItems(activity.supplies), 'raw-materials'), actions);
   return card;
 }
 
@@ -207,9 +212,9 @@ function showActivity(id) {
   detailPair(list, '단원', activity.unit);
   detailPair(list, '성취기준', activity.achievement_raw);
   const materials = element('section', null, 'dialog-section');
-  materials.append(element('h3', '실험 기자재'), element('p', display(activity.materials_raw), 'raw-materials'));
+  materials.append(element('h3', '실험 기자재'), element('p', displayItems(activity.equipment), 'raw-materials'));
   const supplies = element('section', null, 'dialog-section');
-  supplies.append(element('h3', '실험 준비물'), element('p', display(null), 'raw-materials'));
+  supplies.append(element('h3', '실험 준비물'), element('p', displayItems(activity.supplies), 'raw-materials'));
   $('dialog-content').replaceChildren(list, materials, supplies, chemicalUI.activitySection(activity));
   if (!$('activity-dialog').open) $('activity-dialog').showModal();
 }
@@ -241,7 +246,7 @@ async function start() {
     const names = ['activities', 'achievements', 'chemicals', 'materials', 'chemical_guidelines'];
     const results = await Promise.all(names.map(async name => {
       const url = new URL(`./data/${name}.json`, import.meta.url);
-      url.search = new URL(import.meta.url).search;
+      url.search = '?v=combined-20260923';
       const response = await fetch(url);
       if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
       return response.json();

@@ -11,13 +11,13 @@ const base = process.env.LAB_DASHBOARD_TEST_BASE_URL || 'http://127.0.0.1:4173/'
   const errors=[];
   page.on('pageerror',e=>errors.push(String(e)));
   await page.goto(base);
-  await page.getByRole('heading',{name:'탐구활동 454건',exact:true}).waitFor().catch(async error => {
+  await page.getByRole('heading',{name:'탐구활동 862건',exact:true}).waitFor().catch(async error => {
     console.error({pageErrors:errors,body:await page.locator('body').innerText()});
     await page.screenshot({path:path.join(output,'load-failure.png')});
     throw error;
   });
   await page.locator('#search').fill('염산');
-  assert.equal(await page.locator('#result-count').innerText(),'탐구활동 9건');
+  assert.equal(await page.locator('#result-count').innerText(),'탐구활동 11건');
   assert.equal(await page.locator('#chemical-search-results, #active-chemical').count(),0);
   await page.locator('#open-chemicals').click();
   await page.locator('#chemical-search').fill('염산');
@@ -30,7 +30,7 @@ const base = process.env.LAB_DASHBOARD_TEST_BASE_URL || 'http://127.0.0.1:4173/'
   await page.locator('#chemical-close').click();
   assert.equal(await page.locator('#chemical-dialog').isVisible(),false);
   assert.equal(await page.locator('#search').inputValue(),'염산');
-  assert.equal(await page.locator('#result-count').innerText(),'탐구활동 9건');
+  assert.equal(await page.locator('#result-count').innerText(),'탐구활동 11건');
   await page.locator('#reset-filters').click();
   await page.locator('#search').fill('양이 달라져도 변하지 않는 값 찾기');
   await page.locator('[data-activity-id="activity_0001"] .card-actions button').click();
@@ -59,7 +59,7 @@ const base = process.env.LAB_DASHBOARD_TEST_BASE_URL || 'http://127.0.0.1:4173/'
   assert.doesNotMatch(await page.locator('#chemical-content').innerText(), /약품명으로 활동 검색|사용 활동 보기/);
   await page.locator('#chemical-close').click();
   assert.equal(await page.locator('#chemical-dialog').isVisible(),false);
-  assert.equal(await page.locator('#result-count').innerText(),'탐구활동 454건');
+  assert.equal(await page.locator('#result-count').innerText(),'탐구활동 862건');
   await page.locator('#open-chemicals').click();
   await page.getByRole('button',{name:'공통 관리 안내',exact:true}).click();
   assert.equal(await page.locator('#chemical-title').innerText(),'약품 공통 관리 안내');
