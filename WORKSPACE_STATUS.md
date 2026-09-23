@@ -60,7 +60,8 @@
 - 사이트: https://raphysicst-create.github.io/lab_dashboard/
 - 전체 작업을 보존하기 위해 저장소 구조를 로컬 프로젝트와 동일하게 `site/dist` 중심으로 정리했습니다. 루트 `.github/workflows/deploy-pages.yml`은 `site/dist`만 배포합니다. 루트의 이전 `dist` 사본은 중복을 없애기 위해 정리했습니다.
 - 전체 원자료·검토 기록은 사용자의 요청으로 공개 GitHub 저장소에 포함됩니다. 해당 자료를 웹 제품에 표시하거나 `site/dist`에 복사하지 않습니다.
-- 최신 배포 성공 커밋: `d9322d47a1f548aded6e37d89cb155805ce4e684` (단원명 통일, 86개 표기를 대단원 29개+부록 1개로 정리). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35825015778 의 deploy 성공과 공개 JSON·웹 파일 일치, 단원 필터·출판사 통합·학년 구분·PC/모바일 검증 통과를 확인했습니다. 기록: `output/validation/unit-normalization-20260923/public/`.
+- 최신 배포 성공 커밋: `bdbe15b5b0461bb8891797b6ce13e29cbffdaec3` (통합과학2 부록 1건 제외). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35825704408 배포 성공, 공개 JSON 일치 및 부록 단원·활동 미노출 검증 완료. 현재 전체 1,276개·고1 414개·29단원. 기록: `output/validation/remove-appendix-20260923/public/`.
+- 이전 배포 성공 커밋: `d9322d47a1f548aded6e37d89cb155805ce4e684` (단원명 통일, 86개 표기를 대단원 29개+부록 1개로 정리). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35825015778 의 deploy 성공과 공개 JSON·웹 파일 일치, 단원 필터·출판사 통합·학년 구분·PC/모바일 검증 통과를 확인했습니다. 기록: `output/validation/unit-normalization-20260923/public/`.
 - 이전 배포 성공 커밋: `87f94abb24bdc470f7be0b3dc230500eb017a712` (고1 415개 추가, 총 1,277개·기준 118개). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35823842396 의 deploy 성공과 공개 사이트의 전체 JSON·변경 웹 파일 일치, 고1/중1 분리·복수 성취기준·준비물 원문·PC/모바일 브라우저 검증 통과를 확인했습니다. 페이지 오류 없음. 기록: `output/validation/integrated-site-20260923/public/`.
 - 이전 배포 성공 커밋: `e10b6b984946704ebefa716bb238761ace4e2fb2` (지학사·YBM 성취기준 370건·공식 기준 87개 반영). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35817930172 의 deploy 성공과 공개 사이트의 전체 862건·기준 87개 일치 및 학년·단원·기준 필터·기본순서·상세·PC/모바일 브라우저 검증 통과를 확인했습니다. 페이지 오류 없음. 기록: `output/validation/achievement-site-20260923/public/`.
 - 이전 배포 성공 커밋: `0ddf664a1e29fbb13f70213cfae3576565456407` (약품 공통 관리 줄글·중복 제목 삭제). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35809775851 의 deploy 성공과 공개 화면의 요청 문구 제거·보관장/폐수 그림 유지·PC/모바일 표시를 확인했습니다. 페이지 오류 없음. 기록: `output/validation/guides-trim-20260923/public/`.
@@ -138,3 +139,4 @@
 
 - 사용자 요청으로 동아출판 통합과학2 156쪽 부록의 `직업 탐구 활동`(donga_IS2_045) 1개를 통합 JSON·사이트에서 제외했습니다. 현재 총 1,276개(중학교 862·고1 414), 단원 29개이며 부록 필터가 없습니다.
 - 기존 교과서 추출 원본과 제외 전 사본은 보존합니다. 변경 이력: `outputs/extraction/combined-20260922/decision_history/20260923-remove-appendix/`. 재생성 도구와 현재 검증에도 제외 결정을 반영했습니다.
+- 부록 제외 커밋 `bdbe15b` 배포 및 공개 브라우저 검증 완료.
