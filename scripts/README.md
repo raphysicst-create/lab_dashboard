@@ -96,3 +96,7 @@ python scripts/review/render-review.py
 ## 고1 준비물 분류
 
 `python scripts/extraction/classify_integrated_supplies.py`는 검토한 3개 manifest의 원문 범위와 기존 동일 품목 결정을 검사한 후 고1 분류만 적용합니다. 변경 전 사본을 보존하며 후속 편집이 있으면 덮어쓰기를 중단합니다. 기존 중학교 분류 카탈로그와 원본 추출본은 갱신하지 않습니다. 이어서 `build_data.py`를 실행합니다. 전체 적용 검증은 `verify_integrated_application.py`, 검색 검증은 `verify_core.mjs`, 화면 검증은 `verify_browser.cjs`입니다.
+
+## 출판사 표기 통일
+
+`python scripts/extraction/normalize_publishers.py`는 사용자 지정 3개 별칭만 통일하고 이전 출판사 값을 `출판사 원문` 및 적용 전 사본에 보존합니다. 천재 관련 3개 표기는 변경하지 않습니다. 적용 후 `build_data.py`와 `verify_integrated_application.py`, `verify_core.mjs`, `verify_browser.cjs`로 데이터 보존·별칭 선택 이관·화면을 확인합니다. 후속 변경이 있으면 생성기는 덮어쓰기를 중단합니다.

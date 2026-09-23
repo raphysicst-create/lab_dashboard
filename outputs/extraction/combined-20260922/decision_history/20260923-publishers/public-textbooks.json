@@ -14,22 +14,22 @@
     "grade": null
   },
   {
-    "id": "TXT-0bbbd3cf1449b56d",
-    "publisher_raw": "미래엔",
+    "id": "TXT-56532bbdf0fbb384",
+    "publisher_raw": "미래앤",
     "title": null,
     "edition": null,
     "grade": null
   },
   {
-    "id": "TXT-1e5095288e432300",
-    "publisher_raw": "비상교육",
+    "id": "TXT-29147ecc4b352fee",
+    "publisher_raw": "비상",
     "title": null,
     "edition": null,
     "grade": null
   },
   {
-    "id": "TXT-4ca98ee18bb8a66c",
-    "publisher_raw": "동아출판",
+    "id": "TXT-aeb27377a81da6c2",
+    "publisher_raw": "동아",
     "title": null,
     "edition": null,
     "grade": null
@@ -49,8 +49,29 @@
     "grade": null
   },
   {
+    "id": "TXT-0bbbd3cf1449b56d",
+    "publisher_raw": "미래엔",
+    "title": null,
+    "edition": null,
+    "grade": null
+  },
+  {
     "id": "TXT-c8f3ba84cc01ff8a",
     "publisher_raw": "천재교과서",
+    "title": null,
+    "edition": null,
+    "grade": null
+  },
+  {
+    "id": "TXT-1e5095288e432300",
+    "publisher_raw": "비상교육",
+    "title": null,
+    "edition": null,
+    "grade": null
+  },
+  {
+    "id": "TXT-4ca98ee18bb8a66c",
+    "publisher_raw": "동아출판",
     "title": null,
     "edition": null,
     "grade": null

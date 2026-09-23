@@ -60,7 +60,7 @@ def main():
             if grade not in a['grades']:
                 a['grades'].append(grade)
                 a['grades'].sort()
-        # These IDs identify source labels only, never infer textbook editions.
+        # These IDs identify canonical publisher labels, never infer textbook editions.
         tid = key('TXT', publisher or '')
         textbooks[tid] = {'id': tid, 'publisher_raw': publisher, 'title': None, 'edition': None, 'grade': None}
         activity = {

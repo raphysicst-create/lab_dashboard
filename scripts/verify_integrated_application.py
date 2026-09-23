@@ -29,6 +29,8 @@ UNIT_HISTORY = COMBINED_DIR / "decision_history/20260923-units"
 UNIT_REPORT = ROOT / "output/validation/unit-normalization-20260923/data-validation.json"
 CLASSIFICATION_HISTORY = COMBINED_DIR / "decision_history/20260923-high-classification"
 CLASSIFICATION_REPORT = ROOT / "output/validation/high-classification-20260923/data-validation.json"
+PUBLISHER_HISTORY = COMBINED_DIR / "decision_history/20260923-publishers"
+PUBLISHER_REPORT = ROOT / "output/validation/publishers-20260923/data-validation.json"
 MIDDLE_ADDITIONS = {"grade_key", "school_level", "grade_label", "achievement_ids"}
 PUBLIC_ACTIVITY_KEYS = {
     "id", "source_row", "achievement_id", "achievement_ids", "textbook_id",
@@ -312,6 +314,83 @@ def verify_high_classification(live, activities, check, counts, live_hash):
     return prior, prior_public, prior_hash
 
 
+def verify_publishers(live, activities, textbooks, check, counts, live_hash):
+    """Validate only the three authorized aliases, then restore earlier labels."""
+    history = PUBLISHER_HISTORY
+    required = [history / name for name in [COMBINED.name, "public-activities.json",
+                "public-textbooks.json", "application.json"]]
+    missing = [str(path.relative_to(ROOT)) for path in required if not path.is_file()]
+    check("publisher_required_history_files_exist", not missing, missing)
+    if missing:
+        return None
+    prior = read_json(history / COMBINED.name)
+    prior_public = read_json(history / "public-activities.json")
+    prior_books = read_json(history / "public-textbooks.json")
+    application = read_json(history / "application.json")
+    meta = live["metadata"]["publisher_normalization"]
+    prior_hash = file_hash(history / COMBINED.name)
+    aliases = {"동아": "동아출판", "미래앤": "미래엔", "비상": "비상교육"}
+    expected_counts = {"천재(정대홍)": 96, "천재(임성숙)": 92, "미래엔": 188,
+                       "비상교육": 209, "동아출판": 137, "지학사": 250, "YBM": 239, "천재교과서": 65}
+    check("publisher_stage_hash_chain_and_authorized_aliases", prior_hash == meta.get("snapshot_sha256")
+          == application.get("before_sha256") and live_hash == application.get("output_sha256")
+          and meta.get("snapshot") == (history / COMBINED.name).relative_to(ROOT).as_posix()
+          and meta.get("aliases") == application.get("aliases") == aliases)
+    current = {row["id"]: row for row in live["data"]}
+    public = {row["id"]: row for row in activities}
+    check("publisher_all_1276_ids_and_order_preserved", len(prior["data"]) == len(live["data"]) == 1276
+          and len(current) == len(public) == 1276
+          and [row["id"] for row in live["data"]] == [row["id"] for row in prior["data"]]
+          == [row["id"] for row in prior_public] == [row["id"] for row in activities])
+    row_errors, public_errors, changed = [], [], 0
+    for original in prior["data"]:
+        expected = dict(original)
+        old_label = original["출판사"]
+        if old_label in aliases:
+            expected["출판사 원문"] = old_label
+            expected["출판사"] = aliases[old_label]
+            changed += 1
+        if current.get(original["id"]) != expected:
+            row_errors.append(original["id"])
+    for original in prior_public:
+        expected = dict(original)
+        publisher = aliases.get(original["publisher_raw"], original["publisher_raw"])
+        expected["publisher_raw"] = publisher
+        expected["textbook_id"] = "TXT-" + hashlib.sha256(publisher.encode("utf-8")).hexdigest()[:16]
+        if public.get(original["id"]) != expected:
+            public_errors.append(original["id"])
+    check("publisher_only_266_labels_changed_and_original_labels_preserved", not row_errors
+          and changed == meta.get("changed_rows") == application.get("changed_rows") == 266, row_errors)
+    check("publisher_public_only_label_and_canonical_textbook_id_changed", not public_errors, public_errors)
+    # Use prior textbook metadata, changing only its label/ID, then deduplicate.
+    # Conflicting metadata among aliases must fail rather than silently choosing one.
+    expected_books, conflicts = {}, []
+    for original in prior_books:
+        expected = dict(original)
+        publisher = aliases.get(original["publisher_raw"], original["publisher_raw"])
+        tid = "TXT-" + hashlib.sha256(publisher.encode("utf-8")).hexdigest()[:16]
+        expected.update(id=tid, publisher_raw=publisher)
+        if tid in expected_books and expected_books[tid] != expected:
+            conflicts.append(tid)
+        expected_books[tid] = expected
+    check("publisher_textbooks_11_to_8_canonical_deduplication", len(prior_books) == 11
+          and len(textbooks) == len(expected_books) == 8 and not conflicts
+          and textbooks == list(expected_books.values())
+          and {row.get("textbook_id") for row in activities} == set(expected_books), conflicts)
+    actual_counts = dict(Counter(row["출판사"] for row in live["data"]))
+    check("publisher_eight_canonical_counts_and_three_chunjae_labels_preserved", actual_counts == expected_counts
+          == live["metadata"].get("publisher_counts") == application.get("publisher_counts")
+          and dict(Counter(row["publisher_raw"] for row in activities)) == expected_counts, actual_counts)
+    check("publisher_all_other_document_fields_and_metadata_unchanged",
+          {key: value for key, value in live.items() if key not in {"data", "metadata"}}
+          == {key: value for key, value in prior.items() if key not in {"data", "metadata"}}
+          and {key: value for key, value in live["metadata"].items() if key not in {"publisher_normalization", "publisher_counts"}}
+          == {key: value for key, value in prior["metadata"].items() if key != "publisher_counts"})
+    counts.update(normalized_publisher_count=len(actual_counts), normalized_publisher_rows=changed,
+                  canonical_publisher_counts=actual_counts)
+    return prior, prior_public, prior_books, prior_hash
+
+
 def main():
     checks = []
     counts = {}
@@ -363,9 +442,18 @@ def main():
     live_public = public.copy()
     active_count = len(combined['data'])
     integration_output_hash = file_hash(COMBINED)
+    normalized_publishers = "publisher_normalization" in combined["metadata"]
+    if normalized_publishers:
+        report_path = PUBLISHER_REPORT
+        context = verify_publishers(combined, public["activities"], public["textbooks"], check, counts, integration_output_hash)
+        if context is None:
+            return finish()
+        combined, public["activities"], public["textbooks"], integration_output_hash = context
+        counts["publisher_preservation_basis"] = "현재 1,276행과 공개 교과서를 출판사 정규화 전 스냅샷에 대조한 뒤 이전 분류·단원·통합 이력 검증"
     classified_high = "high_preparation_classification" in combined["metadata"]
     if classified_high:
-        report_path = CLASSIFICATION_REPORT
+        if not normalized_publishers:
+            report_path = CLASSIFICATION_REPORT
         context = verify_high_classification(combined, public["activities"], check, counts, integration_output_hash)
         if context is None:
             return finish()
@@ -373,7 +461,7 @@ def main():
         counts["classification_preservation_basis"] = "현재 1,276행을 분류 전 스냅샷과 대조한 뒤 부록 제거·단원 정규화·최초 통합 이력을 역순 검증"
     removed_appendix = 'appendix_removal' in combined['metadata']
     if removed_appendix:
-        if not classified_high:
+        if not classified_high and not normalized_publishers:
             report_path = ROOT/'output/validation/remove-appendix-20260923/data-validation.json'
         history=COMBINED_DIR/'decision_history/20260923-remove-appendix'
         prior=read_json(history/COMBINED.name); prior_public=read_json(history/'public-activities.json')
@@ -392,7 +480,7 @@ def main():
         combined=prior;public['activities']=prior_public;integration_output_hash=file_hash(history/COMBINED.name)
         counts.update(current_active_activities=active_count,removed_appendix_activities=1)
     if "unit_normalization" in combined["metadata"]:
-        if not removed_appendix and not classified_high:report_path = UNIT_REPORT
+        if not removed_appendix and not classified_high and not normalized_publishers:report_path = UNIT_REPORT
         context = verify_units(combined, public["activities"], check, counts, integration_output_hash)
         if context is None:
             return finish()

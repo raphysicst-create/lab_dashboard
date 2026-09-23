@@ -9,7 +9,8 @@
     "following_applications": [
       "outputs/extraction/combined-20260922/decision_history/20260923-units/application.json",
       "outputs/extraction/combined-20260922/decision_history/20260923-remove-appendix/application.json",
-      "outputs/extraction/combined-20260922/decision_history/20260923-high-classification/application.json"
+      "outputs/extraction/combined-20260922/decision_history/20260923-high-classification/application.json",
+      "outputs/extraction/combined-20260922/decision_history/20260923-publishers/application.json"
     ]
   }
 }

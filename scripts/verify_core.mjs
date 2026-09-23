@@ -5,6 +5,8 @@ import { createHash } from 'node:crypto';
 import { filterActivities, sanitizePreferences } from '../site/dist/core.js';
 const root = new URL('../', import.meta.url);
 const read = name => JSON.parse(readFileSync(new URL(name, root), 'utf8').replace(/^\uFEFF/, ''));
+const publisherAliases = new Map([['동아','동아출판'],['미래앤','미래엔'],['비상','비상교육']]);
+const canonicalPublisher = name => publisherAliases.get(name) ?? name;
 const source = read('outputs/extraction/combined-20260922/decision_history/20260923-integrated-science/science_experiment_supplies_combined.json');
 const highSource = read('outputs/extraction/integrated-science-20260923/science_experiment_supplies_integrated_science.json');
 const removedActivityId = 'donga_IS2_045';
@@ -36,7 +38,7 @@ const officialByCode = new Map(research.official_standards.map(standard => [stan
 const researchByActivity = new Map(research.activity_mappings.map(mapping => [mapping.activity_id, mapping]));
 const textbookIds = new Set(textbooks.map(a => a.id));
 const normalizedById = new Map(normalizedSource.data.map(row => [row.id,row]));
-const highClassificationFields = new Set(['실험 기자재','실험 준비물','분류 보류','준비물 분류','준비물 표시 방식']);
+const highClassificationFields = new Set(['실험 기자재','실험 준비물','분류 보류','준비물 분류','준비물 표시 방식','준비물 분류 비항목']);
 const canonicalUnitKey = text => text.split(/[>/]/)[0].replace(/^통합과학\s*[12]\s*·\s*/, '').replace(/^[\dⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ]+\.\s*/, '').replace(/[\s·⋅]/g,'');
 assert.equal(beforeUnits.data.length,1277);
 assert.deepEqual(normalizedSource.achievement_standards,beforeUnits.achievement_standards);
@@ -52,8 +54,15 @@ for (const row of beforeUnits.data) {
   assert.ok(normalized && activity,row.id);
   for (const [field,value] of Object.entries(row)) {
     const classificationChanged = row['학교급'] === '고등학교' && highClassificationFields.has(field);
-    if (field !== '단원명' && !classificationChanged) assert.deepEqual(normalized[field],value,`${row.id}: preserved ${field}`);
+    if (field !== '단원명' && !classificationChanged) {
+      assert.deepEqual(normalized[field],field === '출판사' ? canonicalPublisher(value) : value,`${row.id}: preserved ${field}`);
+    }
   }
+  assert.equal(normalized['출판사'],canonicalPublisher(row['출판사']));
+  if (publisherAliases.has(row['출판사'])) assert.equal(normalized['출판사 원문'],row['출판사']);
+  else assert.equal(Object.hasOwn(normalized,'출판사 원문'),false,`${row.id}: unchanged publisher needs no alias field`);
+  assert.equal(activity.publisher_raw,canonicalPublisher(row['출판사']));
+  assert.equal(activity.textbook_id,`TXT-${createHash('sha256').update(activity.publisher_raw).digest('hex').slice(0,16)}`);
   assert.equal(normalized['단원명 원문'],row['단원명']);
   assert.equal(activity.unit_raw,row['단원명']);
   assert.equal(activity.unit,normalized['단원명']);
@@ -83,7 +92,9 @@ assert.equal(researchByActivity.size, 408);
 for (const row of source.data) {
   const activity = activityById.get(row.id);
   assert.ok(activity, row.id);
-  for (const [original, output] of [['id','id'],['source_row','source_row'],['단원명','unit_raw'],['성취기준','achievement_raw'],['출판사','publisher_raw'],['쪽','page'],['탐구활동','title'],['교구','materials_raw']]) assert.deepEqual(activity[output], row[original]);
+  for (const [original, output] of [['id','id'],['source_row','source_row'],['단원명','unit_raw'],['성취기준','achievement_raw'],['출판사','publisher_raw'],['쪽','page'],['탐구활동','title'],['교구','materials_raw']]) {
+    assert.deepEqual(activity[output],original === '출판사' ? canonicalPublisher(row[original]) : row[original]);
+  }
   const book = source.metadata.source_datasets.flatMap(d => d.original_metadata.source_books ?? []).find(b => b.book_id === row.source?.book_id);
   const unitNumber = row['단원명'].match(/^(\d+)\./)?.[1];
   assert.equal(activity.grade, book ? book.grade : unitNumber <= 8 ? 1 : 2);
@@ -149,7 +160,7 @@ for (const row of retainedHighRows) {
   const activity = activityById.get(row.id);
   assert.ok(activity, row.id);
   for (const [original, output] of [['id','id'],['source_row','source_row'],['단원명','unit_raw'],['출판사','publisher_raw'],['쪽','page'],['탐구활동','title'],['교구','materials_raw']]) {
-    assert.deepEqual(activity[output], row[original], `${row.id}: ${output}`);
+    assert.deepEqual(activity[output], original === '출판사' ? canonicalPublisher(row[original]) : row[original], `${row.id}: ${output}`);
   }
   assert.equal(activity.school_level, '고등학교');
   assert.equal(activity.grade, 1);
@@ -188,9 +199,16 @@ assert.equal(activities.filter(a => a.materials_raw == null).length,279);
 assert.equal(activities.filter(a => a.achievement_id == null).length,41);
 assert.equal(highActivities.filter(a => a.achievement_id == null).length,3);
 const publishers = [...new Set(activities.map(a => a.publisher_raw))];
+const expectedPublishers = ['동아출판','미래엔','비상교육','천재(임성숙)','천재(정대홍)','천재교과서','지학사','YBM'];
+assert.deepEqual([...publishers].sort(),[...expectedPublishers].sort());
+assert.equal(textbooks.length,8);
+assert.deepEqual(textbooks.map(book => book.publisher_raw).sort(),[...expectedPublishers].sort());
+for (const book of textbooks) assert.equal(book.id,`TXT-${createHash('sha256').update(book.publisher_raw).digest('hex').slice(0,16)}`);
 const defaults = {grade:'all',unit:'all',achievement:'all',publishers,query:''};
 assert.equal(filterActivities(activities, defaults).length, 1276);
-assert.equal(filterActivities(activities, {...defaults,publishers:['비상']}).length, 111);
+assert.equal(filterActivities(activities, {...defaults,publishers:['비상교육']}).length, 209);
+assert.equal(filterActivities(activities, {...defaults,publishers:['비상교육'],grade:'high-1'}).length,98);
+assert.equal(filterActivities(middleActivities, {...defaults,publishers:['비상교육']}).length,111);
 assert.equal(filterActivities(activities, {...defaults,publishers:[]}).length, 0);
 assert.equal(filterActivities(activities, {...defaults,grade:'1'}).length, 328);
 assert.equal(filterActivities(activities, {...defaults,grade:'2'}).length, 446);
@@ -245,8 +263,19 @@ assert.ok(chemicalResults.length > 0);
 assert.ok(chemicalResults.every(a => [a.title,a.materials_raw,a.unit,a.achievement_raw].some(value => value?.includes('염산'))));
 assert.deepEqual(filterActivities(activities, {...defaults,query:'전자저울'}),filterActivities(activities, {...defaults,query:'전자 저울'}));
 const sanitized=sanitizePreferences({publishers:['비상','unknown','비상'],selected:['activity_0001','absent','activity_0001'],students:10,classes:2,groupSize:4},publishers);
-assert.deepEqual(sanitized, {publishers:['비상'],publisherCatalog:publishers});
+assert.deepEqual(sanitized, {publishers:['비상교육'],publisherCatalog:publishers});
 assert.deepEqual(sanitizePreferences({publishers:['동아','미래앤','비상','천재(임성숙)','천재(정대홍)']},publishers).publishers,publishers);
+const legacyPublishers = ['동아','미래앤','비상','천재(임성숙)','천재(정대홍)','지학사','YBM','동아출판','미래엔','비상교육','천재교과서'];
+assert.deepEqual(sanitizePreferences({publishers:['비상'],publisherCatalog:legacyPublishers},publishers).publishers,['비상교육']);
+for (const selected of [['동아'],['동아출판'],['동아','동아출판']]) {
+  assert.deepEqual(sanitizePreferences({publishers:selected,publisherCatalog:legacyPublishers},publishers).publishers,['동아출판']);
+}
+for (const selected of [['동아'],['동아출판']]) {
+  assert.deepEqual(sanitizePreferences({publishers:selected,publisherCatalog:['동아','동아출판']},publishers).publishers,['동아출판']);
+}
+assert.deepEqual(sanitizePreferences({publishers:legacyPublishers,publisherCatalog:legacyPublishers},publishers).publishers,publishers);
+assert.deepEqual(sanitizePreferences({publishers:[],publisherCatalog:legacyPublishers},publishers).publishers,[]);
+assert.deepEqual(sanitizePreferences({publishers:['천재(임성숙)','천재(정대홍)','천재교과서'],publisherCatalog:legacyPublishers},publishers).publishers,['천재(임성숙)','천재(정대홍)','천재교과서']);
 assert.equal(Object.hasOwn(sanitized,'selected'),false);
 
 

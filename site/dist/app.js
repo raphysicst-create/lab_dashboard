@@ -1,4 +1,4 @@
-import { STORAGE_KEY, achievementIds, compareAchievements, filterActivities, gradeKey, sanitizePreferences } from './core.js?v=high-classification-20260923';
+import { STORAGE_KEY, achievementIds, compareAchievements, filterActivities, gradeKey, sanitizePreferences } from './core.js?v=publishers-20260923';
 import { createChemicalUI } from './chemical-ui.js?v=guides-2';
 
 const $ = id => document.getElementById(id);
@@ -75,12 +75,14 @@ function readPreferences() {
   } catch {
     storageWarning('저장된 설정을 읽을 수 없습니다. 현재 화면의 설정으로 사용할 수 있습니다.');
   }
-  return sanitizePreferences(value, state.publishers);
+  const preferences = sanitizePreferences(value, state.publishers);
+  if (value && JSON.stringify(value) !== JSON.stringify(preferences)) savePreferences(preferences);
+  return preferences;
 }
 
-function savePreferences() {
+function savePreferences(preferences = state.preferences) {
   try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(state.preferences));
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(preferences));
     storageWarning('');
   } catch {
     storageWarning('이 브라우저에서 설정을 저장할 수 없습니다. 사이트 데이터 저장 권한을 확인하세요.');
@@ -308,7 +310,7 @@ async function start() {
     const names = ['activities', 'achievements', 'chemicals', 'materials'];
     const results = await Promise.all(names.map(async name => {
       const url = new URL(`./data/${name}.json`, import.meta.url);
-      url.search = '?v=high-classification-20260923';
+      url.search = '?v=publishers-20260923';
       const response = await fetch(url);
       if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
       return response.json();

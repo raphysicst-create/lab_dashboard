@@ -1,5 +1,11 @@
 export const STORAGE_KEY = 'science-classroom-prep.preferences.v1';
 
+const PUBLISHER_ALIASES = { '동아': '동아출판', '미래앤': '미래엔', '비상': '비상교육' };
+
+function canonicalPublisher(publisher) {
+  return Object.hasOwn(PUBLISHER_ALIASES, publisher) ? PUBLISHER_ALIASES[publisher] : publisher;
+}
+
 export function normalizeSearch(value) {
   return String(value ?? '').normalize('NFKC').toLocaleLowerCase('ko').replace(/\s+/g, '');
 }
@@ -40,8 +46,9 @@ export function sanitizePreferences(input, publishers) {
     : ['동아', '미래앤', '비상', '천재(임성숙)', '천재(정대홍)'];
   const selected = Array.isArray(value.publishers) ? value.publishers : publishers;
   const selectedAll = previousCatalog.length > 0 && previousCatalog.every(p => selected.includes(p));
+  const migrated = selected.map(canonicalPublisher);
   return {
-    publishers: selectedAll ? [...publishers] : [...new Set(selected.filter(p => publishers.includes(p)))],
+    publishers: selectedAll ? [...publishers] : [...new Set(migrated.filter(p => publishers.includes(p)))],
     publisherCatalog: [...publishers],
   };
 }
