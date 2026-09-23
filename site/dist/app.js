@@ -1,10 +1,10 @@
 import { STORAGE_KEY, filterActivities, sanitizePreferences } from './core.js?v=combined-1';
-import { createChemicalUI } from './chemical-ui.js?v=chemicals-8';
+import { createChemicalUI } from './chemical-ui.js?v=guides-2';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 30;
 const state = {
-  activities: [], achievements: [], chemicals: [], materials: [], chemical_guidelines: [],
+  activities: [], achievements: [], chemicals: [], materials: [],
   publishers: [], preferences: {}, filtered: [], limit: PAGE_SIZE,
 };
 let chemicalUI;
@@ -243,7 +243,7 @@ function bindEvents() {
 
 async function start() {
   try {
-    const names = ['activities', 'achievements', 'chemicals', 'materials', 'chemical_guidelines'];
+    const names = ['activities', 'achievements', 'chemicals', 'materials'];
     const results = await Promise.all(names.map(async name => {
       const url = new URL(`./data/${name}.json`, import.meta.url);
       url.search = '?v=combined-20260923';
@@ -255,7 +255,7 @@ async function start() {
     if (!Array.isArray(state.activities) || !state.activities.every(a => typeof a.id === 'string')
       || new Set(state.activities.map(a => a.id)).size !== state.activities.length) throw new Error('Invalid activity data');
     if (!Array.isArray(state.chemicals) || !Array.isArray(state.materials)) throw new Error('Invalid chemical data');
-    chemicalUI = createChemicalUI({ chemicals: state.chemicals, guidelines: state.chemical_guidelines });
+    chemicalUI = createChemicalUI({ chemicals: state.chemicals });
     state.publishers = [...new Set(state.activities.map(a => a.publisher_raw))].sort((a, b) => a.localeCompare(b, 'ko'));
     state.preferences = readPreferences();
     populateFilters(); applyPreferences(); bindEvents(); updateResults();

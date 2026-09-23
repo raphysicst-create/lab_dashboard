@@ -32,7 +32,7 @@ function factSection(title, records, describe) {
   return section;
 }
 
-export function createChemicalUI({ chemicals, guidelines }) {
+export function createChemicalUI({ chemicals }) {
   const dialog = document.getElementById('chemical-dialog');
   const title = document.getElementById('chemical-title');
   const content = document.getElementById('chemical-content');
@@ -56,25 +56,13 @@ export function createChemicalUI({ chemicals, guidelines }) {
   function showGuidelines() {
     title.textContent = '약품 공통 관리 안내';
     back.hidden = false;
-    content.replaceChildren(node('p', '폐수는 성분과 혼합 상태를 기준으로 확인하며, 약품명만으로 개별 폐기 방법을 지정하지 않습니다.', 'help'));
     const overview = node('section', null, 'dialog-section');
     overview.append(node('h3', '학교 화학 약품의 보관장 관리'),
       cabinetMap([], { all: true }),
       node('p', '가연성 물질 전용 보관장이 없는 경우 밀폐형 약품장에 보관할 수 있으나, 장기적으로 가연성 물질 전용 보관장을 구비하기 위한 노력이 필요합니다.', 'map-caption'));
-    content.append(overview);
-    for (const guide of guidelines) {
-      const section = node('section', null, 'dialog-section');
-      section.append(node('h3', guide.title));
-      for (const block of guide.content_markdown.split(/\n\n+/)) {
-        if (block === '### 폐수 분류 흐름') {
-          section.append(node('h4', '폐수 분류'), wasteFlow());
-          break;
-        }
-        if (/^#{2,4} /.test(block)) section.append(node('h4', block.replace(/^#{2,4} /, '')));
-        else section.append(node('p', block.replace(/^> /gm, '').replace(/^- /gm, '• '), 'raw-materials guide-paragraph'));
-      }
-      content.append(section);
-    }
+    const wastewater = node('section', null, 'dialog-section');
+    wastewater.append(node('h3', '폐수 분류'), wasteFlow());
+    content.replaceChildren(overview, wastewater);
     dialog.scrollTop = 0; open();
   }
 
