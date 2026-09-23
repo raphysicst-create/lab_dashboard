@@ -32,7 +32,7 @@
 
 ## 데이터와 검증 상태
 
-- 2026-09-23 모바일 출판사 두 열 배치: 320/390/700px 두 열 및 701/1440px 기존 한 열, 가로 넘침 없음, 필터 건수 갱신·체크박스·초기화 검증과 320/390px 화면 검수를 완료했습니다. 페이지 오류 0건. 기록: `output/validation/publisher-columns-20260923/`. 공개 배포 확인 전입니다.
+- 2026-09-23 모바일 출판사 두 열 배치: 320/390/700px 두 열 및 701/1440px 기존 한 열, 가로 넘침 없음, 필터 건수 갱신·체크박스·초기화 검증과 320/390px 화면 검수를 완료했습니다. 페이지 오류 0건. 기록: `output/validation/publisher-columns-20260923/`. 커밋 `a5d51d8`의 공개 배포 후 같은 5개 화면 폭에서 재검증을 통과했습니다. 공개 HTML·CSS·JS 일치, 페이지 오류 0건. 기록: `output/validation/publisher-columns-20260923/public/deployment.json`.
 - 2026-09-23 출판사별 필터 건수 로컬 수정: 최초 전체 건수로 고정되던 표시를 검색 조건 변경 시 갱신하도록 바꿨습니다. 중1·중2·중3·고1의 학년→단원→성취기준, 출판사 전체 해제, 검색어·0건·초기화 및 기존 PC/모바일 브라우저 검증 통과. 페이지 오류 0건. `node scripts/verify_core.mjs`, `node scripts/verify_browser.cjs` 통과. 기록: `output/validation/publisher-counts-20260923/`. 사용자 배포 요청에 따라 `983f327` 게시 후 공개 사이트에서도 같은 검증을 통과했습니다. 공개 파일 14개 일치 및 페이지 오류 0건. 배포 기록: `output/validation/publisher-counts-20260923/public/deployment.json`.
 - 2026-09-23 모바일 필터 접기 로컬 반영: 320/390/700/701/1440px, 검색·선택값 유지·초기화·키보드·화면 크기 전환 및 기존 전체 브라우저/검색 검증 통과. 페이지 오류 0건. 기록: `output/validation/mobile-filters-20260923/`. 모바일 필터 커밋 `ab78623`의 GitHub Pages 배포 및 공개 화면 확인을 완료했습니다. 공개 검증 기록: `output/validation/mobile-filters-20260923/public/deployment.json`.
 - 공개 데이터 생성 입력은 `outputs/extraction/combined-20260922/science_experiment_supplies_combined.json`입니다. 기존 전체 출판사 선택 설정은 새 7개 출판사로 확장하고, 일부만 선택한 설정은 유지합니다.
@@ -66,7 +66,8 @@
 - 사이트: https://raphysicst-create.github.io/lab_dashboard/
 - 전체 작업을 보존하기 위해 저장소 구조를 로컬 프로젝트와 동일하게 `site/dist` 중심으로 정리했습니다. 루트 `.github/workflows/deploy-pages.yml`은 `site/dist`만 배포합니다. 루트의 이전 `dist` 사본은 중복을 없애기 위해 정리했습니다.
 - 전체 원자료·검토 기록은 사용자의 요청으로 공개 GitHub 저장소에 포함됩니다. 해당 자료를 웹 제품에 표시하거나 `site/dist`에 복사하지 않습니다.
-- 최신 배포 성공 커밋: `983f3277b3dc55b5d785951fff8ab0fb4405ef54` (검색 조건에 따른 출판사별 활동 건수 갱신). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35854150030 배포 성공. 공개 파일 14개 일치, 학년·단원·성취기준·검색어별 출판사 건수 및 기존 PC/모바일 브라우저 검증 통과, 페이지 오류 0건. 기록: `output/validation/publisher-counts-20260923/public/`.
+- 최신 배포 성공 커밋: `a5d51d86451d887c03d44d79970d7742c37f7be1` (모바일 출판사·저자 두 열 배치). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35855310322 배포 성공. 공개 HTML·CSS·JS 일치, 320/390/700/701/1440px 배치·가로 넘침·필터 건수·체크박스·초기화 검증 통과, 페이지 오류 0건. 기록: `output/validation/publisher-columns-20260923/public/`.
+- 이전 배포 성공 커밋: `983f3277b3dc55b5d785951fff8ab0fb4405ef54` (검색 조건에 따른 출판사별 활동 건수 갱신). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35854150030 배포 성공. 공개 파일 14개 일치, 학년·단원·성취기준·검색어별 출판사 건수 및 기존 PC/모바일 브라우저 검증 통과, 페이지 오류 0건. 기록: `output/validation/publisher-counts-20260923/public/`.
 - 이전 배포 성공 커밋: `1f7c0710b9ce6357a7939aa0e53af5709f831f0b` (핵심 검색과 약품 선택 로딩 분리). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35849003629 배포 성공. 공개 파일 14개 일치, 선택 로딩/오류·재시도 18개 시나리오 및 검색·필터·상세·약품·PC/모바일 검증 통과, 페이지 오류 0건. 기록: `output/validation/optional-loading-20260923/public/`.
 - 이전 배포 성공 커밋: `6e778cc6b626f05ddac570d87ab571bb22d3b01e` (천재 제외 중복 출판사 표기 통일). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35833083955 배포 성공. 공개 파일 12개 일치·출판사 8종·기존 선택 이관·카드/상세·PC/모바일 검증 통과, 페이지 오류 0건. 기록: `output/validation/publishers-20260923/public/`.
 - 이전 배포 성공 커밋: `67ae45409665649f2ea4e5277796f8e2043c502b` (고1 준비물 기자재·준비물 분류). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35829199537 배포 성공. 공개 파일 12개가 로컬과 일치하며 고1 두 분류 영역·미확인·빈 분류·검색/필터·PC/모바일 검증 통과, 페이지 오류 0건. 기록: `output/validation/high-classification-20260923/public/`.
