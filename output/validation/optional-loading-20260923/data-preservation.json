@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "scope": "Runtime-only change; all public JSON and original/combined data preserved",
+  "files": [
+    {
+      "path": "site/dist/data/achievements.json",
+      "unchanged": true,
+      "sha256": "ad071713c5ccff2f810c6bacd7b3d975f4a9de1dcb8acf5fd7b68b99d6785dbe"
+    },
+    {
+      "path": "site/dist/data/activities.json",
+      "unchanged": true,
+      "sha256": "365d3071e04369fb07ae5c7ff50dcfccbd8e91776d04310ebb9bf4fad6d9e445"
+    },
+    {
+      "path": "site/dist/data/chemicals.json",
+      "unchanged": true,
+      "sha256": "3d43d2006634f3fa4e2d7de8aedc03f0d9ed3d07faf12c4a6f0789672acb6c42"
+    },
+    {
+      "path": "site/dist/data/chemical_guidelines.json",
+      "unchanged": true,
+      "sha256": "d81734f8436833af822c1a2d62cd4711fdd00cce41b0cba8645ff533b1ffcd8d"
+    },
+    {
+      "path": "site/dist/data/materials.json",
+      "unchanged": true,
+      "sha256": "843eafc77f89847d66ff541c507c7c2da7f2327af9273873b25f0969caac19ae"
+    },
+    {
+      "path": "site/dist/data/quantities.json",
+      "unchanged": true,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "site/dist/data/sources.json",
+      "unchanged": true,
+      "sha256": "eedd0901f91a6f923e836412a71e5df264debd624e11768f0e4a2ad2e2e07e75"
+    },
+    {
+      "path": "site/dist/data/textbooks.json",
+      "unchanged": true,
+      "sha256": "853b0824284a7cdbce3c66e4ebfd2eff121c6568fec7d2419bf48497c933e14f"
+    },
+    {
+      "path": "science_experiment_supplies.json",
+      "unchanged": true,
+      "sha256": "22748932ad38860145bdd1c47eb6cd437bfc965e90cbdbff303477133e9336ff"
+    },
+    {
+      "path": "outputs/extraction/combined-20260922/science_experiment_supplies_combined.json",
+      "unchanged": true,
+      "sha256": "1d990e02d5cd92f45ac90df70210613accf95449d87e9311827e064c9eeadb37"
+    }
+  ]
+}

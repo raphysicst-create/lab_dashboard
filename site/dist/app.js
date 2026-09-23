@@ -1,13 +1,127 @@
 import { STORAGE_KEY, achievementIds, compareAchievements, filterActivities, gradeKey, sanitizePreferences } from './core.js?v=publishers-20260923';
-import { createChemicalUI } from './chemical-ui.js?v=guides-2';
 
 const $ = id => document.getElementById(id);
 const PAGE_SIZE = 30;
 const state = {
-  activities: [], achievements: [], chemicals: [], materials: [],
+  activities: [], achievements: [],
   publishers: [], preferences: {}, filtered: [], limit: PAGE_SIZE,
 };
 let chemicalUI;
+let chemicalLoad;
+let chemicalAttempt = 0;
+let chemicalDialogRequest = 0;
+const CHEMICAL_TIMEOUT_MS = 15000;
+
+async function fetchData(name, options = {}) {
+  const url = new URL(`./data/${name}.json`, import.meta.url);
+  url.search = '?v=publishers-20260923';
+  const response = await fetch(url, options);
+  if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
+  return response.json();
+}
+
+function validateChemicals(chemicals) {
+  const records = ['cabinets', 'classifications', 'storage', 'incompatibilities'];
+  if (!Array.isArray(chemicals) || !chemicals.every(chemical => chemical
+    && typeof chemical.id === 'string' && typeof chemical.name === 'string'
+    && (chemical.aliases == null || (Array.isArray(chemical.aliases) && chemical.aliases.every(name => typeof name === 'string')))
+    && records.every(key => chemical[key] == null || (Array.isArray(chemical[key])
+      && chemical[key].every(record => record && typeof record === 'object'))))
+    || new Set(chemicals.map(chemical => chemical.id)).size !== chemicals.length) {
+    throw new Error('Invalid chemical data');
+  }
+}
+
+function loadChemicalUI() {
+  if (chemicalUI) return Promise.resolve(chemicalUI);
+  if (chemicalLoad) return chemicalLoad;
+  const attempt = ++chemicalAttempt;
+  const controller = new AbortController();
+  let timeout;
+  // Retry both modules with a new URL, including a failed diagram dependency.
+  const modules = Promise.all([
+    fetchData('chemicals', { signal: controller.signal, cache: attempt > 1 ? 'reload' : 'default' }),
+    import(`./chemical-ui.js?v=optional-20260923&attempt=${attempt}`),
+    import(`./chemical-diagrams.js?v=optional-20260923&attempt=${attempt}`),
+  ]);
+  const deadline = new Promise((_, reject) => {
+    timeout = setTimeout(() => reject(new Error('Chemical loading timed out')), CHEMICAL_TIMEOUT_MS);
+  });
+  chemicalLoad = Promise.race([modules, deadline]).then(([chemicals, module, diagrams]) => {
+    validateChemicals(chemicals);
+    chemicalUI = module.createChemicalUI({ chemicals, diagrams });
+    return chemicalUI;
+  }).catch(error => {
+    controller.abort();
+    throw error;
+  }).finally(() => {
+    clearTimeout(timeout);
+    chemicalLoad = null;
+  });
+  return chemicalLoad;
+}
+
+function chemicalStatus(container, loading, retry) {
+  container.setAttribute('aria-busy', String(loading));
+  const message = element('p', loading ? '약품 정보를 불러오는 중입니다.' : '약품 정보를 불러오지 못했습니다.');
+  message.setAttribute('role', 'status');
+  container.replaceChildren(message);
+  if (!loading) container.append(action('다시 시도', retry));
+}
+
+async function openChemicalCatalog() {
+  const request = ++chemicalDialogRequest;
+  const dialog = $('chemical-dialog');
+  $('chemical-title').textContent = '약품 관리';
+  $('chemical-back').hidden = true;
+  chemicalStatus($('chemical-content'), true);
+  if (!dialog.open) dialog.showModal();
+  try {
+    const ui = await loadChemicalUI();
+    if (request !== chemicalDialogRequest || !dialog.open) return;
+    $('chemical-content').setAttribute('aria-busy', 'false');
+    ui.showCatalog();
+  } catch {
+    if (request === chemicalDialogRequest && dialog.open) {
+      chemicalStatus($('chemical-content'), false, openChemicalCatalog);
+    }
+  }
+}
+
+function activityChemicalSection(activity) {
+  const section = element('section', null, 'dialog-section');
+  const content = element('div');
+  section.append(element('h3', '약품 관리'), content);
+  if (!(activity.chemical_ids ?? []).length) {
+    content.append(element('p', '연결된 약품 정보: 미확인'));
+    return section;
+  }
+  async function populate() {
+    chemicalStatus(content, true);
+    try {
+      const ui = await loadChemicalUI();
+      if (!section.isConnected || !$('activity-dialog').open) return;
+      section.replaceChildren(...ui.activitySection(activity).childNodes);
+    } catch {
+      if (section.isConnected && $('activity-dialog').open) chemicalStatus(content, false, populate);
+    }
+  }
+  populate();
+  return section;
+}
+
+function setupChemicalAccess() {
+  const dialog = $('chemical-dialog');
+  $('open-chemicals').addEventListener('click', openChemicalCatalog);
+  $('open-chemicals').disabled = false;
+  $('chemical-close').addEventListener('click', () => dialog.close());
+  dialog.addEventListener('close', () => { chemicalDialogRequest++; });
+  dialog.addEventListener('click', event => {
+    if (event.target !== dialog) return;
+    const bounds = dialog.getBoundingClientRect();
+    if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
+  });
+}
 
 function element(tag, text, className) {
   const node = document.createElement(tag);
@@ -256,7 +370,7 @@ function showActivity(id) {
     section.append(element('h3', label), element('p', value, 'raw-materials'));
     return section;
   });
-  $('dialog-content').replaceChildren(list, ...materials, chemicalUI.activitySection(activity));
+  $('dialog-content').replaceChildren(list, ...materials, activityChemicalSection(activity));
   if (!$('activity-dialog').open) $('activity-dialog').showModal();
 }
 
@@ -307,19 +421,13 @@ function bindEvents() {
 
 async function start() {
   try {
-    const names = ['activities', 'achievements', 'chemicals', 'materials'];
-    const results = await Promise.all(names.map(async name => {
-      const url = new URL(`./data/${name}.json`, import.meta.url);
-      url.search = '?v=publishers-20260923';
-      const response = await fetch(url);
-      if (!response.ok) throw new Error(`Failed to load ${name}: ${response.status}`);
-      return response.json();
-    }));
+    const names = ['activities', 'achievements'];
+    const results = await Promise.all(names.map(name => fetchData(name)));
     names.forEach((name, i) => { state[name] = results[i]; });
     if (!Array.isArray(state.activities) || !state.activities.every(a => typeof a.id === 'string')
       || new Set(state.activities.map(a => a.id)).size !== state.activities.length) throw new Error('Invalid activity data');
-    if (!Array.isArray(state.chemicals) || !Array.isArray(state.materials)) throw new Error('Invalid chemical data');
-    chemicalUI = createChemicalUI({ chemicals: state.chemicals });
+    if (!Array.isArray(state.achievements) || !state.achievements.every(a => a && typeof a.id === 'string')
+      || new Set(state.achievements.map(a => a.id)).size !== state.achievements.length) throw new Error('Invalid achievement data');
     state.publishers = [...new Set(state.activities.map(a => a.publisher_raw))].sort((a, b) => a.localeCompare(b, 'ko'));
     state.preferences = readPreferences();
     populateFilters(); applyPreferences(); bindEvents(); updateResults();
@@ -332,4 +440,5 @@ async function start() {
 }
 
 setupFilterDisclosure();
+setupChemicalAccess();
 start();

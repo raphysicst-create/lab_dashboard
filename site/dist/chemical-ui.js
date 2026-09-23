@@ -1,5 +1,4 @@
-import { normalizeSearch } from './core.js?v=chemicals-8';
-import { cabinetMap, cabinetCategories, wasteFlow } from './chemical-diagrams.js?v=chemicals-8';
+import { normalizeSearch } from './core.js?v=publishers-20260923';
 
 function node(tag, text, className) {
   const result = document.createElement(tag);
@@ -32,7 +31,8 @@ function factSection(title, records, describe) {
   return section;
 }
 
-export function createChemicalUI({ chemicals }) {
+export function createChemicalUI({ chemicals, diagrams }) {
+  const { cabinetMap, cabinetCategories, wasteFlow } = diagrams;
   const dialog = document.getElementById('chemical-dialog');
   const title = document.getElementById('chemical-title');
   const content = document.getElementById('chemical-content');
@@ -50,6 +50,7 @@ export function createChemicalUI({ chemicals }) {
   }
 
   function open() {
+    content.setAttribute('aria-busy', 'false');
     if (!dialog.open) dialog.showModal();
   }
 
@@ -126,16 +127,9 @@ export function createChemicalUI({ chemicals }) {
   }
 
   back.addEventListener('click', () => showCatalog(catalogQuery));
-  document.getElementById('chemical-close').addEventListener('click', () => dialog.close());
-  document.getElementById('open-chemicals').addEventListener('click', () => showCatalog());
-  document.getElementById('open-chemicals').disabled = false;
-  dialog.addEventListener('click', event => {
-    if (event.target !== dialog) return;
-    const bounds = dialog.getBoundingClientRect();
-    if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
-  });
 
   return {
+    showCatalog,
     activitySection(activity) {
       const section = node('section', null, 'dialog-section');
       section.append(node('h3', '약품 관리'));

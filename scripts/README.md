@@ -44,6 +44,7 @@ npm test
 npm run test:browser
 npm run test:chemicals
 node scripts/verify_cabinets.cjs
+node scripts/verify_optional_loading.cjs
 ```
 
 기본 주소는 `http://127.0.0.1:4173/`입니다. 필요하면 `LAB_DASHBOARD_TEST_BASE_URL` 환경변수로 바꿉니다. 기본 Chromium 대신 설치된 Edge를 사용하려면 `LAB_DASHBOARD_BROWSER_CHANNEL=msedge`로 설정합니다. `LAB_DASHBOARD_TEST_OUTPUT`은 화면 캡처·보고서 출력 폴더를 바꿉니다. PowerShell 예시는 다음과 같습니다.
@@ -55,6 +56,8 @@ Remove-Item Env:LAB_DASHBOARD_BROWSER_CHANNEL
 ```
 
 기본 출력 위치는 일반 검증 `output/validation/`, 약품 검증 `output/validation/chemicals/browser/`입니다. 기존 보고서를 보존하려면 별도 출력 폴더를 지정합니다.
+
+`verify_optional_loading.cjs`는 첫 화면의 활동·성취기준 요청, 약품의 선택적 로딩, 실패·재시도, 동시 요청 재사용, 창을 닫거나 다른 활동을 열었을 때 늦은 응답 처리 등을 검사합니다. 파일 오류를 브라우저 요청에서 재현하며 실제 공개 데이터는 수정하지 않습니다.
 
 ## 배포 파일 묶기
 

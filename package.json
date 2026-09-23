@@ -10,7 +10,8 @@
   "scripts": {
     "test": "node scripts/verify_core.mjs",
     "test:browser": "node scripts/verify_browser.cjs",
-    "test:chemicals": "node scripts/verify_chemicals.cjs"
+    "test:chemicals": "node scripts/verify_chemicals.cjs",
+    "test:optional-loading": "node scripts/verify_optional_loading.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"

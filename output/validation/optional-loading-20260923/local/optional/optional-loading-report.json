@@ -1,0 +1,288 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:4173/",
+  "activityRows": 1276,
+  "chemicalRows": 177,
+  "scenarioCount": 18,
+  "results": [
+    {
+      "name": "initial-core-only-and-unlinked-detail",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "catalog-trigger-and-success-cache",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 1,
+        "chemical-ui.js": 1,
+        "chemical-diagrams.js": 1
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "linked-detail-immediate-during-loading",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 1,
+        "chemical-ui.js": 1,
+        "chemical-diagrams.js": 1
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "chemicals-404-isolation-and-retry",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 3,
+        "chemical-ui.js": 3,
+        "chemical-diagrams.js": 3
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "chemicals-invalid-json-isolation-and-retry",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 3,
+        "chemical-ui.js": 3,
+        "chemical-diagrams.js": 3
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "chemicals-invalid-shape-isolation-and-retry",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 3,
+        "chemical-ui.js": 3,
+        "chemical-diagrams.js": 3
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "chemicals-invalid-record-isolation-and-retry",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 3,
+        "chemical-ui.js": 3,
+        "chemical-diagrams.js": 3
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "activity-failure-and-inline-retry",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 2,
+        "chemical-ui.js": 2,
+        "chemical-diagrams.js": 2
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "chemical-ui-404-and-module-retry",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 3,
+        "chemical-ui.js": 3,
+        "chemical-diagrams.js": 3
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "chemical-diagrams-404-and-module-retry",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 3,
+        "chemical-ui.js": 3,
+        "chemical-diagrams.js": 3
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "closed-activity-not-reopened-after-response",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 1,
+        "chemical-ui.js": 1,
+        "chemical-diagrams.js": 1
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "closed-catalog-not-reopened-after-response",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 1,
+        "chemical-ui.js": 1,
+        "chemical-diagrams.js": 1
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "pending-response-switch-to-unlinked-activity",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 1,
+        "chemical-ui.js": 1,
+        "chemical-diagrams.js": 1
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "pending-response-switch-to-other-linked-activity",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 1,
+        "chemical-ui.js": 1,
+        "chemical-diagrams.js": 1
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "catalog-activity-concurrent-request-reuse",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 1,
+        "chemical-ui.js": 1,
+        "chemical-diagrams.js": 1
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "chemical-timeout-and-retry",
+      "status": "passed",
+      "requestCounts": {
+        "": 1,
+        "style.css": 1,
+        "app.js": 1,
+        "core.js": 1,
+        "activities.json": 1,
+        "achievements.json": 1,
+        "chemicals.json": 2,
+        "chemical-ui.js": 2,
+        "chemical-diagrams.js": 2
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "core-activities-404-remains-fatal",
+      "status": "passed",
+      "requestCounts": {
+        "": 2,
+        "style.css": 2,
+        "app.js": 2,
+        "core.js": 2,
+        "activities.json": 2,
+        "achievements.json": 2
+      },
+      "pageErrors": []
+    },
+    {
+      "name": "core-achievements-404-remains-fatal",
+      "status": "passed",
+      "requestCounts": {
+        "": 2,
+        "style.css": 2,
+        "app.js": 2,
+        "core.js": 2,
+        "activities.json": 2,
+        "achievements.json": 2
+      },
+      "pageErrors": []
+    }
+  ]
+}
