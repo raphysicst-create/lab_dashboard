@@ -2,6 +2,9 @@
 
 HTML, CSS, JavaScript와 JSON으로 구성한 정적 웹사이트입니다. 실행 시 서버 데이터베이스, 사용자 로그인, 별도 API를 사용하지 않습니다.
 
+- 공개 사이트: https://raphysicst-create.github.io/lab_dashboard/
+- GitHub 저장소: https://github.com/raphysicst-create/lab_dashboard
+
 새 컴퓨터에서는 아래의 복제·실행 절차를 사용하세요. 현재 결정 사항과 미완료 작업은 [WORKSPACE_STATUS.md](WORKSPACE_STATUS.md), 최초 계획서는 [docs/initial-plan.md](docs/initial-plan.md)에 보존했습니다. 최초 계획서보다 이후 사용자 결정 사항을 우선합니다.
 
 ## 구성
@@ -10,6 +13,7 @@ HTML, CSS, JavaScript와 JSON으로 구성한 정적 웹사이트입니다. 실�
 - `site/dist/style.css`: 디자인과 반응형 레이아웃
 - `site/dist/app.js`: 검색, 화면 표시, 브라우저 설정 저장
 - `site/dist/core.js`: 검색·출판사 선택 처리
+- `site/dist/chemical-ui.js`: 필요할 때만 불러오는 약품 화면 처리
 - `site/dist/chemical-diagrams.js`: 개별 약품 보관장 강조와 공통 폐수 분류 그림
 - `site/dist/data/`: 공개할 데이터만 저장
 - `scripts/build_data.py`: 원본 JSON에서 공개 데이터와 비공개 검증 기록 생성
@@ -26,9 +30,11 @@ HTML, CSS, JavaScript와 JSON으로 구성한 정적 웹사이트입니다. 실�
 
 처음에는 활동·성취기준 JSON만 불러옵니다. 약품 데이터와 약품 화면·그림 코드는 ‘약품 관리’를 누르거나 연결된 약품이 있는 활동 상세를 열 때 불러옵니다. 활동 제목과 준비물은 먼저 표시하며, 약품 로딩 실패는 해당 영역에만 안내하고 재시도할 수 있습니다. 성공한 약품 자료는 페이지를 새로 열기 전까지 재사용합니다. `materials.json`, `chemical_guidelines.json`, `quantities.json`은 웹 실행 중 요청하지 않으며 자료 파일은 보존합니다.
 
+같은 조건에서 이전 방식과 각 30회 비교한 결과, 첫 활동 화면 준비 시간은 모든 비교에서 개선됐습니다. 초기 압축 전송량은 178,953 B에서 154,337 B로 13.8%, 요청 수는 11개에서 6개로 줄었습니다. 상세 조건과 60회 원시 결과는 [선택 로딩 성능 보고서](output/validation/optional-performance-20260923/README.md)에 있습니다.
+
 ## 데이터 원칙
 
-1. `science_experiment_supplies.json` 원본은 변경하지 않습니다. 중학교 862행과 기자재·준비물 분류는 보존하고 고1 415행을 추가했습니다. 후속 성취기준 반영 전 통합본과 원문 값도 별도로 보존합니다. 통합 입력은 `outputs/extraction/combined-20260922/science_experiment_supplies_combined.json`입니다.
+1. `science_experiment_supplies.json` 원본은 변경하지 않습니다. 중학교 862행과 기자재·준비물 분류를 보존하고 고1 415행을 추출했으며, 사용자 요청으로 통합과학2 부록 1행을 제외해 현재 통합·공개 데이터는 1,276행(중학교 862·고1 414)입니다. 후속 성취기준 반영 전 통합본과 원문 값도 별도로 보존합니다. 통합 입력은 `outputs/extraction/combined-20260922/science_experiment_supplies_combined.json`입니다.
 2. 기존 원자료와 교과서 추출 자료를 통합한 상태입니다. 교과서 대조 상태는 작업용 엑셀과 `output/validation/verification.json`에만 기록합니다. 전체 작업을 옮기기 위해 해당 파일들도 이 GitHub 저장소에 보존하지만, 사이트 배포 대상인 `site/dist`에는 넣지 않습니다.
 3. 미확인 값은 `null`로 보존하고 화면에서는 ‘미확인’으로 표시합니다. 자료 없음과 준비물이 필요 없다는 의미를 혼동하지 않습니다.
 4. 기존 원자료는 사용자 지정 기준(1~8단원=1학년, 9~15단원=2학년)을 적용하고, 지학사·YBM은 원본 교과서 메타데이터의 학년(K7=1, K8=2, K9=3)을 적용합니다. 교육부 공식 성취기준 87개를 대조해 지학사·YBM 370건을 연결했습니다(문서 직접 연결 136건, 소단원·목표·쪽수 대조 연결 234건). 후보·미확인 38건은 null이며 후보 코드는 적용하지 않았습니다. 통합 JSON에 변경 전 성취기준 원문과 연결 방식·근거를 보존하고, 공개 화면은 기준 문장만 표시합니다. 통합 JSON의 단원명은 중학교 1~23 및 통합과학 각 권 1~3 대단원으로 통일하고 원문은 `단원명 원문`에 보존합니다. 사용자 요청으로 통합과학2 부록 활동 1개는 통합 JSON과 사이트에서 제외했습니다. 동일 성취기준은 출판사별로 함께 검색되며 기존 기본순서(성취기준 번호→출판사→기존 활동 순서)를 유지합니다. 고1 통합과학 414개는 중학교 학년과 별도로 선택합니다. 교과서에서 확인한 기준 31개로 411개를 연결했고 3개는 null입니다. 복수 성취기준은 모든 연결 기준으로 검색됩니다. 총 기준은 118개이며 `ACH-*`, `TXT-*`는 내부 ID입니다.
@@ -53,6 +59,8 @@ node scripts/verify_core.mjs
 node scripts/verify_browser.cjs
 python scripts/verify_chemicals.py
 node scripts/verify_chemicals.cjs
+node scripts/verify_cabinets.cjs
+node scripts/verify_optional_loading.cjs
 ```
 
 검증 도구 설치와 실행 방법은 [scripts/README.md](scripts/README.md)에 있습니다. 브라우저 검증 전에 정적 서버가 켜져 있어야 합니다. 사이트 자체에는 Node나 Python 설치가 필요하지 않습니다.
@@ -85,7 +93,8 @@ GitHub의 **Code → Download ZIP**으로 받아도 같은 파일을 복원할 �
 
 - 저장소: https://github.com/raphysicst-create/lab_dashboard
 - 공개 사이트: https://raphysicst-create.github.io/lab_dashboard/
-- 현재 배포 장애 및 마지막 확인 상태: [WORKSPACE_STATUS.md](WORKSPACE_STATUS.md)
+- 최신 사이트 변경 커밋 `1f7c071`은 2026-09-23 GitHub Pages 배포와 공개 파일 대조를 완료했습니다. 선택 로딩·오류 재시도 18개 시나리오, 검색·필터·상세·약품 및 PC·모바일 검증을 통과했고 페이지 오류는 0건이었습니다.
+- 최신 배포 기록과 과거 장애 이력: [WORKSPACE_STATUS.md](WORKSPACE_STATUS.md)
 
 `site/.github/workflows/deploy-pages.yml`과 `site/README.md`는 공개 파일만 담는 별도 배포용 ZIP의 템플릿입니다. 전체 저장소의 실제 워크플로는 루트 `.github`에 있는 파일입니다.
 
