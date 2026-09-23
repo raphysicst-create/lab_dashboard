@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "deployment_commit": "e10b6b984946704ebefa716bb238761ace4e2fb2",
+  "deployment_run": "https://github.com/raphysicst-create/lab_dashboard/actions/runs/35817930172",
+  "site": "https://raphysicst-create.github.io/lab_dashboard/",
+  "datasets": {
+    "activities": {
+      "records": 862,
+      "json_matches_local": true,
+      "sha256": "5dce668f4ec6df80bdce5c675025d6d550838ebc96439f2fe7af4d71d73946b1"
+    },
+    "achievements": {
+      "records": 87,
+      "json_matches_local": true,
+      "sha256": "c16bb26223e3d5e2e9bc6d94c97147f3df3e0a749eb61869e24676982de458be"
+    },
+    "chemicals": {
+      "records": 177,
+      "json_matches_local": true,
+      "sha256": "3d43d2006634f3fa4e2d7de8aedc03f0d9ed3d07faf12c4a6f0789672acb6c42"
+    },
+    "materials": {
+      "records": 18,
+      "json_matches_local": true,
+      "sha256": "b563c754116d93f4b45bb2cd1807facc39098e0e0111cccdf2e83154deb1906c"
+    }
+  }
+}
