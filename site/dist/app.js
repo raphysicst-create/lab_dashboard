@@ -259,6 +259,29 @@ function showActivity(id) {
   if (!$('activity-dialog').open) $('activity-dialog').showModal();
 }
 
+function setupFilterDisclosure() {
+  const mobile = window.matchMedia('(max-width:700px)');
+  const toggle = $('toggle-filters');
+  const panel = $('advanced-filters');
+  let expandedOnMobile = false;
+  const sync = () => {
+    const expanded = !mobile.matches || expandedOnMobile;
+    if (mobile.matches) toggle.hidden = false;
+    if (!expanded && panel.contains(document.activeElement)) toggle.focus();
+    if (!mobile.matches && document.activeElement === toggle) $('search').focus();
+    toggle.hidden = !mobile.matches;
+    toggle.setAttribute('aria-expanded', String(expanded));
+    toggle.textContent = expanded ? '필터 ▴' : '필터 ▾';
+    panel.hidden = !expanded;
+  };
+  toggle.addEventListener('click', () => {
+    expandedOnMobile = !expandedOnMobile;
+    sync();
+  });
+  mobile.addEventListener('change', sync);
+  sync();
+}
+
 function bindEvents() {
   $('search').addEventListener('input', updateResults);
   ['achievement-filter', 'sort-order'].forEach(id => $(id).addEventListener('change', updateResults));
@@ -307,4 +330,5 @@ async function start() {
   }
 }
 
+setupFilterDisclosure();
 start();

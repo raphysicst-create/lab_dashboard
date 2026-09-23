@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "widths": [
+    320,
+    390,
+    700,
+    701,
+    1440
+  ],
+  "checked": [
+    "mobile initially collapsed",
+    "search while collapsed",
+    "keyboard Enter and Space",
+    "hidden controls skipped by Tab",
+    "grade and publisher retention",
+    "reset while collapsed",
+    "desktop always expanded",
+    "focus on breakpoint transition",
+    "mobile expansion retained across resize",
+    "reload collapsed",
+    "no horizontal overflow"
+  ],
+  "pageErrors": []
+}

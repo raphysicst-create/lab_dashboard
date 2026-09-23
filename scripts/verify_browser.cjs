@@ -267,6 +267,7 @@ const key = 'science-classroom-prep.preferences.v1';
   await page.setViewportSize({width:390,height:844});
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
   await page.screenshot({path:path.join(output,'mobile.png')});
+  await page.locator('#toggle-filters').click();
   await checkHighDetail(highMultiple);
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
   assert.equal(await page.locator('#activity-dialog').evaluate(dialog=>dialog.scrollWidth<=dialog.clientWidth),true);
