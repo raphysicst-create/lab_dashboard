@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checked": [
+    "plain activity search without chemical suggestions or filter",
+    "source storage rules",
+    "activity to chemical modal and Escape",
+    "catalogue and normalized notation search",
+    "conflicting cabinet stays unknown",
+    "chemical details without activity search buttons",
+    "shared guidance",
+    "unmatched unknown",
+    "mobile layout"
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "deployment_commit": "1f7c0710b9ce6357a7939aa0e53af5709f831f0b",
+  "deployment_run": "https://github.com/raphysicst-create/lab_dashboard/actions/runs/35849003629",
+  "deployment_conclusion": "success",
+  "site": "https://raphysicst-create.github.io/lab_dashboard/",
+  "file_count": 14,
+  "files": [
+    {
+      "path": "index.html",
+      "matches_local": true,
+      "sha256": "0d8acda8a185ef1c45b233396d1769ed21e14c4e0942e58748872d711116f707"
+    },
+    {
+      "path": "app.js",
+      "matches_local": true,
+      "sha256": "c4df571cd5e23c6449a40db1ad567a711b8034cec2c2efb654594cf74a97ac14"
+    },
+    {
+      "path": "core.js",
+      "matches_local": true,
+      "sha256": "847142de6c615bff9978d8cb76f6d87c4c5fad5f4d5c389e20b4d29d740bdae7"
+    },
+    {
+      "path": "chemical-ui.js",
+      "matches_local": true,
+      "sha256": "24115938567e88acf259222178537ec554d67137adfa0c5ba6b1df7cbda7152f"
+    },
+    {
+      "path": "chemical-diagrams.js",
+      "matches_local": true,
+      "sha256": "bc77ad6eb5eafe36e38f3604441be77fd773896b8a29ef116e75f329789d6ee1"
+    },
+    {
+      "path": "style.css",
+      "matches_local": true,
+      "sha256": "e03b5b6538db292b4fe70f6606e63c1c86ea8c254506050a9b373d5cbc07b239"
+    },
+    {
+      "path": "data/achievements.json",
+      "matches_local": true,
+      "sha256": "ad071713c5ccff2f810c6bacd7b3d975f4a9de1dcb8acf5fd7b68b99d6785dbe"
+    },
+    {
+      "path": "data/activities.json",
+      "matches_local": true,
+      "sha256": "365d3071e04369fb07ae5c7ff50dcfccbd8e91776d04310ebb9bf4fad6d9e445"
+    },
+    {
+      "path": "data/chemicals.json",
+      "matches_local": true,
+      "sha256": "3d43d2006634f3fa4e2d7de8aedc03f0d9ed3d07faf12c4a6f0789672acb6c42"
+    },
+    {
+      "path": "data/chemical_guidelines.json",
+      "matches_local": true,
+      "sha256": "d81734f8436833af822c1a2d62cd4711fdd00cce41b0cba8645ff533b1ffcd8d"
+    },
+    {
+      "path": "data/materials.json",
+      "matches_local": true,
+      "sha256": "843eafc77f89847d66ff541c507c7c2da7f2327af9273873b25f0969caac19ae"
+    },
+    {
+      "path": "data/quantities.json",
+      "matches_local": true,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "data/sources.json",
+      "matches_local": true,
+      "sha256": "eedd0901f91a6f923e836412a71e5df264debd624e11768f0e4a2ad2e2e07e75"
+    },
+    {
+      "path": "data/textbooks.json",
+      "matches_local": true,
+      "sha256": "853b0824284a7cdbce3c66e4ebfd2eff121c6568fec7d2419bf48497c933e14f"
+    }
+  ],
+  "verification": {
+    "public_files_matching": 14,
+    "optional_scenarios_passed": 18,
+    "browser_regression": "passed",
+    "chemical_regression": "passed",
+    "page_errors": 0
+  }
+}

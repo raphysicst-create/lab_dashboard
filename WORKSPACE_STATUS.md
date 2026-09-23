@@ -62,7 +62,8 @@
 - 사이트: https://raphysicst-create.github.io/lab_dashboard/
 - 전체 작업을 보존하기 위해 저장소 구조를 로컬 프로젝트와 동일하게 `site/dist` 중심으로 정리했습니다. 루트 `.github/workflows/deploy-pages.yml`은 `site/dist`만 배포합니다. 루트의 이전 `dist` 사본은 중복을 없애기 위해 정리했습니다.
 - 전체 원자료·검토 기록은 사용자의 요청으로 공개 GitHub 저장소에 포함됩니다. 해당 자료를 웹 제품에 표시하거나 `site/dist`에 복사하지 않습니다.
-- 최신 배포 성공 커밋: `6e778cc6b626f05ddac570d87ab571bb22d3b01e` (천재 제외 중복 출판사 표기 통일). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35833083955 배포 성공. 공개 파일 12개 일치·출판사 8종·기존 선택 이관·카드/상세·PC/모바일 검증 통과, 페이지 오류 0건. 기록: `output/validation/publishers-20260923/public/`.
+- 최신 배포 성공 커밋: `1f7c0710b9ce6357a7939aa0e53af5709f831f0b` (핵심 검색과 약품 선택 로딩 분리). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35849003629 배포 성공. 공개 파일 14개 일치, 선택 로딩/오류·재시도 18개 시나리오 및 검색·필터·상세·약품·PC/모바일 검증 통과, 페이지 오류 0건. 기록: `output/validation/optional-loading-20260923/public/`.
+- 이전 배포 성공 커밋: `6e778cc6b626f05ddac570d87ab571bb22d3b01e` (천재 제외 중복 출판사 표기 통일). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35833083955 배포 성공. 공개 파일 12개 일치·출판사 8종·기존 선택 이관·카드/상세·PC/모바일 검증 통과, 페이지 오류 0건. 기록: `output/validation/publishers-20260923/public/`.
 - 이전 배포 성공 커밋: `67ae45409665649f2ea4e5277796f8e2043c502b` (고1 준비물 기자재·준비물 분류). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35829199537 배포 성공. 공개 파일 12개가 로컬과 일치하며 고1 두 분류 영역·미확인·빈 분류·검색/필터·PC/모바일 검증 통과, 페이지 오류 0건. 기록: `output/validation/high-classification-20260923/public/`.
 - 이전 배포 성공 커밋: `ab78623bfd528624c2ec2cc3201c3d776ee2c2a0` (모바일 상세 필터 접기). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35827250208 배포 성공. 공개 HTML·JS·CSS가 로컬과 일치하며 320/390/700/701/1440px에서 초기 접힘·검색·필터 펼치기/접기·선택값 유지·초기화·PC 표시·가로 넘침 없음 확인, 페이지 오류 0건. 기록: `output/validation/mobile-filters-20260923/public/`.
 - 이전 배포 성공 커밋: `bdbe15b5b0461bb8891797b6ce13e29cbffdaec3` (통합과학2 부록 1건 제외). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35825704408 배포 성공, 공개 JSON 일치 및 부록 단원·활동 미노출 검증 완료. 현재 전체 1,276개·고1 414개·29단원. 기록: `output/validation/remove-appendix-20260923/public/`.
@@ -169,4 +170,11 @@
 - 동시 진입은 진행 중 요청을 공유하고 성공 결과를 재사용합니다. 15초 초과 시 약품 영역에서 재시도할 수 있으며, 실패한 모듈은 새 주소로 다시 요청하고 JSON 재시도는 브라우저 캐시를 갱신합니다. 늦게 도착한 응답이 닫은 창을 열거나 다른 활동의 내용을 덮어쓰지 않도록 처리했습니다.
 - 초기 두 필수 자료의 실패는 기존 활동 로딩 오류·다시 불러오기 흐름을 유지합니다. 활동 1,276개·성취기준 118개·약품 177개와 원자료/통합 JSON, 공개 데이터는 모두 그대로입니다.
 - 로컬 검증: 선택 로딩·실패/재시도·시간 초과·창 닫기/상세 교체·요청 재사용 등 18개 시나리오, 기존 검색/필터/PC·모바일, 약품 기능 및 177개 보관장 전수 검증 통과. 페이지 오류 0건. 기록: `output/validation/optional-loading-20260923/`. 재검증: `node scripts/verify_optional_loading.cjs`.
-- 공개 배포는 아직 진행하지 않았습니다. 자동 승인 검토가 외부 게시의 명시적 승인 및 대상 확인을 이유로 업로드·배포를 거부하여 사용자 배포 확인을 요청했습니다. 로컬 구현·검증은 완료 상태입니다.
+- 최초 자동 승인 검토 이후 사용자가 “사이트에도 배포해줘”라고 명시적으로 승인했습니다. 기존 공개 저장소 확인 후 `1f7c071` 배포와 공개 검증을 완료했습니다. 최초 JSON은 활동·성취기준 2개뿐이며 약품 진입 후 선택 자료·코드 각 1회 요청 및 성공 캐시 재사용을 확인했습니다.
+
+## 선택 로딩 성능 실측 (2026-09-23)
+
+- 사용자 요청으로 배포 전 코드 두 버전을 같은 데이터·압축·브라우저 조건에서 각 환경 10회씩, 총 60회 비교했습니다. 첫 활동 화면 준비 중앙값: 로컬 104.3→97.5 ms, 10 Mbps/40 ms 지연 516.1→442.2 ms, 1.6 Mbps/100 ms 지연/CPU 4배 제한 1,892.3→1,619.7 ms. 각 비교 쌍 30개 모두 개선판이 빨랐습니다.
+- 초기 압축 본문 178,953→154,337 B(13.8% 감소), 전체 요청 11→6개. 약품을 한 번 연 뒤 누적 본문은 2.8% 감소이며, 첫 약품 진입 대기는 10 Mbps에서 약 89 ms·제한 회선에서 약 242 ms 증가했습니다. 두 번째 진입은 거의 동일합니다.
+- 측정은 같은 로컬 HTTP/1.1 서버·gzip·빈 캐시·PC 화면에서 네트워크/CPU를 제한한 비교입니다. 실제 휴대전화나 공개 사이트 방문자 성능 측정은 아닙니다. 측정 당시 공개 배포 전이었으며 이후 사용자 승인으로 배포했습니다.
+- 보고서 및 60회 원시 데이터: `output/validation/optional-performance-20260923/`. 재현 도구: `scripts/benchmark_optional_loading.cjs`.
