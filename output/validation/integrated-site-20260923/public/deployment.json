@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-09-23T05:48:44.457889+00:00",
+  "passed": true,
+  "commit": "87f94abb24bdc470f7be0b3dc230500eb017a712",
+  "workflow_url": "https://github.com/raphysicst-create/lab_dashboard/actions/runs/35823842396",
+  "conclusion": "success",
+  "url": "https://raphysicst-create.github.io/lab_dashboard/",
+  "activities": 1277,
+  "high_school": 415,
+  "standards": 118,
+  "checks": [
+    {
+      "file": "index.html",
+      "passed": true,
+      "public_sha256": "c2d27b7f3f2f4b18307b75d1ab2922c2176e269a595f9fe37dfe1b5c31320787"
+    },
+    {
+      "file": "app.js",
+      "passed": true,
+      "public_sha256": "50e27bc996c5d7561fa6c5025bacd67cd983da7a50dba6432a1094a00893586c"
+    },
+    {
+      "file": "core.js",
+      "passed": true,
+      "public_sha256": "61e0f2a4e500b6d42331ba06e47d0d2f069a8e6abc1b480711d51adbd584d2a2"
+    },
+    {
+      "file": "data/achievements.json",
+      "passed": true,
+      "public_sha256": "ad071713c5ccff2f810c6bacd7b3d975f4a9de1dcb8acf5fd7b68b99d6785dbe"
+    },
+    {
+      "file": "data/activities.json",
+      "passed": true,
+      "public_sha256": "eebb68c4d26a7377c414343f11f363d85864be5817b50db27ce91202bf60efcc"
+    },
+    {
+      "file": "data/chemicals.json",
+      "passed": true,
+      "public_sha256": "3d43d2006634f3fa4e2d7de8aedc03f0d9ed3d07faf12c4a6f0789672acb6c42"
+    },
+    {
+      "file": "data/chemical_guidelines.json",
+      "passed": true,
+      "public_sha256": "d81734f8436833af822c1a2d62cd4711fdd00cce41b0cba8645ff533b1ffcd8d"
+    },
+    {
+      "file": "data/materials.json",
+      "passed": true,
+      "public_sha256": "843eafc77f89847d66ff541c507c7c2da7f2327af9273873b25f0969caac19ae"
+    },
+    {
+      "file": "data/quantities.json",
+      "passed": true,
+      "public_sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "file": "data/sources.json",
+      "passed": true,
+      "public_sha256": "fee65ff9b61f89d03a8da7403ab63182ac48d4dd2265e2540f350ed6463841d0"
+    },
+    {
+      "file": "data/textbooks.json",
+      "passed": true,
+      "public_sha256": "3d843dd7d0255e373e4e71d3e33f0f5d82f3068e11be69dacbb4db6ba1b0726f"
+    }
+  ]
+}

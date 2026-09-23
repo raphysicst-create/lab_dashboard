@@ -60,7 +60,8 @@
 - 사이트: https://raphysicst-create.github.io/lab_dashboard/
 - 전체 작업을 보존하기 위해 저장소 구조를 로컬 프로젝트와 동일하게 `site/dist` 중심으로 정리했습니다. 루트 `.github/workflows/deploy-pages.yml`은 `site/dist`만 배포합니다. 루트의 이전 `dist` 사본은 중복을 없애기 위해 정리했습니다.
 - 전체 원자료·검토 기록은 사용자의 요청으로 공개 GitHub 저장소에 포함됩니다. 해당 자료를 웹 제품에 표시하거나 `site/dist`에 복사하지 않습니다.
-- 최신 배포 성공 커밋: `e10b6b984946704ebefa716bb238761ace4e2fb2` (지학사·YBM 성취기준 370건·공식 기준 87개 반영). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35817930172 의 deploy 성공과 공개 사이트의 전체 862건·기준 87개 일치 및 학년·단원·기준 필터·기본순서·상세·PC/모바일 브라우저 검증 통과를 확인했습니다. 페이지 오류 없음. 기록: `output/validation/achievement-site-20260923/public/`.
+- 최신 배포 성공 커밋: `87f94abb24bdc470f7be0b3dc230500eb017a712` (고1 415개 추가, 총 1,277개·기준 118개). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35823842396 의 deploy 성공과 공개 사이트의 전체 JSON·변경 웹 파일 일치, 고1/중1 분리·복수 성취기준·준비물 원문·PC/모바일 브라우저 검증 통과를 확인했습니다. 페이지 오류 없음. 기록: `output/validation/integrated-site-20260923/public/`.
+- 이전 배포 성공 커밋: `e10b6b984946704ebefa716bb238761ace4e2fb2` (지학사·YBM 성취기준 370건·공식 기준 87개 반영). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35817930172 의 deploy 성공과 공개 사이트의 전체 862건·기준 87개 일치 및 학년·단원·기준 필터·기본순서·상세·PC/모바일 브라우저 검증 통과를 확인했습니다. 페이지 오류 없음. 기록: `output/validation/achievement-site-20260923/public/`.
 - 이전 배포 성공 커밋: `0ddf664a1e29fbb13f70213cfae3576565456407` (약품 공통 관리 줄글·중복 제목 삭제). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35809775851 의 deploy 성공과 공개 화면의 요청 문구 제거·보관장/폐수 그림 유지·PC/모바일 표시를 확인했습니다. 페이지 오류 없음. 기록: `output/validation/guides-trim-20260923/public/`.
 - 이전 배포 성공 커밋: `c533a003c05179b1a68d8b06c5103a30da9a5abe` (통합 자료 862건·실험 기자재/준비물 분류 반영). 2026-09-23에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35809490506 의 deploy 성공과 공개 사이트 검색·정렬·1~3학년 필터·추가 교과서 상세·PC/모바일 브라우저 검증 통과를 확인했습니다. 페이지 오류는 없으며 공개 862건 전 필드가 검증 데이터와 일치합니다.
 - 이전 배포 성공 커밋: `c81f531cdc32ac32efc1966feee3b67839e166de` (실험 기자재 제목 변경·실험 준비물 영역 추가). 2026-09-22에 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35696002996 의 deploy 성공과 공개 사이트 영역 순서·미확인 표시, 검색·정렬·모바일 브라우저 검증 통과를 확인했습니다. 페이지 오류는 없었습니다. 직전 기본순서 문구 변경 `6792008`도 배포 및 공개 확인을 마쳤습니다.
@@ -121,4 +122,4 @@
 - 고1은 교과서 명시 준비물 원문(238개) 또는 미확인(177개)을 표시합니다. 기자재/준비물 분류를 추정하지 않았으며 중학교의 두 분류 영역은 유지합니다.
 - 준비물 전체 항목이 약품 자료의 명칭과 일치할 때만 기존 규칙으로 연결하여 총 55개 활동·79건 약품 연결입니다.
 - 적용 전 통합본·공개 데이터는 `outputs/extraction/combined-20260922/decision_history/20260923-integrated-science/`에 보존했습니다. 현재 검증은 `python scripts/verify_integrated_application.py`, `node scripts/verify_core.mjs`, `node scripts/verify_browser.cjs`입니다. 과거 862행 전용 적용 검증은 당시 기록입니다.
-- 공개 게시 상태는 아래 후속 배포 기록을 확인합니다.
+- 고1 변경 커밋 `87f94ab` 게시와 공개 화면 검증까지 완료했습니다. 배포·파일 전수 대조: `output/validation/integrated-site-20260923/public/deployment.json`. 전체 데이터 독립 검증 27개 및 PC/모바일 브라우저 검증 모두 통과했습니다.

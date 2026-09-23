@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "activityRows": 1277,
+  "highRows": 415,
+  "standards": 118,
+  "checked": [
+    "source data load",
+    "publisher filter",
+    "classroom controls and quantity displays removed",
+    "localStorage reload and new tab",
+    "preparation list controls removed",
+    "grade mapping and unit boundary",
+    "linked grade, unit and achievement filters",
+    "numeric unit and achievement ordering",
+    "incompatible filter reset and compatible selection retention",
+    "material and chemical query",
+    "no results",
+    "achievement comparison",
+    "linked and unconfirmed detail text",
+    "detail modal and Escape",
+    "high-school grade isolation and volume-aware units",
+    "secondary achievement matching",
+    "high-school raw and missing materials",
+    "high-school multiple standards detail",
+    "empty publisher selection persistence",
+    "desktop and mobile layout including high-school dialog",
+    "storage denied graceful failure",
+    "data-load error"
+  ],
+  "pageErrors": []
+}
