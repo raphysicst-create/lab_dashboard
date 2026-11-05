@@ -1,0 +1,61 @@
+{
+  "site": "https://raphysicst-create.github.io/lab_dashboard/",
+  "repository": "https://github.com/raphysicst-create/lab_dashboard",
+  "old_repository_id": 1379802760,
+  "new_repository_id": 1446618147,
+  "deployed_commit": "cb5dd55a8db979d2df9a4fc80b815f43cadd8f6c",
+  "workflow": {
+    "id": 41979941897,
+    "head_sha": "cb5dd55a8db979d2df9a4fc80b815f43cadd8f6c",
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/raphysicst-create/lab_dashboard/actions/runs/41979941897",
+    "created_at": "2026-11-05T06:22:12Z",
+    "updated_at": "2026-11-05T06:22:33Z"
+  },
+  "public_verification_status": "passed",
+  "public_verification_finished_at": "2026-11-05T06:26:17.811Z",
+  "counts": {
+    "files": 162,
+    "activity_details": 1276,
+    "held": 9,
+    "decoded_images": 147,
+    "responsive_cases": 9
+  },
+  "browser_status": "passed",
+  "page_errors": 0,
+  "request_errors": 0,
+  "http_errors": 0,
+  "old_address_checks": {
+    "github_commit": {
+      "checked": 63,
+      "blocked": 63,
+      "http_200": 0,
+      "other": 0
+    },
+    "pages_retired_figure": {
+      "checked": 151,
+      "blocked": 151,
+      "http_200": 0,
+      "other": 0
+    },
+    "raw_original_file": {
+      "checked": 1269,
+      "blocked": 1269,
+      "http_200": 0,
+      "other": 0
+    },
+    "raw_retired_figure": {
+      "checked": 151,
+      "blocked": 151,
+      "http_200": 0,
+      "other": 0
+    }
+  },
+  "old_archive_urls_404": 3,
+  "total_old_urls_404": 1637,
+  "unresolved_old_urls": [],
+  "local_sources_and_backups_preserved": true,
+  "deletion_completed_by": "user in GitHub browser after automatic approval review blocked agent deletion",
+  "limits": "404 checks verify public access at the recorded time; GitHub internal retention and external copies are not verified."
+}

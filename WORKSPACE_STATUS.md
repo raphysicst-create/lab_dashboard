@@ -6,7 +6,9 @@
 
 - 사용자 요청에 따라 기존 `raphysicst-create/lab_dashboard` 저장소를 삭제하고 같은 이름으로 새로 생성했다. 삭제는 자동 승인 검토에서 차단되어 사용자가 브라우저에서 직접 완료했으며, 이후 API에서 HTTP 404를 확인했다.
 - 이전 저장소 ID는 `1379802760`, 새 저장소 ID는 `1446618147`이다. 저장소·사이트 주소는 유지한다. 기존 전체 이력과 정리본의 추가 Git bundle·ZIP은 로컬 `scratchpad/independent-release/`에 보존한다.
-- 현재 공개 대상 파일만 부모 없는 새 첫 커밋으로 올린다. 이전 커밋·태그·숨은 참조 및 로컬 원자료는 업로드하지 않는다. 배포 완료와 옛 주소 접근 여부는 `output/validation/recreated-20261105/`의 최신 검사 기록으로 갱신한다.
+- 현재 공개 대상 파일만 부모 없는 새 첫 커밋 `cb5dd55a8db979d2df9a4fc80b815f43cadd8f6c`으로 업로드했다. 이전 커밋·태그·숨은 참조 및 로컬 원자료는 업로드하지 않았다. [Pages 실행 41979941897](https://github.com/raphysicst-create/lab_dashboard/actions/runs/41979941897) 성공과 실제 사이트 전수 검증을 완료했다. 최신 기록은 [재생성 검증](output/validation/recreated-20261105/README.md)에 있다.
+- 공개 파일 162개 해시 일치, 활동 1,276개·그림 147개·그림 확대·1440/390/320px 화면과 검색·필터·준비물·약품 기능 검사를 통과했다. 확인 과정 1,267개와 기존 미확인 9개를 유지했다. 페이지·요청·HTTP 오류는 0건이다.
+- 옛 커밋 페이지 63개, 옛 커밋의 원본 파일 1,269개, 옛 커밋 그림 151개, Pages 옛 그림 151개, 옛 ZIP 주소 3개까지 합계 1,637개를 로그인 없이 확인했고 모두 HTTP 404다. 삭제 전 일부 주소의 HTTP 200 상태는 해소됐다. 이 결과는 공개 접근 검사이며 GitHub 내부 보관본이나 외부 복제본 소멸의 증거는 아니다.
 - 아래 독립 작성본 검증과 기존 배포 링크는 삭제 전 저장소의 역사 기록이다. 이전 GitHub Actions 링크는 삭제로 열리지 않을 수 있다.
 
 ## 2026-11-05 독립 작성 및 공개 이력 정리
@@ -96,8 +98,8 @@
 - 사이트: https://raphysicst-create.github.io/lab_dashboard/
 - 전체 작업을 보존하기 위해 저장소 구조를 로컬 프로젝트와 동일하게 `site/dist` 중심으로 정리했습니다. 루트 `.github/workflows/deploy-pages.yml`은 `site/dist`만 배포합니다. 루트의 이전 `dist` 사본은 중복을 없애기 위해 정리했습니다.
 - 현재 사용자 결정에 따라 원자료·원문 추출·기존 화면 기록은 로컬에만 보존한다. 공개 GitHub에는 사이트 코드·공개용 데이터·독립 작성한 탐구 설명과 그림·최신 검증 결과를 포함한다. 과거 공개 백업 요청은 이 결정으로 변경되었다.
-- 최신 독립 작성본 배포: `07fdfaa2e685a6ccd75e58745a98847a2d08666b`. 2026-11-05 [GitHub Pages 실행 41975437385](https://github.com/raphysicst-create/lab_dashboard/actions/runs/41975437385) 성공. 공개 파일 162개 SHA-256 일치, 검색→상세 1,276개(과정 확인 1,267개·미확인 9개), 새 그림 147개 디코딩·실제 표시 크기, 대표 3개 활동의 1440/390/320px 화면과 그림 확대 검증 통과. 페이지·요청·HTTP 오류 0건. 기존 그림 151개 공개 사이트 URL은 모두 HTTP 404다. [배포 결과](output/validation/independent-20261105/public/deployment.json), [전수 검증](output/validation/independent-20261105/public/public-release-report.json), [PC 화면](output/validation/independent-20261105/public/desktop-refraction-detail.png), [모바일 화면](output/validation/independent-20261105/public/refraction-390.png).
-- 원격 브랜치는 정리된 main 하나이며 태그는 없다. 이전 main의 부모 이력을 연결하지 않은 새 루트 커밋을 확인했다. 원자료·옛 그림은 현재 main에서 HTTP 404다. 다만 과거 커밋 번호를 직접 지정한 파일 주소는 아직 HTTP 200으로 확인됐다. 이 잔존 객체는 현재 브랜치와 사이트 배포에서 제외됐지만 GitHub 측 사본까지 완전히 삭제된 상태는 아니다. 외부 복제본 삭제도 확인할 수 없다.
+- 삭제 전 독립 작성본 배포: `07fdfaa2e685a6ccd75e58745a98847a2d08666b`. 2026-11-05 [GitHub Pages 실행 41975437385](https://github.com/raphysicst-create/lab_dashboard/actions/runs/41975437385) 성공. 공개 파일 162개 SHA-256 일치, 검색→상세 1,276개(과정 확인 1,267개·미확인 9개), 새 그림 147개 디코딩·실제 표시 크기, 대표 3개 활동의 1440/390/320px 화면과 그림 확대 검증 통과. 페이지·요청·HTTP 오류 0건. 기존 그림 151개 공개 사이트 URL은 모두 HTTP 404다. [배포 결과](output/validation/independent-20261105/public/deployment.json), [전수 검증](output/validation/independent-20261105/public/public-release-report.json), [PC 화면](output/validation/independent-20261105/public/desktop-refraction-detail.png), [모바일 화면](output/validation/independent-20261105/public/refraction-390.png).
+- 삭제 전 검사에서는 main 이력 정리 후에도 과거 커밋 파일 주소 일부가 HTTP 200이었다. 이후 저장소 삭제·재생성을 완료했고, 최신 검사에서는 옛 커밋·파일·ZIP 주소 1,637개가 모두 HTTP 404다. 위 최신 재생성 기록을 기준으로 한다.
 - 과거 배포: 2026-11-05 과정 1,268개·그림 151개 버전은 독립 작성본으로 대체한다. 해당 버전의 Pages 업로드 아티팩트는 삭제 후 HTTP 404를 확인했다. 아래 9월 기록과 기존 로컬 검증 폴더는 역사 기록이며 최신 상태를 뜻하지 않는다.
 - 이전 배포 성공 커밋: `a5d51d86451d887c03d44d79970d7742c37f7be1` (모바일 출판사·저자 두 열 배치). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35855310322 배포 성공. 공개 HTML·CSS·JS 일치, 320/390/700/701/1440px 배치·가로 넘침·필터 건수·체크박스·초기화 검증 통과, 페이지 오류 0건. 기록: `output/validation/publisher-columns-20260923/public/`.
 - 이전 배포 성공 커밋: `983f3277b3dc55b5d785951fff8ab0fb4405ef54` (검색 조건에 따른 출판사별 활동 건수 갱신). 2026-09-23 https://github.com/raphysicst-create/lab_dashboard/actions/runs/35854150030 배포 성공. 공개 파일 14개 일치, 학년·단원·성취기준·검색어별 출판사 건수 및 기존 PC/모바일 브라우저 검증 통과, 페이지 오류 0건. 기록: `output/validation/publisher-counts-20260923/public/`.
