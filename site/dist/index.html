@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="중학교 과학과 고1 통합과학 교과서의 탐구 활동, 준비물과 탐구 과정을 확인하세요.">
+  <meta name="theme-color" content="#174a75">
+  <title>과학 실험 준비물 검색기</title>
+  <link rel="stylesheet" href="./style.css?v=independent-20261105">
+  <script type="module" src="./app.js?v=independent-20261105"></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">활동 목록으로 건너뛰기</a>
+  <header class="topbar">
+    <div><h1>과학 실험 준비물 검색기</h1><p><a href="https://blog.naver.com/raphysicst" target="_blank" rel="noopener noreferrer">blog.naver.com/raphysicst</a></p></div>
+    <div class="header-actions"><button id="open-chemicals" type="button" disabled>약품 관리</button></div>
+  </header>
+  <div id="storage-warning" class="notice" role="status" hidden></div>
+  <main class="workspace">
+    <aside class="filters" aria-label="활동 필터">
+      <div class="section-title"><h2>활동 찾기</h2><button id="reset-filters" type="button" class="text-button">필터 초기화</button></div>
+      <label for="search">검색</label>
+      <input id="search" type="search" placeholder="활동명, 준비물" autocomplete="off">
+      <button id="toggle-filters" type="button" class="filter-toggle" aria-expanded="false" aria-controls="advanced-filters" hidden>필터 ▾</button>
+      <div id="advanced-filters">
+        <label for="grade-filter">학년</label><select id="grade-filter"><option value="all">전체 학년</option></select>
+        <label for="unit-filter">단원</label><select id="unit-filter"><option value="all">전체 단원</option></select>
+        <label for="achievement-filter">성취기준</label><select id="achievement-filter"><option value="all">전체 성취기준</option></select>
+        <fieldset id="publisher-filters"><legend>출판사·저자</legend><div id="publisher-options"></div></fieldset>
+      </div>
+    </aside>
+    <section class="content" aria-label="탐구활동">
+      <div id="load-status" role="status" class="loading">활동을 불러오는 중입니다.</div>
+      <section id="activities-view">
+        <div class="results-toolbar"><h2 id="result-count" aria-live="polite">탐구활동</h2><div><label class="inline-label" for="sort-order">정렬<select id="sort-order"><option value="achievement">기본순서</option><option value="publisher">출판사순</option><option value="title">활동명순</option></select></label></div></div>
+        <div id="active-achievement" class="achievement-context" hidden></div>
+        <div id="results" tabindex="-1"></div>
+        <button type="button" id="load-more" class="load-more" hidden>활동 더 보기</button>
+      </section>
+    </section>
+  </main>
+  <dialog id="activity-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" type="button">닫기</button></div><div id="dialog-content"></div></dialog>
+  <dialog id="chemical-dialog" aria-labelledby="chemical-title"><div class="dialog-heading"><h2 id="chemical-title">약품 관리</h2><div class="header-actions"><button id="chemical-back" type="button" hidden>약품 목록</button><button id="chemical-close" type="button">닫기</button></div></div><div id="chemical-content"></div></dialog>
+</body>
+</html>

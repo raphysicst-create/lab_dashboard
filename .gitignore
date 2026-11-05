@@ -1,0 +1,33 @@
+# Machine-local state and reproducible caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.openai/
+.sites-runtime/
+.DS_Store
+Thumbs.db
+/tmp/
+/scratchpad/
+
+# Local source archive: textbook scans, extracted pages and earlier screenshots.
+/outputs/extraction/
+/outputs/research/
+/outputs/promotion/
+/output/parsed/
+/output/validation/*
+!/output/validation/independent-20261105/
+!/output/validation/recreated-20261105/
+/docs/review/
+/scratch/
+/outputs/review/*
+!/outputs/review/procedures/
+/science_experiment_supplies.json
+/약품규정1.pdf
+/약품규정2.pdf
+/스크린샷.png
+/docs/workspace-backup-manifest.json
+/output/validation/independent-20261105/figures/*.png

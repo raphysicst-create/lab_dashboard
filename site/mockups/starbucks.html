@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Starbucks 디자인 언어로 재해석한 중학교 과학 수업 준비 화면 목업">
+  <meta name="theme-color" content="#1e3932">
+  <title>Starbucks 스타일 · 과학 수업 준비</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23006241'/%3E%3Cpath d='M16 7l2.3 5 5.4.6-4 3.7 1.1 5.4-4.8-2.8-4.8 2.8 1.1-5.4-4-3.7 5.4-.6z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./common.css">
+  <script defer src="./app.js"></script>
+</head>
+<body class="theme-starbucks">
+  <a class="skip-link" href="#results">활동 목록으로 건너뛰기</a>
+  <header class="topbar">
+    <div class="brand-lockup"><div class="brand-mark" aria-hidden="true">✦</div><div><h1>중학교 과학 수업 준비</h1><p>교과서 탐구활동 · 준비물</p></div></div>
+    <nav class="brand-nav" aria-label="주요 보기"><span aria-current="page">탐구활동</span><span>준비 목록</span></nav>
+    <button id="settings-toggle" class="settings-button" type="button" aria-expanded="false" aria-controls="settings-panel">학급 설정</button>
+  </header>
+  <section id="settings-panel" class="settings-panel" aria-label="학급 설정" hidden>
+    <div class="settings-grid"><h2>학급 설정</h2><label>학급 수<input type="number" min="1" value="6"></label><label>학급당 학생 수<input type="number" min="1" value="28"></label><label>조당 학생 수<input type="number" min="1" value="4"></label><p id="class-summary">학급 6개 · 학급당 28명 · 조당 4명</p></div>
+  </section>
+  <div class="mobile-actions"><button id="filter-toggle" class="filter-toggle" type="button" aria-expanded="false" aria-controls="filters">필터 열기</button></div>
+  <main class="workspace">
+    <aside id="filters" class="filters" aria-label="활동 필터">
+      <div class="section-title"><h2>활동 찾기 <span id="active-count" class="filter-badge">0</span></h2><button id="reset-filters" class="text-button" type="button">필터 초기화</button></div>
+      <label for="search">검색</label><input id="search" type="search" placeholder="활동명, 준비물, 약품명" autocomplete="off">
+      <label for="grade-filter">학년</label><select id="grade-filter"></select>
+      <label for="unit-filter">단원</label><select id="unit-filter"></select>
+      <label for="achievement-filter">성취기준</label><select id="achievement-filter"></select>
+      <fieldset><legend>출판사·저자</legend><div id="publisher-options"></div></fieldset>
+    </aside>
+    <section class="content" aria-label="탐구활동">
+      <div class="results-toolbar"><div class="results-title-row"><h2 id="result-count">탐구활동 454건</h2><span id="preview-count" class="preview-note"></span></div><label class="sort-control" for="sort-order">정렬<select id="sort-order"><option value="source">원자료 순서</option><option value="title">활동명순</option><option value="page">페이지순</option></select></label></div>
+      <div id="results" class="results-grid" tabindex="-1"></div><button id="load-more" class="load-more" type="button" hidden>활동 더 보기</button>
+    </section>
+  </main>
+  <footer class="site-footer"><strong>중학교 과학 수업 준비</strong><span>탐구활동 SSOT를 사용하는 디자인 목업</span></footer>
+  <button id="quick-search" class="quick-search" type="button" aria-label="검색으로 이동">⌕</button>
+  <dialog id="activity-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title"></h2><button id="close-dialog" type="button" aria-label="상세 정보 닫기">닫기</button></div><div id="dialog-content"></div></dialog>
+</body>
+</html>

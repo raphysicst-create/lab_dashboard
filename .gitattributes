@@ -1,0 +1,6 @@
+# Preserve the original bytes of source material and generated review files.
+* -text
+*.pdf binary
+*.png binary
+*.xlsx binary
+*.zip binary

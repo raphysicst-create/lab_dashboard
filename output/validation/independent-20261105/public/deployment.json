@@ -1,0 +1,57 @@
+{
+  "site": "https://raphysicst-create.github.io/lab_dashboard/",
+  "repository": "https://github.com/raphysicst-create/lab_dashboard",
+  "deployed_commit": "07fdfaa2e685a6ccd75e58745a98847a2d08666b",
+  "workflow_run": 41975437385,
+  "workflow_url": "https://github.com/raphysicst-create/lab_dashboard/actions/runs/41975437385",
+  "workflow_conclusion": "success",
+  "deployment_completed_at": "2026-11-05T05:40:20Z",
+  "public_verification_completed_at": "2026-11-05T05:42:48.377Z",
+  "public_verification_status": "passed",
+  "counts": {
+    "files": 162,
+    "activity_details": 1276,
+    "held": 9,
+    "decoded_images": 147,
+    "responsive_cases": 9
+  },
+  "changed_activity_wording": 379,
+  "confirmed_activities": 1267,
+  "steps": 3622,
+  "page_errors": 0,
+  "failed_requests": 0,
+  "http_errors": 0,
+  "retired_figure_urls_404": 151,
+  "preserved_local_files": 1269,
+  "local_source_files_modified": 0,
+  "source_pdfs_checksum_verified": 37,
+  "old_pages_artifact_removed": 13387831718,
+  "old_pages_artifact_verified_http_status": 404,
+  "history": {
+    "clean_root_commit": true,
+    "root_parents": [],
+    "remote_branches": [
+      "main"
+    ],
+    "remote_tags": [],
+    "main_raw_input_http_status": 404,
+    "main_retired_figure_http_status": 404,
+    "historical_commit_direct_figure_http_status": 200,
+    "limitation": "Old objects remain accessible by historical commit ID on GitHub; current main history and Pages no longer include them. External copies cannot be verified."
+  },
+  "local_checks": {
+    "core": "passed",
+    "browser": "passed",
+    "optional_loading_scenarios_passed": 21,
+    "svg_layout_figures": 147,
+    "svg_layout_issues": 0,
+    "exact_matching_procedure_steps": 0,
+    "long_factual_overlap_candidates": 3,
+    "reviewed_quantity_candidates": 28,
+    "reviewed_safety_expression_candidates": 4
+  },
+  "limits": [
+    "Nine activities remain unconfirmed; unvalidated instructions are not published.",
+    "Factual reagent lists and numeric data may overlap source material. String checks are not a legal determination."
+  ]
+}

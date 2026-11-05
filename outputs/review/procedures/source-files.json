@@ -1,0 +1,187 @@
+{
+  "(동아출판) 22개정_고등_통합과학1_선생님교과서.pdf": {
+    "book_id": "donga_IS1",
+    "page_count": 180,
+    "sha256": "9923b2593577e7eab0c9ff13e7aadfebf1da0e74f2af231f518faf3fef880dbd"
+  },
+  "(동아출판) 22개정_고등_통합과학2_선생님교과서.pdf": {
+    "book_id": "donga_IS2",
+    "page_count": 168,
+    "sha256": "49905fd6c5fa51f08db905b3172be53f453b49c5b70023da9c7635ec76190496"
+  },
+  "22개정 고등 통합과학1 연구용 교과서(웹용).pdf": {
+    "book_id": "jihaksa_IS1",
+    "page_count": 180,
+    "sha256": "e4ca282ff63dc0037fe2c51e53db439ece0e1358cf1251cb8dd1bc8dc71c221e"
+  },
+  "[비상교육] 고등_통합과학1_교사용 교과서.pdf": {
+    "book_id": "visang_IS1",
+    "page_count": 174,
+    "sha256": "288a51d8ed33b9ef206123c1431123193c9d81842faab2e952e55f35173f109c"
+  },
+  "[비상교육] 고등_통합과학2_교사용 교과서.pdf": {
+    "book_id": "visang_IS2",
+    "page_count": 164,
+    "sha256": "44b5b69804a9fb7f76aa7bef0800d4e256d21fb565addb1c2d9835e10808d333"
+  },
+  "miraeN_K7_ch01.pdf": {
+    "book_id": null,
+    "page_count": 22,
+    "sha256": "fdfbac116048930e0d3f738c98a8f2f1106e404542f650511a1ca3ffefc2bfb3"
+  },
+  "miraeN_K7_ch02.pdf": {
+    "book_id": null,
+    "page_count": 44,
+    "sha256": "625f2086f59e24105f9edad4c44974428fcac799a3bd6f89b77f065b92a7d36b"
+  },
+  "miraeN_K7_ch03.pdf": {
+    "book_id": null,
+    "page_count": 34,
+    "sha256": "34fef61892d64b86dc8dc805fa355ce7ebeee8890ba3b3983ae1f865ce9acdd7"
+  },
+  "miraeN_K7_ch04.pdf": {
+    "book_id": null,
+    "page_count": 40,
+    "sha256": "4d1dee61de8ef62fbb113eb17135edff76c16e3b761d727a786c1a2891137246"
+  },
+  "miraeN_K7_ch05.pdf": {
+    "book_id": null,
+    "page_count": 42,
+    "sha256": "415ce6ef4e516c94e00cccc5d5a33fe77384c5ede5f1557b9164d1c065813c2f"
+  },
+  "miraeN_K7_ch06.pdf": {
+    "book_id": null,
+    "page_count": 30,
+    "sha256": "8fb668440c47788d84da7c16a51b42d4542f82ffeb60806d3df531a908aac643"
+  },
+  "miraeN_K7_ch07.pdf": {
+    "book_id": null,
+    "page_count": 38,
+    "sha256": "d8f36d925aa10fdd9773f8aae85cf976181c5179f762a6a832f570530c9ac836"
+  },
+  "miraeN_K8_ch01.pdf": {
+    "book_id": null,
+    "page_count": 40,
+    "sha256": "b95bbed10e9f7f37d60bbc5d73399de1002eb161248efafc238b0a8d3d16a41e"
+  },
+  "miraeN_K8_ch02.pdf": {
+    "book_id": null,
+    "page_count": 42,
+    "sha256": "a719c4cb5d16b4fc0098ebb9580028f13c6416de1a0348487c5f77ea2f5cdf0c"
+  },
+  "miraeN_K8_ch03.pdf": {
+    "book_id": null,
+    "page_count": 40,
+    "sha256": "6f4301625ea7a368e26aa03c2bd3789c69032f8e039e0b767e93b1c4b0e0b3f3"
+  },
+  "miraeN_K8_ch04.pdf": {
+    "book_id": null,
+    "page_count": 34,
+    "sha256": "4c327d3015b415f5bf64d3ec0aacdef6f621ebc1207d55dcd6f406bd8eacefdf"
+  },
+  "miraeN_K8_ch05.pdf": {
+    "book_id": null,
+    "page_count": 30,
+    "sha256": "9ef2814ecfa64bca2ab63ae486d83594204c589d33c6ee3b4e47be188f6d0128"
+  },
+  "miraeN_K8_ch06.pdf": {
+    "book_id": null,
+    "page_count": 42,
+    "sha256": "54314d60162c27475627c289fd9a49abfacac16bc4843ed5d9db0166e791ddfb"
+  },
+  "miraeN_K8_ch07.pdf": {
+    "book_id": null,
+    "page_count": 38,
+    "sha256": "1f9c661eff26f52345e4cf17c5f5744acec4007dd859b8ad590adaa4fa293e3d"
+  },
+  "miraeN_K8_ch08.pdf": {
+    "book_id": null,
+    "page_count": 38,
+    "sha256": "344edd569a5aea09e78e442e68158370590b26a0c6819f3ccacab208530d550c"
+  },
+  "textbook_YBM_K7.pdf": {
+    "book_id": "YBM_K7",
+    "page_count": 252,
+    "sha256": "eae8172887bb835c80e1575aef7732f22150e5d1e7cc31399dc832df5be28747"
+  },
+  "textbook_YBM_K8.pdf": {
+    "book_id": "YBM_K8",
+    "page_count": 328,
+    "sha256": "72cd9276adf12c88f5b5aa70d071407d2eeb2b452ebac617319a070fcc1165ff"
+  },
+  "textbook_YBM_K9.pdf": {
+    "book_id": "YBM_K9",
+    "page_count": 328,
+    "sha256": "88ec1780c146aacd3653dd35f4ff6cb3c0db35101b6f919a641863c4c7640d09"
+  },
+  "textbook_chunjae_K7.pdf": {
+    "book_id": null,
+    "page_count": 296,
+    "sha256": "0eb8ef00ae6e4dde9a553bff53c453c840cf91a50bdfc23986474b79ba79072a"
+  },
+  "textbook_chunjae_K8.pdf": {
+    "book_id": null,
+    "page_count": 344,
+    "sha256": "f6e45c7c355e8c5850e2f66d0a759e722cffcfb35a14c7bce3b3e3a40810f23f"
+  },
+  "textbook_chunjae_imsungsook_K7.pdf": {
+    "book_id": null,
+    "page_count": 284,
+    "sha256": "b44962f8eac4353bba72fd58e700e51506eac3766cfc008eb39c1d8e8e6c62f8"
+  },
+  "textbook_chunjae_imsungsook_K8.pdf": {
+    "book_id": null,
+    "page_count": 320,
+    "sha256": "2fe7e204de184254de20555afdbecf4c3a26ae453a80ae7f29ead3a151c970c3"
+  },
+  "textbook_donga_K8.pdf": {
+    "book_id": null,
+    "page_count": 350,
+    "sha256": "1ad3015f93ff5c1d904ad6fd6edab4c394bf6c37183966a87193e1c04c477f86"
+  },
+  "textbook_jihaksa_K7.pdf": {
+    "book_id": "jihaksa_K7",
+    "page_count": 294,
+    "sha256": "1172bc57147358307211ab97b545e325c114f187ddc05b2a5f55af92b58f3764"
+  },
+  "textbook_jihaksa_K8.pdf": {
+    "book_id": "jihaksa_K8",
+    "page_count": 352,
+    "sha256": "f7e1118d7f8068644a846f4c97ebb483dbc9b282f4e2dd683984bd77e52ece6b"
+  },
+  "textbook_visang_K7.pdf": {
+    "book_id": null,
+    "page_count": 304,
+    "sha256": "5ee2e44c65cfa73377f7d46901c89c35ff6939d1da01d7b8526b3351d9a06615"
+  },
+  "textbook_visang_K8.pdf": {
+    "book_id": null,
+    "page_count": 356,
+    "sha256": "0733d29a2aa2283251daeaa7a3680193ad51e4c3c3ba694d73ee11442fdcb28a"
+  },
+  "고_통합과학1(신영준)_교사용교과서_2쇄.pdf": {
+    "book_id": "chunjae_IS1",
+    "page_count": 176,
+    "sha256": "f8176b4cc4554ed5a0aca6b6d89cd8cc64e02a54a4540253fd1df8ec4417c838"
+  },
+  "고_통합과학2(신영준)_교사용교과서_2쇄.pdf": {
+    "book_id": "chunjae_IS2",
+    "page_count": 172,
+    "sha256": "b14ec3491bb4f63ef6de0d70995c68ecadae91571c1ff11cf6cfee4869984356"
+  },
+  "미래엔_통합과학1_교사용교과서.pdf": {
+    "book_id": "miraen_IS1",
+    "page_count": 180,
+    "sha256": "f2e09e441f3c01acafedaecb793550c98428e28c119ea1d76a1ae9ce808118d4"
+  },
+  "미래엔_통합과학2_교사용교과서.pdf": {
+    "book_id": "miraen_IS2",
+    "page_count": 178,
+    "sha256": "832b8e5abb4d93548f13bc03f4d1d527349b6d63f0eb7ae9889627de6031062e"
+  },
+  "통합과학2_연구용_압축.pdf": {
+    "book_id": "jihaksa_IS2",
+    "page_count": 172,
+    "sha256": "ff0e6dd1633a5c2c0fe6e8ec05141c084ab86475831c5c94315cb92b624a5453"
+  }
+}

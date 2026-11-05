@@ -1,0 +1,59 @@
+{
+  "retrieved_on": "2026-11-05",
+  "scope": "Geographic coordinates and identifying facts only. No photographs, captions, geological prose, textbook vector paths, or textbook layouts are included.",
+  "datasets": [
+    {
+      "file": "data/natural-earth-countries.geojson",
+      "records": 177,
+      "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson",
+      "rights_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "rights_basis": "Natural Earth publishes its raster and vector map data in the public domain.",
+      "kept_properties": [
+        "CONTINENT",
+        "NAME_EN"
+      ],
+      "usage": "Continent coast geometry and world-map land background; independently projected and styled.",
+      "sha256": "d7a7dd983897cc1cf60826df4f425c9643efe2753f648151db4f189c7591f515"
+    },
+    {
+      "file": "data/plates.json",
+      "records": 1175,
+      "source_url": "https://earthquake.usgs.gov/arcgis/rest/services/eq/map_plateboundaries/MapServer/1/query",
+      "rights_url": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits",
+      "rights_basis": "USGS-produced data are in the U.S. public domain; no third-party photographs or illustrations used.",
+      "query": {
+        "where": "1=1",
+        "outFields": "OBJECTID,NAME,LABEL",
+        "outSR": 4326,
+        "f": "geojson",
+        "orderByFields": "OBJECTID ASC",
+        "resultRecordCount": 1000,
+        "resultOffsets": [
+          0,
+          1000
+        ]
+      },
+      "count_check": {
+        "service_returnCountOnly": 1175,
+        "collected_features": 1175,
+        "unique_OBJECTID": 1175
+      },
+      "usage": "Major tectonic plate boundary coordinates, drawn in an independent world map.",
+      "sha256": "56ab8792a165a0b88484ffa0f61a7b3816413c9051bc45debeca2afe47fbce60"
+    },
+    {
+      "file": "data/volcanoes.json",
+      "records": 1214,
+      "source_url": "https://webservices.volcano.si.edu/geoserver/GVP-VOTW/ows?request=GetFeature&service=WFS&typeName=GVP-VOTW%3ASmithsonian_VOTW_Holocene_Volcanoes&version=1.0.0&outputFormat=application%2Fjson",
+      "rights_url": "https://volcano.si.edu/gvp_termsofuse.cfm",
+      "documentation_url": "https://volcano.si.edu/database/webservices.cfm",
+      "rights_basis": "GVP terms identify the database compilation as work of U.S. government employees in the public domain. Only volcano IDs and point coordinates are redistributed; photos and descriptive prose are excluded.",
+      "citation": "Global Volcanism Program, 2026. Volcanoes of the World (v. 5.4.0; 7 Aug 2026), Smithsonian Institution, compiled by Venzke, E. https://doi.org/10.5479/si.GVP.VOTW5-2026.5.4",
+      "kept_properties": [
+        "Volcano_Number"
+      ],
+      "usage": "Locations of 1,214 Holocene volcanoes; not a map of volcanoes currently erupting.",
+      "sha256": "d43abb4c0c67aa7d2f1ef39524f4716b50e288dfb9a85c62c46fa16727a71b54"
+    }
+  ]
+}

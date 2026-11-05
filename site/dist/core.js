@@ -1,0 +1,54 @@
+export const STORAGE_KEY = 'science-classroom-prep.preferences.v1';
+
+const PUBLISHER_ALIASES = { '동아': '동아출판', '미래앤': '미래엔', '비상': '비상교육' };
+
+function canonicalPublisher(publisher) {
+  return Object.hasOwn(PUBLISHER_ALIASES, publisher) ? PUBLISHER_ALIASES[publisher] : publisher;
+}
+
+export function normalizeSearch(value) {
+  return String(value ?? '').normalize('NFKC').toLocaleLowerCase('ko').replace(/\s+/g, '');
+}
+
+export function gradeKey(item) {
+  if (item.grade_key != null) return String(item.grade_key);
+  if (item.grade == null) return null;
+  return item.school_level === '고등학교' ? `high-${item.grade}` : String(item.grade);
+}
+
+export function achievementIds(activity) {
+  return Array.isArray(activity.achievement_ids) ? activity.achievement_ids
+    : activity.achievement_id ? [activity.achievement_id] : [];
+}
+
+export function compareAchievements(left, right) {
+  return (left?.sort_order ?? left?.unit_number ?? Infinity) - (right?.sort_order ?? right?.unit_number ?? Infinity)
+    || (left?.sequence ?? Infinity) - (right?.sequence ?? Infinity) || 0;
+}
+
+export function filterActivities(activities, filters) {
+  const terms = String(filters.query ?? '').trim().split(/\s+/).filter(Boolean).map(normalizeSearch);
+  return activities.filter(activity => {
+    if (filters.grade === 'unknown' && gradeKey(activity) != null) return false;
+    if (filters.grade !== 'all' && filters.grade !== 'unknown' && gradeKey(activity) !== filters.grade) return false;
+    if (filters.unit !== 'all' && activity.unit !== filters.unit) return false;
+    if (filters.achievement !== 'all' && !achievementIds(activity).includes(filters.achievement)) return false;
+    if (!filters.publishers.includes(activity.publisher_raw)) return false;
+    const fields = [activity.title, activity.materials_raw, activity.achievement_raw, activity.unit, activity.publisher_raw];
+    const haystack = fields.map(normalizeSearch).join('\n');
+    return terms.every(term => haystack.includes(term));
+  });
+}
+
+export function sanitizePreferences(input, publishers) {
+  const value = input && typeof input === 'object' && !Array.isArray(input) ? input : {};
+  const previousCatalog = Array.isArray(value.publisherCatalog) ? value.publisherCatalog
+    : ['동아', '미래앤', '비상', '천재(임성숙)', '천재(정대홍)'];
+  const selected = Array.isArray(value.publishers) ? value.publishers : publishers;
+  const selectedAll = previousCatalog.length > 0 && previousCatalog.every(p => selected.includes(p));
+  const migrated = selected.map(canonicalPublisher);
+  return {
+    publishers: selectedAll ? [...publishers] : [...new Set(migrated.filter(p => publishers.includes(p)))],
+    publisherCatalog: [...publishers],
+  };
+}

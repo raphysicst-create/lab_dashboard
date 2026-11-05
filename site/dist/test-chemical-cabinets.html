@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>약품 보관장 카드 테스트</title>
+  <style>
+    :root { color-scheme:light; --ink:#1c2b39; --muted:#526271; --blue:#174a75; --border:#ccd5dd; --canvas:#f3f6f8; font-family:"Malgun Gothic","Apple SD Gothic Neo",sans-serif; font-size:16px; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--canvas); line-height:1.6; }
+    h1,h2,h3,p { margin:0; }
+    h1 { font-size:1.4rem; } h2 { font-size:1.1rem; } h3 { font-size:1.05rem; }
+    .page-heading { max-width:1520px; margin:auto; padding:28px 32px 0; }
+    .help { color:var(--muted); font-size:.9rem; margin:8px 0 0; }
+    main { max-width:1520px; margin:auto; padding:24px 32px 40px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; align-items:start; }
+    .preview-card { min-width:0; background:white; padding:24px; border:1px solid var(--border); border-radius:8px; }
+    .dialog-heading { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:20px; }
+    .preview-label { font-size:.8rem; color:var(--muted); border:1px solid var(--border); border-radius:5px; padding:3px 8px; white-space:nowrap; }
+    .dialog-section { border-top:1px solid var(--border); margin-top:20px; padding-top:16px; }
+    .dialog-section h3 { margin-bottom:8px; }
+    dl { display:grid; grid-template-columns:100px 1fr; gap:9px 15px; margin:18px 0; }
+    dt { color:var(--muted); } dd { margin:0; }
+    .chemical-facts { padding-left:22px; margin:0; }
+    .chemical-facts > li { margin-bottom:12px; }
+    .cabinet-map { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:18px; }
+    .cabinet-group { min-width:0; display:flex; flex-direction:column; }
+    .cabinet-title { font-size:.85rem; font-weight:700; text-align:center; min-height:49px; display:flex; align-items:center; justify-content:center; margin-bottom:8px; }
+    .cabinet-title small { font-size:.75rem; font-weight:400; }
+    .sealed { background:#e7ebee; border:1px solid #cbd3d9; border-radius:12px 12px 5px 5px; padding:12px; display:grid; gap:10px; flex:1; position:relative; }
+    .sealed::before { content:""; width:48px; height:5px; border-top:2px solid #a4afb8; border-bottom:2px solid #a4afb8; margin:0 auto 2px; }
+    .other-cabinets { display:grid; grid-template-rows:1fr 1fr; gap:18px; }
+    .compartment { --accent:#667c93; --wash:#eef2f7; --text:#364c64; position:relative; background:var(--wash); border:1px solid var(--accent); border-left:5px solid var(--accent); border-radius:4px; padding:12px 9px; min-height:76px; display:flex; flex-direction:column; justify-content:center; }
+    .compartment strong { font-size:.9rem; color:var(--text); }
+    .compartment .subtitle { font-size:.75rem; margin-top:4px; color:var(--text); }
+    .acid { --accent:#efa31c; --wash:#fff3d7; --text:#775009; }
+    .base { --accent:#238fae; --wash:#e4f4fa; --text:#155b73; }
+    .inorganic { --accent:#eb6132; --wash:#fff0e9; --text:#a03a15; }
+    .metal { --accent:#677b95; --wash:#ecf0f7; --text:#3e526b; }
+    .solid { --accent:#26a7a9; --wash:#e3f5f3; --text:#176466; }
+    .flammable { --accent:#e3494c; --wash:#fff0f0; --text:#a22a2e; }
+    .general-shell,.flammable-shell { background:#e7ebee; border:1px solid #cbd3d9; padding:12px; border-radius:6px; flex:1; display:flex; }
+    .general-shell .compartment { width:100%; padding:17px 17px 36px; text-align:center; border-left-width:1px; }
+    .general-shell .compartment::before { content:""; position:absolute; top:0; bottom:0; left:50%; border-left:1px solid var(--accent); opacity:.22; }
+    .general-shell .compartment::after { content:""; position:absolute; bottom:13px; left:calc(50% - 7px); width:10px; height:19px; border-left:3px solid var(--accent); border-right:3px solid var(--accent); border-radius:2px; }
+    .flammable-shell .compartment { width:100%; text-align:center; border-left-width:1px; border-top-width:5px; border-bottom-width:5px; }
+    .inactive { --accent:#b9c1c8; --wash:#edf0f2; --text:#69747e; }
+    .current { display:inline-block; align-self:flex-start; font-size:.7rem; font-weight:700; line-height:1.5; color:#775009; background:#fff; border:1px solid #d7a33a; border-radius:3px; padding:1px 5px; margin-bottom:5px; }
+    .map-caption { font-size:.85rem; color:var(--muted); margin-top:14px; }
+    .storage-location { margin:12px 0 0; font-size:.9rem; color:var(--blue); font-weight:700; }
+    .waste-flow { margin:22px 0 0; word-break:keep-all; }
+    .waste-step { display:grid; grid-template-columns:1fr .8fr 1.4fr; min-height:124px; position:relative; }
+    .waste-start { min-height:80px; }
+    .waste-box { min-height:52px; padding:8px 6px; border-radius:4px; display:flex; align-items:center; justify-content:center; text-align:center; font-size:.8rem; line-height:1.5; }
+    .waste-question { height:52px; background:#e3dace; color:#514638; position:relative; }
+    .waste-source { background:#b6a384; color:#fff; }
+    .waste-question::after { content:""; position:absolute; top:56px; left:50%; height:64px; border-left:1px solid #526271; }
+    .waste-question::before { content:""; position:absolute; top:114px; left:calc(50% - 3px); width:6px; height:6px; border-right:1px solid #526271; border-bottom:1px solid #526271; transform:rotate(45deg); }
+    .waste-start .waste-question::after { height:20px; }
+    .waste-start .waste-question::before { top:70px; }
+    .waste-no { position:absolute; top:58px; left:calc(50% - 22px); font-size:.65rem; color:var(--muted); }
+    .waste-branch { padding:0 8px; position:relative; }
+    .waste-yes { display:block; height:26px; border-bottom:1px solid #526271; position:relative; color:var(--muted); font-size:.65rem; padding-top:5px; }
+    .waste-yes::after,.waste-turn::after { content:""; position:absolute; right:1px; bottom:-3px; width:6px; height:6px; border-top:1px solid #526271; border-right:1px solid #526271; transform:rotate(45deg); }
+    .waste-branch-note { color:var(--muted); font-size:.7rem; line-height:1.5; margin-top:5px; overflow-wrap:anywhere; }
+    .waste-result .waste-box { background:#24b7ba; color:#073f41; font-weight:700; }
+    .waste-result p { color:var(--muted); font-size:.7rem; line-height:1.6; margin-top:7px; }
+    .waste-result strong { color:var(--ink); }
+    .waste-last-question::after { height:68px; }
+    .waste-last-question::before { display:none; }
+    .waste-final { min-height:95px; }
+    .waste-turn { grid-column:1 / 3; position:relative; height:26px; margin-left:27.7778%; margin-right:8px; border-left:1px solid #526271; border-bottom:1px solid #526271; border-bottom-left-radius:4px; }
+    @media (max-width:1050px) { main { grid-template-columns:1fr; max-width:800px; } .page-heading { max-width:800px; } }
+    @media (max-width:480px) { .page-heading { padding:20px 16px 0; } main { padding:18px 12px 28px; gap:18px; } .preview-card { padding:18px 14px; } .cabinet-map { gap:9px; } .sealed,.general-shell,.flammable-shell { padding:8px; } .compartment { padding:10px 7px; } .cabinet-title { font-size:.78rem; } .general-shell .compartment { padding:12px 7px 36px; } .preview-label { font-size:.7rem; } }
+    @media print { body { background:white; } main { display:block; padding:16px; } .preview-card { margin-bottom:24px; break-inside:avoid; } * { print-color-adjust:exact; -webkit-print-color-adjust:exact; } }
+  </style>
+</head>
+<body>
+  <header class="page-heading">
+    <h1>약품 보관장 카드 테스트</h1>
+    <p class="help">공통 관리 안내와 개별 약품의 보관장 표시 예시</p>
+  </header>
+  <main>
+    <article class="preview-card" aria-labelledby="common-title">
+      <header class="dialog-heading"><h2 id="common-title">약품 공통 관리 안내</h2><span class="preview-label">공통 안내</span></header>
+      <section class="dialog-section">
+        <h3>학교 화학 약품의 보관장 관리</h3>
+        <p class="help">보관장별 약품 분류를 색으로 구분합니다.</p>
+        <div class="cabinet-map" data-view="all" role="group" aria-label="전체 약품 보관장 분류 6칸"></div>
+        <p class="map-caption">가연성 물질 전용 보관장이 없는 경우 밀폐형 약품장에 보관할 수 있으나, 장기적으로 가연성 물질 전용 보관장을 구비하기 위한 노력이 필요합니다.</p>
+      </section>
+      <section class="dialog-section" aria-labelledby="waste-title">
+        <h3 id="waste-title">폐수 분류</h3>
+        <div class="waste-flow" role="group" aria-label="폐수 분류 순서도">
+          <div class="waste-step waste-start">
+            <div class="waste-box waste-question waste-source">폐수</div>
+          </div>
+          <div class="waste-step">
+            <div class="waste-box waste-question">유기계 폐수인가?<span class="waste-no">NO</span></div>
+            <div class="waste-branch"><span class="waste-yes">YES</span></div>
+            <div class="waste-result"><div class="waste-box">유기계 폐수</div><p>폐수처리 의뢰 전표의 <strong>유기계 폐수란</strong>에 표시</p></div>
+          </div>
+          <div class="waste-step">
+            <div class="waste-box waste-question">산성 폐수인가?<span class="waste-no">NO</span></div>
+            <div class="waste-branch"><span class="waste-yes">YES</span><p class="waste-branch-note">크로뮴산 포함</p></div>
+            <div class="waste-result"><div class="waste-box">산성 폐수</div><p>폐수처리 의뢰 전표의 <strong>산성 폐수란</strong>에 표시</p></div>
+          </div>
+          <div class="waste-step">
+            <div class="waste-box waste-question waste-last-question">알칼리계 폐수인가?<span class="waste-no">NO</span></div>
+            <div class="waste-branch"><span class="waste-yes">YES</span><p class="waste-branch-note">예외) 암모니아 함유폐수는 유기계 폐수에</p></div>
+            <div class="waste-result"><div class="waste-box">알칼리계 폐수</div><p>폐수처리 의뢰 전표의 <strong>알칼리계 폐수란</strong>에 표시</p></div>
+          </div>
+          <div class="waste-step waste-final">
+            <div class="waste-turn" aria-hidden="true"></div>
+            <div class="waste-result"><div class="waste-box">무기계 폐수</div><p>폐수처리 의뢰 전표의 <strong>무기계 폐수란</strong>에 표시</p></div>
+          </div>
+        </div>
+      </section>
+    </article>
+    <article class="preview-card" aria-labelledby="chemical-title">
+      <header class="dialog-heading"><h2 id="chemical-title">염산</h2><span class="preview-label">개별 약품</span></header>
+      <dl><dt>화학식</dt><dd>HCl</dd></dl>
+      <section class="dialog-section">
+        <h3>보관장 분류</h3>
+        <p class="storage-location">밀폐형 환기식(필터식) 약품장 · 산</p>
+        <div class="cabinet-map" data-view="acid" role="group" aria-label="염산의 보관장 분류: 산 칸 강조, 나머지 5칸 회색"></div>
+        <p class="map-caption">해당 약품의 보관 분류만 색으로 표시합니다.</p>
+      </section>
+      <section class="dialog-section"><h3>분류</h3><p>위험물 분류 예시 · 무기산</p></section>
+      <section class="dialog-section">
+        <h3>보관·관리 방법</h3>
+        <ul class="chemical-facts"><li>코르크 마개를 부식시키는 것<br>유리마개 사용</li><li>극약<br>약품장의 별도 칸 또는 별도 캐비닛에 넣고 반드시 이중 잠금 장치로 보관</li></ul>
+      </section>
+      <section class="dialog-section"><h3>분리 보관 대상</h3><p>미확인</p></section>
+    </article>
+  </main>
+  <!-- 분류와 배치는 제공된 약품규정1.pdf의 그림을 따른다.
+       염산 정보는 기존 data/chemicals.json에서 확인한 값만 사용한다.
+       색은 이 HTML 시안의 구분용이며 안전등급을 나타내지 않는다. -->
+  <template id="cabinet-template">
+    <div class="cabinet-group">
+      <div class="cabinet-title"><span>밀폐형 약품장<br><small>환기식(필터식)</small></span></div>
+      <div class="sealed">
+        <div class="compartment acid" data-category="acid"><strong>산</strong></div>
+        <div class="compartment base" data-category="base"><strong>염기</strong></div>
+        <div class="compartment inorganic" data-category="inorganic"><strong>위험이 높은<br>무기 화합물</strong></div>
+        <div class="compartment metal" data-category="metal"><strong>금속</strong></div>
+      </div>
+    </div>
+    <div class="other-cabinets">
+      <div class="cabinet-group">
+        <div class="cabinet-title">일반 약품 보관장</div>
+        <div class="general-shell"><div class="compartment solid" data-category="solid"><strong>위험성이 낮은<br>고체 약품</strong></div></div>
+      </div>
+      <div class="cabinet-group">
+        <div class="cabinet-title">가연성 물질 전용 보관장</div>
+        <div class="flammable-shell"><div class="compartment flammable" data-category="flammable"><strong>가연성 물질</strong><span class="subtitle">인화성·휘발성 물질<br>및 혼합 금지 물질</span></div></div>
+      </div>
+    </div>
+  </template>
+  <script>
+    const template = document.getElementById('cabinet-template');
+    for (const map of document.querySelectorAll('.cabinet-map')) {
+      map.append(template.content.cloneNode(true));
+      if (map.dataset.view === 'all') continue;
+      for (const compartment of map.querySelectorAll('[data-category]')) {
+        const active = compartment.dataset.category === map.dataset.view;
+        compartment.classList.toggle('inactive', !active);
+        if (active) {
+          const badge = document.createElement('span');
+          badge.className = 'current';
+          badge.textContent = '해당 분류';
+          compartment.prepend(badge);
+        }
+      }
+    }
+  </script>
+</body>
+</html>

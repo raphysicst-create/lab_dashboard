@@ -1,0 +1,155 @@
+:root { color-scheme: light; --ink:#1c2b39; --muted:#526271; --blue:#174a75; --border:#ccd5dd; --paper:#fff; --canvas:#f3f6f8; --tint:#e9f1f8; --radius:7px; font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; font-size:16px; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:var(--canvas); line-height:1.6; }
+button,input,select { font:inherit; }
+button { cursor:pointer; color:var(--ink); background:white; border:1px solid var(--border); border-radius:5px; padding:7px 12px; line-height:1.5; }
+button:hover { border-color:var(--blue); background:var(--tint); }
+button:disabled { cursor:default; color:#677681; background:#f2f4f6; }
+input,select { width:100%; border:1px solid #9dabb8; border-radius:5px; padding:9px 10px; color:var(--ink); background:white; min-width:0; }
+input[type=checkbox] { width:18px; height:18px; accent-color:var(--blue); flex-shrink:0; }
+:focus-visible { outline:3px solid #247eb6; outline-offset:3px; }
+[hidden] { display:none !important; }
+h1,h2,h3,p { margin:0; }
+h1 { font-size:1.4rem; } h2 { font-size:1.1rem; } h3 { font-size:1.05rem; }
+.topbar { padding:20px 32px; background:var(--blue); color:white; display:flex; justify-content:space-between; gap:20px; align-items:center; }
+.topbar p { font-size:.9rem; color:#d4e7f5; margin-top:3px; }
+.topbar p a { color:inherit; text-underline-offset:3px; }
+.topbar p a:hover { color:white; }
+.topbar button { flex-shrink:0; }
+.header-actions { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+.help { color:var(--muted); font-size:.9rem; margin:14px 0; }
+.notice { padding:12px 32px; background:#fff4cf; color:#594900; }
+.workspace { display:grid; grid-template-columns:280px minmax(0,1fr); gap:24px; padding:24px 32px; max-width:1700px; margin:auto; align-items:start; }
+.filters { background:var(--paper); padding:20px; border:1px solid var(--border); border-radius:var(--radius); position:sticky; top:16px; max-height:calc(100vh - 32px); overflow-y:auto; }
+.section-title { display:flex; gap:10px; justify-content:space-between; align-items:center; margin-bottom:18px; }
+.text-button { font-size:.875rem; padding:2px 0; border:0; color:var(--blue); text-decoration:underline; background:none; }
+.filters > label, #advanced-filters > label { display:block; font-size:.9rem; font-weight:600; margin:15px 0 5px; }
+.filter-toggle { width:100%; min-height:44px; margin-top:14px; text-align:left; color:var(--blue); }
+.filters input[type=search] { font-size:.9rem; }
+fieldset { margin:22px 0 0; padding:0; border:0; }
+legend { font-weight:600; font-size:.9rem; margin-bottom:8px; }
+.publisher-option { display:flex; align-items:center; gap:8px; padding:5px 0; font-size:.95rem; }
+.publisher-option small { margin-left:auto; color:var(--muted); font-size:.875rem; }
+.content { min-width:0; }
+.results-toolbar { display:flex; justify-content:space-between; align-items:center; gap:16px; margin-bottom:18px; flex-wrap:wrap; }
+.results-toolbar > div { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+.results-toolbar button,.results-toolbar select { font-size:.875rem; }
+.inline-label { display:flex; align-items:center; gap:6px; font-size:.875rem; }
+.inline-label select { width:auto; }
+#results { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.activity-card { border:1px solid var(--border); border-radius:var(--radius); background:white; padding:18px; min-width:0; display:flex; flex-direction:column; }
+.card-top { display:flex; justify-content:space-between; align-items:start; gap:8px; margin-bottom:10px; font-size:.875rem; }
+.publisher-tag { color:var(--blue); font-weight:700; }
+.page { color:var(--muted); white-space:nowrap; }
+.activity-card h3 button { text-align:left; padding:0; border:0; background:none; font-weight:700; line-height:1.5; border-radius:1px; }
+.unit-line { color:var(--muted); font-size:.875rem; margin-top:5px; }
+.material-label { font-size:.875rem; font-weight:700; margin:13px 0 4px; }
+.raw-materials { white-space:pre-wrap; overflow-wrap:anywhere; }
+.activity-card .raw-materials { font-size:.95rem; }
+.card-actions { margin-top:auto; padding-top:16px; display:flex; align-items:center; justify-content:flex-end; gap:8px; }
+.card-actions button { font-size:.875rem; }
+.achievement-context { background:var(--tint); border-left:3px solid var(--blue); padding:14px 18px; margin-bottom:18px; }
+.achievement-context p { margin-top:4px; white-space:pre-wrap; }
+.empty-state,.loading { padding:36px 24px; background:white; border:1px solid var(--border); border-radius:var(--radius); text-align:center; grid-column:1/-1; }
+.empty-state p { margin-top:7px; color:var(--muted); }
+.empty-state button { margin-top:15px; }
+.load-more { display:block; margin:20px auto 0; min-width:200px; }
+dialog { color:var(--ink); width:min(820px,calc(100% - 32px)); max-height:90vh; padding:24px; border:1px solid var(--border); border-radius:8px; }
+dialog::backdrop { background:rgb(16 32 48 / 48%); }
+.dialog-heading { display:flex; align-items:start; gap:20px; justify-content:space-between; margin-bottom:20px; }
+.dialog-heading button { flex-shrink:0; }
+dl { display:grid; grid-template-columns:125px 1fr; gap:9px 15px; margin:18px 0; }
+dt { color:var(--muted); } dd { margin:0; white-space:pre-wrap; overflow-wrap:anywhere; }
+.dialog-section { border-top:1px solid var(--border); margin-top:20px; padding-top:16px; }
+.dialog-section h3 { margin-bottom:8px; }
+.procedure-section { overflow-wrap:anywhere; }
+.procedure-section h4 { margin:14px 0 6px; }
+.procedure-section ol { margin:0; padding-inline-start:1.8em; }
+.procedure-section li { padding-inline-start:.2em; line-height:1.65; }
+.procedure-section li + li { margin-top:6px; }
+.procedure-section figure { margin:12px 0 16px; }
+.procedure-section figure > a { display:block; width:100%; cursor:zoom-in; }
+.procedure-section figure img { display:block; width:100%; height:auto; max-width:100%; max-height:none; border:1px solid var(--border); border-radius:4px; }
+.procedure-section figcaption { margin-top:4px; font-size:.875rem; }
+.procedure-section figcaption a { margin-inline-start:.4em; white-space:nowrap; }
+.chemical-links { display:flex; flex-wrap:wrap; gap:8px; }
+.chemical-catalog { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.chemical-card { border:1px solid var(--border); border-radius:var(--radius); padding:15px; overflow-wrap:anywhere; }
+.chemical-card > p { font-size:.9rem; }
+.chemical-card .help { margin:5px 0; }
+.chemical-name { font-weight:700; color:var(--blue); text-align:left; }
+.chemical-facts { padding-left:22px; margin:0; }
+.chemical-facts > li { margin:0 0 16px; }
+#chemical-content > label { display:block; margin-bottom:6px; }
+.guide-button { margin-bottom:18px; }
+.guide-paragraph { margin:10px 0; }
+@media (max-width:700px) { .chemical-catalog { grid-template-columns:1fr; } .topbar { align-items:start; } }
+.skip-link { position:absolute; top:-100px; left:12px; z-index:20; padding:10px; background:white; color:var(--blue); }
+.skip-link:focus { top:12px; }
+@media (max-width:1100px) { #results { grid-template-columns:1fr; } .workspace { grid-template-columns:255px minmax(0,1fr); padding:20px; gap:20px; } }
+@media (max-width:700px) { .topbar { padding:16px; } h1 { font-size:1.15rem; } .workspace { display:block; padding:16px; } .filters { position:static; max-height:none; margin-bottom:20px; } .results-toolbar { align-items:start; } dl { grid-template-columns:100px 1fr; } }
+@media (max-width:700px) {
+  #publisher-filters { min-width:0; }
+  #publisher-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); column-gap:12px; }
+  .publisher-option { display:grid; grid-template-columns:18px minmax(0,1fr) auto; gap:6px; min-width:0; min-height:44px; font-size:.875rem; }
+  .publisher-option input { margin:0; }
+  .publisher-option span { overflow-wrap:anywhere; }
+}
+@media print { .topbar button,.filters,.results-toolbar button,.card-actions { display:none !important; } .workspace { display:block; padding:0; } body { background:white; } .activity-card { break-inside:avoid; } }
+
+/* Chemical cabinet and shared wastewater diagrams. */
+#chemical-content .cabinet-map { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:18px; }
+#chemical-content .cabinet-group { min-width:0; display:flex; flex-direction:column; }
+#chemical-content .cabinet-title { font-size:.85rem; font-weight:700; text-align:center; min-height:49px; display:flex; align-items:center; justify-content:center; margin-bottom:8px; }
+#chemical-content .cabinet-title small { font-size:.75rem; font-weight:400; }
+#chemical-content .sealed { background:#e7ebee; border:1px solid #cbd3d9; border-radius:12px 12px 5px 5px; padding:12px; display:grid; gap:10px; flex:1; position:relative; }
+#chemical-content .sealed::before { content:""; width:48px; height:5px; border-top:2px solid #a4afb8; border-bottom:2px solid #a4afb8; margin:0 auto 2px; }
+#chemical-content .other-cabinets { display:grid; grid-template-rows:1fr 1fr; gap:18px; }
+#chemical-content .compartment { --accent:#667c93; --wash:#eef2f7; --text:#364c64; position:relative; background:var(--wash); border:1px solid var(--accent); border-left:5px solid var(--accent); border-radius:4px; padding:12px 9px; min-height:76px; display:flex; flex-direction:column; justify-content:center; }
+#chemical-content .compartment strong { font-size:.9rem; color:var(--text); }
+#chemical-content .compartment .subtitle { font-size:.75rem; margin-top:4px; color:var(--text); }
+#chemical-content .acid { --accent:#efa31c; --wash:#fff3d7; --text:#775009; }
+#chemical-content .base { --accent:#238fae; --wash:#e4f4fa; --text:#155b73; }
+#chemical-content .inorganic { --accent:#eb6132; --wash:#fff0e9; --text:#a03a15; }
+#chemical-content .metal { --accent:#677b95; --wash:#ecf0f7; --text:#3e526b; }
+#chemical-content .solid { --accent:#26a7a9; --wash:#e3f5f3; --text:#176466; }
+#chemical-content .flammable { --accent:#e3494c; --wash:#fff0f0; --text:#a22a2e; }
+#chemical-content .general-shell,#chemical-content .flammable-shell { background:#e7ebee; border:1px solid #cbd3d9; padding:12px; border-radius:6px; flex:1; display:flex; }
+#chemical-content .general-shell .compartment { width:100%; padding:17px 17px 36px; text-align:center; border-left-width:1px; }
+#chemical-content .general-shell .compartment::before { content:""; position:absolute; top:0; bottom:0; left:50%; border-left:1px solid var(--accent); opacity:.22; }
+#chemical-content .general-shell .compartment::after { content:""; position:absolute; bottom:13px; left:calc(50% - 7px); width:10px; height:19px; border-left:3px solid var(--accent); border-right:3px solid var(--accent); border-radius:2px; }
+#chemical-content .flammable-shell .compartment { width:100%; text-align:center; border-left-width:1px; border-top-width:5px; border-bottom-width:5px; }
+#chemical-content .inactive { --accent:#b9c1c8; --wash:#edf0f2; --text:#69747e; }
+#chemical-content .current { display:inline-block; align-self:flex-start; font-size:.7rem; font-weight:700; line-height:1.5; color:#775009; background:#fff; border:1px solid #d7a33a; border-radius:3px; padding:1px 5px; margin-bottom:5px; }
+#chemical-content .map-caption { font-size:.85rem; color:var(--muted); margin-top:14px; }
+#chemical-content .storage-location { margin:12px 0 0; font-size:.9rem; color:var(--blue); font-weight:700; }
+#chemical-content .waste-flow { margin:22px 0 0; word-break:keep-all; }
+#chemical-content .waste-step { display:grid; grid-template-columns:1fr .8fr 1.4fr; min-height:124px; position:relative; }
+#chemical-content .waste-start { min-height:80px; }
+#chemical-content .waste-box { min-height:52px; padding:8px 6px; border-radius:4px; display:flex; align-items:center; justify-content:center; text-align:center; font-size:.8rem; line-height:1.5; }
+#chemical-content .waste-question { height:52px; background:#e3dace; color:#514638; position:relative; }
+#chemical-content .waste-source { background:#b6a384; color:#fff; }
+#chemical-content .waste-question::after { content:""; position:absolute; top:56px; left:50%; height:64px; border-left:1px solid #526271; }
+#chemical-content .waste-question::before { content:""; position:absolute; top:114px; left:calc(50% - 3px); width:6px; height:6px; border-right:1px solid #526271; border-bottom:1px solid #526271; transform:rotate(45deg); }
+#chemical-content .waste-start .waste-question::after { height:20px; }
+#chemical-content .waste-start .waste-question::before { top:70px; }
+#chemical-content .waste-no { position:absolute; top:58px; left:calc(50% - 22px); font-size:.65rem; color:var(--muted); }
+#chemical-content .waste-branch { padding:0 8px; position:relative; }
+#chemical-content .waste-yes { display:block; height:26px; border-bottom:1px solid #526271; position:relative; color:var(--muted); font-size:.65rem; padding-top:5px; }
+#chemical-content .waste-yes::after,#chemical-content .waste-turn::after { content:""; position:absolute; right:1px; bottom:-3px; width:6px; height:6px; border-top:1px solid #526271; border-right:1px solid #526271; transform:rotate(45deg); }
+#chemical-content .waste-branch-note { color:var(--muted); font-size:.7rem; line-height:1.5; margin-top:5px; overflow-wrap:anywhere; }
+#chemical-content .waste-result .waste-box { background:#24b7ba; color:#073f41; font-weight:700; }
+#chemical-content .waste-result p { color:var(--muted); font-size:.7rem; line-height:1.6; margin-top:7px; }
+#chemical-content .waste-result strong { color:var(--ink); }
+#chemical-content .waste-last-question::after { height:68px; }
+#chemical-content .waste-last-question::before { display:none; }
+#chemical-content .waste-final { min-height:95px; }
+#chemical-content .waste-turn { grid-column:1 / 3; position:relative; height:26px; margin-left:27.7778%; margin-right:8px; border-left:1px solid #526271; border-bottom:1px solid #526271; border-bottom-left-radius:4px; }
+
+@media (max-width:480px) {
+  #chemical-content .cabinet-map { gap:9px; }
+  #chemical-content .sealed, #chemical-content .general-shell, #chemical-content .flammable-shell { padding:8px; }
+  #chemical-content .compartment { padding:10px 7px; }
+  #chemical-content .cabinet-title { font-size:.78rem; }
+  #chemical-content .general-shell .compartment { padding:12px 7px 36px; }
+}

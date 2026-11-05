@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Quantity explicitly stated in source",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["activity_id", "material_name", "quantity", "unit", "basis", "source_ref"],
+  "properties": {
+    "activity_id": {"type": "string", "minLength": 1},
+    "material_name": {"type": "string", "minLength": 1},
+    "quantity": {"type": ["number", "null"], "exclusiveMinimum": 0},
+    "unit": {"type": ["string", "null"]},
+    "basis": {"type": ["string", "null"], "enum": ["student", "group", "class", "activity", null]},
+    "source_ref": {"type": ["string", "null"]}
+  }
+}
