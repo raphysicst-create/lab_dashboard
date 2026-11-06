@@ -23,8 +23,8 @@ b,proj=world();volcanoes=json.loads((DATA/'volcanoes.json').read_text(encoding='
 for f in volcanoes:
  lon,lat=f['geometry']['coordinates'];x,y=proj(lon,lat);b+=path(f'M {x:.2f} {y-2:.2f} l -2.1 4.2 h 4.2 Z',ORANGE,'none',0)
 b+=block(30,455,'삼각형은 최근 약 12,000년 동안 분화한 화산의 위치다. 지금 분화 중이라는 뜻은 아니다.',28,21)
-b+=text(30,554,'화산: GVP / Smithsonian VOTW 5.4.0 (2026)',16,GRAY)+text(30,577,'지형: Natural Earth · 경위도 좌표를 새로 도식화',16,GRAY)
-save('0019',1,'지진과 비교할 홀로세 화산의 분포',b,625,alt='Natural Earth 지형에 GVP가 제공한 홀로세 화산1214곳의 경위도를 삼각형으로 표시했다. 지진자료와 위치분포를 비교하는 세계지도.',footer='GVP: volcano.si.edu · 지형과 화산 기호를 독립적으로 구성')
+b+=text(30,554,'화산: GVP / Smithsonian VOTW 5.4.0 (2026)',16,GRAY)+text(30,577,'지형: Natural Earth',16,GRAY)
+save('0019',1,'지진과 비교할 홀로세 화산의 분포',b,625,alt='홀로세 화산 1,214곳의 위치를 삼각형으로 표시한 세계 지도. 지진 자료와 위치 분포를 비교한다.',footer='GVP: volcano.si.edu')
 b,proj=world();plates=json.loads((DATA/'plates.json').read_text(encoding='utf-8'))['features']
 for f in plates:
  lines=[f['geometry']['coordinates']] if f['geometry']['type']=='LineString' else f['geometry']['coordinates']
@@ -35,7 +35,7 @@ for f in plates:
    if previous and abs(p[0]-previous[0])<290:b+=line(*previous,*p,BLUE,1.8)
    previous=p
 b+=text(30,455,'파랑 선: 주요 판의 경계',23,BLUE)+block(30,496,'화산·지진 자료와 같은 지리 위치에서 비교한다. 미세판의 세부 경계는 생략했다.',29,21)+text(30,586,'경계 좌표: USGS / 지형 좌표: Natural Earth',17,GRAY)
-save('0209',1,'주요 판의 경계를 그린 세계지도',b,635,alt='USGS 주요 판 경계 좌표를 파란선으로 나타내고 Natural Earth 지형을 바탕으로 새로 그린 세계지도. 미세판은 별도 표시하지 않는다.',footer='USGS map_plateboundaries · Natural Earth · 독립 제작 지도')
+save('0209',1,'주요 판의 경계를 그린 세계지도',b,635,alt='주요 판 경계를 파란 선으로 나타낸 세계 지도. 미세판은 표시하지 않는다.',footer='USGS map_plateboundaries · Natural Earth')
 # Continental cut-outs: source geography is independent public-domain coordinate data.
 def selected(cont=None,name=None):
  return [r for f in countries if (f['properties'].get('CONTINENT')==cont if cont else f['properties'].get('NAME_EN')==name) for r in rings(f)]
@@ -63,7 +63,7 @@ for label,rs,origin,center in continents:
    b+=circle(x,y,12,color)+text(x,y+6,sym,17,'white',anchor='middle')
 b+=text(30,1150,'G: 글로소프테리스 / M: 메소사우루스 / 빙: 빙하',21)+block(30,1190,'기호는 해당 대륙에 나타난다는 뜻이다. 실제 분포의 경계선이나 빙하의 면적을 나타내지 않는다.',29,20)
 for id in ['0018','0082','0208']:
- save(id,1,'대륙 윤곽과 지질학적 단서의 비교 조각',b,1310,alt='공개 지리좌표로 새로 그린 남아메리카·아프리카·인도·오스트레일리아·남극. G 화석은 다섯 지역, M 화석은 남아메리카와 아프리카에 나타남을 기호로 표시한다. 파랑 화살표는 빙하가 이동한 방향의 개념 표시다.',footer='Natural Earth · 모든 조각은 같은 반경의 정사영 · 지형 왜곡 있음')
+ save(id,1,'대륙 윤곽과 지질학적 단서의 비교 조각',b,1310,alt='남아메리카·아프리카·인도·오스트레일리아·남극. G 화석은 다섯 지역, M 화석은 남아메리카와 아프리카에 나타남을 기호로 표시한다. 파랑 화살표는 빙하가 이동한 방향의 개념 표시다.',footer='Natural Earth · 모든 조각은 같은 반경의 정사영 · 지형 왜곡 있음')
 # Independent biodiversity learning game with completely new route and events.
 b=''
 for i in range(17):
@@ -71,9 +71,9 @@ for i in range(17):
  label='출발' if i==0 else '도착' if i==16 else '사건' if i%3==0 else '이동'
  b+=rect(x,y,137,73,'#fff0e7' if label=='사건' else '#edf5f8')+text(x+12,y+26,i,18,GRAY)+text(x+69,y+55,label,23,anchor='middle')
 b+=block(30,562,'0부터 16까지 번호 순서로 이동한다. 3·6·9·12·15번에서는 사건 카드를 한 장 읽는다.',29,22)
-save('0359',1,'생물다양성 놀이 · 독립 설계 경로',b,690,alt='0번 출발에서16번 도착으로 이동하는 번호판. 3,6,9,12,15번에 도착하면 사건카드를 뽑는 새 경로.',footer='교육용 게임 모형 · 실제 생태계의 변화를 수치로 예측하지 않음')
-rows=[('오염이 누적됨','식물 카드1장과 동물 카드1장을 반납한다.'),('먹이 자원이 줄어듦','동물 카드1장을 반납한다.'),('식물 서식지 개선','추가 카드에서 식물1장을 가져온다.'),('먹이 연결을 회복함','추가 카드에서 동물1장을 가져온다.'),('생물 카드','감자 · 당근 · 밀 · 벼 · 옥수수 · 콩 · 개구리 · 늑대 · 돌쥐 · 매 · 메뚜기 · 뱀 · 사슴 · 참새 · 토끼')]
-table('0359',2,'사건과 생물 이름으로 만드는 카드',['카드 종류','내용'],rows,alt='오염·먹이감소·서식지개선·먹이연결회복을 나타내는 네 사건카드와 열다섯 생물의 이름. 생물 사진이나 교과서 사건문구를 사용하지 않은 새 카드.',footer='독립 설계 규칙 · 카드 증감은 실제 생태계 변화량이 아닌 놀이 약속')
+save('0359',1,'생물다양성 놀이 경로판',b,690,alt='0번 출발에서 16번 도착으로 이동하는 번호판. 3, 6, 9, 12, 15번에 도착하면 사건 카드를 뽑는다.',footer='교육용 게임 모형 · 실제 생태계의 변화를 수치로 예측하지 않음')
+rows=[('오염이 누적됨','식물 카드1장과 동물 카드1장을 반납한다.'),('먹이 자원이 줄어듦','동물 카드1장을 반납한다.'),('식물 서식지 개선','추가 카드에서 식물1장을 가져온다.'),('먹이 연결을 회복함','추가 카드에서 동물1장을 가져온다.'),('생물 카드','감자 · 당근 · 밀 · 벼 · 옥수수 · 콩 · 개구리 · 늑대 · 들쥐 · 매 · 메뚜기 · 뱀 · 사슴 · 참새 · 토끼')]
+table('0359',2,'사건과 생물 이름으로 만드는 카드',['카드 종류','내용'],rows,alt='오염·먹이 감소·서식지 개선·먹이 연결 회복을 나타내는 네 사건 카드와 열다섯 생물 카드. 사건 카드마다 반납하거나 가져올 생물 카드가 적혀 있다.',footer='카드 증감은 실제 생태계 변화량이 아닌 놀이 약속')
 # Conceptual apparent constellation displacement: synthetic markers, no copied sky photo.
 b=''
 for i,date in enumerate(['8월 1일','8월 16일','8월 31일']):
@@ -81,14 +81,14 @@ for i,date in enumerate(['8월 1일','8월 16일','8월 31일']):
  b+=circle(490,y+147,12,'#e8b64b')+text(520,y+153,'태양',18,GRAY)
  x=215+i*115;yy=y+57+i*34;b+=circle(x,yy,13,BLUE)+text(x-5,yy-19,'사자자리',21,BLUE,anchor='middle')
 b+=block(30,685,'세 표시를 투명 종이에 옮겨 시간 순서대로 겹친다. 점은 별자리의 상대 위치를 나타낸다.',30,22)
-save('0381',1,'해 진 직후의 서쪽 하늘 · 위치 변화 모형',b,790,alt='8월1일·16일·31일 순으로 사자자리 표식이 태양이 있는 방향과 서쪽 지평선에 가까워지는 개념 모형. 실제 별 배열이나 정량 고도·방위각은 나타내지 않는다.',footer='방향 변화의 학습 모형 · 실제 관측 사진·각도 자료가 아님')
+save('0381',1,'해 진 직후의 서쪽 하늘 · 위치 변화 모형',b,790,alt='8월 1일·16일·31일 해 진 직후 서쪽 하늘에서 서쪽 지평선과 사자자리 표식의 위치를 차례로 보여 주는 세 패널.',footer='방향 변화의 학습 모형 · 실제 관측 사진·각도 자료가 아님')
 # Zodiac names at equal conceptual spacing; astronomy names are facts, no drawn constellation art.
 zodiac=[('처녀자리',0),('사자자리',30),('게자리',60),('쌍둥이자리',90),('황소자리',120),('양자리',150),('물고기자리',180),('물병자리',210),('염소자리',240),('궁수자리',270),('전갈자리',300),('천칭자리',330)]
 b=''
 for i,(name,deg) in enumerate(sorted(zodiac,key=lambda x:x[1])):
  row,col=divmod(i,2);x=30+col*300;y=84+row*79;b+=rect(x,y,280,64,'#edf4f9')+text(x+140,y+40,name,25,anchor='middle')
 b+=block(30,606,'이름 카드를 오려 바탕 판의 같은 이름 자리에 세운다. 글씨는 관측자가 있는 안쪽으로 향하게 한다.',30,22)
-save('0382',1,'별자리 이름 카드',b,720,alt='황도를 따라 만나는 열두 별자리의 이름만 표시한 독립 카드. 별의 위치를 따라 그린 그림이 아니다.',footer='카드의 배치 순서는 바탕 판에 따름')
+save('0382',1,'별자리 이름 카드',b,720,alt='황도를 따라 만나는 열두 별자리의 이름을 적은 카드.',footer='카드의 배치 순서는 바탕 판에 따름')
 def zodiac_model(id,title):
  b=circle(320,365,238,'none','#b7c7d8')+circle(320,365,117,'none',GRAY)+circle(320,365,36,'#efd278')+text(320,374,'태양',23,anchor='middle')
  for name,deg in zodiac:
@@ -99,7 +99,7 @@ def zodiac_model(id,title):
  for name,deg in [('3월',0),('6월',270),('9월',180),('12월',90)]:
   a=math.radians(deg);x=320+117*math.cos(a);y=365+117*math.sin(a);b+=circle(x,y,16,TEAL)+text(x,y+41,name,22,TEAL,anchor='middle')
  b+=block(30,675,'관측자에서 태양을 향한 방향과 그 반대 방향을 각각 비교한다. 카드 이름이 안쪽을 향하게 세운다.',31,21)
- save(id,2 if id=='0382' else 1,title,b,785,alt='가운데태양, 오른쪽3월·위6월·왼쪽9월·아래12월관측점. 바깥별자리에서 물고기는왼쪽,쌍둥이는아래,처녀는오른쪽,궁수는위에있다. 실제별자리폭과달리등간격인위치관계모형.',footer='별자리 폭·공전 궤도의 축척을 단순화한 독립 학습 모형')
+ save(id,2 if id=='0382' else 1,title,b,785,alt='가운데에 태양이 있고 오른쪽에 3월, 위에 6월, 왼쪽에 9월, 아래에 12월 관측점이 있다. 바깥 별자리 중 물고기자리는 왼쪽, 쌍둥이자리는 아래, 처녀자리는 오른쪽, 궁수자리는 위에 있다. 실제 별자리 폭과 달리 같은 간격으로 놓은 위치 관계 모형이다.',footer='별자리 폭·공전 궤도의 축척을 단순화한 학습 모형')
 zodiac_model('0382','태양과 관측자 · 이름 카드 배치')
 zodiac_model('0416','계절에 따라 달라지는 관측 방향')
 
