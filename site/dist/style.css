@@ -153,3 +153,30 @@ dt { color:var(--muted); } dd { margin:0; white-space:pre-wrap; overflow-wrap:an
   #chemical-content .cabinet-title { font-size:.78rem; }
   #chemical-content .general-shell .compartment { padding:12px 7px 36px; }
 }
+
+/* MSDS sources in the chemical detail (site/dist/msds-ui.js). */
+.msds-section { overflow-wrap:anywhere; }
+.msds-section h4 { font-size:.95rem; margin:16px 0 6px; }
+.msds-section a { color:var(--blue); text-underline-offset:3px; }
+.msds-section .help { margin:8px 0; }
+.msds-lead { background:var(--tint); border-left:3px solid var(--blue); padding:10px 14px; }
+.msds-links, .msds-suppliers { list-style:none; padding:0; margin:0; }
+.msds-links li { padding:6px 0; border-bottom:1px solid #e3e8ec; }
+.msds-links a { font-weight:700; }
+.msds-product { display:block; color:var(--muted); font-size:.85rem; }
+.msds-tag { display:inline-block; font-size:.75rem; line-height:1.5; color:#775009; background:#fff4cf; border:1px solid #d7a33a; border-radius:3px; padding:0 5px; }
+.msds-reference { margin-top:8px; }
+.msds-supplier { border:1px solid var(--border); border-radius:var(--radius); padding:12px 14px; margin-top:10px; }
+.msds-supplier-name strong { color:var(--ink); }
+.msds-role { color:var(--muted); font-size:.85rem; }
+.msds-line { margin-top:4px; font-size:.95rem; }
+.msds-open { margin-top:6px; font-size:.95rem; }
+.msds-supplier details { margin-top:8px; }
+.msds-supplier summary { cursor:pointer; color:var(--blue); font-size:.9rem; min-height:32px; padding:4px 0; }
+.msds-place { margin-top:10px; }
+.msds-place-head { display:flex; flex-wrap:wrap; gap:4px 10px; align-items:baseline; font-weight:700; }
+.msds-meta { color:var(--muted); font-size:.85rem; font-weight:400; }
+.msds-steps { margin:6px 0 0; padding-inline-start:1.6em; font-size:.92rem; }
+.msds-steps li + li { margin-top:4px; }
+.msds-cautions { margin:10px 0 0; padding-inline-start:1.3em; color:var(--muted); font-size:.88rem; }
+.msds-cautions li + li { margin-top:4px; }

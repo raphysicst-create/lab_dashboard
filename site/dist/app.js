@@ -42,7 +42,7 @@ function loadChemicalUI() {
   // Retry both modules with a new URL, including a failed diagram dependency.
   const modules = Promise.all([
     fetchData('chemicals', { signal: controller.signal, cache: attempt > 1 ? 'reload' : 'default' }),
-    import(`./chemical-ui.js?v=optional-20260923&attempt=${attempt}`),
+    import(`./chemical-ui.js?v=msds-20261119&attempt=${attempt}`),
     import(`./chemical-diagrams.js?v=optional-20260923&attempt=${attempt}`),
   ]);
   const deadline = new Promise((_, reject) => {

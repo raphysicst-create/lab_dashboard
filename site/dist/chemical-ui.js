@@ -1,4 +1,5 @@
 import { normalizeSearch } from './core.js?v=publishers-20260923';
+import { msdsSection } from './msds-ui.js?v=msds-20261119';
 
 function node(tag, text, className) {
   const result = document.createElement(tag);
@@ -39,6 +40,7 @@ export function createChemicalUI({ chemicals, diagrams }) {
   const back = document.getElementById('chemical-back');
   const catalog = [...chemicals].sort((a, b) => a.name.localeCompare(b.name, 'ko'));
   const byId = new Map(chemicals.map(chemical => [chemical.id, chemical]));
+  const chemicalNames = new Map(chemicals.map(chemical => [chemical.id, chemical.name]));
   let catalogQuery = '';
 
   function matches(query) {
@@ -119,6 +121,7 @@ export function createChemicalUI({ chemicals, diagrams }) {
       ? '해당 약품의 보관 분류만 색으로 표시합니다.'
       : '보관장 분류가 미확인되어 모든 칸을 회색으로 표시합니다.', 'map-caption'));
     content.replaceChildren(intro,
+      msdsSection(chemical.id, { openChemical: showChemical, names: chemicalNames }),
       storage,
       factSection('분류', chemical.classifications, item => [item.group, item.label].filter(Boolean).join(' · ')),
       factSection('보관·관리 방법', chemical.storage, item => `${item.property}\n${item.instruction}`),
